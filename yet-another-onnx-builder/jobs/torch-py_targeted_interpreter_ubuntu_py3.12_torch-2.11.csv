@@ -1,0 +1,3 @@
+job_id,run_id,workflow,job_name,status,conclusion,started_at,completed_at,duration_seconds,head_sha
+78031250011,26495693052,ci-4-torch,"torch-py targeted (interpreter, ubuntu, py3.12, torch-2.11)",completed,success,2026-05-27T08:07:31Z,2026-05-27T08:11:38Z,247,8ac489fc558723599d6ac3e291122367f21f8fd3
+78030563614,26495438328,ci-4-torch,"torch-py targeted (interpreter, ubuntu, py3.12, torch-2.11)",completed,success,2026-05-27T07:47:42Z,2026-05-27T07:52:02Z,260,871889654a8ab40ab1f804ed2734489dbc5995fe

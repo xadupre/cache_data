@@ -1,0 +1,5 @@
+job_id,run_id,workflow,job_name,status,conclusion,started_at,completed_at,duration_seconds,head_sha
+83007016319,28040660717,ci-11-onnx-light,"onnx-light (ubuntu-latest, py3.12)",completed,failure,2026-06-23T16:36:06Z,2026-06-23T16:37:03Z,57,a51360ff6edea39626063e94e522a9d331fc212b
+83004369873,28035621119,ci-11-onnx-light,"onnx-light (ubuntu-latest, py3.12)",completed,failure,2026-06-23T16:19:46Z,2026-06-23T16:20:35Z,49,cfaa6a53bbc90784c27a0bfaed3c43ccb51faa42
+82976630430,28032411907,ci-11-onnx-light,"onnx-light (ubuntu-latest, py3.12)",completed,failure,2026-06-23T14:24:02Z,2026-06-23T14:24:44Z,42,a68d081f12560ab2ae307cb94c1cb0323b975ba5
+82968444620,28028819720,ci-11-onnx-light,"onnx-light (ubuntu-latest, py3.12)",completed,success,2026-06-23T13:35:21Z,2026-06-23T13:35:56Z,35,8d7d7dd6a854c5b64605cebbd8d231be469dd4d5

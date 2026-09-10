@@ -1,0 +1,2 @@
+job_id,run_id,workflow,job_name,status,conclusion,started_at,completed_at,duration_seconds,head_sha
+80527585918,27267318392,Pixi CI,"Install and test (windows-2025, oldies)",completed,failure,2026-06-10T09:37:30Z,2026-06-10T09:38:25Z,55,b8c1b6fe42fb2829e9542a3b0d7827cbae46b50b

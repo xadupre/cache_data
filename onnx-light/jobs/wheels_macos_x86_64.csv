@@ -1,0 +1,4 @@
+job_id,run_id,workflow,job_name,status,conclusion,started_at,completed_at,duration_seconds,head_sha
+80989213281,27399538193,Build Release Wheels,"wheels (macos, x86_64)",completed,cancelled,2026-06-12T08:28:33Z,2026-06-12T10:56:50Z,8897,1b6d70243bcc250ed3567230f5e61a1e1497bd88
+81256747160,27488914330,Build Release Wheels,"wheels (macos, x86_64)",completed,cancelled,2026-06-14T06:57:29Z,2026-06-14T13:08:00Z,22231,582e9de5d983c8c577abc4bff9f1b4992aeef741
+81304694911,27506197009,Build Release Wheels,"wheels (macos, x86_64)",completed,cancelled,2026-06-14T18:54:20Z,2026-06-15T05:36:19Z,38519,2a4dc0801d8f072f7976e1ba1504b6a74864f1bb

@@ -1,0 +1,6 @@
+job_id,run_id,workflow,job_name,status,conclusion,started_at,completed_at,duration_seconds,head_sha
+79712972599,27010603491,Pixi CI,Shared library build (windows-latest),completed,success,2026-06-05T10:50:23Z,2026-06-05T10:54:12Z,229,b20cfea505b61512cbae0aba40c1b5e12ba8c463
+79711014624,27010010341,Pixi CI,Shared library build (windows-latest),completed,success,2026-06-05T10:36:20Z,2026-06-05T10:40:20Z,240,74fac9974ef591cbf9c4e0bb80d0af0b06330e95
+79698463493,27006240839,Pixi CI,Shared library build (windows-latest),completed,success,2026-06-05T09:11:56Z,2026-06-05T09:15:36Z,220,17cfefe073714b517700eb733779fc1de7a2caeb
+79698284326,27006205447,Pixi CI,Shared library build (windows-latest),completed,cancelled,2026-06-05T09:10:44Z,2026-06-05T09:11:40Z,56,7099b8cb575fbf6f0ef85f0aea0445ade7926e97
+79696892788,27005788411,Pixi CI,Shared library build (windows-latest),completed,success,2026-06-05T09:01:33Z,2026-06-05T09:05:17Z,224,33406e12e52f32c42c789931ce22accde8fd4899

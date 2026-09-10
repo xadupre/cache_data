@@ -1,0 +1,6 @@
+job_id,run_id,workflow,job_name,status,conclusion,started_at,completed_at,duration_seconds,head_sha
+75534032863,25724605295,Create Releases,call-linux / build (cp313t-manylinux_aarch64),completed,success,2026-05-12T09:04:53Z,2026-05-12T09:11:51Z,418,92b94eaa650aadfa2593da1f5e8c9b14f73ac1e9
+75378561540,25677245057,Create Releases,call-linux / build (cp313t-manylinux_aarch64),completed,success,2026-05-11T14:44:13Z,2026-05-11T14:51:33Z,440,ff0ea58a4933d40734e653045fc81eb2224dc557
+75374529011,25676133611,Create Releases,call-linux / build (cp313t-manylinux_aarch64),completed,success,2026-05-11T14:24:53Z,2026-05-11T14:32:04Z,431,b9a4f549e9a212beb04754981b4c997f9d20a7ef
+75372825218,25675706076,Create Releases,call-linux / build (cp313t-manylinux_aarch64),completed,cancelled,2026-05-11T14:15:57Z,2026-05-11T14:15:58Z,1,e92c5ee552a2cf880ec84ab6ada2691c3cbd8039
+75372176371,25674481644,Create Releases,call-linux / build (cp313t-manylinux_aarch64),completed,cancelled,2026-05-11T14:12:31Z,2026-05-11T14:12:31Z,0,0bf8591cfcb1aa4e664f4fdd835e57c8c5576771

@@ -1,0 +1,57 @@
+pr_number,title,author,merged_at,commits,comments,copilot_comments,copilot_commits
+99,Add Python reference kernels for all fused-kernel CUDA custom ops,Copilot,2026-05-07T15:40:29Z,9,11,5,9
+98,"Add CPU MulMul operator with AVX2 SIMD, std::thread parallelism, and documentation catalogue",Copilot,2026-05-07T14:30:31Z,3,3,1,3
+95,fix atol,xadupre,2026-05-07T13:08:02Z,2,1,0,0
+92,Add CI job durations page to documentation,Copilot,2026-05-07T13:07:40Z,6,9,4,6
+94,Add explicit job timeouts across CI workflows,Copilot,2026-05-07T12:47:26Z,2,1,0,2
+90,Add dynamically generated custom ops catalogue pages (sparse CPU and fused kernel CUDA),Copilot,2026-05-07T12:44:18Z,10,13,6,10
+86,Expose cmake parameters via setuptools build commands,Copilot,2026-05-07T09:26:21Z,2,1,0,2
+84,Fail tests when CUDAExecutionProvider silently falls back to CPU,Copilot,2026-05-07T09:04:26Z,2,1,0,2
+78,Add unit tests running standard ONNX ops mixed with ORT built-in contrib ops in CUDA,Copilot,2026-05-06T15:31:52Z,5,7,3,5
+80,docs: add missing GitHub repo link to main documentation page,Copilot,2026-05-06T15:19:43Z,2,1,0,2
+76,Add unittests for executing an ONNX FunctionProto with ExtendedReferenceEvaluator,Copilot,2026-05-06T13:03:22Z,2,1,0,2
+73,Improve README.md and docs/index.rst,Copilot,2026-05-06T12:47:18Z,7,13,6,7
+74,Include C++ API documentation in Sphinx via Doxygen + Breathe,Copilot,2026-05-06T12:08:47Z,2,1,0,2
+69,"Add `get_ort_ext_libs(ep, subfolder=None, domain=None)` to `yaourt.ortops`",Copilot,2026-05-06T11:56:37Z,5,5,2,5
+67,improve getting_started: document setup.py build_ext --inplace and local ORT build,Copilot,2026-05-06T11:38:16Z,3,3,1,3
+65,refactoring,xadupre,2026-05-06T10:20:15Z,9,11,5,3
+62,Fix build warnings from pytest-runner (ptr) triggered by setuptools >= 77,Copilot,2026-05-06T09:44:46Z,2,1,0,2
+64,make static link with libcommon,Copilot,2026-05-06T09:20:47Z,2,1,0,2
+60,docs: add Doxygen documentation to all fused_kernel CUDA header files,Copilot,2026-05-06T08:50:50Z,2,3,1,2
+58,Use SPDX expression string for project.license (setuptools>=77.0.0),Copilot,2026-05-06T08:44:08Z,2,1,0,2
+57,Add cibuildwheel workflow to build publishable wheels on CI,Copilot,2026-05-05T13:24:58Z,6,9,4,6
+56,remove,xadupre,2026-05-05T09:51:59Z,2,3,1,1
+55,fix: undefined symbol for CTypeToOnnxType<half> and build resilience without CUDA,Copilot,2026-05-04T16:02:30Z,2,1,0,2
+52,rename,xadupre,2026-04-28T14:31:20Z,5,1,0,0
+51,setup.py: fail hard when cmake fails,Copilot,2026-04-28T14:13:28Z,2,1,0,2
+49,support `build_ext --inplace` in setup.py,Copilot,2026-04-28T13:42:44Z,3,1,0,3
+47,Rename `ortops/optim` to `ortops/fused_kernel` (CUDA) and `ortops/sparse` (CPU),Copilot,2026-04-28T13:27:34Z,3,3,1,3
+42,Consolidate C++ sources under yaourt/; integrate cmake into pip install,Copilot,2026-04-27T06:26:41Z,5,7,3,5
+40,Add getting_started documentation page,Copilot,2026-04-26T21:42:15Z,2,1,0,2
+37,Implement CUDA custom ops for OnnxRuntime (API v2),Copilot,2026-04-26T19:58:35Z,7,9,4,7
+36,Add missing sphinx_runpython extension to docs config,Copilot,2026-04-26T12:08:49Z,2,1,0,2
+29,Add auto-generated documentation page for CPU custom ops,Copilot,2026-04-26T06:32:42Z,8,14,6,8
+31,Add profiling gallery example and unit tests for plot_ort_profile / plot_ort_profile_timeline,Copilot,2026-04-26T06:28:33Z,5,7,3,5
+33,Add ExtendedReferenceEvaluator to yaourt.reference,Copilot,2026-04-26T05:57:15Z,4,5,2,4
+27,Add missing ci_coverage badge to README,Copilot,2026-04-25T21:43:57Z,2,1,0,2
+25,Rename ortops/optim/cpu* → ortops/sparse/cpu_v1 and ortops/sparse/cpu,Copilot,2026-04-25T21:36:54Z,2,1,0,2
+21,Add DenseToSparse/SparseToDense custom ops using the onnxruntime lite (second) custom op API,Copilot,2026-04-25T16:26:06Z,2,1,0,2
+13,"feat: port js_profile from onnx-extended, add unit tests and sphinx-gallery example",Copilot,2026-04-25T16:25:46Z,10,13,6,10
+15,"Add C++ unit tests for MakeString, SplitString, EXT_THROW, and EXT_ENFORCE with CI coverage reporting",Copilot,2026-04-25T10:18:20Z,4,3,1,4
+19,Add unit tests that run documentation examples,Copilot,2026-04-25T10:18:03Z,3,1,0,3
+17,Add status badges to README and docs matching yet-another-onnx-builder,Copilot,2026-04-25T10:17:28Z,3,3,1,3
+9,Add hhistograms to yaourt/plot and extend API docs,Copilot,2026-04-25T10:17:14Z,8,15,7,8
+11,Add C++ code coverage reporting via lcov and Codecov,Copilot,2026-04-25T09:53:43Z,3,3,1,3
+7,Implement DenseToSparse/SparseToDense custom ORT ops with cmake build,Copilot,2026-04-25T07:22:34Z,7,14,7,7
+4,[WIP] Add a logo,Copilot,2026-04-24T15:01:44Z,3,2,1,3
+2,Setup repo infrastructure to match yet-another-onnx-builder,Copilot,2026-04-24T11:59:33Z,4,2,1,4
+110,Add AVX512 fast path for AddAdd CPU kernel and expose AVX512 check in Python,Copilot,2026-06-24T12:55:14Z,4,3,1,4
+112,Expose CPU feature detection helpers in `yaourt.ortops`,Copilot,2026-06-24T12:09:27Z,2,1,0,2
+108,Add AddAdd CPU support for float16 and bfloat16 with runtime-safe AVX/parallel dispatch,Copilot,2026-06-24T11:20:57Z,5,7,3,5
+101,Add bfloat16 support and optimized native bf16 paths across CUDA fused custom ops,Copilot,2026-06-24T05:59:44Z,14,8,3,14
+106,Factorize make_inference_session and add bfloat16 support via io_binding,Copilot,2026-06-23T19:10:24Z,3,3,1,3
+104,Add `--cpp-tests` flag to opt into building C++ unit tests,Copilot,2026-06-23T18:06:43Z,2,1,0,2
+82,fix: eliminate nvlink warnings for incompatible host-only libraries,Copilot,2026-06-23T16:43:08Z,3,1,0,2
+102,update link,xadupre,2026-06-23T16:42:54Z,1,1,0,0
+114,next steps,xadupre,2026-08-14T07:42:53Z,1,1,0,0
+113,release trigger,xadupre,2026-08-14T06:41:40Z,3,3,1,1

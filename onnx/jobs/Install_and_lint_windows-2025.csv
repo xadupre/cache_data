@@ -1,0 +1,2 @@
+job_id,run_id,workflow,job_name,status,conclusion,started_at,completed_at,duration_seconds,head_sha
+80527585792,27267318392,Pixi CI,Install and lint (windows-2025),completed,failure,2026-06-10T09:37:31Z,2026-06-10T09:38:41Z,70,b8c1b6fe42fb2829e9542a3b0d7827cbae46b50b

@@ -1,0 +1,4 @@
+job_id,run_id,workflow,job_name,status,conclusion,started_at,completed_at,duration_seconds,head_sha
+83694217898,28248659386,INT ir-py,"ir-py (ubuntu-latest, py3.13)",completed,failure,2026-06-26T15:41:38Z,2026-06-26T15:53:19Z,701,2978cdc7149839e738b01d8c8c5bd407ba26d631
+83679179320,28244335091,INT ir-py,"ir-py (ubuntu-latest, py3.13)",completed,failure,2026-06-26T14:25:47Z,2026-06-26T14:37:43Z,716,d3c8ab4feb81aba1e410dc28e4bf26238c126276
+83646273394,28234598503,INT ir-py,"ir-py (ubuntu-latest, py3.13)",completed,failure,2026-06-26T11:16:05Z,2026-06-26T11:27:32Z,687,6cc382d60ed78a1a9f97d1a02381370b414e8ea1

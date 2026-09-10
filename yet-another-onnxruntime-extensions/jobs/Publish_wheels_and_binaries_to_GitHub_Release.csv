@@ -1,0 +1,7 @@
+job_id,run_id,workflow,job_name,status,conclusion,started_at,completed_at,duration_seconds,head_sha
+94708005952,31781001270,Build wheels,Publish wheels and binaries to GitHub Release,completed,skipped,2026-08-14T07:50:14Z,2026-08-14T07:50:13Z,-1,58f36aeb9eee10e0099e1ae2a7fc300f972fc87a
+94706491005,31780676920,Build wheels,Publish wheels and binaries to GitHub Release,completed,skipped,2026-08-14T07:42:37Z,2026-08-14T07:42:36Z,-1,841650d93eae2895cf175fbf43ca49c5e7cc49fe
+94696128276,31777184858,Build wheels,Publish wheels and binaries to GitHub Release,completed,skipped,2026-08-14T06:48:09Z,2026-08-14T06:48:09Z,0,3f86d9a8266f95f1ca08578f0aa0c0309aef26de
+94694870217,31776671335,Build wheels,Publish wheels and binaries to GitHub Release,completed,skipped,2026-08-14T06:41:05Z,2026-08-14T06:41:05Z,0,3c805f773894774aea55ce00ed603215f6c81666
+94692038236,31775841974,Build wheels,Publish wheels and binaries to GitHub Release,completed,skipped,2026-08-14T06:25:04Z,2026-08-14T06:25:03Z,-1,e8236b442c3e82bd71861e692c3eb523cf75f36e
+94691006039,31775440200,Build wheels,Publish wheels and binaries to GitHub Release,completed,cancelled,2026-08-14T06:18:43Z,2026-08-14T06:18:43Z,0,4437340bedb475e4e689a77548802f01f99efb1e

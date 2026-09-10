@@ -1,0 +1,3 @@
+job_id,run_id,workflow,job_name,status,conclusion,started_at,completed_at,duration_seconds,head_sha
+78030044276,26495693050,ci-9-transformers,"tr-releases targeted (interpreter, torch-2.11, transformers-5.5/5.9.0)",completed,success,2026-05-27T08:02:36Z,2026-05-27T08:09:18Z,402,8ac489fc558723599d6ac3e291122367f21f8fd3
+78030788696,26495438330,ci-9-transformers,"tr-releases targeted (interpreter, torch-2.11, transformers-5.5/5.9.0)",completed,success,2026-05-27T08:00:12Z,2026-05-27T08:07:04Z,412,871889654a8ab40ab1f804ed2734489dbc5995fe

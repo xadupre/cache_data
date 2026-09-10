@@ -1,0 +1,6 @@
+job_id,run_id,workflow,job_name,status,conclusion,started_at,completed_at,duration_seconds,head_sha
+75328020737,25662951996,Create Releases,call-mac / build (3.14),completed,success,2026-05-11T09:50:34Z,2026-05-11T10:00:21Z,587,0471bc2fed9c7e569749f300c2ce623126479076
+75279992887,25647839511,Create Releases,call-mac / build (3.14),completed,success,2026-05-11T02:54:37Z,2026-05-11T03:01:58Z,441,ed2d9028f43ac61c075b5a59e4689bfa34ae0ef7
+75271117197,25644645131,Create Releases,call-mac / build (3.14),completed,success,2026-05-11T00:52:04Z,2026-05-11T01:00:10Z,486,cd9707d59e4b3b178803c419f6c73a6baeb50197
+75230862223,25629629340,Create Releases,call-mac / build (3.14),completed,success,2026-05-10T13:12:01Z,2026-05-10T13:22:23Z,622,cd9707d59e4b3b178803c419f6c73a6baeb50197
+75226257038,25627926523,Create Releases,call-mac / build (3.14),completed,success,2026-05-10T11:48:05Z,2026-05-10T11:58:27Z,622,887218deaf3f90f4f0c467774884dd480ba39d68

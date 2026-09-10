@@ -1,0 +1,2 @@
+job_id,run_id,workflow,job_name,status,conclusion,started_at,completed_at,duration_seconds,head_sha
+81127828980,27443478690,CodeQL Setup,Adjust Configuration,completed,skipped,2026-06-12T21:48:38Z,2026-06-12T21:48:38Z,0,e43cd1fe6b7ebd781724596cf959b14df9c528ed

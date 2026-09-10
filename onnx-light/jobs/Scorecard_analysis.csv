@@ -1,0 +1,2 @@
+job_id,run_id,workflow,job_name,status,conclusion,started_at,completed_at,duration_seconds,head_sha
+82003865580,27720337277,acq - OpenSSF Scorecard,Scorecard analysis,completed,success,2026-06-17T21:16:53Z,2026-06-17T21:17:43Z,50,f91fbb1d260fede0c2044bc33c6152897adcbe1e

@@ -1,0 +1,31 @@
+pr_number,title,author,merged_at,commits,comments,copilot_comments,copilot_commits
+60,Add coverage badge to documentation homepage,Copilot,2026-07-31T06:57:17Z,2,1,0,2
+58,Add unit tests for documentation gallery examples,Copilot,2026-07-30T21:47:41Z,6,11,5,6
+52,Route ImageDecoder kernel result allocation through the runtime allocator,Copilot,2026-07-30T10:58:39Z,3,1,0,3
+50,Fix hardening CI failure: install libomp-dev for the clang job,Copilot,2026-07-30T10:14:03Z,2,0,0,2
+48,Add a logo to the documentation,Copilot,2026-07-30T10:03:30Z,3,2,1,3
+46,Add codecov.yml with flag carryforward so C++ and Python coverage combine,Copilot,2026-07-30T09:47:40Z,2,0,0,2
+44,Add tag-triggered C++ and Python release build workflows,Copilot,2026-07-30T09:47:24Z,2,0,0,2
+40,Add CI job to verify the documentation builds,Copilot,2026-07-30T07:51:36Z,3,2,1,3
+43,Regenerate pixi.lock so the docs environment includes sphinx-gallery,Copilot,2026-07-30T07:30:54Z,2,0,0,2
+41,rename,xadupre,2026-07-30T06:53:23Z,2,2,1,1
+36,Add libFuzzer fuzz support for the image kernels,Copilot,2026-07-30T05:51:11Z,4,4,2,4
+32,Add gallery example round-tripping every image format through PIL and ONNX ImageDecoder,Copilot,2026-07-30T05:38:57Z,5,2,1,5
+38,Add WebP decode test coverage to ImageDecoder,Copilot,2026-07-30T05:38:41Z,2,0,0,2
+37,Add OpenSSF compiler hardening support (ONNX_HARDENING),Copilot,2026-07-30T05:13:30Z,2,0,0,2
+35,Add OpenSSF Scorecard workflow,Copilot,2026-07-30T05:13:10Z,2,0,0,2
+29,Expose decode_image binding and add Python tests for all image formats,Copilot,2026-07-30T04:51:21Z,3,2,1,3
+30,"Clarify requirements for ""asban/usban"" support before implementation",Copilot,2026-07-30T04:40:59Z,2,2,1,2
+34,Fix pixi-weekly failure by committing pixi.lock,Copilot,2026-07-30T04:40:00Z,3,0,0,3
+14,Add macOS coverage to ci-core,Copilot,2026-07-29T21:59:28Z,4,4,2,4
+28,Add weekly C++ code coverage workflow,Copilot,2026-07-29T21:57:29Z,2,0,0,2
+26,Add Python code coverage collection and Codecov upload in CI,Copilot,2026-07-29T21:55:19Z,2,0,0,2
+24,clean,xadupre,2026-07-29T21:53:37Z,2,2,1,1
+23,"Add CI, coverage, and style badges to README and docs",Copilot,2026-07-29T21:47:14Z,2,0,0,2
+21,Add first-class Pixi workflow tasks and docs for local development,Copilot,2026-07-29T21:44:20Z,3,2,1,3
+11,"Support compressed TIFF (PackBits, LZW, Deflate) in ImageDecoder",Copilot,2026-07-29T21:41:54Z,4,2,1,4
+8,Add support for JPEG2000 to the ImageDecoder kernel,Copilot,2026-07-29T18:31:42Z,4,2,1,4
+4,Add auto-generated documentation page listing available kernels,Copilot,2026-07-29T17:53:02Z,3,2,1,3
+6,Add TIFF decode coverage to ImageDecoder tests,Copilot,2026-07-29T17:43:18Z,2,0,0,2
+2,Set up CI similar to onnx-light,Copilot,2026-07-29T17:22:54Z,4,1,0,4
+63,Support latest onnx-light backend test APIs,xadupre,2026-08-30T17:39:35Z,4,3,1,1

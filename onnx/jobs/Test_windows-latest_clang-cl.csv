@@ -1,0 +1,4 @@
+job_id,run_id,workflow,job_name,status,conclusion,started_at,completed_at,duration_seconds,head_sha
+93093843300,31253709373,CI,Test windows-latest (clang-cl),completed,failure,2026-08-08T10:51:52Z,2026-08-08T10:58:58Z,426,a53bbc07b9d8eea454c9b6de6233f7e81ed9cc4d
+93090470964,31252308141,CI,Test windows-latest (clang-cl),completed,failure,2026-08-08T10:13:47Z,2026-08-08T10:20:42Z,415,274257f4895a900332cdfc95da3b1f7774ff4f90
+93090276478,31252245421,CI,Test windows-latest (clang-cl),completed,cancelled,2026-08-08T10:11:40Z,2026-08-08T10:13:28Z,108,969e80e02663e27829218a0b4ee7e3b9d32a1e96

@@ -1,0 +1,383 @@
+pr_number,title,author,merged_at,commits,comments,copilot_comments,copilot_commits
+159,Add ARM FP32 and FP64 GEMM kernels,xadupre,2026-08-14T15:22:54Z,2,1,0,0
+158,Complete the CPU thread runtime,xadupre,2026-08-14T14:33:50Z,2,1,0,0
+157,Tune x86 GEMM microkernels,xadupre,2026-08-14T14:02:02Z,3,1,0,0
+156,Add typed GEMM epilogues,xadupre,2026-08-14T13:13:11Z,2,1,0,0
+155,Implement task-aware GEMM scheduling,xadupre,2026-08-14T11:57:33Z,5,3,1,1
+154,Extend gemm benchmark grid to 4096 and built-in curve to 512,Copilot,2026-08-14T10:10:15Z,2,1,0,2
+151,Add a macOS build,Copilot,2026-08-14T09:48:15Z,3,1,0,3
+152,Add unary and binary operator roadmaps,xadupre,2026-08-14T09:45:32Z,1,1,0,0
+149,Specialize GEMM unit-scale epilogues,xadupre,2026-08-14T09:34:35Z,8,1,0,0
+148,Update development toolchain versions,xadupre,2026-08-14T08:47:34Z,1,1,0,0
+147,Select GEMM MR by SIMD ISA,xadupre,2026-08-14T08:47:21Z,3,3,1,1
+146,Generate AVX-512 GEMM MR variants,xadupre,2026-08-14T08:17:16Z,2,1,0,0
+144,better plots,xadupre,2026-08-14T08:15:38Z,5,7,3,4
+145,Generate AVX2 FMA GEMM MR variants,xadupre,2026-08-14T07:24:30Z,2,1,0,0
+143,Unroll AVX2 FMA GEMM K loops,xadupre,2026-08-14T07:04:43Z,2,1,0,0
+142,Unroll AVX-512 GEMM K loops,xadupre,2026-08-14T06:45:01Z,2,1,0,0
+141,Add dedicated AVX2 FMA GEMM kernels,xadupre,2026-08-14T06:19:49Z,2,1,0,0
+140,gemm next,xadupre,2026-08-14T05:42:29Z,4,5,2,2
+139,gemm cache,xadupre,2026-08-13T20:07:05Z,2,3,1,1
+138,better gemm,xadupre,2026-08-13T19:21:19Z,2,3,1,1
+137,plan,xadupre,2026-08-13T14:08:21Z,6,3,1,3
+136,gemm 3,xadupre,2026-08-13T13:22:05Z,2,3,1,1
+135,gemm 2,xadupre,2026-08-13T11:40:34Z,2,1,0,0
+134,improve gemm,xadupre,2026-08-13T10:39:17Z,1,1,0,0
+133,add avx support,xadupre,2026-08-13T09:28:03Z,1,1,0,0
+131,Split the docs gallery into benchmarks and examples,Copilot,2026-08-13T09:20:20Z,5,5,2,5
+127,Assert short-input SIMD Abs benchmark gain,Copilot,2026-08-13T08:43:05Z,6,7,3,5
+132,fix benchmark,xadupre,2026-08-13T08:16:33Z,2,1,0,0
+129,Remove third Abs benchmark plot and second Gemm benchmark plot,Copilot,2026-08-13T07:47:03Z,2,1,0,2
+125,refactor backend,xadupre,2026-08-12T13:30:32Z,1,1,0,0
+124,Enable verbose build output for onnx-light and onnx-light-cpu in docs.yml,Copilot,2026-08-12T13:04:40Z,3,3,1,3
+119,Verify onnx-light-cpu Gemm kernel is actually dispatched in gemm benchmarks,Copilot,2026-08-12T13:00:51Z,7,7,3,7
+117,Add evaluator backend tests covering every implemented dtype for Abs/Exp/Log/Gemm,Copilot,2026-08-12T10:09:33Z,15,21,10,15
+122,improve kernel abs,xadupre,2026-08-12T08:54:36Z,1,1,0,0
+121,Switch speed-up benchmark panels to logarithmic y-scale,Copilot,2026-08-12T08:54:02Z,2,1,0,2
+115,Use linear scale for speed-up in benchmark plots,Copilot,2026-08-11T10:15:07Z,3,3,1,3
+111,docs: stop embedding README.md in index.rst and move TOC to the end,Copilot,2026-08-11T09:50:52Z,2,1,0,2
+113,Rotate X axis on all benchmark plots,Copilot,2026-08-11T09:49:43Z,2,1,0,2
+109,performance,xadupre,2026-08-11T08:44:49Z,2,3,1,1
+106,Document session-only kernel registration,Copilot,2026-08-11T08:12:11Z,3,3,1,3
+104,Reorganize documentation like onnx-light,Copilot,2026-08-11T07:41:27Z,5,3,1,3
+102,Switch to onnx-light 0.1.16,Copilot,2026-08-10T21:23:02Z,2,1,0,2
+100,next steps,xadupre,2026-08-10T09:57:53Z,3,1,0,0
+99,Sync C++ API reference with current kernel headers,Copilot,2026-08-10T07:35:55Z,5,3,1,5
+98,Sync Python API reference with current kernel bindings,Copilot,2026-08-10T06:27:27Z,3,1,0,3
+95,Documentation restructuring and benchmark kernel-usage asserts,Copilot,2026-08-09T13:13:02Z,2,1,0,2
+91,[WIP] Fix issue registering new kernels in onnx-light,Copilot,2026-08-09T08:04:15Z,4,5,2,4
+89,add float16,xadupre,2026-08-07T17:54:23Z,3,3,1,1
+88,Keep GoogleTest artifacts out of the inplace install with --cpp-tests,Copilot,2026-08-07T16:20:34Z,3,1,0,3
+81,Fix doc build: install nanobind before building onnx-light,Copilot,2026-08-07T14:24:42Z,14,15,5,7
+86,fix local setup,xadupre,2026-08-07T08:17:45Z,1,1,0,0
+85,efficient gemm,xadupre,2026-08-07T07:45:48Z,2,1,0,0
+84,fix local build,xadupre,2026-08-07T06:38:42Z,1,1,0,0
+83,Add option to build the onnx-light integration from local onnx-light sources,Copilot,2026-08-06T14:41:49Z,2,1,0,2
+79,remove try catch,xadupre,2026-08-06T14:23:26Z,5,9,4,4
+78,Run C++ tests via setup.py --cpp-tests,Copilot,2026-08-06T13:26:24Z,4,5,2,4
+76,Save graphs as images in gallery examples,Copilot,2026-08-06T12:52:52Z,2,1,0,2
+74,remove pinned version of onnx-light,xadupre,2026-08-05T06:06:46Z,2,3,1,1
+73,Fix docs dependencies: drop onnx from the docs extra,Copilot,2026-08-04T16:21:36Z,2,1,0,2
+71,Add tests for reduced C++ kernel coverage,Copilot,2026-08-04T15:57:05Z,2,1,0,2
+69,Restrict Python bindings to registration and SIMD helpers,Copilot,2026-08-04T15:28:19Z,8,13,6,8
+67,Implement kernel class for Gemm and register it,Copilot,2026-08-04T14:00:24Z,4,3,1,4
+63,Implement RegisterAllKernels C++ function and Python binding,Copilot,2026-08-04T13:22:14Z,2,1,0,2
+61,Fix read-only input handling in registered CPU kernels,Copilot,2026-08-04T12:32:07Z,3,3,1,3
+57,Use onnx-light instead of onnx in benchmark examples,Copilot,2026-08-04T11:48:57Z,7,11,5,7
+55,Replace docs footer copyright with published date,Copilot,2026-08-04T10:55:59Z,2,1,0,2
+54,Switch to onnx-light 0.1.11,Copilot,2026-08-04T10:11:30Z,2,1,0,2
+49,Speed up Gemm CPU kernel with register-blocked micro-kernel,Copilot,2026-08-04T06:23:12Z,3,3,1,3
+51,Rotate x-axis tick labels in gemm benchmark example,Copilot,2026-08-04T06:02:31Z,2,1,0,2
+47,Add AVX-accelerated GEMM kernel with numpy/onnxruntime benchmark,Copilot,2026-08-03T17:01:25Z,4,3,1,4
+45,[WIP] Fix slow setup of reference evaluator in onnxruntime,Copilot,2026-08-03T05:16:32Z,2,1,0,2
+43,Implement a cost-aware ParallelFor,Copilot,2026-08-02T16:11:32Z,5,5,2,5
+41,Investigate parallelizing kernels: release GIL and add threaded benchmark,Copilot,2026-08-01T16:16:00Z,6,9,4,6
+39,Refactor CPU kernels into math/logical layout,Copilot,2026-08-01T09:57:20Z,5,7,3,5
+37,Implement a fast SIMD kernel for the ONNX Not operator,Copilot,2026-08-01T08:59:59Z,2,1,0,2
+33,Add fast SIMD Exp and Log kernels (float16/float32/float64),Copilot,2026-08-01T08:23:58Z,3,3,1,3
+35,Add double coverage to onnx-light Abs kernel test,Copilot,2026-08-01T06:54:55Z,2,1,0,2
+31,Add float16 and int8 support to Abs kernels,Copilot,2026-08-01T06:39:30Z,2,1,0,2
+30,Add Codecov coverage badge to documentation,Copilot,2026-07-31T06:57:02Z,2,1,0,2
+28,Display speed-up vs onnxruntime instead of throughput in Abs benchmark,Copilot,2026-07-30T17:50:02Z,2,1,0,2
+26,Add unit tests for the documentation examples,Copilot,2026-07-30T17:33:11Z,3,3,1,3
+24,Fix MyST LICENSE cross-reference warnings in documentation,Copilot,2026-07-30T17:12:40Z,2,1,0,2
+22,Register onnx-light-cpu Abs kernel with onnx-light and share the benchmark model,Copilot,2026-07-30T16:57:01Z,5,5,2,5
+20,Show one function per operator in kernels table; drop operators table from README,Copilot,2026-07-30T13:29:22Z,3,3,1,3
+18,Add 10^8 data point to Abs benchmark,Copilot,2026-07-30T12:55:28Z,2,1,0,2
+16,"Add gallery example benchmarking Abs across onnxruntime, onnx-light + onnx-light-cpu, and numpy",Copilot,2026-07-30T12:31:48Z,4,3,1,4
+9,Kernels doc: one row per operator with data types in a single column,Copilot,2026-07-30T12:11:23Z,3,3,1,3
+11,Expose a single numpy-like `abs` binding that dispatches on dtype,Copilot,2026-07-30T12:06:19Z,2,1,0,2
+14,Add GitHub repository link to documentation navbar,Copilot,2026-07-30T12:02:09Z,2,1,0,2
+7,Add status and license badges to README,Copilot,2026-07-30T10:48:13Z,2,1,0,2
+4,Add Sphinx documentation site with auto-generated kernel table,Copilot,2026-07-30T10:46:12Z,2,1,0,2
+5,Add missing CI workflows and OpenSSF hardening support,xadupre,2026-07-30T10:14:23Z,1,1,0,0
+2,"Add missing CI workflows (pixi, asan/ubsan, typing)",Copilot,2026-07-30T09:58:26Z,2,1,0,2
+201,verbose,xadupre,2026-08-16T18:23:05Z,3,1,0,0
+199,GEMM: vectorized F16C/AVX2 conversion in the contiguous packing copy (roadmap PR07),Copilot,2026-08-16T18:11:38Z,4,3,1,4
+200,fix setup,xadupre,2026-08-16T17:42:59Z,1,1,0,0
+194,GEMM: native FP16/BF16 convert-while-packing (roadmap PR07 first step),Copilot,2026-08-16T09:04:48Z,6,5,2,6
+196,Improve GEMM kernel-design SVG diagrams (issue #195),Copilot,2026-08-16T08:45:56Z,4,3,1,4
+197,better documentation,xadupre,2026-08-16T08:45:41Z,1,1,0,0
+192,Record Intel AVX-512 GEMM re-measurement and advance PR06.6 in the roadmap,Copilot,2026-08-16T07:19:07Z,2,1,0,2
+190,Pack B into contiguous column micro-panels to sustain large-matrix GEMM throughput,Copilot,2026-08-16T06:22:08Z,3,1,0,3
+186,Vectorize skinny-N GEMV reduction to full-width AVX for FP32 parity,Copilot,2026-08-16T05:14:09Z,3,1,0,3
+188,Make GEMM design-doc SVG diagrams match the implementation and use a transparent background,Copilot,2026-08-16T05:12:38Z,3,1,0,3
+182,Add isolated GEMM throughput driver and record roadmap measurements (Roadmap PR06.6),Copilot,2026-08-15T16:53:17Z,5,5,2,5
+184,Add interactive SVG decision-tree and strategy-zone diagrams to gemm design page,Copilot,2026-08-15T15:21:31Z,3,1,0,3
+180,Add measured AMD Zen AVX2 six-row GEMM register profile (Roadmap PR06.5),Copilot,2026-08-15T12:35:17Z,3,1,0,3
+165,Organize docs galleries into two galleries: kernels and benchmarks,Copilot,2026-08-15T07:14:18Z,2,1,0,2
+176,Use immutable GemmPlan on the Gemm operator path (Roadmap PR06.4),Copilot,2026-08-15T10:33:20Z,4,3,1,4
+172,Robustify weekly C++ coverage action and publish HTML report,Copilot,2026-08-15T09:49:11Z,3,3,1,3
+174,Add logo to README and enlarge CPU object in logo,Copilot,2026-08-15T09:14:54Z,2,1,0,2
+170,Implement dedicated GEMV/skinny-M kernel (Roadmap PR06.3),Copilot,2026-08-15T09:14:39Z,3,1,0,3
+168,next steps tuning,xadupre,2026-08-15T08:34:03Z,1,1,0,0
+167,Gemm roadmap PR06.2: vectorized skinny-N reduction and tiny-output selection,Copilot,2026-08-15T08:33:50Z,3,1,0,3
+163,update plan,xadupre,2026-08-15T06:57:31Z,1,1,0,0
+160,Add the FP GEMM parity gate,xadupre,2026-08-14T21:52:42Z,3,3,2,0
+237,Switch compiled integration to onnx-light 0.1.18,Copilot,2026-08-18T13:23:38Z,10,15,7,10
+235,split plan,xadupre,2026-08-17T21:24:52Z,1,1,0,0
+232,GEMM PR09.2: x86 VNNI INT8 matrix multiplication kernel,Copilot,2026-08-17T17:56:31Z,2,1,0,2
+231,GEMM: native SVE FP16/BF16 kernels (Roadmap PR08.3),Copilot,2026-08-17T17:32:59Z,2,1,0,2
+228,GEMM PR09.1: add portable integer matrix multiplication,xadupre,2026-08-17T17:07:06Z,2,1,0,0
+226,Add float16 and bfloat16 variants to the Gemm benchmark backend corpus,Copilot,2026-08-17T16:39:00Z,3,1,0,3
+227,fix bfloat16,xadupre,2026-08-17T13:55:25Z,1,1,0,0
+224,Add CI job verifying setup.py build_ext --inplace --cpp-tests --onnx-light-source,Copilot,2026-08-17T13:55:16Z,3,1,0,3
+222,GEMM PR08.2: native ARM NEON FP16/BF16 arithmetic kernels,Copilot,2026-08-17T13:55:00Z,2,1,0,2
+219,Trim the slow onnx-light built-in Gemm curve to three points,Copilot,2026-08-17T13:08:50Z,2,1,0,2
+215,Reduce size of GemmHalf non-widening tests for ARM64 SVE emulation,Copilot,2026-08-17T13:05:15Z,2,1,0,2
+217,GEMM PR08.1: NEON FP16/BF16 panel conversion,Copilot,2026-08-17T13:01:36Z,2,1,0,2
+211,Implement Roadmap PR07.6: native AMX-BF16 GEMM kernel,Copilot,2026-08-17T12:24:22Z,5,7,3,5
+213,Set ir_version to 13 on generated ONNX models,Copilot,2026-08-17T11:22:17Z,2,1,0,2
+209,Implement Roadmap PR07.5: AMX tile-state lifecycle,Copilot,2026-08-17T09:16:47Z,6,9,4,6
+207,Implement native AVX-512BF16 GEMM kernel (Roadmap PR07.4),Copilot,2026-08-17T07:20:26Z,3,1,0,3
+205,GEMM PR07.3: native AVX-512FP16 general kernel with CPUID dispatch,Copilot,2026-08-17T06:41:00Z,3,1,0,3
+203,GEMM PR07.2: remove remaining FP16/BF16 full-tensor widening,Copilot,2026-08-17T05:50:42Z,5,5,2,5
+272,Fix source package imports in documentation CI,xadupre,2026-08-20T06:28:14Z,1,1,0,0
+267,Tune AVX2 FP16 GEMM paths,xadupre,2026-08-20T06:23:43Z,6,3,1,2
+271,Remove the private CPU scheduler and validate onnx-light main,xadupre,2026-08-20T05:49:04Z,9,1,0,0
+270,Use the session executor for registered CPU kernels,xadupre,2026-08-19T18:31:35Z,2,1,0,0
+266,Complete integer and compact GEMM correctness gate,xadupre,2026-08-19T12:34:48Z,1,1,0,0
+265,Add packed INT4 and UINT4 GEMM formats,xadupre,2026-08-19T11:00:17Z,1,1,0,0
+263,Implement Float8 packing formats for GEMM (Roadmap PR09.5),Copilot,2026-08-19T10:57:21Z,8,8,3,7
+264,Add Exp/Log and TreeEnsemble performance roadmaps,xadupre,2026-08-19T09:53:38Z,6,1,0,0
+254,Guard benchmark example ONNX models to pin ir_version=13,Copilot,2026-08-19T07:21:33Z,4,3,1,4
+260,Update Getting Started and Design docs to reflect current kernel set,Copilot,2026-08-19T07:21:10Z,3,3,1,3
+259,Refactor benchmark methodology documentation,Copilot,2026-08-19T07:20:55Z,3,1,0,3
+250,Implement PR10.1 FP16/BF16 correctness gate for ARM GEMM roadmap,Copilot,2026-08-19T07:20:37Z,3,3,1,3
+252,Add AMX-INT8 MatMulInteger kernel,Copilot,2026-08-19T06:26:22Z,3,1,0,3
+244,Use hardware-derived CPU thread count,xadupre,2026-08-19T05:32:49Z,8,11,4,5
+247,Document benchmark methodology and runtime controls,xadupre,2026-08-18T17:35:35Z,1,1,0,0
+246,"setup.py build_ext installs Release config by default, never Debug",Copilot,2026-08-18T15:39:07Z,3,1,0,3
+239,Run documentation examples as fast unit tests via UNITTEST_GOING,Copilot,2026-08-18T15:37:03Z,5,3,1,4
+243,Align core CI test counts with the onnx-light integration build (#240),Copilot,2026-08-18T15:36:49Z,3,3,1,3
+242,Fix docs build: K-scaled tolerance for onnxruntime float16 Gemm check,Copilot,2026-08-18T14:54:11Z,3,3,1,3
+234,Implement next step of GEMM ARM plan and update plan,Copilot,2026-08-18T13:47:33Z,7,8,3,6
+331,Document the registered kernel inventory plan,xadupre,2026-08-21T21:01:44Z,1,1,0,0
+330,Reuse compact FP16 and BF16 GEMM panels,xadupre,2026-08-21T18:22:08Z,3,3,1,1
+329,Refresh unary and binary elementwise roadmaps,xadupre,2026-08-21T12:47:39Z,1,1,0,0
+328,docs: consolidate remaining GEMM gates,xadupre,2026-08-21T11:09:10Z,1,1,0,0
+325,Keep the next-steps table sortable and filterable,Copilot,2026-08-21T11:08:13Z,3,1,0,3
+323,Carry forward weekly C++ coverage in Codecov,Copilot,2026-08-21T10:33:15Z,2,1,0,2
+321,Reconcile and organize CPU roadmaps,xadupre,2026-08-21T08:57:14Z,2,1,0,0
+320,Add the final TreeEnsemble ONNX Runtime parity gate,Copilot,2026-08-21T07:58:30Z,4,1,0,4
+315,Close the Exp and Log ONNX Runtime parity gate,Copilot,2026-08-21T07:43:16Z,6,3,1,6
+319,"Add measured advanced tree layouts, traversal, and float16",Copilot,2026-08-21T07:20:08Z,6,1,0,6
+318,Add TreeEnsemble calibration and inspection APIs,Copilot,2026-08-20T22:24:35Z,9,9,4,9
+307,Add shared MatMul coverage to the final GEMM parity gate,Copilot,2026-08-20T22:24:17Z,11,17,8,11
+313,Add dynamic TreeEnsemble tuning policies and structural signatures,Copilot,2026-08-20T20:17:58Z,2,1,0,2
+312,Tune operator-specific Exp and Log scheduling,Copilot,2026-08-20T20:04:52Z,6,3,1,6
+314,Use the onnx-light session executor directly,xadupre,2026-08-20T17:48:06Z,1,1,0,0
+311,Add ONNX Runtime-compatible TreeEnsemble scheduling,Copilot,2026-08-20T17:29:42Z,4,1,0,4
+310,Add AVX2+FMA Log and align AVX-512 Exp/Log,Copilot,2026-08-20T17:01:58Z,2,1,0,2
+309,Fix TreeEnsemble serial baseline aggregation semantics,Copilot,2026-08-20T16:53:39Z,2,1,0,2
+308,Add AVX2+FMA float32 Exp kernel,Copilot,2026-08-20T16:35:53Z,4,1,0,4
+305,[WIP] Implement Trees PR02 for canonical parser and plan,Copilot,2026-08-20T13:32:12Z,2,2,0,2
+306,ExpLog PR02: Correct full-domain SIMD subnormal semantics for Exp/Log,Copilot,2026-08-20T12:54:50Z,3,1,0,3
+303,PR10.4: route contiguous QLinearMatMul through IntegerMatMul2D and add AVX2 requantization epilogue,Copilot,2026-08-20T12:04:49Z,4,3,1,4
+304,Establish Exp/Log benchmark and numerical gate,Copilot,2026-08-20T11:11:01Z,6,1,0,6
+301,Add opset-5 tree ensemble corpus and scalar reference,Copilot,2026-08-20T10:36:46Z,4,3,1,4
+302,Vectorize transposed FP16/BF16 GEMM packing,Copilot,2026-08-20T09:14:28Z,3,1,0,3
+276,Add blocked AVX2 integer GEMM micro-kernel,Copilot,2026-08-20T08:15:50Z,3,1,0,3
+274,Add AVX2 compact GEMM performance pass,xadupre,2026-08-20T07:37:38Z,2,1,0,0
+273,Reduce half GEMM direct-path overhead,xadupre,2026-08-20T07:25:50Z,2,1,0,0
+336,Expose CPU tuning parameters for GEMM,Copilot,2026-08-22T08:53:50Z,5,5,2,5
+392,"Attention PR11: CPU adapter, per-invocation plan, and FP32 materialized backend corpus",Copilot,2026-08-23T14:48:56Z,8,7,3,8
+394,docs: make binary roadmap implementation-ready,xadupre,2026-08-23T09:30:29Z,1,1,0,0
+393,Make Qwen3 inference roadmap implementation-ready,xadupre,2026-08-23T09:30:06Z,1,1,0,0
+386,Make Attention roadmap implementation-ready,xadupre,2026-08-23T08:01:57Z,3,1,0,0
+384,Add processor performance Roofline example and complete portability gate (Profile PR05),Copilot,2026-08-23T07:18:59Z,3,1,0,3
+385,Expand typed backend benchmark coverage,xadupre,2026-08-23T07:18:44Z,1,1,0,0
+383,Expose versioned Python processor performance profile (Processor Profile PR04),Copilot,2026-08-23T06:33:10Z,5,3,1,5
+382,Add step 4 kernel-inventory/doc parity tests and warnings-as-errors docs build,Copilot,2026-08-23T06:32:56Z,3,3,1,3
+376,Guard tree ensemble backend case names against duplication and attribute drift,Copilot,2026-08-22T22:44:57Z,4,5,2,4
+380,Add register-resident compute arithmetic throughput profile (Processor Profile PR03),Copilot,2026-08-22T16:59:04Z,3,1,0,3
+381,Restore float32 GEMM default-policy scaling,xadupre,2026-08-22T16:58:50Z,3,2,0,0
+379,Generate kernel reference pages from the public registered_kernels() inventory,Copilot,2026-08-22T16:39:56Z,2,1,0,2
+378,Add Python example benchmarking a subset of backend test cases against ONNX Runtime,Copilot,2026-08-22T16:39:25Z,5,5,2,5
+370,Add memory bandwidth and latency measurement engine (Processor Profile PR02),Copilot,2026-08-22T15:16:21Z,3,1,0,3
+365,Expose registered kernel inventory to Python via `registered_kernels()`,Copilot,2026-08-22T15:10:53Z,3,1,0,3
+373,Add opt-in GEMM dimensions up to 8192,xadupre,2026-08-22T15:09:00Z,2,3,1,1
+371,Encode GEMM attributes in benchmark names,xadupre,2026-08-22T14:33:13Z,2,1,0,0
+368,Align Not benchmark dimensions with Exp,xadupre,2026-08-22T14:28:21Z,1,1,0,0
+366,"Benchmark TreeEnsemble across trees, features, and batches",xadupre,2026-08-22T14:27:16Z,1,1,0,0
+359,Expose reusable CPU topology and cache descriptors (Processor Profile PR01),Copilot,2026-08-22T14:20:17Z,4,5,2,4
+361,Move Exp/Log benchmark speedup plots to the right side,Copilot,2026-08-22T14:15:21Z,2,1,0,2
+363,Lower the Exp parallel execution threshold,xadupre,2026-08-22T14:08:44Z,1,1,0,0
+352,Add structured C++ kernel registration metadata and inventory mode,Copilot,2026-08-22T14:06:30Z,3,7,6,3
+353,Plan processor memory and compute profiling,xadupre,2026-08-22T13:48:27Z,1,1,0,0
+346,Extend parallel benchmark scenario coverage,xadupre,2026-08-22T12:50:50Z,7,5,2,6
+347,Mark GEMM implementation roadmap complete,xadupre,2026-08-22T12:50:33Z,1,1,0,0
+344,Document sandbox-verifiable status for #340 integer/compact GEMM parity gate (still blocked),Copilot,2026-08-22T12:20:57Z,3,3,1,3
+343,Define final GEMM completion gates,xadupre,2026-08-22T10:40:43Z,1,1,0,0
+345,Fix local source runtime C++ tests,xadupre,2026-08-22T10:39:44Z,1,1,0,0
+339,Record final GEMM/MatMul parity validation status (PR10.5),Copilot,2026-08-22T10:07:04Z,3,1,0,3
+338,Fix INT4/UINT4 unpacking regression and publish integer/compact GEMM JSON dispersion,Copilot,2026-08-22T09:52:02Z,2,1,0,2
+337,[GEMM] Wire tuning-aware FP16/BF16 sweep into the isolated throughput driver,Copilot,2026-08-22T09:33:19Z,3,1,0,3
+437,Isolate and bound benchmark gallery measurements,xadupre,2026-08-25T06:44:13Z,3,3,1,0
+435,Replace scalar BF16 memcpy with bit_cast,Copilot,2026-08-25T06:24:47Z,3,4,1,3
+436,Widen AVX-512FP16 Gemm A operand once per row instead of per column b…,xadupre,2026-08-24T17:19:50Z,1,1,0,0
+431,update setup.py,xadupre,2026-08-24T16:53:13Z,25,6,2,4
+433,Close the binary correctness and ONNX Runtime parity gate,Copilot,2026-08-24T15:14:54Z,3,1,0,3
+432,Add bounded shared elementwise fusion plans,Copilot,2026-08-24T14:30:08Z,2,1,0,2
+430,Cover all binary type signatures in backend benchmarks,Copilot,2026-08-24T14:03:02Z,3,3,1,3
+427,Add one-pass variadic elementwise plans,Copilot,2026-08-24T13:29:14Z,11,9,4,11
+428,Integrate TreeEnsemble with the onnx-light runtime,xadupre,2026-08-24T12:02:38Z,6,1,0,0
+424,[WIP] Update plot processor performance script for better clarity,Copilot,2026-08-24T10:46:46Z,4,3,1,4
+413,"Add Pow, Mod, PRelu, SwiGLU, and low-precision paths",Copilot,2026-08-24T10:42:12Z,5,2,0,3
+426,"Cover MHA, GQA, and packed Attention backend benchmarks",Copilot,2026-08-24T10:34:20Z,2,1,0,2
+418,[WIP] Fix graph rendering size issues in plot_tree_ensemble_benchmark.py,Copilot,2026-08-24T10:14:27Z,2,1,0,2
+412,"Complete Attention parity, memory, and reproducibility gate",Copilot,2026-08-24T10:07:41Z,4,1,0,3
+420,Use horizontal bars for backend benchmark results,Copilot,2026-08-24T10:05:16Z,3,3,1,3
+416,Make the next-steps table sortable,Copilot,2026-08-24T09:33:13Z,3,1,0,3
+414,Expand binary backend benchmarks across shapes and ranks,xadupre,2026-08-24T09:17:12Z,5,5,2,2
+411,"Add safe comparison, logical, bitwise, shift, and integer kernels",Copilot,2026-08-24T07:40:13Z,2,1,0,2
+410,"Attention PR14: streaming scheduling, cache modes, and low-precision types",Copilot,2026-08-24T07:31:53Z,2,1,0,2
+409,Vectorize binary broadcast loop families and add executor-aware parallel dispatch (Binary PR03),Copilot,2026-08-24T07:13:25Z,2,1,0,2
+406,Attention PR13: implement FP32 streaming online softmax,Copilot,2026-08-24T07:05:06Z,3,3,1,3
+408,Run weekly C++ coverage job on x86_64 and arm64 runners,Copilot,2026-08-24T06:56:09Z,2,1,0,2
+405,Add FP32/FP64 SIMD arithmetic kernels for Add/Sub/Mul/Div (Binary PR02),Copilot,2026-08-24T06:43:22Z,3,1,0,3
+404,"Attention PR12: complete materialized semantics for FP16/BF16, softcap, cache, and qk_matmul_output modes",Copilot,2026-08-24T06:31:14Z,3,3,1,3
+403,"[WIP] Add support for manifest, backend corpus, and scalar broadcast plans",Copilot,2026-08-24T06:02:53Z,4,5,2,4
+451,improves all kernels,xadupre,2026-08-27T07:36:01Z,15,11,5,7
+453,Remove duplicate BinaryDataType enum,Copilot,2026-08-27T06:23:42Z,6,5,2,6
+450,Add per-core bandwidth scaling to CPU diagnostics,Copilot,2026-08-26T11:00:27Z,3,1,0,3
+448,"improve repeat, warmup for benchmark",xadupre,2026-08-26T08:01:54Z,2,1,0,0
+447,improve gemm,xadupre,2026-08-26T06:56:28Z,4,3,1,1
+446,final improvments,xadupre,2026-08-25T14:28:53Z,1,1,0,0
+445,binary perf 3,xadupre,2026-08-25T13:06:11Z,1,1,0,0
+444,improves binary again,xadupre,2026-08-25T12:33:56Z,1,1,0,0
+443,improve binary operatros,xadupre,2026-08-25T12:21:25Z,1,1,0,0
+442,"improve abs, exp, log",xadupre,2026-08-25T11:50:21Z,1,1,0,0
+439,fix benchmark,xadupre,2026-08-25T11:11:18Z,6,3,1,1
+441,Update Python check tool versions,Copilot,2026-08-25T09:48:52Z,2,1,0,2
+438,Document kernel registration on the main page,xadupre,2026-08-25T09:31:28Z,1,1,0,0
+471,Use CPU-scaled backend benchmark defaults,xadupre,2026-08-27T13:24:50Z,2,1,0,0
+472,Optimize float16 Attention streaming,xadupre,2026-08-27T13:24:32Z,1,1,0,0
+469,Fix local onnx-light source resolution,xadupre,2026-08-27T13:03:40Z,1,1,0,0
+470,Bound aggregate backend gallery runtime,xadupre,2026-08-27T13:02:45Z,1,1,0,0
+468,Optimize large-K float64 GEMM,xadupre,2026-08-27T12:40:36Z,3,5,2,2
+467,Optimize square float64 GEMM,xadupre,2026-08-27T11:41:49Z,2,3,1,1
+466,Optimize float16 RMSNormalization kernels,xadupre,2026-08-27T10:09:37Z,1,1,0,0
+465,Highlight moderate benchmark slowdowns in orange,Copilot,2026-08-27T10:06:43Z,2,1,0,2
+463,improve tree,xadupre,2026-08-27T09:55:47Z,3,3,1,1
+462,Add SwiGLU backend benchmark cases,Copilot,2026-08-27T09:41:58Z,2,1,0,2
+456,Make large TreeEnsemble benchmark configurations opt-in,Copilot,2026-08-27T09:14:44Z,3,3,1,3
+458,Remove pytest usage from Python unit tests,Copilot,2026-08-27T09:13:03Z,2,1,0,2
+460,improve abs,xadupre,2026-08-27T09:12:47Z,1,1,0,0
+459,improve log,xadupre,2026-08-27T09:12:33Z,2,3,1,1
+454,rename backend tests,xadupre,2026-08-27T08:46:36Z,2,2,0,1
+566,Optimize float32 MatMul execution,xadupre,2026-08-31T10:34:48Z,1,1,0,0
+562,Reduce optimized BiasGelu latency and add ONNX Runtime parity benchmarking,Copilot,2026-08-31T09:59:32Z,5,3,1,5
+563,Optimize AVX-512 binary arithmetic kernels,xadupre,2026-08-31T09:59:00Z,1,1,0,0
+561,Optimize AVX-512 GEMM micro-kernels,xadupre,2026-08-31T09:58:44Z,4,4,1,1
+558,Optimize normalization moment computation,xadupre,2026-08-31T09:41:42Z,2,3,1,1
+559,Reduce Attention allocation latency and align ORT benchmarks,Copilot,2026-08-31T09:04:17Z,3,1,0,3
+560,Optimize medium AVX-512 GEMM,xadupre,2026-08-31T08:36:15Z,1,1,0,0
+547,Add reusable onnx-light backend correctness runners,Copilot,2026-08-30T18:16:03Z,9,9,4,9
+556,Add ONNX Runtime differential matrix for optimized unary kernels,Copilot,2026-08-30T16:43:56Z,8,7,3,8
+546,Add naive Microsoft kernel variants,xadupre,2026-08-30T12:20:59Z,3,1,0,0
+545,Create backend test kernels lazily,xadupre,2026-08-30T10:43:56Z,1,1,0,0
+544,Update backend tests for enum metadata API,xadupre,2026-08-30T10:07:46Z,1,1,0,0
+541,Use ExtTestCase for Python test classes,Copilot,2026-08-30T08:24:01Z,6,5,2,6
+539,Update backend tests for unloadable cases,xadupre,2026-08-30T07:54:09Z,2,1,0,0
+536,Make backend benchmark expected outputs opt-in,Copilot,2026-08-29T17:01:39Z,6,3,1,5
+537,Fix backend coverage regressions,xadupre,2026-08-29T15:31:42Z,4,3,1,1
+538,Fix chained GEMM lazy builder,xadupre,2026-08-29T14:28:42Z,1,1,0,0
+535,Make Codecov checks informational,Copilot,2026-08-29T14:00:22Z,2,1,0,2
+531,Fix empty backend benchmark graph in published documentation,Copilot,2026-08-29T13:51:35Z,4,5,2,4
+533,Split API reference into Python and C++ sections,Copilot,2026-08-29T13:51:08Z,7,3,1,7
+532,Expose SIMD inspection through the public Python API,Copilot,2026-08-29T13:07:25Z,4,1,0,4
+528,Hide low-level operator functions from the public C++ API,Copilot,2026-08-29T09:21:58Z,4,3,1,4
+530,Use semantic colors for TreeEnsemble speed-ups,Copilot,2026-08-29T08:52:46Z,2,1,0,2
+529,Explain every figure in the processor performance example,Copilot,2026-08-29T08:52:38Z,3,1,0,3
+520,Document CPU kernel execution and dispatch design,Copilot,2026-08-29T08:09:10Z,2,5,2,2
+521,Shorten benchmark methodology to project-specific guidance,Copilot,2026-08-29T07:35:40Z,2,1,0,2
+522,Document GroupQueryAttention operator support links,Copilot,2026-08-29T07:35:31Z,2,1,0,2
+511,Present Getting Started examples in language tabs,Copilot,2026-08-29T06:40:33Z,2,1,0,2
+509,Document C++ session-local kernel registration,Copilot,2026-08-29T06:40:25Z,4,1,0,4
+507,Add comprehensive GroupQueryAttention backend coverage,xadupre,2026-08-29T05:56:15Z,2,3,1,1
+504,Fix TreeEnsemble large-batch scheduling,Copilot,2026-08-28T17:29:19Z,3,5,2,3
+506,Optimize AVX2 FMA Exp kernel,xadupre,2026-08-28T17:19:28Z,2,1,0,0
+505,Organize C++ tests by domain,xadupre,2026-08-28T16:52:02Z,1,1,0,0
+498,Add standard ONNX normalization kernels,xadupre,2026-08-28T16:39:04Z,7,8,3,4
+502,Use SIMD-aware unary scheduling costs,xadupre,2026-08-28T16:12:58Z,1,1,0,0
+501,Complete GroupQueryAttention gradient,xadupre,2026-08-28T15:58:08Z,1,1,0,0
+500,Add repository style skill,Copilot,2026-08-28T15:50:56Z,2,1,0,2
+494,Add GroupQueryAttention CPU kernel,Copilot,2026-08-28T15:02:14Z,9,11,5,8
+497,Enforce the PYTHONPATH onnx-light runtime,xadupre,2026-08-28T14:54:24Z,4,3,1,1
+496,Avoid GCC 14 vector deallocation warning,xadupre,2026-08-28T14:08:05Z,1,1,0,0
+492,Speed up BiasGelu float32,xadupre,2026-08-28T13:01:55Z,4,5,2,3
+495,Speed up CDist with SIMD reductions,xadupre,2026-08-28T12:42:32Z,1,1,0,0
+491,Align Next Steps index statuses,xadupre,2026-08-28T12:18:59Z,1,1,0,0
+490,Require data type tags in CPU backend case names,Copilot,2026-08-28T11:47:12Z,10,5,2,10
+488,Inventory Qwen3 ONNX kernel gaps,xadupre,2026-08-28T10:17:13Z,1,1,0,0
+487,Organize Design and ByOp navigation,xadupre,2026-08-28T09:33:22Z,2,1,0,0
+485,Improve kernel documentation and ByOp navigation,xadupre,2026-08-28T09:24:46Z,1,1,0,0
+486,Reorganize the Next Steps index by status,xadupre,2026-08-28T09:24:29Z,2,1,0,0
+484,Document custom operator gradient graphs,Copilot,2026-08-28T08:07:04Z,10,3,1,10
+482,Add generated ByOp kernel catalogue,xadupre,2026-08-27T18:34:53Z,5,3,1,0
+481,Refresh Codecov coverage on main updates,Copilot,2026-08-27T16:52:30Z,3,3,1,3
+479,Add com.microsoft CDist and BiasGelu CPU kernels,xadupre,2026-08-27T16:52:12Z,3,5,2,2
+478,reduce number of examples,xadupre,2026-08-27T16:09:34Z,1,1,0,0
+477,Align Next Steps statuses with implemented roadmaps,Copilot,2026-08-27T15:50:29Z,3,3,1,3
+475,Optimize half-precision Pow kernels,xadupre,2026-08-27T15:07:56Z,2,3,1,1
+474,too big,xadupre,2026-08-27T14:59:08Z,3,3,1,1
+473,Optimize half and skinny integer MatMul,xadupre,2026-08-27T14:53:11Z,3,5,2,2
+596,Add optimized LinearAttention CPU kernel,xadupre,2026-09-02T10:34:07Z,2,1,0,0
+595,Share backend case node and tensor builders,xadupre,2026-09-02T09:34:57Z,2,1,0,0
+585,Add CPU kernels and benchmarks for Sigmoid and Softmax,Copilot,2026-09-02T08:56:03Z,4,5,2,4
+587,Add thumbnail for gallery example without a figure,Copilot,2026-09-02T07:51:06Z,2,1,0,1
+589,Improve graph diagrams with Unicode symbols,Copilot,2026-09-02T07:36:28Z,2,1,0,2
+592,Make GEMM packing concurrency test deterministic,xadupre,2026-09-02T07:36:19Z,1,1,0,0
+593,Optimize float16 comparison kernels,xadupre,2026-09-02T07:36:08Z,1,1,0,0
+591,Plan Qwen3 operators outside MatMulNBits,xadupre,2026-09-02T07:35:06Z,1,1,0,0
+583,Add changelog for the upcoming 0.1.16 release,Copilot,2026-09-02T07:06:24Z,2,1,0,2
+590,Optimize BitShift validation and SIMD execution,xadupre,2026-09-02T07:06:05Z,1,1,0,0
+581,Update next-step roadmaps for recent optimizations,xadupre,2026-09-02T06:33:48Z,1,1,0,0
+580,Optimize balanced TreeEnsemble row-parallel traversal,xadupre,2026-09-02T06:22:12Z,1,1,0,0
+579,Optimize RMSNormalization and share SIMD normalization primitives,xadupre,2026-09-01T17:29:51Z,3,1,0,0
+578,Optimize Attention for realistic model shapes,xadupre,2026-09-01T16:05:39Z,2,1,0,0
+577,Optimize integer Div validation,xadupre,2026-09-01T14:16:58Z,1,1,0,0
+575,Remove serial dynamic-B packing from medium FP32 GEMM,xadupre,2026-09-01T12:40:03Z,2,1,0,0
+574,Preserve weekly C++ coverage in Codecov,Copilot,2026-09-01T11:53:11Z,3,3,1,3
+570,Stabilize backend case benchmark reporting,xadupre,2026-09-01T05:50:09Z,3,3,1,1
+569,Optimize float32 Attention execution,xadupre,2026-08-31T14:01:27Z,1,1,0,0
+567,Improve medium AVX-512 GEMM scheduling and bias,xadupre,2026-08-31T13:17:56Z,3,1,0,0
+565,Add global and session-local kernel registration APIs,Copilot,2026-08-31T11:22:40Z,7,3,1,7
+564,Match ONNX Runtime latency for optimized CDist,Copilot,2026-08-31T11:22:11Z,5,3,1,5
+648,Format PR benchmark speedups and input shapes compactly,xadupre,2026-09-07T08:39:22Z,1,1,0,0
+646,Accelerate AVX2 FP16 matrices and FP16/FP32 GEMV toward ORT parity,xadupre,2026-09-07T08:38:50Z,10,4,1,8
+645,Document isolated AVX2 baseline and remaining performance gaps,xadupre,2026-09-07T07:56:35Z,2,1,0,0
+647,Remove cross-runtime thread-pool bias from AVX2 parity benchmarks,xadupre,2026-09-07T07:22:11Z,1,1,0,0
+641,Close measured AVX2 gap in Float16 RMSNormalization reduction,Copilot,2026-09-06T16:12:27Z,6,12,5,6
+636,Measure AVX2 FP32/FP64 Gemm/MatMul gaps against ONNX Runtime; document findings (no fixable regression found),Copilot,2026-09-05T13:50:47Z,4,5,2,4
+644,Fix concise speedup reporting in PR benchmark comments,Copilot,2026-09-05T12:17:35Z,2,1,0,2
+639,Break FMA/reduction latency chains in AVX2 attention decode dot-product and softmax kernels,Copilot,2026-09-05T09:27:50Z,3,4,1,3
+637,Close measured AVX2 compact INT8/INT4 GEMM gaps,Copilot,2026-09-05T09:27:36Z,3,2,0,3
+632,Add reproducible AVX2 parity baseline and gap ranking,Copilot,2026-09-05T09:27:08Z,8,5,2,8
+642,Vectorize float32 Pow for AVX2 to close the AVX2-ceiling elementwise gap,Copilot,2026-09-05T09:03:28Z,3,2,0,3
+630,Update performance and Qwen next steps,xadupre,2026-09-05T08:39:15Z,4,1,0,0
+627,Derive end-to-end kernel tests from registered kernels,Copilot,2026-09-05T08:13:49Z,2,1,0,2
+629,Reorganize command-line and standalone documentation,Copilot,2026-09-05T08:11:56Z,2,1,0,2
+626,Limit PR benchmark comments to essential columns,Copilot,2026-09-04T13:47:27Z,2,1,0,2
+622,Add com.microsoft LinearAttention,xadupre,2026-09-04T11:55:59Z,8,12,5,3
+623,Post benchmark results to pull requests,Copilot,2026-09-04T10:12:42Z,5,3,1,3
+620,Show the default thread count in benchmark CLI help,Copilot,2026-09-03T22:08:04Z,2,1,0,2
+617,Report command-line benchmarks in seconds,xadupre,2026-09-03T21:29:23Z,3,3,1,2
+618,Add optimized CPU kernel development skill,xadupre,2026-09-03T20:47:32Z,1,1,0,0
+616,Update onnx-light development dependency to 0.1.24,Copilot,2026-09-03T20:00:10Z,2,1,0,2
+612,Add progress and ONNX Runtime comparison to benchmark CLI,Copilot,2026-09-03T16:47:05Z,3,3,1,3
+614,Add configurable x86 SIMD ceiling,xadupre,2026-09-03T16:21:44Z,1,1,0,0
+613,Improve benchmark filter case-sensitivity error,xadupre,2026-09-03T15:42:16Z,1,1,0,0
+610,Document the benchmark command line,Copilot,2026-09-03T13:44:51Z,3,1,0,3
+608,Add AVX2 Attention decode and masked GEMM tails,xadupre,2026-09-03T13:01:22Z,2,1,0,0
+607,Add backend benchmark CLI with Excel export,Copilot,2026-09-03T13:01:07Z,4,5,2,4
+605,"Optimize AVX2 GEMM, MatMul, and Attention scheduling",xadupre,2026-09-03T11:04:58Z,1,1,0,0
+604,Optimize AVX2 activation kernels,xadupre,2026-09-03T10:27:19Z,1,1,0,0
+603,Add standalone C++ inference example,xadupre,2026-09-03T09:01:22Z,1,1,0,0
+602,Exclude scalar unary benchmark cases,xadupre,2026-09-02T21:07:42Z,1,1,0,0
+601,Optimize TreeEnsemble parallel scheduling,xadupre,2026-09-02T20:32:26Z,1,1,0,0
+600,"Optimize BiasGelu, Sigmoid, and Softmax",xadupre,2026-09-02T20:20:30Z,1,1,0,0
+599,"Optimize Attention, GEMM, and binary operators",xadupre,2026-09-02T20:09:16Z,2,1,0,0
+598,Balance medium GEMM row partitions,xadupre,2026-09-02T17:29:10Z,2,3,1,1
+597,Fix large Abs scheduling defaults,xadupre,2026-09-02T17:16:19Z,1,1,0,0

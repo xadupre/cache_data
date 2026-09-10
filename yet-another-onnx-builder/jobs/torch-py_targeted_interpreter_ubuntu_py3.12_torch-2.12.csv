@@ -1,0 +1,15 @@
+job_id,run_id,workflow,job_name,status,conclusion,started_at,completed_at,duration_seconds,head_sha
+86191540435,29038052812,ci-4-torch,"torch-py targeted (interpreter, ubuntu, py3.12, torch-2.12)",completed,success,2026-07-09T18:04:57Z,2026-07-09T18:09:26Z,269,b5455392b4fedddb0be77fdce48c1e882487911b
+86163061403,29029290720,ci-4-torch,"torch-py targeted (interpreter, ubuntu, py3.12, torch-2.12)",completed,success,2026-07-09T16:01:05Z,2026-07-09T16:05:46Z,281,c11546e82ca2a472bd226a521163a16b65a265c0
+86159492452,29028760070,ci-4-torch,"torch-py targeted (interpreter, ubuntu, py3.12, torch-2.12)",completed,failure,2026-07-09T15:50:51Z,2026-07-09T15:55:19Z,268,06a1fef0fddbbf6eac77ec257f6fad33ca9836b8
+86163327445,29028528081,ci-4-torch,"torch-py targeted (interpreter, ubuntu, py3.12, torch-2.12)",completed,success,2026-07-09T15:58:15Z,2026-07-09T16:02:50Z,275,7f06ec67a2592d00b0e5de3229df23a6f8b18a88
+86142281679,29023087229,ci-4-torch,"torch-py targeted (interpreter, ubuntu, py3.12, torch-2.12)",completed,failure,2026-07-09T14:47:55Z,2026-07-09T14:52:26Z,271,2632993cf309604b7122c8282ed367dea4802105
+86142398200,29023073818,ci-4-torch,"torch-py targeted (interpreter, ubuntu, py3.12, torch-2.12)",completed,success,2026-07-09T14:34:36Z,2026-07-09T14:39:03Z,267,557f1dd39f42504bda68bc8d8a9453fa8569a6f5
+86136048611,29023061492,ci-4-torch,"torch-py targeted (interpreter, ubuntu, py3.12, torch-2.12)",completed,failure,2026-07-09T14:14:59Z,2026-07-09T14:18:51Z,232,64490ed837e4219976d2e50d4efeff673eeaaaa4
+86140028142,29023048783,ci-4-torch,"torch-py targeted (interpreter, ubuntu, py3.12, torch-2.12)",completed,success,2026-07-09T14:29:13Z,2026-07-09T14:33:41Z,268,c080a6c68e943068b20762d8d54752f4d00df61f
+86136932358,29023035621,ci-4-torch,"torch-py targeted (interpreter, ubuntu, py3.12, torch-2.12)",completed,success,2026-07-09T14:24:37Z,2026-07-09T14:29:14Z,277,7e5438a8a06b606ac366814bdbc7f0efd3d518a6
+85994060120,28964051557,ci-4-torch,"torch-py targeted (interpreter, ubuntu, py3.12, torch-2.12)",completed,failure,2026-07-08T22:19:19Z,2026-07-08T22:23:29Z,250,88ec2e8aa4e7911039b5ca581978600d2c795395
+85990443482,28963810352,ci-4-torch,"torch-py targeted (interpreter, ubuntu, py3.12, torch-2.12)",completed,failure,2026-07-08T22:18:36Z,2026-07-08T22:22:27Z,231,01b0811e2d0cfa1e3556c92e7495c5a51c64b669
+85989634275,28963635973,ci-4-torch,"torch-py targeted (interpreter, ubuntu, py3.12, torch-2.12)",completed,success,2026-07-08T21:52:10Z,2026-07-08T21:56:39Z,269,b4647998318ab5f8f53b08b7ea9553047562b0b9
+85992173826,28963444885,ci-4-torch,"torch-py targeted (interpreter, ubuntu, py3.12, torch-2.12)",completed,success,2026-07-08T22:02:15Z,2026-07-08T22:05:38Z,203,a054f10c2c3a76b0cb6824d7ddb8055caa547259
+85991181567,28963368729,ci-4-torch,"torch-py targeted (interpreter, ubuntu, py3.12, torch-2.12)",completed,success,2026-07-08T22:21:35Z,2026-07-08T22:26:03Z,268,4010b16ce4ab02205d73d1b67f99f7555d0129d3

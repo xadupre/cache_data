@@ -1,0 +1,6 @@
+job_id,run_id,workflow,job_name,status,conclusion,started_at,completed_at,duration_seconds,head_sha
+75583393847,25738888292,ReproducibleBuild,check,completed,success,2026-05-12T13:51:17Z,2026-05-12T14:09:05Z,1068,9b956f3cf94ac60c551c076dc809033b72008c50
+75456493390,25699634000,ReproducibleBuild,check,completed,success,2026-05-11T21:55:24Z,2026-05-11T22:12:54Z,1050,62f3de76b39e48be331ea51d57dfd601672c2402
+75438596943,25694344585,ReproducibleBuild,check,completed,skipped,2026-05-11T20:07:07Z,2026-05-11T20:07:06Z,-1,62f3de76b39e48be331ea51d57dfd601672c2402
+75434647659,25693187221,ReproducibleBuild,check,completed,skipped,2026-05-11T19:44:20Z,2026-05-11T19:44:20Z,0,426895678d3d7a87756ac388d7c2a67a4bac146d
+75432939255,25692685222,ReproducibleBuild,check,completed,skipped,2026-05-11T19:34:29Z,2026-05-11T19:34:28Z,-1,e9f4d86a0d82362b4f3490a45d7eef74dde2a25d

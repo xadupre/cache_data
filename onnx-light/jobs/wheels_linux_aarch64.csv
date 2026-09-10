@@ -1,0 +1,44 @@
+job_id,run_id,workflow,job_name,status,conclusion,started_at,completed_at,duration_seconds,head_sha
+80290180751,27196731753,Build Release Wheels,"wheels (linux, aarch64)",completed,failure,2026-06-09T09:25:08Z,2026-06-09T09:34:24Z,556,b2b081246addccf018f552cae8c7e8da9fd28e2a
+80274600775,27192116801,Build Release Wheels,"wheels (linux, aarch64)",completed,failure,2026-06-09T07:55:47Z,2026-06-09T07:58:16Z,149,32db40d8a22d783fecd60b6ebdeacc2dab232b6d
+80974148844,27399538193,Build Release Wheels,"wheels (linux, aarch64)",completed,success,2026-06-12T06:46:36Z,2026-06-12T08:00:04Z,4408,1b6d70243bcc250ed3567230f5e61a1e1497bd88
+81250245036,27488914330,Build Release Wheels,"wheels (linux, aarch64)",completed,success,2026-06-14T05:07:16Z,2026-06-14T06:21:03Z,4427,582e9de5d983c8c577abc4bff9f1b4992aeef741
+81297748020,27506197009,Build Release Wheels,"wheels (linux, aarch64)",completed,success,2026-06-14T17:13:43Z,2026-06-14T18:32:32Z,4729,2a4dc0801d8f072f7976e1ba1504b6a74864f1bb
+81760477183,27646766920,Build Release Wheels,"wheels (linux, aarch64)",completed,success,2026-06-16T20:43:20Z,2026-06-16T22:01:04Z,4664,2bc268f257cac8a50a561ea274cb940d07f6f6da
+81590313931,27597352623,Build Release Wheels,"wheels (linux, aarch64)",completed,success,2026-06-16T05:56:29Z,2026-06-16T07:13:42Z,4633,e918fb306b44e8c23473cc5041d85da93ec0874b
+81437634134,27551169788,Build Release Wheels,"wheels (linux, aarch64)",completed,success,2026-06-15T13:59:48Z,2026-06-15T15:21:18Z,4890,d0e002e97d2bfce23867a950c6e6b810fd50fe66
+81418393891,27545703345,Build Release Wheels,"wheels (linux, aarch64)",completed,success,2026-06-15T12:21:27Z,2026-06-15T13:37:49Z,4582,6a8faccb75b8735f705c4e8d4facf5e17165c79f
+82166204624,27769758768,Build Release Wheels,"wheels (linux, aarch64)",completed,success,2026-06-18T15:17:49Z,2026-06-18T16:36:22Z,4713,03913b2af10246385c2997cd52a6907057b708ee
+82716211480,27953560841,Build Release Wheels,"wheels (linux, aarch64)",completed,success,2026-06-22T12:44:48Z,2026-06-22T14:02:12Z,4644,85cc2c3e6cc7dcf6e64f0991b649ff1418205385
+82715912868,27953489732,Build Release Wheels,"wheels (linux, aarch64)",completed,cancelled,2026-06-22T12:43:17Z,2026-06-22T12:44:42Z,85,85cc2c3e6cc7dcf6e64f0991b649ff1418205385
+84051299865,28371847288,Weekly Wheel Build Check,"wheels (linux, aarch64)",completed,success,2026-06-29T12:25:42Z,2026-06-29T13:23:18Z,3456,f149d2ad274e2b5e2dcd9c25903162906390a366
+85009624092,28663541132,Build Release Wheels,"wheels (linux, aarch64)",completed,success,2026-07-03T13:26:04Z,2026-07-03T14:25:47Z,3583,0367ca5e96791d8d14bea6ed7875d78149e06e0a
+85009623781,28663541031,Weekly Wheel Build Check,"wheels (linux, aarch64)",completed,success,2026-07-03T13:26:04Z,2026-07-03T14:29:09Z,3785,0367ca5e96791d8d14bea6ed7875d78149e06e0a
+85617740626,28866477962,Build Release Wheels,"wheels (linux, aarch64)",completed,success,2026-07-07T12:34:33Z,2026-07-07T13:36:20Z,3707,ca217c61fcbb39ca55524c8b0bce5e57430fa23b
+85573939143,28853397862,Build Release Wheels,"wheels (linux, aarch64)",completed,success,2026-07-07T08:44:09Z,2026-07-07T09:47:21Z,3792,ca217c61fcbb39ca55524c8b0bce5e57430fa23b
+85366535208,28790174583,Build Release Wheels,"wheels (linux, aarch64)",completed,success,2026-07-06T12:04:47Z,2026-07-06T13:06:23Z,3696,dd82df2e7fb47949f30abbae94c715a73a1048e7
+85365310218,28789806514,Weekly Wheel Build Check,"wheels (linux, aarch64)",completed,success,2026-07-06T11:58:07Z,2026-07-06T13:02:04Z,3837,51252e0a8adc39a348c8b56456416d4f15fcef82
+86797404695,29244297481,Weekly Wheel Build Check,"wheels (linux, aarch64)",completed,success,2026-07-13T10:53:15Z,2026-07-13T11:57:26Z,3851,a2346b264ed30e41f966bcf69434b3787c3b184a
+87297854628,29398646197,Build Release Wheels,"wheels (linux, aarch64)",completed,success,2026-07-15T07:49:44Z,2026-07-15T08:54:17Z,3873,6be0c1409882410cdee6bbf0ac01031cc07c7b2b
+88231153431,29701482765,Build Release Wheels,"wheels (linux, aarch64)",completed,success,2026-07-19T19:54:05Z,2026-07-19T21:05:15Z,4270,3d30949c905b1db645b14a6d5b0280026a8260c4
+88331572756,29736071724,Weekly Wheel Build Check,"wheels (linux, aarch64)",completed,failure,2026-07-20T10:44:10Z,2026-07-20T10:55:42Z,692,f217444fce915b442483e66525c775dd2f0e84cd
+89059543970,29960328275,Build Release Wheels,"wheels (linux, aarch64)",completed,failure,2026-07-22T21:44:14Z,2026-07-22T21:55:30Z,676,971e4a05ce3b1589784efcfb2a0bfa928429f97a
+90520745036,30435059846,Build Release Wheels,"wheels (linux, aarch64)",completed,failure,2026-07-29T08:19:34Z,2026-07-29T08:19:48Z,14,fa2fdf203e6e55541c9924ccf28a14e89e7c68a1
+89960863027,30261082036,Weekly Wheel Build Check,"wheels (linux, aarch64)",completed,failure,2026-07-27T11:12:57Z,2026-07-27T11:13:18Z,21,6087c23ceeb4108a2a97e5e294363dcd0fd0886c
+90912396071,30554798742,Build Release Wheels,"wheels (linux, aarch64)",completed,success,2026-07-30T15:03:43Z,2026-07-30T17:13:16Z,7773,9e7e50ac4a1a088f9b4822d55f1afab1ac3d8db3
+90826337591,30528920183,Build Release Wheels,"wheels (linux, aarch64)",completed,success,2026-07-30T09:00:17Z,2026-07-30T11:37:22Z,9425,2e9c897755646f561e5d6d1c10483fb4ceb9995b
+92223323904,30980376730,Build Release Wheels,"wheels (linux, aarch64)",completed,success,2026-08-05T06:08:56Z,2026-08-05T08:22:33Z,8017,0c6e4a7ff438b550c9161049cc155dfb3edaf9c3
+91814013717,30852012850,Build Release Wheels,"wheels (linux, aarch64)",completed,success,2026-08-03T20:50:14Z,2026-08-03T23:01:10Z,7856,4c33ed2c376203153881d9fbafc5ee7721702c26
+91670284697,30808787896,Weekly Wheel Build Check,"wheels (linux, aarch64)",completed,success,2026-08-03T11:15:09Z,2026-08-03T13:26:05Z,7856,7447d99dc1e3100a43d1b0c10b64199b078b305e
+93110375580,31260465048,Build Release Wheels,"wheels (linux, aarch64)",completed,success,2026-08-08T13:49:52Z,2026-08-08T16:03:12Z,8000,29bc132728c0c0451eacb14c5edb225401c85433
+92873642906,31180894460,Build Release Wheels,"wheels (linux, aarch64)",completed,success,2026-08-07T13:03:39Z,2026-08-07T15:10:02Z,7583,320e88b43778ee87fbecc091e65cfa5475b22d90
+92803576911,31158602366,Build Release Wheels,"wheels (linux, aarch64)",completed,success,2026-08-07T07:40:45Z,2026-08-07T09:54:48Z,8043,bf6c50625f2d4699cd4a5441329ab624b4b35dee
+93458663380,31389835201,Build Release Wheels,"wheels (linux, aarch64)",completed,success,2026-08-10T12:49:37Z,2026-08-10T14:52:39Z,7382,f0f3f964f3a302058f0c3f10e41001f734e120ad
+93407146872,31373390140,Weekly Wheel Build Check,"wheels (linux, aarch64)",completed,success,2026-08-10T09:10:57Z,2026-08-10T11:20:01Z,7744,22bdd5752c807eb766f314ca59d522e1f444f02f
+95330359957,32011013863,Weekly Wheel Build Check,"wheels (linux, aarch64)",completed,failure,2026-08-17T08:34:47Z,2026-08-17T08:47:38Z,771,2d00e853825952e152d298ac04a6fb0c948ab356
+95633306749,32112012405,Build Release Wheels,"wheels (linux, aarch64)",completed,success,2026-08-18T07:33:39Z,2026-08-18T09:46:47Z,7988,0f9ad1335d2e04e6552efbedac80295f3bf3f307
+95455706350,32052704775,Build Release Wheels,"wheels (linux, aarch64)",completed,failure,2026-08-17T17:58:35Z,2026-08-17T18:10:53Z,738,e2747fedc73398c6bd4cf910361060929aeb6613
+95775233800,32156607875,Build Release Wheels,"wheels (linux, aarch64)",completed,success,2026-08-18T15:50:43Z,2026-08-18T18:17:13Z,8790,375632eef808d63ec39b0a0ef7a0aa82a81db88c
+96344881972,32342713492,Build Release Wheels,"wheels (linux, aarch64)",completed,failure,2026-08-20T07:09:35Z,2026-08-20T08:15:12Z,3937,83e5797d16a9f1bc76bca8bbb9e61356b63883de
+97371226885,32707372433,Weekly Wheel Build Check,"wheels (linux, aarch64)",completed,failure,2026-08-24T08:39:02Z,2026-08-24T09:37:16Z,3494,5d81e80b52f0caa82ad14301239316fc257c80d6
+99301078738,33327857323,Build Release Wheels,"wheels (linux, aarch64)",completed,failure,2026-08-30T18:22:02Z,2026-08-30T19:19:01Z,3419,9257c634480dc444b5288f6df25a5e44cf0bf714

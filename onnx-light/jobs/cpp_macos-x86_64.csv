@@ -1,0 +1,4 @@
+job_id,run_id,workflow,job_name,status,conclusion,started_at,completed_at,duration_seconds,head_sha
+81250253912,27488917896,Build C++ Release Artifacts,cpp (macos-x86_64),completed,cancelled,2026-06-14T05:00:55Z,2026-06-14T15:07:17Z,36382,582e9de5d983c8c577abc4bff9f1b4992aeef741
+81345530435,27523306082,Build C++ Release Artifacts,cpp (macos-x86_64),completed,cancelled,2026-06-15T04:06:04Z,2026-06-15T05:36:11Z,5407,cf9f5b735fa4b28a4400d4f1accb26ee74b176ce
+81430859985,27549273247,Build C++ Release Artifacts,cpp (macos-x86_64),completed,cancelled,2026-06-15T13:22:33Z,2026-06-15T13:53:42Z,1869,f2e9932310275782f77168dac04effae5a54ced1

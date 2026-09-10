@@ -1,0 +1,31 @@
+{
+  "jobs": [
+    "ARM64_GEMM_NEON.csv",
+    "ARM64_GEMM_SVE_emulation.csv",
+    "C_coverage_ubuntu-24.04-arm.csv",
+    "C_coverage_ubuntu-latest.csv",
+    "PR_benchmark_report.csv",
+    "build_docs.csv",
+    "check_recent_commit.csv",
+    "ci-core-night-doc.csv",
+    "clang_format.csv",
+    "copilot-pull-request-reviewer.csv",
+    "copilot-setup-steps.csv",
+    "copilot.csv",
+    "core_macos-latest_py3.13.csv",
+    "core_ubuntu-latest_py3.13.csv",
+    "core_windows-latest_py3.13.csv",
+    "hardening_ubuntu-latest_clang.csv",
+    "hardening_ubuntu-latest_gcc.csv",
+    "macOS_onnx-light_main.csv",
+    "onnx-light_main_macos-latest.csv",
+    "onnx-light_main_ubuntu-latest.csv",
+    "onnx-light_main_windows-latest.csv",
+    "pixi_ubuntu-latest_dev.csv",
+    "setup.py_--cpp-tests_--onnx-light-source.csv",
+    "spelling.csv",
+    "standalone_inference_Linux.csv",
+    "style.csv",
+    "typing.csv"
+  ]
+}

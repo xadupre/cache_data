@@ -1,0 +1,1045 @@
+{
+  "classes": [
+    {
+      "in_mbext": false,
+      "in_ort_genai": true,
+      "name": "AWQModel",
+      "ort_genai_files": [
+        "src/python/py/models/loaders/awq.py"
+      ]
+    },
+    {
+      "in_mbext": true,
+      "in_ort_genai": false,
+      "mbext_files": [
+        "modelbuilder/builders/base_audio.py"
+      ],
+      "name": "AudioEncoderModel"
+    },
+    {
+      "in_mbext": false,
+      "in_ort_genai": true,
+      "name": "BlockDrafterBuilder",
+      "ort_genai_files": [
+        "src/python/py/models/builders/block_drafter.py"
+      ]
+    },
+    {
+      "in_mbext": true,
+      "in_ort_genai": true,
+      "mbext_files": [
+        "modelbuilder/builders/chatglm.py"
+      ],
+      "name": "ChatGLMModel",
+      "ort_genai_files": [
+        "src/python/py/models/builders/chatglm.py"
+      ]
+    },
+    {
+      "in_mbext": false,
+      "in_ort_genai": true,
+      "name": "CudaQuantizer",
+      "ort_genai_files": [
+        "src/python/py/models/quantization/cuda_quantizer.py"
+      ]
+    },
+    {
+      "in_mbext": false,
+      "in_ort_genai": true,
+      "name": "DFlash2Builder",
+      "ort_genai_files": [
+        "src/python/py/models/builders/dflash2.py"
+      ]
+    },
+    {
+      "in_mbext": false,
+      "in_ort_genai": true,
+      "name": "DML",
+      "ort_genai_files": [
+        "src/python/py/models/builders/expansions/dml.py"
+      ]
+    },
+    {
+      "in_mbext": false,
+      "in_ort_genai": true,
+      "name": "DSparkBuilder",
+      "ort_genai_files": [
+        "src/python/py/models/builders/dspark.py"
+      ]
+    },
+    {
+      "in_mbext": true,
+      "in_ort_genai": false,
+      "mbext_files": [
+        "modelbuilder/builders/deepseek.py"
+      ],
+      "name": "DeepSeekV3Model"
+    },
+    {
+      "in_mbext": false,
+      "in_ort_genai": true,
+      "name": "DtypeDescriptor",
+      "ort_genai_files": [
+        "src/python/py/models/quantization/quant_config.py"
+      ]
+    },
+    {
+      "in_mbext": true,
+      "in_ort_genai": false,
+      "mbext_files": [
+        "modelbuilder/builders/base_embedding.py"
+      ],
+      "name": "EmbeddingModel"
+    },
+    {
+      "in_mbext": true,
+      "in_ort_genai": true,
+      "mbext_files": [
+        "modelbuilder/builders/ernie.py"
+      ],
+      "name": "ErnieModel",
+      "ort_genai_files": [
+        "src/python/py/models/builders/ernie.py"
+      ]
+    },
+    {
+      "in_mbext": true,
+      "in_ort_genai": false,
+      "mbext_files": [
+        "modelbuilder/ext_test_case.py"
+      ],
+      "name": "ExtTestCase"
+    },
+    {
+      "in_mbext": false,
+      "in_ort_genai": true,
+      "name": "GGUFAttention",
+      "ort_genai_files": [
+        "src/python/py/models/loaders/gguf.py"
+      ]
+    },
+    {
+      "in_mbext": false,
+      "in_ort_genai": true,
+      "name": "GGUFDecoderLayer",
+      "ort_genai_files": [
+        "src/python/py/models/loaders/gguf.py"
+      ]
+    },
+    {
+      "in_mbext": false,
+      "in_ort_genai": true,
+      "name": "GGUFMLP",
+      "ort_genai_files": [
+        "src/python/py/models/loaders/gguf.py"
+      ]
+    },
+    {
+      "in_mbext": false,
+      "in_ort_genai": true,
+      "name": "GGUFModel",
+      "ort_genai_files": [
+        "src/python/py/models/loaders/gguf.py"
+      ]
+    },
+    {
+      "in_mbext": false,
+      "in_ort_genai": true,
+      "name": "GGUFTensorModule",
+      "ort_genai_files": [
+        "src/python/py/models/loaders/gguf.py"
+      ]
+    },
+    {
+      "in_mbext": true,
+      "in_ort_genai": false,
+      "mbext_files": [
+        "modelbuilder/builders/gpt2.py"
+      ],
+      "name": "GPT2Model"
+    },
+    {
+      "in_mbext": true,
+      "in_ort_genai": true,
+      "mbext_files": [
+        "modelbuilder/builders/gptoss.py"
+      ],
+      "name": "GPTOSSModel",
+      "ort_genai_files": [
+        "src/python/py/models/builders/gptoss.py"
+      ]
+    },
+    {
+      "in_mbext": false,
+      "in_ort_genai": true,
+      "name": "GPTQModel",
+      "ort_genai_files": [
+        "src/python/py/models/loaders/gptq.py"
+      ]
+    },
+    {
+      "in_mbext": true,
+      "in_ort_genai": true,
+      "mbext_files": [
+        "modelbuilder/builders/gemma.py"
+      ],
+      "name": "Gemma2Model",
+      "ort_genai_files": [
+        "src/python/py/models/builders/gemma.py"
+      ]
+    },
+    {
+      "in_mbext": true,
+      "in_ort_genai": true,
+      "mbext_files": [
+        "modelbuilder/builders/gemma.py"
+      ],
+      "name": "Gemma3Model",
+      "ort_genai_files": [
+        "src/python/py/models/builders/gemma.py"
+      ]
+    },
+    {
+      "in_mbext": true,
+      "in_ort_genai": false,
+      "mbext_files": [
+        "modelbuilder/builders/gemma.py"
+      ],
+      "name": "Gemma4Model"
+    },
+    {
+      "in_mbext": true,
+      "in_ort_genai": true,
+      "mbext_files": [
+        "modelbuilder/builders/gemma.py"
+      ],
+      "name": "GemmaModel",
+      "ort_genai_files": [
+        "src/python/py/models/builders/gemma.py"
+      ]
+    },
+    {
+      "in_mbext": false,
+      "in_ort_genai": true,
+      "name": "GptOssMXFP4Loader",
+      "ort_genai_files": [
+        "src/python/py/models/loaders/gptoss.py"
+      ]
+    },
+    {
+      "in_mbext": false,
+      "in_ort_genai": true,
+      "name": "GraniteMoEHybridModel",
+      "ort_genai_files": [
+        "src/python/py/models/builders/granite.py"
+      ]
+    },
+    {
+      "in_mbext": true,
+      "in_ort_genai": true,
+      "mbext_files": [
+        "modelbuilder/builders/granite.py"
+      ],
+      "name": "GraniteModel",
+      "ort_genai_files": [
+        "src/python/py/models/builders/granite.py"
+      ]
+    },
+    {
+      "in_mbext": true,
+      "in_ort_genai": true,
+      "mbext_files": [
+        "modelbuilder/builders/hunyuan.py"
+      ],
+      "name": "HunyuanDenseV1Model",
+      "ort_genai_files": [
+        "src/python/py/models/builders/hunyuan.py"
+      ]
+    },
+    {
+      "in_mbext": true,
+      "in_ort_genai": true,
+      "mbext_files": [
+        "modelbuilder/builders/internlm.py"
+      ],
+      "name": "InternLM2Model",
+      "ort_genai_files": [
+        "src/python/py/models/builders/internlm.py"
+      ]
+    },
+    {
+      "in_mbext": true,
+      "in_ort_genai": true,
+      "mbext_files": [
+        "modelbuilder/builders/lfm2.py"
+      ],
+      "name": "LFM2Model",
+      "ort_genai_files": [
+        "src/python/py/models/builders/lfm2.py"
+      ]
+    },
+    {
+      "in_mbext": true,
+      "in_ort_genai": true,
+      "mbext_files": [
+        "modelbuilder/builders/llama.py"
+      ],
+      "name": "LlamaModel",
+      "ort_genai_files": [
+        "src/python/py/models/builders/llama.py"
+      ]
+    },
+    {
+      "in_mbext": true,
+      "in_ort_genai": false,
+      "mbext_files": [
+        "modelbuilder/builders/local_functions.py"
+      ],
+      "name": "LocalFunctionsMixin"
+    },
+    {
+      "in_mbext": false,
+      "in_ort_genai": true,
+      "name": "MTPModel",
+      "ort_genai_files": [
+        "src/python/py/models/builders/mtp.py"
+      ]
+    },
+    {
+      "in_mbext": true,
+      "in_ort_genai": false,
+      "mbext_files": [
+        "modelbuilder/builders/mageflow.py"
+      ],
+      "name": "MageFlowModel"
+    },
+    {
+      "in_mbext": true,
+      "in_ort_genai": false,
+      "mbext_files": [
+        "modelbuilder/builders/mistral.py"
+      ],
+      "name": "Ministral3ConditionalGenerationModel"
+    },
+    {
+      "in_mbext": true,
+      "in_ort_genai": false,
+      "mbext_files": [
+        "modelbuilder/builders/mistral.py"
+      ],
+      "name": "Ministral3EmbeddingModel"
+    },
+    {
+      "in_mbext": true,
+      "in_ort_genai": false,
+      "mbext_files": [
+        "modelbuilder/builders/mistral.py"
+      ],
+      "name": "Ministral3TextModel"
+    },
+    {
+      "in_mbext": true,
+      "in_ort_genai": false,
+      "mbext_files": [
+        "modelbuilder/builders/mistral.py"
+      ],
+      "name": "Ministral3VisionEncoderModel"
+    },
+    {
+      "in_mbext": false,
+      "in_ort_genai": true,
+      "name": "Mistral3TextModel",
+      "ort_genai_files": [
+        "src/python/py/models/builders/mistral.py"
+      ]
+    },
+    {
+      "in_mbext": true,
+      "in_ort_genai": true,
+      "mbext_files": [
+        "modelbuilder/builders/mistral.py"
+      ],
+      "name": "MistralModel",
+      "ort_genai_files": [
+        "src/python/py/models/builders/mistral.py"
+      ]
+    },
+    {
+      "in_mbext": true,
+      "in_ort_genai": false,
+      "mbext_files": [
+        "modelbuilder/builders/mistral.py"
+      ],
+      "name": "MistralNeMoModel"
+    },
+    {
+      "in_mbext": true,
+      "in_ort_genai": false,
+      "mbext_files": [
+        "modelbuilder/builders/mistral.py"
+      ],
+      "name": "MixtralModel"
+    },
+    {
+      "in_mbext": false,
+      "in_ort_genai": true,
+      "name": "MoEConfig",
+      "ort_genai_files": [
+        "src/python/py/models/quantization/quant_config.py"
+      ]
+    },
+    {
+      "in_mbext": true,
+      "in_ort_genai": true,
+      "mbext_files": [
+        "modelbuilder/builders/base.py"
+      ],
+      "name": "Model",
+      "ort_genai_files": [
+        "src/python/py/models/builders/base.py"
+      ]
+    },
+    {
+      "in_mbext": false,
+      "in_ort_genai": true,
+      "name": "ModeloptModel",
+      "ort_genai_files": [
+        "src/python/py/models/loaders/modelopt.py"
+      ]
+    },
+    {
+      "in_mbext": true,
+      "in_ort_genai": false,
+      "mbext_files": [
+        "modelbuilder/builders/nemotron.py"
+      ],
+      "name": "NemotronHModel"
+    },
+    {
+      "in_mbext": true,
+      "in_ort_genai": true,
+      "mbext_files": [
+        "modelbuilder/builders/nemotron.py"
+      ],
+      "name": "NemotronModel",
+      "ort_genai_files": [
+        "src/python/py/models/builders/nemotron.py"
+      ]
+    },
+    {
+      "in_mbext": true,
+      "in_ort_genai": false,
+      "mbext_files": [
+        "modelbuilder/builders/olmo.py"
+      ],
+      "name": "OLMo2Model"
+    },
+    {
+      "in_mbext": true,
+      "in_ort_genai": false,
+      "mbext_files": [
+        "modelbuilder/builders/olmo.py"
+      ],
+      "name": "OLMo3Model"
+    },
+    {
+      "in_mbext": true,
+      "in_ort_genai": true,
+      "mbext_files": [
+        "modelbuilder/builders/olmo.py"
+      ],
+      "name": "OLMoModel",
+      "ort_genai_files": [
+        "src/python/py/models/builders/olmo.py"
+      ]
+    },
+    {
+      "in_mbext": false,
+      "in_ort_genai": true,
+      "name": "OliveModel",
+      "ort_genai_files": [
+        "src/python/py/models/loaders/olive.py"
+      ]
+    },
+    {
+      "in_mbext": false,
+      "in_ort_genai": true,
+      "name": "Override",
+      "ort_genai_files": [
+        "src/python/py/models/quantization/quant_config.py"
+      ]
+    },
+    {
+      "in_mbext": true,
+      "in_ort_genai": true,
+      "mbext_files": [
+        "modelbuilder/builders/base.py"
+      ],
+      "name": "PackedMatMul",
+      "ort_genai_files": [
+        "src/python/py/models/builders/base.py"
+      ]
+    },
+    {
+      "in_mbext": true,
+      "in_ort_genai": true,
+      "mbext_files": [
+        "modelbuilder/builders/phi.py"
+      ],
+      "name": "Phi3MiniLongRoPEModel",
+      "ort_genai_files": [
+        "src/python/py/models/builders/phi.py"
+      ]
+    },
+    {
+      "in_mbext": true,
+      "in_ort_genai": true,
+      "mbext_files": [
+        "modelbuilder/builders/phi.py"
+      ],
+      "name": "Phi3MiniModel",
+      "ort_genai_files": [
+        "src/python/py/models/builders/phi.py"
+      ]
+    },
+    {
+      "in_mbext": true,
+      "in_ort_genai": true,
+      "mbext_files": [
+        "modelbuilder/builders/phi.py"
+      ],
+      "name": "Phi3MoELongRoPEModel",
+      "ort_genai_files": [
+        "src/python/py/models/builders/phi.py"
+      ]
+    },
+    {
+      "in_mbext": true,
+      "in_ort_genai": true,
+      "mbext_files": [
+        "modelbuilder/builders/phi.py"
+      ],
+      "name": "Phi3SmallLongRoPEModel",
+      "ort_genai_files": [
+        "src/python/py/models/builders/phi.py"
+      ]
+    },
+    {
+      "in_mbext": true,
+      "in_ort_genai": true,
+      "mbext_files": [
+        "modelbuilder/builders/phi.py"
+      ],
+      "name": "Phi3SmallModel",
+      "ort_genai_files": [
+        "src/python/py/models/builders/phi.py"
+      ]
+    },
+    {
+      "in_mbext": true,
+      "in_ort_genai": true,
+      "mbext_files": [
+        "modelbuilder/builders/phi.py"
+      ],
+      "name": "Phi3VModel",
+      "ort_genai_files": [
+        "src/python/py/models/builders/phi.py"
+      ]
+    },
+    {
+      "in_mbext": true,
+      "in_ort_genai": true,
+      "mbext_files": [
+        "modelbuilder/builders/phi.py"
+      ],
+      "name": "Phi4MMModel",
+      "ort_genai_files": [
+        "src/python/py/models/builders/phi.py"
+      ]
+    },
+    {
+      "in_mbext": true,
+      "in_ort_genai": false,
+      "mbext_files": [
+        "modelbuilder/builders/phi.py"
+      ],
+      "name": "Phi4MultimodalAudioEncoderModel"
+    },
+    {
+      "in_mbext": true,
+      "in_ort_genai": false,
+      "mbext_files": [
+        "modelbuilder/builders/phi.py"
+      ],
+      "name": "Phi4MultimodalConditionalGenerationModel"
+    },
+    {
+      "in_mbext": true,
+      "in_ort_genai": false,
+      "mbext_files": [
+        "modelbuilder/builders/phi.py"
+      ],
+      "name": "Phi4MultimodalEmbeddingModel"
+    },
+    {
+      "in_mbext": true,
+      "in_ort_genai": false,
+      "mbext_files": [
+        "modelbuilder/builders/phi.py"
+      ],
+      "name": "Phi4MultimodalTextModel"
+    },
+    {
+      "in_mbext": true,
+      "in_ort_genai": false,
+      "mbext_files": [
+        "modelbuilder/builders/phi.py"
+      ],
+      "name": "Phi4MultimodalVisionEncoderModel"
+    },
+    {
+      "in_mbext": true,
+      "in_ort_genai": true,
+      "mbext_files": [
+        "modelbuilder/builders/phi.py"
+      ],
+      "name": "PhiModel",
+      "ort_genai_files": [
+        "src/python/py/models/builders/phi.py"
+      ]
+    },
+    {
+      "in_mbext": true,
+      "in_ort_genai": false,
+      "mbext_files": [
+        "modelbuilder/ext_test_case.py"
+      ],
+      "name": "PvVersion"
+    },
+    {
+      "in_mbext": false,
+      "in_ort_genai": true,
+      "name": "QuantAutoModel",
+      "ort_genai_files": [
+        "src/python/py/models/loaders/quant_auto.py"
+      ]
+    },
+    {
+      "in_mbext": false,
+      "in_ort_genai": true,
+      "name": "QuantConfig",
+      "ort_genai_files": [
+        "src/python/py/models/quantization/quant_config.py"
+      ]
+    },
+    {
+      "in_mbext": false,
+      "in_ort_genai": true,
+      "name": "QuantModel",
+      "ort_genai_files": [
+        "src/python/py/models/loaders/quant_model.py"
+      ]
+    },
+    {
+      "in_mbext": false,
+      "in_ort_genai": true,
+      "name": "QuantizedAttention",
+      "ort_genai_files": [
+        "src/python/py/models/loaders/base.py"
+      ]
+    },
+    {
+      "in_mbext": false,
+      "in_ort_genai": true,
+      "name": "QuantizedDecoderLayer",
+      "ort_genai_files": [
+        "src/python/py/models/loaders/base.py"
+      ]
+    },
+    {
+      "in_mbext": false,
+      "in_ort_genai": true,
+      "name": "QuantizedExpert",
+      "ort_genai_files": [
+        "src/python/py/models/loaders/base.py"
+      ]
+    },
+    {
+      "in_mbext": false,
+      "in_ort_genai": true,
+      "name": "QuantizedExperts",
+      "ort_genai_files": [
+        "src/python/py/models/loaders/base.py"
+      ]
+    },
+    {
+      "in_mbext": false,
+      "in_ort_genai": true,
+      "name": "QuantizedMLP",
+      "ort_genai_files": [
+        "src/python/py/models/loaders/base.py"
+      ]
+    },
+    {
+      "in_mbext": false,
+      "in_ort_genai": true,
+      "name": "QuantizedModel",
+      "ort_genai_files": [
+        "src/python/py/models/loaders/base.py"
+      ]
+    },
+    {
+      "in_mbext": false,
+      "in_ort_genai": true,
+      "name": "QuantizedTensorModule",
+      "ort_genai_files": [
+        "src/python/py/models/loaders/base.py"
+      ]
+    },
+    {
+      "in_mbext": false,
+      "in_ort_genai": true,
+      "name": "QuarkModel",
+      "ort_genai_files": [
+        "src/python/py/models/loaders/quark.py"
+      ]
+    },
+    {
+      "in_mbext": true,
+      "in_ort_genai": false,
+      "mbext_files": [
+        "modelbuilder/builders/qwen.py"
+      ],
+      "name": "Qwen25OmniAudioEncoderModel"
+    },
+    {
+      "in_mbext": true,
+      "in_ort_genai": false,
+      "mbext_files": [
+        "modelbuilder/builders/qwen.py"
+      ],
+      "name": "Qwen25OmniConditionalGenerationModel"
+    },
+    {
+      "in_mbext": true,
+      "in_ort_genai": false,
+      "mbext_files": [
+        "modelbuilder/builders/qwen.py"
+      ],
+      "name": "Qwen25OmniEmbeddingModel"
+    },
+    {
+      "in_mbext": true,
+      "in_ort_genai": false,
+      "mbext_files": [
+        "modelbuilder/builders/qwen.py"
+      ],
+      "name": "Qwen25OmniThinkerModel"
+    },
+    {
+      "in_mbext": true,
+      "in_ort_genai": false,
+      "mbext_files": [
+        "modelbuilder/builders/qwen.py"
+      ],
+      "name": "Qwen25OmniVisionEncoderModel"
+    },
+    {
+      "in_mbext": true,
+      "in_ort_genai": true,
+      "mbext_files": [
+        "modelbuilder/builders/qwen.py"
+      ],
+      "name": "Qwen25VLTextModel",
+      "ort_genai_files": [
+        "src/python/py/models/builders/qwen.py"
+      ]
+    },
+    {
+      "in_mbext": true,
+      "in_ort_genai": false,
+      "mbext_files": [
+        "modelbuilder/builders/qwen.py"
+      ],
+      "name": "Qwen35CausalLMModel"
+    },
+    {
+      "in_mbext": false,
+      "in_ort_genai": true,
+      "name": "Qwen35DenseMTPModel",
+      "ort_genai_files": [
+        "src/python/py/models/builders/qwen.py"
+      ]
+    },
+    {
+      "in_mbext": false,
+      "in_ort_genai": true,
+      "name": "Qwen35MTPModel",
+      "ort_genai_files": [
+        "src/python/py/models/builders/qwen.py"
+      ]
+    },
+    {
+      "in_mbext": false,
+      "in_ort_genai": true,
+      "name": "Qwen35MoEModel",
+      "ort_genai_files": [
+        "src/python/py/models/builders/qwen.py"
+      ]
+    },
+    {
+      "in_mbext": false,
+      "in_ort_genai": true,
+      "name": "Qwen35MoETextModel",
+      "ort_genai_files": [
+        "src/python/py/models/builders/qwen.py"
+      ]
+    },
+    {
+      "in_mbext": false,
+      "in_ort_genai": true,
+      "name": "Qwen35Model",
+      "ort_genai_files": [
+        "src/python/py/models/builders/qwen.py"
+      ]
+    },
+    {
+      "in_mbext": true,
+      "in_ort_genai": false,
+      "mbext_files": [
+        "modelbuilder/builders/qwen.py"
+      ],
+      "name": "Qwen35MoeCausalLMModel"
+    },
+    {
+      "in_mbext": true,
+      "in_ort_genai": false,
+      "mbext_files": [
+        "modelbuilder/builders/qwen.py"
+      ],
+      "name": "Qwen35MoeTextModel"
+    },
+    {
+      "in_mbext": true,
+      "in_ort_genai": true,
+      "mbext_files": [
+        "modelbuilder/builders/qwen.py"
+      ],
+      "name": "Qwen35TextModel",
+      "ort_genai_files": [
+        "src/python/py/models/builders/qwen.py"
+      ]
+    },
+    {
+      "in_mbext": true,
+      "in_ort_genai": true,
+      "mbext_files": [
+        "modelbuilder/builders/qwen.py"
+      ],
+      "name": "Qwen3Model",
+      "ort_genai_files": [
+        "src/python/py/models/builders/qwen.py"
+      ]
+    },
+    {
+      "in_mbext": true,
+      "in_ort_genai": true,
+      "mbext_files": [
+        "modelbuilder/builders/qwen.py"
+      ],
+      "name": "Qwen3VLTextModel",
+      "ort_genai_files": [
+        "src/python/py/models/builders/qwen.py"
+      ]
+    },
+    {
+      "in_mbext": false,
+      "in_ort_genai": true,
+      "name": "QwenMTPModel",
+      "ort_genai_files": [
+        "src/python/py/models/loaders/qwen.py"
+      ]
+    },
+    {
+      "in_mbext": true,
+      "in_ort_genai": true,
+      "mbext_files": [
+        "modelbuilder/builders/qwen.py"
+      ],
+      "name": "QwenModel",
+      "ort_genai_files": [
+        "src/python/py/models/builders/qwen.py"
+      ]
+    },
+    {
+      "in_mbext": false,
+      "in_ort_genai": true,
+      "name": "RuntimeConfig",
+      "ort_genai_files": [
+        "src/python/py/models/quantization/quant_config.py"
+      ]
+    },
+    {
+      "in_mbext": true,
+      "in_ort_genai": true,
+      "mbext_files": [
+        "modelbuilder/builders/smollm.py"
+      ],
+      "name": "SmolLM3Model",
+      "ort_genai_files": [
+        "src/python/py/models/builders/smollm.py"
+      ]
+    },
+    {
+      "in_mbext": true,
+      "in_ort_genai": false,
+      "mbext_files": [
+        "modelbuilder/architectures.py"
+      ],
+      "name": "SupportedArchitecture"
+    },
+    {
+      "in_mbext": false,
+      "in_ort_genai": true,
+      "name": "TRT_RTX",
+      "ort_genai_files": [
+        "src/python/py/models/builders/expansions/trt_rtx.py"
+      ]
+    },
+    {
+      "in_mbext": false,
+      "in_ort_genai": true,
+      "name": "TempModule",
+      "ort_genai_files": [
+        "src/python/py/models/loaders/gptq.py"
+      ]
+    },
+    {
+      "in_mbext": false,
+      "in_ort_genai": true,
+      "name": "TensorModule",
+      "ort_genai_files": [
+        "src/python/py/models/loaders/base.py"
+      ]
+    },
+    {
+      "in_mbext": true,
+      "in_ort_genai": true,
+      "mbext_files": [
+        "modelbuilder/builders/qwen.py"
+      ],
+      "name": "VideoChatFlashQwenModel",
+      "ort_genai_files": [
+        "src/python/py/models/builders/qwen.py"
+      ]
+    },
+    {
+      "in_mbext": true,
+      "in_ort_genai": false,
+      "mbext_files": [
+        "modelbuilder/builders/base_vision.py"
+      ],
+      "name": "VisionEncoderModel"
+    },
+    {
+      "in_mbext": false,
+      "in_ort_genai": true,
+      "name": "WebGPU",
+      "ort_genai_files": [
+        "src/python/py/models/builders/expansions/webgpu.py"
+      ]
+    },
+    {
+      "in_mbext": false,
+      "in_ort_genai": true,
+      "name": "WeightsConfig",
+      "ort_genai_files": [
+        "src/python/py/models/quantization/quant_config.py"
+      ]
+    },
+    {
+      "in_mbext": true,
+      "in_ort_genai": true,
+      "mbext_files": [
+        "modelbuilder/builders/whisper.py"
+      ],
+      "name": "WhisperDecoder",
+      "ort_genai_files": [
+        "src/python/py/models/builders/whisper.py"
+      ]
+    },
+    {
+      "in_mbext": true,
+      "in_ort_genai": true,
+      "mbext_files": [
+        "modelbuilder/builders/whisper.py"
+      ],
+      "name": "WhisperDecoderMLP",
+      "ort_genai_files": [
+        "src/python/py/models/builders/whisper.py"
+      ]
+    },
+    {
+      "in_mbext": true,
+      "in_ort_genai": true,
+      "mbext_files": [
+        "modelbuilder/builders/whisper.py"
+      ],
+      "name": "WhisperEncoder",
+      "ort_genai_files": [
+        "src/python/py/models/builders/whisper.py"
+      ]
+    },
+    {
+      "in_mbext": true,
+      "in_ort_genai": true,
+      "mbext_files": [
+        "modelbuilder/builders/whisper.py"
+      ],
+      "name": "WhisperEncoderMLP",
+      "ort_genai_files": [
+        "src/python/py/models/builders/whisper.py"
+      ]
+    },
+    {
+      "in_mbext": true,
+      "in_ort_genai": true,
+      "mbext_files": [
+        "modelbuilder/builders/whisper.py"
+      ],
+      "name": "WhisperModel",
+      "ort_genai_files": [
+        "src/python/py/models/builders/whisper.py"
+      ]
+    },
+    {
+      "in_mbext": true,
+      "in_ort_genai": false,
+      "mbext_files": [
+        "modelbuilder/architectures.py"
+      ],
+      "name": "_Branch"
+    }
+  ],
+  "date": "2026-09-07T13:36:19Z",
+  "projects": {
+    "mbext": {
+      "commit": "f5a79ce0fe2555172d4f3b4734d9a3e25774bcf8",
+      "owner": "xadupre",
+      "path": "modelbuilder",
+      "ref": "main",
+      "repo": "mbext"
+    },
+    "ort_genai": {
+      "commit": "649248d566ada49c9cd426414e73a3fa36173c89",
+      "owner": "microsoft",
+      "path": "src/python/py/models",
+      "ref": "main",
+      "repo": "onnxruntime-genai"
+    }
+  },
+  "totals": {
+    "mbext": 70,
+    "ort_genai": 80
+  }
+}

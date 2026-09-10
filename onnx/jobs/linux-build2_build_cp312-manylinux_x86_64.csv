@@ -1,0 +1,17 @@
+job_id,run_id,workflow,job_name,status,conclusion,started_at,completed_at,duration_seconds,head_sha
+76585306088,26050405124,ReproducibleBuild,linux-build2 / build (cp312-manylinux_x86_64),completed,success,2026-05-18T17:47:16Z,2026-05-18T17:53:19Z,363,ade0ee5827c08b5b119f58eabcd766203d695cce
+76582086772,26049453263,ReproducibleBuild,linux-build2 / build (cp312-manylinux_x86_64),completed,success,2026-05-18T17:28:41Z,2026-05-18T17:34:29Z,348,f3d74bbaa34865ca9f60cbcbed8a7d996e83cbec
+76580834891,26049084941,ReproducibleBuild,linux-build2 / build (cp312-manylinux_x86_64),completed,success,2026-05-18T17:21:33Z,2026-05-18T17:27:34Z,361,e3c0ff6a4d8710432102e17872916a663c3aa587
+76579838297,26048788793,ReproducibleBuild,linux-build2 / build (cp312-manylinux_x86_64),completed,cancelled,2026-05-18T17:15:44Z,2026-05-18T17:21:30Z,346,38dcbc96bdaf84c3858c906319f5e6c29087ea0d
+76460805183,26014209556,ReproducibleBuild,linux-build2 / build (cp312-manylinux_x86_64),completed,success,2026-05-18T04:51:42Z,2026-05-18T04:57:52Z,370,36de9ed25c649d6b657b3618c7ed924352b2bf2e
+76456131097,26012592190,ReproducibleBuild,linux-build2 / build (cp312-manylinux_x86_64),completed,success,2026-05-18T03:54:05Z,2026-05-18T04:00:09Z,364,9bf9124819bb5864f85df340be60fd58dddbd0c9
+76313801137,25960084280,ReproducibleBuild,linux-build2 / build (cp312-manylinux_x86_64),completed,success,2026-05-16T10:52:27Z,2026-05-16T10:58:20Z,353,b4fb2bf5471d8e4e255db5d83995c98132ac4d12
+76237061226,25934709569,ReproducibleBuild,linux-build2 / build (cp312-manylinux_x86_64),completed,success,2026-05-15T18:32:49Z,2026-05-15T18:38:28Z,339,46726814f157edaa9f3ee0fc83447c8bd7a4e490
+76237019112,25934696640,ReproducibleBuild,linux-build2 / build (cp312-manylinux_x86_64),completed,cancelled,2026-05-15T18:32:04Z,2026-05-15T18:32:46Z,42,0b35098718b7f7869a128e31941c8bf168fdefb4
+76179885301,25918146644,ReproducibleBuild,linux-build2 / build (cp312-manylinux_x86_64),completed,success,2026-05-15T12:37:18Z,2026-05-15T12:43:41Z,383,d3d71f1c8c8c4d16bf41847b45c99ce4aa0def63
+76171386242,25915612732,ReproducibleBuild,linux-build2 / build (cp312-manylinux_x86_64),completed,cancelled,2026-05-15T11:33:38Z,2026-05-15T11:33:39Z,1,3141cc8ae23c398c655272662a156e370fb3be9c
+83928552896,28330819448,ReproducibleBuild,linux-build2 / build (cp312-manylinux_x86_64),completed,success,2026-06-28T17:50:23Z,2026-06-28T17:56:18Z,355,c039ef6d092e4eb45539687d09120e6d9734962f
+83892916841,28317324219,ReproducibleBuild,linux-build2 / build (cp312-manylinux_x86_64),completed,success,2026-06-28T09:04:04Z,2026-06-28T09:10:05Z,361,771762a1afd487a73476dec43160451b20af47c6
+91074467438,30604696839,ReproducibleBuild,linux-build2 / build (cp312-manylinux_x86_64),completed,success,2026-07-31T04:39:11Z,2026-07-31T04:45:41Z,390,0e4703b020a87561df8d9fb06df0d225a84d831f
+91624274776,30794294535,ReproducibleBuild,linux-build2 / build (cp312-manylinux_x86_64),completed,success,2026-08-03T07:36:55Z,2026-08-03T07:42:28Z,333,9c1f8549105ef0381640ca6c658567464016c77f
+93101673215,31256954063,ReproducibleBuild,linux-build2 / build (cp312-manylinux_x86_64),completed,success,2026-08-08T12:19:06Z,2026-08-08T12:24:44Z,338,8c2aa9b326ae291eb05a61654211183b93e9ac4c

@@ -1,0 +1,5 @@
+job_id,run_id,workflow,job_name,status,conclusion,started_at,completed_at,duration_seconds,head_sha
+94719991377,31785374089,Copilot Setup Steps,copilot-setup-steps,completed,success,2026-08-14T08:47:39Z,2026-08-14T08:47:55Z,16,aec9efe0f6708f3f0629ffc43fd0733c02d7f19e
+94715979948,31784080755,Copilot Setup Steps,copilot-setup-steps,completed,success,2026-08-14T08:29:08Z,2026-08-14T08:29:19Z,11,955c720ac2c81ddfc462ccac90884fc0cb4aa60a
+94715969916,31784077740,Copilot Setup Steps,copilot-setup-steps,completed,success,2026-08-14T08:29:06Z,2026-08-14T08:29:19Z,13,955c720ac2c81ddfc462ccac90884fc0cb4aa60a
+90830661642,30530260151,Copilot Setup Steps,copilot-setup-steps,completed,success,2026-07-30T09:20:07Z,2026-07-30T09:20:25Z,18,4f23da6851d3dba7a3bcf56a6dfabd2df269adba

@@ -1,0 +1,7 @@
+job_id,run_id,workflow,job_name,status,conclusion,started_at,completed_at,duration_seconds,head_sha
+95293225376,31998055272,cpp-coverage-weekly,C++ coverage (ubuntu-latest),completed,success,2026-08-17T05:29:19Z,2026-08-17T05:29:59Z,40,42ac3adb59ddcabe3916d84ff3daf0f31c64e008
+93369247363,31360828209,cpp-coverage-weekly,C++ coverage (ubuntu-latest),completed,success,2026-08-10T06:07:50Z,2026-08-10T06:08:22Z,32,b51c97b3ac79f2f599890828ecda31afc255d6b6
+91633302693,30797171205,cpp-coverage-weekly,C++ coverage (ubuntu-latest),completed,success,2026-08-03T08:23:10Z,2026-08-03T08:23:40Z,30,78f55b0e374916d473da4cb479e96a7d10e58a4a
+97332414881,32693904750,cpp-coverage-weekly,C++ coverage (ubuntu-latest),completed,success,2026-08-24T05:32:50Z,2026-08-24T05:33:52Z,62,d1c28c7acfd25f14769f2a6e89f9bc96ccd37a22
+99469352135,33386216821,cpp-coverage-weekly,C++ coverage (ubuntu-latest),completed,success,2026-08-31T11:16:52Z,2026-08-31T11:18:26Z,94,8ecebeb8b83bef02ae3f3935926f27be619073be
+101698891021,34108460624,cpp-coverage-weekly,C++ coverage (ubuntu-latest),completed,success,2026-09-07T09:52:59Z,2026-09-07T09:54:44Z,105,730cfc019a78084cf94c4a85f6955ac289633297

@@ -1,0 +1,207 @@
+{
+  "latest": [
+    {
+      "number": 8439,
+      "title": "fix(reference): Honor normalization stash precision",
+      "user": "kadyrbekovhamit-cyber",
+      "created_at": "2026-09-09T08:34:15Z"
+    },
+    {
+      "number": 8438,
+      "title": "Guard the DynamicQuantizeLinear function body against a zero data range",
+      "user": "TusharND12",
+      "created_at": "2026-09-09T07:13:03Z"
+    },
+    {
+      "number": 8436,
+      "title": "feat(version_converter): downgrade GroupNormalization from opset 21",
+      "user": "emecii",
+      "created_at": "2026-09-09T05:55:20Z"
+    },
+    {
+      "number": 8435,
+      "title": "fix(utils): preserve subgraph local functions during extraction",
+      "user": "mottopanikeiku",
+      "created_at": "2026-09-08T17:07:40Z"
+    },
+    {
+      "number": 8434,
+      "title": "fix(reference): select OneHot values without arithmetic",
+      "user": "kadyrbekovhamit-cyber",
+      "created_at": "2026-09-08T16:14:24Z"
+    },
+    {
+      "number": 8433,
+      "title": "fix(reference): exclude ignored NLLLoss targets from mean",
+      "user": "kadyrbekovhamit-cyber",
+      "created_at": "2026-09-08T16:09:12Z"
+    },
+    {
+      "number": 8432,
+      "title": "[WIP] Fix failing GitHub Actions job",
+      "user": "Copilot",
+      "created_at": "2026-09-08T16:04:15Z"
+    },
+    {
+      "number": 8431,
+      "title": "Fix GridSample mode names in the reference evaluator for opset 16",
+      "user": "take-cheeze",
+      "created_at": "2026-09-08T12:00:04Z"
+    },
+    {
+      "number": 8428,
+      "title": "docs(defs): correct GroupNormalization divisibility wording",
+      "user": "migarci2",
+      "created_at": "2026-09-07T22:00:09Z"
+    },
+    {
+      "number": 8426,
+      "title": "feat(test): support per-case tolerances in node test definitions",
+      "user": "emecii",
+      "created_at": "2026-09-07T08:30:29Z"
+    }
+  ],
+  "oldest": [
+    {
+      "number": 6869,
+      "title": "Fix onnx.compose of prefix rename issue",
+      "user": "Esttelle",
+      "created_at": "2025-04-04T15:27:31Z"
+    },
+    {
+      "number": 7122,
+      "title": "fix(checker): add component context to validation errors",
+      "user": "Copilot",
+      "created_at": "2025-07-12T14:30:10Z"
+    },
+    {
+      "number": 7248,
+      "title": "Fix SequenceInsert version conversion type preservation",
+      "user": "MagellaX",
+      "created_at": "2025-08-26T22:37:08Z"
+    },
+    {
+      "number": 7305,
+      "title": "Align LpPool ceil-mode docs and tests with AveragePool, MaxPool",
+      "user": "jonahbernard",
+      "created_at": "2025-09-17T20:38:09Z"
+    },
+    {
+      "number": 7310,
+      "title": "WIP: Test with nightly wheels of numpy (Update release_*.yml)",
+      "user": "andife",
+      "created_at": "2025-09-20T12:10:52Z"
+    },
+    {
+      "number": 7341,
+      "title": "Use printer.to_text in tests",
+      "user": "cyyever",
+      "created_at": "2025-10-01T02:24:01Z"
+    },
+    {
+      "number": 7464,
+      "title": "ci: add safety gates to prevent accidental PyPI release publish",
+      "user": "andife",
+      "created_at": "2025-11-02T16:30:16Z"
+    },
+    {
+      "number": 7523,
+      "title": "Implement FlexAttention operator in ai.onnx.preview domain",
+      "user": "Copilot",
+      "created_at": "2025-12-13T18:41:36Z"
+    },
+    {
+      "number": 7529,
+      "title": "Introduce SPEC 4: Using and Creating Nightly Wheels",
+      "user": "andife",
+      "created_at": "2025-12-25T07:01:28Z"
+    },
+    {
+      "number": 7586,
+      "title": "Fix build failure caused by CMake cache pollution",
+      "user": "Im-Min",
+      "created_at": "2026-01-19T14:36:27Z"
+    }
+  ],
+  "ages_days": [
+    522.751810243912,
+    423.79163663280093,
+    378.4534653365046,
+    356.53609265131945,
+    353.88837274391204,
+    343.2959074661343,
+    310.70823385502314,
+    269.61703015131945,
+    258.1032338550232,
+    232.787273206875,
+    216.4946343179861,
+    209.2612894105787,
+    207.41284033650464,
+    195.85406718835648,
+    193.36756255872686,
+    192.11679866983798,
+    186.03344218835647,
+    174.4344259846528,
+    140.63278246613427,
+    120.6377245957639,
+    119.31615052168982,
+    118.7060695031713,
+    118.02976163280093,
+    118.0124931142824,
+    116.15132413280094,
+    115.22058339206019,
+    99.62579172539353,
+    99.18844218835649,
+    97.14568755872686,
+    94.95904404020834,
+    90.8645070031713,
+    89.96543292909723,
+    69.16367366983796,
+    62.97348848465278,
+    57.757331077245375,
+    57.45051394761575,
+    47.727770892060185,
+    44.20832644761574,
+    43.59421765131944,
+    43.56341904020833,
+    41.87984265131944,
+    41.319252373541666,
+    36.72061811428241,
+    36.69483107724537,
+    34.70826857724537,
+    33.978534780949076,
+    33.848233855023146,
+    33.816347280949074,
+    33.767967651319445,
+    29.879935243912037,
+    23.131382003171296,
+    22.922296355023146,
+    21.229148206875,
+    19.073349595763887,
+    19.03951857724537,
+    17.83915978094907,
+    16.909669040208332,
+    12.137215336504628,
+    12.116347280949075,
+    11.847944503171297,
+    11.78409033650463,
+    11.130467651319444,
+    8.491335706875,
+    8.326439873541666,
+    7.517296355023149,
+    4.802261632800926,
+    2.8007801513194446,
+    2.635976910578704,
+    2.058766262430556,
+    2.0414167253935185,
+    1.479148206875,
+    0.895872743912037,
+    0.7263009846527778,
+    0.7228634846527778,
+    0.7192523735416667,
+    0.682261632800926,
+    0.1491597809490741,
+    0.09518987354166666,
+    0.03880098465277777
+  ]
+}

@@ -1,0 +1,12 @@
+job_id,run_id,workflow,job_name,status,conclusion,started_at,completed_at,duration_seconds,head_sha
+76586619476,26050405124,ReproducibleBuild,macos-build2 / test-min-deps,completed,skipped,2026-05-18T17:54:54Z,2026-05-18T17:54:54Z,0,ade0ee5827c08b5b119f58eabcd766203d695cce
+76583302184,26049453263,ReproducibleBuild,macos-build2 / test-min-deps,completed,skipped,2026-05-18T17:35:42Z,2026-05-18T17:35:42Z,0,f3d74bbaa34865ca9f60cbcbed8a7d996e83cbec
+76582152089,26049084941,ReproducibleBuild,macos-build2 / test-min-deps,completed,cancelled,2026-05-18T17:29:01Z,2026-05-18T17:29:01Z,0,e3c0ff6a4d8710432102e17872916a663c3aa587
+76580922842,26048788793,ReproducibleBuild,macos-build2 / test-min-deps,completed,cancelled,2026-05-18T17:21:57Z,2026-05-18T17:21:56Z,-1,38dcbc96bdaf84c3858c906319f5e6c29087ea0d
+76461481826,26014209556,ReproducibleBuild,macos-build2 / test-min-deps,completed,skipped,2026-05-18T04:59:48Z,2026-05-18T04:59:47Z,-1,36de9ed25c649d6b657b3618c7ed924352b2bf2e
+76456570349,26012592190,ReproducibleBuild,macos-build2 / test-min-deps,completed,skipped,2026-05-18T03:59:56Z,2026-05-18T03:59:56Z,0,9bf9124819bb5864f85df340be60fd58dddbd0c9
+76314082559,25960084280,ReproducibleBuild,macos-build2 / test-min-deps,completed,skipped,2026-05-16T10:58:20Z,2026-05-16T10:58:20Z,0,b4fb2bf5471d8e4e255db5d83995c98132ac4d12
+76238500075,25934709569,ReproducibleBuild,macos-build2 / test-min-deps,completed,skipped,2026-05-15T18:41:24Z,2026-05-15T18:41:24Z,0,46726814f157edaa9f3ee0fc83447c8bd7a4e490
+76237200171,25934696640,ReproducibleBuild,macos-build2 / test-min-deps,completed,cancelled,2026-05-15T18:33:10Z,2026-05-15T18:33:09Z,-1,0b35098718b7f7869a128e31941c8bf168fdefb4
+76180815824,25918146644,ReproducibleBuild,macos-build2 / test-min-deps,completed,skipped,2026-05-15T12:43:41Z,2026-05-15T12:43:40Z,-1,d3d71f1c8c8c4d16bf41847b45c99ce4aa0def63
+76172466775,25915612732,ReproducibleBuild,macos-build2 / test-min-deps,completed,skipped,2026-05-15T11:41:59Z,2026-05-15T11:41:59Z,0,3141cc8ae23c398c655272662a156e370fb3be9c

@@ -1,0 +1,9 @@
+job_id,run_id,workflow,job_name,status,conclusion,started_at,completed_at,duration_seconds,head_sha
+82421455769,27848088028,INT yobx,"yobx (ubuntu-latest, py3.13)",completed,failure,2026-06-19T20:56:31Z,2026-06-19T20:57:06Z,35,4f44dfa9b1537ab3fb512fb09c535c5ada8855c6
+82605727604,27917656776,INT yobx,"yobx (ubuntu-latest, py3.13)",completed,failure,2026-06-21T21:13:38Z,2026-06-21T21:24:18Z,640,37dfb0a53b4ee365c840f57641e9101b3ab6f4fa
+82581974303,27908717591,INT yobx,"yobx (ubuntu-latest, py3.13)",completed,failure,2026-06-21T15:19:48Z,2026-06-21T15:30:38Z,650,d33ec961a70c387589387a403dc20de205be9de9
+82562989314,27901680135,INT yobx,"yobx (ubuntu-latest, py3.13)",completed,failure,2026-06-21T10:38:18Z,2026-06-21T10:49:00Z,642,fe7f3747ac91466da43fda36aee6b8320a96531b
+82704137082,27949964823,INT yobx,"yobx (ubuntu-latest, py3.13)",completed,failure,2026-06-22T11:40:05Z,2026-06-22T11:51:34Z,689,85cc2c3e6cc7dcf6e64f0991b649ff1418205385
+82720989884,27954991675,INT yobx,"yobx (ubuntu-latest, py3.13)",completed,failure,2026-06-22T13:08:11Z,2026-06-22T13:19:42Z,691,a6d92aa55db3fd0c464c814a5efcfdd7c47c0787
+83427410942,28168798694,INT yobx,"yobx (ubuntu-latest, py3.13)",completed,failure,2026-06-25T12:05:16Z,2026-06-25T12:16:51Z,695,bc4338eabadea6018dae8596ec270233c3456232
+83646281208,28234600620,INT yobx,"yobx (ubuntu-latest, py3.13)",completed,failure,2026-06-26T11:16:08Z,2026-06-26T11:28:13Z,725,6cc382d60ed78a1a9f97d1a02381370b414e8ea1

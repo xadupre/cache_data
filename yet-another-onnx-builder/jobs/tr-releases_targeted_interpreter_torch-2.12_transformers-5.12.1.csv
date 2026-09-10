@@ -1,0 +1,6 @@
+job_id,run_id,workflow,job_name,status,conclusion,started_at,completed_at,duration_seconds,head_sha
+85990186264,28964051015,ci-9-transformers,"tr-releases targeted (interpreter, torch-2.12, transformers-5.12.1)",completed,failure,2026-07-08T22:09:31Z,2026-07-08T22:13:59Z,268,88ec2e8aa4e7911039b5ca581978600d2c795395
+85989010088,28963810325,ci-9-transformers,"tr-releases targeted (interpreter, torch-2.12, transformers-5.12.1)",completed,failure,2026-07-08T21:43:21Z,2026-07-08T21:46:57Z,216,01b0811e2d0cfa1e3556c92e7495c5a51c64b669
+85989631917,28963636094,ci-9-transformers,"tr-releases targeted (interpreter, torch-2.12, transformers-5.12.1)",completed,success,2026-07-08T21:48:34Z,2026-07-08T21:52:50Z,256,b4647998318ab5f8f53b08b7ea9553047562b0b9
+85991027160,28963444946,ci-9-transformers,"tr-releases targeted (interpreter, torch-2.12, transformers-5.12.1)",completed,success,2026-07-08T22:03:44Z,2026-07-08T22:08:09Z,265,a054f10c2c3a76b0cb6824d7ddb8055caa547259
+85989540134,28963368442,ci-9-transformers,"tr-releases targeted (interpreter, torch-2.12, transformers-5.12.1)",completed,success,2026-07-08T21:53:41Z,2026-07-08T21:58:05Z,264,4010b16ce4ab02205d73d1b67f99f7555d0129d3

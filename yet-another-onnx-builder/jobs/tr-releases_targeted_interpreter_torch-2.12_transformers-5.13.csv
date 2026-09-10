@@ -1,0 +1,10 @@
+job_id,run_id,workflow,job_name,status,conclusion,started_at,completed_at,duration_seconds,head_sha
+86191072132,29038052622,ci-9-transformers,"tr-releases targeted (interpreter, torch-2.12, transformers-5.13)",completed,success,2026-07-09T17:59:48Z,2026-07-09T18:04:15Z,267,b5455392b4fedddb0be77fdce48c1e882487911b
+86163356592,29029290672,ci-9-transformers,"tr-releases targeted (interpreter, torch-2.12, transformers-5.13)",completed,success,2026-07-09T15:58:43Z,2026-07-09T16:03:07Z,264,c11546e82ca2a472bd226a521163a16b65a265c0
+86161904299,29028761310,ci-9-transformers,"tr-releases targeted (interpreter, torch-2.12, transformers-5.13)",completed,failure,2026-07-09T15:46:01Z,2026-07-09T15:50:20Z,259,06a1fef0fddbbf6eac77ec257f6fad33ca9836b8
+86164966260,29028529463,ci-9-transformers,"tr-releases targeted (interpreter, torch-2.12, transformers-5.13)",completed,success,2026-07-09T16:01:55Z,2026-07-09T16:06:12Z,257,7f06ec67a2592d00b0e5de3229df23a6f8b18a88
+86146573497,29023087153,ci-9-transformers,"tr-releases targeted (interpreter, torch-2.12, transformers-5.13)",completed,failure,2026-07-09T14:39:12Z,2026-07-09T14:43:13Z,241,2632993cf309604b7122c8282ed367dea4802105
+86141215256,29023073643,ci-9-transformers,"tr-releases targeted (interpreter, torch-2.12, transformers-5.13)",completed,success,2026-07-09T14:32:00Z,2026-07-09T14:36:20Z,260,557f1dd39f42504bda68bc8d8a9453fa8569a6f5
+86140552112,29023061569,ci-9-transformers,"tr-releases targeted (interpreter, torch-2.12, transformers-5.13)",completed,failure,2026-07-09T14:24:48Z,2026-07-09T14:29:06Z,258,64490ed837e4219976d2e50d4efeff673eeaaaa4
+86136052444,29023048786,ci-9-transformers,"tr-releases targeted (interpreter, torch-2.12, transformers-5.13)",completed,success,2026-07-09T14:04:21Z,2026-07-09T14:08:40Z,259,c080a6c68e943068b20762d8d54752f4d00df61f
+86136963010,29023036146,ci-9-transformers,"tr-releases targeted (interpreter, torch-2.12, transformers-5.13)",completed,success,2026-07-09T14:04:41Z,2026-07-09T14:09:15Z,274,7e5438a8a06b606ac366814bdbc7f0efd3d518a6

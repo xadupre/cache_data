@@ -1,0 +1,6 @@
+job_id,run_id,workflow,job_name,status,conclusion,started_at,completed_at,duration_seconds,head_sha
+75534032819,25724605295,Create Releases,call-mac / build (cp313t-macosx_universal2),completed,success,2026-05-12T09:04:53Z,2026-05-12T09:21:48Z,1015,92b94eaa650aadfa2593da1f5e8c9b14f73ac1e9
+75378561632,25677245057,Create Releases,call-mac / build (cp313t-macosx_universal2),completed,success,2026-05-11T14:44:10Z,2026-05-11T14:58:36Z,866,ff0ea58a4933d40734e653045fc81eb2224dc557
+75374529105,25676133611,Create Releases,call-mac / build (cp313t-macosx_universal2),completed,failure,2026-05-11T14:24:53Z,2026-05-11T14:25:03Z,10,b9a4f549e9a212beb04754981b4c997f9d20a7ef
+75372825021,25675706076,Create Releases,call-mac / build (cp313t-macosx_universal2),completed,cancelled,2026-05-11T14:15:57Z,2026-05-11T14:15:58Z,1,e92c5ee552a2cf880ec84ab6ada2691c3cbd8039
+75372176069,25674481644,Create Releases,call-mac / build (cp313t-macosx_universal2),completed,cancelled,2026-05-11T14:12:30Z,2026-05-11T14:12:31Z,1,0bf8591cfcb1aa4e664f4fdd835e57c8c5576771

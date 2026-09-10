@@ -1,0 +1,4 @@
+job_id,run_id,workflow,job_name,status,conclusion,started_at,completed_at,duration_seconds,head_sha
+78742291180,26718897282,Pixi CI,Install and lint,completed,failure,2026-05-31T17:03:43Z,2026-05-31T17:11:53Z,490,9d886fb165b5f4a7ab8ffbb251d25382ac1ba077
+78810672031,26742794867,Pixi CI,Install and lint,completed,success,2026-06-01T08:04:31Z,2026-06-01T08:11:12Z,401,2ec30405a01c876b0ff9a6c6a1b99dfe08dbe007
+78803685724,26740669293,Pixi CI,Install and lint,completed,success,2026-06-01T07:14:04Z,2026-06-01T07:21:56Z,472,ae50b28fd676498e08bc900a60d6bff6b8943f70

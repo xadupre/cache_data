@@ -1,0 +1,4 @@
+job_id,run_id,workflow,job_name,status,conclusion,started_at,completed_at,duration_seconds,head_sha
+83202046863,28100184913,ci-2-scikit-learn,"sklearn targeted (xgboost, sklearn-1.4)",completed,success,2026-06-24T13:22:07Z,2026-06-24T13:23:11Z,64,8620cffb4a3fcbd9af999c795bccfac3677f9e3e
+82954350441,28026015214,ci-2-scikit-learn,"sklearn targeted (xgboost, sklearn-1.4)",completed,success,2026-06-23T12:54:47Z,2026-06-23T12:55:40Z,53,6400d32e41b0af3a14942903f0bb026dd994f088
+82900815090,28009827894,ci-2-scikit-learn,"sklearn targeted (xgboost, sklearn-1.4)",completed,success,2026-06-23T07:33:56Z,2026-06-23T07:35:01Z,65,cf4cd958784b8499638bb32337219d57bfb9a36f

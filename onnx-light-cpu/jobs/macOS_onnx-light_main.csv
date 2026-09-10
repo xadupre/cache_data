@@ -1,0 +1,2 @@
+job_id,run_id,workflow,job_name,status,conclusion,started_at,completed_at,duration_seconds,head_sha
+96143720441,32258973090,ci-core,macOS + onnx-light main,completed,failure,2026-08-19T16:28:15Z,2026-08-19T17:00:23Z,1928,484c0eb5520cc7d9e6013f9c032234779b2ce52b

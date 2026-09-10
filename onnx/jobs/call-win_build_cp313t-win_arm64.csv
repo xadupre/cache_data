@@ -1,0 +1,6 @@
+job_id,run_id,workflow,job_name,status,conclusion,started_at,completed_at,duration_seconds,head_sha
+75534032979,25724605295,Create Releases,call-win / build (cp313t-win_arm64),completed,success,2026-05-12T09:04:56Z,2026-05-12T09:21:19Z,983,92b94eaa650aadfa2593da1f5e8c9b14f73ac1e9
+75378561677,25677245057,Create Releases,call-win / build (cp313t-win_arm64),completed,success,2026-05-11T14:44:10Z,2026-05-11T15:00:38Z,988,ff0ea58a4933d40734e653045fc81eb2224dc557
+75374529147,25676133611,Create Releases,call-win / build (cp313t-win_arm64),completed,success,2026-05-11T14:24:53Z,2026-05-11T14:42:23Z,1050,b9a4f549e9a212beb04754981b4c997f9d20a7ef
+75372825243,25675706076,Create Releases,call-win / build (cp313t-win_arm64),completed,cancelled,2026-05-11T14:15:57Z,2026-05-11T14:15:58Z,1,e92c5ee552a2cf880ec84ab6ada2691c3cbd8039
+75372177173,25674481644,Create Releases,call-win / build (cp313t-win_arm64),completed,success,2026-05-11T13:53:11Z,2026-05-11T14:10:03Z,1012,0bf8591cfcb1aa4e664f4fdd835e57c8c5576771

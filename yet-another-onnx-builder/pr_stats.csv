@@ -1,0 +1,261 @@
+pr_number,title,author,merged_at,commits,comments,copilot_comments,copilot_commits
+2259,[yobx/torch] Fix AtenCumprod evaluation case for default exporter,Copilot,2026-05-28T19:42:30Z,4,6,2,4
+2267,Remove CI job durations documentation page,Copilot,2026-05-28T19:21:16Z,2,1,0,2
+2265,"Remove ""Weekly Progress Since the Start"" docs page",Copilot,2026-05-27T22:53:11Z,2,1,0,2
+2261,[yobx/torch] Enable dynamic-shape default export for InplaceSetItemExp,Copilot,2026-05-27T22:26:57Z,2,2,0,2
+2263,Track style/docs/typing workflows on the CI Durations page,Copilot,2026-05-27T22:26:12Z,2,1,0,2
+2257,Update documentation links to xadupre.github.io,Copilot,2026-05-27T13:05:50Z,2,1,0,2
+2247,[yobx/torch] Add tiny GraniteMoeHybrid model and pin current `to_onnx` failure,Copilot,2026-05-27T11:05:38Z,6,8,3,5
+2253,[yobx/torch] Add aten_cumprod converter and eval case,Copilot,2026-05-27T09:20:46Z,3,6,2,3
+2255,"CI: drop transformers 4.55, 5.2, 5.5 from CI matrix",Copilot,2026-05-27T09:16:51Z,2,2,0,2
+2249,[yobx/torch] Lower x.max/x.min/x.topk to a single TopK in the tracing path,Copilot,2026-05-27T08:44:31Z,2,4,1,2
+2243,[yobx/torch] Fix avg_pool ceil_mode + count_include_pad divergence at opset < 19,Copilot,2026-05-27T08:43:52Z,2,2,0,2
+2235,Fix `validate --config-override` and text-only model selection for multimodal configs,Copilot,2026-05-27T08:14:05Z,6,10,4,5
+2251,[yobx/reference] Add Resize_18 kernel (with antialias) to TorchReferenceEvaluator,Copilot,2026-05-27T08:12:07Z,2,2,0,2
+2241,Support QuantizeLinear/DequantizeLinear emitted via torch.onnx.ops.symbolic,Copilot,2026-05-27T08:09:02Z,2,2,0,2
+2245,"[yobx/torch] Add aten._upsample_{bilinear,bicubic}2d_aa converters",Copilot,2026-05-27T07:16:48Z,2,2,0,2
+2237,Add Python-API unit test mirroring `yobx validate` CLI invocation,Copilot,2026-05-27T06:34:53Z,4,5,2,4
+2239,[yobx/torch] Use `dtype` kwarg with transformers,Copilot,2026-05-27T06:21:53Z,4,6,2,4
+2233,Bump transformers 5.8.1 → 5.9.0 in CI,Copilot,2026-05-26T20:25:08Z,3,3,1,3
+2207,"Add `torch.istft` export support across DEFAULT, TRACING, and NEW_TRACING paths",Copilot,2026-05-26T18:56:44Z,3,4,1,3
+2230,[yobx/torch] Fixes,xadupre,2026-05-22T16:40:52Z,5,2,0,0
+2229,[yobx/sql] Accept numpy string dtypes in `yobx.sql.to_onnx`,Copilot,2026-05-22T13:50:22Z,2,2,0,2
+2227,[yobx/helpers] Fix `patches_involved_in_graph` crash on nodes from yobx user code,Copilot,2026-05-22T13:12:35Z,3,4,1,3
+2217,"Add SQL conversion how-to with explicit Polars, JOIN, WHERE, and GROUP BY coverage",Copilot,2026-05-22T08:52:48Z,7,13,6,7
+2223,"Add Torch conversion how-to covering FX capture modes, official exporter routing, and export report stats",Copilot,2026-05-22T08:52:59Z,7,19,9,7
+2225,[yobx/torch] Add how-to page on patches for PyTorch export,Copilot,2026-05-22T08:29:49Z,4,6,2,4
+2221,Add JAX model conversion How-To page and wire it into docs navigation,Copilot,2026-05-22T07:43:40Z,3,3,1,3
+2215,Add how-to page for shape inference,Copilot,2026-05-21T22:49:34Z,4,5,2,4
+2219,Add TensorFlow/Keras conversion how-to page,Copilot,2026-05-21T22:08:59Z,2,1,0,2
+2213,docs: add how-to page for optimizing an existing ONNX model,Copilot,2026-05-21T18:05:26Z,7,11,5,7
+2209,Suppress `toc.excluded` warnings for docs builds with intentionally excluded pages,Copilot,2026-05-21T14:53:40Z,2,1,0,2
+2196,Add `_scaled_mm` / `_scaled_mm_v2` export support and fix float8 cast saturation in the torch reference evaluator,Copilot,2026-05-21T14:11:00Z,7,12,5,7
+2205,Add DataFrame-function ONNX how-to and sklearn pipeline integration guide,Copilot,2026-05-21T14:10:30Z,5,7,3,5
+2206,"[yobx/torch] Add bitwise AND/OR export parity across DEFAULT, TRACING, and NEW_TRACING",Copilot,2026-05-21T12:49:00Z,2,2,0,2
+2203,"[yobx/torch] Add bitwise left/right shift export support across default, tracing, and new tracing",Copilot,2026-05-21T11:41:38Z,2,2,0,2
+2202,Add NumPy export How-To and align scikit-learn How-To model display,Copilot,2026-05-21T10:48:13Z,5,9,4,5
+2200,"[yobx/torch] Add bitwise_xor export support for default, tracing, and new tracing",Copilot,2026-05-21T10:18:32Z,3,4,1,3
+2199,[yobx/torch] Add unary `~x` bitwise_not export support for tracing modes,Copilot,2026-05-21T09:40:43Z,2,2,0,2
+2198,"docs: add How-To section, starting with scikit-learn",Copilot,2026-05-21T09:14:58Z,5,7,3,5
+2188,"[yobx/torch] Add `torch.bincount` export support for default, tracing, and NEW_TRACING paths",Copilot,2026-05-20T21:22:07Z,2,2,0,2
+2186,[yobx/torch] fix documentation issues by bypassing a file,xadupre,2026-05-20T14:40:21Z,4,6,2,2
+2185,[yobx/torch] Fix Tiny-LLM default+onnxruntime export type collision on tuple getitem outputs,Copilot,2026-05-20T12:17:56Z,3,4,1,3
+2183,[yobx/helpers] Fixes5,xadupre,2026-05-19T14:49:51Z,2,2,0,0
+2180,[yobx/torch] Add `addcmul` support for tracing and new-tracing export paths,Copilot,2026-05-19T13:06:55Z,2,2,0,2
+2182,[yobx/torch] Add new-tracing support path for `nn.functional.soft_margin_loss`,Copilot,2026-05-19T12:42:22Z,2,2,0,2
+2178,Move docs coverage pages into docs/coverage/ subfolder,Copilot,2026-05-19T12:42:05Z,3,3,1,3
+2176,[yobx/sklearn] Handle calibrated pipeline sigmoid export for non-linear binary estimators,Copilot,2026-05-19T11:51:58Z,2,2,0,2
+2172,Commits-per-week: render cached data on API failure and show cache fetch timestamp,Copilot,2026-05-19T08:42:04Z,2,1,0,2
+2170,"Remove ""5 Longest Pages to Generate"" documentation page",Copilot,2026-05-19T08:36:31Z,2,1,0,2
+2174,Remove log scale from CI Job Durations y-axis,Copilot,2026-05-19T08:35:35Z,2,1,0,2
+2167,docs: add protocol API links to GraphBuilder design page,Copilot,2026-05-16T10:03:32Z,2,1,0,2
+2165,Docs: introduce simplified Einsum decomposition approach and contrast with numpy strategy,Copilot,2026-05-16T10:03:46Z,2,1,0,2
+2163,[yobx/torch] tinyllm-float16,xadupre,2026-05-15T09:58:11Z,1,2,0,0
+2161,merge pages,xadupre,2026-05-15T08:30:03Z,4,3,1,1
+2160,"Add docs pages for mermaid, stats, and validate command lines",Copilot,2026-05-15T08:22:54Z,3,3,1,3
+2158,Add transformers 5.8.1 coverage to release CI workflow,Copilot,2026-05-14T13:20:12Z,3,3,1,3
+2153,[yobx/torch] Support NEW_TRACING argsort export by handling aten.sort / aten.sort.stable,Copilot,2026-05-14T12:12:35Z,8,4,1,8
+2156,Expand Tiny-LLM ORT discrepancy coverage for `default+onnxruntime` export path,Copilot,2026-05-14T12:12:11Z,3,1,0,3
+2154,"[yobx/torch] Support casting for double, float, byte, bool in new tracing",Copilot,2026-05-14T11:18:44Z,2,2,0,2
+2152,[yobx/torch] Support `torch.isclose` / `torch.isfinite` in NEW_TRACING export by normalizing inplace bitwise ATen ops,Copilot,2026-05-14T09:35:32Z,2,2,0,2
+2151,"[yobx/torch] Add new-tracing support for `torch.tensor_split(..., TracingInt)` sections",Copilot,2026-05-14T09:35:05Z,6,2,0,6
+1769,[yobx/torch] fix ControlFlowScanDecomposition_151564 for torch tracing,Copilot,2026-05-14T08:36:18Z,11,14,6,9
+2146,Harden commits-per-week docs cache handling against malformed cache/API data,Copilot,2026-05-14T07:06:51Z,2,1,0,2
+2150,[yobx/xoptim] Comment out FusedMatMulActivationPattern from default ORT pattern list,Copilot,2026-05-13T22:00:03Z,4,6,2,4
+2148,[yobx/torch] Stabilize reduced-precision torch op coverage expectations (float16/bfloat16),Copilot,2026-05-13T21:29:27Z,2,2,0,2
+2144,Switch CI job durations graph to logarithmic y-axis,Copilot,2026-05-13T18:21:55Z,2,1,0,2
+2142,[yobx/torch] Support nn.functional.bilinear in new-tracing export path,Copilot,2026-05-12T16:42:01Z,11,18,8,11
+2141,[yobx/xoptim] Disable GemmFastGeluPattern by default,Copilot,2026-05-12T09:10:56Z,4,6,2,4
+2139,[yobx/torch] Support `nanmean` in new tracing export,Copilot,2026-05-12T09:15:09Z,11,8,3,11
+2138,[yobx/torch] Support InplaceSetItemExp with the default (torch.export) exporter,Copilot,2026-05-11T14:51:02Z,4,4,1,4
+2127,[yobx/torch] fix DynamicCacheInput for yobx-tracing,Copilot,2026-05-07T11:04:22Z,10,14,6,10
+2130,[yobx/torch] Support ControlFlowScanDecomposition_151564 with new tracing,Copilot,2026-05-07T08:40:01Z,9,9,3,9
+2129,[yobx/torch] Fix DynamicCacheInput for the new tracing,Copilot,2026-05-06T12:45:20Z,5,8,3,5
+2128,[yobx/torch] fix CropLastDimensionWithTensorContent for the new tracing,Copilot,2026-05-06T10:51:50Z,3,2,0,3
+2126,[yobx/torch] fix VmapPython for the new tracing,Copilot,2026-05-06T09:35:46Z,3,4,1,3
+2117,Fix gallery example so the mermaid diagram actually renders,Copilot,2026-05-06T08:54:28Z,6,8,4,6
+2125,[yobx/torch] fix ControlFlowNumelZero4 for CustomTracer (yobx-tracing),Copilot,2026-05-06T08:46:32Z,3,2,0,3
+2109,[yobx/torch] fix aten_slice_Tensor crash when start=None and end is a dynamic dimension,Copilot,2026-05-06T08:14:35Z,2,2,0,2
+2111,plot_einsum_cost_comparison: switch all figures to single-column layout,Copilot,2026-05-06T08:14:13Z,2,1,0,2
+2115,[yobx/translate] Fix Mermaid edge visibility in dark theme,Copilot,2026-05-06T08:13:55Z,2,2,0,2
+2119,Improve documentation for main `to_onnx` function,Copilot,2026-05-06T08:12:06Z,3,1,0,3
+2108,[yobx/torch] support ControlFlowCondConstant with the new-tracing,Copilot,2026-05-05T21:40:55Z,3,2,0,3
+2096,[yobx/torch] improve example,xadupre,2026-05-05T21:19:59Z,11,4,1,2
+2107,Add tests verifying both einsum decompositions work with symbolic shapes,Copilot,2026-05-05T16:29:44Z,2,1,0,2
+2100,"[yobx/xoptim] Add GatherShapePattern: simplify Gather(Shape(X), contiguous_range) → Shape(X, start=s, end=e)",Copilot,2026-05-05T16:17:45Z,14,18,8,12
+2101,[yobx/torch] Support ControlFlowNumelZero5 with the new tracing,Copilot,2026-05-05T16:16:55Z,8,12,5,8
+2086,Add `to_mermaid` helper function for ONNX graph visualization,Copilot,2026-05-05T15:45:53Z,34,43,23,20
+2105,"[yobx/xoptim] Add GatherConcatPattern: simplify Gather(Concat(…, X, …, axis=0), cst1) → Gather(X, cst2)",Copilot,2026-05-05T14:56:28Z,4,4,1,4
+2103,"[yobx/xoptim] Add GatherGatherPattern: simplify Gather(Gather(X, cst1), cst2) → Gather(X, cst3)",Copilot,2026-05-05T13:25:34Z,3,4,1,3
+2098,"[yobx/xoptim] Add ShapeTransposePattern: simplify Shape(Transpose(X, perm)) → Gather(Shape(X), perm)",Copilot,2026-05-05T12:05:14Z,2,2,0,2
+2095,"Add UnsqueezeShapePattern: replace Shape(Unsqueeze(X, axes)) with Concat(Shape(X) slices, [1])",Copilot,2026-05-05T11:18:35Z,13,12,5,11
+2091,[yobx/torch] Support ControlFlowNumelZero4 with the new tracing,Copilot,2026-05-05T08:13:21Z,5,8,3,5
+2093,"[yobx/xoptim] Replace Reshape(X, [0, 0, …, 0]) with Identity",Copilot,2026-05-04T13:27:30Z,5,4,1,5
+2082,Add example comparing computational cost of three einsum→ONNX strategies,Copilot,2026-05-04T13:27:00Z,29,44,21,18
+2066,Implement fusion pattern for com.microsoft.DecoderAttention,Copilot,2026-05-04T11:54:33Z,10,16,7,10
+2090,[yobx/xoptim] Add ReshapeSqueezePattern: fuse Reshape→Squeeze into single Reshape,Copilot,2026-05-04T11:18:22Z,4,2,0,4
+2088,[yobx/xoptim] Simplify consecutive Reshape nodes when shape1 is all-positive and shape2 contains zeros,Copilot,2026-05-04T11:18:07Z,2,2,0,2
+2083,[yobx/torch] Support ControlFlowNumelZero3 with new tracing: infer product nonzero from individual dimension checks,Copilot,2026-05-04T10:43:28Z,3,4,1,3
+2084,[yobx/xshape] Make all module-level functions in shape_type_compute public,Copilot,2026-05-04T09:34:40Z,3,2,0,3
+2080,Add new-tracing test for ExportWithDimension1,Copilot,2026-05-03T11:26:19Z,2,1,0,2
+2077,Add onnxruntime nightly CI jobs to ci_core and ci_transformers_releases,Copilot,2026-05-03T11:25:51Z,6,9,4,6
+2079,[yobx/helpers] Add independent 2-input einsum ONNX decomposition algorithm,Copilot,2026-05-03T10:37:49Z,7,10,4,7
+2075,[yobx/torch] Support ExportWithDimension0 with new tracing (torch.arange + symbolic dims),Copilot,2026-05-03T09:56:58Z,3,4,1,3
+2068,[yobx/helpers] plot_einsum: replace operator-list prints with graph visualizations,Copilot,2026-05-01T21:48:49Z,4,6,2,4
+2074,Add PyPI download statistics page for the ONNX ecosystem,Copilot,2026-05-01T21:48:29Z,3,3,1,3
+2063,[yobx/torch] Support InplaceSetItemEllipsis_2 with the new tracing,Copilot,2026-05-01T12:56:23Z,5,4,1,5
+2070,Add ORT numerical validation for contrib op fusion patterns,Copilot,2026-05-01T12:53:41Z,4,1,0,4
+2072,Add technical details section with einsum-to-ONNX decomposition algorithm page,Copilot,2026-05-01T12:52:37Z,2,1,0,2
+2064,fix: remove stale `_static` file before Sphinx 9.1 creates the static directory,Copilot,2026-04-30T15:22:01Z,2,1,0,2
+2065,[yobx] Suppress TensorFlow logging during documentation generation,Copilot,2026-04-30T14:26:49Z,2,2,0,2
+2062,Implement fusion pattern for com.microsoft.LinearAttention,Copilot,2026-04-30T13:26:59Z,4,4,1,4
+2059,[yobx/torch] Support InplaceSetItemExp with the new tracing,Copilot,2026-04-30T13:18:16Z,5,4,1,5
+2061,Add onnxruntime.SessionOptions and RunOptions reference documentation page,Copilot,2026-04-29T19:14:33Z,4,5,2,4
+2058,[yobx/torch] Support DynamicCacheInput with the default (yobx) exporter,Copilot,2026-04-29T17:03:32Z,2,2,0,2
+2047,[yobx/xshape] change,xadupre,2026-04-29T16:14:05Z,1,2,0,0
+2044,Add gallery example for ExtendedModelContainer,Copilot,2026-04-29T14:58:09Z,9,8,4,5
+2042,[yobx/xshape] Refactor `set_shape_type_custom`: extract per-op handlers and expose supported-ops query function,Copilot,2026-04-29T13:11:31Z,4,4,1,4
+2041,Fix [runpythonerror] appearing after RST table in case_coverage.rst,Copilot,2026-04-28T14:35:41Z,2,1,0,2
+2030,Fix nn_functional* ops for test_onnx_export_common_methods,Copilot,2026-04-28T13:42:31Z,7,14,6,7
+2039,fixdoc,xadupre,2026-04-28T13:05:13Z,1,2,0,0
+2038,Implement fusion pattern for com.microsoft.MoE,Copilot,2026-04-28T13:05:37Z,7,12,5,6
+2037,[yobx/torch] fixes,xadupre,2026-04-28T12:17:44Z,13,4,1,1
+2036,doc,xadupre,2026-04-27T08:24:11Z,1,1,0,0
+2031,Implement fusion pattern for com.microsoft.GemmaRotaryEmbedding,Copilot,2026-04-27T07:13:20Z,3,2,0,3
+2016,[yobx/helpers] Add `decompose_einsum` to replace Einsum nodes with primitive ONNX ops,Copilot,2026-04-27T06:49:13Z,20,30,18,14
+2024,[yobx/torch] Add ONNX converter for `torch.block_diag`,Copilot,2026-04-27T06:13:41Z,6,8,3,6
+2027,Add fusion pattern for com.microsoft.GreedySearch,Copilot,2026-04-27T05:38:17Z,5,6,2,5
+2020,Fix case_coverage.rst still executing in CI docs build,Copilot,2026-04-26T21:43:54Z,5,7,3,5
+2026,"docs: add ""What Copilot Could Not Do"" section to weekly_progress",Copilot,2026-04-26T21:43:17Z,5,7,3,5
+2022,Add fusion pattern for com.microsoft.EmbedLayerNormalization,Copilot,2026-04-26T19:49:07Z,5,6,2,5
+2029,Add example and tests for converting 3 consecutive joins to ONNX (pandas and polars-style),Copilot,2026-04-26T19:46:20Z,4,3,1,4
+2021,Implement fusion pattern for com.microsoft.GatedRelativePositionBias,Copilot,2026-04-26T11:41:01Z,3,2,0,3
+2023,Add ControlFlowIndirectRanksCat support in new tracing pipeline,Copilot,2026-04-26T11:39:02Z,2,1,0,2
+2018,[yobx/torch] fix ControlFlowWhile for the new tracing,Copilot,2026-04-26T05:59:56Z,4,2,0,4
+2017,Add fusion pattern for com.microsoft.FusedMatMulActivation,Copilot,2026-04-26T05:43:20Z,3,2,0,3
+2006,Add fusion patterns for com.microsoft.ComplexMul and com.microsoft.ComplexMulConj,Copilot,2026-04-25T22:34:23Z,7,12,5,7
+2015,Add commits-per-week chart to documentation with cached GitHub API data,Copilot,2026-04-25T21:43:31Z,3,3,1,3
+2013,Add fusion pattern for com.microsoft.GemmFastGelu,Copilot,2026-04-25T21:42:59Z,5,6,2,5
+2008,Implement fusion pattern for com.microsoft.CausalConvWithState,Copilot,2026-04-25T21:42:01Z,4,4,1,4
+2007,[yobx/xbuilder] Fix redundant `batch_N` dimension aliases for constrained DYN dims in ONNX output,Copilot,2026-04-25T21:41:22Z,4,4,1,4
+2005,Add weekly progress page to documentation,Copilot,2026-04-25T21:39:53Z,3,3,1,3
+2012,[yobx/helpers] Support ai.onnx.ml >= 5 TreeEnsemble in tree statistics helpers,Copilot,2026-04-25T16:34:53Z,2,2,0,2
+1996,[yobx/helpers] Add tree-ensemble statistics API (ported from onnx-extended),Copilot,2026-04-25T10:32:17Z,9,15,7,7
+2002,Track and display the 5 slowest Sphinx pages in the generated docs,Copilot,2026-04-25T10:13:15Z,2,1,0,2
+1990,validate_model: add node stats to CLI output and discrepancies sheet to xlsx report,Copilot,2026-04-25T10:10:47Z,8,11,5,7
+1998,Exclude docs/design/torch/case_coverage.rst from Sphinx build on CI,Copilot,2026-04-25T09:51:14Z,2,1,0,2
+2000,"ci_durations: filter pre-3/30 data, drop markers, orange avg line, 10-job window",Copilot,2026-04-25T08:31:34Z,2,0,0,2
+1993,[yobx/torch] Fix AssertionError: type conflict on 'rsqrt' during float16 _fused_rms_norm export,Copilot,2026-04-25T08:20:59Z,4,6,2,4
+1994,Implement fusion pattern for com.microsoft.RelativePositionBias,Copilot,2026-04-25T08:16:33Z,3,4,1,3
+1974,"[yobx/torch] Add ONNX converters for fmax, fmin, fmod (tensor variant)",Copilot,2026-04-24T16:06:43Z,4,6,2,4
+1988,Implement fusion pattern for com.microsoft.BiasSplitGelu,Copilot,2026-04-24T15:05:30Z,3,4,1,3
+1972,[yobx/torch] fix SignatureShapeAsIndex for new tracing: handle symbolic TracingInt as slice endpoint,Copilot,2026-04-24T12:07:31Z,2,2,0,2
+1971,[yobx/torch] Add tests for ControlFlowScan2Carried with new tracing (TracingMode.NEW_TRACING),Copilot,2026-04-24T10:02:48Z,5,9,4,5
+1969,Simplify CI jobs by extracting common detection logic into reusable workflows,Copilot,2026-04-23T21:36:05Z,3,3,1,3
+1970,"[yobx/torch] Add ONNX converters for linalg.det, linalg.slogdet, linalg.cross, and linalg.vecdot",Copilot,2026-04-23T16:15:09Z,3,4,1,3
+1967,Add FX-level unit test for InplaceSetItemEllipsis_1 under new tracing,Copilot,2026-04-23T12:34:47Z,2,1,0,2
+1958,[yobx/torch] Add ONNX converters for torch.frac and torch.frexp,Copilot,2026-04-23T12:05:31Z,7,6,2,5
+1965,"ci: run targeted subfolder tests first on PRs, block full suite on failure",Copilot,2026-04-23T11:28:51Z,5,11,5,5
+1963,[yobx/torch] Fix InplaceSetItemSquare for new tracing,Copilot,2026-04-23T10:29:58Z,3,2,0,3
+1966,update ci jobs,xadupre,2026-04-23T09:30:15Z,1,1,0,0
+1959,[yobx/torch] Remove count_nonzero from NO_CONVERTER_OPS,Copilot,2026-04-23T09:36:03Z,3,4,1,3
+1961,Add workflow to report impacted yobx/ subfolders in PR comments and title,Copilot,2026-04-23T09:00:24Z,2,1,0,2
+1955,fix ControlFlowCondNonZero for the new tracing (including ONNX export),Copilot,2026-04-23T08:53:23Z,8,8,4,8
+1956,Add ONNX converter for torch.geqrf (Householder QR factorization),Copilot,2026-04-22T08:48:14Z,7,5,2,7
+1957,fix CreateFromShape for the new tracing,Copilot,2026-04-22T08:20:49Z,4,3,1,4
+1944,Replace layer dicts with `XlaLayer` class in XlaCallModule converter,Copilot,2026-04-21T22:30:37Z,5,5,2,5
+1953,Add ONNX converters for fliplr and flipud,Copilot,2026-04-21T15:36:50Z,4,5,2,4
+1947,Add test coverage for ShapeBased model with new tracing,Copilot,2026-04-21T12:53:03Z,2,1,0,2
+1945,style,xadupre,2026-04-21T11:11:35Z,2,1,0,0
+1934,Add ONNX converters for torch.tensor_split,Copilot,2026-04-21T10:44:10Z,18,11,5,8
+1941,Fix tracing path for test_onnx_export_common_methods,Copilot,2026-04-21T09:50:20Z,12,9,6,4
+1939,Add eval case: DynamicCache with mixed layer types,Copilot,2026-04-20T10:52:01Z,7,9,4,6
+1940,Fix CreateFromShape for new tracing and DynamicSlidingWindowLayer tree-spec instability,Copilot,2026-04-20T08:32:52Z,7,9,4,7
+1942,guide,xadupre,2026-04-20T07:13:02Z,3,3,2,0
+1938,add more test case,xadupre,2026-04-20T06:40:30Z,2,1,0,0
+1933,Fix ControlFlowNumelZero2 for new tracing,Copilot,2026-04-20T06:16:43Z,6,10,5,6
+1930,Add DynamicCacheInput eval case using DynamicCache as direct model input and output,Copilot,2026-04-20T06:14:20Z,9,15,7,9
+1936,fix InplaceSetItemEllipsis_1 for the new tracing,Copilot,2026-04-19T18:21:55Z,4,1,0,4
+1937,Add rot90 ONNX converter and fix Slice shape inference for negative steps,Copilot,2026-04-19T18:03:03Z,3,1,0,3
+1935,Add `aten_argwhere` converter to unblock `test_onnx_export_common_methods`,Copilot,2026-04-19T11:47:52Z,3,1,0,2
+1932,Rename DynamoInterpreter to FxGraphInterpreter,Copilot,2026-04-18T21:37:20Z,2,1,0,2
+1931,Fix ShapeAndTypeBased and ShapeAndTypeAndDeviceBased evaluation cases,Copilot,2026-04-18T21:36:58Z,3,1,0,3
+1914,refactor: move getitem methods from DynamoInterpreter into _aten_getitem.py,Copilot,2026-04-18T18:04:26Z,7,7,3,6
+1929,Add float32 cross-path comparison section to op_coverage page,Copilot,2026-04-18T18:04:02Z,2,1,0,2
+1917,add more eval cases,xadupre,2026-04-18T16:02:00Z,1,1,0,0
+1916,avoid converting JAX ir.Module to string,Copilot,2026-04-18T16:01:32Z,2,1,0,2
+1908,"Fix TensorFlow tests: provide MLIR context, handle ir.Module return type, and add MLIR Python bindings parser for JAX 0.10+",Copilot,2026-04-18T11:08:47Z,25,20,11,15
+1912,comment,xadupre,2026-04-18T10:54:58Z,7,9,4,4
+1828,Apply full inplace-op postprocessing in NEW_TRACING export path,xadupre,2026-04-09T08:34:47Z,3,5,2,2
+1738,Isolate op_db export tests into dedicated latest-torch CI job,Copilot,2026-04-06T08:01:22Z,2,0,0,2
+1727,add more eval case,xadupre,2026-04-05T16:16:16Z,1,1,0,0
+1724,Replace `tracing: bool` with `TracingMode` enum in `ExportOptions`,Copilot,2026-04-05T15:18:09Z,3,1,0,2
+1708,use transformers==5.5 instead of 5.3,xadupre,2026-04-03T06:09:01Z,4,1,0,0
+1679,Fix InplaceSetItemSquare* examples with CustomTracer (yobx-tracing exporter),Copilot,2026-04-01T14:45:47Z,2,3,1,2
+1618,check removal,xadupre,2026-03-29T09:35:50Z,7,5,2,2
+1604,Extend plot_computed_shapes.py: show constraint registration when output shapes declare dimension names (NonZero),Copilot,2026-03-28T15:55:22Z,14,15,7,8
+1909,Add ONNX converter for `torch.true_divide`,Copilot,2026-04-17T16:15:22Z,4,1,0,2
+1910,Add ONNX converter for torch.float_power,Copilot,2026-04-17T15:14:09Z,3,1,0,2
+1903,Add aten_diag and aten_diag_embed ONNX converters; remove from NO_CONVERTER_OPS,Copilot,2026-04-17T14:57:01Z,6,9,4,6
+1904,Add `signbit` ONNX converter to enable test_onnx_export_common_methods coverage,Copilot,2026-04-17T07:29:02Z,6,7,3,6
+1906,Add TinyLLM as a model eval case,Copilot,2026-04-17T07:28:41Z,3,3,1,3
+1901,Fix ControlFlowShapeCheck for yobx-new-tracing,Copilot,2026-04-16T19:50:16Z,4,3,1,4
+1902,Add aten_heaviside converter for ONNX export,Copilot,2026-04-16T19:29:07Z,3,1,0,2
+1898,Fix `ControlFlowNumelZero1` new-tracing support while preserving the example,Copilot,2026-04-15T22:18:00Z,15,9,4,15
+1900,Add ONNX converters for `aten::mT` and `aten::mH`,Copilot,2026-04-15T22:16:21Z,4,3,1,3
+1899,Fix inplace ATen ops in GraphTracer for new-tracing mode,Copilot,2026-04-15T21:18:44Z,2,1,0,2
+1891,Adjust `ControlFlowCondConstant` constants to use `x.device`,Copilot,2026-04-15T20:06:10Z,3,3,1,3
+1889,Fix new-tracing dynamic-shape flattening for `BuildInIsInstance`,Copilot,2026-04-15T18:23:05Z,2,1,0,2
+1897,Store CI duration cache as per-workflow CSV files,Copilot,2026-04-15T18:21:24Z,2,1,0,2
+1887,investigate pattern issues,xadupre,2026-04-14T17:47:46Z,33,4,1,20
+1886,docs(ci_durations): cache workflow run data in user cache with 14-day refresh,Copilot,2026-04-13T21:59:06Z,8,7,3,8
+1867,Support `torch.autocast(enabled=True)` in ONNX export,Copilot,2026-04-13T21:07:08Z,28,23,11,18
+1881,Add missing new-tracing eval coverage for ControlFlowScan,Copilot,2026-04-12T19:51:59Z,3,3,1,3
+1879,Add eval coverage for while-loop control-flow model case,Copilot,2026-04-12T11:26:10Z,4,3,1,3
+1884,documentation,xadupre,2026-04-12T11:25:35Z,1,1,0,0
+1873,Make `get_op_coverage_rst` method-specific and render coverage docs as three explicit sections,Copilot,2026-04-12T10:26:45Z,7,3,1,7
+1883,CI docs: exclude `design/torch/case_coverage.rst` from default `docs.yml` build,Copilot,2026-04-12T10:24:59Z,4,1,0,4
+1877,Fix broken `polars.LazyFrame` links on main docs page,Copilot,2026-04-12T09:28:55Z,5,5,2,5
+1875,Make new-tracing ControlFlow (`torch.cond`) codegen-safe by using callable `get_attr` nodes,Copilot,2026-04-12T08:11:21Z,2,1,0,2
+1871,Add op-db common-method export coverage for `new-tracing` and update coverage docs,Copilot,2026-04-11T21:20:40Z,26,7,3,16
+1869,Add new-tracing scan coverage case and surface new-tracing in torch coverage docs,Copilot,2026-04-11T14:14:34Z,2,1,0,2
+1865,Add torch-tracing variant of op-db coverage tests,Copilot,2026-04-11T10:55:30Z,14,11,5,7
+1841,Add `aten_addr` ONNX converter to enable `torch.addr` export,Copilot,2026-04-10T14:48:17Z,5,1,0,2
+1849,Add ONNX converters for fft.fftshift and fft.ifftshift,Copilot,2026-04-10T14:26:09Z,5,3,1,5
+1843,Add `aten_alias_copy` ONNX converter,Copilot,2026-04-10T13:57:32Z,2,1,0,2
+1832,Add ONNX converter for `exp2` (torch.exp2 / 2^x),Copilot,2026-04-10T13:29:06Z,7,5,2,4
+2269,[yobx/torch] Support image-classification models in the validate CLI,Copilot,2026-05-28T21:53:16Z,6,12,5,6
+2283,[yobx/xoptim] Switch Transpose and Gather in TransposeGatherPattern when transpose cannot be removed,Copilot,2026-06-03T11:23:53Z,2,2,0,2
+2278,Enable transformers' built-in ONNX-export flags in `yobx validate`,Copilot,2026-06-03T10:21:22Z,10,8,3,5
+2274,[yobx/torch] Rewrite aten.clamp_ to non-inplace clamp in CustomTracer,Copilot,2026-06-02T09:25:14Z,2,2,0,2
+2272,[yobx/torch] Add feature-extraction task to `validate` for bare-encoder models (funnel-transformer/small-base),Copilot,2026-06-02T09:18:00Z,3,4,1,3
+2276,[yobx/xshape] Use stash_type for LayerNormalization-family aux output types,Copilot,2026-06-02T09:17:04Z,2,2,0,2
+2270,[yobx/torch] remove unnecessary assert,xadupre,2026-06-01T12:30:10Z,1,2,0,0
+2281,[yobx/torch] failing tests,xadupre,2026-06-03T13:56:35Z,7,14,6,6
+2284,[yobx/torch] fix,xadupre,2026-06-03T16:07:31Z,1,2,0,0
+2286,[yobx] Switch CI transformers 5.x pin to 5.12.1,Copilot,2026-06-17T15:59:48Z,5,8,3,5
+2291,[yobx/sklearn] Add ONNX converter for category_encoders BaseNEncoder,Copilot,2026-06-19T16:59:12Z,2,2,0,2
+2289,[yobx] Switch to onnx_light when USE_OPTIM_ONNX=1,Copilot,2026-06-19T13:17:25Z,8,14,6,8
+2287,[yobx/torch] fix validate_model atol/rtol support,xadupre,2026-06-19T08:53:20Z,9,8,3,3
+2309,[yobx/torch] Fix AttributeError in `_apply_config_override` for missing dotted-path sub-configs,Copilot,2026-06-24T15:20:39Z,3,6,2,3
+2305,"Add Perpetual sklearn support (converters, coverage/docs, dedicated CI)",Copilot,2026-06-24T14:53:33Z,5,8,3,5
+2307,[yobx/sklearn] Support multi-output XGBoost regressor conversion,Copilot,2026-06-24T13:34:51Z,2,2,0,2
+2303,"[yobx/torch] Add ""mbext"" exporter to validate_model",Copilot,2026-06-23T17:11:52Z,7,10,4,6
+2301,Bump CI PyTorch from 2.11.0 to 2.12.1,Copilot,2026-06-23T14:05:10Z,4,1,0,2
+2295,[yobx/sklearn] Support XGBRegressor binary:logistic objective in XGBoost ONNX converter,Copilot,2026-06-23T13:29:59Z,3,2,0,2
+2293,Add --atol/--rtol options to `validate` and default atol to 1e-3 for float32,Copilot,2026-06-23T13:05:40Z,4,4,1,3
+2297,Fix degenerate attention mask in GQA no-rotary reference tests and bfloat16 crash on Windows CI,Copilot,2026-06-23T12:24:26Z,4,5,2,4
+2350,[yobx/torch] Add YobxOnnxExporter tests with DynamicCache and dynamic shapes,Copilot,2026-07-10T22:00:59Z,6,9,3,6
+2348,Disable Codecov project and patch status gating while keeping coverage uploads,Copilot,2026-07-10T16:12:35Z,3,3,1,3
+2346,[yobx/xshape] fix one assert,xadupre,2026-07-10T14:44:23Z,1,2,0,0
+2345,[yobx/torch] Add YobxOnnxExporter: transformers OnnxExporter subclass backed by yobx converter,Copilot,2026-07-10T12:31:31Z,9,17,7,9
+2321,[yobx/torch] Port onnxscript PR #2921: memory-efficient bincount and correct multi-dimensional index_put bool mask,Copilot,2026-07-09T20:57:48Z,5,6,2,4
+2319,[yobx/torch] Fix `aten::as_strided` lowering for overlapping stride/view semantics,Copilot,2026-07-09T17:38:10Z,4,4,1,3
+2317,[yobx/torch] Add direct ONNX converters for pixel_unshuffle and pixel_shuffle,Copilot,2026-07-09T17:35:17Z,4,4,1,3
+2323,[yobx/builder] Forward node names through OnnxScriptGraphBuilder to call_op (onnxscript PR #2858),Copilot,2026-07-09T15:25:42Z,3,2,0,2
+2314,[yobx/torch] Add scalar-tensor remainder support for torch padding export,Copilot,2026-07-09T15:25:20Z,3,2,0,2
+2315,Add regression test for torchvision.deform_conv2d dynamo export (DeformConv),Copilot,2026-07-09T15:10:30Z,3,1,0,2
+2313,Add `irfft2` export support via custom complex ops and cover with regression test,Copilot,2026-07-09T14:56:55Z,3,2,0,2
+2325,[yobx/sklearn] Add scikit-learn 1.9 support: CI matrix + GPR float32 precision fix,Copilot,2026-07-09T13:51:10Z,12,6,2,9
+2353,Increase Documentation workflow timeout to 60 minutes,Copilot,2026-08-18T16:08:17Z,2,1,0,2
+2351,[yobx/sql] Fix Polars and JAX compatibility CI failures,xadupre,2026-08-18T14:52:36Z,2,4,1,1
