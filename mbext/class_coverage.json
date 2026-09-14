@@ -894,6 +894,14 @@
       "in_mbext": true,
       "in_ort_genai": false,
       "mbext_files": [
+        "modelbuilder/builders/base.py"
+      ],
+      "name": "SourceTensor"
+    },
+    {
+      "in_mbext": true,
+      "in_ort_genai": false,
+      "mbext_files": [
         "modelbuilder/architectures.py"
       ],
       "name": "SupportedArchitecture"
@@ -1021,17 +1029,17 @@
       "name": "_Branch"
     }
   ],
-  "date": "2026-09-07T13:36:19Z",
+  "date": "2026-09-14T14:11:58Z",
   "projects": {
     "mbext": {
-      "commit": "f5a79ce0fe2555172d4f3b4734d9a3e25774bcf8",
+      "commit": "84f9e6c89a1f861a7bddc3ed8ca6021e834c4d9e",
       "owner": "xadupre",
       "path": "modelbuilder",
       "ref": "main",
       "repo": "mbext"
     },
     "ort_genai": {
-      "commit": "649248d566ada49c9cd426414e73a3fa36173c89",
+      "commit": "7f154b84a7fe84613d256acd05b0a3e3bab5cc52",
       "owner": "microsoft",
       "path": "src/python/py/models",
       "ref": "main",
@@ -1039,7 +1047,7 @@
     }
   },
   "totals": {
-    "mbext": 70,
+    "mbext": 71,
     "ort_genai": 80
   }
 }
