@@ -1,0 +1,2 @@
+job_id,run_id,workflow,job_name,status,conclusion,started_at,completed_at,duration_seconds,head_sha
+101895389708,34172506940,Test source distribution build,"test_sdist (windows-latest, 3.13)",completed,success,2026-09-08T00:11:25Z,2026-09-08T00:34:55Z,1410,5e5fedc04d4500f576b1e8f5fe2c5213e8f751e0

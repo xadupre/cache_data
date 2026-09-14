@@ -34,3 +34,10 @@ job_id,run_id,workflow,job_name,status,conclusion,started_at,completed_at,durati
 96344881746,32342713414,Build C++ Release,cpp (macos-universal2),completed,failure,2026-08-20T07:09:34Z,2026-08-20T07:09:56Z,22,83e5797d16a9f1bc76bca8bbb9e61356b63883de
 97359765685,32703530946,Build C++ Release,cpp (macos-universal2),completed,failure,2026-08-24T07:52:49Z,2026-08-24T07:53:12Z,23,5d81e80b52f0caa82ad14301239316fc257c80d6
 99301080410,33327857974,Build C++ Release,cpp (macos-universal2),completed,failure,2026-08-30T18:22:01Z,2026-08-30T18:24:27Z,146,9257c634480dc444b5288f6df25a5e44cf0bf714
+102465895936,34351581755,Build C++ Release,cpp (macos-universal2),completed,success,2026-09-09T12:32:19Z,2026-09-09T13:01:36Z,1757,c22237319bffa22069cc0ac9dbfb17bd6ef7217c
+102064957073,34227452586,Build C++ Release,cpp (macos-universal2),completed,success,2026-09-08T12:41:05Z,2026-09-08T13:03:08Z,1323,33a2a351a0996bc5afd03732afc2134a7c970a82
+101755150112,34126142538,Build C++ Release,cpp (macos-universal2),completed,success,2026-09-07T13:15:19Z,2026-09-07T13:43:04Z,1665,3d9a7e333d0b05adb65e085c1b6a489d0ab98aae
+100669542501,33761757562,Build C++ Release,cpp (macos-universal2),completed,success,2026-09-03T13:32:57Z,2026-09-03T13:58:54Z,1557,3d80b19d2f04efb17b18b79c6688e0611d799dc7
+99968500583,33541469741,Build C++ Release,cpp (macos-universal2),completed,failure,2026-09-01T18:04:20Z,2026-09-01T18:07:01Z,161,2689be3fb74b5b1cbb029f598c01220234ede2c1
+99533907635,33406087099,Build C++ Release,cpp (macos-universal2),completed,failure,2026-08-31T15:02:03Z,2026-08-31T15:04:37Z,154,cf862efb6c619657c6f4f9a101824b04db0e0493
+99528520922,33404479034,Build C++ Release,cpp (macos-universal2),completed,failure,2026-08-31T14:45:19Z,2026-08-31T14:47:31Z,132,cc5bac930602706c44a023f83fd1d8d83b17d0dd

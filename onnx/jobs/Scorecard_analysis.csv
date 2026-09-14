@@ -315,3 +315,11 @@ job_id,run_id,workflow,job_name,status,conclusion,started_at,completed_at,durati
 100182794976,33610045672,Scorecard supply-chain security,Scorecard analysis,completed,success,2026-09-02T08:41:24Z,2026-09-02T08:42:19Z,55,dd18c957ef448b15b3571bd951a17e7ab041e5a4
 100182395316,33609920139,Scorecard supply-chain security,Scorecard analysis,completed,success,2026-09-02T08:39:59Z,2026-09-02T08:40:50Z,51,f5a0f243c4f41e5e35cc23aeeaa06367376011c2
 100128767481,33592358914,Scorecard supply-chain security,Scorecard analysis,completed,success,2026-09-02T04:50:49Z,2026-09-02T04:51:45Z,56,f5d4e60c3746fe9eb90c24bd79282eb1500d5638
+103595410089,34709457839,Scorecard supply-chain security,Scorecard analysis,completed,success,2026-09-12T17:51:14Z,2026-09-12T17:52:17Z,63,c9f169adac34bd690bf0d628e9aae7fde3d4be85
+103539677499,34688538211,Scorecard supply-chain security,Scorecard analysis,completed,success,2026-09-12T10:28:31Z,2026-09-12T10:29:26Z,55,27d7d6890cb8bfa7ed5cda2f2656f82b6af0736a
+102511948479,34365185745,Scorecard supply-chain security,Scorecard analysis,completed,success,2026-09-09T14:40:42Z,2026-09-09T14:41:45Z,63,27d7d6890cb8bfa7ed5cda2f2656f82b6af0736a
+102495970267,34360509931,Scorecard supply-chain security,Scorecard analysis,completed,failure,2026-09-09T13:58:13Z,2026-09-09T13:58:32Z,19,6eebfd777757402ea0e1b804ee0ade166cffbd98
+102473975332,34354010364,Scorecard supply-chain security,Scorecard analysis,completed,success,2026-09-09T12:56:47Z,2026-09-09T12:57:40Z,53,e44bf32d4b0feb8689b0da51480f55a2869848c2
+102243643357,34280446905,Scorecard supply-chain security,Scorecard analysis,completed,success,2026-09-08T21:24:46Z,2026-09-08T21:25:36Z,50,c71cbb485c97aa2cb257626a5ac5b0f205c49a22
+102138070770,34248940140,Scorecard supply-chain security,Scorecard analysis,completed,success,2026-09-08T16:05:48Z,2026-09-08T16:06:55Z,67,f6e8bcfa97a46084a7f5a317c798188f12d1c789
+101777956984,34133182003,Scorecard supply-chain security,Scorecard analysis,completed,success,2026-09-07T14:28:58Z,2026-09-07T14:30:00Z,62,5e5fedc04d4500f576b1e8f5fe2c5213e8f751e0
