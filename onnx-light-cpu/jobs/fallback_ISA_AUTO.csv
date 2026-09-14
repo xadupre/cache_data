@@ -1,0 +1,16 @@
+job_id,run_id,workflow,job_name,status,conclusion,started_at,completed_at,duration_seconds,head_sha
+103911444200,34822882029,C++ standalone inference,fallback ISA (AUTO),completed,success,2026-09-14T08:40:12Z,2026-09-14T08:42:15Z,123,57ee7b5836f0255f53537627809efb89557fb881
+103891644483,34817626249,C++ standalone inference,fallback ISA (AUTO),completed,success,2026-09-14T07:23:22Z,2026-09-14T07:25:03Z,101,bd5613ea5d0827af6e1397cd37428caffe24a68f
+103684424355,34742484084,C++ standalone inference,fallback ISA (AUTO),completed,success,2026-09-13T06:20:02Z,2026-09-13T06:21:53Z,111,e2defa279d2992eff31c472ca19db6b3b5e42faf
+103612399315,34678438278,C++ standalone inference,fallback ISA (AUTO),completed,success,2026-09-12T19:58:13Z,2026-09-12T20:00:00Z,107,836a19847afae43bbf9b3a6d44c72442cb153967
+103512099502,34678326728,C++ standalone inference,fallback ISA (AUTO),completed,success,2026-09-12T06:30:57Z,2026-09-12T06:32:45Z,108,edb5c2e5e1c5b666d0a0aa960187707b79ee504e
+103414589914,34578511852,C++ standalone inference,fallback ISA (AUTO),completed,success,2026-09-11T20:38:57Z,2026-09-11T20:40:55Z,118,dd207f29e92038857be2b21c0bafc6fecd6aa9bc
+103191940386,34577099931,C++ standalone inference,fallback ISA (AUTO),completed,success,2026-09-11T08:01:15Z,2026-09-11T08:03:10Z,115,fa93d1c626576542f98cdd6c7657a7fc53f0a979
+103192191081,34575136790,C++ standalone inference,fallback ISA (AUTO),completed,success,2026-09-11T08:05:00Z,2026-09-11T08:06:54Z,114,7cdda2c128086953d6b7104423f89b9621923c76
+103221510079,34575105768,C++ standalone inference,fallback ISA (AUTO),completed,success,2026-09-11T09:52:31Z,2026-09-11T09:54:25Z,114,5118c5c387288d0aeee384c30cd3ff4e40f578c8
+103183147692,34573696200,C++ standalone inference,fallback ISA (AUTO),completed,success,2026-09-11T07:25:48Z,2026-09-11T07:27:37Z,109,03d48b34af2fc018a6cc2556158f3f90040d92a9
+103180124216,34573341563,C++ standalone inference,fallback ISA (AUTO),completed,success,2026-09-11T07:13:09Z,2026-09-11T07:14:45Z,96,8c547feb88745bd6b8abd8ee583fdb4d19b23cfc
+103172073525,34569866328,C++ standalone inference,fallback ISA (AUTO),completed,success,2026-09-11T06:37:40Z,2026-09-11T06:39:05Z,85,928558fcb927a4da44683a039c662e26a1a51b52
+103168136135,34569416572,C++ standalone inference,fallback ISA (AUTO),completed,success,2026-09-11T06:19:36Z,2026-09-11T06:21:38Z,122,8f65d0035e6e1ca885a32908a741d0995d2ea69e
+103161511863,34506454137,C++ standalone inference,fallback ISA (AUTO),completed,success,2026-09-11T05:44:58Z,2026-09-11T05:46:59Z,121,863e51c25a3a560cc72431e6c9f1606ea61c2b39
+102964136394,34504681164,C++ standalone inference,fallback ISA (AUTO),completed,success,2026-09-10T16:54:50Z,2026-09-10T16:56:45Z,115,5feaeff1dbfa222f14e94f24f231cc16b27755a7
