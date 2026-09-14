@@ -79,7 +79,7 @@
     "VmapPython"
   ],
   "commit": "92a4a63083af7003cc1594b9e06cb54c56c489b3",
-  "date": "2026-09-07T13:42:58Z",
+  "date": "2026-09-14T14:09:04Z",
   "dynamic": [
     false,
     true
@@ -172,33 +172,33 @@
       "success": 1
     },
     {
-      "abs": 2.384185791015625e-07,
+      "abs": 5.960464477539063e-08,
       "dynamic": 0,
       "error": "",
       "error_step": "",
       "exporter": "yobx",
       "name": "AtenCumprod",
-      "rel": 3.053153379764798e-07,
+      "rel": 3.659917382035155e-07,
       "success": 1
     },
     {
-      "abs": 2.384185791015625e-07,
+      "abs": 5.960464477539063e-08,
       "dynamic": 0,
       "error": "",
       "error_step": "",
       "exporter": "yobx-tracing",
       "name": "AtenCumprod",
-      "rel": 3.053153379764798e-07,
+      "rel": 3.659917382035155e-07,
       "success": 1
     },
     {
-      "abs": 2.384185791015625e-07,
+      "abs": 5.960464477539063e-08,
       "dynamic": 0,
       "error": "",
       "error_step": "",
       "exporter": "yobx-new-tracing",
       "name": "AtenCumprod",
-      "rel": 3.053153379764798e-07,
+      "rel": 3.659917382035155e-07,
       "success": 1
     },
     {
@@ -212,33 +212,33 @@
       "success": 0
     },
     {
-      "abs": 2.384185791015625e-07,
+      "abs": 5.960464477539063e-08,
       "dynamic": 1,
       "error": "",
       "error_step": "",
       "exporter": "yobx",
       "name": "AtenCumprod",
-      "rel": 3.053153379764798e-07,
+      "rel": 3.659917382035155e-07,
       "success": 1
     },
     {
-      "abs": 2.384185791015625e-07,
+      "abs": 5.960464477539063e-08,
       "dynamic": 1,
       "error": "",
       "error_step": "",
       "exporter": "yobx-tracing",
       "name": "AtenCumprod",
-      "rel": 3.053153379764798e-07,
+      "rel": 3.659917382035155e-07,
       "success": 1
     },
     {
-      "abs": 2.384185791015625e-07,
+      "abs": 5.960464477539063e-08,
       "dynamic": 1,
       "error": "",
       "error_step": "",
       "exporter": "yobx-new-tracing",
       "name": "AtenCumprod",
-      "rel": 3.053153379764798e-07,
+      "rel": 3.659917382035155e-07,
       "success": 1
     },
     {
@@ -258,7 +258,7 @@
       "error_step": "",
       "exporter": "yobx",
       "name": "AtenInterpolate",
-      "rel": 3.1729730521429385e-06,
+      "rel": 2.0693791304703976e-06,
       "success": 1
     },
     {
@@ -268,7 +268,7 @@
       "error_step": "",
       "exporter": "yobx-tracing",
       "name": "AtenInterpolate",
-      "rel": 3.1729730521429385e-06,
+      "rel": 2.0693791304703976e-06,
       "success": 1
     },
     {
@@ -278,7 +278,7 @@
       "error_step": "",
       "exporter": "yobx-new-tracing",
       "name": "AtenInterpolate",
-      "rel": 3.1729730521429385e-06,
+      "rel": 2.0693791304703976e-06,
       "success": 1
     },
     {
@@ -288,7 +288,7 @@
       "error_step": "",
       "exporter": "dynamo",
       "name": "AtenInterpolate",
-      "rel": 3.1729730521429385e-06,
+      "rel": 2.0693791304703976e-06,
       "success": 1
     },
     {
@@ -298,7 +298,7 @@
       "error_step": "",
       "exporter": "yobx",
       "name": "AtenInterpolate",
-      "rel": 3.1729730521429385e-06,
+      "rel": 2.0693791304703976e-06,
       "success": 1
     },
     {
@@ -308,7 +308,7 @@
       "error_step": "",
       "exporter": "yobx-tracing",
       "name": "AtenInterpolate",
-      "rel": 3.1729730521429385e-06,
+      "rel": 2.0693791304703976e-06,
       "success": 1
     },
     {
@@ -318,7 +318,7 @@
       "error_step": "",
       "exporter": "yobx-new-tracing",
       "name": "AtenInterpolate",
-      "rel": 3.1729730521429385e-06,
+      "rel": 2.0693791304703976e-06,
       "success": 1
     },
     {
@@ -328,7 +328,17 @@
       "error_step": "",
       "exporter": "dynamo",
       "name": "AtenInterpolate",
-      "rel": 3.1729730521429385e-06,
+      "rel": 2.0693791304703976e-06,
+      "success": 1
+    },
+    {
+      "abs": 1.1920928955078125e-07,
+      "dynamic": 0,
+      "error": "",
+      "error_step": "",
+      "exporter": "yobx",
+      "name": "AtenNnFunctionalBilinear",
+      "rel": 3.4819558508694855e-07,
       "success": 1
     },
     {
@@ -336,19 +346,9 @@
       "dynamic": 0,
       "error": "",
       "error_step": "",
-      "exporter": "yobx",
-      "name": "AtenNnFunctionalBilinear",
-      "rel": 2.8710830184748655e-07,
-      "success": 1
-    },
-    {
-      "abs": 4.76837158203125e-07,
-      "dynamic": 0,
-      "error": "",
-      "error_step": "",
       "exporter": "yobx-tracing",
       "name": "AtenNnFunctionalBilinear",
-      "rel": 3.4584425717580456e-07,
+      "rel": 3.3901612962805157e-06,
       "success": 1
     },
     {
@@ -358,7 +358,7 @@
       "error_step": "",
       "exporter": "yobx-new-tracing",
       "name": "AtenNnFunctionalBilinear",
-      "rel": 2.0952876899394218e-07,
+      "rel": 6.362781073976923e-07,
       "success": 1
     },
     {
@@ -368,7 +368,37 @@
       "error_step": "",
       "exporter": "dynamo",
       "name": "AtenNnFunctionalBilinear",
-      "rel": 2.6465552785574936e-07,
+      "rel": 1.1529757699540829e-07,
+      "success": 1
+    },
+    {
+      "abs": 4.76837158203125e-07,
+      "dynamic": 1,
+      "error": "",
+      "error_step": "",
+      "exporter": "yobx",
+      "name": "AtenNnFunctionalBilinear",
+      "rel": 7.623395748417249e-07,
+      "success": 1
+    },
+    {
+      "abs": 4.76837158203125e-07,
+      "dynamic": 1,
+      "error": "",
+      "error_step": "",
+      "exporter": "yobx-tracing",
+      "name": "AtenNnFunctionalBilinear",
+      "rel": 7.67504453344815e-07,
+      "success": 1
+    },
+    {
+      "abs": 4.76837158203125e-07,
+      "dynamic": 1,
+      "error": "",
+      "error_step": "",
+      "exporter": "yobx-new-tracing",
+      "name": "AtenNnFunctionalBilinear",
+      "rel": 1.0192151299390888e-07,
       "success": 1
     },
     {
@@ -376,164 +406,94 @@
       "dynamic": 1,
       "error": "",
       "error_step": "",
-      "exporter": "yobx",
-      "name": "AtenNnFunctionalBilinear",
-      "rel": 1.6003543619853821e-06,
-      "success": 1
-    },
-    {
-      "abs": 4.76837158203125e-07,
-      "dynamic": 1,
-      "error": "",
-      "error_step": "",
-      "exporter": "yobx-tracing",
-      "name": "AtenNnFunctionalBilinear",
-      "rel": 1.2907955441217368e-07,
-      "success": 1
-    },
-    {
-      "abs": 4.76837158203125e-07,
-      "dynamic": 1,
-      "error": "",
-      "error_step": "",
-      "exporter": "yobx-new-tracing",
-      "name": "AtenNnFunctionalBilinear",
-      "rel": 1.862744347389768e-07,
-      "success": 1
-    },
-    {
-      "abs": 4.76837158203125e-07,
-      "dynamic": 1,
-      "error": "",
-      "error_step": "",
       "exporter": "dynamo",
       "name": "AtenNnFunctionalBilinear",
-      "rel": 1.4891249272087442e-07,
+      "rel": 3.022796353406816e-07,
       "success": 1
     },
     {
-      "abs": 5.960464477539063e-08,
+      "abs": 1.1920928955078125e-07,
       "dynamic": 0,
       "error": "",
       "error_step": "",
       "exporter": "yobx",
       "name": "AtenNnFunctionalSoftMarginLoss",
-      "rel": 1.1230222050535786e-07,
+      "rel": 1.936902575377872e-07,
       "success": 1
     },
     {
-      "abs": 5.960464477539063e-08,
+      "abs": 1.1920928955078125e-07,
       "dynamic": 0,
       "error": "",
       "error_step": "",
       "exporter": "yobx-tracing",
       "name": "AtenNnFunctionalSoftMarginLoss",
-      "rel": 1.1230222050535786e-07,
+      "rel": 1.936902575377872e-07,
       "success": 1
     },
     {
-      "abs": 5.960464477539063e-08,
+      "abs": 1.1920928955078125e-07,
       "dynamic": 0,
       "error": "",
       "error_step": "",
       "exporter": "yobx-new-tracing",
       "name": "AtenNnFunctionalSoftMarginLoss",
-      "rel": 1.1230222050535786e-07,
+      "rel": 1.936902575377872e-07,
       "success": 1
     },
     {
-      "abs": 5.960464477539063e-08,
+      "abs": 1.1920928955078125e-07,
       "dynamic": 0,
       "error": "",
       "error_step": "",
       "exporter": "dynamo",
       "name": "AtenNnFunctionalSoftMarginLoss",
-      "rel": 1.1230222050535786e-07,
+      "rel": 1.936902575377872e-07,
       "success": 1
     },
     {
-      "abs": 5.960464477539063e-08,
+      "abs": 1.1920928955078125e-07,
       "dynamic": 1,
       "error": "",
       "error_step": "",
       "exporter": "yobx",
       "name": "AtenNnFunctionalSoftMarginLoss",
-      "rel": 1.1230222050535786e-07,
+      "rel": 1.936902575377872e-07,
       "success": 1
     },
     {
-      "abs": 5.960464477539063e-08,
+      "abs": 1.1920928955078125e-07,
       "dynamic": 1,
       "error": "",
       "error_step": "",
       "exporter": "yobx-tracing",
       "name": "AtenNnFunctionalSoftMarginLoss",
-      "rel": 1.1230222050535786e-07,
+      "rel": 1.936902575377872e-07,
       "success": 1
     },
     {
-      "abs": 5.960464477539063e-08,
+      "abs": 1.1920928955078125e-07,
       "dynamic": 1,
       "error": "",
       "error_step": "",
       "exporter": "yobx-new-tracing",
       "name": "AtenNnFunctionalSoftMarginLoss",
-      "rel": 1.1230222050535786e-07,
+      "rel": 1.936902575377872e-07,
       "success": 1
     },
     {
-      "abs": 5.960464477539063e-08,
+      "abs": 1.1920928955078125e-07,
       "dynamic": 1,
       "error": "",
       "error_step": "",
       "exporter": "dynamo",
       "name": "AtenNnFunctionalSoftMarginLoss",
-      "rel": 1.1230222050535786e-07,
+      "rel": 1.936902575377872e-07,
       "success": 1
     },
     {
       "abs": 0.0,
       "dynamic": 0,
-      "error": "",
-      "error_step": "",
-      "exporter": "yobx",
-      "name": "AtenNonZero",
-      "rel": 0.0,
-      "success": 1
-    },
-    {
-      "abs": 0.0,
-      "dynamic": 0,
-      "error": "",
-      "error_step": "",
-      "exporter": "yobx-tracing",
-      "name": "AtenNonZero",
-      "rel": 0.0,
-      "success": 1
-    },
-    {
-      "abs": 0.0,
-      "dynamic": 0,
-      "error": "",
-      "error_step": "",
-      "exporter": "yobx-new-tracing",
-      "name": "AtenNonZero",
-      "rel": 0.0,
-      "success": 1
-    },
-    {
-      "abs": 0.0,
-      "dynamic": 0,
-      "error": "",
-      "error_step": "",
-      "exporter": "dynamo",
-      "name": "AtenNonZero",
-      "rel": 0.0,
-      "success": 1
-    },
-    {
-      "abs": 0.0,
-      "dynamic": 1,
       "error": "",
       "error_step": "",
       "exporter": "yobx",
@@ -543,6 +503,46 @@
     },
     {
       "abs": 0.0,
+      "dynamic": 0,
+      "error": "",
+      "error_step": "",
+      "exporter": "yobx-tracing",
+      "name": "AtenNonZero",
+      "rel": 0.0,
+      "success": 1
+    },
+    {
+      "abs": 0.0,
+      "dynamic": 0,
+      "error": "",
+      "error_step": "",
+      "exporter": "yobx-new-tracing",
+      "name": "AtenNonZero",
+      "rel": 0.0,
+      "success": 1
+    },
+    {
+      "abs": 0.0,
+      "dynamic": 0,
+      "error": "",
+      "error_step": "",
+      "exporter": "dynamo",
+      "name": "AtenNonZero",
+      "rel": 0.0,
+      "success": 1
+    },
+    {
+      "abs": 0.0,
+      "dynamic": 1,
+      "error": "",
+      "error_step": "",
+      "exporter": "yobx",
+      "name": "AtenNonZero",
+      "rel": 0.0,
+      "success": 1
+    },
+    {
+      "abs": 0.0,
       "dynamic": 1,
       "error": "",
       "error_step": "",
@@ -682,14 +682,14 @@
       "success": 1
     },
     {
-      "abs": null,
+      "abs": 0.0,
       "dynamic": 0,
-      "error": "An error occurred when running the '<onnx_ir.passes.PassManager object at 0x7f139e75f530>' pass after the following passes: ['<onnx_ir.passes.common.inliner.InlinePass object at 0x7f139e7a5ca0>']",
-      "error_step": "export",
+      "error": "",
+      "error_step": "",
       "exporter": "dynamo",
       "name": "AtenRollPos",
-      "rel": null,
-      "success": 0
+      "rel": 0.0,
+      "success": 1
     },
     {
       "abs": 0.0,
@@ -722,14 +722,14 @@
       "success": 1
     },
     {
-      "abs": null,
+      "abs": 0.0,
       "dynamic": 1,
-      "error": "An error occurred when running the '<onnx_ir.passes.PassManager object at 0x7f139840ef90>' pass after the following passes: ['<onnx_ir.passes.common.inliner.InlinePass object at 0x7f139840eea0>']",
-      "error_step": "export",
+      "error": "",
+      "error_step": "",
       "exporter": "dynamo",
       "name": "AtenRollPos",
-      "rel": null,
-      "success": 0
+      "rel": 0.0,
+      "success": 1
     },
     {
       "abs": 0.0,
@@ -938,7 +938,7 @@
       "error_step": "diff.1",
       "exporter": "yobx",
       "name": "BuildInLen",
-      "rel": 0.13578780738465365,
+      "rel": 0.13607704966690298,
       "success": 0
     },
     {
@@ -948,7 +948,7 @@
       "error_step": "diff.1",
       "exporter": "yobx-tracing",
       "name": "BuildInLen",
-      "rel": 0.1360818188754625,
+      "rel": 0.1360814335589468,
       "success": 0
     },
     {
@@ -958,7 +958,7 @@
       "error_step": "diff.1",
       "exporter": "yobx-new-tracing",
       "name": "BuildInLen",
-      "rel": 0.13552782182676804,
+      "rel": 0.1355635784532704,
       "success": 0
     },
     {
@@ -968,7 +968,7 @@
       "error_step": "diff.1",
       "exporter": "dynamo",
       "name": "BuildInLen",
-      "rel": 0.1359108074707941,
+      "rel": 0.13606879638667443,
       "success": 0
     },
     {
@@ -1058,7 +1058,7 @@
       "error_step": "",
       "exporter": "yobx",
       "name": "ControlFlowCond",
-      "rel": 8.858888192366876e-08,
+      "rel": 7.376125958767808e-08,
       "success": 1
     },
     {
@@ -1068,7 +1068,7 @@
       "error_step": "",
       "exporter": "yobx-tracing",
       "name": "ControlFlowCond",
-      "rel": 8.858888192366876e-08,
+      "rel": 7.376125958767808e-08,
       "success": 1
     },
     {
@@ -1078,7 +1078,7 @@
       "error_step": "",
       "exporter": "yobx-new-tracing",
       "name": "ControlFlowCond",
-      "rel": 8.858888192366876e-08,
+      "rel": 7.376125958767808e-08,
       "success": 1
     },
     {
@@ -1088,7 +1088,7 @@
       "error_step": "",
       "exporter": "dynamo",
       "name": "ControlFlowCond",
-      "rel": 8.858888192366876e-08,
+      "rel": 7.376125958767808e-08,
       "success": 1
     },
     {
@@ -1098,7 +1098,7 @@
       "error_step": "",
       "exporter": "yobx",
       "name": "ControlFlowCond",
-      "rel": 8.858888192366876e-08,
+      "rel": 7.376125958767808e-08,
       "success": 1
     },
     {
@@ -1108,7 +1108,7 @@
       "error_step": "",
       "exporter": "yobx-tracing",
       "name": "ControlFlowCond",
-      "rel": 8.858888192366876e-08,
+      "rel": 7.376125958767808e-08,
       "success": 1
     },
     {
@@ -1118,7 +1118,7 @@
       "error_step": "",
       "exporter": "yobx-new-tracing",
       "name": "ControlFlowCond",
-      "rel": 8.858888192366876e-08,
+      "rel": 7.376125958767808e-08,
       "success": 1
     },
     {
@@ -1128,7 +1128,7 @@
       "error_step": "",
       "exporter": "dynamo",
       "name": "ControlFlowCond",
-      "rel": 8.858888192366876e-08,
+      "rel": 7.376125958767808e-08,
       "success": 1
     },
     {
@@ -1138,7 +1138,7 @@
       "error_step": "",
       "exporter": "yobx",
       "name": "ControlFlowCond2Inputs",
-      "rel": 7.680402350251783e-08,
+      "rel": 7.98685413902266e-08,
       "success": 1
     },
     {
@@ -1148,7 +1148,7 @@
       "error_step": "",
       "exporter": "yobx-tracing",
       "name": "ControlFlowCond2Inputs",
-      "rel": 7.680402350251783e-08,
+      "rel": 7.98685413902266e-08,
       "success": 1
     },
     {
@@ -1158,7 +1158,7 @@
       "error_step": "",
       "exporter": "yobx-new-tracing",
       "name": "ControlFlowCond2Inputs",
-      "rel": 7.680402350251783e-08,
+      "rel": 7.98685413902266e-08,
       "success": 1
     },
     {
@@ -1168,7 +1168,7 @@
       "error_step": "",
       "exporter": "dynamo",
       "name": "ControlFlowCond2Inputs",
-      "rel": 7.680402350251783e-08,
+      "rel": 7.98685413902266e-08,
       "success": 1
     },
     {
@@ -1178,7 +1178,7 @@
       "error_step": "",
       "exporter": "yobx",
       "name": "ControlFlowCond2Inputs",
-      "rel": 7.680402350251783e-08,
+      "rel": 7.98685413902266e-08,
       "success": 1
     },
     {
@@ -1188,7 +1188,7 @@
       "error_step": "",
       "exporter": "yobx-tracing",
       "name": "ControlFlowCond2Inputs",
-      "rel": 7.680402350251783e-08,
+      "rel": 7.98685413902266e-08,
       "success": 1
     },
     {
@@ -1198,7 +1198,7 @@
       "error_step": "",
       "exporter": "yobx-new-tracing",
       "name": "ControlFlowCond2Inputs",
-      "rel": 7.680402350251783e-08,
+      "rel": 7.98685413902266e-08,
       "success": 1
     },
     {
@@ -1208,7 +1208,7 @@
       "error_step": "",
       "exporter": "dynamo",
       "name": "ControlFlowCond2Inputs",
-      "rel": 7.680402350251783e-08,
+      "rel": 7.98685413902266e-08,
       "success": 1
     },
     {
@@ -1218,7 +1218,7 @@
       "error_step": "",
       "exporter": "yobx",
       "name": "ControlFlowCond2Outputs",
-      "rel": 8.440652561786131e-08,
+      "rel": 1.0203911689627517e-07,
       "success": 1
     },
     {
@@ -1228,7 +1228,7 @@
       "error_step": "",
       "exporter": "yobx-tracing",
       "name": "ControlFlowCond2Outputs",
-      "rel": 8.440652561786131e-08,
+      "rel": 1.0203911689627517e-07,
       "success": 1
     },
     {
@@ -1238,7 +1238,7 @@
       "error_step": "",
       "exporter": "yobx-new-tracing",
       "name": "ControlFlowCond2Outputs",
-      "rel": 8.440652561786131e-08,
+      "rel": 1.0203911689627517e-07,
       "success": 1
     },
     {
@@ -1248,7 +1248,7 @@
       "error_step": "",
       "exporter": "dynamo",
       "name": "ControlFlowCond2Outputs",
-      "rel": 8.440652561786131e-08,
+      "rel": 1.0203911689627517e-07,
       "success": 1
     },
     {
@@ -1258,7 +1258,7 @@
       "error_step": "",
       "exporter": "yobx",
       "name": "ControlFlowCond2Outputs",
-      "rel": 8.440652561786131e-08,
+      "rel": 1.0203911689627517e-07,
       "success": 1
     },
     {
@@ -1268,7 +1268,7 @@
       "error_step": "",
       "exporter": "yobx-tracing",
       "name": "ControlFlowCond2Outputs",
-      "rel": 8.440652561786131e-08,
+      "rel": 1.0203911689627517e-07,
       "success": 1
     },
     {
@@ -1278,7 +1278,7 @@
       "error_step": "",
       "exporter": "yobx-new-tracing",
       "name": "ControlFlowCond2Outputs",
-      "rel": 8.440652561786131e-08,
+      "rel": 1.0203911689627517e-07,
       "success": 1
     },
     {
@@ -1288,7 +1288,7 @@
       "error_step": "",
       "exporter": "dynamo",
       "name": "ControlFlowCond2Outputs",
-      "rel": 8.440652561786131e-08,
+      "rel": 1.0203911689627517e-07,
       "success": 1
     },
     {
@@ -1298,7 +1298,7 @@
       "error_step": "",
       "exporter": "yobx",
       "name": "ControlFlowCondConstant",
-      "rel": 3.736183291556976e-07,
+      "rel": 3.7361860833721796e-07,
       "success": 1
     },
     {
@@ -1308,7 +1308,7 @@
       "error_step": "",
       "exporter": "yobx-tracing",
       "name": "ControlFlowCondConstant",
-      "rel": 3.736183291556976e-07,
+      "rel": 3.7361860833721796e-07,
       "success": 1
     },
     {
@@ -1318,7 +1318,7 @@
       "error_step": "",
       "exporter": "yobx-new-tracing",
       "name": "ControlFlowCondConstant",
-      "rel": 3.736183291556976e-07,
+      "rel": 3.7361860833721796e-07,
       "success": 1
     },
     {
@@ -1328,7 +1328,7 @@
       "error_step": "",
       "exporter": "dynamo",
       "name": "ControlFlowCondConstant",
-      "rel": 3.736183291556976e-07,
+      "rel": 3.7361860833721796e-07,
       "success": 1
     },
     {
@@ -1348,7 +1348,7 @@
       "error_step": "",
       "exporter": "yobx-tracing",
       "name": "ControlFlowCondConstant",
-      "rel": 3.736183291556976e-07,
+      "rel": 3.7361860833721796e-07,
       "success": 1
     },
     {
@@ -1358,7 +1358,7 @@
       "error_step": "",
       "exporter": "yobx-new-tracing",
       "name": "ControlFlowCondConstant",
-      "rel": 3.736183291556976e-07,
+      "rel": 3.7361860833721796e-07,
       "success": 1
     },
     {
@@ -1778,7 +1778,7 @@
       "error_step": "",
       "exporter": "yobx",
       "name": "ControlFlowNestCond",
-      "rel": 9.192298289208791e-08,
+      "rel": 8.481516584078667e-08,
       "success": 1
     },
     {
@@ -1788,7 +1788,7 @@
       "error_step": "",
       "exporter": "yobx-tracing",
       "name": "ControlFlowNestCond",
-      "rel": 9.192298289208791e-08,
+      "rel": 8.481516584078667e-08,
       "success": 1
     },
     {
@@ -1798,7 +1798,7 @@
       "error_step": "",
       "exporter": "yobx-new-tracing",
       "name": "ControlFlowNestCond",
-      "rel": 9.192298289208791e-08,
+      "rel": 8.481516584078667e-08,
       "success": 1
     },
     {
@@ -1808,7 +1808,7 @@
       "error_step": "",
       "exporter": "dynamo",
       "name": "ControlFlowNestCond",
-      "rel": 9.192298289208791e-08,
+      "rel": 8.481516584078667e-08,
       "success": 1
     },
     {
@@ -1818,7 +1818,7 @@
       "error_step": "",
       "exporter": "yobx",
       "name": "ControlFlowNestCond",
-      "rel": 9.192298289208791e-08,
+      "rel": 8.481516584078667e-08,
       "success": 1
     },
     {
@@ -1828,7 +1828,7 @@
       "error_step": "",
       "exporter": "yobx-tracing",
       "name": "ControlFlowNestCond",
-      "rel": 9.192298289208791e-08,
+      "rel": 8.481516584078667e-08,
       "success": 1
     },
     {
@@ -1838,7 +1838,7 @@
       "error_step": "",
       "exporter": "yobx-new-tracing",
       "name": "ControlFlowNestCond",
-      "rel": 9.192298289208791e-08,
+      "rel": 8.481516584078667e-08,
       "success": 1
     },
     {
@@ -1848,7 +1848,7 @@
       "error_step": "",
       "exporter": "dynamo",
       "name": "ControlFlowNestCond",
-      "rel": 9.192298289208791e-08,
+      "rel": 8.481516584078667e-08,
       "success": 1
     },
     {
@@ -2738,7 +2738,7 @@
       "error_step": "",
       "exporter": "yobx",
       "name": "ControlFlowScanCDistXY",
-      "rel": 1.1812493248746672e-07,
+      "rel": 1.0155200606633013e-07,
       "success": 1
     },
     {
@@ -2748,7 +2748,7 @@
       "error_step": "",
       "exporter": "yobx-tracing",
       "name": "ControlFlowScanCDistXY",
-      "rel": 1.1812493248746672e-07,
+      "rel": 1.0155200606633013e-07,
       "success": 1
     },
     {
@@ -2758,7 +2758,7 @@
       "error_step": "",
       "exporter": "yobx-new-tracing",
       "name": "ControlFlowScanCDistXY",
-      "rel": 1.1812493248746672e-07,
+      "rel": 1.0155200606633013e-07,
       "success": 1
     },
     {
@@ -2768,7 +2768,7 @@
       "error_step": "",
       "exporter": "dynamo",
       "name": "ControlFlowScanCDistXY",
-      "rel": 1.1812493248746672e-07,
+      "rel": 1.0155200606633013e-07,
       "success": 1
     },
     {
@@ -2778,7 +2778,7 @@
       "error_step": "",
       "exporter": "yobx",
       "name": "ControlFlowScanCDistXY",
-      "rel": 1.1812493248746672e-07,
+      "rel": 1.0155200606633013e-07,
       "success": 1
     },
     {
@@ -2788,7 +2788,7 @@
       "error_step": "",
       "exporter": "yobx-tracing",
       "name": "ControlFlowScanCDistXY",
-      "rel": 1.1812493248746672e-07,
+      "rel": 1.0155200606633013e-07,
       "success": 1
     },
     {
@@ -2798,7 +2798,7 @@
       "error_step": "",
       "exporter": "yobx-new-tracing",
       "name": "ControlFlowScanCDistXY",
-      "rel": 1.1812493248746672e-07,
+      "rel": 1.0155200606633013e-07,
       "success": 1
     },
     {
@@ -2808,7 +2808,7 @@
       "error_step": "",
       "exporter": "dynamo",
       "name": "ControlFlowScanCDistXY",
-      "rel": 1.1812493248746672e-07,
+      "rel": 1.0155200606633013e-07,
       "success": 1
     },
     {
@@ -2944,7 +2944,7 @@
     {
       "abs": null,
       "dynamic": 1,
-      "error": "Unable to interpret function <class 'builtin_function_or_method'>: <built-in method empty of type object at 0x7f1407aa5640>, searched for ['transformers_empty', '_VariableFunctionsClass_empty', 'empty'] and attributes ['__qualname__', '__name__'], args=((getitem, getitem_2),), kwargs={}, dispatcher=None",
+      "error": "Unable to interpret function <class 'builtin_function_or_method'>: <built-in method empty of type object at 0x7f7f506a5640>, searched for ['transformers_empty', '_VariableFunctionsClass_empty', 'empty'] and attributes ['__qualname__', '__name__'], args=((getitem, getitem_2),), kwargs={}, dispatcher=None",
       "error_step": "export",
       "exporter": "yobx-tracing",
       "name": "ControlFlowScanInplace_153705",
@@ -4972,128 +4972,88 @@
       "success": 1
     },
     {
-      "abs": 5.960464477539063e-08,
+      "abs": 1.1920928955078125e-07,
       "dynamic": 0,
       "error": "",
       "error_step": "",
       "exporter": "yobx",
       "name": "LayerNorm",
-      "rel": 1.0455683557221485e-07,
+      "rel": 1.140187461285334e-07,
       "success": 1
     },
     {
-      "abs": 5.960464477539063e-08,
+      "abs": 1.1920928955078125e-07,
       "dynamic": 0,
       "error": "",
       "error_step": "",
       "exporter": "yobx-tracing",
       "name": "LayerNorm",
-      "rel": 1.0455683557221485e-07,
+      "rel": 1.140187461285334e-07,
       "success": 1
     },
     {
-      "abs": 5.960464477539063e-08,
+      "abs": 1.1920928955078125e-07,
       "dynamic": 0,
       "error": "",
       "error_step": "",
       "exporter": "yobx-new-tracing",
       "name": "LayerNorm",
-      "rel": 1.0455683557221485e-07,
+      "rel": 1.140187461285334e-07,
       "success": 1
     },
     {
-      "abs": 5.960464477539063e-08,
+      "abs": 1.1920928955078125e-07,
       "dynamic": 0,
       "error": "",
       "error_step": "",
       "exporter": "dynamo",
       "name": "LayerNorm",
-      "rel": 1.0455683557221485e-07,
+      "rel": 1.140187461285334e-07,
       "success": 1
     },
     {
-      "abs": 5.960464477539063e-08,
+      "abs": 1.1920928955078125e-07,
       "dynamic": 1,
       "error": "",
       "error_step": "",
       "exporter": "yobx",
       "name": "LayerNorm",
-      "rel": 1.0455683557221485e-07,
+      "rel": 1.140187461285334e-07,
       "success": 1
     },
     {
-      "abs": 5.960464477539063e-08,
+      "abs": 1.1920928955078125e-07,
       "dynamic": 1,
       "error": "",
       "error_step": "",
       "exporter": "yobx-tracing",
       "name": "LayerNorm",
-      "rel": 1.0455683557221485e-07,
+      "rel": 1.140187461285334e-07,
       "success": 1
     },
     {
-      "abs": 5.960464477539063e-08,
+      "abs": 1.1920928955078125e-07,
       "dynamic": 1,
       "error": "",
       "error_step": "",
       "exporter": "yobx-new-tracing",
       "name": "LayerNorm",
-      "rel": 1.0455683557221485e-07,
+      "rel": 1.140187461285334e-07,
       "success": 1
     },
     {
-      "abs": 5.960464477539063e-08,
+      "abs": 1.1920928955078125e-07,
       "dynamic": 1,
       "error": "",
       "error_step": "",
       "exporter": "dynamo",
       "name": "LayerNorm",
-      "rel": 1.0455683557221485e-07,
+      "rel": 1.140187461285334e-07,
       "success": 1
     },
     {
       "abs": 0.0,
       "dynamic": 0,
-      "error": "",
-      "error_step": "",
-      "exporter": "yobx",
-      "name": "ShapeAndTypeAndDeviceBased",
-      "rel": 0.0,
-      "success": 1
-    },
-    {
-      "abs": 0.0,
-      "dynamic": 0,
-      "error": "",
-      "error_step": "",
-      "exporter": "yobx-tracing",
-      "name": "ShapeAndTypeAndDeviceBased",
-      "rel": 0.0,
-      "success": 1
-    },
-    {
-      "abs": 0.0,
-      "dynamic": 0,
-      "error": "",
-      "error_step": "",
-      "exporter": "yobx-new-tracing",
-      "name": "ShapeAndTypeAndDeviceBased",
-      "rel": 0.0,
-      "success": 1
-    },
-    {
-      "abs": 0.0,
-      "dynamic": 0,
-      "error": "",
-      "error_step": "",
-      "exporter": "dynamo",
-      "name": "ShapeAndTypeAndDeviceBased",
-      "rel": 0.0,
-      "success": 1
-    },
-    {
-      "abs": 0.0,
-      "dynamic": 1,
       "error": "",
       "error_step": "",
       "exporter": "yobx",
@@ -5103,6 +5063,46 @@
     },
     {
       "abs": 0.0,
+      "dynamic": 0,
+      "error": "",
+      "error_step": "",
+      "exporter": "yobx-tracing",
+      "name": "ShapeAndTypeAndDeviceBased",
+      "rel": 0.0,
+      "success": 1
+    },
+    {
+      "abs": 0.0,
+      "dynamic": 0,
+      "error": "",
+      "error_step": "",
+      "exporter": "yobx-new-tracing",
+      "name": "ShapeAndTypeAndDeviceBased",
+      "rel": 0.0,
+      "success": 1
+    },
+    {
+      "abs": 0.0,
+      "dynamic": 0,
+      "error": "",
+      "error_step": "",
+      "exporter": "dynamo",
+      "name": "ShapeAndTypeAndDeviceBased",
+      "rel": 0.0,
+      "success": 1
+    },
+    {
+      "abs": 0.0,
+      "dynamic": 1,
+      "error": "",
+      "error_step": "",
+      "exporter": "yobx",
+      "name": "ShapeAndTypeAndDeviceBased",
+      "rel": 0.0,
+      "success": 1
+    },
+    {
+      "abs": 0.0,
       "dynamic": 1,
       "error": "",
       "error_step": "",
@@ -5292,13 +5292,13 @@
       "success": 1
     },
     {
-      "abs": 1.7881393432617188e-07,
+      "abs": 0.0,
       "dynamic": 0,
       "error": "",
       "error_step": "",
       "exporter": "yobx",
       "name": "SignatureFloat1",
-      "rel": 9.531476413470739e-07,
+      "rel": 0.0,
       "success": 1
     },
     {
@@ -5318,47 +5318,37 @@
       "error_step": "",
       "exporter": "yobx-new-tracing",
       "name": "SignatureFloat1",
-      "rel": 8.22018372640666e-08,
+      "rel": 8.160555191738783e-08,
       "success": 1
     },
     {
-      "abs": 0.0,
+      "abs": 5.960464477539063e-08,
       "dynamic": 0,
       "error": "",
       "error_step": "",
       "exporter": "dynamo",
       "name": "SignatureFloat1",
-      "rel": 0.0,
+      "rel": 8.80417150379588e-07,
       "success": 1
-    },
-    {
-      "abs": 0.5,
-      "dynamic": 1,
-      "error": "diff.1",
-      "error_step": "diff.1",
-      "exporter": "yobx",
-      "name": "SignatureFloat1",
-      "rel": 0.4009488776751967,
-      "success": 0
-    },
-    {
-      "abs": null,
-      "dynamic": 1,
-      "error": "Unable to interpret method 'aten_meth_mul', args=(buff, alpha), kwargs={}, dispatcher=None",
-      "error_step": "export",
-      "exporter": "yobx-tracing",
-      "name": "SignatureFloat1",
-      "rel": null,
-      "success": 0
     },
     {
       "abs": 0.5000000596046448,
       "dynamic": 1,
       "error": "diff.1",
       "error_step": "diff.1",
-      "exporter": "yobx-new-tracing",
+      "exporter": "yobx",
       "name": "SignatureFloat1",
-      "rel": 0.4012037013348047,
+      "rel": 0.6145914048900623,
+      "success": 0
+    },
+    {
+      "abs": null,
+      "dynamic": 1,
+      "error": "Unable to interpret method 'aten_meth_mul', args=(buff, alpha), kwargs={}, dispatcher=None",
+      "error_step": "export",
+      "exporter": "yobx-tracing",
+      "name": "SignatureFloat1",
+      "rel": null,
       "success": 0
     },
     {
@@ -5366,9 +5356,19 @@
       "dynamic": 1,
       "error": "diff.1",
       "error_step": "diff.1",
+      "exporter": "yobx-new-tracing",
+      "name": "SignatureFloat1",
+      "rel": 0.4007288221613571,
+      "success": 0
+    },
+    {
+      "abs": 0.5,
+      "dynamic": 1,
+      "error": "diff.1",
+      "error_step": "diff.1",
       "exporter": "dynamo",
       "name": "SignatureFloat1",
-      "rel": 1.9542505074862984,
+      "rel": 0.41680931098678464,
       "success": 0
     },
     {
@@ -5412,13 +5412,13 @@
       "success": 1
     },
     {
-      "abs": 1.0000019073486328,
+      "abs": 1.0,
       "dynamic": 1,
       "error": "diff.1",
       "error_step": "diff.1",
       "exporter": "yobx",
       "name": "SignatureInt1",
-      "rel": 0.08630830123542545,
+      "rel": 0.08459058711504164,
       "success": 0
     },
     {
@@ -5438,7 +5438,7 @@
       "error_step": "diff.1",
       "exporter": "yobx-new-tracing",
       "name": "SignatureInt1",
-      "rel": 0.08692518202448594,
+      "rel": 0.08693448590293691,
       "success": 0
     },
     {
@@ -5448,17 +5448,17 @@
       "error_step": "diff.1",
       "exporter": "dynamo",
       "name": "SignatureInt1",
-      "rel": 0.08466247843700829,
+      "rel": 0.07999419246263986,
       "success": 0
     },
     {
-      "abs": 0.0,
+      "abs": 9.5367431640625e-07,
       "dynamic": 0,
       "error": "",
       "error_step": "",
       "exporter": "yobx",
       "name": "SignatureInt2",
-      "rel": 0.0,
+      "rel": 8.670836559370101e-08,
       "success": 1
     },
     {
@@ -5472,13 +5472,13 @@
       "success": 0
     },
     {
-      "abs": 0.0,
+      "abs": 1.9073486328125e-06,
       "dynamic": 0,
       "error": "",
       "error_step": "",
       "exporter": "yobx-new-tracing",
       "name": "SignatureInt2",
-      "rel": 0.0,
+      "rel": 1.1558790399253159e-07,
       "success": 1
     },
     {
@@ -5498,7 +5498,7 @@
       "error_step": "",
       "exporter": "yobx",
       "name": "SignatureInt2",
-      "rel": 9.077105638688074e-08,
+      "rel": 8.292111467190004e-08,
       "success": 1
     },
     {
@@ -5692,13 +5692,13 @@
       "success": 0
     },
     {
-      "abs": 1.9073486328125e-06,
+      "abs": 0.0,
       "dynamic": 0,
       "error": "",
       "error_step": "",
       "exporter": "yobx",
       "name": "SignatureListVariableLength",
-      "rel": 6.054901870394839e-08,
+      "rel": 0.0,
       "success": 1
     },
     {
@@ -5732,11 +5732,31 @@
       "success": 1
     },
     {
-      "abs": 96.0,
+      "abs": 95.99999237060547,
       "dynamic": 1,
       "error": "diff.1",
       "error_step": "diff.1",
       "exporter": "yobx",
+      "name": "SignatureListVariableLength",
+      "rel": 0.594423123568065,
+      "success": 0
+    },
+    {
+      "abs": 96.0,
+      "dynamic": 1,
+      "error": "diff.1",
+      "error_step": "diff.1",
+      "exporter": "yobx-tracing",
+      "name": "SignatureListVariableLength",
+      "rel": 0.5943319220449139,
+      "success": 0
+    },
+    {
+      "abs": 96.0,
+      "dynamic": 1,
+      "error": "diff.1",
+      "error_step": "diff.1",
+      "exporter": "yobx-new-tracing",
       "name": "SignatureListVariableLength",
       "rel": 0.5907655952886444,
       "success": 0
@@ -5746,29 +5766,9 @@
       "dynamic": 1,
       "error": "diff.1",
       "error_step": "diff.1",
-      "exporter": "yobx-tracing",
-      "name": "SignatureListVariableLength",
-      "rel": 0.5907657062340452,
-      "success": 0
-    },
-    {
-      "abs": 95.99999237060547,
-      "dynamic": 1,
-      "error": "diff.1",
-      "error_step": "diff.1",
-      "exporter": "yobx-new-tracing",
-      "name": "SignatureListVariableLength",
-      "rel": 0.5907854082278801,
-      "success": 0
-    },
-    {
-      "abs": 95.99999237060547,
-      "dynamic": 1,
-      "error": "diff.1",
-      "error_step": "diff.1",
       "exporter": "dynamo",
       "name": "SignatureListVariableLength",
-      "rel": 0.5944220564976399,
+      "rel": 0.5944235639407806,
       "success": 0
     },
     {
@@ -5792,13 +5792,13 @@
       "success": 1
     },
     {
-      "abs": 1.9073486328125e-06,
+      "abs": 0.0,
       "dynamic": 0,
       "error": "",
       "error_step": "",
       "exporter": "yobx-new-tracing",
       "name": "SignatureShapeAsIndex",
-      "rel": 1.0038148691187305e-07,
+      "rel": 0.0,
       "success": 1
     },
     {
@@ -5852,13 +5852,13 @@
       "success": 1
     },
     {
-      "abs": 8.940696716308594e-07,
+      "abs": 9.5367431640625e-07,
       "dynamic": 0,
       "error": "",
       "error_step": "",
       "exporter": "yobx",
       "name": "TinyLLM",
-      "rel": 0.00033165004075008263,
+      "rel": 0.0002614045672016249,
       "success": 1
     },
     {
@@ -5872,33 +5872,33 @@
       "success": 0
     },
     {
-      "abs": 7.748603820800781e-07,
+      "abs": 1.0728836059570312e-06,
       "dynamic": 0,
       "error": "",
       "error_step": "",
       "exporter": "yobx-new-tracing",
       "name": "TinyLLM",
-      "rel": 0.0003019904968169942,
+      "rel": 0.0003049864422558612,
       "success": 1
     },
     {
-      "abs": 7.748603820800781e-07,
+      "abs": 8.940696716308594e-07,
       "dynamic": 0,
       "error": "",
       "error_step": "",
       "exporter": "dynamo",
       "name": "TinyLLM",
-      "rel": 0.0003551000494885428,
+      "rel": 0.0003853838974541677,
       "success": 1
     },
     {
-      "abs": 8.344650268554688e-07,
+      "abs": 6.556510925292969e-07,
       "dynamic": 1,
       "error": "",
       "error_step": "",
       "exporter": "yobx",
       "name": "TinyLLM",
-      "rel": 0.0003798507657549762,
+      "rel": 0.000289802467098639,
       "success": 1
     },
     {
@@ -5922,13 +5922,13 @@
       "success": 0
     },
     {
-      "abs": 8.344650268554688e-07,
+      "abs": 9.5367431640625e-07,
       "dynamic": 1,
       "error": "",
       "error_step": "",
       "exporter": "dynamo",
       "name": "TinyLLM",
-      "rel": 0.000309239912137135,
+      "rel": 0.0002601340939128693,
       "success": 1
     },
     {
@@ -5938,7 +5938,7 @@
       "error_step": "",
       "exporter": "yobx",
       "name": "TinyLLMfp16",
-      "rel": 0.3878051573085322,
+      "rel": 0.3966722037574256,
       "success": 1
     },
     {
@@ -5968,7 +5968,7 @@
       "error_step": "",
       "exporter": "dynamo",
       "name": "TinyLLMfp16",
-      "rel": 0.536786045103623,
+      "rel": 0.42754559789481705,
       "success": 1
     },
     {
@@ -5978,7 +5978,7 @@
       "error_step": "",
       "exporter": "yobx",
       "name": "TinyLLMfp16",
-      "rel": 0.51712076805249,
+      "rel": 0.4111222565109907,
       "success": 1
     },
     {
@@ -6008,7 +6008,7 @@
       "error_step": "",
       "exporter": "dynamo",
       "name": "TinyLLMfp16",
-      "rel": 0.4083562678003509,
+      "rel": 0.5156876876195232,
       "success": 1
     },
     {
@@ -6254,8 +6254,8 @@
   ],
   "totals": {
     "dynamo": {
-      "failure": 28,
-      "success": 126,
+      "failure": 26,
+      "success": 128,
       "total": 154
     },
     "yobx": {
@@ -6276,8 +6276,8 @@
   },
   "versions": {
     "onnx": "1.22.0",
-    "onnxruntime": "1.29.0",
-    "onnxscript": "0.7.1",
+    "onnxruntime": "1.30.0",
+    "onnxscript": "0.7.2",
     "torch": "2.14.0+cu130",
     "yobx": "0.1.0"
   }
