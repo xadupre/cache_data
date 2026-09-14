@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-07T13:59:53Z",
+  "date": "2026-09-14T14:40:34Z",
   "tag": "release_after",
   "tests": [
     {
@@ -16931,6 +16931,6 @@
   "versions": {
     "numpy": "2.5.3",
     "onnx": "1.22.0",
-    "onnx_light": "0.1.25"
+    "onnx_light": "0.1.27"
   }
 }
