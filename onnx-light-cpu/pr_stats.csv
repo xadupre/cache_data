@@ -381,3 +381,42 @@ pr_number,title,author,merged_at,commits,comments,copilot_comments,copilot_commi
 599,"Optimize Attention, GEMM, and binary operators",xadupre,2026-09-02T20:09:16Z,2,1,0,0
 598,Balance medium GEMM row partitions,xadupre,2026-09-02T17:29:10Z,2,3,1,1
 597,Fix large Abs scheduling defaults,xadupre,2026-09-02T17:16:19Z,1,1,0,0
+714,Use onnx-light as the independent NAIVE Microsoft LinearAttention oracle,Copilot,2026-09-13T06:19:57Z,4,4,1,4
+715,Preserve prepared kernels across session-local invocations,Copilot,2026-09-12T06:30:52Z,3,2,0,3
+713,Match ONNX Attention semantics for finite -FLT_MAX masks,Copilot,2026-09-11T08:00:57Z,2,2,0,2
+712,Require FMA support for Attention AVX2 Exp dispatch,Copilot,2026-09-11T07:12:53Z,2,2,0,2
+707,Isolate SIMD compilation to keep runtime dispatch and fallbacks baseline-safe,Copilot,2026-09-11T06:19:05Z,5,12,9,5
+710,Support N-D zero points in MatMulInteger,Copilot,2026-09-10T14:01:31Z,2,2,0,2
+708,Normalize TreeEnsemble SOFTMAX_ZERO fallback for every target count,Copilot,2026-09-10T08:03:47Z,2,2,0,2
+709,Document the CpuExecutor bridge contract,Copilot,2026-09-10T08:03:33Z,2,2,0,2
+700,Use checked arithmetic for CPU kernel shapes and offsets,Copilot,2026-09-10T07:05:08Z,6,12,8,6
+702,Add C++ backend coverage for QLinearMatMul and variadic Sum/Mean/Min/Max,Copilot,2026-09-10T07:04:40Z,5,6,2,5
+704,Report unmatched PR benchmark selections,Copilot,2026-09-10T07:04:29Z,4,3,1,4
+706,Ensure TreeEnsemble backend coverage includes all float types,Copilot,2026-09-10T07:04:18Z,2,1,0,2
+701,Make TreeEnsemble preprocessing safe for deeply nested trees,Copilot,2026-09-10T06:03:03Z,3,3,1,3
+699,Validate tensor buffer capacity before native elementwise loops,Copilot,2026-09-10T05:11:16Z,2,2,0,2
+680,"Optimize Gather, Pow, and batch normalization follow-ups",xadupre,2026-09-09T19:42:32Z,4,7,2,2
+678,Add com.microsoft::SkipSimplifiedLayerNormalization CPU kernel,xadupre,2026-09-09T15:53:49Z,4,7,2,2
+679,Fix large AVX2 float32 Abs performance with cache-aware streaming,xadupre,2026-09-09T15:10:02Z,1,2,0,0
+675,Add SimplifiedLayerNormalization CPU kernel and benchmarks,xadupre,2026-09-09T09:12:53Z,4,6,2,2
+677,Make PR benchmark tables scrollable in both directions,Copilot,2026-09-09T09:12:34Z,2,1,0,2
+674,Add Cast CPU kernel and conversion benchmarks,xadupre,2026-09-08T16:41:58Z,2,2,0,0
+671,Fix PR benchmark selection and result scrolling,Copilot,2026-09-08T16:41:29Z,3,5,2,3
+672,Optimize FP32 InstanceNormalization affine dispatch,xadupre,2026-09-08T16:04:51Z,3,6,2,2
+673,Add Split CPU kernel and backend benchmarks,xadupre,2026-09-08T15:33:16Z,2,2,0,0
+668,Optimize balanced TreeEnsemble latency and AVX-512 partitions,xadupre,2026-09-08T14:21:12Z,2,4,1,1
+669,Add Concat CPU kernel and backend benchmarks,xadupre,2026-09-08T14:20:41Z,1,2,0,0
+666,Add Gather and Slice CPU kernels with backend benchmarks,xadupre,2026-09-08T13:52:04Z,4,2,0,0
+667,"Accelerate FP32 attention, normalization and short activations",xadupre,2026-09-08T13:52:39Z,2,4,1,1
+665,Improve GEMM scheduling and AVX-512 skinny kernels,xadupre,2026-09-08T12:08:30Z,2,2,0,0
+664,Improve AVX2 Sigmoid/Softmax and diagnose full-corpus parity gaps,xadupre,2026-09-08T12:07:46Z,2,2,0,0
+663,Accelerate small integer Pow broadcasts,xadupre,2026-09-08T11:17:05Z,1,2,0,0
+662,Accelerate mixed integer-exponent Pow broadcasts,xadupre,2026-09-08T10:05:52Z,2,2,0,0
+661,Fix domain-specific benchmark kernel checks,xadupre,2026-09-08T09:50:26Z,5,3,1,1
+660,Move Discussion before Completed in Next Steps,Copilot,2026-09-07T22:06:55Z,2,1,0,2
+658,Investigate AVX2 Sigmoid and Softmax multithread parity,Copilot,2026-09-07T21:37:52Z,1,1,0,1
+656,Improve AVX2 Sigmoid throughput and small Softmax scheduling,xadupre,2026-09-07T18:07:42Z,1,2,0,0
+655,Simplify and sort PR benchmark results,Copilot,2026-09-07T16:05:48Z,2,1,0,2
+653,Restore AVX2 activation dispatch and accelerate Attention/GEMM,xadupre,2026-09-07T15:45:10Z,4,2,0,0
+650,Add float16 and bfloat16 benchmarks for Softmax and Sigmoid,Copilot,2026-09-07T13:27:37Z,2,1,0,2
+651,Restore AMX and AVX-512 BF16 dispatch before AVX2,xadupre,2026-09-07T13:21:18Z,1,2,0,0
