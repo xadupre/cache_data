@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-14T23:54:50Z",
+  "date": "2026-09-15T07:31:57Z",
   "examples": [
     {
       "backends": [
@@ -250,9 +250,9 @@
         "onnx_light_cpu",
         "onnxruntime"
       ],
-      "date": "2026-09-14T23:54:50Z",
+      "date": "2026-09-15T07:31:57Z",
       "domain": "ai.onnx",
-      "machine": "AMD EPYC 7763 64-Core Processor",
+      "machine": "INTEL(R) XEON(R) PLATINUM 8573C",
       "name": "Abs_float64_benchmark",
       "op": "Abs",
       "rows": [
@@ -260,75 +260,58 @@
           "input_elements": 1024,
           "input_type": "float64",
           "inputs": "float64[1024]",
-          "onnx_light_cpu_ms": 0.003456,
-          "onnxruntime_ms": 0.012,
-          "speedup_cpu": 3.4722,
+          "onnxruntime_ms": 0.004901,
           "test_name": "test_cpu_abs_n1024_float64_benchmark"
         },
         {
           "input_elements": 32768,
           "input_type": "float64",
           "inputs": "float64[32768]",
-          "onnx_light_cpu_ms": 0.012408,
-          "onnxruntime_ms": 0.02812,
-          "speedup_cpu": 2.2663,
+          "onnxruntime_ms": 0.010305,
           "test_name": "test_cpu_abs_n32768_float64_benchmark"
         },
         {
           "input_elements": 65535,
           "input_type": "float64",
           "inputs": "float64[65535]",
-          "onnx_light_cpu_ms": 0.02256,
-          "onnxruntime_ms": 0.036675,
-          "speedup_cpu": 1.6257,
+          "onnxruntime_ms": 0.012096,
           "test_name": "test_cpu_abs_n65535_float64_benchmark"
         },
         {
           "input_elements": 65536,
           "input_type": "float64",
           "inputs": "float64[65536]",
-          "onnx_light_cpu_ms": 0.025461,
-          "onnxruntime_ms": 0.031005,
-          "speedup_cpu": 1.2177,
+          "onnxruntime_ms": 0.012535,
           "test_name": "test_cpu_abs_n65536_float64_benchmark"
         },
         {
           "input_elements": 131072,
           "input_type": "float64",
           "inputs": "float64[131072]",
-          "onnx_light_cpu_ms": 0.051405,
-          "onnxruntime_ms": 0.115547,
-          "speedup_cpu": 2.2478,
+          "onnxruntime_ms": 0.017446,
           "test_name": "test_cpu_abs_n131072_float64_benchmark"
         },
         {
           "input_elements": 1048576,
           "input_type": "float64",
           "inputs": "float64[1048576]",
-          "onnx_light_cpu_ms": 0.261486,
-          "onnxruntime_ms": 0.299887,
-          "speedup_cpu": 1.1469,
+          "onnxruntime_ms": 0.288547,
           "test_name": "test_cpu_abs_n1048576_float64_benchmark"
         },
         {
           "input_elements": 4194304,
           "input_type": "float64",
           "inputs": "float64[4194304]",
-          "onnx_light_cpu_ms": 1.161892,
-          "onnxruntime_ms": 1.208283,
-          "speedup_cpu": 1.0399,
+          "onnxruntime_ms": 1.143845,
           "test_name": "test_cpu_abs_n4194304_float64_benchmark"
         }
       ],
-      "simd_level": 3,
-      "simd_name": "AVX2",
+      "simd_level": 4,
+      "simd_name": "AVX-512",
       "source": "7 onnx-light-cpu benchmark tests",
       "summary": {
-        "avg_speedup_cpu": 1.1253,
-        "cpu_succeeded": 7,
-        "inputs": 7,
-        "max_speedup_cpu": 3.4722,
-        "min_speedup_cpu": 1.0399
+        "cpu_succeeded": 0,
+        "inputs": 7
       },
       "title": "Abs (float64): onnxruntime vs onnx-light-cpu"
     },
@@ -1453,9 +1436,9 @@
         "onnx_light_cpu",
         "onnxruntime"
       ],
-      "date": "2026-09-14T23:54:50Z",
+      "date": "2026-09-15T07:31:57Z",
       "domain": "ai.onnx",
-      "machine": "AMD EPYC 7763 64-Core Processor",
+      "machine": "INTEL(R) XEON(R) PLATINUM 8573C",
       "name": "Add_float64_benchmark",
       "op": "Add",
       "rows": [
@@ -1463,264 +1446,205 @@
           "input_elements": 1,
           "input_type": "float64",
           "inputs": "float64, float64[1048576]",
-          "onnx_light_cpu_ms": 0.260039,
-          "onnxruntime_ms": 0.331597,
-          "speedup_cpu": 1.2752,
+          "onnxruntime_ms": 0.292207,
           "test_name": "test_cpu_add_v14_left_scalar_float64xfloat64_to_float64_n1048576_benchmark"
         },
         {
           "input_elements": 1,
           "input_type": "float64",
           "inputs": "float64, float64[4096]",
-          "onnx_light_cpu_ms": 0.006479,
-          "onnxruntime_ms": 0.015279,
-          "speedup_cpu": 2.3582,
+          "onnxruntime_ms": 0.005907,
           "test_name": "test_cpu_add_v14_left_scalar_float64xfloat64_to_float64_n4096_benchmark"
         },
         {
           "input_elements": 1,
           "input_type": "float64",
           "inputs": "float64, float64[4194304]",
-          "onnx_light_cpu_ms": 1.297879,
-          "onnxruntime_ms": 1.32636,
-          "speedup_cpu": 1.0219,
+          "onnxruntime_ms": 1.116787,
           "test_name": "test_cpu_add_v14_left_scalar_float64xfloat64_to_float64_n4194304_benchmark"
         },
         {
           "input_elements": 1,
           "input_type": "float64",
           "inputs": "float64, float64[65536]",
-          "onnx_light_cpu_ms": 0.036325,
-          "onnxruntime_ms": 0.033954,
-          "speedup_cpu": 0.9347,
+          "onnxruntime_ms": 0.0151,
           "test_name": "test_cpu_add_v14_left_scalar_float64xfloat64_to_float64_n65536_benchmark"
         },
         {
           "input_elements": 16,
           "input_type": "float64",
           "inputs": "float64[2x1x8x1], float64[1x4x1x64]",
-          "onnx_light_cpu_ms": 0.006387,
-          "onnxruntime_ms": 0.016927,
-          "speedup_cpu": 2.6502,
+          "onnxruntime_ms": 0.007042,
           "test_name": "test_cpu_add_v14_general_float64xfloat64_to_float64_n4096_benchmark"
         },
         {
           "input_elements": 64,
           "input_type": "float64",
           "inputs": "float64[64x1], float64[1x64]",
-          "onnx_light_cpu_ms": 0.006245,
-          "onnxruntime_ms": 0.016728,
-          "speedup_cpu": 2.6786,
+          "onnxruntime_ms": 0.007224,
           "test_name": "test_cpu_add_v14_outer_float64xfloat64_to_float64_n4096_benchmark"
         },
         {
           "input_elements": 256,
           "input_type": "float64",
           "inputs": "float64[32x1x8x1], float64[1x4x1x64]",
-          "onnx_light_cpu_ms": 0.028499,
-          "onnxruntime_ms": 0.038169,
-          "speedup_cpu": 1.3393,
+          "onnxruntime_ms": 0.023486,
           "test_name": "test_cpu_add_v14_general_float64xfloat64_to_float64_n65536_benchmark"
         },
         {
           "input_elements": 1024,
           "input_type": "float64",
           "inputs": "float64[1024x1], float64[1x64]",
-          "onnx_light_cpu_ms": 0.025006,
-          "onnxruntime_ms": 0.04415,
-          "speedup_cpu": 1.7656,
+          "onnxruntime_ms": 0.018848,
           "test_name": "test_cpu_add_v14_outer_float64xfloat64_to_float64_n65536_benchmark"
         },
         {
           "input_elements": 4096,
           "input_type": "float64",
           "inputs": "float64[16x256], float64[256]",
-          "onnx_light_cpu_ms": 0.006373,
-          "onnxruntime_ms": 0.016239,
-          "speedup_cpu": 2.5481,
+          "onnxruntime_ms": 0.006228,
           "test_name": "test_cpu_add_v14_row_float64xfloat64_to_float64_n4096_benchmark"
         },
         {
           "input_elements": 4096,
           "input_type": "float64",
           "inputs": "float64[2x64x32], float64[64x1]",
-          "onnx_light_cpu_ms": 0.006621,
-          "onnxruntime_ms": 0.018796,
-          "speedup_cpu": 2.8388,
+          "onnxruntime_ms": 0.007672,
           "test_name": "test_cpu_add_v14_per_channel_float64xfloat64_to_float64_n4096_benchmark"
         },
         {
           "input_elements": 4096,
           "input_type": "float64",
           "inputs": "float64[4096], float64",
-          "onnx_light_cpu_ms": 0.006325,
-          "onnxruntime_ms": 0.015191,
-          "speedup_cpu": 2.4017,
+          "onnxruntime_ms": 0.006295,
           "test_name": "test_cpu_add_v14_right_scalar_float64xfloat64_to_float64_n4096_benchmark"
         },
         {
           "input_elements": 4096,
           "input_type": "float64",
           "inputs": "float64[4096], float64[4096]",
-          "onnx_light_cpu_ms": 0.00636,
-          "onnxruntime_ms": 0.01587,
-          "speedup_cpu": 2.4953,
+          "onnxruntime_ms": 0.006138,
           "test_name": "test_cpu_add_v14_contiguous_float64xfloat64_to_float64_n4096_benchmark"
         },
         {
           "input_elements": 4096,
           "input_type": "float64",
           "inputs": "float64[512x1x8x1], float64[1x4x1x64]",
-          "onnx_light_cpu_ms": 0.202648,
-          "onnxruntime_ms": 0.250074,
-          "speedup_cpu": 1.234,
+          "onnxruntime_ms": 0.220734,
           "test_name": "test_cpu_add_v14_general_float64xfloat64_to_float64_n1048576_benchmark"
         },
         {
           "input_elements": 16384,
           "input_type": "float64",
           "inputs": "float64[16384x1], float64[1x64]",
-          "onnx_light_cpu_ms": 0.185924,
-          "onnxruntime_ms": 0.231174,
-          "speedup_cpu": 1.2434,
+          "onnxruntime_ms": 0.195848,
           "test_name": "test_cpu_add_v14_outer_float64xfloat64_to_float64_n1048576_benchmark"
         },
         {
           "input_elements": 16384,
           "input_type": "float64",
           "inputs": "float64[2048x1x8x1], float64[1x4x1x64]",
-          "onnx_light_cpu_ms": 0.847276,
-          "onnxruntime_ms": 0.937168,
-          "speedup_cpu": 1.1061,
+          "onnxruntime_ms": 0.824432,
           "test_name": "test_cpu_add_v14_general_float64xfloat64_to_float64_n4194304_benchmark"
         },
         {
           "input_elements": 65536,
           "input_type": "float64",
           "inputs": "float64[256x256], float64[256]",
-          "onnx_light_cpu_ms": 0.031566,
-          "onnxruntime_ms": 0.037496,
-          "speedup_cpu": 1.1879,
+          "onnxruntime_ms": 0.014472,
           "test_name": "test_cpu_add_v14_row_float64xfloat64_to_float64_n65536_benchmark"
         },
         {
           "input_elements": 65536,
           "input_type": "float64",
           "inputs": "float64[32x64x32], float64[64x1]",
-          "onnx_light_cpu_ms": 0.034212,
-          "onnxruntime_ms": 0.050267,
-          "speedup_cpu": 1.4693,
+          "onnxruntime_ms": 0.024929,
           "test_name": "test_cpu_add_v14_per_channel_float64xfloat64_to_float64_n65536_benchmark"
         },
         {
           "input_elements": 65536,
           "input_type": "float64",
           "inputs": "float64[65536], float64",
-          "onnx_light_cpu_ms": 0.034003,
-          "onnxruntime_ms": 0.035027,
-          "speedup_cpu": 1.0301,
+          "onnxruntime_ms": 0.01321,
           "test_name": "test_cpu_add_v14_right_scalar_float64xfloat64_to_float64_n65536_benchmark"
         },
         {
           "input_elements": 65536,
           "input_type": "float64",
           "inputs": "float64[65536], float64[65536]",
-          "onnx_light_cpu_ms": 0.041847,
-          "onnxruntime_ms": 0.049385,
-          "speedup_cpu": 1.1801,
+          "onnxruntime_ms": 0.013537,
           "test_name": "test_cpu_add_v14_contiguous_float64xfloat64_to_float64_n65536_benchmark"
         },
         {
           "input_elements": 65536,
           "input_type": "float64",
           "inputs": "float64[65536x1], float64[1x64]",
-          "onnx_light_cpu_ms": 0.745537,
-          "onnxruntime_ms": 0.886957,
-          "speedup_cpu": 1.1897,
+          "onnxruntime_ms": 0.738083,
           "test_name": "test_cpu_add_v14_outer_float64xfloat64_to_float64_n4194304_benchmark"
         },
         {
           "input_elements": 1048576,
           "input_type": "float64",
           "inputs": "float64[1048576], float64",
-          "onnx_light_cpu_ms": 0.233304,
-          "onnxruntime_ms": 0.315728,
-          "speedup_cpu": 1.3533,
+          "onnxruntime_ms": 0.288445,
           "test_name": "test_cpu_add_v14_right_scalar_float64xfloat64_to_float64_n1048576_benchmark"
         },
         {
           "input_elements": 1048576,
           "input_type": "float64",
           "inputs": "float64[1048576], float64[1048576]",
-          "onnx_light_cpu_ms": 0.316816,
-          "onnxruntime_ms": 0.438312,
-          "speedup_cpu": 1.3835,
+          "onnxruntime_ms": 0.433154,
           "test_name": "test_cpu_add_v14_contiguous_float64xfloat64_to_float64_n1048576_benchmark"
         },
         {
           "input_elements": 1048576,
           "input_type": "float64",
           "inputs": "float64[4096x256], float64[256]",
-          "onnx_light_cpu_ms": 0.273628,
-          "onnxruntime_ms": 0.34449,
-          "speedup_cpu": 1.259,
+          "onnxruntime_ms": 0.286828,
           "test_name": "test_cpu_add_v14_row_float64xfloat64_to_float64_n1048576_benchmark"
         },
         {
           "input_elements": 1048576,
           "input_type": "float64",
           "inputs": "float64[512x64x32], float64[64x1]",
-          "onnx_light_cpu_ms": 0.279848,
-          "onnxruntime_ms": 0.367575,
-          "speedup_cpu": 1.3135,
+          "onnxruntime_ms": 0.300653,
           "test_name": "test_cpu_add_v14_per_channel_float64xfloat64_to_float64_n1048576_benchmark"
         },
         {
           "input_elements": 4194304,
           "input_type": "float64",
           "inputs": "float64[16384x256], float64[256]",
-          "onnx_light_cpu_ms": 1.259119,
-          "onnxruntime_ms": 1.302757,
-          "speedup_cpu": 1.0347,
+          "onnxruntime_ms": 1.109075,
           "test_name": "test_cpu_add_v14_row_float64xfloat64_to_float64_n4194304_benchmark"
         },
         {
           "input_elements": 4194304,
           "input_type": "float64",
           "inputs": "float64[2048x64x32], float64[64x1]",
-          "onnx_light_cpu_ms": 1.30474,
-          "onnxruntime_ms": 1.346417,
-          "speedup_cpu": 1.0319,
+          "onnxruntime_ms": 1.133404,
           "test_name": "test_cpu_add_v14_per_channel_float64xfloat64_to_float64_n4194304_benchmark"
         },
         {
           "input_elements": 4194304,
           "input_type": "float64",
           "inputs": "float64[4194304], float64",
-          "onnx_light_cpu_ms": 1.309048,
-          "onnxruntime_ms": 1.373358,
-          "speedup_cpu": 1.0491,
+          "onnxruntime_ms": 1.114457,
           "test_name": "test_cpu_add_v14_right_scalar_float64xfloat64_to_float64_n4194304_benchmark"
         },
         {
           "input_elements": 4194304,
           "input_type": "float64",
           "inputs": "float64[4194304], float64[4194304]",
-          "onnx_light_cpu_ms": 2.133466,
-          "onnxruntime_ms": 2.222013,
-          "speedup_cpu": 1.0415,
+          "onnxruntime_ms": 1.657644,
           "test_name": "test_cpu_add_v14_contiguous_float64xfloat64_to_float64_n4194304_benchmark"
         }
       ],
-      "simd_level": 3,
-      "simd_name": "AVX2",
+      "simd_level": 4,
+      "simd_name": "AVX-512",
       "source": "28 onnx-light-cpu benchmark tests",
       "summary": {
-        "avg_speedup_cpu": 1.1054,
-        "cpu_succeeded": 28,
-        "inputs": 28,
-        "max_speedup_cpu": 2.8388,
-        "min_speedup_cpu": 0.9347
+        "cpu_succeeded": 0,
+        "inputs": 28
       },
       "title": "Add (float64): onnxruntime vs onnx-light-cpu"
     },
@@ -4950,9 +4874,9 @@
         "onnx_light_cpu",
         "onnxruntime"
       ],
-      "date": "2026-09-14T23:54:50Z",
+      "date": "2026-09-15T07:31:57Z",
       "domain": "com.microsoft",
-      "machine": "AMD EPYC 7763 64-Core Processor",
+      "machine": "INTEL(R) XEON(R) PLATINUM 8573C",
       "name": "BiasGelu_float64_benchmark",
       "op": "BiasGelu",
       "rows": [
@@ -4960,26 +4884,23 @@
           "input_elements": 1048576,
           "input_type": "float64",
           "inputs": "float64[1024x1024], float64[1024]",
-          "onnx_light_cpu_ms": 7.708334,
           "test_name": "test_cpu_biasgelu_o1024_i1024_float64_benchmark"
         },
         {
           "input_elements": 1048576,
           "input_type": "float64",
           "inputs": "float64[256x4096], float64[4096]",
-          "onnx_light_cpu_ms": 7.665844,
           "test_name": "test_cpu_biasgelu_o256_i4096_float64_benchmark"
         },
         {
           "input_elements": 1048576,
           "input_type": "float64",
           "inputs": "float64[4096x256], float64[256]",
-          "onnx_light_cpu_ms": 7.644903,
           "test_name": "test_cpu_biasgelu_o4096_i256_float64_benchmark"
         }
       ],
-      "simd_level": 3,
-      "simd_name": "AVX2",
+      "simd_level": 4,
+      "simd_name": "AVX-512",
       "source": "3 onnx-light-cpu benchmark tests",
       "summary": {
         "cpu_succeeded": 0,
@@ -14688,9 +14609,9 @@
         "onnx_light_cpu",
         "onnxruntime"
       ],
-      "date": "2026-09-14T23:54:50Z",
+      "date": "2026-09-15T07:31:57Z",
       "domain": "ai.onnx",
-      "machine": "AMD EPYC 7763 64-Core Processor",
+      "machine": "INTEL(R) XEON(R) PLATINUM 8573C",
       "name": "Cast_float64_benchmark",
       "op": "Cast",
       "rows": [
@@ -14698,66 +14619,51 @@
           "input_elements": 1,
           "input_type": "float64",
           "inputs": "float64",
-          "onnx_light_cpu_ms": 0.003724,
-          "onnxruntime_ms": 0.011373,
-          "speedup_cpu": 3.054,
+          "onnxruntime_ms": 0.004679,
           "test_name": "test_cpu_cast_scalar_float64_to_float32_benchmark"
         },
         {
           "input_elements": 16,
           "input_type": "float64",
           "inputs": "float64[16]",
-          "onnx_light_cpu_ms": 0.003502,
-          "onnxruntime_ms": 0.011133,
-          "speedup_cpu": 3.179,
+          "onnxruntime_ms": 0.004747,
           "test_name": "test_cpu_cast_small_float64_to_float32_benchmark"
         },
         {
           "input_elements": 1024,
           "input_type": "float64",
           "inputs": "float64[1024]",
-          "onnx_light_cpu_ms": 0.003768,
-          "onnxruntime_ms": 0.011661,
-          "speedup_cpu": 3.0947,
+          "onnxruntime_ms": 0.005021,
           "test_name": "test_cpu_cast_medium_float64_to_float32_benchmark"
         },
         {
           "input_elements": 65537,
           "input_type": "float64",
           "inputs": "float64[65537]",
-          "onnx_light_cpu_ms": 0.02332,
-          "onnxruntime_ms": 0.033455,
-          "speedup_cpu": 1.4346,
+          "onnxruntime_ms": 0.018904,
           "test_name": "test_cpu_cast_tail_float64_to_float32_benchmark"
         },
         {
           "input_elements": 1048576,
           "input_type": "float64",
           "inputs": "float64[1048576]",
-          "onnx_light_cpu_ms": 0.254512,
-          "onnxruntime_ms": 0.255614,
-          "speedup_cpu": 1.0043,
+          "onnxruntime_ms": 0.3982,
           "test_name": "test_cpu_cast_large_float64_to_float32_benchmark"
         },
         {
           "input_elements": 1048576,
           "input_type": "float64",
           "inputs": "float64[256x4096]",
-          "onnx_light_cpu_ms": 0.258008,
-          "onnxruntime_ms": 0.25545,
-          "speedup_cpu": 0.9901,
+          "onnxruntime_ms": 0.407926,
           "test_name": "test_cpu_cast_matrix_float64_to_float32_benchmark"
         }
       ],
-      "simd_level": 3,
-      "simd_name": "AVX2",
+      "simd_level": 4,
+      "simd_name": "AVX-512",
       "source": "6 onnx-light-cpu benchmark tests",
       "summary": {
-        "avg_speedup_cpu": 1.0582,
-        "cpu_succeeded": 6,
-        "inputs": 6,
-        "max_speedup_cpu": 3.179,
-        "min_speedup_cpu": 0.9901
+        "cpu_succeeded": 0,
+        "inputs": 6
       },
       "title": "Cast (float64): onnxruntime vs onnx-light-cpu"
     },
@@ -15372,9 +15278,9 @@
         "onnx_light_cpu",
         "onnxruntime"
       ],
-      "date": "2026-09-14T23:54:50Z",
+      "date": "2026-09-15T07:31:57Z",
       "domain": "com.microsoft",
-      "machine": "AMD EPYC 7763 64-Core Processor",
+      "machine": "INTEL(R) XEON(R) PLATINUM 8573C",
       "name": "CDist_float64_benchmark",
       "op": "CDist",
       "rows": [
@@ -15382,66 +15288,51 @@
           "input_elements": 4096,
           "input_type": "float64",
           "inputs": "float64[64x64], float64[64x64]",
-          "onnx_light_cpu_ms": 0.032918,
-          "onnxruntime_ms": 0.039426,
-          "speedup_cpu": 1.1977,
+          "onnxruntime_ms": 0.023052,
           "test_name": "test_cpu_cdist_m64_k64_n64_euclidean_float64_benchmark"
         },
         {
           "input_elements": 4096,
           "input_type": "float64",
           "inputs": "float64[64x64], float64[64x64]",
-          "onnx_light_cpu_ms": 0.033097,
-          "onnxruntime_ms": 0.03827,
-          "speedup_cpu": 1.1563,
+          "onnxruntime_ms": 0.021337,
           "test_name": "test_cpu_cdist_m64_k64_n64_sqeuclidean_float64_benchmark"
         },
         {
           "input_elements": 16384,
           "input_type": "float64",
           "inputs": "float64[256x64], float64[128x64]",
-          "onnx_light_cpu_ms": 0.170149,
-          "onnxruntime_ms": 0.160665,
-          "speedup_cpu": 0.9443,
+          "onnxruntime_ms": 0.093795,
           "test_name": "test_cpu_cdist_m256_k128_n64_euclidean_float64_benchmark"
         },
         {
           "input_elements": 16384,
           "input_type": "float64",
           "inputs": "float64[256x64], float64[128x64]",
-          "onnx_light_cpu_ms": 0.143692,
-          "onnxruntime_ms": 0.128045,
-          "speedup_cpu": 0.8911,
+          "onnxruntime_ms": 0.072035,
           "test_name": "test_cpu_cdist_m256_k128_n64_sqeuclidean_float64_benchmark"
         },
         {
           "input_elements": 65536,
           "input_type": "float64",
           "inputs": "float64[512x128], float64[512x128]",
-          "onnx_light_cpu_ms": 2.110184,
-          "onnxruntime_ms": 1.411672,
-          "speedup_cpu": 0.669,
+          "onnxruntime_ms": 0.762163,
           "test_name": "test_cpu_cdist_m512_k512_n128_euclidean_float64_benchmark"
         },
         {
           "input_elements": 65536,
           "input_type": "float64",
           "inputs": "float64[512x128], float64[512x128]",
-          "onnx_light_cpu_ms": 2.335055,
-          "onnxruntime_ms": 1.126714,
-          "speedup_cpu": 0.4825,
+          "onnxruntime_ms": 0.580563,
           "test_name": "test_cpu_cdist_m512_k512_n128_sqeuclidean_float64_benchmark"
         }
       ],
-      "simd_level": 3,
-      "simd_name": "AVX2",
+      "simd_level": 4,
+      "simd_name": "AVX-512",
       "source": "6 onnx-light-cpu benchmark tests",
       "summary": {
-        "avg_speedup_cpu": 0.602,
-        "cpu_succeeded": 6,
-        "inputs": 6,
-        "max_speedup_cpu": 1.1977,
-        "min_speedup_cpu": 0.4825
+        "cpu_succeeded": 0,
+        "inputs": 6
       },
       "title": "CDist (float64): onnxruntime vs onnx-light-cpu"
     },
@@ -15655,9 +15546,9 @@
         "onnx_light_cpu",
         "onnxruntime"
       ],
-      "date": "2026-09-14T23:54:50Z",
+      "date": "2026-09-15T07:31:57Z",
       "domain": "ai.onnx",
-      "machine": "AMD EPYC 7763 64-Core Processor",
+      "machine": "INTEL(R) XEON(R) PLATINUM 8573C",
       "name": "Concat_float64_benchmark",
       "op": "Concat",
       "rows": [
@@ -15665,102 +15556,79 @@
           "input_elements": 0,
           "input_type": "float64",
           "inputs": "float64[1024x0], float64[1024x512], float64[1024x0]",
-          "onnx_light_cpu_ms": 0.178686,
-          "onnxruntime_ms": 0.185018,
-          "speedup_cpu": 1.0354,
+          "onnxruntime_ms": 0.15193,
           "test_name": "test_cpu_concat_empty_input_float64_benchmark"
         },
         {
           "input_elements": 512,
           "input_type": "float64",
           "inputs": "float64[512x1], float64[512x63], float64[512x256]",
-          "onnx_light_cpu_ms": 0.06324,
-          "onnxruntime_ms": 0.085819,
-          "speedup_cpu": 1.357,
+          "onnxruntime_ms": 0.051129,
           "test_name": "test_cpu_concat_uneven_float64_benchmark"
         },
         {
           "input_elements": 2048,
           "input_type": "float64",
           "inputs": "float64[128x16], float64[128x16], float64[128x16], float64[128x16], float64[128x16], float64[128x16], float64[128x16], float64[128x16], float64[128x16], float64[128x16], float64[128x16], float64[128x16], float64[128x16], float64[128x16], float64[128x16], float64[128x16], float64[128x16], float64[128x16], float64[128x16], float64[128x16], float64[128x16], float64[128x16], float64[128x16], float64[128x16], float64[128x16], float64[128x16], float64[128x16], float64[128x16], float64[128x16], float64[128x16], float64[128x16], float64[128x16]",
-          "onnx_light_cpu_ms": 0.058312,
-          "onnxruntime_ms": 0.11404,
-          "speedup_cpu": 1.9557,
+          "onnxruntime_ms": 0.068979,
           "test_name": "test_cpu_concat_many_inputs_float64_benchmark"
         },
         {
           "input_elements": 7967,
           "input_type": "float64",
           "inputs": "float64[257x31], float64[257x34]",
-          "onnx_light_cpu_ms": 0.009487,
-          "onnxruntime_ms": 0.023266,
-          "speedup_cpu": 2.4524,
+          "onnxruntime_ms": 0.011686,
           "test_name": "test_cpu_concat_tail_float64_benchmark"
         },
         {
           "input_elements": 65535,
           "input_type": "float64",
           "inputs": "float64[65535], float64[65536], float64[1]",
-          "onnx_light_cpu_ms": 0.05854,
-          "onnxruntime_ms": 0.062976,
-          "speedup_cpu": 1.0758,
+          "onnxruntime_ms": 0.022409,
           "test_name": "test_cpu_concat_vector_float64_benchmark"
         },
         {
           "input_elements": 65536,
           "input_type": "float64",
           "inputs": "float64[65536x1], float64[65536x1], float64[65536x1], float64[65536x1]",
-          "onnx_light_cpu_ms": 0.106139,
-          "onnxruntime_ms": 0.244153,
-          "speedup_cpu": 2.3003,
+          "onnxruntime_ms": 0.137187,
           "test_name": "test_cpu_concat_narrow_float64_benchmark"
         },
         {
           "input_elements": 131072,
           "input_type": "float64",
           "inputs": "float64[16x128x64], float64[16x256x64]",
-          "onnx_light_cpu_ms": 0.158626,
-          "onnxruntime_ms": 0.151871,
-          "speedup_cpu": 0.9574,
+          "onnxruntime_ms": 0.114247,
           "test_name": "test_cpu_concat_middle_axis_float64_benchmark"
         },
         {
           "input_elements": 262144,
           "input_type": "float64",
           "inputs": "float64[1024x256], float64[1024x768]",
-          "onnx_light_cpu_ms": 0.302691,
-          "onnxruntime_ms": 0.383744,
-          "speedup_cpu": 1.2678,
+          "onnxruntime_ms": 0.307532,
           "test_name": "test_cpu_concat_last_axis_float64_benchmark"
         },
         {
           "input_elements": 524288,
           "input_type": "float64",
           "inputs": "float64[1024x512], float64[1024x512]",
-          "onnx_light_cpu_ms": 0.336014,
-          "onnxruntime_ms": 0.292809,
-          "speedup_cpu": 0.8714,
+          "onnxruntime_ms": 0.293247,
           "test_name": "test_cpu_concat_axis0_float64_benchmark"
         },
         {
           "input_elements": 1048576,
           "input_type": "float64",
           "inputs": "float64[1024x1024]",
-          "onnx_light_cpu_ms": 0.318277,
-          "onnxruntime_ms": 0.324203,
-          "speedup_cpu": 1.0186,
+          "onnxruntime_ms": 0.303576,
           "test_name": "test_cpu_concat_single_float64_benchmark"
         }
       ],
-      "simd_level": 3,
-      "simd_name": "AVX2",
+      "simd_level": 4,
+      "simd_name": "AVX-512",
       "source": "10 onnx-light-cpu benchmark tests",
       "summary": {
-        "avg_speedup_cpu": 1.1748,
-        "cpu_succeeded": 10,
-        "inputs": 10,
-        "max_speedup_cpu": 2.4524,
-        "min_speedup_cpu": 0.8714
+        "cpu_succeeded": 0,
+        "inputs": 10
       },
       "title": "Concat (float64): onnxruntime vs onnx-light-cpu"
     },
@@ -17466,9 +17334,9 @@
         "onnx_light_cpu",
         "onnxruntime"
       ],
-      "date": "2026-09-14T23:54:50Z",
+      "date": "2026-09-15T07:31:57Z",
       "domain": "ai.onnx",
-      "machine": "AMD EPYC 7763 64-Core Processor",
+      "machine": "INTEL(R) XEON(R) PLATINUM 8573C",
       "name": "Div_float64_benchmark",
       "op": "Div",
       "rows": [
@@ -17476,516 +17344,401 @@
           "input_elements": 1,
           "input_type": "float64",
           "inputs": "float64, float64[1048576]",
-          "onnx_light_cpu_ms": 0.329648,
-          "onnxruntime_ms": 0.392066,
-          "speedup_cpu": 1.1893,
+          "onnxruntime_ms": 0.313343,
           "test_name": "test_cpu_div_v14_left_scalar_float64xfloat64_to_float64_n1048576_benchmark"
         },
         {
           "input_elements": 1,
           "input_type": "float64",
           "inputs": "float64, float64[1048576]",
-          "onnx_light_cpu_ms": 0.340411,
-          "onnxruntime_ms": 0.392239,
-          "speedup_cpu": 1.1523,
+          "onnxruntime_ms": 0.314103,
           "test_name": "test_cpu_div_v14_right_scalar_float64xfloat64_to_float64_swapped_n1048576_benchmark"
         },
         {
           "input_elements": 1,
           "input_type": "float64",
           "inputs": "float64, float64[4096]",
-          "onnx_light_cpu_ms": 0.007074,
-          "onnxruntime_ms": 0.016368,
-          "speedup_cpu": 2.3138,
+          "onnxruntime_ms": 0.007809,
           "test_name": "test_cpu_div_v14_left_scalar_float64xfloat64_to_float64_n4096_benchmark"
         },
         {
           "input_elements": 1,
           "input_type": "float64",
           "inputs": "float64, float64[4096]",
-          "onnx_light_cpu_ms": 0.007167,
-          "onnxruntime_ms": 0.01655,
-          "speedup_cpu": 2.3092,
+          "onnxruntime_ms": 0.007989,
           "test_name": "test_cpu_div_v14_right_scalar_float64xfloat64_to_float64_swapped_n4096_benchmark"
         },
         {
           "input_elements": 1,
           "input_type": "float64",
           "inputs": "float64, float64[4194304]",
-          "onnx_light_cpu_ms": 1.535518,
-          "onnxruntime_ms": 1.542933,
-          "speedup_cpu": 1.0048,
+          "onnxruntime_ms": 1.244529,
           "test_name": "test_cpu_div_v14_left_scalar_float64xfloat64_to_float64_n4194304_benchmark"
         },
         {
           "input_elements": 1,
           "input_type": "float64",
           "inputs": "float64, float64[4194304]",
-          "onnx_light_cpu_ms": 1.536457,
-          "onnxruntime_ms": 1.530739,
-          "speedup_cpu": 0.9963,
+          "onnxruntime_ms": 1.209021,
           "test_name": "test_cpu_div_v14_right_scalar_float64xfloat64_to_float64_swapped_n4194304_benchmark"
         },
         {
           "input_elements": 1,
           "input_type": "float64",
           "inputs": "float64, float64[65536]",
-          "onnx_light_cpu_ms": 0.031858,
-          "onnxruntime_ms": 0.042722,
-          "speedup_cpu": 1.341,
+          "onnxruntime_ms": 0.025543,
           "test_name": "test_cpu_div_v14_left_scalar_float64xfloat64_to_float64_n65536_benchmark"
         },
         {
           "input_elements": 1,
           "input_type": "float64",
           "inputs": "float64, float64[65536]",
-          "onnx_light_cpu_ms": 0.031055,
-          "onnxruntime_ms": 0.04328,
-          "speedup_cpu": 1.3937,
+          "onnxruntime_ms": 0.025723,
           "test_name": "test_cpu_div_v14_right_scalar_float64xfloat64_to_float64_swapped_n65536_benchmark"
         },
         {
           "input_elements": 16,
           "input_type": "float64",
           "inputs": "float64[2x1x8x1], float64[1x4x1x64]",
-          "onnx_light_cpu_ms": 0.006733,
-          "onnxruntime_ms": 0.013237,
-          "speedup_cpu": 1.966,
+          "onnxruntime_ms": 0.007856,
           "test_name": "test_cpu_div_v14_general_float64xfloat64_to_float64_n4096_benchmark"
         },
         {
           "input_elements": 64,
           "input_type": "float64",
           "inputs": "float64[1x64], float64[1024x1]",
-          "onnx_light_cpu_ms": 0.031438,
-          "onnxruntime_ms": 0.043615,
-          "speedup_cpu": 1.3873,
+          "onnxruntime_ms": 0.029537,
           "test_name": "test_cpu_div_v14_outer_float64xfloat64_to_float64_swapped_n65536_benchmark"
         },
         {
           "input_elements": 64,
           "input_type": "float64",
           "inputs": "float64[1x64], float64[16384x1]",
-          "onnx_light_cpu_ms": 0.230624,
-          "onnxruntime_ms": 0.406059,
-          "speedup_cpu": 1.7607,
+          "onnxruntime_ms": 0.318486,
           "test_name": "test_cpu_div_v14_outer_float64xfloat64_to_float64_swapped_n1048576_benchmark"
         },
         {
           "input_elements": 64,
           "input_type": "float64",
           "inputs": "float64[1x64], float64[64x1]",
-          "onnx_light_cpu_ms": 0.006736,
-          "onnxruntime_ms": 0.018699,
-          "speedup_cpu": 2.776,
+          "onnxruntime_ms": 0.008851,
           "test_name": "test_cpu_div_v14_outer_float64xfloat64_to_float64_swapped_n4096_benchmark"
         },
         {
           "input_elements": 64,
           "input_type": "float64",
           "inputs": "float64[1x64], float64[65536x1]",
-          "onnx_light_cpu_ms": 1.017408,
-          "onnxruntime_ms": 1.577699,
-          "speedup_cpu": 1.5507,
+          "onnxruntime_ms": 1.220929,
           "test_name": "test_cpu_div_v14_outer_float64xfloat64_to_float64_swapped_n4194304_benchmark"
         },
         {
           "input_elements": 64,
           "input_type": "float64",
           "inputs": "float64[64x1], float64[1x64]",
-          "onnx_light_cpu_ms": 0.006741,
-          "onnxruntime_ms": 0.012311,
-          "speedup_cpu": 1.8263,
+          "onnxruntime_ms": 0.009253,
           "test_name": "test_cpu_div_v14_outer_float64xfloat64_to_float64_n4096_benchmark"
         },
         {
           "input_elements": 64,
           "input_type": "float64",
           "inputs": "float64[64x1], float64[2048x64x32]",
-          "onnx_light_cpu_ms": 1.647949,
-          "onnxruntime_ms": 1.626786,
-          "speedup_cpu": 0.9872,
+          "onnxruntime_ms": 1.241475,
           "test_name": "test_cpu_div_v14_per_channel_float64xfloat64_to_float64_swapped_n4194304_benchmark"
         },
         {
           "input_elements": 64,
           "input_type": "float64",
           "inputs": "float64[64x1], float64[2x64x32]",
-          "onnx_light_cpu_ms": 0.006952,
-          "onnxruntime_ms": 0.018643,
-          "speedup_cpu": 2.6817,
+          "onnxruntime_ms": 0.007895,
           "test_name": "test_cpu_div_v14_per_channel_float64xfloat64_to_float64_swapped_n4096_benchmark"
         },
         {
           "input_elements": 64,
           "input_type": "float64",
           "inputs": "float64[64x1], float64[32x64x32]",
-          "onnx_light_cpu_ms": 0.038804,
-          "onnxruntime_ms": 0.047639,
-          "speedup_cpu": 1.2277,
+          "onnxruntime_ms": 0.026345,
           "test_name": "test_cpu_div_v14_per_channel_float64xfloat64_to_float64_swapped_n65536_benchmark"
         },
         {
           "input_elements": 64,
           "input_type": "float64",
           "inputs": "float64[64x1], float64[512x64x32]",
-          "onnx_light_cpu_ms": 0.355777,
-          "onnxruntime_ms": 0.412971,
-          "speedup_cpu": 1.1608,
+          "onnxruntime_ms": 0.325037,
           "test_name": "test_cpu_div_v14_per_channel_float64xfloat64_to_float64_swapped_n1048576_benchmark"
         },
         {
           "input_elements": 256,
           "input_type": "float64",
           "inputs": "float64[1x4x1x64], float64[2048x1x8x1]",
-          "onnx_light_cpu_ms": 1.057821,
-          "onnxruntime_ms": 1.595293,
-          "speedup_cpu": 1.5081,
+          "onnxruntime_ms": 1.243765,
           "test_name": "test_cpu_div_v14_general_float64xfloat64_to_float64_swapped_n4194304_benchmark"
         },
         {
           "input_elements": 256,
           "input_type": "float64",
           "inputs": "float64[1x4x1x64], float64[2x1x8x1]",
-          "onnx_light_cpu_ms": 0.006675,
-          "onnxruntime_ms": 0.017951,
-          "speedup_cpu": 2.6893,
+          "onnxruntime_ms": 0.009271,
           "test_name": "test_cpu_div_v14_general_float64xfloat64_to_float64_swapped_n4096_benchmark"
         },
         {
           "input_elements": 256,
           "input_type": "float64",
           "inputs": "float64[1x4x1x64], float64[32x1x8x1]",
-          "onnx_light_cpu_ms": 0.032523,
-          "onnxruntime_ms": 0.043247,
-          "speedup_cpu": 1.3297,
+          "onnxruntime_ms": 0.027482,
           "test_name": "test_cpu_div_v14_general_float64xfloat64_to_float64_swapped_n65536_benchmark"
         },
         {
           "input_elements": 256,
           "input_type": "float64",
           "inputs": "float64[1x4x1x64], float64[512x1x8x1]",
-          "onnx_light_cpu_ms": 0.222588,
-          "onnxruntime_ms": 0.41385,
-          "speedup_cpu": 1.8593,
+          "onnxruntime_ms": 0.321597,
           "test_name": "test_cpu_div_v14_general_float64xfloat64_to_float64_swapped_n1048576_benchmark"
         },
         {
           "input_elements": 256,
           "input_type": "float64",
           "inputs": "float64[256], float64[16384x256]",
-          "onnx_light_cpu_ms": 1.460802,
-          "onnxruntime_ms": 1.535615,
-          "speedup_cpu": 1.0512,
+          "onnxruntime_ms": 1.209644,
           "test_name": "test_cpu_div_v14_row_float64xfloat64_to_float64_swapped_n4194304_benchmark"
         },
         {
           "input_elements": 256,
           "input_type": "float64",
           "inputs": "float64[256], float64[16x256]",
-          "onnx_light_cpu_ms": 0.006626,
-          "onnxruntime_ms": 0.016923,
-          "speedup_cpu": 2.554,
+          "onnxruntime_ms": 0.007675,
           "test_name": "test_cpu_div_v14_row_float64xfloat64_to_float64_swapped_n4096_benchmark"
         },
         {
           "input_elements": 256,
           "input_type": "float64",
           "inputs": "float64[256], float64[256x256]",
-          "onnx_light_cpu_ms": 0.031081,
-          "onnxruntime_ms": 0.045221,
-          "speedup_cpu": 1.4549,
+          "onnxruntime_ms": 0.027458,
           "test_name": "test_cpu_div_v14_row_float64xfloat64_to_float64_swapped_n65536_benchmark"
         },
         {
           "input_elements": 256,
           "input_type": "float64",
           "inputs": "float64[256], float64[4096x256]",
-          "onnx_light_cpu_ms": 0.331552,
-          "onnxruntime_ms": 0.399645,
-          "speedup_cpu": 1.2054,
+          "onnxruntime_ms": 0.312407,
           "test_name": "test_cpu_div_v14_row_float64xfloat64_to_float64_swapped_n1048576_benchmark"
         },
         {
           "input_elements": 256,
           "input_type": "float64",
           "inputs": "float64[32x1x8x1], float64[1x4x1x64]",
-          "onnx_light_cpu_ms": 0.031961,
-          "onnxruntime_ms": 0.043156,
-          "speedup_cpu": 1.3503,
+          "onnxruntime_ms": 0.027201,
           "test_name": "test_cpu_div_v14_general_float64xfloat64_to_float64_n65536_benchmark"
         },
         {
           "input_elements": 1024,
           "input_type": "float64",
           "inputs": "float64[1024x1], float64[1x64]",
-          "onnx_light_cpu_ms": 0.031092,
-          "onnxruntime_ms": 0.044139,
-          "speedup_cpu": 1.4196,
+          "onnxruntime_ms": 0.029657,
           "test_name": "test_cpu_div_v14_outer_float64xfloat64_to_float64_n65536_benchmark"
         },
         {
           "input_elements": 4096,
           "input_type": "float64",
           "inputs": "float64[16x256], float64[256]",
-          "onnx_light_cpu_ms": 0.006866,
-          "onnxruntime_ms": 0.017346,
-          "speedup_cpu": 2.5264,
+          "onnxruntime_ms": 0.007948,
           "test_name": "test_cpu_div_v14_row_float64xfloat64_to_float64_n4096_benchmark"
         },
         {
           "input_elements": 4096,
           "input_type": "float64",
           "inputs": "float64[2x64x32], float64[64x1]",
-          "onnx_light_cpu_ms": 0.007083,
-          "onnxruntime_ms": 0.018563,
-          "speedup_cpu": 2.6208,
+          "onnxruntime_ms": 0.00785,
           "test_name": "test_cpu_div_v14_per_channel_float64xfloat64_to_float64_n4096_benchmark"
         },
         {
           "input_elements": 4096,
           "input_type": "float64",
           "inputs": "float64[4096], float64",
-          "onnx_light_cpu_ms": 0.007074,
-          "onnxruntime_ms": 0.016313,
-          "speedup_cpu": 2.3061,
+          "onnxruntime_ms": 0.007646,
           "test_name": "test_cpu_div_v14_left_scalar_float64xfloat64_to_float64_swapped_n4096_benchmark"
         },
         {
           "input_elements": 4096,
           "input_type": "float64",
           "inputs": "float64[4096], float64",
-          "onnx_light_cpu_ms": 0.007294,
-          "onnxruntime_ms": 0.016307,
-          "speedup_cpu": 2.2357,
+          "onnxruntime_ms": 0.007567,
           "test_name": "test_cpu_div_v14_right_scalar_float64xfloat64_to_float64_n4096_benchmark"
         },
         {
           "input_elements": 4096,
           "input_type": "float64",
           "inputs": "float64[4096], float64[4096]",
-          "onnx_light_cpu_ms": 0.006691,
-          "onnxruntime_ms": 0.017339,
-          "speedup_cpu": 2.5914,
+          "onnxruntime_ms": 0.007668,
           "test_name": "test_cpu_div_v14_contiguous_float64xfloat64_to_float64_n4096_benchmark"
         },
         {
           "input_elements": 4096,
           "input_type": "float64",
           "inputs": "float64[4096], float64[4096]",
-          "onnx_light_cpu_ms": 0.006819,
-          "onnxruntime_ms": 0.016775,
-          "speedup_cpu": 2.46,
+          "onnxruntime_ms": 0.007595,
           "test_name": "test_cpu_div_v14_contiguous_float64xfloat64_to_float64_swapped_n4096_benchmark"
         },
         {
           "input_elements": 4096,
           "input_type": "float64",
           "inputs": "float64[512x1x8x1], float64[1x4x1x64]",
-          "onnx_light_cpu_ms": 0.226114,
-          "onnxruntime_ms": 0.41772,
-          "speedup_cpu": 1.8474,
+          "onnxruntime_ms": 0.333451,
           "test_name": "test_cpu_div_v14_general_float64xfloat64_to_float64_n1048576_benchmark"
         },
         {
           "input_elements": 16384,
           "input_type": "float64",
           "inputs": "float64[16384x1], float64[1x64]",
-          "onnx_light_cpu_ms": 0.223738,
-          "onnxruntime_ms": 0.416074,
-          "speedup_cpu": 1.8596,
+          "onnxruntime_ms": 0.317831,
           "test_name": "test_cpu_div_v14_outer_float64xfloat64_to_float64_n1048576_benchmark"
         },
         {
           "input_elements": 16384,
           "input_type": "float64",
           "inputs": "float64[2048x1x8x1], float64[1x4x1x64]",
-          "onnx_light_cpu_ms": 1.116118,
-          "onnxruntime_ms": 1.634674,
-          "speedup_cpu": 1.4646,
+          "onnxruntime_ms": 1.271805,
           "test_name": "test_cpu_div_v14_general_float64xfloat64_to_float64_n4194304_benchmark"
         },
         {
           "input_elements": 65536,
           "input_type": "float64",
           "inputs": "float64[256x256], float64[256]",
-          "onnx_light_cpu_ms": 0.033468,
-          "onnxruntime_ms": 0.04552,
-          "speedup_cpu": 1.3601,
+          "onnxruntime_ms": 0.025499,
           "test_name": "test_cpu_div_v14_row_float64xfloat64_to_float64_n65536_benchmark"
         },
         {
           "input_elements": 65536,
           "input_type": "float64",
           "inputs": "float64[32x64x32], float64[64x1]",
-          "onnx_light_cpu_ms": 0.035683,
-          "onnxruntime_ms": 0.049502,
-          "speedup_cpu": 1.3873,
+          "onnxruntime_ms": 0.026248,
           "test_name": "test_cpu_div_v14_per_channel_float64xfloat64_to_float64_n65536_benchmark"
         },
         {
           "input_elements": 65536,
           "input_type": "float64",
           "inputs": "float64[65536], float64",
-          "onnx_light_cpu_ms": 0.032536,
-          "onnxruntime_ms": 0.042777,
-          "speedup_cpu": 1.3148,
+          "onnxruntime_ms": 0.026914,
           "test_name": "test_cpu_div_v14_left_scalar_float64xfloat64_to_float64_swapped_n65536_benchmark"
         },
         {
           "input_elements": 65536,
           "input_type": "float64",
           "inputs": "float64[65536], float64",
-          "onnx_light_cpu_ms": 0.033531,
-          "onnxruntime_ms": 0.043939,
-          "speedup_cpu": 1.3104,
+          "onnxruntime_ms": 0.026763,
           "test_name": "test_cpu_div_v14_right_scalar_float64xfloat64_to_float64_n65536_benchmark"
         },
         {
           "input_elements": 65536,
           "input_type": "float64",
           "inputs": "float64[65536], float64[65536]",
-          "onnx_light_cpu_ms": 0.05175,
-          "onnxruntime_ms": 0.048676,
-          "speedup_cpu": 0.9406,
+          "onnxruntime_ms": 0.02552,
           "test_name": "test_cpu_div_v14_contiguous_float64xfloat64_to_float64_n65536_benchmark"
         },
         {
           "input_elements": 65536,
           "input_type": "float64",
           "inputs": "float64[65536], float64[65536]",
-          "onnx_light_cpu_ms": 0.042735,
-          "onnxruntime_ms": 0.052936,
-          "speedup_cpu": 1.2387,
+          "onnxruntime_ms": 0.025607,
           "test_name": "test_cpu_div_v14_contiguous_float64xfloat64_to_float64_swapped_n65536_benchmark"
         },
         {
           "input_elements": 65536,
           "input_type": "float64",
           "inputs": "float64[65536x1], float64[1x64]",
-          "onnx_light_cpu_ms": 0.95021,
-          "onnxruntime_ms": 1.613508,
-          "speedup_cpu": 1.6981,
+          "onnxruntime_ms": 1.217184,
           "test_name": "test_cpu_div_v14_outer_float64xfloat64_to_float64_n4194304_benchmark"
         },
         {
           "input_elements": 1048576,
           "input_type": "float64",
           "inputs": "float64[1048576], float64",
-          "onnx_light_cpu_ms": 0.340492,
-          "onnxruntime_ms": 0.688809,
-          "speedup_cpu": 2.023,
+          "onnxruntime_ms": 0.345548,
           "test_name": "test_cpu_div_v14_left_scalar_float64xfloat64_to_float64_swapped_n1048576_benchmark"
         },
         {
           "input_elements": 1048576,
           "input_type": "float64",
           "inputs": "float64[1048576], float64",
-          "onnx_light_cpu_ms": 0.333209,
-          "onnxruntime_ms": 0.393019,
-          "speedup_cpu": 1.1795,
+          "onnxruntime_ms": 0.32016,
           "test_name": "test_cpu_div_v14_right_scalar_float64xfloat64_to_float64_n1048576_benchmark"
         },
         {
           "input_elements": 1048576,
           "input_type": "float64",
           "inputs": "float64[1048576], float64[1048576]",
-          "onnx_light_cpu_ms": 0.456187,
-          "onnxruntime_ms": 0.446361,
-          "speedup_cpu": 0.9785,
+          "onnxruntime_ms": 0.421706,
           "test_name": "test_cpu_div_v14_contiguous_float64xfloat64_to_float64_n1048576_benchmark"
         },
         {
           "input_elements": 1048576,
           "input_type": "float64",
           "inputs": "float64[1048576], float64[1048576]",
-          "onnx_light_cpu_ms": 0.409715,
-          "onnxruntime_ms": 0.414362,
-          "speedup_cpu": 1.0113,
+          "onnxruntime_ms": 0.445478,
           "test_name": "test_cpu_div_v14_contiguous_float64xfloat64_to_float64_swapped_n1048576_benchmark"
         },
         {
           "input_elements": 1048576,
           "input_type": "float64",
           "inputs": "float64[4096x256], float64[256]",
-          "onnx_light_cpu_ms": 0.33771,
-          "onnxruntime_ms": 0.402167,
-          "speedup_cpu": 1.1909,
+          "onnxruntime_ms": 0.313569,
           "test_name": "test_cpu_div_v14_row_float64xfloat64_to_float64_n1048576_benchmark"
         },
         {
           "input_elements": 1048576,
           "input_type": "float64",
           "inputs": "float64[512x64x32], float64[64x1]",
-          "onnx_light_cpu_ms": 0.353016,
-          "onnxruntime_ms": 0.419141,
-          "speedup_cpu": 1.1873,
+          "onnxruntime_ms": 0.363907,
           "test_name": "test_cpu_div_v14_per_channel_float64xfloat64_to_float64_n1048576_benchmark"
         },
         {
           "input_elements": 4194304,
           "input_type": "float64",
           "inputs": "float64[16384x256], float64[256]",
-          "onnx_light_cpu_ms": 1.446638,
-          "onnxruntime_ms": 1.539329,
-          "speedup_cpu": 1.0641,
+          "onnxruntime_ms": 1.492293,
           "test_name": "test_cpu_div_v14_row_float64xfloat64_to_float64_n4194304_benchmark"
         },
         {
           "input_elements": 4194304,
           "input_type": "float64",
           "inputs": "float64[2048x64x32], float64[64x1]",
-          "onnx_light_cpu_ms": 1.466504,
-          "onnxruntime_ms": 1.630801,
-          "speedup_cpu": 1.112,
+          "onnxruntime_ms": 1.298304,
           "test_name": "test_cpu_div_v14_per_channel_float64xfloat64_to_float64_n4194304_benchmark"
         },
         {
           "input_elements": 4194304,
           "input_type": "float64",
           "inputs": "float64[4194304], float64",
-          "onnx_light_cpu_ms": 1.287855,
-          "onnxruntime_ms": 1.528671,
-          "speedup_cpu": 1.187,
+          "onnxruntime_ms": 1.295957,
           "test_name": "test_cpu_div_v14_left_scalar_float64xfloat64_to_float64_swapped_n4194304_benchmark"
         },
         {
           "input_elements": 4194304,
           "input_type": "float64",
           "inputs": "float64[4194304], float64",
-          "onnx_light_cpu_ms": 1.407973,
-          "onnxruntime_ms": 1.539503,
-          "speedup_cpu": 1.0934,
+          "onnxruntime_ms": 1.214233,
           "test_name": "test_cpu_div_v14_right_scalar_float64xfloat64_to_float64_n4194304_benchmark"
         },
         {
           "input_elements": 4194304,
           "input_type": "float64",
           "inputs": "float64[4194304], float64[4194304]",
-          "onnx_light_cpu_ms": 2.610857,
-          "onnxruntime_ms": 2.225078,
-          "speedup_cpu": 0.8522,
+          "onnxruntime_ms": 1.649337,
           "test_name": "test_cpu_div_v14_contiguous_float64xfloat64_to_float64_n4194304_benchmark"
         },
         {
           "input_elements": 4194304,
           "input_type": "float64",
           "inputs": "float64[4194304], float64[4194304]",
-          "onnx_light_cpu_ms": 2.407308,
-          "onnxruntime_ms": 2.175219,
-          "speedup_cpu": 0.9036,
+          "onnxruntime_ms": 1.653036,
           "test_name": "test_cpu_div_v14_contiguous_float64xfloat64_to_float64_swapped_n4194304_benchmark"
         }
       ],
-      "simd_level": 3,
-      "simd_name": "AVX2",
+      "simd_level": 4,
+      "simd_name": "AVX-512",
       "source": "56 onnx-light-cpu benchmark tests",
       "summary": {
-        "avg_speedup_cpu": 1.1596,
-        "cpu_succeeded": 56,
-        "inputs": 56,
-        "max_speedup_cpu": 2.776,
-        "min_speedup_cpu": 0.8522
+        "cpu_succeeded": 0,
+        "inputs": 56
       },
       "title": "Div (float64): onnxruntime vs onnx-light-cpu"
     },
@@ -23017,9 +22770,9 @@
         "onnx_light_cpu",
         "onnxruntime"
       ],
-      "date": "2026-09-14T23:54:50Z",
+      "date": "2026-09-15T07:31:57Z",
       "domain": "ai.onnx",
-      "machine": "AMD EPYC 7763 64-Core Processor",
+      "machine": "INTEL(R) XEON(R) PLATINUM 8573C",
       "name": "Equal_float64_benchmark",
       "op": "Equal",
       "rows": [
@@ -23027,264 +22780,205 @@
           "input_elements": 1,
           "input_type": "float64",
           "inputs": "float64, float64[1048576]",
-          "onnx_light_cpu_ms": 0.179106,
-          "onnxruntime_ms": 0.200302,
-          "speedup_cpu": 1.1183,
+          "onnxruntime_ms": 0.177883,
           "test_name": "test_cpu_equal_v19_left_scalar_float64xfloat64_to_bool_n1048576_benchmark"
         },
         {
           "input_elements": 1,
           "input_type": "float64",
           "inputs": "float64, float64[4096]",
-          "onnx_light_cpu_ms": 0.006223,
-          "onnxruntime_ms": 0.014209,
-          "speedup_cpu": 2.2833,
+          "onnxruntime_ms": 0.009203,
           "test_name": "test_cpu_equal_v19_left_scalar_float64xfloat64_to_bool_n4096_benchmark"
         },
         {
           "input_elements": 1,
           "input_type": "float64",
           "inputs": "float64, float64[4194304]",
-          "onnx_light_cpu_ms": 0.924094,
-          "onnxruntime_ms": 0.626834,
-          "speedup_cpu": 0.6783,
+          "onnxruntime_ms": 0.697904,
           "test_name": "test_cpu_equal_v19_left_scalar_float64xfloat64_to_bool_n4194304_benchmark"
         },
         {
           "input_elements": 1,
           "input_type": "float64",
           "inputs": "float64, float64[65536]",
-          "onnx_light_cpu_ms": 0.023275,
-          "onnxruntime_ms": 0.037804,
-          "speedup_cpu": 1.6242,
+          "onnxruntime_ms": 0.023914,
           "test_name": "test_cpu_equal_v19_left_scalar_float64xfloat64_to_bool_n65536_benchmark"
         },
         {
           "input_elements": 16,
           "input_type": "float64",
           "inputs": "float64[2x1x8x1], float64[1x4x1x64]",
-          "onnx_light_cpu_ms": 0.006465,
-          "onnxruntime_ms": 0.016758,
-          "speedup_cpu": 2.5921,
+          "onnxruntime_ms": 0.010098,
           "test_name": "test_cpu_equal_v19_general_float64xfloat64_to_bool_n4096_benchmark"
         },
         {
           "input_elements": 64,
           "input_type": "float64",
           "inputs": "float64[64x1], float64[1x64]",
-          "onnx_light_cpu_ms": 0.006283,
-          "onnxruntime_ms": 0.016126,
-          "speedup_cpu": 2.5666,
+          "onnxruntime_ms": 0.010061,
           "test_name": "test_cpu_equal_v19_outer_float64xfloat64_to_bool_n4096_benchmark"
         },
         {
           "input_elements": 256,
           "input_type": "float64",
           "inputs": "float64[32x1x8x1], float64[1x4x1x64]",
-          "onnx_light_cpu_ms": 0.024828,
-          "onnxruntime_ms": 0.064068,
-          "speedup_cpu": 2.5805,
+          "onnxruntime_ms": 0.037529,
           "test_name": "test_cpu_equal_v19_general_float64xfloat64_to_bool_n65536_benchmark"
         },
         {
           "input_elements": 1024,
           "input_type": "float64",
           "inputs": "float64[1024x1], float64[1x64]",
-          "onnx_light_cpu_ms": 0.023492,
-          "onnxruntime_ms": 0.06143,
-          "speedup_cpu": 2.6149,
+          "onnxruntime_ms": 0.036899,
           "test_name": "test_cpu_equal_v19_outer_float64xfloat64_to_bool_n65536_benchmark"
         },
         {
           "input_elements": 4096,
           "input_type": "float64",
           "inputs": "float64[16x256], float64[256]",
-          "onnx_light_cpu_ms": 0.006379,
-          "onnxruntime_ms": 0.015017,
-          "speedup_cpu": 2.3541,
+          "onnxruntime_ms": 0.009619,
           "test_name": "test_cpu_equal_v19_row_float64xfloat64_to_bool_n4096_benchmark"
         },
         {
           "input_elements": 4096,
           "input_type": "float64",
           "inputs": "float64[2x64x32], float64[64x1]",
-          "onnx_light_cpu_ms": 0.006791,
-          "onnxruntime_ms": 0.017879,
-          "speedup_cpu": 2.6327,
+          "onnxruntime_ms": 0.010794,
           "test_name": "test_cpu_equal_v19_per_channel_float64xfloat64_to_bool_n4096_benchmark"
         },
         {
           "input_elements": 4096,
           "input_type": "float64",
           "inputs": "float64[4096], float64",
-          "onnx_light_cpu_ms": 0.006321,
-          "onnxruntime_ms": 0.0143,
-          "speedup_cpu": 2.2623,
+          "onnxruntime_ms": 0.009066,
           "test_name": "test_cpu_equal_v19_right_scalar_float64xfloat64_to_bool_n4096_benchmark"
         },
         {
           "input_elements": 4096,
           "input_type": "float64",
           "inputs": "float64[4096], float64[4096]",
-          "onnx_light_cpu_ms": 0.006193,
-          "onnxruntime_ms": 0.015097,
-          "speedup_cpu": 2.4378,
+          "onnxruntime_ms": 0.009443,
           "test_name": "test_cpu_equal_v19_contiguous_float64xfloat64_to_bool_n4096_benchmark"
         },
         {
           "input_elements": 4096,
           "input_type": "float64",
           "inputs": "float64[512x1x8x1], float64[1x4x1x64]",
-          "onnx_light_cpu_ms": 0.172709,
-          "onnxruntime_ms": 0.238449,
-          "speedup_cpu": 1.3806,
+          "onnxruntime_ms": 0.190983,
           "test_name": "test_cpu_equal_v19_general_float64xfloat64_to_bool_n1048576_benchmark"
         },
         {
           "input_elements": 16384,
           "input_type": "float64",
           "inputs": "float64[16384x1], float64[1x64]",
-          "onnx_light_cpu_ms": 0.163619,
-          "onnxruntime_ms": 0.223701,
-          "speedup_cpu": 1.3672,
+          "onnxruntime_ms": 0.196873,
           "test_name": "test_cpu_equal_v19_outer_float64xfloat64_to_bool_n1048576_benchmark"
         },
         {
           "input_elements": 16384,
           "input_type": "float64",
           "inputs": "float64[2048x1x8x1], float64[1x4x1x64]",
-          "onnx_light_cpu_ms": 0.647055,
-          "onnxruntime_ms": 0.885517,
-          "speedup_cpu": 1.3685,
+          "onnxruntime_ms": 0.753886,
           "test_name": "test_cpu_equal_v19_general_float64xfloat64_to_bool_n4194304_benchmark"
         },
         {
           "input_elements": 65536,
           "input_type": "float64",
           "inputs": "float64[256x256], float64[256]",
-          "onnx_light_cpu_ms": 0.030795,
-          "onnxruntime_ms": 0.047432,
-          "speedup_cpu": 1.5403,
+          "onnxruntime_ms": 0.02902,
           "test_name": "test_cpu_equal_v19_row_float64xfloat64_to_bool_n65536_benchmark"
         },
         {
           "input_elements": 65536,
           "input_type": "float64",
           "inputs": "float64[32x64x32], float64[64x1]",
-          "onnx_light_cpu_ms": 0.034738,
-          "onnxruntime_ms": 0.085065,
-          "speedup_cpu": 2.4488,
+          "onnxruntime_ms": 0.045014,
           "test_name": "test_cpu_equal_v19_per_channel_float64xfloat64_to_bool_n65536_benchmark"
         },
         {
           "input_elements": 65536,
           "input_type": "float64",
           "inputs": "float64[65536], float64",
-          "onnx_light_cpu_ms": 0.023179,
-          "onnxruntime_ms": 0.036388,
-          "speedup_cpu": 1.5699,
+          "onnxruntime_ms": 0.023447,
           "test_name": "test_cpu_equal_v19_right_scalar_float64xfloat64_to_bool_n65536_benchmark"
         },
         {
           "input_elements": 65536,
           "input_type": "float64",
           "inputs": "float64[65536], float64[65536]",
-          "onnx_light_cpu_ms": 0.039942,
-          "onnxruntime_ms": 0.042697,
-          "speedup_cpu": 1.069,
+          "onnxruntime_ms": 0.025974,
           "test_name": "test_cpu_equal_v19_contiguous_float64xfloat64_to_bool_n65536_benchmark"
         },
         {
           "input_elements": 65536,
           "input_type": "float64",
           "inputs": "float64[65536x1], float64[1x64]",
-          "onnx_light_cpu_ms": 0.61456,
-          "onnxruntime_ms": 0.832216,
-          "speedup_cpu": 1.3542,
+          "onnxruntime_ms": 0.675354,
           "test_name": "test_cpu_equal_v19_outer_float64xfloat64_to_bool_n4194304_benchmark"
         },
         {
           "input_elements": 1048576,
           "input_type": "float64",
           "inputs": "float64[1048576], float64",
-          "onnx_light_cpu_ms": 0.141939,
-          "onnxruntime_ms": 0.20788,
-          "speedup_cpu": 1.4646,
+          "onnxruntime_ms": 0.179988,
           "test_name": "test_cpu_equal_v19_right_scalar_float64xfloat64_to_bool_n1048576_benchmark"
         },
         {
           "input_elements": 1048576,
           "input_type": "float64",
           "inputs": "float64[1048576], float64[1048576]",
-          "onnx_light_cpu_ms": 0.29048,
-          "onnxruntime_ms": 0.331007,
-          "speedup_cpu": 1.1395,
+          "onnxruntime_ms": 0.415705,
           "test_name": "test_cpu_equal_v19_contiguous_float64xfloat64_to_bool_n1048576_benchmark"
         },
         {
           "input_elements": 1048576,
           "input_type": "float64",
           "inputs": "float64[4096x256], float64[256]",
-          "onnx_light_cpu_ms": 0.202954,
-          "onnxruntime_ms": 0.218213,
-          "speedup_cpu": 1.0752,
+          "onnxruntime_ms": 0.190523,
           "test_name": "test_cpu_equal_v19_row_float64xfloat64_to_bool_n1048576_benchmark"
         },
         {
           "input_elements": 1048576,
           "input_type": "float64",
           "inputs": "float64[512x64x32], float64[64x1]",
-          "onnx_light_cpu_ms": 0.223381,
-          "onnxruntime_ms": 0.31315,
-          "speedup_cpu": 1.4019,
+          "onnxruntime_ms": 0.259977,
           "test_name": "test_cpu_equal_v19_per_channel_float64xfloat64_to_bool_n1048576_benchmark"
         },
         {
           "input_elements": 4194304,
           "input_type": "float64",
           "inputs": "float64[16384x256], float64[256]",
-          "onnx_light_cpu_ms": 1.082796,
-          "onnxruntime_ms": 0.715991,
-          "speedup_cpu": 0.6612,
+          "onnxruntime_ms": 0.725963,
           "test_name": "test_cpu_equal_v19_row_float64xfloat64_to_bool_n4194304_benchmark"
         },
         {
           "input_elements": 4194304,
           "input_type": "float64",
           "inputs": "float64[2048x64x32], float64[64x1]",
-          "onnx_light_cpu_ms": 1.157957,
-          "onnxruntime_ms": 1.203667,
-          "speedup_cpu": 1.0395,
+          "onnxruntime_ms": 0.974711,
           "test_name": "test_cpu_equal_v19_per_channel_float64xfloat64_to_bool_n4194304_benchmark"
         },
         {
           "input_elements": 4194304,
           "input_type": "float64",
           "inputs": "float64[4194304], float64",
-          "onnx_light_cpu_ms": 1.049358,
-          "onnxruntime_ms": 0.677164,
-          "speedup_cpu": 0.6453,
+          "onnxruntime_ms": 0.671495,
           "test_name": "test_cpu_equal_v19_right_scalar_float64xfloat64_to_bool_n4194304_benchmark"
         },
         {
           "input_elements": 4194304,
           "input_type": "float64",
           "inputs": "float64[4194304], float64[4194304]",
-          "onnx_light_cpu_ms": 1.454901,
-          "onnxruntime_ms": 1.321729,
-          "speedup_cpu": 0.9085,
+          "onnxruntime_ms": 1.119633,
           "test_name": "test_cpu_equal_v19_contiguous_float64xfloat64_to_bool_n4194304_benchmark"
         }
       ],
-      "simd_level": 3,
-      "simd_name": "AVX2",
+      "simd_level": 4,
+      "simd_name": "AVX-512",
       "source": "28 onnx-light-cpu benchmark tests",
       "summary": {
-        "avg_speedup_cpu": 0.9918,
-        "cpu_succeeded": 28,
-        "inputs": 28,
-        "max_speedup_cpu": 2.6327,
-        "min_speedup_cpu": 0.6453
+        "cpu_succeeded": 0,
+        "inputs": 28
       },
       "title": "Equal (float64): onnxruntime vs onnx-light-cpu"
     },
@@ -25744,9 +25438,9 @@
         "onnx_light_cpu",
         "onnxruntime"
       ],
-      "date": "2026-09-14T23:54:50Z",
+      "date": "2026-09-15T07:31:57Z",
       "domain": "ai.onnx",
-      "machine": "AMD EPYC 7763 64-Core Processor",
+      "machine": "INTEL(R) XEON(R) PLATINUM 8573C",
       "name": "Exp_float64_benchmark",
       "op": "Exp",
       "rows": [
@@ -25754,75 +25448,58 @@
           "input_elements": 1024,
           "input_type": "float64",
           "inputs": "float64[1024]",
-          "onnx_light_cpu_ms": 0.005629,
-          "onnxruntime_ms": 0.017015,
-          "speedup_cpu": 3.0227,
+          "onnxruntime_ms": 0.008027,
           "test_name": "test_cpu_exp_n1024_float64_benchmark"
         },
         {
           "input_elements": 32768,
           "input_type": "float64",
           "inputs": "float64[32768]",
-          "onnx_light_cpu_ms": 0.080626,
-          "onnxruntime_ms": 0.206751,
-          "speedup_cpu": 2.5643,
+          "onnxruntime_ms": 0.115544,
           "test_name": "test_cpu_exp_n32768_float64_benchmark"
         },
         {
           "input_elements": 65535,
           "input_type": "float64",
           "inputs": "float64[65535]",
-          "onnx_light_cpu_ms": 0.156118,
-          "onnxruntime_ms": 0.160634,
-          "speedup_cpu": 1.0289,
+          "onnxruntime_ms": 0.121334,
           "test_name": "test_cpu_exp_n65535_float64_benchmark"
         },
         {
           "input_elements": 65536,
           "input_type": "float64",
           "inputs": "float64[65536]",
-          "onnx_light_cpu_ms": 0.162783,
-          "onnxruntime_ms": 0.160605,
-          "speedup_cpu": 0.9866,
+          "onnxruntime_ms": 0.119179,
           "test_name": "test_cpu_exp_n65536_float64_benchmark"
         },
         {
           "input_elements": 131072,
           "input_type": "float64",
           "inputs": "float64[131072]",
-          "onnx_light_cpu_ms": 0.307072,
-          "onnxruntime_ms": 0.302419,
-          "speedup_cpu": 0.9848,
+          "onnxruntime_ms": 0.227624,
           "test_name": "test_cpu_exp_n131072_float64_benchmark"
         },
         {
           "input_elements": 1048576,
           "input_type": "float64",
           "inputs": "float64[1048576]",
-          "onnx_light_cpu_ms": 1.216232,
-          "onnxruntime_ms": 2.233138,
-          "speedup_cpu": 1.8361,
+          "onnxruntime_ms": 1.818818,
           "test_name": "test_cpu_exp_n1048576_float64_benchmark"
         },
         {
           "input_elements": 4194304,
           "input_type": "float64",
           "inputs": "float64[4194304]",
-          "onnx_light_cpu_ms": 4.84995,
-          "onnxruntime_ms": 8.892467,
-          "speedup_cpu": 1.8335,
+          "onnxruntime_ms": 7.106906,
           "test_name": "test_cpu_exp_n4194304_float64_benchmark"
         }
       ],
-      "simd_level": 3,
-      "simd_name": "AVX2",
+      "simd_level": 4,
+      "simd_name": "AVX-512",
       "source": "7 onnx-light-cpu benchmark tests",
       "summary": {
-        "avg_speedup_cpu": 1.7663,
-        "cpu_succeeded": 7,
-        "inputs": 7,
-        "max_speedup_cpu": 3.0227,
-        "min_speedup_cpu": 0.9848
+        "cpu_succeeded": 0,
+        "inputs": 7
       },
       "title": "Exp (float64): onnxruntime vs onnx-light-cpu"
     },
@@ -26164,9 +25841,9 @@
         "onnx_light_cpu",
         "onnxruntime"
       ],
-      "date": "2026-09-14T23:54:50Z",
+      "date": "2026-09-15T07:31:57Z",
       "domain": "ai.onnx",
-      "machine": "AMD EPYC 7763 64-Core Processor",
+      "machine": "INTEL(R) XEON(R) PLATINUM 8573C",
       "name": "Gather_float64_benchmark",
       "op": "Gather",
       "rows": [
@@ -26174,174 +25851,135 @@
           "input_elements": 65536,
           "input_type": "float64",
           "inputs": "float64[1024x64], int32[16]",
-          "onnx_light_cpu_ms": 0.004262,
-          "onnxruntime_ms": 0.013661,
-          "speedup_cpu": 3.2053,
+          "onnxruntime_ms": 0.006565,
           "test_name": "test_cpu_gather_embedding_small_indices32_float64_benchmark"
         },
         {
           "input_elements": 65536,
           "input_type": "float64",
           "inputs": "float64[1024x64], int64[16]",
-          "onnx_light_cpu_ms": 0.004215,
-          "onnxruntime_ms": 0.013974,
-          "speedup_cpu": 3.3153,
+          "onnxruntime_ms": 0.006417,
           "test_name": "test_cpu_gather_embedding_small_indices64_float64_benchmark"
         },
         {
           "input_elements": 66560,
           "input_type": "float64",
           "inputs": "float64[1024x65], int32[31]",
-          "onnx_light_cpu_ms": 0.004429,
-          "onnxruntime_ms": 0.01436,
-          "speedup_cpu": 3.2423,
+          "onnxruntime_ms": 0.006215,
           "test_name": "test_cpu_gather_embedding_tail_indices32_float64_benchmark"
         },
         {
           "input_elements": 66560,
           "input_type": "float64",
           "inputs": "float64[1024x65], int64[31]",
-          "onnx_light_cpu_ms": 0.004538,
-          "onnxruntime_ms": 0.014061,
-          "speedup_cpu": 3.0985,
+          "onnxruntime_ms": 0.00728,
           "test_name": "test_cpu_gather_embedding_tail_indices64_float64_benchmark"
         },
         {
           "input_elements": 524288,
           "input_type": "float64",
           "inputs": "float64[32x256x64], int32[127]",
-          "onnx_light_cpu_ms": 0.104739,
-          "onnxruntime_ms": 0.102599,
-          "speedup_cpu": 0.9796,
+          "onnxruntime_ms": 0.07351,
           "test_name": "test_cpu_gather_middle_axis_indices32_float64_benchmark"
         },
         {
           "input_elements": 524288,
           "input_type": "float64",
           "inputs": "float64[32x256x64], int64[127]",
-          "onnx_light_cpu_ms": 0.107879,
-          "onnxruntime_ms": 0.102817,
-          "speedup_cpu": 0.9531,
+          "onnxruntime_ms": 0.074562,
           "test_name": "test_cpu_gather_middle_axis_indices64_float64_benchmark"
         },
         {
           "input_elements": 524288,
           "input_type": "float64",
           "inputs": "float64[4096x128], int32",
-          "onnx_light_cpu_ms": 0.004372,
-          "onnxruntime_ms": 0.013063,
-          "speedup_cpu": 2.9879,
+          "onnxruntime_ms": 0.005863,
           "test_name": "test_cpu_gather_embedding_single_indices32_float64_benchmark"
         },
         {
           "input_elements": 524288,
           "input_type": "float64",
           "inputs": "float64[4096x128], int32[8x32]",
-          "onnx_light_cpu_ms": 0.010861,
-          "onnxruntime_ms": 0.024916,
-          "speedup_cpu": 2.2941,
+          "onnxruntime_ms": 0.010541,
           "test_name": "test_cpu_gather_embedding_multidim_indices32_float64_benchmark"
         },
         {
           "input_elements": 524288,
           "input_type": "float64",
           "inputs": "float64[4096x128], int64",
-          "onnx_light_cpu_ms": 0.004472,
-          "onnxruntime_ms": 0.01297,
-          "speedup_cpu": 2.9003,
+          "onnxruntime_ms": 0.006884,
           "test_name": "test_cpu_gather_embedding_single_indices64_float64_benchmark"
         },
         {
           "input_elements": 524288,
           "input_type": "float64",
           "inputs": "float64[4096x128], int64[8x32]",
-          "onnx_light_cpu_ms": 0.01077,
-          "onnxruntime_ms": 0.023184,
-          "speedup_cpu": 2.1526,
+          "onnxruntime_ms": 0.011879,
           "test_name": "test_cpu_gather_embedding_multidim_indices64_float64_benchmark"
         },
         {
           "input_elements": 1048576,
           "input_type": "float64",
           "inputs": "float64[1024x1024], int32[255]",
-          "onnx_light_cpu_ms": 0.20919,
-          "onnxruntime_ms": 0.62127,
-          "speedup_cpu": 2.9699,
+          "onnxruntime_ms": 0.679434,
           "test_name": "test_cpu_gather_last_axis_indices32_float64_benchmark"
         },
         {
           "input_elements": 1048576,
           "input_type": "float64",
           "inputs": "float64[1024x1024], int64[255]",
-          "onnx_light_cpu_ms": 0.235526,
-          "onnxruntime_ms": 0.619933,
-          "speedup_cpu": 2.6321,
+          "onnxruntime_ms": 0.658698,
           "test_name": "test_cpu_gather_last_axis_indices64_float64_benchmark"
         },
         {
           "input_elements": 1048576,
           "input_type": "float64",
           "inputs": "float64[1048576], int32[65535]",
-          "onnx_light_cpu_ms": 0.152851,
-          "onnxruntime_ms": 0.267897,
-          "speedup_cpu": 1.7527,
+          "onnxruntime_ms": 0.317623,
           "test_name": "test_cpu_gather_vector_random_indices32_float64_benchmark"
         },
         {
           "input_elements": 1048576,
           "input_type": "float64",
           "inputs": "float64[1048576], int64[65535]",
-          "onnx_light_cpu_ms": 0.168792,
-          "onnxruntime_ms": 0.224456,
-          "speedup_cpu": 1.3298,
+          "onnxruntime_ms": 0.324223,
           "test_name": "test_cpu_gather_vector_random_indices64_float64_benchmark"
         },
         {
           "input_elements": 2097152,
           "input_type": "float64",
           "inputs": "float64[8192x256], int32[2048]",
-          "onnx_light_cpu_ms": 0.16909,
-          "onnxruntime_ms": 0.21099,
-          "speedup_cpu": 1.2478,
+          "onnxruntime_ms": 0.161571,
           "test_name": "test_cpu_gather_embedding_large_indices32_float64_benchmark"
         },
         {
           "input_elements": 2097152,
           "input_type": "float64",
           "inputs": "float64[8192x256], int64[2048]",
-          "onnx_light_cpu_ms": 0.141565,
-          "onnxruntime_ms": 0.208468,
-          "speedup_cpu": 1.4726,
+          "onnxruntime_ms": 0.163069,
           "test_name": "test_cpu_gather_embedding_large_indices64_float64_benchmark"
         },
         {
           "input_elements": 4194304,
           "input_type": "float64",
           "inputs": "float64[4x1048576], int32[2]",
-          "onnx_light_cpu_ms": 0.313096,
-          "onnxruntime_ms": 0.442696,
-          "speedup_cpu": 1.4139,
+          "onnxruntime_ms": 0.579716,
           "test_name": "test_cpu_gather_large_slice_indices32_float64_benchmark"
         },
         {
           "input_elements": 4194304,
           "input_type": "float64",
           "inputs": "float64[4x1048576], int64[2]",
-          "onnx_light_cpu_ms": 0.287469,
-          "onnxruntime_ms": 0.438058,
-          "speedup_cpu": 1.5238,
+          "onnxruntime_ms": 0.625062,
           "test_name": "test_cpu_gather_large_slice_indices64_float64_benchmark"
         }
       ],
-      "simd_level": 3,
-      "simd_name": "AVX2",
+      "simd_level": 4,
+      "simd_name": "AVX-512",
       "source": "18 onnx-light-cpu benchmark tests",
       "summary": {
-        "avg_speedup_cpu": 1.7385,
-        "cpu_succeeded": 18,
-        "inputs": 18,
-        "max_speedup_cpu": 3.3153,
-        "min_speedup_cpu": 0.9531
+        "cpu_succeeded": 0,
+        "inputs": 18
       },
       "title": "Gather (float64): onnxruntime vs onnx-light-cpu"
     },
@@ -27573,9 +27211,9 @@
         "onnx_light_cpu",
         "onnxruntime"
       ],
-      "date": "2026-09-14T23:54:50Z",
+      "date": "2026-09-15T07:31:57Z",
       "domain": "ai.onnx",
-      "machine": "AMD EPYC 7763 64-Core Processor",
+      "machine": "INTEL(R) XEON(R) PLATINUM 8573C",
       "name": "Gemm_float64_benchmark",
       "op": "Gemm",
       "rows": [
@@ -27583,300 +27221,233 @@
           "input_elements": 64,
           "input_type": "float64",
           "inputs": "float64[1x64], float64[64x64]",
-          "onnx_light_cpu_ms": 0.007513,
-          "onnxruntime_ms": 0.015673,
-          "speedup_cpu": 2.0861,
+          "onnxruntime_ms": 0.008291,
           "test_name": "test_cpu_gemm_tiny_dynamic_float64_transA_0_transB_0_bias_none_benchmark"
         },
         {
           "input_elements": 256,
           "input_type": "float64",
           "inputs": "float64[1x256], float64[256x256]",
-          "onnx_light_cpu_ms": 0.038135,
-          "onnxruntime_ms": 0.04627,
-          "speedup_cpu": 1.2133,
+          "onnxruntime_ms": 0.01951,
           "test_name": "test_cpu_gemm_skinny_m_small_float64_transA_0_transB_0_bias_none_benchmark"
         },
         {
           "input_elements": 512,
           "input_type": "float64",
           "inputs": "float64[32x16], float64[16x128]",
-          "onnx_light_cpu_ms": 0.010961,
-          "onnxruntime_ms": 0.018067,
-          "speedup_cpu": 1.6483,
+          "onnxruntime_ms": 0.011191,
           "test_name": "test_cpu_gemm_direct_float64_transA_0_transB_0_bias_none_benchmark"
         },
         {
           "input_elements": 768,
           "input_type": "float64",
           "inputs": "float64[1x768], float64[768x3072]",
-          "onnx_light_cpu_ms": 0.610318,
-          "onnxruntime_ms": 0.744147,
-          "speedup_cpu": 1.2193,
+          "onnxruntime_ms": 0.834321,
           "test_name": "test_cpu_gemm_transformer_projection_decode_float64_transA_0_transB_0_bias_none_benchmark"
         },
         {
           "input_elements": 1024,
           "input_type": "float64",
           "inputs": "float64[1x1024], float64[1024x1024]",
-          "onnx_light_cpu_ms": 0.447091,
-          "onnxruntime_ms": 0.896607,
-          "speedup_cpu": 2.0054,
+          "onnxruntime_ms": 0.337423,
           "test_name": "test_cpu_gemm_skinny_m_float64_transA_0_transB_0_bias_none_benchmark"
         },
         {
           "input_elements": 2048,
           "input_type": "float64",
           "inputs": "float64[64x32], float64[32x256]",
-          "onnx_light_cpu_ms": 0.042798,
-          "onnxruntime_ms": 0.034029,
-          "speedup_cpu": 0.7951,
+          "onnxruntime_ms": 0.016116,
           "test_name": "test_cpu_gemm_direct_k32_float64_transA_0_transB_0_bias_none_benchmark"
         },
         {
           "input_elements": 8192,
           "input_type": "float64",
           "inputs": "float64[2x4096], float64[4096x2]",
-          "onnx_light_cpu_ms": 0.014082,
-          "onnxruntime_ms": 0.029171,
-          "speedup_cpu": 2.0715,
+          "onnxruntime_ms": 0.01602,
           "test_name": "test_cpu_gemm_split_k_float64_transA_0_transB_0_bias_none_benchmark"
         },
         {
           "input_elements": 16384,
           "input_type": "float64",
           "inputs": "float64[128x128], float64[128x128]",
-          "onnx_light_cpu_ms": 0.095964,
-          "onnxruntime_ms": 0.083212,
-          "speedup_cpu": 0.8671,
+          "onnxruntime_ms": 0.033154,
           "test_name": "test_cpu_gemm_square_128_float64_transA_0_transB_0_bias_none_benchmark"
         },
         {
           "input_elements": 16384,
           "input_type": "float64",
           "inputs": "float64[128x128], float64[128x128]",
-          "onnx_light_cpu_ms": 0.117193,
-          "onnxruntime_ms": 0.077701,
-          "speedup_cpu": 0.663,
+          "onnxruntime_ms": 0.036158,
           "test_name": "test_cpu_gemm_square_128_float64_transA_0_transB_1_bias_none_benchmark"
         },
         {
           "input_elements": 16384,
           "input_type": "float64",
           "inputs": "float64[128x128], float64[128x128]",
-          "onnx_light_cpu_ms": 0.103241,
-          "onnxruntime_ms": 0.090912,
-          "speedup_cpu": 0.8806,
+          "onnxruntime_ms": 0.036293,
           "test_name": "test_cpu_gemm_square_128_float64_transA_1_transB_0_bias_none_benchmark"
         },
         {
           "input_elements": 16384,
           "input_type": "float64",
           "inputs": "float64[128x128], float64[128x16384]",
-          "onnx_light_cpu_ms": 8.94491,
-          "onnxruntime_ms": 6.948863,
-          "speedup_cpu": 0.7769,
+          "onnxruntime_ms": 3.28145,
           "test_name": "test_cpu_gemm_big_m128_n16384_k128_float64_transA_0_transB_0_bias_none_benchmark"
         },
         {
           "input_elements": 16384,
           "input_type": "float64",
           "inputs": "float64[128x128], float64[128x8192]",
-          "onnx_light_cpu_ms": 5.112937,
-          "onnxruntime_ms": 3.980085,
-          "speedup_cpu": 0.7784,
+          "onnxruntime_ms": 1.729608,
           "test_name": "test_cpu_gemm_big_m128_n8192_k128_float64_transA_0_transB_0_bias_none_benchmark"
         },
         {
           "input_elements": 32768,
           "input_type": "float64",
           "inputs": "float64[2x16384], float64[16384x2]",
-          "onnx_light_cpu_ms": 0.038792,
-          "onnxruntime_ms": 0.095482,
-          "speedup_cpu": 2.4614,
+          "onnxruntime_ms": 0.044352,
           "test_name": "test_cpu_gemm_split_k_16384_float64_transA_0_transB_0_bias_none_benchmark"
         },
         {
           "input_elements": 32768,
           "input_type": "float64",
           "inputs": "float64[32x1024], float64[1024x32]",
-          "onnx_light_cpu_ms": 0.090096,
-          "onnxruntime_ms": 0.076113,
-          "speedup_cpu": 0.8448,
+          "onnxruntime_ms": 0.026921,
           "test_name": "test_cpu_gemm_large_k_1024_float64_transA_0_transB_0_bias_none_benchmark"
         },
         {
           "input_elements": 65536,
           "input_type": "float64",
           "inputs": "float64[256x256], float64[256x1]",
-          "onnx_light_cpu_ms": 0.025426,
-          "onnxruntime_ms": 0.034528,
-          "speedup_cpu": 1.358,
+          "onnxruntime_ms": 0.016453,
           "test_name": "test_cpu_gemm_skinny_n_small_float64_transA_0_transB_0_bias_none_benchmark"
         },
         {
           "input_elements": 65536,
           "input_type": "float64",
           "inputs": "float64[256x256], float64[256x256]",
-          "onnx_light_cpu_ms": 0.472131,
-          "onnxruntime_ms": 0.414546,
-          "speedup_cpu": 0.878,
+          "onnxruntime_ms": 0.176335,
           "test_name": "test_cpu_gemm_square_256_float64_transA_0_transB_0_bias_none_benchmark"
         },
         {
           "input_elements": 65536,
           "input_type": "float64",
           "inputs": "float64[256x256], float64[256x256], float64",
-          "onnx_light_cpu_ms": 0.497886,
-          "onnxruntime_ms": 0.453361,
-          "speedup_cpu": 0.9106,
+          "onnxruntime_ms": 0.212568,
           "test_name": "test_cpu_gemm_square_256_float64_transA_0_transB_0_bias_scalar_benchmark"
         },
         {
           "input_elements": 65536,
           "input_type": "float64",
           "inputs": "float64[256x256], float64[256x256], float64[1x256]",
-          "onnx_light_cpu_ms": 0.511651,
-          "onnxruntime_ms": 0.449685,
-          "speedup_cpu": 0.8789,
+          "onnxruntime_ms": 0.21295,
           "test_name": "test_cpu_gemm_square_256_float64_transA_0_transB_0_bias_row_benchmark"
         },
         {
           "input_elements": 65536,
           "input_type": "float64",
           "inputs": "float64[256x256], float64[256x256], float64[256x1]",
-          "onnx_light_cpu_ms": 0.489451,
-          "onnxruntime_ms": 0.452113,
-          "speedup_cpu": 0.9237,
+          "onnxruntime_ms": 0.215241,
           "test_name": "test_cpu_gemm_square_256_float64_transA_0_transB_0_bias_column_benchmark"
         },
         {
           "input_elements": 65536,
           "input_type": "float64",
           "inputs": "float64[256x256], float64[256x256], float64[256x256]",
-          "onnx_light_cpu_ms": 0.474465,
-          "onnxruntime_ms": 0.453424,
-          "speedup_cpu": 0.9557,
+          "onnxruntime_ms": 0.218812,
           "test_name": "test_cpu_gemm_square_256_float64_transA_0_transB_0_bias_matrix_benchmark"
         },
         {
           "input_elements": 98304,
           "input_type": "float64",
           "inputs": "float64[128x768], float64[768x3072]",
-          "onnx_light_cpu_ms": 8.370717,
-          "onnxruntime_ms": 6.905626,
-          "speedup_cpu": 0.825,
+          "onnxruntime_ms": 3.536829,
           "test_name": "test_cpu_gemm_transformer_projection_float64_transA_0_transB_0_bias_none_benchmark"
         },
         {
           "input_elements": 131072,
           "input_type": "float64",
           "inputs": "float64[32x4096], float64[4096x32]",
-          "onnx_light_cpu_ms": 0.199859,
-          "onnxruntime_ms": 0.229846,
-          "speedup_cpu": 1.15,
+          "onnxruntime_ms": 0.081355,
           "test_name": "test_cpu_gemm_large_k_float64_transA_0_transB_0_bias_none_benchmark"
         },
         {
           "input_elements": 262144,
           "input_type": "float64",
           "inputs": "float64[512x512], float64[512x512]",
-          "onnx_light_cpu_ms": 3.407511,
-          "onnxruntime_ms": 3.723313,
-          "speedup_cpu": 1.0927,
+          "onnxruntime_ms": 1.504699,
           "test_name": "test_cpu_gemm_square_512_float64_transA_0_transB_0_bias_none_benchmark"
         },
         {
           "input_elements": 524288,
           "input_type": "float64",
           "inputs": "float64[32x16384], float64[16384x32]",
-          "onnx_light_cpu_ms": 0.657193,
-          "onnxruntime_ms": 1.215927,
-          "speedup_cpu": 1.8502,
+          "onnxruntime_ms": 0.503439,
           "test_name": "test_cpu_gemm_large_k_16384_float64_transA_0_transB_0_bias_none_benchmark"
         },
         {
           "input_elements": 1048576,
           "input_type": "float64",
           "inputs": "float64[1024x1024], float64[1024x1024]",
-          "onnx_light_cpu_ms": 29.703882,
-          "onnxruntime_ms": 29.012234,
-          "speedup_cpu": 0.9767,
+          "onnxruntime_ms": 13.306374,
           "test_name": "test_cpu_gemm_square_1024_float64_transA_0_transB_0_bias_none_benchmark"
         },
         {
           "input_elements": 1048576,
           "input_type": "float64",
           "inputs": "float64[1024x1024], float64[1024x1]",
-          "onnx_light_cpu_ms": 0.172019,
-          "onnxruntime_ms": 0.338151,
-          "speedup_cpu": 1.9658,
+          "onnxruntime_ms": 0.167022,
           "test_name": "test_cpu_gemm_skinny_n_float64_transA_0_transB_0_bias_none_benchmark"
         },
         {
           "input_elements": 1048576,
           "input_type": "float64",
           "inputs": "float64[128x8192], float64[8192x128]",
-          "onnx_light_cpu_ms": 4.834332,
-          "onnxruntime_ms": 12.042903,
-          "speedup_cpu": 2.4911,
+          "onnxruntime_ms": 2.208197,
           "test_name": "test_cpu_gemm_big_m128_n128_k8192_float64_transA_0_transB_0_bias_none_benchmark"
         },
         {
           "input_elements": 1048576,
           "input_type": "float64",
           "inputs": "float64[8192x128], float64[128x128]",
-          "onnx_light_cpu_ms": 3.298871,
-          "onnxruntime_ms": 2.766388,
-          "speedup_cpu": 0.8386,
+          "onnxruntime_ms": 1.441006,
           "test_name": "test_cpu_gemm_big_m8192_n128_k128_float64_transA_0_transB_0_bias_none_benchmark"
         },
         {
           "input_elements": 2097152,
           "input_type": "float64",
           "inputs": "float64[128x16384], float64[16384x128]",
-          "onnx_light_cpu_ms": 10.08121,
-          "onnxruntime_ms": 10.019173,
-          "speedup_cpu": 0.9938,
+          "onnxruntime_ms": 4.634645,
           "test_name": "test_cpu_gemm_big_m128_n128_k16384_float64_transA_0_transB_0_bias_none_benchmark"
         },
         {
           "input_elements": 2097152,
           "input_type": "float64",
           "inputs": "float64[16384x128], float64[128x128]",
-          "onnx_light_cpu_ms": 6.977935,
-          "onnxruntime_ms": 6.139634,
-          "speedup_cpu": 0.8799,
+          "onnxruntime_ms": 2.820514,
           "test_name": "test_cpu_gemm_big_m16384_n128_k128_float64_transA_0_transB_0_bias_none_benchmark"
         },
         {
           "input_elements": 4194304,
           "input_type": "float64",
           "inputs": "float64[2048x2048], float64[2048x2048]",
-          "onnx_light_cpu_ms": 222.8013,
-          "onnxruntime_ms": 230.000553,
-          "speedup_cpu": 1.0323,
+          "onnxruntime_ms": 107.33458,
           "test_name": "test_cpu_gemm_square_2048_float64_transA_0_transB_0_bias_none_benchmark"
         },
         {
           "input_elements": 16777216,
           "input_type": "float64",
           "inputs": "float64[4096x4096], float64[4096x4096]",
-          "onnx_light_cpu_ms": 1743.827363,
-          "onnxruntime_ms": 1783.849369,
-          "speedup_cpu": 1.023,
+          "onnxruntime_ms": 915.356701,
           "test_name": "test_cpu_gemm_square_4096_float64_transA_0_transB_0_bias_none_benchmark"
         }
       ],
-      "simd_level": 3,
-      "simd_name": "AVX2",
+      "simd_level": 4,
+      "simd_name": "AVX-512",
       "source": "32 onnx-light-cpu benchmark tests",
       "summary": {
-        "avg_speedup_cpu": 1.024,
-        "cpu_succeeded": 32,
-        "inputs": 32,
-        "max_speedup_cpu": 2.4911,
-        "min_speedup_cpu": 0.663
+        "cpu_succeeded": 0,
+        "inputs": 32
       },
       "title": "Gemm (float64): onnxruntime vs onnx-light-cpu"
     },
@@ -51590,9 +51161,9 @@
         "onnx_light_cpu",
         "onnxruntime"
       ],
-      "date": "2026-09-14T23:54:50Z",
+      "date": "2026-09-15T07:31:57Z",
       "domain": "ai.onnx",
-      "machine": "AMD EPYC 7763 64-Core Processor",
+      "machine": "INTEL(R) XEON(R) PLATINUM 8573C",
       "name": "Log_float64_benchmark",
       "op": "Log",
       "rows": [
@@ -51600,75 +51171,58 @@
           "input_elements": 1024,
           "input_type": "float64",
           "inputs": "float64[1024]",
-          "onnx_light_cpu_ms": 0.005801,
-          "onnxruntime_ms": 0.018141,
-          "speedup_cpu": 3.1272,
+          "onnxruntime_ms": 0.009258,
           "test_name": "test_cpu_log_n1024_float64_benchmark"
         },
         {
           "input_elements": 65536,
           "input_type": "float64",
           "inputs": "float64[65536]",
-          "onnx_light_cpu_ms": 0.080687,
-          "onnxruntime_ms": 0.174847,
-          "speedup_cpu": 2.167,
+          "onnxruntime_ms": 0.20466,
           "test_name": "test_cpu_log_n65536_float64_benchmark"
         },
         {
           "input_elements": 131071,
           "input_type": "float64",
           "inputs": "float64[131071]",
-          "onnx_light_cpu_ms": 0.155072,
-          "onnxruntime_ms": 0.326065,
-          "speedup_cpu": 2.1027,
+          "onnxruntime_ms": 0.297823,
           "test_name": "test_cpu_log_n131071_float64_benchmark"
         },
         {
           "input_elements": 131072,
           "input_type": "float64",
           "inputs": "float64[131072]",
-          "onnx_light_cpu_ms": 0.154847,
-          "onnxruntime_ms": 0.325356,
-          "speedup_cpu": 2.1011,
+          "onnxruntime_ms": 0.299809,
           "test_name": "test_cpu_log_n131072_float64_benchmark"
         },
         {
           "input_elements": 262144,
           "input_type": "float64",
           "inputs": "float64[262144]",
-          "onnx_light_cpu_ms": 0.29929,
-          "onnxruntime_ms": 0.63432,
-          "speedup_cpu": 2.1194,
+          "onnxruntime_ms": 0.60669,
           "test_name": "test_cpu_log_n262144_float64_benchmark"
         },
         {
           "input_elements": 1048576,
           "input_type": "float64",
           "inputs": "float64[1048576]",
-          "onnx_light_cpu_ms": 1.173588,
-          "onnxruntime_ms": 2.476463,
-          "speedup_cpu": 2.1102,
+          "onnxruntime_ms": 2.351342,
           "test_name": "test_cpu_log_n1048576_float64_benchmark"
         },
         {
           "input_elements": 4194304,
           "input_type": "float64",
           "inputs": "float64[4194304]",
-          "onnx_light_cpu_ms": 4.718072,
-          "onnxruntime_ms": 10.035442,
-          "speedup_cpu": 2.127,
+          "onnxruntime_ms": 9.720118,
           "test_name": "test_cpu_log_n4194304_float64_benchmark"
         }
       ],
-      "simd_level": 3,
-      "simd_name": "AVX2",
+      "simd_level": 4,
+      "simd_name": "AVX-512",
       "source": "7 onnx-light-cpu benchmark tests",
       "summary": {
-        "avg_speedup_cpu": 2.1239,
-        "cpu_succeeded": 7,
-        "inputs": 7,
-        "max_speedup_cpu": 3.1272,
-        "min_speedup_cpu": 2.1011
+        "cpu_succeeded": 0,
+        "inputs": 7
       },
       "title": "Log (float64): onnxruntime vs onnx-light-cpu"
     },
@@ -52096,9 +51650,9 @@
         "onnx_light_cpu",
         "onnxruntime"
       ],
-      "date": "2026-09-14T23:54:50Z",
+      "date": "2026-09-15T07:31:57Z",
       "domain": "ai.onnx",
-      "machine": "AMD EPYC 7763 64-Core Processor",
+      "machine": "INTEL(R) XEON(R) PLATINUM 8573C",
       "name": "MatMul_float64_benchmark",
       "op": "MatMul",
       "rows": [
@@ -52106,75 +51660,58 @@
           "input_elements": 4096,
           "input_type": "float64",
           "inputs": "float64[1x4096], float64[4096x4096]",
-          "onnx_light_cpu_ms": 7.025591,
-          "onnxruntime_ms": 8.416327,
-          "speedup_cpu": 1.198,
+          "onnxruntime_ms": 6.016909,
           "test_name": "test_cpu_matmul_skinny_m_float64_benchmark"
         },
         {
           "input_elements": 4096,
           "input_type": "float64",
           "inputs": "float64[64x64], float64[64x64]",
-          "onnx_light_cpu_ms": 0.019228,
-          "onnxruntime_ms": 0.030985,
-          "speedup_cpu": 1.6115,
+          "onnxruntime_ms": 0.016074,
           "test_name": "test_cpu_matmul_square_64_float64_benchmark"
         },
         {
           "input_elements": 16384,
           "input_type": "float64",
           "inputs": "float64[128x128], float64[128x128]",
-          "onnx_light_cpu_ms": 0.071461,
-          "onnxruntime_ms": 0.077009,
-          "speedup_cpu": 1.0776,
+          "onnxruntime_ms": 0.033469,
           "test_name": "test_cpu_matmul_square_128_float64_benchmark"
         },
         {
           "input_elements": 262144,
           "input_type": "float64",
           "inputs": "float64[32x8192], float64[8192x32]",
-          "onnx_light_cpu_ms": 0.336178,
-          "onnxruntime_ms": 1.482894,
-          "speedup_cpu": 4.411,
+          "onnxruntime_ms": 0.257327,
           "test_name": "test_cpu_matmul_large_k_float64_benchmark"
         },
         {
           "input_elements": 262144,
           "input_type": "float64",
           "inputs": "float64[512x512], float64[512x512]",
-          "onnx_light_cpu_ms": 3.422117,
-          "onnxruntime_ms": 3.63056,
-          "speedup_cpu": 1.0609,
+          "onnxruntime_ms": 1.481162,
           "test_name": "test_cpu_matmul_square_512_float64_benchmark"
         },
         {
           "input_elements": 1048576,
           "input_type": "float64",
           "inputs": "float64[1024x1024], float64[1024x1024]",
-          "onnx_light_cpu_ms": 28.66937,
-          "onnxruntime_ms": 28.916693,
-          "speedup_cpu": 1.0086,
+          "onnxruntime_ms": 13.156085,
           "test_name": "test_cpu_matmul_square_1024_float64_benchmark"
         },
         {
           "input_elements": 16777216,
           "input_type": "float64",
           "inputs": "float64[4096x4096], float64[4096x1]",
-          "onnx_light_cpu_ms": 3.355782,
-          "onnxruntime_ms": 4.577712,
-          "speedup_cpu": 1.3641,
+          "onnxruntime_ms": 2.559417,
           "test_name": "test_cpu_matmul_skinny_n_float64_benchmark"
         }
       ],
-      "simd_level": 3,
-      "simd_name": "AVX2",
+      "simd_level": 4,
+      "simd_name": "AVX-512",
       "source": "7 onnx-light-cpu benchmark tests",
       "summary": {
-        "avg_speedup_cpu": 1.0987,
-        "cpu_succeeded": 7,
-        "inputs": 7,
-        "max_speedup_cpu": 4.411,
-        "min_speedup_cpu": 1.0086
+        "cpu_succeeded": 0,
+        "inputs": 7
       },
       "title": "MatMul (float64): onnxruntime vs onnx-light-cpu"
     },
@@ -52477,9 +52014,9 @@
         "onnx_light_cpu",
         "onnxruntime"
       ],
-      "date": "2026-09-14T23:54:50Z",
+      "date": "2026-09-15T07:31:57Z",
       "domain": "ai.onnx",
-      "machine": "AMD EPYC 7763 64-Core Processor",
+      "machine": "INTEL(R) XEON(R) PLATINUM 8573C",
       "name": "Mean_float64_benchmark",
       "op": "Mean",
       "rows": [
@@ -52487,12 +52024,11 @@
           "input_elements": 4096,
           "input_type": "float64",
           "inputs": "float64[1x4096], float64[1x4096], float64[1x4096]",
-          "onnx_light_cpu_ms": 0.037633,
           "test_name": "test_cpu_mean_n4096_3inputs_float64_benchmark"
         }
       ],
-      "simd_level": 3,
-      "simd_name": "AVX2",
+      "simd_level": 4,
+      "simd_name": "AVX-512",
       "source": "1 onnx-light-cpu benchmark tests",
       "summary": {
         "cpu_succeeded": 0,
@@ -53323,9 +52859,9 @@
         "onnx_light_cpu",
         "onnxruntime"
       ],
-      "date": "2026-09-14T23:54:50Z",
+      "date": "2026-09-15T07:31:57Z",
       "domain": "ai.onnx",
-      "machine": "AMD EPYC 7763 64-Core Processor",
+      "machine": "INTEL(R) XEON(R) PLATINUM 8573C",
       "name": "Mod_float64_benchmark",
       "op": "Mod",
       "rows": [
@@ -53333,201 +52869,173 @@
           "input_elements": 1,
           "input_type": "float64",
           "inputs": "float64, float64[1048576]",
-          "onnx_light_cpu_ms": 3.406847,
           "test_name": "test_cpu_mod_v28_left_scalar_float64xfloat64_to_float64_fmod1_n1048576_benchmark"
         },
         {
           "input_elements": 1,
           "input_type": "float64",
           "inputs": "float64, float64[4096]",
-          "onnx_light_cpu_ms": 0.031621,
           "test_name": "test_cpu_mod_v28_left_scalar_float64xfloat64_to_float64_fmod1_n4096_benchmark"
         },
         {
           "input_elements": 1,
           "input_type": "float64",
           "inputs": "float64, float64[4194304]",
-          "onnx_light_cpu_ms": 13.56697,
           "test_name": "test_cpu_mod_v28_left_scalar_float64xfloat64_to_float64_fmod1_n4194304_benchmark"
         },
         {
           "input_elements": 1,
           "input_type": "float64",
           "inputs": "float64, float64[65536]",
-          "onnx_light_cpu_ms": 0.431476,
           "test_name": "test_cpu_mod_v28_left_scalar_float64xfloat64_to_float64_fmod1_n65536_benchmark"
         },
         {
           "input_elements": 16,
           "input_type": "float64",
           "inputs": "float64[2x1x8x1], float64[1x4x1x64]",
-          "onnx_light_cpu_ms": 0.031495,
           "test_name": "test_cpu_mod_v28_general_float64xfloat64_to_float64_fmod1_n4096_benchmark"
         },
         {
           "input_elements": 64,
           "input_type": "float64",
           "inputs": "float64[64x1], float64[1x64]",
-          "onnx_light_cpu_ms": 0.031939,
           "test_name": "test_cpu_mod_v28_outer_float64xfloat64_to_float64_fmod1_n4096_benchmark"
         },
         {
           "input_elements": 256,
           "input_type": "float64",
           "inputs": "float64[32x1x8x1], float64[1x4x1x64]",
-          "onnx_light_cpu_ms": 0.43355,
           "test_name": "test_cpu_mod_v28_general_float64xfloat64_to_float64_fmod1_n65536_benchmark"
         },
         {
           "input_elements": 1024,
           "input_type": "float64",
           "inputs": "float64[1024x1], float64[1x64]",
-          "onnx_light_cpu_ms": 0.434135,
           "test_name": "test_cpu_mod_v28_outer_float64xfloat64_to_float64_fmod1_n65536_benchmark"
         },
         {
           "input_elements": 4096,
           "input_type": "float64",
           "inputs": "float64[16x256], float64[256]",
-          "onnx_light_cpu_ms": 0.03138,
           "test_name": "test_cpu_mod_v28_row_float64xfloat64_to_float64_fmod1_n4096_benchmark"
         },
         {
           "input_elements": 4096,
           "input_type": "float64",
           "inputs": "float64[2x64x32], float64[64x1]",
-          "onnx_light_cpu_ms": 0.031637,
           "test_name": "test_cpu_mod_v28_per_channel_float64xfloat64_to_float64_fmod1_n4096_benchmark"
         },
         {
           "input_elements": 4096,
           "input_type": "float64",
           "inputs": "float64[4096], float64",
-          "onnx_light_cpu_ms": 0.032436,
           "test_name": "test_cpu_mod_v28_right_scalar_float64xfloat64_to_float64_fmod1_n4096_benchmark"
         },
         {
           "input_elements": 4096,
           "input_type": "float64",
           "inputs": "float64[4096], float64[4096]",
-          "onnx_light_cpu_ms": 0.031369,
           "test_name": "test_cpu_mod_v28_contiguous_float64xfloat64_to_float64_fmod1_n4096_benchmark"
         },
         {
           "input_elements": 4096,
           "input_type": "float64",
           "inputs": "float64[512x1x8x1], float64[1x4x1x64]",
-          "onnx_light_cpu_ms": 3.411931,
           "test_name": "test_cpu_mod_v28_general_float64xfloat64_to_float64_fmod1_n1048576_benchmark"
         },
         {
           "input_elements": 16384,
           "input_type": "float64",
           "inputs": "float64[16384x1], float64[1x64]",
-          "onnx_light_cpu_ms": 3.436757,
           "test_name": "test_cpu_mod_v28_outer_float64xfloat64_to_float64_fmod1_n1048576_benchmark"
         },
         {
           "input_elements": 16384,
           "input_type": "float64",
           "inputs": "float64[2048x1x8x1], float64[1x4x1x64]",
-          "onnx_light_cpu_ms": 13.632732,
           "test_name": "test_cpu_mod_v28_general_float64xfloat64_to_float64_fmod1_n4194304_benchmark"
         },
         {
           "input_elements": 65536,
           "input_type": "float64",
           "inputs": "float64[256x256], float64[256]",
-          "onnx_light_cpu_ms": 0.433362,
           "test_name": "test_cpu_mod_v28_row_float64xfloat64_to_float64_fmod1_n65536_benchmark"
         },
         {
           "input_elements": 65536,
           "input_type": "float64",
           "inputs": "float64[32x64x32], float64[64x1]",
-          "onnx_light_cpu_ms": 0.437708,
           "test_name": "test_cpu_mod_v28_per_channel_float64xfloat64_to_float64_fmod1_n65536_benchmark"
         },
         {
           "input_elements": 65536,
           "input_type": "float64",
           "inputs": "float64[65536], float64",
-          "onnx_light_cpu_ms": 0.433656,
           "test_name": "test_cpu_mod_v28_right_scalar_float64xfloat64_to_float64_fmod1_n65536_benchmark"
         },
         {
           "input_elements": 65536,
           "input_type": "float64",
           "inputs": "float64[65536], float64[65536]",
-          "onnx_light_cpu_ms": 0.432325,
           "test_name": "test_cpu_mod_v28_contiguous_float64xfloat64_to_float64_fmod1_n65536_benchmark"
         },
         {
           "input_elements": 65536,
           "input_type": "float64",
           "inputs": "float64[65536x1], float64[1x64]",
-          "onnx_light_cpu_ms": 13.684205,
           "test_name": "test_cpu_mod_v28_outer_float64xfloat64_to_float64_fmod1_n4194304_benchmark"
         },
         {
           "input_elements": 1048576,
           "input_type": "float64",
           "inputs": "float64[1048576], float64",
-          "onnx_light_cpu_ms": 3.408911,
           "test_name": "test_cpu_mod_v28_right_scalar_float64xfloat64_to_float64_fmod1_n1048576_benchmark"
         },
         {
           "input_elements": 1048576,
           "input_type": "float64",
           "inputs": "float64[1048576], float64[1048576]",
-          "onnx_light_cpu_ms": 3.401614,
           "test_name": "test_cpu_mod_v28_contiguous_float64xfloat64_to_float64_fmod1_n1048576_benchmark"
         },
         {
           "input_elements": 1048576,
           "input_type": "float64",
           "inputs": "float64[4096x256], float64[256]",
-          "onnx_light_cpu_ms": 3.414267,
           "test_name": "test_cpu_mod_v28_row_float64xfloat64_to_float64_fmod1_n1048576_benchmark"
         },
         {
           "input_elements": 1048576,
           "input_type": "float64",
           "inputs": "float64[512x64x32], float64[64x1]",
-          "onnx_light_cpu_ms": 3.450815,
           "test_name": "test_cpu_mod_v28_per_channel_float64xfloat64_to_float64_fmod1_n1048576_benchmark"
         },
         {
           "input_elements": 4194304,
           "input_type": "float64",
           "inputs": "float64[16384x256], float64[256]",
-          "onnx_light_cpu_ms": 13.601072,
           "test_name": "test_cpu_mod_v28_row_float64xfloat64_to_float64_fmod1_n4194304_benchmark"
         },
         {
           "input_elements": 4194304,
           "input_type": "float64",
           "inputs": "float64[2048x64x32], float64[64x1]",
-          "onnx_light_cpu_ms": 13.759417,
           "test_name": "test_cpu_mod_v28_per_channel_float64xfloat64_to_float64_fmod1_n4194304_benchmark"
         },
         {
           "input_elements": 4194304,
           "input_type": "float64",
           "inputs": "float64[4194304], float64",
-          "onnx_light_cpu_ms": 13.586656,
           "test_name": "test_cpu_mod_v28_right_scalar_float64xfloat64_to_float64_fmod1_n4194304_benchmark"
         },
         {
           "input_elements": 4194304,
           "input_type": "float64",
           "inputs": "float64[4194304], float64[4194304]",
-          "onnx_light_cpu_ms": 13.594043,
           "test_name": "test_cpu_mod_v28_contiguous_float64xfloat64_to_float64_fmod1_n4194304_benchmark"
         }
       ],
-      "simd_level": 3,
-      "simd_name": "AVX2",
+      "simd_level": 4,
+      "simd_name": "AVX-512",
       "source": "28 onnx-light-cpu benchmark tests",
       "summary": {
         "cpu_succeeded": 0,
@@ -56130,9 +55638,9 @@
         "onnx_light_cpu",
         "onnxruntime"
       ],
-      "date": "2026-09-14T23:54:50Z",
+      "date": "2026-09-15T07:31:57Z",
       "domain": "ai.onnx",
-      "machine": "AMD EPYC 7763 64-Core Processor",
+      "machine": "INTEL(R) XEON(R) PLATINUM 8573C",
       "name": "Mul_float64_benchmark",
       "op": "Mul",
       "rows": [
@@ -56140,264 +55648,205 @@
           "input_elements": 1,
           "input_type": "float64",
           "inputs": "float64, float64[1048576]",
-          "onnx_light_cpu_ms": 0.286291,
-          "onnxruntime_ms": 0.312314,
-          "speedup_cpu": 1.0909,
+          "onnxruntime_ms": 0.289227,
           "test_name": "test_cpu_mul_v14_left_scalar_float64xfloat64_to_float64_n1048576_benchmark"
         },
         {
           "input_elements": 1,
           "input_type": "float64",
           "inputs": "float64, float64[4096]",
-          "onnx_light_cpu_ms": 0.006258,
-          "onnxruntime_ms": 0.014652,
-          "speedup_cpu": 2.3413,
+          "onnxruntime_ms": 0.006746,
           "test_name": "test_cpu_mul_v14_left_scalar_float64xfloat64_to_float64_n4096_benchmark"
         },
         {
           "input_elements": 1,
           "input_type": "float64",
           "inputs": "float64, float64[4194304]",
-          "onnx_light_cpu_ms": 1.345778,
-          "onnxruntime_ms": 1.117768,
-          "speedup_cpu": 0.8306,
+          "onnxruntime_ms": 1.118097,
           "test_name": "test_cpu_mul_v14_left_scalar_float64xfloat64_to_float64_n4194304_benchmark"
         },
         {
           "input_elements": 1,
           "input_type": "float64",
           "inputs": "float64, float64[65536]",
-          "onnx_light_cpu_ms": 0.032868,
-          "onnxruntime_ms": 0.03409,
-          "speedup_cpu": 1.0372,
+          "onnxruntime_ms": 0.015668,
           "test_name": "test_cpu_mul_v14_left_scalar_float64xfloat64_to_float64_n65536_benchmark"
         },
         {
           "input_elements": 16,
           "input_type": "float64",
           "inputs": "float64[2x1x8x1], float64[1x4x1x64]",
-          "onnx_light_cpu_ms": 0.006342,
-          "onnxruntime_ms": 0.017418,
-          "speedup_cpu": 2.7465,
+          "onnxruntime_ms": 0.007131,
           "test_name": "test_cpu_mul_v14_general_float64xfloat64_to_float64_n4096_benchmark"
         },
         {
           "input_elements": 64,
           "input_type": "float64",
           "inputs": "float64[64x1], float64[1x64]",
-          "onnx_light_cpu_ms": 0.00617,
-          "onnxruntime_ms": 0.017163,
-          "speedup_cpu": 2.7817,
+          "onnxruntime_ms": 0.008053,
           "test_name": "test_cpu_mul_v14_outer_float64xfloat64_to_float64_n4096_benchmark"
         },
         {
           "input_elements": 256,
           "input_type": "float64",
           "inputs": "float64[32x1x8x1], float64[1x4x1x64]",
-          "onnx_light_cpu_ms": 0.024529,
-          "onnxruntime_ms": 0.040026,
-          "speedup_cpu": 1.6318,
+          "onnxruntime_ms": 0.020419,
           "test_name": "test_cpu_mul_v14_general_float64xfloat64_to_float64_n65536_benchmark"
         },
         {
           "input_elements": 1024,
           "input_type": "float64",
           "inputs": "float64[1024x1], float64[1x64]",
-          "onnx_light_cpu_ms": 0.02312,
-          "onnxruntime_ms": 0.036573,
-          "speedup_cpu": 1.5819,
+          "onnxruntime_ms": 0.018691,
           "test_name": "test_cpu_mul_v14_outer_float64xfloat64_to_float64_n65536_benchmark"
         },
         {
           "input_elements": 4096,
           "input_type": "float64",
           "inputs": "float64[16x256], float64[256]",
-          "onnx_light_cpu_ms": 0.006313,
-          "onnxruntime_ms": 0.015656,
-          "speedup_cpu": 2.48,
+          "onnxruntime_ms": 0.006243,
           "test_name": "test_cpu_mul_v14_row_float64xfloat64_to_float64_n4096_benchmark"
         },
         {
           "input_elements": 4096,
           "input_type": "float64",
           "inputs": "float64[2x64x32], float64[64x1]",
-          "onnx_light_cpu_ms": 0.007091,
-          "onnxruntime_ms": 0.018203,
-          "speedup_cpu": 2.5671,
+          "onnxruntime_ms": 0.008686,
           "test_name": "test_cpu_mul_v14_per_channel_float64xfloat64_to_float64_n4096_benchmark"
         },
         {
           "input_elements": 4096,
           "input_type": "float64",
           "inputs": "float64[4096], float64",
-          "onnx_light_cpu_ms": 0.006207,
-          "onnxruntime_ms": 0.014881,
-          "speedup_cpu": 2.3975,
+          "onnxruntime_ms": 0.005849,
           "test_name": "test_cpu_mul_v14_right_scalar_float64xfloat64_to_float64_n4096_benchmark"
         },
         {
           "input_elements": 4096,
           "input_type": "float64",
           "inputs": "float64[4096], float64[4096]",
-          "onnx_light_cpu_ms": 0.006395,
-          "onnxruntime_ms": 0.015065,
-          "speedup_cpu": 2.3557,
+          "onnxruntime_ms": 0.006244,
           "test_name": "test_cpu_mul_v14_contiguous_float64xfloat64_to_float64_n4096_benchmark"
         },
         {
           "input_elements": 4096,
           "input_type": "float64",
           "inputs": "float64[512x1x8x1], float64[1x4x1x64]",
-          "onnx_light_cpu_ms": 0.203424,
-          "onnxruntime_ms": 0.248183,
-          "speedup_cpu": 1.22,
+          "onnxruntime_ms": 0.244037,
           "test_name": "test_cpu_mul_v14_general_float64xfloat64_to_float64_n1048576_benchmark"
         },
         {
           "input_elements": 16384,
           "input_type": "float64",
           "inputs": "float64[16384x1], float64[1x64]",
-          "onnx_light_cpu_ms": 0.151323,
-          "onnxruntime_ms": 0.239274,
-          "speedup_cpu": 1.5812,
+          "onnxruntime_ms": 0.203948,
           "test_name": "test_cpu_mul_v14_outer_float64xfloat64_to_float64_n1048576_benchmark"
         },
         {
           "input_elements": 16384,
           "input_type": "float64",
           "inputs": "float64[2048x1x8x1], float64[1x4x1x64]",
-          "onnx_light_cpu_ms": 0.966325,
-          "onnxruntime_ms": 0.946506,
-          "speedup_cpu": 0.9795,
+          "onnxruntime_ms": 0.799749,
           "test_name": "test_cpu_mul_v14_general_float64xfloat64_to_float64_n4194304_benchmark"
         },
         {
           "input_elements": 65536,
           "input_type": "float64",
           "inputs": "float64[256x256], float64[256]",
-          "onnx_light_cpu_ms": 0.030277,
-          "onnxruntime_ms": 0.035427,
-          "speedup_cpu": 1.1701,
+          "onnxruntime_ms": 0.014285,
           "test_name": "test_cpu_mul_v14_row_float64xfloat64_to_float64_n65536_benchmark"
         },
         {
           "input_elements": 65536,
           "input_type": "float64",
           "inputs": "float64[32x64x32], float64[64x1]",
-          "onnx_light_cpu_ms": 0.037106,
-          "onnxruntime_ms": 0.050398,
-          "speedup_cpu": 1.3582,
+          "onnxruntime_ms": 0.024083,
           "test_name": "test_cpu_mul_v14_per_channel_float64xfloat64_to_float64_n65536_benchmark"
         },
         {
           "input_elements": 65536,
           "input_type": "float64",
           "inputs": "float64[65536], float64",
-          "onnx_light_cpu_ms": 0.031054,
-          "onnxruntime_ms": 0.030085,
-          "speedup_cpu": 0.9688,
+          "onnxruntime_ms": 0.013783,
           "test_name": "test_cpu_mul_v14_right_scalar_float64xfloat64_to_float64_n65536_benchmark"
         },
         {
           "input_elements": 65536,
           "input_type": "float64",
           "inputs": "float64[65536], float64[65536]",
-          "onnx_light_cpu_ms": 0.043526,
-          "onnxruntime_ms": 0.050318,
-          "speedup_cpu": 1.156,
+          "onnxruntime_ms": 0.01471,
           "test_name": "test_cpu_mul_v14_contiguous_float64xfloat64_to_float64_n65536_benchmark"
         },
         {
           "input_elements": 65536,
           "input_type": "float64",
           "inputs": "float64[65536x1], float64[1x64]",
-          "onnx_light_cpu_ms": 0.944922,
-          "onnxruntime_ms": 0.894834,
-          "speedup_cpu": 0.947,
+          "onnxruntime_ms": 0.753313,
           "test_name": "test_cpu_mul_v14_outer_float64xfloat64_to_float64_n4194304_benchmark"
         },
         {
           "input_elements": 1048576,
           "input_type": "float64",
           "inputs": "float64[1048576], float64",
-          "onnx_light_cpu_ms": 0.296086,
-          "onnxruntime_ms": 0.287671,
-          "speedup_cpu": 0.9716,
+          "onnxruntime_ms": 0.290121,
           "test_name": "test_cpu_mul_v14_right_scalar_float64xfloat64_to_float64_n1048576_benchmark"
         },
         {
           "input_elements": 1048576,
           "input_type": "float64",
           "inputs": "float64[1048576], float64[1048576]",
-          "onnx_light_cpu_ms": 0.303103,
-          "onnxruntime_ms": 0.386103,
-          "speedup_cpu": 1.2738,
+          "onnxruntime_ms": 0.422355,
           "test_name": "test_cpu_mul_v14_contiguous_float64xfloat64_to_float64_n1048576_benchmark"
         },
         {
           "input_elements": 1048576,
           "input_type": "float64",
           "inputs": "float64[4096x256], float64[256]",
-          "onnx_light_cpu_ms": 0.304709,
-          "onnxruntime_ms": 0.319505,
-          "speedup_cpu": 1.0486,
+          "onnxruntime_ms": 0.285869,
           "test_name": "test_cpu_mul_v14_row_float64xfloat64_to_float64_n1048576_benchmark"
         },
         {
           "input_elements": 1048576,
           "input_type": "float64",
           "inputs": "float64[512x64x32], float64[64x1]",
-          "onnx_light_cpu_ms": 0.296485,
-          "onnxruntime_ms": 0.341848,
-          "speedup_cpu": 1.153,
+          "onnxruntime_ms": 0.298187,
           "test_name": "test_cpu_mul_v14_per_channel_float64xfloat64_to_float64_n1048576_benchmark"
         },
         {
           "input_elements": 4194304,
           "input_type": "float64",
           "inputs": "float64[16384x256], float64[256]",
-          "onnx_light_cpu_ms": 1.692984,
-          "onnxruntime_ms": 1.144192,
-          "speedup_cpu": 0.6758,
+          "onnxruntime_ms": 1.114509,
           "test_name": "test_cpu_mul_v14_row_float64xfloat64_to_float64_n4194304_benchmark"
         },
         {
           "input_elements": 4194304,
           "input_type": "float64",
           "inputs": "float64[2048x64x32], float64[64x1]",
-          "onnx_light_cpu_ms": 1.584623,
-          "onnxruntime_ms": 1.221617,
-          "speedup_cpu": 0.7709,
+          "onnxruntime_ms": 1.157858,
           "test_name": "test_cpu_mul_v14_per_channel_float64xfloat64_to_float64_n4194304_benchmark"
         },
         {
           "input_elements": 4194304,
           "input_type": "float64",
           "inputs": "float64[4194304], float64",
-          "onnx_light_cpu_ms": 1.697387,
-          "onnxruntime_ms": 1.152152,
-          "speedup_cpu": 0.6788,
+          "onnxruntime_ms": 1.118982,
           "test_name": "test_cpu_mul_v14_right_scalar_float64xfloat64_to_float64_n4194304_benchmark"
         },
         {
           "input_elements": 4194304,
           "input_type": "float64",
           "inputs": "float64[4194304], float64[4194304]",
-          "onnx_light_cpu_ms": 2.304309,
-          "onnxruntime_ms": 2.024662,
-          "speedup_cpu": 0.8786,
+          "onnxruntime_ms": 1.651923,
           "test_name": "test_cpu_mul_v14_contiguous_float64xfloat64_to_float64_n4194304_benchmark"
         }
       ],
-      "simd_level": 3,
-      "simd_name": "AVX2",
+      "simd_level": 4,
+      "simd_name": "AVX-512",
       "source": "28 onnx-light-cpu benchmark tests",
       "summary": {
-        "avg_speedup_cpu": 0.872,
-        "cpu_succeeded": 28,
-        "inputs": 28,
-        "max_speedup_cpu": 2.7817,
-        "min_speedup_cpu": 0.6758
+        "cpu_succeeded": 0,
+        "inputs": 28
       },
       "title": "Mul (float64): onnxruntime vs onnx-light-cpu"
     },
@@ -72511,9 +71960,9 @@
         "onnx_light_cpu",
         "onnxruntime"
       ],
-      "date": "2026-09-14T23:54:50Z",
+      "date": "2026-09-15T07:31:57Z",
       "domain": "ai.onnx",
-      "machine": "AMD EPYC 7763 64-Core Processor",
+      "machine": "INTEL(R) XEON(R) PLATINUM 8573C",
       "name": "PRelu_float64_benchmark",
       "op": "PRelu",
       "rows": [
@@ -72521,264 +71970,205 @@
           "input_elements": 1,
           "input_type": "float64",
           "inputs": "float64, float64[1048576]",
-          "onnx_light_cpu_ms": 0.343058,
-          "onnxruntime_ms": 1.364093,
-          "speedup_cpu": 3.9763,
+          "onnxruntime_ms": 1.375064,
           "test_name": "test_cpu_prelu_v16_left_scalar_float64xfloat64_to_float64_n1048576_benchmark"
         },
         {
           "input_elements": 1,
           "input_type": "float64",
           "inputs": "float64, float64[4096]",
-          "onnx_light_cpu_ms": 0.008059,
-          "onnxruntime_ms": 0.024155,
-          "speedup_cpu": 2.9973,
+          "onnxruntime_ms": 0.009066,
           "test_name": "test_cpu_prelu_v16_left_scalar_float64xfloat64_to_float64_n4096_benchmark"
         },
         {
           "input_elements": 1,
           "input_type": "float64",
           "inputs": "float64, float64[4194304]",
-          "onnx_light_cpu_ms": 1.558316,
-          "onnxruntime_ms": 7.142493,
-          "speedup_cpu": 4.5835,
+          "onnxruntime_ms": 5.48454,
           "test_name": "test_cpu_prelu_v16_left_scalar_float64xfloat64_to_float64_n4194304_benchmark"
         },
         {
           "input_elements": 1,
           "input_type": "float64",
           "inputs": "float64, float64[65536]",
-          "onnx_light_cpu_ms": 0.048948,
-          "onnxruntime_ms": 0.092312,
-          "speedup_cpu": 1.8859,
+          "onnxruntime_ms": 0.059484,
           "test_name": "test_cpu_prelu_v16_left_scalar_float64xfloat64_to_float64_n65536_benchmark"
         },
         {
           "input_elements": 16,
           "input_type": "float64",
           "inputs": "float64[2x1x8x1], float64[1x4x1x64]",
-          "onnx_light_cpu_ms": 0.00852,
-          "onnxruntime_ms": 0.029618,
-          "speedup_cpu": 3.4763,
+          "onnxruntime_ms": 0.011881,
           "test_name": "test_cpu_prelu_v16_general_float64xfloat64_to_float64_n4096_benchmark"
         },
         {
           "input_elements": 64,
           "input_type": "float64",
           "inputs": "float64[64x1], float64[1x64]",
-          "onnx_light_cpu_ms": 0.008478,
-          "onnxruntime_ms": 0.030371,
-          "speedup_cpu": 3.5823,
+          "onnxruntime_ms": 0.013688,
           "test_name": "test_cpu_prelu_v16_outer_float64xfloat64_to_float64_n4096_benchmark"
         },
         {
           "input_elements": 256,
           "input_type": "float64",
           "inputs": "float64[32x1x8x1], float64[1x4x1x64]",
-          "onnx_light_cpu_ms": 0.062148,
-          "onnxruntime_ms": 0.141826,
-          "speedup_cpu": 2.2821,
+          "onnxruntime_ms": 0.074359,
           "test_name": "test_cpu_prelu_v16_general_float64xfloat64_to_float64_n65536_benchmark"
         },
         {
           "input_elements": 1024,
           "input_type": "float64",
           "inputs": "float64[1024x1], float64[1x64]",
-          "onnx_light_cpu_ms": 0.061807,
-          "onnxruntime_ms": 0.152154,
-          "speedup_cpu": 2.4618,
+          "onnxruntime_ms": 0.084258,
           "test_name": "test_cpu_prelu_v16_outer_float64xfloat64_to_float64_n65536_benchmark"
         },
         {
           "input_elements": 4096,
           "input_type": "float64",
           "inputs": "float64[16x256], float64[256]",
-          "onnx_light_cpu_ms": 0.008234,
-          "onnxruntime_ms": 0.029227,
-          "speedup_cpu": 3.5496,
+          "onnxruntime_ms": 0.013407,
           "test_name": "test_cpu_prelu_v16_row_float64xfloat64_to_float64_n4096_benchmark"
         },
         {
           "input_elements": 4096,
           "input_type": "float64",
           "inputs": "float64[2x64x32], float64[64x1]",
-          "onnx_light_cpu_ms": 0.008348,
-          "onnxruntime_ms": 0.032627,
-          "speedup_cpu": 3.9084,
+          "onnxruntime_ms": 0.013685,
           "test_name": "test_cpu_prelu_v16_per_channel_float64xfloat64_to_float64_n4096_benchmark"
         },
         {
           "input_elements": 4096,
           "input_type": "float64",
           "inputs": "float64[4096], float64",
-          "onnx_light_cpu_ms": 0.007912,
-          "onnxruntime_ms": 0.028852,
-          "speedup_cpu": 3.6466,
+          "onnxruntime_ms": 0.013256,
           "test_name": "test_cpu_prelu_v16_right_scalar_float64xfloat64_to_float64_n4096_benchmark"
         },
         {
           "input_elements": 4096,
           "input_type": "float64",
           "inputs": "float64[4096], float64[4096]",
-          "onnx_light_cpu_ms": 0.007775,
-          "onnxruntime_ms": 0.02975,
-          "speedup_cpu": 3.8264,
+          "onnxruntime_ms": 0.01167,
           "test_name": "test_cpu_prelu_v16_contiguous_float64xfloat64_to_float64_n4096_benchmark"
         },
         {
           "input_elements": 4096,
           "input_type": "float64",
           "inputs": "float64[512x1x8x1], float64[1x4x1x64]",
-          "onnx_light_cpu_ms": 0.470024,
-          "onnxruntime_ms": 1.783452,
-          "speedup_cpu": 3.7944,
+          "onnxruntime_ms": 1.318833,
           "test_name": "test_cpu_prelu_v16_general_float64xfloat64_to_float64_n1048576_benchmark"
         },
         {
           "input_elements": 16384,
           "input_type": "float64",
           "inputs": "float64[16384x1], float64[1x64]",
-          "onnx_light_cpu_ms": 0.46383,
-          "onnxruntime_ms": 1.977508,
-          "speedup_cpu": 4.2634,
+          "onnxruntime_ms": 1.366125,
           "test_name": "test_cpu_prelu_v16_outer_float64xfloat64_to_float64_n1048576_benchmark"
         },
         {
           "input_elements": 16384,
           "input_type": "float64",
           "inputs": "float64[2048x1x8x1], float64[1x4x1x64]",
-          "onnx_light_cpu_ms": 1.864694,
-          "onnxruntime_ms": 11.3065,
-          "speedup_cpu": 6.0635,
+          "onnxruntime_ms": 5.116123,
           "test_name": "test_cpu_prelu_v16_general_float64xfloat64_to_float64_n4194304_benchmark"
         },
         {
           "input_elements": 65536,
           "input_type": "float64",
           "inputs": "float64[256x256], float64[256]",
-          "onnx_light_cpu_ms": 0.050935,
-          "onnxruntime_ms": 0.156847,
-          "speedup_cpu": 3.0794,
+          "onnxruntime_ms": 0.118711,
           "test_name": "test_cpu_prelu_v16_row_float64xfloat64_to_float64_n65536_benchmark"
         },
         {
           "input_elements": 65536,
           "input_type": "float64",
           "inputs": "float64[32x64x32], float64[64x1]",
-          "onnx_light_cpu_ms": 0.058209,
-          "onnxruntime_ms": 0.158153,
-          "speedup_cpu": 2.717,
+          "onnxruntime_ms": 0.124998,
           "test_name": "test_cpu_prelu_v16_per_channel_float64xfloat64_to_float64_n65536_benchmark"
         },
         {
           "input_elements": 65536,
           "input_type": "float64",
           "inputs": "float64[65536], float64",
-          "onnx_light_cpu_ms": 0.048998,
-          "onnxruntime_ms": 0.15673,
-          "speedup_cpu": 3.1987,
+          "onnxruntime_ms": 0.120007,
           "test_name": "test_cpu_prelu_v16_right_scalar_float64xfloat64_to_float64_n65536_benchmark"
         },
         {
           "input_elements": 65536,
           "input_type": "float64",
           "inputs": "float64[65536], float64[65536]",
-          "onnx_light_cpu_ms": 0.048531,
-          "onnxruntime_ms": 0.167849,
-          "speedup_cpu": 3.4586,
+          "onnxruntime_ms": 0.125778,
           "test_name": "test_cpu_prelu_v16_contiguous_float64xfloat64_to_float64_n65536_benchmark"
         },
         {
           "input_elements": 65536,
           "input_type": "float64",
           "inputs": "float64[65536x1], float64[1x64]",
-          "onnx_light_cpu_ms": 1.845271,
-          "onnxruntime_ms": 12.932605,
-          "speedup_cpu": 7.0085,
+          "onnxruntime_ms": 5.467094,
           "test_name": "test_cpu_prelu_v16_outer_float64xfloat64_to_float64_n4194304_benchmark"
         },
         {
           "input_elements": 1048576,
           "input_type": "float64",
           "inputs": "float64[1048576], float64",
-          "onnx_light_cpu_ms": 0.362212,
-          "onnxruntime_ms": 2.470131,
-          "speedup_cpu": 6.8196,
+          "onnxruntime_ms": 2.385128,
           "test_name": "test_cpu_prelu_v16_right_scalar_float64xfloat64_to_float64_n1048576_benchmark"
         },
         {
           "input_elements": 1048576,
           "input_type": "float64",
           "inputs": "float64[1048576], float64[1048576]",
-          "onnx_light_cpu_ms": 0.410459,
-          "onnxruntime_ms": 2.604282,
-          "speedup_cpu": 6.3448,
+          "onnxruntime_ms": 2.518438,
           "test_name": "test_cpu_prelu_v16_contiguous_float64xfloat64_to_float64_n1048576_benchmark"
         },
         {
           "input_elements": 1048576,
           "input_type": "float64",
           "inputs": "float64[4096x256], float64[256]",
-          "onnx_light_cpu_ms": 0.380038,
-          "onnxruntime_ms": 2.465693,
-          "speedup_cpu": 6.488,
+          "onnxruntime_ms": 2.366138,
           "test_name": "test_cpu_prelu_v16_row_float64xfloat64_to_float64_n1048576_benchmark"
         },
         {
           "input_elements": 1048576,
           "input_type": "float64",
           "inputs": "float64[512x64x32], float64[64x1]",
-          "onnx_light_cpu_ms": 0.423387,
-          "onnxruntime_ms": 2.516278,
-          "speedup_cpu": 5.9432,
+          "onnxruntime_ms": 2.356329,
           "test_name": "test_cpu_prelu_v16_per_channel_float64xfloat64_to_float64_n1048576_benchmark"
         },
         {
           "input_elements": 4194304,
           "input_type": "float64",
           "inputs": "float64[16384x256], float64[256]",
-          "onnx_light_cpu_ms": 1.598642,
-          "onnxruntime_ms": 11.217778,
-          "speedup_cpu": 7.0171,
+          "onnxruntime_ms": 11.121016,
           "test_name": "test_cpu_prelu_v16_row_float64xfloat64_to_float64_n4194304_benchmark"
         },
         {
           "input_elements": 4194304,
           "input_type": "float64",
           "inputs": "float64[2048x64x32], float64[64x1]",
-          "onnx_light_cpu_ms": 1.735714,
-          "onnxruntime_ms": 11.244759,
-          "speedup_cpu": 6.4785,
+          "onnxruntime_ms": 11.808449,
           "test_name": "test_cpu_prelu_v16_per_channel_float64xfloat64_to_float64_n4194304_benchmark"
         },
         {
           "input_elements": 4194304,
           "input_type": "float64",
           "inputs": "float64[4194304], float64",
-          "onnx_light_cpu_ms": 1.529641,
-          "onnxruntime_ms": 12.140254,
-          "speedup_cpu": 7.9367,
+          "onnxruntime_ms": 10.879908,
           "test_name": "test_cpu_prelu_v16_right_scalar_float64xfloat64_to_float64_n4194304_benchmark"
         },
         {
           "input_elements": 4194304,
           "input_type": "float64",
           "inputs": "float64[4194304], float64[4194304]",
-          "onnx_light_cpu_ms": 2.42505,
-          "onnxruntime_ms": 12.320525,
-          "speedup_cpu": 5.0805,
+          "onnxruntime_ms": 12.437128,
           "test_name": "test_cpu_prelu_v16_contiguous_float64xfloat64_to_float64_n4194304_benchmark"
         }
       ],
-      "simd_level": 3,
-      "simd_name": "AVX2",
+      "simd_level": 4,
+      "simd_name": "AVX-512",
       "source": "28 onnx-light-cpu benchmark tests",
       "summary": {
-        "avg_speedup_cpu": 5.9769,
-        "cpu_succeeded": 28,
-        "inputs": 28,
-        "max_speedup_cpu": 7.9367,
-        "min_speedup_cpu": 1.8859
+        "cpu_succeeded": 0,
+        "inputs": 28
       },
       "title": "PRelu (float64): onnxruntime vs onnx-light-cpu"
     },
@@ -74350,9 +73740,9 @@
         "onnx_light_cpu",
         "onnxruntime"
       ],
-      "date": "2026-09-14T23:54:50Z",
+      "date": "2026-09-15T07:31:57Z",
       "domain": "ai.onnx",
-      "machine": "AMD EPYC 7763 64-Core Processor",
+      "machine": "INTEL(R) XEON(R) PLATINUM 8573C",
       "name": "Sigmoid_float64_benchmark",
       "op": "Sigmoid",
       "rows": [
@@ -74360,75 +73750,58 @@
           "input_elements": 1024,
           "input_type": "float64",
           "inputs": "float64[1024]",
-          "onnx_light_cpu_ms": 0.005543,
-          "onnxruntime_ms": 0.025983,
-          "speedup_cpu": 4.6875,
+          "onnxruntime_ms": 0.017158,
           "test_name": "test_cpu_sigmoid_n1024_float64_benchmark"
         },
         {
           "input_elements": 32768,
           "input_type": "float64",
           "inputs": "float64[32768]",
-          "onnx_light_cpu_ms": 0.069242,
-          "onnxruntime_ms": 0.449006,
-          "speedup_cpu": 6.4846,
+          "onnxruntime_ms": 0.304765,
           "test_name": "test_cpu_sigmoid_n32768_float64_benchmark"
         },
         {
           "input_elements": 65535,
           "input_type": "float64",
           "inputs": "float64[65535]",
-          "onnx_light_cpu_ms": 0.135158,
-          "onnxruntime_ms": 0.33408,
-          "speedup_cpu": 2.4718,
+          "onnxruntime_ms": 0.278511,
           "test_name": "test_cpu_sigmoid_n65535_float64_benchmark"
         },
         {
           "input_elements": 65536,
           "input_type": "float64",
           "inputs": "float64[65536]",
-          "onnx_light_cpu_ms": 0.074836,
-          "onnxruntime_ms": 0.331929,
-          "speedup_cpu": 4.4354,
+          "onnxruntime_ms": 0.265954,
           "test_name": "test_cpu_sigmoid_n65536_float64_benchmark"
         },
         {
           "input_elements": 131072,
           "input_type": "float64",
           "inputs": "float64[131072]",
-          "onnx_light_cpu_ms": 0.13718,
-          "onnxruntime_ms": 0.646016,
-          "speedup_cpu": 4.7093,
+          "onnxruntime_ms": 0.511396,
           "test_name": "test_cpu_sigmoid_n131072_float64_benchmark"
         },
         {
           "input_elements": 1048576,
           "input_type": "float64",
           "inputs": "float64[1048576]",
-          "onnx_light_cpu_ms": 1.049176,
-          "onnxruntime_ms": 4.915064,
-          "speedup_cpu": 4.6847,
+          "onnxruntime_ms": 4.070742,
           "test_name": "test_cpu_sigmoid_n1048576_float64_benchmark"
         },
         {
           "input_elements": 4194304,
           "input_type": "float64",
           "inputs": "float64[4194304]",
-          "onnx_light_cpu_ms": 4.292888,
-          "onnxruntime_ms": 19.702659,
-          "speedup_cpu": 4.5896,
+          "onnxruntime_ms": 16.262539,
           "test_name": "test_cpu_sigmoid_n4194304_float64_benchmark"
         }
       ],
-      "simd_level": 3,
-      "simd_name": "AVX2",
+      "simd_level": 4,
+      "simd_name": "AVX-512",
       "source": "7 onnx-light-cpu benchmark tests",
       "summary": {
-        "avg_speedup_cpu": 4.581,
-        "cpu_succeeded": 7,
-        "inputs": 7,
-        "max_speedup_cpu": 6.4846,
-        "min_speedup_cpu": 2.4718
+        "cpu_succeeded": 0,
+        "inputs": 7
       },
       "title": "Sigmoid (float64): onnxruntime vs onnx-light-cpu"
     },
@@ -74677,9 +74050,9 @@
         "onnx_light_cpu",
         "onnxruntime"
       ],
-      "date": "2026-09-14T23:54:50Z",
+      "date": "2026-09-15T07:31:57Z",
       "domain": "ai.onnx",
-      "machine": "AMD EPYC 7763 64-Core Processor",
+      "machine": "INTEL(R) XEON(R) PLATINUM 8573C",
       "name": "SimplifiedLayerNormalization_float64_benchmark",
       "op": "SimplifiedLayerNormalization",
       "rows": [
@@ -74687,228 +74060,177 @@
           "input_elements": 128,
           "input_type": "float64",
           "inputs": "float64[1x128], float64[128]",
-          "onnx_light_cpu_ms": 0.005529,
-          "onnxruntime_ms": 0.015739,
-          "speedup_cpu": 2.8466,
+          "onnxruntime_ms": 0.006838,
           "test_name": "test_cpu_simplified_layer_normalization_decode_w128_x_float64_stash1_with_inv_float64_benchmark"
         },
         {
           "input_elements": 128,
           "input_type": "float64",
           "inputs": "float64[1x128], float64[128]",
-          "onnx_light_cpu_ms": 0.004739,
-          "onnxruntime_ms": 0.013818,
-          "speedup_cpu": 2.9158,
+          "onnxruntime_ms": 0.005509,
           "test_name": "test_cpu_simplified_layer_normalization_decode_w128_x_float64_stash1_y_float64_benchmark"
         },
         {
           "input_elements": 256,
           "input_type": "float64",
           "inputs": "float64[2x8x16], float64[8x16]",
-          "onnx_light_cpu_ms": 0.00615,
-          "onnxruntime_ms": 0.0165,
-          "speedup_cpu": 2.6829,
+          "onnxruntime_ms": 0.007736,
           "test_name": "test_cpu_simplified_layer_normalization_suffix_axis1_x_float64_stash1_with_inv_float64_benchmark"
         },
         {
           "input_elements": 256,
           "input_type": "float64",
           "inputs": "float64[2x8x16], float64[8x16]",
-          "onnx_light_cpu_ms": 0.005189,
-          "onnxruntime_ms": 0.015258,
-          "speedup_cpu": 2.9405,
+          "onnxruntime_ms": 0.006828,
           "test_name": "test_cpu_simplified_layer_normalization_suffix_axis1_x_float64_stash1_y_float64_benchmark"
         },
         {
           "input_elements": 256,
           "input_type": "float64",
           "inputs": "float64[8x32], float64[32]",
-          "onnx_light_cpu_ms": 0.006335,
-          "onnxruntime_ms": 0.017564,
-          "speedup_cpu": 2.7725,
+          "onnxruntime_ms": 0.007723,
           "test_name": "test_cpu_simplified_layer_normalization_small_r8_w32_x_float64_stash1_with_inv_float64_benchmark"
         },
         {
           "input_elements": 256,
           "input_type": "float64",
           "inputs": "float64[8x32], float64[32]",
-          "onnx_light_cpu_ms": 0.005308,
-          "onnxruntime_ms": 0.015686,
-          "speedup_cpu": 2.9552,
+          "onnxruntime_ms": 0.00768,
           "test_name": "test_cpu_simplified_layer_normalization_small_r8_w32_x_float64_stash1_y_float64_benchmark"
         },
         {
           "input_elements": 1024,
           "input_type": "float64",
           "inputs": "float64[1x1x1024], float64[1024]",
-          "onnx_light_cpu_ms": 0.009179,
-          "onnxruntime_ms": 0.017235,
-          "speedup_cpu": 1.8777,
+          "onnxruntime_ms": 0.007353,
           "test_name": "test_cpu_simplified_layer_normalization_qwen_hidden1024_decode_x_float64_stash1_with_inv_float64_benchmark"
         },
         {
           "input_elements": 1024,
           "input_type": "float64",
           "inputs": "float64[1x1x1024], float64[1024]",
-          "onnx_light_cpu_ms": 0.008051,
-          "onnxruntime_ms": 0.015818,
-          "speedup_cpu": 1.9647,
+          "onnxruntime_ms": 0.006896,
           "test_name": "test_cpu_simplified_layer_normalization_qwen_hidden1024_decode_x_float64_stash1_y_float64_benchmark"
         },
         {
           "input_elements": 4096,
           "input_type": "float64",
           "inputs": "float64[1x1x4096], float64[4096]",
-          "onnx_light_cpu_ms": 0.021711,
-          "onnxruntime_ms": 0.023818,
-          "speedup_cpu": 1.097,
+          "onnxruntime_ms": 0.010945,
           "test_name": "test_cpu_simplified_layer_normalization_qwen_hidden4096_decode_x_float64_stash1_with_inv_float64_benchmark"
         },
         {
           "input_elements": 4096,
           "input_type": "float64",
           "inputs": "float64[1x1x4096], float64[4096]",
-          "onnx_light_cpu_ms": 0.01976,
-          "onnxruntime_ms": 0.022066,
-          "speedup_cpu": 1.1167,
+          "onnxruntime_ms": 0.010563,
           "test_name": "test_cpu_simplified_layer_normalization_qwen_hidden4096_decode_x_float64_stash1_y_float64_benchmark"
         },
         {
           "input_elements": 16705,
           "input_type": "float64",
           "inputs": "float64[257x65], float64[65]",
-          "onnx_light_cpu_ms": 0.075866,
-          "onnxruntime_ms": 0.034926,
-          "speedup_cpu": 0.4604,
+          "onnxruntime_ms": 0.02228,
           "test_name": "test_cpu_simplified_layer_normalization_tail_r257_w65_x_float64_stash1_with_inv_float64_benchmark"
         },
         {
           "input_elements": 16705,
           "input_type": "float64",
           "inputs": "float64[257x65], float64[65]",
-          "onnx_light_cpu_ms": 0.073792,
-          "onnxruntime_ms": 0.02878,
-          "speedup_cpu": 0.39,
+          "onnxruntime_ms": 0.024103,
           "test_name": "test_cpu_simplified_layer_normalization_tail_r257_w65_x_float64_stash1_y_float64_benchmark"
         },
         {
           "input_elements": 32768,
           "input_type": "float64",
           "inputs": "float64[4x64x128], float64[4x1x128]",
-          "onnx_light_cpu_ms": 0.259014,
-          "onnxruntime_ms": 0.050804,
-          "speedup_cpu": 0.1961,
+          "onnxruntime_ms": 0.037041,
           "test_name": "test_cpu_simplified_layer_normalization_outer_broadcast_x_float64_stash1_with_inv_float64_benchmark"
         },
         {
           "input_elements": 32768,
           "input_type": "float64",
           "inputs": "float64[4x64x128], float64[4x1x128]",
-          "onnx_light_cpu_ms": 0.262503,
-          "onnxruntime_ms": 0.047674,
-          "speedup_cpu": 0.1816,
+          "onnxruntime_ms": 0.035174,
           "test_name": "test_cpu_simplified_layer_normalization_outer_broadcast_x_float64_stash1_y_float64_benchmark"
         },
         {
           "input_elements": 32768,
           "input_type": "float64",
           "inputs": "float64[64x512], float64[512]",
-          "onnx_light_cpu_ms": 0.141184,
-          "onnxruntime_ms": 0.041678,
-          "speedup_cpu": 0.2952,
+          "onnxruntime_ms": 0.026969,
           "test_name": "test_cpu_simplified_layer_normalization_medium_r64_w512_x_float64_stash1_with_inv_float64_benchmark"
         },
         {
           "input_elements": 32768,
           "input_type": "float64",
           "inputs": "float64[64x512], float64[512]",
-          "onnx_light_cpu_ms": 0.131978,
-          "onnxruntime_ms": 0.043228,
-          "speedup_cpu": 0.3275,
+          "onnxruntime_ms": 0.029903,
           "test_name": "test_cpu_simplified_layer_normalization_medium_r64_w512_x_float64_stash1_y_float64_benchmark"
         },
         {
           "input_elements": 262144,
           "input_type": "float64",
           "inputs": "float64[1x128x2048], float64[2048]",
-          "onnx_light_cpu_ms": 0.46796,
-          "onnxruntime_ms": 0.17864,
-          "speedup_cpu": 0.3817,
+          "onnxruntime_ms": 0.164955,
           "test_name": "test_cpu_simplified_layer_normalization_qwen_hidden2048_prefill_x_float64_stash1_with_inv_float64_benchmark"
         },
         {
           "input_elements": 262144,
           "input_type": "float64",
           "inputs": "float64[1x128x2048], float64[2048]",
-          "onnx_light_cpu_ms": 0.465569,
-          "onnxruntime_ms": 0.178586,
-          "speedup_cpu": 0.3836,
+          "onnxruntime_ms": 0.164035,
           "test_name": "test_cpu_simplified_layer_normalization_qwen_hidden2048_prefill_x_float64_stash1_y_float64_benchmark"
         },
         {
           "input_elements": 524288,
           "input_type": "float64",
           "inputs": "float64[1x128x4096], float64[4096]",
-          "onnx_light_cpu_ms": 0.922939,
-          "onnxruntime_ms": 0.343815,
-          "speedup_cpu": 0.3725,
+          "onnxruntime_ms": 0.320297,
           "test_name": "test_cpu_simplified_layer_normalization_qwen_hidden4096_prefill_x_float64_stash1_with_inv_float64_benchmark"
         },
         {
           "input_elements": 524288,
           "input_type": "float64",
           "inputs": "float64[1x128x4096], float64[4096]",
-          "onnx_light_cpu_ms": 0.920014,
-          "onnxruntime_ms": 0.339536,
-          "speedup_cpu": 0.3691,
+          "onnxruntime_ms": 0.314909,
           "test_name": "test_cpu_simplified_layer_normalization_qwen_hidden4096_prefill_x_float64_stash1_y_float64_benchmark"
         },
         {
           "input_elements": 524288,
           "input_type": "float64",
           "inputs": "float64[1x4096x128], float64[128]",
-          "onnx_light_cpu_ms": 0.971319,
-          "onnxruntime_ms": 0.34957,
-          "speedup_cpu": 0.3599,
+          "onnxruntime_ms": 0.407495,
           "test_name": "test_cpu_simplified_layer_normalization_qwen_q_norm_x_float64_stash1_with_inv_float64_benchmark"
         },
         {
           "input_elements": 524288,
           "input_type": "float64",
           "inputs": "float64[1x4096x128], float64[128]",
-          "onnx_light_cpu_ms": 0.967138,
-          "onnxruntime_ms": 0.337043,
-          "speedup_cpu": 0.3485,
+          "onnxruntime_ms": 0.375826,
           "test_name": "test_cpu_simplified_layer_normalization_qwen_q_norm_x_float64_stash1_y_float64_benchmark"
         },
         {
           "input_elements": 655360,
           "input_type": "float64",
           "inputs": "float64[1x128x5120], float64[5120]",
-          "onnx_light_cpu_ms": 1.150649,
-          "onnxruntime_ms": 0.428352,
-          "speedup_cpu": 0.3723,
+          "onnxruntime_ms": 0.388195,
           "test_name": "test_cpu_simplified_layer_normalization_qwen_hidden5120_prefill_x_float64_stash1_with_inv_float64_benchmark"
         },
         {
           "input_elements": 655360,
           "input_type": "float64",
           "inputs": "float64[1x128x5120], float64[5120]",
-          "onnx_light_cpu_ms": 1.148085,
-          "onnxruntime_ms": 0.423909,
-          "speedup_cpu": 0.3692,
+          "onnxruntime_ms": 0.389952,
           "test_name": "test_cpu_simplified_layer_normalization_qwen_hidden5120_prefill_x_float64_stash1_y_float64_benchmark"
         }
       ],
-      "simd_level": 3,
-      "simd_name": "AVX2",
+      "simd_level": 4,
+      "simd_name": "AVX-512",
       "source": "24 onnx-light-cpu benchmark tests",
       "summary": {
-        "avg_speedup_cpu": 0.3727,
-        "cpu_succeeded": 24,
-        "inputs": 24,
-        "max_speedup_cpu": 2.9552,
-        "min_speedup_cpu": 0.1816
+        "cpu_succeeded": 0,
+        "inputs": 24
       },
       "title": "SimplifiedLayerNormalization (float64): onnxruntime vs onnx-light-cpu"
     },
@@ -75324,9 +74646,9 @@
         "onnx_light_cpu",
         "onnxruntime"
       ],
-      "date": "2026-09-14T23:54:50Z",
+      "date": "2026-09-15T07:31:57Z",
       "domain": "ai.onnx",
-      "machine": "AMD EPYC 7763 64-Core Processor",
+      "machine": "INTEL(R) XEON(R) PLATINUM 8573C",
       "name": "Slice_float64_benchmark",
       "op": "Slice",
       "rows": [
@@ -75334,192 +74656,149 @@
           "input_elements": 136,
           "input_type": "float64",
           "inputs": "float64[8x17], int32[1], int32[1], int32[1]",
-          "onnx_light_cpu_ms": 0.005235,
-          "onnxruntime_ms": 0.016985,
-          "speedup_cpu": 3.2445,
+          "onnxruntime_ms": 0.007513,
           "test_name": "test_cpu_slice_small_params32_float64_benchmark"
         },
         {
           "input_elements": 136,
           "input_type": "float64",
           "inputs": "float64[8x17], int64[1], int64[1], int64[1]",
-          "onnx_light_cpu_ms": 0.00524,
-          "onnxruntime_ms": 0.016742,
-          "speedup_cpu": 3.195,
+          "onnxruntime_ms": 0.007417,
           "test_name": "test_cpu_slice_small_params64_float64_benchmark"
         },
         {
           "input_elements": 16705,
           "input_type": "float64",
           "inputs": "float64[257x65], int32[1], int32[1], int32[1], int32[1]",
-          "onnx_light_cpu_ms": 0.021697,
-          "onnxruntime_ms": 0.04332,
-          "speedup_cpu": 1.9966,
+          "onnxruntime_ms": 0.023821,
           "test_name": "test_cpu_slice_tail_params32_float64_benchmark"
         },
         {
           "input_elements": 16705,
           "input_type": "float64",
           "inputs": "float64[257x65], int64[1], int64[1], int64[1], int64[1]",
-          "onnx_light_cpu_ms": 0.020321,
-          "onnxruntime_ms": 0.042472,
-          "speedup_cpu": 2.0901,
+          "onnxruntime_ms": 0.02382,
           "test_name": "test_cpu_slice_tail_params64_float64_benchmark"
         },
         {
           "input_elements": 524288,
           "input_type": "float64",
           "inputs": "float64[4096x128], int32[1], int32[1], int32[1], int32[1]",
-          "onnx_light_cpu_ms": 0.086884,
-          "onnxruntime_ms": 0.10112,
-          "speedup_cpu": 1.1639,
+          "onnxruntime_ms": 0.132998,
           "test_name": "test_cpu_slice_outer_stride_params32_float64_benchmark"
         },
         {
           "input_elements": 524288,
           "input_type": "float64",
           "inputs": "float64[4096x128], int32[1], int32[1], int32[1], int32[1]",
-          "onnx_light_cpu_ms": 0.173455,
-          "onnxruntime_ms": 0.220419,
-          "speedup_cpu": 1.2708,
+          "onnxruntime_ms": 0.291086,
           "test_name": "test_cpu_slice_reverse_outer_params32_float64_benchmark"
         },
         {
           "input_elements": 524288,
           "input_type": "float64",
           "inputs": "float64[4096x128], int64[1], int64[1], int64[1], int64[1]",
-          "onnx_light_cpu_ms": 0.09313,
-          "onnxruntime_ms": 0.101018,
-          "speedup_cpu": 1.0847,
+          "onnxruntime_ms": 0.135282,
           "test_name": "test_cpu_slice_outer_stride_params64_float64_benchmark"
         },
         {
           "input_elements": 524288,
           "input_type": "float64",
           "inputs": "float64[4096x128], int64[1], int64[1], int64[1], int64[1]",
-          "onnx_light_cpu_ms": 0.162672,
-          "onnxruntime_ms": 0.219714,
-          "speedup_cpu": 1.3507,
+          "onnxruntime_ms": 0.272471,
           "test_name": "test_cpu_slice_reverse_outer_params64_float64_benchmark"
         },
         {
           "input_elements": 1048576,
           "input_type": "float64",
           "inputs": "float64[1024x1024], int32[1], int32[1], int32[1]",
-          "onnx_light_cpu_ms": 0.323023,
-          "onnxruntime_ms": 0.368657,
-          "speedup_cpu": 1.1413,
+          "onnxruntime_ms": 0.529824,
           "test_name": "test_cpu_slice_inner_crop_params32_float64_benchmark"
         },
         {
           "input_elements": 1048576,
           "input_type": "float64",
           "inputs": "float64[1024x1024], int32[1], int32[1], int32[1], int32[1]",
-          "onnx_light_cpu_ms": 0.435787,
-          "onnxruntime_ms": 0.990439,
-          "speedup_cpu": 2.2728,
+          "onnxruntime_ms": 0.721715,
           "test_name": "test_cpu_slice_inner_stride_params32_float64_benchmark"
         },
         {
           "input_elements": 1048576,
           "input_type": "float64",
           "inputs": "float64[1024x1024], int32[1], int32[1], int32[1], int32[1]",
-          "onnx_light_cpu_ms": 0.862408,
-          "onnxruntime_ms": 1.736333,
-          "speedup_cpu": 2.0134,
+          "onnxruntime_ms": 1.467145,
           "test_name": "test_cpu_slice_reverse_inner_params32_float64_benchmark"
         },
         {
           "input_elements": 1048576,
           "input_type": "float64",
           "inputs": "float64[1024x1024], int64[1], int64[1], int64[1]",
-          "onnx_light_cpu_ms": 0.353001,
-          "onnxruntime_ms": 0.351841,
-          "speedup_cpu": 0.9967,
+          "onnxruntime_ms": 0.530015,
           "test_name": "test_cpu_slice_inner_crop_params64_float64_benchmark"
         },
         {
           "input_elements": 1048576,
           "input_type": "float64",
           "inputs": "float64[1024x1024], int64[1], int64[1], int64[1], int64[1]",
-          "onnx_light_cpu_ms": 0.441842,
-          "onnxruntime_ms": 0.991641,
-          "speedup_cpu": 2.2443,
+          "onnxruntime_ms": 0.688824,
           "test_name": "test_cpu_slice_inner_stride_params64_float64_benchmark"
         },
         {
           "input_elements": 1048576,
           "input_type": "float64",
           "inputs": "float64[1024x1024], int64[1], int64[1], int64[1], int64[1]",
-          "onnx_light_cpu_ms": 0.86288,
-          "onnxruntime_ms": 1.717026,
-          "speedup_cpu": 1.9899,
+          "onnxruntime_ms": 1.45044,
           "test_name": "test_cpu_slice_reverse_inner_params64_float64_benchmark"
         },
         {
           "input_elements": 1048576,
           "input_type": "float64",
           "inputs": "float64[1048576], int32[1], int32[1], int32[1], int32[1]",
-          "onnx_light_cpu_ms": 0.845388,
-          "onnxruntime_ms": 1.719939,
-          "speedup_cpu": 2.0345,
+          "onnxruntime_ms": 1.097397,
           "test_name": "test_cpu_slice_reverse_vector_params32_float64_benchmark"
         },
         {
           "input_elements": 1048576,
           "input_type": "float64",
           "inputs": "float64[1048576], int64[1], int64[1], int64[1], int64[1]",
-          "onnx_light_cpu_ms": 0.84268,
-          "onnxruntime_ms": 1.715282,
-          "speedup_cpu": 2.0355,
+          "onnxruntime_ms": 1.14083,
           "test_name": "test_cpu_slice_reverse_vector_params64_float64_benchmark"
         },
         {
           "input_elements": 1048576,
           "input_type": "float64",
           "inputs": "float64[2048x512], int32[1], int32[1], int32[1]",
-          "onnx_light_cpu_ms": 0.189458,
-          "onnxruntime_ms": 0.188113,
-          "speedup_cpu": 0.9929,
+          "onnxruntime_ms": 0.277159,
           "test_name": "test_cpu_slice_contiguous_params32_float64_benchmark"
         },
         {
           "input_elements": 1048576,
           "input_type": "float64",
           "inputs": "float64[2048x512], int64[1], int64[1], int64[1]",
-          "onnx_light_cpu_ms": 0.173189,
-          "onnxruntime_ms": 0.186785,
-          "speedup_cpu": 1.0785,
+          "onnxruntime_ms": 0.27938,
           "test_name": "test_cpu_slice_contiguous_params64_float64_benchmark"
         },
         {
           "input_elements": 1048576,
           "input_type": "float64",
           "inputs": "float64[64x128x128], int32[3], int32[3], int32[3], int32[3]",
-          "onnx_light_cpu_ms": 0.176866,
-          "onnxruntime_ms": 0.236109,
-          "speedup_cpu": 1.335,
+          "onnxruntime_ms": 0.187091,
           "test_name": "test_cpu_slice_multi_axis_params32_float64_benchmark"
         },
         {
           "input_elements": 1048576,
           "input_type": "float64",
           "inputs": "float64[64x128x128], int64[3], int64[3], int64[3], int64[3]",
-          "onnx_light_cpu_ms": 0.168812,
-          "onnxruntime_ms": 0.235872,
-          "speedup_cpu": 1.3972,
+          "onnxruntime_ms": 0.187719,
           "test_name": "test_cpu_slice_multi_axis_params64_float64_benchmark"
         }
       ],
-      "simd_level": 3,
-      "simd_name": "AVX2",
+      "simd_level": 4,
+      "simd_name": "AVX-512",
       "source": "20 onnx-light-cpu benchmark tests",
       "summary": {
-        "avg_speedup_cpu": 1.7937,
-        "cpu_succeeded": 20,
-        "inputs": 20,
-        "max_speedup_cpu": 3.2445,
-        "min_speedup_cpu": 0.9929
+        "cpu_succeeded": 0,
+        "inputs": 20
       },
       "title": "Slice (float64): onnxruntime vs onnx-light-cpu"
     },
@@ -76080,9 +75359,9 @@
         "onnx_light_cpu",
         "onnxruntime"
       ],
-      "date": "2026-09-14T23:54:50Z",
+      "date": "2026-09-15T07:31:57Z",
       "domain": "ai.onnx",
-      "machine": "AMD EPYC 7763 64-Core Processor",
+      "machine": "INTEL(R) XEON(R) PLATINUM 8573C",
       "name": "Softmax_float64_benchmark",
       "op": "Softmax",
       "rows": [
@@ -76090,39 +75369,30 @@
           "input_elements": 1024,
           "input_type": "float64",
           "inputs": "float64[1x1024]",
-          "onnx_light_cpu_ms": 0.005111,
-          "onnxruntime_ms": 0.021641,
-          "speedup_cpu": 4.2342,
+          "onnxruntime_ms": 0.014297,
           "test_name": "test_cpu_softmax_1x1024_float64_benchmark"
         },
         {
           "input_elements": 32768,
           "input_type": "float64",
           "inputs": "float64[32x1024]",
-          "onnx_light_cpu_ms": 0.035627,
-          "onnxruntime_ms": 0.260549,
-          "speedup_cpu": 7.3132,
+          "onnxruntime_ms": 0.184171,
           "test_name": "test_cpu_softmax_32x1024_float64_benchmark"
         },
         {
           "input_elements": 1048576,
           "input_type": "float64",
           "inputs": "float64[1024x1024]",
-          "onnx_light_cpu_ms": 0.783805,
-          "onnxruntime_ms": 7.832869,
-          "speedup_cpu": 9.9934,
+          "onnxruntime_ms": 6.372369,
           "test_name": "test_cpu_softmax_1024x1024_float64_benchmark"
         }
       ],
-      "simd_level": 3,
-      "simd_name": "AVX2",
+      "simd_level": 4,
+      "simd_name": "AVX-512",
       "source": "3 onnx-light-cpu benchmark tests",
       "summary": {
-        "avg_speedup_cpu": 9.8419,
-        "cpu_succeeded": 3,
-        "inputs": 3,
-        "max_speedup_cpu": 9.9934,
-        "min_speedup_cpu": 4.2342
+        "cpu_succeeded": 0,
+        "inputs": 3
       },
       "title": "Softmax (float64): onnxruntime vs onnx-light-cpu"
     },
@@ -76368,9 +75638,9 @@
         "onnx_light_cpu",
         "onnxruntime"
       ],
-      "date": "2026-09-14T23:54:50Z",
+      "date": "2026-09-15T07:31:57Z",
       "domain": "ai.onnx",
-      "machine": "AMD EPYC 7763 64-Core Processor",
+      "machine": "INTEL(R) XEON(R) PLATINUM 8573C",
       "name": "Split_float64_benchmark",
       "op": "Split",
       "rows": [
@@ -76378,120 +75648,93 @@
           "input_elements": 4096,
           "input_type": "float64",
           "inputs": "float64[1x4096], int64[3]",
-          "onnx_light_cpu_ms": 0.00712,
-          "onnxruntime_ms": 0.018592,
-          "speedup_cpu": 2.6112,
+          "onnxruntime_ms": 0.007751,
           "test_name": "test_cpu_split_qkv_decode_float64_benchmark"
         },
         {
           "input_elements": 16705,
           "input_type": "float64",
           "inputs": "float64[257x65], int64[3]",
-          "onnx_light_cpu_ms": 0.012235,
-          "onnxruntime_ms": 0.027412,
-          "speedup_cpu": 2.2405,
+          "onnxruntime_ms": 0.013185,
           "test_name": "test_cpu_split_tail_float64_benchmark"
         },
         {
           "input_elements": 32768,
           "input_type": "float64",
           "inputs": "float64[8x4096], int64[3]",
-          "onnx_light_cpu_ms": 0.019305,
-          "onnxruntime_ms": 0.03278,
-          "speedup_cpu": 1.698,
+          "onnxruntime_ms": 0.013813,
           "test_name": "test_cpu_split_qkv_small_float64_benchmark"
         },
         {
           "input_elements": 131072,
           "input_type": "float64",
           "inputs": "float64[2x16x4096], int64[3]",
-          "onnx_light_cpu_ms": 0.058025,
-          "onnxruntime_ms": 0.06884,
-          "speedup_cpu": 1.1864,
+          "onnxruntime_ms": 0.029378,
           "test_name": "test_cpu_split_qkv_batched_float64_benchmark"
         },
         {
           "input_elements": 262144,
           "input_type": "float64",
           "inputs": "float64[65536x4], int64[4]",
-          "onnx_light_cpu_ms": 0.192985,
-          "onnxruntime_ms": 0.387814,
-          "speedup_cpu": 2.0096,
+          "onnxruntime_ms": 0.085332,
           "test_name": "test_cpu_split_narrow_float64_benchmark"
         },
         {
           "input_elements": 1048576,
           "input_type": "float64",
           "inputs": "float64[1024x1024], int64[32]",
-          "onnx_light_cpu_ms": 0.419806,
-          "onnxruntime_ms": 0.573002,
-          "speedup_cpu": 1.3649,
+          "onnxruntime_ms": 0.708561,
           "test_name": "test_cpu_split_many_outputs_float64_benchmark"
         },
         {
           "input_elements": 1048576,
           "input_type": "float64",
           "inputs": "float64[1024x1024], int64[3]",
-          "onnx_light_cpu_ms": 0.31108,
-          "onnxruntime_ms": 0.376081,
-          "speedup_cpu": 1.209,
+          "onnxruntime_ms": 0.331957,
           "test_name": "test_cpu_split_last_axis_float64_benchmark"
         },
         {
           "input_elements": 1048576,
           "input_type": "float64",
           "inputs": "float64[1048576], int64[3]",
-          "onnx_light_cpu_ms": 0.214231,
-          "onnxruntime_ms": 0.318907,
-          "speedup_cpu": 1.4886,
+          "onnxruntime_ms": 0.295513,
           "test_name": "test_cpu_split_vector_float64_benchmark"
         },
         {
           "input_elements": 1048576,
           "input_type": "float64",
           "inputs": "float64[2048x512], int64[3]",
-          "onnx_light_cpu_ms": 0.310764,
-          "onnxruntime_ms": 0.292221,
-          "speedup_cpu": 0.9403,
+          "onnxruntime_ms": 0.299246,
           "test_name": "test_cpu_split_first_axis_float64_benchmark"
         },
         {
           "input_elements": 1048576,
           "input_type": "float64",
           "inputs": "float64[256x4096], int64[3]",
-          "onnx_light_cpu_ms": 0.317294,
-          "onnxruntime_ms": 0.397227,
-          "speedup_cpu": 1.2519,
+          "onnxruntime_ms": 0.317461,
           "test_name": "test_cpu_split_qkv_prefill_float64_benchmark"
         },
         {
           "input_elements": 1048576,
           "input_type": "float64",
           "inputs": "float64[64x128x128], int64[3]",
-          "onnx_light_cpu_ms": 0.315869,
-          "onnxruntime_ms": 0.322852,
-          "speedup_cpu": 1.0221,
+          "onnxruntime_ms": 0.298436,
           "test_name": "test_cpu_split_middle_axis_float64_benchmark"
         },
         {
           "input_elements": 1049600,
           "input_type": "float64",
           "inputs": "float64[1024x1025]",
-          "onnx_light_cpu_ms": 0.329246,
-          "onnxruntime_ms": 0.597107,
-          "speedup_cpu": 1.8136,
+          "onnxruntime_ms": 0.330218,
           "test_name": "test_cpu_split_uneven_float64_benchmark"
         }
       ],
-      "simd_level": 3,
-      "simd_name": "AVX2",
+      "simd_level": 4,
+      "simd_name": "AVX-512",
       "source": "12 onnx-light-cpu benchmark tests",
       "summary": {
-        "avg_speedup_cpu": 1.3608,
-        "cpu_succeeded": 12,
-        "inputs": 12,
-        "max_speedup_cpu": 2.6112,
-        "min_speedup_cpu": 0.9403
+        "cpu_succeeded": 0,
+        "inputs": 12
       },
       "title": "Split (float64): onnxruntime vs onnx-light-cpu"
     },
@@ -78233,9 +77476,9 @@
         "onnx_light_cpu",
         "onnxruntime"
       ],
-      "date": "2026-09-14T23:54:50Z",
+      "date": "2026-09-15T07:31:57Z",
       "domain": "ai.onnx",
-      "machine": "AMD EPYC 7763 64-Core Processor",
+      "machine": "INTEL(R) XEON(R) PLATINUM 8573C",
       "name": "Sub_float64_benchmark",
       "op": "Sub",
       "rows": [
@@ -78243,516 +77486,401 @@
           "input_elements": 1,
           "input_type": "float64",
           "inputs": "float64, float64[1048576]",
-          "onnx_light_cpu_ms": 0.280983,
-          "onnxruntime_ms": 0.30379,
-          "speedup_cpu": 1.0812,
+          "onnxruntime_ms": 0.288613,
           "test_name": "test_cpu_sub_v14_left_scalar_float64xfloat64_to_float64_n1048576_benchmark"
         },
         {
           "input_elements": 1,
           "input_type": "float64",
           "inputs": "float64, float64[1048576]",
-          "onnx_light_cpu_ms": 0.283607,
-          "onnxruntime_ms": 0.297136,
-          "speedup_cpu": 1.0477,
+          "onnxruntime_ms": 0.291049,
           "test_name": "test_cpu_sub_v14_right_scalar_float64xfloat64_to_float64_swapped_n1048576_benchmark"
         },
         {
           "input_elements": 1,
           "input_type": "float64",
           "inputs": "float64, float64[4096]",
-          "onnx_light_cpu_ms": 0.006512,
-          "onnxruntime_ms": 0.014856,
-          "speedup_cpu": 2.2813,
+          "onnxruntime_ms": 0.006168,
           "test_name": "test_cpu_sub_v14_left_scalar_float64xfloat64_to_float64_n4096_benchmark"
         },
         {
           "input_elements": 1,
           "input_type": "float64",
           "inputs": "float64, float64[4096]",
-          "onnx_light_cpu_ms": 0.006521,
-          "onnxruntime_ms": 0.015104,
-          "speedup_cpu": 2.3162,
+          "onnxruntime_ms": 0.006646,
           "test_name": "test_cpu_sub_v14_right_scalar_float64xfloat64_to_float64_swapped_n4096_benchmark"
         },
         {
           "input_elements": 1,
           "input_type": "float64",
           "inputs": "float64, float64[4194304]",
-          "onnx_light_cpu_ms": 1.450916,
-          "onnxruntime_ms": 1.282474,
-          "speedup_cpu": 0.8839,
+          "onnxruntime_ms": 1.118411,
           "test_name": "test_cpu_sub_v14_left_scalar_float64xfloat64_to_float64_n4194304_benchmark"
         },
         {
           "input_elements": 1,
           "input_type": "float64",
           "inputs": "float64, float64[4194304]",
-          "onnx_light_cpu_ms": 1.577983,
-          "onnxruntime_ms": 1.216599,
-          "speedup_cpu": 0.771,
+          "onnxruntime_ms": 1.116694,
           "test_name": "test_cpu_sub_v14_right_scalar_float64xfloat64_to_float64_swapped_n4194304_benchmark"
         },
         {
           "input_elements": 1,
           "input_type": "float64",
           "inputs": "float64, float64[65536]",
-          "onnx_light_cpu_ms": 0.030192,
-          "onnxruntime_ms": 0.032102,
-          "speedup_cpu": 1.0633,
+          "onnxruntime_ms": 0.013907,
           "test_name": "test_cpu_sub_v14_left_scalar_float64xfloat64_to_float64_n65536_benchmark"
         },
         {
           "input_elements": 1,
           "input_type": "float64",
           "inputs": "float64, float64[65536]",
-          "onnx_light_cpu_ms": 0.029184,
-          "onnxruntime_ms": 0.037062,
-          "speedup_cpu": 1.2699,
+          "onnxruntime_ms": 0.013845,
           "test_name": "test_cpu_sub_v14_right_scalar_float64xfloat64_to_float64_swapped_n65536_benchmark"
         },
         {
           "input_elements": 16,
           "input_type": "float64",
           "inputs": "float64[2x1x8x1], float64[1x4x1x64]",
-          "onnx_light_cpu_ms": 0.006445,
-          "onnxruntime_ms": 0.016967,
-          "speedup_cpu": 2.6326,
+          "onnxruntime_ms": 0.007192,
           "test_name": "test_cpu_sub_v14_general_float64xfloat64_to_float64_n4096_benchmark"
         },
         {
           "input_elements": 64,
           "input_type": "float64",
           "inputs": "float64[1x64], float64[1024x1]",
-          "onnx_light_cpu_ms": 0.023242,
-          "onnxruntime_ms": 0.033428,
-          "speedup_cpu": 1.4383,
+          "onnxruntime_ms": 0.021084,
           "test_name": "test_cpu_sub_v14_outer_float64xfloat64_to_float64_swapped_n65536_benchmark"
         },
         {
           "input_elements": 64,
           "input_type": "float64",
           "inputs": "float64[1x64], float64[16384x1]",
-          "onnx_light_cpu_ms": 0.211896,
-          "onnxruntime_ms": 0.239187,
-          "speedup_cpu": 1.1288,
+          "onnxruntime_ms": 0.198138,
           "test_name": "test_cpu_sub_v14_outer_float64xfloat64_to_float64_swapped_n1048576_benchmark"
         },
         {
           "input_elements": 64,
           "input_type": "float64",
           "inputs": "float64[1x64], float64[64x1]",
-          "onnx_light_cpu_ms": 0.006116,
-          "onnxruntime_ms": 0.016567,
-          "speedup_cpu": 2.7088,
+          "onnxruntime_ms": 0.006971,
           "test_name": "test_cpu_sub_v14_outer_float64xfloat64_to_float64_swapped_n4096_benchmark"
         },
         {
           "input_elements": 64,
           "input_type": "float64",
           "inputs": "float64[1x64], float64[65536x1]",
-          "onnx_light_cpu_ms": 0.83384,
-          "onnxruntime_ms": 0.900989,
-          "speedup_cpu": 1.0805,
+          "onnxruntime_ms": 0.746587,
           "test_name": "test_cpu_sub_v14_outer_float64xfloat64_to_float64_swapped_n4194304_benchmark"
         },
         {
           "input_elements": 64,
           "input_type": "float64",
           "inputs": "float64[64x1], float64[1x64]",
-          "onnx_light_cpu_ms": 0.006346,
-          "onnxruntime_ms": 0.017096,
-          "speedup_cpu": 2.694,
+          "onnxruntime_ms": 0.006998,
           "test_name": "test_cpu_sub_v14_outer_float64xfloat64_to_float64_n4096_benchmark"
         },
         {
           "input_elements": 64,
           "input_type": "float64",
           "inputs": "float64[64x1], float64[2048x64x32]",
-          "onnx_light_cpu_ms": 1.487673,
-          "onnxruntime_ms": 1.241285,
-          "speedup_cpu": 0.8344,
+          "onnxruntime_ms": 1.273474,
           "test_name": "test_cpu_sub_v14_per_channel_float64xfloat64_to_float64_swapped_n4194304_benchmark"
         },
         {
           "input_elements": 64,
           "input_type": "float64",
           "inputs": "float64[64x1], float64[2x64x32]",
-          "onnx_light_cpu_ms": 0.007277,
-          "onnxruntime_ms": 0.018666,
-          "speedup_cpu": 2.5651,
+          "onnxruntime_ms": 0.007584,
           "test_name": "test_cpu_sub_v14_per_channel_float64xfloat64_to_float64_swapped_n4096_benchmark"
         },
         {
           "input_elements": 64,
           "input_type": "float64",
           "inputs": "float64[64x1], float64[32x64x32]",
-          "onnx_light_cpu_ms": 0.038095,
-          "onnxruntime_ms": 0.045036,
-          "speedup_cpu": 1.1822,
+          "onnxruntime_ms": 0.023906,
           "test_name": "test_cpu_sub_v14_per_channel_float64xfloat64_to_float64_swapped_n65536_benchmark"
         },
         {
           "input_elements": 64,
           "input_type": "float64",
           "inputs": "float64[64x1], float64[512x64x32]",
-          "onnx_light_cpu_ms": 0.312356,
-          "onnxruntime_ms": 0.365551,
-          "speedup_cpu": 1.1703,
+          "onnxruntime_ms": 0.315875,
           "test_name": "test_cpu_sub_v14_per_channel_float64xfloat64_to_float64_swapped_n1048576_benchmark"
         },
         {
           "input_elements": 256,
           "input_type": "float64",
           "inputs": "float64[1x4x1x64], float64[2048x1x8x1]",
-          "onnx_light_cpu_ms": 1.021568,
-          "onnxruntime_ms": 0.943787,
-          "speedup_cpu": 0.9239,
+          "onnxruntime_ms": 0.79505,
           "test_name": "test_cpu_sub_v14_general_float64xfloat64_to_float64_swapped_n4194304_benchmark"
         },
         {
           "input_elements": 256,
           "input_type": "float64",
           "inputs": "float64[1x4x1x64], float64[2x1x8x1]",
-          "onnx_light_cpu_ms": 0.006258,
-          "onnxruntime_ms": 0.017208,
-          "speedup_cpu": 2.7498,
+          "onnxruntime_ms": 0.008604,
           "test_name": "test_cpu_sub_v14_general_float64xfloat64_to_float64_swapped_n4096_benchmark"
         },
         {
           "input_elements": 256,
           "input_type": "float64",
           "inputs": "float64[1x4x1x64], float64[32x1x8x1]",
-          "onnx_light_cpu_ms": 0.025282,
-          "onnxruntime_ms": 0.037243,
-          "speedup_cpu": 1.4731,
+          "onnxruntime_ms": 0.022645,
           "test_name": "test_cpu_sub_v14_general_float64xfloat64_to_float64_swapped_n65536_benchmark"
         },
         {
           "input_elements": 256,
           "input_type": "float64",
           "inputs": "float64[1x4x1x64], float64[512x1x8x1]",
-          "onnx_light_cpu_ms": 0.183611,
-          "onnxruntime_ms": 0.250917,
-          "speedup_cpu": 1.3666,
+          "onnxruntime_ms": 0.213253,
           "test_name": "test_cpu_sub_v14_general_float64xfloat64_to_float64_swapped_n1048576_benchmark"
         },
         {
           "input_elements": 256,
           "input_type": "float64",
           "inputs": "float64[256], float64[16384x256]",
-          "onnx_light_cpu_ms": 1.422745,
-          "onnxruntime_ms": 1.297272,
-          "speedup_cpu": 0.9118,
+          "onnxruntime_ms": 1.118404,
           "test_name": "test_cpu_sub_v14_row_float64xfloat64_to_float64_swapped_n4194304_benchmark"
         },
         {
           "input_elements": 256,
           "input_type": "float64",
           "inputs": "float64[256], float64[16x256]",
-          "onnx_light_cpu_ms": 0.00615,
-          "onnxruntime_ms": 0.016405,
-          "speedup_cpu": 2.6675,
+          "onnxruntime_ms": 0.006378,
           "test_name": "test_cpu_sub_v14_row_float64xfloat64_to_float64_swapped_n4096_benchmark"
         },
         {
           "input_elements": 256,
           "input_type": "float64",
           "inputs": "float64[256], float64[256x256]",
-          "onnx_light_cpu_ms": 0.027729,
-          "onnxruntime_ms": 0.039131,
-          "speedup_cpu": 1.4112,
+          "onnxruntime_ms": 0.015386,
           "test_name": "test_cpu_sub_v14_row_float64xfloat64_to_float64_swapped_n65536_benchmark"
         },
         {
           "input_elements": 256,
           "input_type": "float64",
           "inputs": "float64[256], float64[4096x256]",
-          "onnx_light_cpu_ms": 0.28802,
-          "onnxruntime_ms": 0.31642,
-          "speedup_cpu": 1.0986,
+          "onnxruntime_ms": 0.286083,
           "test_name": "test_cpu_sub_v14_row_float64xfloat64_to_float64_swapped_n1048576_benchmark"
         },
         {
           "input_elements": 256,
           "input_type": "float64",
           "inputs": "float64[32x1x8x1], float64[1x4x1x64]",
-          "onnx_light_cpu_ms": 0.027367,
-          "onnxruntime_ms": 0.038714,
-          "speedup_cpu": 1.4146,
+          "onnxruntime_ms": 0.023209,
           "test_name": "test_cpu_sub_v14_general_float64xfloat64_to_float64_n65536_benchmark"
         },
         {
           "input_elements": 1024,
           "input_type": "float64",
           "inputs": "float64[1024x1], float64[1x64]",
-          "onnx_light_cpu_ms": 0.027537,
-          "onnxruntime_ms": 0.040444,
-          "speedup_cpu": 1.4687,
+          "onnxruntime_ms": 0.021702,
           "test_name": "test_cpu_sub_v14_outer_float64xfloat64_to_float64_n65536_benchmark"
         },
         {
           "input_elements": 4096,
           "input_type": "float64",
           "inputs": "float64[16x256], float64[256]",
-          "onnx_light_cpu_ms": 0.006189,
-          "onnxruntime_ms": 0.01596,
-          "speedup_cpu": 2.5788,
+          "onnxruntime_ms": 0.00779,
           "test_name": "test_cpu_sub_v14_row_float64xfloat64_to_float64_n4096_benchmark"
         },
         {
           "input_elements": 4096,
           "input_type": "float64",
           "inputs": "float64[2x64x32], float64[64x1]",
-          "onnx_light_cpu_ms": 0.007007,
-          "onnxruntime_ms": 0.018408,
-          "speedup_cpu": 2.6271,
+          "onnxruntime_ms": 0.007694,
           "test_name": "test_cpu_sub_v14_per_channel_float64xfloat64_to_float64_n4096_benchmark"
         },
         {
           "input_elements": 4096,
           "input_type": "float64",
           "inputs": "float64[4096], float64",
-          "onnx_light_cpu_ms": 0.006272,
-          "onnxruntime_ms": 0.015185,
-          "speedup_cpu": 2.4211,
+          "onnxruntime_ms": 0.006079,
           "test_name": "test_cpu_sub_v14_left_scalar_float64xfloat64_to_float64_swapped_n4096_benchmark"
         },
         {
           "input_elements": 4096,
           "input_type": "float64",
           "inputs": "float64[4096], float64",
-          "onnx_light_cpu_ms": 0.006354,
-          "onnxruntime_ms": 0.015105,
-          "speedup_cpu": 2.3772,
+          "onnxruntime_ms": 0.006701,
           "test_name": "test_cpu_sub_v14_right_scalar_float64xfloat64_to_float64_n4096_benchmark"
         },
         {
           "input_elements": 4096,
           "input_type": "float64",
           "inputs": "float64[4096], float64[4096]",
-          "onnx_light_cpu_ms": 0.006303,
-          "onnxruntime_ms": 0.015883,
-          "speedup_cpu": 2.5199,
+          "onnxruntime_ms": 0.006287,
           "test_name": "test_cpu_sub_v14_contiguous_float64xfloat64_to_float64_n4096_benchmark"
         },
         {
           "input_elements": 4096,
           "input_type": "float64",
           "inputs": "float64[4096], float64[4096]",
-          "onnx_light_cpu_ms": 0.006484,
-          "onnxruntime_ms": 0.015766,
-          "speedup_cpu": 2.4315,
+          "onnxruntime_ms": 0.006249,
           "test_name": "test_cpu_sub_v14_contiguous_float64xfloat64_to_float64_swapped_n4096_benchmark"
         },
         {
           "input_elements": 4096,
           "input_type": "float64",
           "inputs": "float64[512x1x8x1], float64[1x4x1x64]",
-          "onnx_light_cpu_ms": 0.192005,
-          "onnxruntime_ms": 0.251945,
-          "speedup_cpu": 1.3122,
+          "onnxruntime_ms": 0.228789,
           "test_name": "test_cpu_sub_v14_general_float64xfloat64_to_float64_n1048576_benchmark"
         },
         {
           "input_elements": 16384,
           "input_type": "float64",
           "inputs": "float64[16384x1], float64[1x64]",
-          "onnx_light_cpu_ms": 0.201208,
-          "onnxruntime_ms": 0.235649,
-          "speedup_cpu": 1.1712,
+          "onnxruntime_ms": 0.202196,
           "test_name": "test_cpu_sub_v14_outer_float64xfloat64_to_float64_n1048576_benchmark"
         },
         {
           "input_elements": 16384,
           "input_type": "float64",
           "inputs": "float64[2048x1x8x1], float64[1x4x1x64]",
-          "onnx_light_cpu_ms": 0.815353,
-          "onnxruntime_ms": 0.940982,
-          "speedup_cpu": 1.1541,
+          "onnxruntime_ms": 0.839945,
           "test_name": "test_cpu_sub_v14_general_float64xfloat64_to_float64_n4194304_benchmark"
         },
         {
           "input_elements": 65536,
           "input_type": "float64",
           "inputs": "float64[256x256], float64[256]",
-          "onnx_light_cpu_ms": 0.031549,
-          "onnxruntime_ms": 0.038892,
-          "speedup_cpu": 1.2327,
+          "onnxruntime_ms": 0.014576,
           "test_name": "test_cpu_sub_v14_row_float64xfloat64_to_float64_n65536_benchmark"
         },
         {
           "input_elements": 65536,
           "input_type": "float64",
           "inputs": "float64[32x64x32], float64[64x1]",
-          "onnx_light_cpu_ms": 0.031408,
-          "onnxruntime_ms": 0.043824,
-          "speedup_cpu": 1.3953,
+          "onnxruntime_ms": 0.024717,
           "test_name": "test_cpu_sub_v14_per_channel_float64xfloat64_to_float64_n65536_benchmark"
         },
         {
           "input_elements": 65536,
           "input_type": "float64",
           "inputs": "float64[65536], float64",
-          "onnx_light_cpu_ms": 0.029423,
-          "onnxruntime_ms": 0.030772,
-          "speedup_cpu": 1.0458,
+          "onnxruntime_ms": 0.016923,
           "test_name": "test_cpu_sub_v14_left_scalar_float64xfloat64_to_float64_swapped_n65536_benchmark"
         },
         {
           "input_elements": 65536,
           "input_type": "float64",
           "inputs": "float64[65536], float64",
-          "onnx_light_cpu_ms": 0.02966,
-          "onnxruntime_ms": 0.032624,
-          "speedup_cpu": 1.0999,
+          "onnxruntime_ms": 0.014785,
           "test_name": "test_cpu_sub_v14_right_scalar_float64xfloat64_to_float64_n65536_benchmark"
         },
         {
           "input_elements": 65536,
           "input_type": "float64",
           "inputs": "float64[65536], float64[65536]",
-          "onnx_light_cpu_ms": 0.039541,
-          "onnxruntime_ms": 0.055959,
-          "speedup_cpu": 1.4152,
+          "onnxruntime_ms": 0.014386,
           "test_name": "test_cpu_sub_v14_contiguous_float64xfloat64_to_float64_n65536_benchmark"
         },
         {
           "input_elements": 65536,
           "input_type": "float64",
           "inputs": "float64[65536], float64[65536]",
-          "onnx_light_cpu_ms": 0.041459,
-          "onnxruntime_ms": 0.048792,
-          "speedup_cpu": 1.1769,
+          "onnxruntime_ms": 0.014131,
           "test_name": "test_cpu_sub_v14_contiguous_float64xfloat64_to_float64_swapped_n65536_benchmark"
         },
         {
           "input_elements": 65536,
           "input_type": "float64",
           "inputs": "float64[65536x1], float64[1x64]",
-          "onnx_light_cpu_ms": 0.824086,
-          "onnxruntime_ms": 0.904664,
-          "speedup_cpu": 1.0978,
+          "onnxruntime_ms": 0.73772,
           "test_name": "test_cpu_sub_v14_outer_float64xfloat64_to_float64_n4194304_benchmark"
         },
         {
           "input_elements": 1048576,
           "input_type": "float64",
           "inputs": "float64[1048576], float64",
-          "onnx_light_cpu_ms": 0.280947,
-          "onnxruntime_ms": 0.324687,
-          "speedup_cpu": 1.1557,
+          "onnxruntime_ms": 0.288912,
           "test_name": "test_cpu_sub_v14_left_scalar_float64xfloat64_to_float64_swapped_n1048576_benchmark"
         },
         {
           "input_elements": 1048576,
           "input_type": "float64",
           "inputs": "float64[1048576], float64",
-          "onnx_light_cpu_ms": 0.299845,
-          "onnxruntime_ms": 0.306379,
-          "speedup_cpu": 1.0218,
+          "onnxruntime_ms": 0.289387,
           "test_name": "test_cpu_sub_v14_right_scalar_float64xfloat64_to_float64_n1048576_benchmark"
         },
         {
           "input_elements": 1048576,
           "input_type": "float64",
           "inputs": "float64[1048576], float64[1048576]",
-          "onnx_light_cpu_ms": 0.389393,
-          "onnxruntime_ms": 0.406933,
-          "speedup_cpu": 1.045,
+          "onnxruntime_ms": 0.427445,
           "test_name": "test_cpu_sub_v14_contiguous_float64xfloat64_to_float64_n1048576_benchmark"
         },
         {
           "input_elements": 1048576,
           "input_type": "float64",
           "inputs": "float64[1048576], float64[1048576]",
-          "onnx_light_cpu_ms": 0.411457,
-          "onnxruntime_ms": 0.360273,
-          "speedup_cpu": 0.8756,
+          "onnxruntime_ms": 0.434924,
           "test_name": "test_cpu_sub_v14_contiguous_float64xfloat64_to_float64_swapped_n1048576_benchmark"
         },
         {
           "input_elements": 1048576,
           "input_type": "float64",
           "inputs": "float64[4096x256], float64[256]",
-          "onnx_light_cpu_ms": 0.314565,
-          "onnxruntime_ms": 0.343539,
-          "speedup_cpu": 1.0921,
+          "onnxruntime_ms": 0.287354,
           "test_name": "test_cpu_sub_v14_row_float64xfloat64_to_float64_n1048576_benchmark"
         },
         {
           "input_elements": 1048576,
           "input_type": "float64",
           "inputs": "float64[512x64x32], float64[64x1]",
-          "onnx_light_cpu_ms": 0.320708,
-          "onnxruntime_ms": 0.378024,
-          "speedup_cpu": 1.1787,
+          "onnxruntime_ms": 0.299391,
           "test_name": "test_cpu_sub_v14_per_channel_float64xfloat64_to_float64_n1048576_benchmark"
         },
         {
           "input_elements": 4194304,
           "input_type": "float64",
           "inputs": "float64[16384x256], float64[256]",
-          "onnx_light_cpu_ms": 1.445782,
-          "onnxruntime_ms": 1.201884,
-          "speedup_cpu": 0.8313,
+          "onnxruntime_ms": 1.151439,
           "test_name": "test_cpu_sub_v14_row_float64xfloat64_to_float64_n4194304_benchmark"
         },
         {
           "input_elements": 4194304,
           "input_type": "float64",
           "inputs": "float64[2048x64x32], float64[64x1]",
-          "onnx_light_cpu_ms": 1.576444,
-          "onnxruntime_ms": 1.263548,
-          "speedup_cpu": 0.8015,
+          "onnxruntime_ms": 1.175,
           "test_name": "test_cpu_sub_v14_per_channel_float64xfloat64_to_float64_n4194304_benchmark"
         },
         {
           "input_elements": 4194304,
           "input_type": "float64",
           "inputs": "float64[4194304], float64",
-          "onnx_light_cpu_ms": 1.534118,
-          "onnxruntime_ms": 1.232543,
-          "speedup_cpu": 0.8034,
+          "onnxruntime_ms": 1.127951,
           "test_name": "test_cpu_sub_v14_left_scalar_float64xfloat64_to_float64_swapped_n4194304_benchmark"
         },
         {
           "input_elements": 4194304,
           "input_type": "float64",
           "inputs": "float64[4194304], float64",
-          "onnx_light_cpu_ms": 1.47591,
-          "onnxruntime_ms": 1.262886,
-          "speedup_cpu": 0.8557,
+          "onnxruntime_ms": 1.135292,
           "test_name": "test_cpu_sub_v14_right_scalar_float64xfloat64_to_float64_n4194304_benchmark"
         },
         {
           "input_elements": 4194304,
           "input_type": "float64",
           "inputs": "float64[4194304], float64[4194304]",
-          "onnx_light_cpu_ms": 2.743573,
-          "onnxruntime_ms": 2.164494,
-          "speedup_cpu": 0.7889,
+          "onnxruntime_ms": 1.655188,
           "test_name": "test_cpu_sub_v14_contiguous_float64xfloat64_to_float64_n4194304_benchmark"
         },
         {
           "input_elements": 4194304,
           "input_type": "float64",
           "inputs": "float64[4194304], float64[4194304]",
-          "onnx_light_cpu_ms": 2.518629,
-          "onnxruntime_ms": 2.103306,
-          "speedup_cpu": 0.8351,
+          "onnxruntime_ms": 1.656031,
           "test_name": "test_cpu_sub_v14_contiguous_float64xfloat64_to_float64_swapped_n4194304_benchmark"
         }
       ],
-      "simd_level": 3,
-      "simd_name": "AVX2",
+      "simd_level": 4,
+      "simd_name": "AVX-512",
       "source": "56 onnx-light-cpu benchmark tests",
       "summary": {
-        "avg_speedup_cpu": 0.9167,
-        "cpu_succeeded": 56,
-        "inputs": 56,
-        "max_speedup_cpu": 2.7498,
-        "min_speedup_cpu": 0.771
+        "cpu_succeeded": 0,
+        "inputs": 56
       },
       "title": "Sub (float64): onnxruntime vs onnx-light-cpu"
     },
@@ -83026,9 +82154,9 @@
         "onnx_light_cpu",
         "onnxruntime"
       ],
-      "date": "2026-09-14T23:54:50Z",
+      "date": "2026-09-15T07:31:57Z",
       "domain": "ai.onnx",
-      "machine": "AMD EPYC 7763 64-Core Processor",
+      "machine": "INTEL(R) XEON(R) PLATINUM 8573C",
       "name": "Sum_float64_benchmark",
       "op": "Sum",
       "rows": [
@@ -83036,21 +82164,16 @@
           "input_elements": 4096,
           "input_type": "float64",
           "inputs": "float64[1x4096], float64[1x4096], float64[1x4096]",
-          "onnx_light_cpu_ms": 0.035098,
-          "onnxruntime_ms": 0.021229,
-          "speedup_cpu": 0.6048,
+          "onnxruntime_ms": 0.008235,
           "test_name": "test_cpu_sum_n4096_3inputs_float64_benchmark"
         }
       ],
-      "simd_level": 3,
-      "simd_name": "AVX2",
+      "simd_level": 4,
+      "simd_name": "AVX-512",
       "source": "1 onnx-light-cpu benchmark tests",
       "summary": {
-        "avg_speedup_cpu": 0.6048,
-        "cpu_succeeded": 1,
-        "inputs": 1,
-        "max_speedup_cpu": 0.6048,
-        "min_speedup_cpu": 0.6048
+        "cpu_succeeded": 0,
+        "inputs": 1
       },
       "title": "Sum (float64): onnxruntime vs onnx-light-cpu"
     },
@@ -83269,9 +82392,9 @@
         "onnx_light_cpu",
         "onnxruntime"
       ],
-      "date": "2026-09-14T23:54:50Z",
+      "date": "2026-09-15T07:31:57Z",
       "domain": "ai.onnx",
-      "machine": "AMD EPYC 7763 64-Core Processor",
+      "machine": "INTEL(R) XEON(R) PLATINUM 8573C",
       "name": "SwiGLU_float64_benchmark",
       "op": "SwiGLU",
       "rows": [
@@ -83279,54 +82402,47 @@
           "input_elements": 1024,
           "input_type": "float64",
           "inputs": "float64[1024], float64[1024]",
-          "onnx_light_cpu_ms": 0.007337,
           "test_name": "test_cpu_swiglu_n1024_float64_benchmark"
         },
         {
           "input_elements": 32768,
           "input_type": "float64",
           "inputs": "float64[32768], float64[32768]",
-          "onnx_light_cpu_ms": 0.11104,
           "test_name": "test_cpu_swiglu_n32768_float64_benchmark"
         },
         {
           "input_elements": 65535,
           "input_type": "float64",
           "inputs": "float64[65535], float64[65535]",
-          "onnx_light_cpu_ms": 0.215418,
           "test_name": "test_cpu_swiglu_n65535_float64_benchmark"
         },
         {
           "input_elements": 65536,
           "input_type": "float64",
           "inputs": "float64[65536], float64[65536]",
-          "onnx_light_cpu_ms": 0.216268,
           "test_name": "test_cpu_swiglu_n65536_float64_benchmark"
         },
         {
           "input_elements": 131072,
           "input_type": "float64",
           "inputs": "float64[131072], float64[131072]",
-          "onnx_light_cpu_ms": 0.425135,
           "test_name": "test_cpu_swiglu_n131072_float64_benchmark"
         },
         {
           "input_elements": 1048576,
           "input_type": "float64",
           "inputs": "float64[1048576], float64[1048576]",
-          "onnx_light_cpu_ms": 3.391403,
           "test_name": "test_cpu_swiglu_n1048576_float64_benchmark"
         },
         {
           "input_elements": 4194304,
           "input_type": "float64",
           "inputs": "float64[4194304], float64[4194304]",
-          "onnx_light_cpu_ms": 13.483353,
           "test_name": "test_cpu_swiglu_n4194304_float64_benchmark"
         }
       ],
-      "simd_level": 3,
-      "simd_name": "AVX2",
+      "simd_level": 4,
+      "simd_name": "AVX-512",
       "source": "7 onnx-light-cpu benchmark tests",
       "summary": {
         "cpu_succeeded": 0,
@@ -83578,8 +82694,8 @@
   "max_warmup_time_s": 0.05,
   "n_measure": 40,
   "n_warmup": 2,
-  "simd_level": 3,
-  "simd_name": "AVX2",
+  "simd_level": 4,
+  "simd_name": "AVX-512",
   "versions": {
     "numpy": "2.5.3",
     "onnx": "1.22.0",
