@@ -1,4 +1,4 @@
-date,open_prs,opened_prs_7d,closed_prs_7d,merged_prs_7d,opened_prs_1d,closed_prs_1d,merged_prs_1d,avg_open_age_days,avg_merged_age_days_7d
+date,open_prs,opened_prs_7d,closed_prs_7d,merged_prs_7d,opened_prs_1d,closed_prs_1d,merged_prs_1d,avg_open_age_days,avg_merged_age_days_365d
 2026-08-28T08:10:40Z,817,,,33,,,,263.87,
 2026-08-30T10:09:30Z,829,92,42,35,,,,262.02,
 2026-08-31T11:11:02Z,830,85,45,37,,,,262.75,
@@ -18,4 +18,5 @@ date,open_prs,opened_prs_7d,closed_prs_7d,merged_prs_7d,opened_prs_1d,closed_prs
 2026-09-15T09:39:24Z,887,106,81,66,18,12,10,256.41,
 2026-09-16T09:34:03Z,894,109,81,65,24,17,13,254.64,
 2026-09-17T09:42:19Z,899,102,69,55,24,19,16,253.93,
-2026-09-18T09:15:52Z,898,100,71,60,18,18,16,255.03,10.29
+2026-09-18T09:15:52Z,898,100,71,60,18,18,16,255.03,
+2026-09-19T09:01:41Z,890,104,83,70,8,15,13,258.08,10.46
