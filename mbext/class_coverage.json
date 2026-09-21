@@ -268,6 +268,14 @@
       ]
     },
     {
+      "in_mbext": false,
+      "in_ort_genai": true,
+      "name": "LFM2MoEModel",
+      "ort_genai_files": [
+        "src/python/py/models/builders/lfm2.py"
+      ]
+    },
+    {
       "in_mbext": true,
       "in_ort_genai": true,
       "mbext_files": [
@@ -764,12 +772,28 @@
       "name": "Qwen35CausalLMModel"
     },
     {
+      "in_mbext": true,
+      "in_ort_genai": false,
+      "mbext_files": [
+        "modelbuilder/builders/qwen.py"
+      ],
+      "name": "Qwen35ConditionalGenerationModel"
+    },
+    {
       "in_mbext": false,
       "in_ort_genai": true,
       "name": "Qwen35DenseMTPModel",
       "ort_genai_files": [
         "src/python/py/models/builders/qwen.py"
       ]
+    },
+    {
+      "in_mbext": true,
+      "in_ort_genai": false,
+      "mbext_files": [
+        "modelbuilder/builders/qwen.py"
+      ],
+      "name": "Qwen35EmbeddingModel"
     },
     {
       "in_mbext": false,
@@ -829,6 +853,14 @@
       "ort_genai_files": [
         "src/python/py/models/builders/qwen.py"
       ]
+    },
+    {
+      "in_mbext": true,
+      "in_ort_genai": false,
+      "mbext_files": [
+        "modelbuilder/builders/qwen.py"
+      ],
+      "name": "Qwen35VisionEncoderModel"
     },
     {
       "in_mbext": true,
@@ -1029,17 +1061,17 @@
       "name": "_Branch"
     }
   ],
-  "date": "2026-09-14T14:11:58Z",
+  "date": "2026-09-21T14:17:41Z",
   "projects": {
     "mbext": {
-      "commit": "84f9e6c89a1f861a7bddc3ed8ca6021e834c4d9e",
+      "commit": "368db9b736a8e79859db47dddf492465734d54b6",
       "owner": "xadupre",
       "path": "modelbuilder",
       "ref": "main",
       "repo": "mbext"
     },
     "ort_genai": {
-      "commit": "7f154b84a7fe84613d256acd05b0a3e3bab5cc52",
+      "commit": "a7b5804bde01a7c9f4ef2c9edc038a024b22355f",
       "owner": "microsoft",
       "path": "src/python/py/models",
       "ref": "main",
@@ -1047,7 +1079,7 @@
     }
   },
   "totals": {
-    "mbext": 71,
-    "ort_genai": 80
+    "mbext": 74,
+    "ort_genai": 81
   }
 }
