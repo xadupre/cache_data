@@ -200,3 +200,8 @@ job_id,run_id,workflow,job_name,status,conclusion,started_at,completed_at,durati
 101737871366,34120716519,ci-10-torch-op-db,"torch-op-db (ubuntu-latest, py3.13, torch-latest)",completed,cancelled,2026-09-07T12:13:36Z,2026-09-07T12:15:34Z,118,47a86d8873a58a057995031f3521b11f7f5c7bba
 101700835695,34109071661,ci-10-torch-op-db,"torch-op-db (ubuntu-latest, py3.13, torch-latest)",completed,failure,2026-09-07T09:59:59Z,2026-09-07T10:11:01Z,662,ce6afa2e625036ed97c7136f267df162b40e4847
 101686389778,34104529782,ci-10-torch-op-db,"torch-op-db (ubuntu-latest, py3.13, torch-latest)",completed,failure,2026-09-07T09:10:35Z,2026-09-07T09:21:33Z,658,8d9bb46af05c5b1f57d1e3ea0a3e0d30eed5cb78
+105610946581,35348575732,ci-10-torch-op-db,"torch-op-db (ubuntu-latest, py3.13, torch-latest)",completed,failure,2026-09-18T13:09:42Z,2026-09-18T13:16:39Z,417,5d2782f5a06cc3fc4b2dd89561216dc2bdf6a7ab
+105595745733,35343861298,ci-10-torch-op-db,"torch-op-db (ubuntu-latest, py3.13, torch-latest)",completed,failure,2026-09-18T12:18:56Z,2026-09-18T12:25:54Z,418,e0862c331cffa08740b8c13baa2ec84f4a09d444
+105583957047,35340131337,ci-10-torch-op-db,"torch-op-db (ubuntu-latest, py3.13, torch-latest)",completed,failure,2026-09-18T11:33:05Z,2026-09-18T11:40:08Z,423,b876a60d1b79314ad02a68ccd9ae2fee7b6c354b
+105583294571,35339938044,ci-10-torch-op-db,"torch-op-db (ubuntu-latest, py3.13, torch-latest)",completed,cancelled,2026-09-18T11:30:09Z,2026-09-18T11:32:40Z,151,31e62781f6493c209bbdb4370824610826885e1a
+105581422421,35339341152,ci-10-torch-op-db,"torch-op-db (ubuntu-latest, py3.13, torch-latest)",completed,failure,2026-09-18T11:23:02Z,2026-09-18T11:27:41Z,279,2208bb6de5c0215b6543830a31df8a7a7b4783e4

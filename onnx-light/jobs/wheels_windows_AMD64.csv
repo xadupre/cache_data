@@ -45,3 +45,9 @@ job_id,run_id,workflow,job_name,status,conclusion,started_at,completed_at,durati
 100212598202,33615197177,Weekly Wheel Build Check,"wheels (windows, AMD64)",completed,success,2026-09-02T10:25:22Z,2026-09-02T11:36:55Z,4293,e3d2514c68638e321f4a87730cd630a808a8dc9e
 100191573887,33607440991,Weekly Wheel Build Check,"wheels (windows, AMD64)",completed,cancelled,2026-09-02T09:12:04Z,2026-09-02T09:38:19Z,1575,4da3866f93d8077bd96818a8358764ca9831a6a0
 100159456998,33598092435,Weekly Wheel Build Check,"wheels (windows, AMD64)",completed,cancelled,2026-09-02T07:14:47Z,2026-09-02T08:12:35Z,3468,3b95ae77753af249dbbd4d0abe3c46ee9dbbd916
+106253749783,35527646938,Weekly Wheel Build Check,"wheels (windows, AMD64)",completed,success,2026-09-21T07:48:11Z,2026-09-21T09:15:12Z,5221,f2586d52e218f0f0de4b0c5e87dcdeeb59eddf46
+106114568333,35520507032,Weekly Wheel Build Check,"wheels (windows, AMD64)",completed,success,2026-09-20T17:03:29Z,2026-09-20T17:53:42Z,3013,62ebbd89545c8a75fdc52a273a53b4fbd3368bdf
+105971659677,35467934657,Weekly Wheel Build Check,"wheels (windows, AMD64)",completed,success,2026-09-19T21:37:13Z,2026-09-19T23:02:41Z,5128,c53caa90a85e61a67cb9d94fe43b01d1c06ae86b
+104937377039,35125499708,Weekly Wheel Build Check,"wheels (windows, AMD64)",completed,success,2026-09-16T19:07:52Z,2026-09-16T20:29:24Z,4892,15ff0529f172920410c1c7645f7fdecafed31f36
+104908103208,35123337750,Build Release Wheels,"wheels (windows, AMD64)",completed,success,2026-09-16T17:43:18Z,2026-09-16T19:03:15Z,4797,e03a1ba561451cf991788368397011d35010aa7a
+104034706439,34856794298,Weekly Wheel Build Check,"wheels (windows, AMD64)",completed,success,2026-09-14T15:20:45Z,2026-09-14T16:18:36Z,3471,bc160c44976e5c30817aaea828af0a2cc13aba7c

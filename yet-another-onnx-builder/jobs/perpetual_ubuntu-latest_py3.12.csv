@@ -162,3 +162,15 @@ job_id,run_id,workflow,job_name,status,conclusion,started_at,completed_at,durati
 98902950399,33187140071,ci-8-perpetual,"perpetual (ubuntu-latest, py3.12)",completed,success,2026-08-28T15:51:02Z,2026-08-28T15:51:42Z,40,92a4a63083af7003cc1594b9e06cb54c56c489b3
 98561989770,33084960191,ci-8-perpetual,"perpetual (ubuntu-latest, py3.12)",completed,success,2026-08-27T14:56:08Z,2026-08-27T14:56:54Z,46,92a4a63083af7003cc1594b9e06cb54c56c489b3
 98062221320,32930697146,ci-8-perpetual,"perpetual (ubuntu-latest, py3.12)",completed,success,2026-08-26T04:33:54Z,2026-08-26T04:34:29Z,35,92a4a63083af7003cc1594b9e06cb54c56c489b3
+106282212982,35583750765,ci-8-perpetual,"perpetual (ubuntu-latest, py3.12)",completed,success,2026-09-21T09:31:10Z,2026-09-21T09:31:55Z,45,92a4a63083af7003cc1594b9e06cb54c56c489b3
+106052735832,35501039252,ci-8-perpetual,"perpetual (ubuntu-latest, py3.12)",completed,success,2026-09-20T08:59:04Z,2026-09-20T08:59:41Z,37,92a4a63083af7003cc1594b9e06cb54c56c489b3
+105868290035,35432049291,ci-8-perpetual,"perpetual (ubuntu-latest, py3.12)",completed,success,2026-09-19T08:27:36Z,2026-09-19T08:28:13Z,37,92a4a63083af7003cc1594b9e06cb54c56c489b3
+105610950485,35348575713,ci-8-perpetual,"perpetual (ubuntu-latest, py3.12)",completed,success,2026-09-18T13:14:12Z,2026-09-18T13:14:55Z,43,5d2782f5a06cc3fc4b2dd89561216dc2bdf6a7ab
+105595746884,35343861507,ci-8-perpetual,"perpetual (ubuntu-latest, py3.12)",completed,success,2026-09-18T12:23:42Z,2026-09-18T12:24:20Z,38,e0862c331cffa08740b8c13baa2ec84f4a09d444
+105583893844,35340131496,ci-8-perpetual,"perpetual (ubuntu-latest, py3.12)",completed,success,2026-09-18T11:32:43Z,2026-09-18T11:33:23Z,40,b876a60d1b79314ad02a68ccd9ae2fee7b6c354b
+105583295123,35339938161,ci-8-perpetual,"perpetual (ubuntu-latest, py3.12)",completed,success,2026-09-18T11:31:40Z,2026-09-18T11:32:21Z,41,31e62781f6493c209bbdb4370824610826885e1a
+105581422207,35339341122,ci-8-perpetual,"perpetual (ubuntu-latest, py3.12)",completed,success,2026-09-18T11:22:53Z,2026-09-18T11:23:35Z,42,2208bb6de5c0215b6543830a31df8a7a7b4783e4
+105537677375,35325563899,ci-8-perpetual,"perpetual (ubuntu-latest, py3.12)",completed,success,2026-09-18T08:40:27Z,2026-09-18T08:41:09Z,42,92a4a63083af7003cc1594b9e06cb54c56c489b3
+105142940972,35203295451,ci-8-perpetual,"perpetual (ubuntu-latest, py3.12)",completed,success,2026-09-17T09:06:25Z,2026-09-17T09:07:12Z,47,92a4a63083af7003cc1594b9e06cb54c56c489b3
+104731304381,35076882785,ci-8-perpetual,"perpetual (ubuntu-latest, py3.12)",completed,success,2026-09-16T09:00:00Z,2026-09-16T09:00:40Z,40,92a4a63083af7003cc1594b9e06cb54c56c489b3
+104321029974,34950798486,ci-8-perpetual,"perpetual (ubuntu-latest, py3.12)",completed,success,2026-09-15T09:07:53Z,2026-09-15T09:08:34Z,41,92a4a63083af7003cc1594b9e06cb54c56c489b3

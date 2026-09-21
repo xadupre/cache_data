@@ -189,3 +189,7 @@ job_id,run_id,workflow,job_name,status,conclusion,started_at,completed_at,durati
 101737920286,34120716915,ci-5-torch,"torch (ubuntu-latest, py3.13)",completed,failure,2026-09-07T12:13:48Z,2026-09-07T12:27:14Z,806,47a86d8873a58a057995031f3521b11f7f5c7bba
 101700891540,34109073193,ci-5-torch,"torch (ubuntu-latest, py3.13)",completed,failure,2026-09-07T10:00:18Z,2026-09-07T10:01:57Z,99,ce6afa2e625036ed97c7136f267df162b40e4847
 101686488797,34104530042,ci-5-torch,"torch (ubuntu-latest, py3.13)",completed,failure,2026-09-07T09:11:22Z,2026-09-07T09:13:01Z,99,8d9bb46af05c5b1f57d1e3ea0a3e0d30eed5cb78
+105612698697,35348575967,ci-5-torch,"torch (ubuntu-latest, py3.13)",completed,failure,2026-09-18T13:23:00Z,2026-09-18T14:10:40Z,2860,5d2782f5a06cc3fc4b2dd89561216dc2bdf6a7ab
+105597649361,35343861840,ci-5-torch,"torch (ubuntu-latest, py3.13)",completed,failure,2026-09-18T12:26:51Z,2026-09-18T12:47:15Z,1224,e0862c331cffa08740b8c13baa2ec84f4a09d444
+105585424055,35340131730,ci-5-torch,"torch (ubuntu-latest, py3.13)",completed,failure,2026-09-18T11:38:21Z,2026-09-18T11:52:02Z,821,b876a60d1b79314ad02a68ccd9ae2fee7b6c354b
+105581523213,35339341479,ci-5-torch,"torch (ubuntu-latest, py3.13)",completed,failure,2026-09-18T11:24:45Z,2026-09-18T11:38:09Z,804,2208bb6de5c0215b6543830a31df8a7a7b4783e4

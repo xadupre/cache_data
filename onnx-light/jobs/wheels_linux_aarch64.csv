@@ -65,3 +65,10 @@ job_id,run_id,workflow,job_name,status,conclusion,started_at,completed_at,durati
 99968499964,33541469196,Build Release Wheels,"wheels (linux, aarch64)",completed,cancelled,2026-09-01T18:04:19Z,2026-09-02T00:04:34Z,21615,2689be3fb74b5b1cbb029f598c01220234ede2c1
 99547200095,33410089377,Weekly Wheel Build Check,"wheels (linux, aarch64)",completed,cancelled,2026-08-31T15:43:40Z,2026-08-31T21:43:54Z,21614,cf862efb6c619657c6f4f9a101824b04db0e0493
 99533911164,33406088393,Build Release Wheels,"wheels (linux, aarch64)",completed,cancelled,2026-08-31T15:02:05Z,2026-08-31T21:02:20Z,21615,cf862efb6c619657c6f4f9a101824b04db0e0493
+106238373050,35527646938,Weekly Wheel Build Check,"wheels (linux, aarch64)",completed,success,2026-09-21T06:42:47Z,2026-09-21T07:27:21Z,2674,f2586d52e218f0f0de4b0c5e87dcdeeb59eddf46
+106105184248,35520507032,Weekly Wheel Build Check,"wheels (linux, aarch64)",completed,success,2026-09-20T15:55:40Z,2026-09-20T16:42:22Z,2802,62ebbd89545c8a75fdc52a273a53b4fbd3368bdf
+106100016835,35468379293,Weekly Wheel Build Check,"wheels (linux, aarch64)",completed,cancelled,2026-09-20T15:17:46Z,2026-09-20T15:55:34Z,2268,c96c6969112157f172e5be2569931d97fd12d8e8
+105963572788,35467934657,Weekly Wheel Build Check,"wheels (linux, aarch64)",completed,success,2026-09-19T20:37:07Z,2026-09-19T21:22:42Z,2735,c53caa90a85e61a67cb9d94fe43b01d1c06ae86b
+104915125428,35125499708,Weekly Wheel Build Check,"wheels (linux, aarch64)",completed,success,2026-09-16T18:03:53Z,2026-09-16T18:46:14Z,2541,15ff0529f172920410c1c7645f7fdecafed31f36
+104886268690,35123337750,Build Release Wheels,"wheels (linux, aarch64)",completed,success,2026-09-16T16:40:08Z,2026-09-16T17:23:33Z,2605,e03a1ba561451cf991788368397011d35010aa7a
+104018322792,34856794298,Weekly Wheel Build Check,"wheels (linux, aarch64)",completed,success,2026-09-14T14:37:24Z,2026-09-14T15:20:40Z,2596,bc160c44976e5c30817aaea828af0a2cc13aba7c

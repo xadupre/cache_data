@@ -298,3 +298,13 @@ job_id,run_id,workflow,job_name,status,conclusion,started_at,completed_at,durati
 98903649526,33187341715,ci-2-scikit-learn,"sklearn (ubuntu-latest, py3.12, sklearn-1.8)",completed,success,2026-08-28T15:53:38Z,2026-08-28T15:56:02Z,144,92a4a63083af7003cc1594b9e06cb54c56c489b3
 98562896234,33085214522,ci-2-scikit-learn,"sklearn (ubuntu-latest, py3.12, sklearn-1.8)",completed,success,2026-08-27T14:58:23Z,2026-08-27T15:00:21Z,118,92a4a63083af7003cc1594b9e06cb54c56c489b3
 98062649312,32930846834,ci-2-scikit-learn,"sklearn (ubuntu-latest, py3.12, sklearn-1.8)",completed,success,2026-08-26T04:36:20Z,2026-08-26T04:38:03Z,103,92a4a63083af7003cc1594b9e06cb54c56c489b3
+106283352298,35584111537,ci-2-scikit-learn,"sklearn (ubuntu-latest, py3.12, sklearn-1.8)",completed,failure,2026-09-21T09:35:03Z,2026-09-21T09:37:43Z,160,92a4a63083af7003cc1594b9e06cb54c56c489b3
+106053241074,35501234648,ci-2-scikit-learn,"sklearn (ubuntu-latest, py3.12, sklearn-1.8)",completed,failure,2026-09-20T09:03:09Z,2026-09-20T09:05:21Z,132,92a4a63083af7003cc1594b9e06cb54c56c489b3
+105868692514,35432203024,ci-2-scikit-learn,"sklearn (ubuntu-latest, py3.12, sklearn-1.8)",completed,failure,2026-09-19T08:30:59Z,2026-09-19T08:33:20Z,141,92a4a63083af7003cc1594b9e06cb54c56c489b3
+105625752838,35348576062,ci-2-scikit-learn,"sklearn (ubuntu-latest, py3.12, sklearn-1.8)",completed,failure,2026-09-18T14:02:40Z,2026-09-18T14:47:28Z,2688,5d2782f5a06cc3fc4b2dd89561216dc2bdf6a7ab
+105595346383,35340131423,ci-2-scikit-learn,"sklearn (ubuntu-latest, py3.12, sklearn-1.8)",completed,failure,2026-09-18T12:15:52Z,2026-09-18T12:48:43Z,1971,b876a60d1b79314ad02a68ccd9ae2fee7b6c354b
+105581466982,35339340994,ci-2-scikit-learn,"sklearn (ubuntu-latest, py3.12, sklearn-1.8)",completed,failure,2026-09-18T11:24:02Z,2026-09-18T12:03:45Z,2383,2208bb6de5c0215b6543830a31df8a7a7b4783e4
+105538820497,35325919939,ci-2-scikit-learn,"sklearn (ubuntu-latest, py3.12, sklearn-1.8)",completed,failure,2026-09-18T08:45:15Z,2026-09-18T08:47:50Z,155,92a4a63083af7003cc1594b9e06cb54c56c489b3
+105144524427,35203779477,ci-2-scikit-learn,"sklearn (ubuntu-latest, py3.12, sklearn-1.8)",completed,failure,2026-09-17T09:11:45Z,2026-09-17T09:13:56Z,131,92a4a63083af7003cc1594b9e06cb54c56c489b3
+104732372735,35077213362,ci-2-scikit-learn,"sklearn (ubuntu-latest, py3.12, sklearn-1.8)",completed,failure,2026-09-16T09:03:34Z,2026-09-16T09:06:05Z,151,92a4a63083af7003cc1594b9e06cb54c56c489b3
+104322051547,34951117212,ci-2-scikit-learn,"sklearn (ubuntu-latest, py3.12, sklearn-1.8)",completed,failure,2026-09-15T09:11:10Z,2026-09-15T09:13:45Z,155,92a4a63083af7003cc1594b9e06cb54c56c489b3

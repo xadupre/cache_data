@@ -59,3 +59,10 @@ job_id,run_id,workflow,job_name,status,conclusion,started_at,completed_at,durati
 100073196305,33541469196,Build Release Wheels,"wheels (macos, universal2)",completed,skipped,2026-09-02T00:04:34Z,2026-09-02T00:04:34Z,0,2689be3fb74b5b1cbb029f598c01220234ede2c1
 99654851011,33410089377,Weekly Wheel Build Check,"wheels (macos, universal2)",completed,skipped,2026-08-31T21:43:57Z,2026-08-31T21:43:57Z,0,cf862efb6c619657c6f4f9a101824b04db0e0493
 99643084260,33406088393,Build Release Wheels,"wheels (macos, universal2)",completed,skipped,2026-08-31T21:02:22Z,2026-08-31T21:02:22Z,0,cf862efb6c619657c6f4f9a101824b04db0e0493
+106253749690,35527646938,Weekly Wheel Build Check,"wheels (macos, universal2)",completed,success,2026-09-21T07:48:18Z,2026-09-21T09:23:27Z,5709,f2586d52e218f0f0de4b0c5e87dcdeeb59eddf46
+106114568331,35520507032,Weekly Wheel Build Check,"wheels (macos, universal2)",completed,success,2026-09-20T17:03:34Z,2026-09-20T18:06:26Z,3772,62ebbd89545c8a75fdc52a273a53b4fbd3368bdf
+106105183842,35468379293,Weekly Wheel Build Check,"wheels (macos, universal2)",completed,cancelled,2026-09-20T15:55:35Z,2026-09-20T15:55:35Z,0,c96c6969112157f172e5be2569931d97fd12d8e8
+105971659694,35467934657,Weekly Wheel Build Check,"wheels (macos, universal2)",completed,success,2026-09-19T21:37:01Z,2026-09-19T22:42:28Z,3927,c53caa90a85e61a67cb9d94fe43b01d1c06ae86b
+104937376994,35125499708,Weekly Wheel Build Check,"wheels (macos, universal2)",completed,success,2026-09-16T19:07:56Z,2026-09-16T20:22:48Z,4492,15ff0529f172920410c1c7645f7fdecafed31f36
+104908103074,35123337750,Build Release Wheels,"wheels (macos, universal2)",completed,success,2026-09-16T17:43:24Z,2026-09-16T19:14:15Z,5451,e03a1ba561451cf991788368397011d35010aa7a
+104034706569,34856794298,Weekly Wheel Build Check,"wheels (macos, universal2)",completed,success,2026-09-14T15:20:47Z,2026-09-14T16:43:30Z,4963,bc160c44976e5c30817aaea828af0a2cc13aba7c

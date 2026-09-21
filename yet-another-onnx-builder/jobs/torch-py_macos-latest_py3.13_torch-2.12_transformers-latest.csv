@@ -78,3 +78,7 @@ job_id,run_id,workflow,job_name,status,conclusion,started_at,completed_at,durati
 101737953066,34120716969,ci-4-torch,"torch-py (macos-latest, py3.13, torch-2.12, transformers-latest)",completed,failure,2026-09-07T12:15:12Z,2026-09-07T12:23:05Z,473,47a86d8873a58a057995031f3521b11f7f5c7bba
 101700923525,34109073157,ci-4-torch,"torch-py (macos-latest, py3.13, torch-2.12, transformers-latest)",completed,failure,2026-09-07T10:00:22Z,2026-09-07T10:01:24Z,62,ce6afa2e625036ed97c7136f267df162b40e4847
 101686541532,34104530183,ci-4-torch,"torch-py (macos-latest, py3.13, torch-2.12, transformers-latest)",completed,failure,2026-09-07T09:13:04Z,2026-09-07T09:14:24Z,80,8d9bb46af05c5b1f57d1e3ea0a3e0d30eed5cb78
+105611134066,35348575902,ci-4-torch,"torch-py (macos-latest, py3.13, torch-2.12, transformers-latest)",completed,failure,2026-09-18T13:11:08Z,2026-09-18T14:03:58Z,3170,5d2782f5a06cc3fc4b2dd89561216dc2bdf6a7ab
+105598228736,35343861809,ci-4-torch,"torch-py (macos-latest, py3.13, torch-2.12, transformers-latest)",completed,failure,2026-09-18T12:26:32Z,2026-09-18T12:44:13Z,1061,e0862c331cffa08740b8c13baa2ec84f4a09d444
+105584506036,35340131784,ci-4-torch,"torch-py (macos-latest, py3.13, torch-2.12, transformers-latest)",completed,failure,2026-09-18T11:35:02Z,2026-09-18T11:40:59Z,357,b876a60d1b79314ad02a68ccd9ae2fee7b6c354b
+105581543612,35339341447,ci-4-torch,"torch-py (macos-latest, py3.13, torch-2.12, transformers-latest)",completed,failure,2026-09-18T11:25:15Z,2026-09-18T11:30:57Z,342,2208bb6de5c0215b6543830a31df8a7a7b4783e4
