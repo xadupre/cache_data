@@ -1,6 +1,6 @@
 {
-  "commit": "bc160c44976e5c30817aaea828af0a2cc13aba7c",
-  "date": "2026-09-14T11:12:04Z",
+  "commit": "7983a52c5da23d57dcf4ceb55d86f84c8aa092f2",
+  "date": "2026-09-21T11:24:22Z",
   "onnx_available": true,
   "rows": [
     {
@@ -754,7 +754,7 @@
       "name": "GatherElements",
       "onnx_backend_tests": 3,
       "onnx_backend_tests_expanded": 0,
-      "onnx_light_backend_tests": 3,
+      "onnx_light_backend_tests": 6,
       "onnx_light_backend_tests_expanded": 0,
       "onnx_light_shape_inference": true,
       "onnx_shape_inference": true
@@ -814,7 +814,7 @@
       "name": "GlobalLpPool",
       "onnx_backend_tests": 3,
       "onnx_backend_tests_expanded": 0,
-      "onnx_light_backend_tests": 3,
+      "onnx_light_backend_tests": 12,
       "onnx_light_backend_tests_expanded": 0,
       "onnx_light_shape_inference": true,
       "onnx_shape_inference": true
@@ -1042,7 +1042,7 @@
       "name": "LayerNormalization",
       "onnx_backend_tests": 19,
       "onnx_backend_tests_expanded": 38,
-      "onnx_light_backend_tests": 19,
+      "onnx_light_backend_tests": 21,
       "onnx_light_backend_tests_expanded": 0,
       "onnx_light_shape_inference": true,
       "onnx_shape_inference": true
@@ -1138,7 +1138,7 @@
       "name": "LpNormalization",
       "onnx_backend_tests": 7,
       "onnx_backend_tests_expanded": 0,
-      "onnx_light_backend_tests": 7,
+      "onnx_light_backend_tests": 8,
       "onnx_light_backend_tests_expanded": 0,
       "onnx_light_shape_inference": true,
       "onnx_shape_inference": true
@@ -1522,7 +1522,7 @@
       "name": "RMSNormalization",
       "onnx_backend_tests": 19,
       "onnx_backend_tests_expanded": 19,
-      "onnx_light_backend_tests": 19,
+      "onnx_light_backend_tests": 21,
       "onnx_light_backend_tests_expanded": 0,
       "onnx_light_shape_inference": true,
       "onnx_shape_inference": true
@@ -2386,7 +2386,7 @@
       "name": "Unique",
       "onnx_backend_tests": 10,
       "onnx_backend_tests_expanded": 0,
-      "onnx_light_backend_tests": 7,
+      "onnx_light_backend_tests": 12,
       "onnx_light_backend_tests_expanded": 0,
       "onnx_light_shape_inference": true,
       "onnx_shape_inference": true
@@ -2745,7 +2745,7 @@
     "onnx_backend_tests": 1423,
     "onnx_backend_tests_expanded": 480,
     "onnx_light": 228,
-    "onnx_light_backend_tests": 2237,
+    "onnx_light_backend_tests": 2259,
     "onnx_light_backend_tests_expanded": 0,
     "onnx_light_shape_inference": 227,
     "onnx_shape_inference": 217
