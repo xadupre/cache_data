@@ -8414,3 +8414,4 @@ run_id,workflow,event,status,conclusion,created_at,updated_at,duration_seconds,h
 34938098070,docs,push,completed,success,2026-09-15T06:41:49Z,2026-09-15T07:05:25Z,1416,9d1673a7bcde96dc7d09fe3c06ff46d1444b2109
 34850084686,acq - pixi,schedule,completed,success,2026-09-14T13:34:34Z,2026-09-14T13:34:45Z,11,e2defa279d2992eff31c472ca19db6b3b5e42faf
 34847011142,acq - hardening,schedule,completed,success,2026-09-14T13:04:43Z,2026-09-14T13:04:51Z,8,e2defa279d2992eff31c472ca19db6b3b5e42faf
+35588218978,cpp-coverage-weekly,schedule,completed,success,2026-09-21T10:20:30Z,2026-09-21T10:23:16Z,166,5c19e55b75050fde3062fc87ae4d348aaa478c7d

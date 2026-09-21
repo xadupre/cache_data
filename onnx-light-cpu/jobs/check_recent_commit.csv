@@ -98,3 +98,4 @@ job_id,run_id,workflow,job_name,status,conclusion,started_at,completed_at,durati
 104369976376,34965850050,acq - hardening,check recent commit,completed,success,2026-09-15T11:54:37Z,2026-09-15T11:54:42Z,5,9d1673a7bcde96dc7d09fe3c06ff46d1444b2109
 103995526282,34850084686,acq - pixi,check recent commit,completed,success,2026-09-14T13:34:38Z,2026-09-14T13:34:44Z,6,e2defa279d2992eff31c472ca19db6b3b5e42faf
 103985318063,34847011142,acq - hardening,check recent commit,completed,success,2026-09-14T13:04:45Z,2026-09-14T13:04:50Z,5,e2defa279d2992eff31c472ca19db6b3b5e42faf
+106296436817,35588218978,cpp-coverage-weekly,check recent commit,completed,success,2026-09-21T10:20:33Z,2026-09-21T10:20:39Z,6,5c19e55b75050fde3062fc87ae4d348aaa478c7d
