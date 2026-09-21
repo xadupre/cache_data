@@ -420,3 +420,26 @@ pr_number,title,author,merged_at,commits,comments,copilot_comments,copilot_commi
 653,Restore AVX2 activation dispatch and accelerate Attention/GEMM,xadupre,2026-09-07T15:45:10Z,4,2,0,0
 650,Add float16 and bfloat16 benchmarks for Softmax and Sigmoid,Copilot,2026-09-07T13:27:37Z,2,1,0,2
 651,Restore AMX and AVX-512 BF16 dispatch before AVX2,xadupre,2026-09-07T13:21:18Z,1,2,0,0
+749,Add ScatterND replacement support for Muse-Glimmer embeddings,Copilot,2026-09-19T11:25:27Z,6,8,3,6
+747,Optimize MatMulNBits and validate Muse-Glimmer projection workloads,Copilot,2026-09-18T22:14:51Z,7,8,3,7
+748,Add NonZero support for dynamic multimodal token positions,Copilot,2026-09-18T21:01:46Z,6,8,3,6
+745,"Add FP32, FP16, and BF16 Tanh CPU kernels for Muse-Glimmer softcapping",Copilot,2026-09-18T13:10:52Z,8,8,4,6
+746,Support Muse-Glimmer local-window GroupQueryAttention,Copilot,2026-09-18T12:52:49Z,5,4,1,5
+738,Update Qwen3 missing-kernel progress,xadupre,2026-09-18T11:20:32Z,2,1,0,0
+737,Add MatMulNBits INT4 foundation for Qwen models,xadupre,2026-09-18T09:52:51Z,5,2,0,0
+736,"Optimize AVX2 Cast, binary, and skip normalization kernels",xadupre,2026-09-17T15:49:32Z,4,2,0,0
+735,Optimize slow CPU benchmark kernels,xadupre,2026-09-17T15:00:30Z,2,2,0,0
+733,Reduce Attention FP16 conversion and packing overhead,Copilot,2026-09-17T12:52:28Z,8,2,0,3
+730,"Optimize integer Pow, Div/Mod, and 64-bit comparison kernels",Copilot,2026-09-17T12:02:41Z,8,2,0,4
+732,"Optimize SimplifiedLayerNormalization precision, SIMD paths, and broadcasting",Copilot,2026-09-17T11:32:17Z,4,2,0,2
+731,Stream skinny-M MatMulInteger through AVX2/VNNI without packing B,Copilot,2026-09-17T11:31:49Z,7,2,0,4
+734,Let kernels choose automatic benchmark thread defaults,xadupre,2026-09-17T10:43:12Z,1,1,0,0
+727,Accelerate Cast with F16C and AVX2 conversion paths,Copilot,2026-09-17T09:24:40Z,8,4,1,5
+729,Update onnx-light to 0.1.27,Copilot,2026-09-17T08:15:52Z,2,1,0,2
+721,"Reduce overhead in AVX-512 attention, GEMM, and float32 math paths",Copilot,2026-09-16T16:23:36Z,4,2,0,4
+720,Verify extension import order with clean builds and subprocess regression tests,Copilot,2026-09-16T14:09:04Z,6,5,2,5
+718,Document the complete RegisterAllKernels inventory and registration policies,Copilot,2026-09-16T11:59:05Z,5,6,2,5
+719,Clear stale SIMD flags from setup builds,xadupre,2026-09-16T11:58:48Z,1,1,0,0
+717,Align GEMM planning with compiled ISA support,Copilot,2026-09-16T08:11:49Z,2,2,0,2
+716,Guard all advertised Abs AVX-512 paths against missing implementations,Copilot,2026-09-15T20:48:12Z,2,1,0,2
+711,Make kernel usage recording opt-in and bounded,Copilot,2026-09-15T06:41:46Z,13,8,3,11

@@ -2498,3 +2498,37 @@ pr_number,title,author,merged_at,commits,comments,copilot_comments,copilot_commi
 4898,"Unify custom, quantized and persistent values",xadupre,2026-09-07T15:39:38Z,4,0,0,0
 4897,Restore compatibility with ONNX weekly 1.24,xadupre,2026-09-07T13:56:09Z,4,0,0,0
 4896,"Unify encoded values, stable type IDs and quantization constants",xadupre,2026-09-07T11:11:19Z,7,0,0,0
+5020,Port ONNX SpaceToDepth and DepthToSpace divisibility checks,Copilot,2026-09-21T09:29:34Z,2,0,0,2
+5015,Add zero-copy DLPack export to TensorProto,Copilot,2026-09-21T09:09:40Z,7,6,3,6
+5017,Revise persistent-state plan: graph bindings and zero-copy ownership,xadupre,2026-09-20T17:51:56Z,1,0,0,0
+5012,Add explicit ownership-transferring initializer insertion to GraphBuilder,Copilot,2026-09-19T16:36:08Z,3,0,0,3
+5009,Prepack immutable Gemm weights in RuntimeSession,Copilot,2026-09-19T16:35:51Z,8,0,0,6
+5007,"Integrate structured values with GraphBuilder, inference and export",Copilot,2026-09-19T08:52:01Z,4,2,1,4
+5008,ARM64 kernel reports blocked on native hardware access,Copilot,2026-09-18T22:14:20Z,3,6,3,3
+5004,Preserve Slice with runtime bounds during ShapeBasedIdentity optimization,Copilot,2026-09-18T20:57:28Z,3,2,1,3
+5003,Fix Identity optimization selecting the wrong constant operand,Copilot,2026-09-18T16:52:37Z,3,2,1,3
+4990,Implement native ORT FlatBuffers serialization and parsing,xadupre,2026-09-18T14:52:23Z,6,10,5,0
+5005,Honor optional-output arity in GraphBuilder schemas,Copilot,2026-09-18T14:46:31Z,2,0,0,2
+5006,"Update 0.1.28 changelog, including native ORT support",xadupre,2026-09-18T14:16:27Z,1,0,0,0
+4989,Support repeated fields in proto add kwargs,xadupre,2026-09-18T10:14:33Z,2,0,0,0
+4988,Validate graph-valued attributes,xadupre,2026-09-18T10:10:26Z,1,0,0,0
+4987,Replace invalid TensorProto file tests,xadupre,2026-09-18T10:10:15Z,1,0,0,0
+4986,Port upstream ONNX shape-inference fixes for four operators,Copilot,2026-09-17T13:54:55Z,3,0,0,3
+4984,Update package version to 0.1.28,Copilot,2026-09-17T08:10:57Z,2,0,0,2
+4982,Add unsorted Unique negative-axis backend coverage,Copilot,2026-09-16T10:56:37Z,2,0,0,2
+4980,Port ONNX custom shape-inference callback lifetime fix,Copilot,2026-09-16T10:56:24Z,2,0,0,2
+4974,Clarify negative integer Div quotients across schema implementations,Copilot,2026-09-16T10:56:11Z,3,2,1,3
+4978,Correct Normalizer L1 and L2 documentation formulas,Copilot,2026-09-16T10:55:58Z,3,2,1,3
+4976,Port upstream Pad downgrade adapter improvements,Copilot,2026-09-16T09:36:34Z,2,0,0,2
+4971,Add GatherElements subshape regression coverage,Copilot,2026-09-16T08:17:59Z,2,0,0,2
+4972,Add ConstantOfShape opset 20-to-19 conversion,Copilot,2026-09-16T08:17:46Z,2,0,0,2
+4954,Port upstream Unique output-order regression coverage,Copilot,2026-09-15T20:49:15Z,5,4,2,4
+4968,Correct GroupNormalization v21 divisibility documentation,Copilot,2026-09-15T19:12:44Z,3,2,1,3
+4956,Honor stash and affine precision in normalization kernels,Copilot,2026-09-15T19:12:13Z,4,2,1,3
+4970,Increase Windows CI timeouts to avoid false failures on sccache misses,Copilot,2026-09-15T19:11:28Z,2,0,0,2
+4959,Port upstream LpNormalization negative-input regression,Copilot,2026-09-15T18:39:53Z,4,2,1,3
+4966,Propagate remaining upstream inliner test cleanup,Copilot,2026-09-15T17:29:32Z,3,0,0,2
+4964,Port parser-based C++ test fixtures from ONNX #8417,Copilot,2026-09-15T17:29:05Z,4,0,0,3
+4952,Port GroupNormalization opset 21→20 conversion from ONNX,Copilot,2026-09-15T17:27:56Z,4,0,0,3
+4950,Update 0.1.27 changelog with recent runtime and tuning changes,Copilot,2026-09-15T17:27:31Z,3,0,0,2
+4962,Port ONNX GlobalLpPool improvements to C++ kernels and backend cases,Copilot,2026-09-15T06:42:12Z,4,2,1,4
