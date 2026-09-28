@@ -1,6 +1,6 @@
 {
-  "commit": "7983a52c5da23d57dcf4ceb55d86f84c8aa092f2",
-  "date": "2026-09-21T11:24:22Z",
+  "commit": "ba99bce5a1b545707c0fa29df81baafb4a973fa4",
+  "date": "2026-09-28T12:23:52Z",
   "onnx_available": true,
   "rows": [
     {
@@ -154,7 +154,7 @@
       "name": "Attention",
       "onnx_backend_tests": 93,
       "onnx_backend_tests_expanded": 93,
-      "onnx_light_backend_tests": 91,
+      "onnx_light_backend_tests": 103,
       "onnx_light_backend_tests_expanded": 0,
       "onnx_light_shape_inference": true,
       "onnx_shape_inference": true
@@ -466,7 +466,7 @@
       "name": "ConvTranspose",
       "onnx_backend_tests": 11,
       "onnx_backend_tests_expanded": 0,
-      "onnx_light_backend_tests": 11,
+      "onnx_light_backend_tests": 12,
       "onnx_light_backend_tests_expanded": 0,
       "onnx_light_shape_inference": true,
       "onnx_shape_inference": true
@@ -862,7 +862,7 @@
       "name": "GridSample",
       "onnx_backend_tests": 18,
       "onnx_backend_tests_expanded": 0,
-      "onnx_light_backend_tests": 18,
+      "onnx_light_backend_tests": 34,
       "onnx_light_backend_tests_expanded": 0,
       "onnx_light_shape_inference": true,
       "onnx_shape_inference": true
@@ -1114,7 +1114,7 @@
       "name": "LogSoftmax",
       "onnx_backend_tests": 7,
       "onnx_backend_tests_expanded": 14,
-      "onnx_light_backend_tests": 7,
+      "onnx_light_backend_tests": 8,
       "onnx_light_backend_tests_expanded": 0,
       "onnx_light_shape_inference": true,
       "onnx_shape_inference": true
@@ -2098,7 +2098,7 @@
       "name": "SoftmaxCrossEntropyLoss",
       "onnx_backend_tests": 34,
       "onnx_backend_tests_expanded": 0,
-      "onnx_light_backend_tests": 38,
+      "onnx_light_backend_tests": 41,
       "onnx_light_backend_tests_expanded": 0,
       "onnx_light_shape_inference": true,
       "onnx_shape_inference": true
@@ -2738,14 +2738,38 @@
       "onnx_light_backend_tests_expanded": 0,
       "onnx_light_shape_inference": true,
       "onnx_shape_inference": false
+    },
+    {
+      "domain": "ai.rt",
+      "in_onnx": false,
+      "in_onnx_light": true,
+      "name": "Dequantize",
+      "onnx_backend_tests": 0,
+      "onnx_backend_tests_expanded": 0,
+      "onnx_light_backend_tests": 4,
+      "onnx_light_backend_tests_expanded": 0,
+      "onnx_light_shape_inference": false,
+      "onnx_shape_inference": false
+    },
+    {
+      "domain": "ai.rt",
+      "in_onnx": false,
+      "in_onnx_light": true,
+      "name": "Quantize",
+      "onnx_backend_tests": 0,
+      "onnx_backend_tests_expanded": 0,
+      "onnx_light_backend_tests": 4,
+      "onnx_light_backend_tests_expanded": 0,
+      "onnx_light_shape_inference": false,
+      "onnx_shape_inference": false
     }
   ],
   "totals": {
     "onnx": 227,
     "onnx_backend_tests": 1423,
     "onnx_backend_tests_expanded": 480,
-    "onnx_light": 228,
-    "onnx_light_backend_tests": 2259,
+    "onnx_light": 230,
+    "onnx_light_backend_tests": 2300,
     "onnx_light_backend_tests_expanded": 0,
     "onnx_light_shape_inference": 227,
     "onnx_shape_inference": 217
