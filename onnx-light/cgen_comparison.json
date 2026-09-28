@@ -1,7 +1,7 @@
 {
   "cgen_support_ops_url": "https://raw.githubusercontent.com/emmtrix/emx-onnx-cgen/main/SUPPORT_OPS.md",
   "cgen_url": "https://github.com/emmtrix/emx-onnx-cgen",
-  "date": "2026-09-21T12:43:37Z",
+  "date": "2026-09-28T13:48:32Z",
   "rows": [
     {
       "domain": "ai.onnx",
@@ -111,7 +111,7 @@
       "in_cgen": true,
       "in_onnx_light": true,
       "name": "Attention",
-      "onnx_light_backend_tests": 91,
+      "onnx_light_backend_tests": 103,
       "onnx_light_source_url": "https://raw.githubusercontent.com/xadupre/onnx-light/main/onnx_light/onnx_extensions/kernels/kernels/nn/kernel_attention.cc"
     },
     {
@@ -331,7 +331,7 @@
       "in_cgen": true,
       "in_onnx_light": true,
       "name": "ConvTranspose",
-      "onnx_light_backend_tests": 11,
+      "onnx_light_backend_tests": 12,
       "onnx_light_source_url": "https://raw.githubusercontent.com/xadupre/onnx-light/main/onnx_light/onnx_extensions/kernels/kernels/nn/kernel_conv_transpose.cc"
     },
     {
@@ -621,7 +621,7 @@
       "in_cgen": true,
       "in_onnx_light": true,
       "name": "GridSample",
-      "onnx_light_backend_tests": 18,
+      "onnx_light_backend_tests": 34,
       "onnx_light_source_url": "https://raw.githubusercontent.com/xadupre/onnx-light/main/onnx_light/onnx_extensions/kernels/kernels/tensor/kernel_gridsample.cc"
     },
     {
@@ -808,7 +808,7 @@
       "in_cgen": true,
       "in_onnx_light": true,
       "name": "LogSoftmax",
-      "onnx_light_backend_tests": 7,
+      "onnx_light_backend_tests": 8,
       "onnx_light_source_url": "https://raw.githubusercontent.com/xadupre/onnx-light/main/onnx_light/onnx_extensions/kernels/kernels/math/kernel_logsoftmax.cc"
     },
     {
@@ -1493,7 +1493,7 @@
       "in_cgen": true,
       "in_onnx_light": true,
       "name": "SoftmaxCrossEntropyLoss",
-      "onnx_light_backend_tests": 38,
+      "onnx_light_backend_tests": 41,
       "onnx_light_source_url": "https://raw.githubusercontent.com/xadupre/onnx-light/main/onnx_light/onnx_extensions/kernels/kernels/math/kernel_softmax_cross_entropy_loss.cc"
     },
     {
@@ -1938,6 +1938,22 @@
       "onnx_light_source_url": "https://raw.githubusercontent.com/xadupre/onnx-light/main/onnx_light/onnx_extensions/kernels/kernels/rt/kernel_delayed_initializer.cc"
     },
     {
+      "domain": "ai.rt",
+      "in_cgen": false,
+      "in_onnx_light": true,
+      "name": "Dequantize",
+      "onnx_light_backend_tests": 4,
+      "onnx_light_source_url": "https://raw.githubusercontent.com/xadupre/onnx-light/main/onnx_light/onnx_extensions/kernels/kernels/quantization/kernel_dequantize.cc"
+    },
+    {
+      "domain": "ai.rt",
+      "in_cgen": false,
+      "in_onnx_light": true,
+      "name": "Quantize",
+      "onnx_light_backend_tests": 4,
+      "onnx_light_source_url": "https://raw.githubusercontent.com/xadupre/onnx-light/main/onnx_light/onnx_extensions/kernels/kernels/quantization/kernel_quantize.cc"
+    },
+    {
       "cgen_source_url": "https://raw.githubusercontent.com/emmtrix/emx-onnx-cgen/main/src/emx_onnx_cgen/templates/attention_op.c.j2",
       "domain": "com.microsoft",
       "in_cgen": true,
@@ -2374,7 +2390,7 @@
     "cgen": 264,
     "neither": 1,
     "only_cgen": 60,
-    "only_onnx_light": 24,
-    "onnx_light": 228
+    "only_onnx_light": 26,
+    "onnx_light": 230
   }
 }
