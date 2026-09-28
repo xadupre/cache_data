@@ -84,6 +84,14 @@
       ]
     },
     {
+      "in_mbext": false,
+      "in_ort_genai": true,
+      "name": "EffectiveBuilderConfig",
+      "ort_genai_files": [
+        "src/python/py/models/builder_config.py"
+      ]
+    },
+    {
       "in_mbext": true,
       "in_ort_genai": false,
       "mbext_files": [
@@ -200,12 +208,23 @@
       ]
     },
     {
+      "in_mbext": false,
+      "in_ort_genai": true,
+      "name": "Gemma4MoEModel",
+      "ort_genai_files": [
+        "src/python/py/models/builders/gemma.py"
+      ]
+    },
+    {
       "in_mbext": true,
-      "in_ort_genai": false,
+      "in_ort_genai": true,
       "mbext_files": [
         "modelbuilder/builders/gemma.py"
       ],
-      "name": "Gemma4Model"
+      "name": "Gemma4Model",
+      "ort_genai_files": [
+        "src/python/py/models/builders/gemma.py"
+      ]
     },
     {
       "in_mbext": true,
@@ -265,6 +284,22 @@
       "name": "InternLM2Model",
       "ort_genai_files": [
         "src/python/py/models/builders/internlm.py"
+      ]
+    },
+    {
+      "in_mbext": false,
+      "in_ort_genai": true,
+      "name": "KVCacheVariant",
+      "ort_genai_files": [
+        "src/python/py/models/kv_cache_variant.py"
+      ]
+    },
+    {
+      "in_mbext": false,
+      "in_ort_genai": true,
+      "name": "LFM2AudioModel",
+      "ort_genai_files": [
+        "src/python/py/models/builders/lfm2.py"
       ]
     },
     {
@@ -1061,7 +1096,7 @@
       "name": "_Branch"
     }
   ],
-  "date": "2026-09-21T14:17:41Z",
+  "date": "2026-09-28T15:36:05Z",
   "projects": {
     "mbext": {
       "commit": "368db9b736a8e79859db47dddf492465734d54b6",
@@ -1071,7 +1106,7 @@
       "repo": "mbext"
     },
     "ort_genai": {
-      "commit": "a7b5804bde01a7c9f4ef2c9edc038a024b22355f",
+      "commit": "b48d3b93487f11863cbd33257714e4b70a7f26b1",
       "owner": "microsoft",
       "path": "src/python/py/models",
       "ref": "main",
@@ -1080,6 +1115,6 @@
   },
   "totals": {
     "mbext": 74,
-    "ort_genai": 81
+    "ort_genai": 86
   }
 }
