@@ -74,3 +74,10 @@ job_id,run_id,workflow,job_name,status,conclusion,started_at,completed_at,durati
 105098890689,35189555819,Fuzz,Run fuzz harnesses (nightly),completed,success,2026-09-17T06:22:44Z,2026-09-17T07:01:06Z,2302,a9759f4d93f5d4a1abfe3c1a2ae45a1f29d0374a
 104688395762,35063410808,Fuzz,Run fuzz harnesses (nightly),completed,success,2026-09-16T06:22:29Z,2026-09-16T07:03:41Z,2472,c3b48137bc56203c7435fe4cad0a091991c349a1
 104276044007,34936691823,Fuzz,Run fuzz harnesses (nightly),completed,success,2026-09-15T06:23:11Z,2026-09-15T07:04:11Z,2460,c3b48137bc56203c7435fe4cad0a091991c349a1
+108814131247,36386923275,Fuzz,Run fuzz harnesses (nightly),completed,success,2026-09-28T06:31:47Z,2026-09-28T07:12:22Z,2435,66962871fe5e4f495e23c52ba4fa7764d85a6915
+108565390747,36299858357,Fuzz,Run fuzz harnesses (nightly),completed,success,2026-09-27T06:21:35Z,2026-09-27T07:02:42Z,2467,97aa2f2b5dae63fd475ea7b6e8f46b6f18933335
+108352953198,36223467981,Fuzz,Run fuzz harnesses (nightly),completed,success,2026-09-26T06:20:45Z,2026-09-26T07:00:48Z,2403,0dca75c6d568589262bc321b164cec65158fe060
+107968134753,36102601371,Fuzz,Run fuzz harnesses (nightly),completed,success,2026-09-25T06:22:59Z,2026-09-25T07:04:01Z,2462,718bf2eaa65ad7df49f1fb2dfc91e15f51a1ef92
+107518996038,35964176035,Fuzz,Run fuzz harnesses (nightly),completed,success,2026-09-24T06:22:32Z,2026-09-24T07:03:43Z,2471,718bf2eaa65ad7df49f1fb2dfc91e15f51a1ef92
+107069225810,35826481906,Fuzz,Run fuzz harnesses (nightly),completed,success,2026-09-23T06:22:56Z,2026-09-23T07:03:49Z,2453,718bf2eaa65ad7df49f1fb2dfc91e15f51a1ef92
+106638332885,35694513872,Fuzz,Run fuzz harnesses (nightly),completed,success,2026-09-22T06:22:13Z,2026-09-22T07:03:18Z,2465,718bf2eaa65ad7df49f1fb2dfc91e15f51a1ef92

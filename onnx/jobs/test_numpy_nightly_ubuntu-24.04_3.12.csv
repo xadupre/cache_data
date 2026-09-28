@@ -1,0 +1,2 @@
+job_id,run_id,workflow,job_name,status,conclusion,started_at,completed_at,duration_seconds,head_sha
+106993077712,35801638176,Test with numpy nightly wheels,"test_numpy_nightly (ubuntu-24.04, 3.12)",completed,success,2026-09-23T00:20:42Z,2026-09-23T00:29:33Z,531,718bf2eaa65ad7df49f1fb2dfc91e15f51a1ef92

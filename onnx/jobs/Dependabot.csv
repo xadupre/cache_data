@@ -38,3 +38,5 @@ job_id,run_id,workflow,job_name,status,conclusion,started_at,completed_at,durati
 99042864589,33230685346,pip in /. for protobuf - Update #1544871641,Dependabot,completed,failure,2026-08-29T03:09:25Z,2026-08-29T03:10:00Z,35,359aa3197c937c97ba44e107542866c8f7d6f48d
 98763040950,33144689174,pip in /. for protobuf - Update #1543850820,Dependabot,completed,failure,2026-08-28T05:24:58Z,2026-08-28T05:25:41Z,43,f9b25fb1a5302ef0c833bef8c917cc7f031feb6b
 100183385389,33610230992,pip in / for types-protobuf - Update #1551796442,Dependabot,completed,success,2026-09-02T08:43:29Z,2026-09-02T08:44:12Z,43,478eb1e0674253c0f28c6b0fffc20d2449e0ac26
+108703097223,36348735365,pip in /. for protobuf - Update #1593560852,Dependabot,completed,failure,2026-09-27T20:37:48Z,2026-09-27T20:38:41Z,53,b7bb11ddff23135e87c0d2316fd8378007cdf372
+106292711363,35587052278,pip in /. for protobuf - Update #1585242667,Dependabot,completed,failure,2026-09-21T10:07:43Z,2026-09-21T10:08:30Z,47,a239912764927698703ce67b471d51b97972ed6d

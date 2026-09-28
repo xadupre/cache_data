@@ -41,3 +41,6 @@ job_id,run_id,workflow,job_name,status,conclusion,started_at,completed_at,durati
 105191296827,35218086467,acq - hardening,"hardening (ubuntu-latest, gcc)",completed,failure,2026-09-17T11:53:41Z,2026-09-17T11:55:53Z,132,4eb822d197eda57fc928d6b100c51992c658887b
 104781918925,35092499301,acq - hardening,"hardening (ubuntu-latest, gcc)",completed,failure,2026-09-16T11:50:50Z,2026-09-16T11:53:01Z,131,bc0e2df7e5d7f5ffa816a489152dcbb95dcaf32b
 104370017386,34965850050,acq - hardening,"hardening (ubuntu-latest, gcc)",completed,failure,2026-09-15T11:54:45Z,2026-09-15T11:56:53Z,128,9d1673a7bcde96dc7d09fe3c06ff46d1444b2109
+108396718365,36239306657,acq - hardening,"hardening (ubuntu-latest, gcc)",completed,failure,2026-09-26T11:35:44Z,2026-09-26T11:38:26Z,162,45e3290dd6b1e679edad3b3cda731e9f5a27c72d
+107621899202,35996276960,acq - hardening,"hardening (ubuntu-latest, gcc)",completed,failure,2026-09-24T11:59:47Z,2026-09-24T12:02:24Z,157,db7ee7ce703d6abfedf73fc863d66bfc26cc3750
+107167982916,35857058357,acq - hardening,"hardening (ubuntu-latest, gcc)",completed,failure,2026-09-23T11:52:53Z,2026-09-23T11:55:25Z,152,9afbf613ecf63a3caefc04f056292c8d214f169a
