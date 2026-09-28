@@ -7,7 +7,7 @@
     "ort-transformers": "1.30.0",
     "yobx": "0.1.0"
   },
-  "date": "2026-09-21T14:53:42Z",
+  "date": "2026-09-28T16:17:17Z",
   "tag": "shape, local_function, inference",
   "tests": [
     {
@@ -350,7 +350,7 @@
               ]
             }
           ],
-          "last_pass_date": "2026-09-21T14:53:42Z",
+          "last_pass_date": "2026-09-28T16:17:17Z",
           "last_pass_version": "0.1.28",
           "success": true,
           "total": 4
@@ -439,7 +439,7 @@
               ]
             }
           ],
-          "last_pass_date": "2026-09-21T14:53:42Z",
+          "last_pass_date": "2026-09-28T16:17:17Z",
           "last_pass_version": "0.3.2",
           "success": true,
           "total": 4
@@ -528,7 +528,7 @@
               ]
             }
           ],
-          "last_pass_date": "2026-09-21T14:53:42Z",
+          "last_pass_date": "2026-09-28T16:17:17Z",
           "last_pass_version": "1.30.0",
           "success": true,
           "total": 4
@@ -617,7 +617,7 @@
               ]
             }
           ],
-          "last_pass_date": "2026-09-21T14:53:42Z",
+          "last_pass_date": "2026-09-28T16:17:17Z",
           "last_pass_version": "0.1.0",
           "success": true,
           "total": 4
@@ -30988,7 +30988,7 @@
               ]
             }
           ],
-          "last_pass_date": "2026-09-21T14:53:42Z",
+          "last_pass_date": "2026-09-28T16:17:17Z",
           "last_pass_version": "0.1.28",
           "success": true,
           "total": 401
@@ -39401,7 +39401,7 @@
               ]
             }
           ],
-          "last_pass_date": "2026-09-21T14:53:42Z",
+          "last_pass_date": "2026-09-28T16:17:17Z",
           "last_pass_version": "0.3.2",
           "success": true,
           "total": 401
@@ -67750,7 +67750,7 @@
               ]
             }
           ],
-          "last_pass_date": "2026-09-21T14:53:42Z",
+          "last_pass_date": "2026-09-28T16:17:17Z",
           "last_pass_version": "0.3.2",
           "success": true,
           "total": 209
@@ -73062,7 +73062,7 @@
               ]
             }
           ],
-          "last_pass_date": "2026-09-21T14:53:42Z",
+          "last_pass_date": "2026-09-28T16:17:17Z",
           "last_pass_version": "0.1.28",
           "success": true,
           "total": 14
@@ -73327,7 +73327,7 @@
               ]
             }
           ],
-          "last_pass_date": "2026-09-21T14:53:42Z",
+          "last_pass_date": "2026-09-28T16:17:17Z",
           "last_pass_version": "0.3.2",
           "success": true,
           "total": 14
@@ -73878,7 +73878,7 @@
               ]
             }
           ],
-          "last_pass_date": "2026-09-21T14:53:42Z",
+          "last_pass_date": "2026-09-28T16:17:17Z",
           "last_pass_version": "0.1.0",
           "success": true,
           "total": 14
@@ -74260,7 +74260,7 @@
               ]
             }
           ],
-          "last_pass_date": "2026-09-21T14:53:42Z",
+          "last_pass_date": "2026-09-28T16:17:17Z",
           "last_pass_version": "0.1.28",
           "success": true,
           "total": 5
@@ -74359,7 +74359,7 @@
               ]
             }
           ],
-          "last_pass_date": "2026-09-21T14:53:42Z",
+          "last_pass_date": "2026-09-28T16:17:17Z",
           "last_pass_version": "0.3.2",
           "success": true,
           "total": 5
@@ -74458,7 +74458,7 @@
               ]
             }
           ],
-          "last_pass_date": "2026-09-21T14:53:42Z",
+          "last_pass_date": "2026-09-28T16:17:17Z",
           "last_pass_version": "1.30.0",
           "success": true,
           "total": 5
@@ -74557,7 +74557,7 @@
               ]
             }
           ],
-          "last_pass_date": "2026-09-21T14:53:42Z",
+          "last_pass_date": "2026-09-28T16:17:17Z",
           "last_pass_version": "0.1.0",
           "success": true,
           "total": 5
@@ -74939,7 +74939,7 @@
               ]
             }
           ],
-          "last_pass_date": "2026-09-21T14:53:42Z",
+          "last_pass_date": "2026-09-28T16:17:17Z",
           "last_pass_version": "0.1.28",
           "success": true,
           "total": 5
@@ -75038,7 +75038,7 @@
               ]
             }
           ],
-          "last_pass_date": "2026-09-21T14:53:42Z",
+          "last_pass_date": "2026-09-28T16:17:17Z",
           "last_pass_version": "0.3.2",
           "success": true,
           "total": 5
@@ -75236,7 +75236,7 @@
               ]
             }
           ],
-          "last_pass_date": "2026-09-21T14:53:42Z",
+          "last_pass_date": "2026-09-28T16:17:17Z",
           "last_pass_version": "0.1.0",
           "success": true,
           "total": 5
@@ -75327,7 +75327,7 @@
               ]
             }
           ],
-          "last_pass_date": "2026-09-21T14:53:42Z",
+          "last_pass_date": "2026-09-28T16:17:17Z",
           "last_pass_version": "0.1.28",
           "success": true,
           "total": 1
@@ -75356,7 +75356,7 @@
               ]
             }
           ],
-          "last_pass_date": "2026-09-21T14:53:42Z",
+          "last_pass_date": "2026-09-28T16:17:17Z",
           "last_pass_version": "0.1.28",
           "success": true,
           "total": 1
@@ -75385,7 +75385,7 @@
               ]
             }
           ],
-          "last_pass_date": "2026-09-21T14:53:42Z",
+          "last_pass_date": "2026-09-28T16:17:17Z",
           "last_pass_version": "0.3.2",
           "success": true,
           "total": 1
@@ -75414,7 +75414,7 @@
               ]
             }
           ],
-          "last_pass_date": "2026-09-21T14:53:42Z",
+          "last_pass_date": "2026-09-28T16:17:17Z",
           "last_pass_version": "1.30.0",
           "success": true,
           "total": 1
@@ -75731,7 +75731,7 @@
               ]
             }
           ],
-          "last_pass_date": "2026-09-21T14:53:42Z",
+          "last_pass_date": "2026-09-28T16:17:17Z",
           "last_pass_version": "0.1.28",
           "success": true,
           "total": 4
@@ -75804,7 +75804,7 @@
               ]
             }
           ],
-          "last_pass_date": "2026-09-21T14:53:42Z",
+          "last_pass_date": "2026-09-28T16:17:17Z",
           "last_pass_version": "0.3.2",
           "success": true,
           "total": 4
@@ -75877,7 +75877,7 @@
               ]
             }
           ],
-          "last_pass_date": "2026-09-21T14:53:42Z",
+          "last_pass_date": "2026-09-28T16:17:17Z",
           "last_pass_version": "1.30.0",
           "success": true,
           "total": 4
@@ -75950,7 +75950,7 @@
               ]
             }
           ],
-          "last_pass_date": "2026-09-21T14:53:42Z",
+          "last_pass_date": "2026-09-28T16:17:17Z",
           "last_pass_version": "0.1.0",
           "success": true,
           "total": 4
@@ -76289,7 +76289,7 @@
               ]
             }
           ],
-          "last_pass_date": "2026-09-21T14:53:42Z",
+          "last_pass_date": "2026-09-28T16:17:17Z",
           "last_pass_version": "0.1.28",
           "success": true,
           "total": 4
@@ -76607,7 +76607,7 @@
               ]
             }
           ],
-          "last_pass_date": "2026-09-21T14:53:42Z",
+          "last_pass_date": "2026-09-28T16:17:17Z",
           "last_pass_version": "1.23.0",
           "success": true,
           "total": 2
@@ -76652,7 +76652,7 @@
               ]
             }
           ],
-          "last_pass_date": "2026-09-21T14:53:42Z",
+          "last_pass_date": "2026-09-28T16:17:17Z",
           "last_pass_version": "0.1.28",
           "success": true,
           "total": 2
@@ -76697,7 +76697,7 @@
               ]
             }
           ],
-          "last_pass_date": "2026-09-21T14:53:42Z",
+          "last_pass_date": "2026-09-28T16:17:17Z",
           "last_pass_version": "0.1.28",
           "success": true,
           "total": 2
@@ -76742,7 +76742,7 @@
               ]
             }
           ],
-          "last_pass_date": "2026-09-21T14:53:42Z",
+          "last_pass_date": "2026-09-28T16:17:17Z",
           "last_pass_version": "0.3.2",
           "success": true,
           "total": 2
@@ -76787,7 +76787,7 @@
               ]
             }
           ],
-          "last_pass_date": "2026-09-21T14:53:42Z",
+          "last_pass_date": "2026-09-28T16:17:17Z",
           "last_pass_version": "1.30.0",
           "success": true,
           "total": 2
@@ -76832,7 +76832,7 @@
               ]
             }
           ],
-          "last_pass_date": "2026-09-21T14:53:42Z",
+          "last_pass_date": "2026-09-28T16:17:17Z",
           "last_pass_version": "0.1.0",
           "success": true,
           "total": 2
@@ -76902,7 +76902,7 @@
               ]
             }
           ],
-          "last_pass_date": "2026-09-21T14:53:42Z",
+          "last_pass_date": "2026-09-28T16:17:17Z",
           "last_pass_version": "1.23.0",
           "success": true,
           "total": 2
@@ -76943,7 +76943,7 @@
               ]
             }
           ],
-          "last_pass_date": "2026-09-21T14:53:42Z",
+          "last_pass_date": "2026-09-28T16:17:17Z",
           "last_pass_version": "0.1.28",
           "success": true,
           "total": 2
@@ -76984,7 +76984,7 @@
               ]
             }
           ],
-          "last_pass_date": "2026-09-21T14:53:42Z",
+          "last_pass_date": "2026-09-28T16:17:17Z",
           "last_pass_version": "0.1.28",
           "success": true,
           "total": 2
@@ -77025,7 +77025,7 @@
               ]
             }
           ],
-          "last_pass_date": "2026-09-21T14:53:42Z",
+          "last_pass_date": "2026-09-28T16:17:17Z",
           "last_pass_version": "0.3.2",
           "success": true,
           "total": 2
@@ -77360,7 +77360,7 @@
               ]
             }
           ],
-          "last_pass_date": "2026-09-21T14:53:42Z",
+          "last_pass_date": "2026-09-28T16:17:17Z",
           "last_pass_version": "0.1.28",
           "success": true,
           "total": 4
@@ -77437,7 +77437,7 @@
               ]
             }
           ],
-          "last_pass_date": "2026-09-21T14:53:42Z",
+          "last_pass_date": "2026-09-28T16:17:17Z",
           "last_pass_version": "0.3.2",
           "success": true,
           "total": 4
@@ -77992,7 +77992,7 @@
               ]
             }
           ],
-          "last_pass_date": "2026-09-21T14:53:42Z",
+          "last_pass_date": "2026-09-28T16:17:17Z",
           "last_pass_version": "0.1.28",
           "success": true,
           "total": 6
@@ -78415,7 +78415,7 @@
               ]
             }
           ],
-          "last_pass_date": "2026-09-21T14:53:42Z",
+          "last_pass_date": "2026-09-28T16:17:17Z",
           "last_pass_version": "1.23.0",
           "success": true,
           "total": 2
@@ -78460,7 +78460,7 @@
               ]
             }
           ],
-          "last_pass_date": "2026-09-21T14:53:42Z",
+          "last_pass_date": "2026-09-28T16:17:17Z",
           "last_pass_version": "0.1.28",
           "success": true,
           "total": 2
@@ -78505,7 +78505,7 @@
               ]
             }
           ],
-          "last_pass_date": "2026-09-21T14:53:42Z",
+          "last_pass_date": "2026-09-28T16:17:17Z",
           "last_pass_version": "0.1.28",
           "success": true,
           "total": 2
@@ -78550,7 +78550,7 @@
               ]
             }
           ],
-          "last_pass_date": "2026-09-21T14:53:42Z",
+          "last_pass_date": "2026-09-28T16:17:17Z",
           "last_pass_version": "0.3.2",
           "success": true,
           "total": 2
@@ -78595,7 +78595,7 @@
               ]
             }
           ],
-          "last_pass_date": "2026-09-21T14:53:42Z",
+          "last_pass_date": "2026-09-28T16:17:17Z",
           "last_pass_version": "1.30.0",
           "success": true,
           "total": 2
@@ -78640,7 +78640,7 @@
               ]
             }
           ],
-          "last_pass_date": "2026-09-21T14:53:42Z",
+          "last_pass_date": "2026-09-28T16:17:17Z",
           "last_pass_version": "0.1.0",
           "success": true,
           "total": 2
@@ -79274,7 +79274,7 @@
               ]
             }
           ],
-          "last_pass_date": "2026-09-21T14:53:42Z",
+          "last_pass_date": "2026-09-28T16:17:17Z",
           "last_pass_version": "0.1.28",
           "success": true,
           "total": 9
@@ -80138,7 +80138,7 @@
               ]
             }
           ],
-          "last_pass_date": "2026-09-21T14:53:42Z",
+          "last_pass_date": "2026-09-28T16:17:17Z",
           "last_pass_version": "0.1.28",
           "success": true,
           "total": 5
@@ -80782,7 +80782,7 @@
               ]
             }
           ],
-          "last_pass_date": "2026-09-21T14:53:42Z",
+          "last_pass_date": "2026-09-28T16:17:17Z",
           "last_pass_version": "0.1.28",
           "success": true,
           "total": 4
@@ -80879,7 +80879,7 @@
               ]
             }
           ],
-          "last_pass_date": "2026-09-21T14:53:42Z",
+          "last_pass_date": "2026-09-28T16:17:17Z",
           "last_pass_version": "0.3.2",
           "success": true,
           "total": 4
@@ -80976,7 +80976,7 @@
               ]
             }
           ],
-          "last_pass_date": "2026-09-21T14:53:42Z",
+          "last_pass_date": "2026-09-28T16:17:17Z",
           "last_pass_version": "1.30.0",
           "success": true,
           "total": 4
@@ -81344,7 +81344,7 @@
               ]
             }
           ],
-          "last_pass_date": "2026-09-21T14:53:42Z",
+          "last_pass_date": "2026-09-28T16:17:17Z",
           "last_pass_version": "0.1.28",
           "success": true,
           "total": 3
@@ -81801,7 +81801,7 @@
               ]
             }
           ],
-          "last_pass_date": "2026-09-21T14:53:42Z",
+          "last_pass_date": "2026-09-28T16:17:17Z",
           "last_pass_version": "0.1.28",
           "success": true,
           "total": 3
@@ -81864,7 +81864,7 @@
               ]
             }
           ],
-          "last_pass_date": "2026-09-21T14:53:42Z",
+          "last_pass_date": "2026-09-28T16:17:17Z",
           "last_pass_version": "0.3.2",
           "success": true,
           "total": 3
@@ -81927,7 +81927,7 @@
               ]
             }
           ],
-          "last_pass_date": "2026-09-21T14:53:42Z",
+          "last_pass_date": "2026-09-28T16:17:17Z",
           "last_pass_version": "1.30.0",
           "success": true,
           "total": 3
@@ -82097,7 +82097,7 @@
               ]
             }
           ],
-          "last_pass_date": "2026-09-21T14:53:42Z",
+          "last_pass_date": "2026-09-28T16:17:17Z",
           "last_pass_version": "1.23.0",
           "success": true,
           "total": 3
@@ -82158,7 +82158,7 @@
               ]
             }
           ],
-          "last_pass_date": "2026-09-21T14:53:42Z",
+          "last_pass_date": "2026-09-28T16:17:17Z",
           "last_pass_version": "0.1.28",
           "success": true,
           "total": 3
@@ -82219,7 +82219,7 @@
               ]
             }
           ],
-          "last_pass_date": "2026-09-21T14:53:42Z",
+          "last_pass_date": "2026-09-28T16:17:17Z",
           "last_pass_version": "0.1.28",
           "success": true,
           "total": 3
@@ -82280,7 +82280,7 @@
               ]
             }
           ],
-          "last_pass_date": "2026-09-21T14:53:42Z",
+          "last_pass_date": "2026-09-28T16:17:17Z",
           "last_pass_version": "0.3.2",
           "success": true,
           "total": 3
@@ -82341,7 +82341,7 @@
               ]
             }
           ],
-          "last_pass_date": "2026-09-21T14:53:42Z",
+          "last_pass_date": "2026-09-28T16:17:17Z",
           "last_pass_version": "1.30.0",
           "success": true,
           "total": 3
@@ -82807,7 +82807,7 @@
               ]
             }
           ],
-          "last_pass_date": "2026-09-21T14:53:42Z",
+          "last_pass_date": "2026-09-28T16:17:17Z",
           "last_pass_version": "0.1.28",
           "success": true,
           "total": 6
@@ -83371,7 +83371,7 @@
               ]
             }
           ],
-          "last_pass_date": "2026-09-21T14:53:42Z",
+          "last_pass_date": "2026-09-28T16:17:17Z",
           "last_pass_version": "1.23.0",
           "success": true,
           "total": 4
@@ -83504,7 +83504,7 @@
               ]
             }
           ],
-          "last_pass_date": "2026-09-21T14:53:42Z",
+          "last_pass_date": "2026-09-28T16:17:17Z",
           "last_pass_version": "0.1.28",
           "success": true,
           "total": 4
@@ -83637,7 +83637,7 @@
               ]
             }
           ],
-          "last_pass_date": "2026-09-21T14:53:42Z",
+          "last_pass_date": "2026-09-28T16:17:17Z",
           "last_pass_version": "0.1.28",
           "success": true,
           "total": 4
@@ -83770,7 +83770,7 @@
               ]
             }
           ],
-          "last_pass_date": "2026-09-21T14:53:42Z",
+          "last_pass_date": "2026-09-28T16:17:17Z",
           "last_pass_version": "0.3.2",
           "success": true,
           "total": 4
@@ -83903,7 +83903,7 @@
               ]
             }
           ],
-          "last_pass_date": "2026-09-21T14:53:42Z",
+          "last_pass_date": "2026-09-28T16:17:17Z",
           "last_pass_version": "1.30.0",
           "success": true,
           "total": 4
@@ -84036,7 +84036,7 @@
               ]
             }
           ],
-          "last_pass_date": "2026-09-21T14:53:42Z",
+          "last_pass_date": "2026-09-28T16:17:17Z",
           "last_pass_version": "0.1.0",
           "success": true,
           "total": 4
@@ -84228,7 +84228,7 @@
               ]
             }
           ],
-          "last_pass_date": "2026-09-21T14:53:42Z",
+          "last_pass_date": "2026-09-28T16:17:17Z",
           "last_pass_version": "0.1.28",
           "success": true,
           "total": 2
@@ -84277,7 +84277,7 @@
               ]
             }
           ],
-          "last_pass_date": "2026-09-21T14:53:42Z",
+          "last_pass_date": "2026-09-28T16:17:17Z",
           "last_pass_version": "0.3.2",
           "success": true,
           "total": 2
@@ -84326,7 +84326,7 @@
               ]
             }
           ],
-          "last_pass_date": "2026-09-21T14:53:42Z",
+          "last_pass_date": "2026-09-28T16:17:17Z",
           "last_pass_version": "1.30.0",
           "success": true,
           "total": 2
@@ -84375,7 +84375,7 @@
               ]
             }
           ],
-          "last_pass_date": "2026-09-21T14:53:42Z",
+          "last_pass_date": "2026-09-28T16:17:17Z",
           "last_pass_version": "0.1.0",
           "success": true,
           "total": 2
@@ -85705,7 +85705,7 @@
               ]
             }
           ],
-          "last_pass_date": "2026-09-21T14:53:42Z",
+          "last_pass_date": "2026-09-28T16:17:17Z",
           "last_pass_version": "0.1.28",
           "success": true,
           "total": 24
@@ -86202,7 +86202,7 @@
               ]
             }
           ],
-          "last_pass_date": "2026-09-21T14:53:42Z",
+          "last_pass_date": "2026-09-28T16:17:17Z",
           "last_pass_version": "0.1.28",
           "success": true,
           "total": 24
@@ -90065,7 +90065,7 @@
               ]
             }
           ],
-          "last_pass_date": "2026-09-21T14:53:42Z",
+          "last_pass_date": "2026-09-28T16:17:17Z",
           "last_pass_version": "0.1.28",
           "success": true,
           "total": 52
@@ -91148,7 +91148,7 @@
               ]
             }
           ],
-          "last_pass_date": "2026-09-21T14:53:42Z",
+          "last_pass_date": "2026-09-28T16:17:17Z",
           "last_pass_version": "0.1.28",
           "success": true,
           "total": 52
@@ -93314,7 +93314,7 @@
               ]
             }
           ],
-          "last_pass_date": "2026-09-21T14:53:42Z",
+          "last_pass_date": "2026-09-28T16:17:17Z",
           "last_pass_version": "1.30.0",
           "success": true,
           "total": 52
@@ -95059,7 +95059,7 @@
               ]
             }
           ],
-          "last_pass_date": "2026-09-21T14:53:42Z",
+          "last_pass_date": "2026-09-28T16:17:17Z",
           "last_pass_version": "0.1.28",
           "success": true,
           "total": 9
@@ -95965,7 +95965,7 @@
               ]
             }
           ],
-          "last_pass_date": "2026-09-21T14:53:42Z",
+          "last_pass_date": "2026-09-28T16:17:17Z",
           "last_pass_version": "0.1.28",
           "success": true,
           "total": 5
@@ -96616,7 +96616,7 @@
               ]
             }
           ],
-          "last_pass_date": "2026-09-21T14:53:42Z",
+          "last_pass_date": "2026-09-28T16:17:17Z",
           "last_pass_version": "0.1.28",
           "success": true,
           "total": 5
@@ -97468,7 +97468,7 @@
               ]
             }
           ],
-          "last_pass_date": "2026-09-21T14:53:42Z",
+          "last_pass_date": "2026-09-28T16:17:17Z",
           "last_pass_version": "0.1.28",
           "success": true,
           "total": 9
@@ -97617,7 +97617,7 @@
               ]
             }
           ],
-          "last_pass_date": "2026-09-21T14:53:42Z",
+          "last_pass_date": "2026-09-28T16:17:17Z",
           "last_pass_version": "0.3.2",
           "success": true,
           "total": 9
@@ -97766,7 +97766,7 @@
               ]
             }
           ],
-          "last_pass_date": "2026-09-21T14:53:42Z",
+          "last_pass_date": "2026-09-28T16:17:17Z",
           "last_pass_version": "1.30.0",
           "success": true,
           "total": 9
@@ -98737,7 +98737,7 @@
               ]
             }
           ],
-          "last_pass_date": "2026-09-21T14:53:42Z",
+          "last_pass_date": "2026-09-28T16:17:17Z",
           "last_pass_version": "0.1.28",
           "success": true,
           "total": 12
@@ -98952,7 +98952,7 @@
               ]
             }
           ],
-          "last_pass_date": "2026-09-21T14:53:42Z",
+          "last_pass_date": "2026-09-28T16:17:17Z",
           "last_pass_version": "0.3.2",
           "success": true,
           "total": 12
@@ -99396,7 +99396,7 @@
               ]
             }
           ],
-          "last_pass_date": "2026-09-21T14:53:42Z",
+          "last_pass_date": "2026-09-28T16:17:17Z",
           "last_pass_version": "0.1.0",
           "success": true,
           "total": 12
@@ -100250,7 +100250,7 @@
               ]
             }
           ],
-          "last_pass_date": "2026-09-21T14:53:42Z",
+          "last_pass_date": "2026-09-28T16:17:17Z",
           "last_pass_version": "0.1.28",
           "success": true,
           "total": 11
@@ -100483,7 +100483,7 @@
               ]
             }
           ],
-          "last_pass_date": "2026-09-21T14:53:42Z",
+          "last_pass_date": "2026-09-28T16:17:17Z",
           "last_pass_version": "0.3.2",
           "success": true,
           "total": 11
@@ -100952,7 +100952,7 @@
               ]
             }
           ],
-          "last_pass_date": "2026-09-21T14:53:42Z",
+          "last_pass_date": "2026-09-28T16:17:17Z",
           "last_pass_version": "0.1.0",
           "success": true,
           "total": 11
