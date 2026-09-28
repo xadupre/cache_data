@@ -443,3 +443,12 @@ pr_number,title,author,merged_at,commits,comments,copilot_comments,copilot_commi
 717,Align GEMM planning with compiled ISA support,Copilot,2026-09-16T08:11:49Z,2,2,0,2
 716,Guard all advertised Abs AVX-512 paths against missing implementations,Copilot,2026-09-15T20:48:12Z,2,1,0,2
 711,Make kernel usage recording opt-in and bounded,Copilot,2026-09-15T06:41:46Z,13,8,3,11
+764,Add paired dtype timing comparisons to benchmark CLI,Copilot,2026-09-26T08:55:19Z,3,3,2,3
+761,Optimize INT64 to FLOAT Cast with AVX-512DQ,xadupre,2026-09-26T08:21:58Z,2,1,0,0
+759,Optimize narrow Split and large-slice Gather,xadupre,2026-09-26T08:21:37Z,3,1,0,0
+762,Optimize Attention and rectangular GEMM scheduling,xadupre,2026-09-26T08:20:29Z,1,2,0,0
+758,"Optimize FP32 Exp, Sigmoid, and Tanh benchmarks",xadupre,2026-09-26T08:20:00Z,1,2,0,0
+757,Optimize accuracy-4 MatMulNBits with AVX-512 VNNI,xadupre,2026-09-25T16:33:54Z,2,2,0,0
+756,Add AVX-512 Tanh kernel and runtime dispatch,Copilot,2026-09-25T13:23:37Z,4,6,2,4
+754,Reduce CDist overhead with packed AVX-512 and AVX2 distance tiles,Copilot,2026-09-23T14:29:20Z,2,4,2,2
+752,Fix kernel helper name collisions with latest onnx-light,Copilot,2026-09-22T12:29:15Z,2,1,0,2
