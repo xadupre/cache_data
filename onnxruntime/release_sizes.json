@@ -1,0 +1,5280 @@
+[
+  {
+    "date": "2019-03-14T18:17:00Z",
+    "version": "v0.3.0",
+    "name": "onnxruntime-linux-x64-0.3.0.tgz",
+    "package": "onnxruntime-linux-x64-{version}.tgz",
+    "size": 3516722
+  },
+  {
+    "date": "2019-03-14T18:17:00Z",
+    "version": "v0.3.0",
+    "name": "onnxruntime-linux-x64-gpu-0.3.0.tgz",
+    "package": "onnxruntime-linux-x64-gpu-{version}.tgz",
+    "size": 5646242
+  },
+  {
+    "date": "2019-03-14T18:17:00Z",
+    "version": "v0.3.0",
+    "name": "onnxruntime-linux-x86-0.3.0.tgz",
+    "package": "onnxruntime-linux-x86-{version}.tgz",
+    "size": 3696902
+  },
+  {
+    "date": "2019-03-14T18:17:00Z",
+    "version": "v0.3.0",
+    "name": "onnxruntime-osx-x64-0.3.0.tgz",
+    "package": "onnxruntime-osx-x64-{version}.tgz",
+    "size": 3818319
+  },
+  {
+    "date": "2019-03-14T18:17:00Z",
+    "version": "v0.3.0",
+    "name": "onnxruntime-win-x64-0.3.0.zip",
+    "package": "onnxruntime-win-x64-{version}.zip",
+    "size": 20774256
+  },
+  {
+    "date": "2019-03-14T18:17:00Z",
+    "version": "v0.3.0",
+    "name": "onnxruntime-win-x64-gpu-0.3.0.zip",
+    "package": "onnxruntime-win-x64-gpu-{version}.zip",
+    "size": 27797190
+  },
+  {
+    "date": "2019-03-14T18:17:00Z",
+    "version": "v0.3.0",
+    "name": "onnxruntime-win-x86-0.3.0.zip",
+    "package": "onnxruntime-win-x86-{version}.zip",
+    "size": 20092264
+  },
+  {
+    "date": "2019-04-09T00:39:50Z",
+    "version": "v0.3.1",
+    "name": "onnxruntime-linux-x64-0.3.1.tgz",
+    "package": "onnxruntime-linux-x64-{version}.tgz",
+    "size": 3059459
+  },
+  {
+    "date": "2019-04-09T00:39:50Z",
+    "version": "v0.3.1",
+    "name": "onnxruntime-linux-x64-gpu-0.3.1.tgz",
+    "package": "onnxruntime-linux-x64-gpu-{version}.tgz",
+    "size": 5185996
+  },
+  {
+    "date": "2019-04-09T00:39:50Z",
+    "version": "v0.3.1",
+    "name": "onnxruntime-linux-x86-0.3.1.tgz",
+    "package": "onnxruntime-linux-x86-{version}.tgz",
+    "size": 3204645
+  },
+  {
+    "date": "2019-04-09T00:39:50Z",
+    "version": "v0.3.1",
+    "name": "onnxruntime-osx-x64-0.3.1.tgz",
+    "package": "onnxruntime-osx-x64-{version}.tgz",
+    "size": 3003196
+  },
+  {
+    "date": "2019-04-09T00:39:50Z",
+    "version": "v0.3.1",
+    "name": "onnxruntime-win-x64-0.3.1.zip",
+    "package": "onnxruntime-win-x64-{version}.zip",
+    "size": 18875730
+  },
+  {
+    "date": "2019-04-09T00:39:50Z",
+    "version": "v0.3.1",
+    "name": "onnxruntime-win-x64-gpu-0.3.1.zip",
+    "package": "onnxruntime-win-x64-gpu-{version}.zip",
+    "size": 25766674
+  },
+  {
+    "date": "2019-04-09T00:39:50Z",
+    "version": "v0.3.1",
+    "name": "onnxruntime-win-x86-0.3.1.zip",
+    "package": "onnxruntime-win-x86-{version}.zip",
+    "size": 18271464
+  },
+  {
+    "date": "2019-05-02T02:25:51Z",
+    "version": "v0.4.0",
+    "name": "onnxruntime-linux-x64-0.4.0.tgz",
+    "package": "onnxruntime-linux-x64-{version}.tgz",
+    "size": 2998124
+  },
+  {
+    "date": "2019-05-02T02:25:51Z",
+    "version": "v0.4.0",
+    "name": "onnxruntime-linux-x64-gpu-0.4.0.tgz",
+    "package": "onnxruntime-linux-x64-gpu-{version}.tgz",
+    "size": 5095639
+  },
+  {
+    "date": "2019-05-02T02:25:51Z",
+    "version": "v0.4.0",
+    "name": "onnxruntime-linux-x86-0.4.0.tgz",
+    "package": "onnxruntime-linux-x86-{version}.tgz",
+    "size": 3146401
+  },
+  {
+    "date": "2019-05-02T02:25:51Z",
+    "version": "v0.4.0",
+    "name": "onnxruntime-osx-x64-0.4.0.tgz",
+    "package": "onnxruntime-osx-x64-{version}.tgz",
+    "size": 45318260
+  },
+  {
+    "date": "2019-05-02T02:25:51Z",
+    "version": "v0.4.0",
+    "name": "onnxruntime-win-x64-0.4.0.zip",
+    "package": "onnxruntime-win-x64-{version}.zip",
+    "size": 20601369
+  },
+  {
+    "date": "2019-05-02T02:25:51Z",
+    "version": "v0.4.0",
+    "name": "onnxruntime-win-x64-gpu-0.4.0.zip",
+    "package": "onnxruntime-win-x64-gpu-{version}.zip",
+    "size": 27227185
+  },
+  {
+    "date": "2019-05-02T02:25:51Z",
+    "version": "v0.4.0",
+    "name": "onnxruntime-win-x86-0.4.0.zip",
+    "package": "onnxruntime-win-x86-{version}.zip",
+    "size": 20006891
+  },
+  {
+    "date": "2019-08-01T19:48:28Z",
+    "version": "v0.5.0",
+    "name": "onnxruntime-linux-x64-0.5.0.tgz",
+    "package": "onnxruntime-linux-x64-{version}.tgz",
+    "size": 3089384
+  },
+  {
+    "date": "2019-08-01T19:48:28Z",
+    "version": "v0.5.0",
+    "name": "onnxruntime-linux-x64-gpu-0.5.0.tgz",
+    "package": "onnxruntime-linux-x64-gpu-{version}.tgz",
+    "size": 5422017
+  },
+  {
+    "date": "2019-08-01T19:48:28Z",
+    "version": "v0.5.0",
+    "name": "onnxruntime-linux-x86-0.5.0.tgz",
+    "package": "onnxruntime-linux-x86-{version}.tgz",
+    "size": 3231981
+  },
+  {
+    "date": "2019-08-01T19:48:28Z",
+    "version": "v0.5.0",
+    "name": "onnxruntime-osx-x64-0.5.0.tgz",
+    "package": "onnxruntime-osx-x64-{version}.tgz",
+    "size": 43694887
+  },
+  {
+    "date": "2019-08-01T19:48:28Z",
+    "version": "v0.5.0",
+    "name": "onnxruntime-win-x64-0.5.0.zip",
+    "package": "onnxruntime-win-x64-{version}.zip",
+    "size": 18878604
+  },
+  {
+    "date": "2019-08-01T19:48:28Z",
+    "version": "v0.5.0",
+    "name": "onnxruntime-win-x64-gpu-0.5.0.zip",
+    "package": "onnxruntime-win-x64-gpu-{version}.zip",
+    "size": 25670378
+  },
+  {
+    "date": "2019-08-01T19:48:28Z",
+    "version": "v0.5.0",
+    "name": "onnxruntime-win-x86-0.5.0.zip",
+    "package": "onnxruntime-win-x86-{version}.zip",
+    "size": 18229966
+  },
+  {
+    "date": "2019-10-30T06:27:47Z",
+    "version": "v1.0.0",
+    "name": "onnxruntime-linux-x64-1.0.0.tgz",
+    "package": "onnxruntime-linux-x64-{version}.tgz",
+    "size": 3199367
+  },
+  {
+    "date": "2019-10-30T06:27:47Z",
+    "version": "v1.0.0",
+    "name": "onnxruntime-linux-x64-gpu-1.0.0.tgz",
+    "package": "onnxruntime-linux-x64-gpu-{version}.tgz",
+    "size": 5921938
+  },
+  {
+    "date": "2019-10-30T06:27:47Z",
+    "version": "v1.0.0",
+    "name": "onnxruntime-osx-x64-1.0.0.tgz",
+    "package": "onnxruntime-osx-x64-{version}.tgz",
+    "size": 45298231
+  },
+  {
+    "date": "2019-10-30T06:27:47Z",
+    "version": "v1.0.0",
+    "name": "onnxruntime-win-x64-1.0.0.zip",
+    "package": "onnxruntime-win-x64-{version}.zip",
+    "size": 21684186
+  },
+  {
+    "date": "2019-10-30T06:27:47Z",
+    "version": "v1.0.0",
+    "name": "onnxruntime-win-x64-gpu-1.0.0.zip",
+    "package": "onnxruntime-win-x64-gpu-{version}.zip",
+    "size": 30072367
+  },
+  {
+    "date": "2019-10-30T06:27:47Z",
+    "version": "v1.0.0",
+    "name": "onnxruntime-win-x86-1.0.0.zip",
+    "package": "onnxruntime-win-x86-{version}.zip",
+    "size": 21255224
+  },
+  {
+    "date": "2019-12-19T22:07:52Z",
+    "version": "v1.1.0",
+    "name": "onnxruntime-linux-x64-1.1.0.tgz",
+    "package": "onnxruntime-linux-x64-{version}.tgz",
+    "size": 3378607
+  },
+  {
+    "date": "2019-12-19T22:07:52Z",
+    "version": "v1.1.0",
+    "name": "onnxruntime-linux-x64-gpu-1.1.0.tgz",
+    "package": "onnxruntime-linux-x64-gpu-{version}.tgz",
+    "size": 15248683
+  },
+  {
+    "date": "2019-12-19T22:07:52Z",
+    "version": "v1.1.0",
+    "name": "onnxruntime-osx-x64-1.1.0.zip",
+    "package": "onnxruntime-osx-x64-{version}.zip",
+    "size": 47050275
+  },
+  {
+    "date": "2019-12-19T22:07:52Z",
+    "version": "v1.1.0",
+    "name": "onnxruntime-win-x64-1.1.0.zip",
+    "package": "onnxruntime-win-x64-{version}.zip",
+    "size": 22094704
+  },
+  {
+    "date": "2019-12-19T22:07:52Z",
+    "version": "v1.1.0",
+    "name": "onnxruntime-win-x64-gpu-1.1.0.zip",
+    "package": "onnxruntime-win-x64-gpu-{version}.zip",
+    "size": 53170563
+  },
+  {
+    "date": "2019-12-19T22:07:52Z",
+    "version": "v1.1.0",
+    "name": "onnxruntime-win-x86-1.1.0.zip",
+    "package": "onnxruntime-win-x86-{version}.zip",
+    "size": 21482955
+  },
+  {
+    "date": "2020-01-24T01:25:04Z",
+    "version": "v1.1.1",
+    "name": "onnxruntime-linux-x64-1.1.1.tgz",
+    "package": "onnxruntime-linux-x64-{version}.tgz",
+    "size": 3383968
+  },
+  {
+    "date": "2020-01-24T01:25:04Z",
+    "version": "v1.1.1",
+    "name": "onnxruntime-linux-x64-gpu-1.1.1.tgz",
+    "package": "onnxruntime-linux-x64-gpu-{version}.tgz",
+    "size": 15279327
+  },
+  {
+    "date": "2020-01-24T01:25:04Z",
+    "version": "v1.1.1",
+    "name": "onnxruntime-osx-x64-1.1.1.tgz",
+    "package": "onnxruntime-osx-x64-{version}.tgz",
+    "size": 47942093
+  },
+  {
+    "date": "2020-01-24T01:25:04Z",
+    "version": "v1.1.1",
+    "name": "onnxruntime-win-x64-1.1.1.zip",
+    "package": "onnxruntime-win-x64-{version}.zip",
+    "size": 22286605
+  },
+  {
+    "date": "2020-01-24T01:25:04Z",
+    "version": "v1.1.1",
+    "name": "onnxruntime-win-x64-gpu-1.1.1.zip",
+    "package": "onnxruntime-win-x64-gpu-{version}.zip",
+    "size": 53885353
+  },
+  {
+    "date": "2020-01-24T01:25:04Z",
+    "version": "v1.1.1",
+    "name": "onnxruntime-win-x86-1.1.1.zip",
+    "package": "onnxruntime-win-x86-{version}.zip",
+    "size": 21688766
+  },
+  {
+    "date": "2020-02-21T17:41:51Z",
+    "version": "v1.1.2",
+    "name": "onnxruntime-linux-x64-1.1.2.tgz",
+    "package": "onnxruntime-linux-x64-{version}.tgz",
+    "size": 3382784
+  },
+  {
+    "date": "2020-02-21T17:41:51Z",
+    "version": "v1.1.2",
+    "name": "onnxruntime-linux-x64-gpu-1.1.2.tgz",
+    "package": "onnxruntime-linux-x64-gpu-{version}.tgz",
+    "size": 15279337
+  },
+  {
+    "date": "2020-02-21T17:41:51Z",
+    "version": "v1.1.2",
+    "name": "onnxruntime-osx-x64-1.1.2.tgz",
+    "package": "onnxruntime-osx-x64-{version}.tgz",
+    "size": 47951797
+  },
+  {
+    "date": "2020-02-21T17:41:51Z",
+    "version": "v1.1.2",
+    "name": "onnxruntime-win-x64-1.1.2.zip",
+    "package": "onnxruntime-win-x64-{version}.zip",
+    "size": 22286725
+  },
+  {
+    "date": "2020-02-21T17:41:51Z",
+    "version": "v1.1.2",
+    "name": "onnxruntime-win-x64-gpu-1.1.2.zip",
+    "package": "onnxruntime-win-x64-gpu-{version}.zip",
+    "size": 53886157
+  },
+  {
+    "date": "2020-02-21T17:41:51Z",
+    "version": "v1.1.2",
+    "name": "onnxruntime-win-x86-1.1.2.zip",
+    "package": "onnxruntime-win-x86-{version}.zip",
+    "size": 21689788
+  },
+  {
+    "date": "2020-03-10T22:22:23Z",
+    "version": "v1.2.0",
+    "name": "onnxruntime-linux-x64-1.2.0.tgz",
+    "package": "onnxruntime-linux-x64-{version}.tgz",
+    "size": 3486873
+  },
+  {
+    "date": "2020-03-10T22:22:23Z",
+    "version": "v1.2.0",
+    "name": "onnxruntime-linux-x64-gpu-1.2.0.tgz",
+    "package": "onnxruntime-linux-x64-gpu-{version}.tgz",
+    "size": 17838635
+  },
+  {
+    "date": "2020-03-10T22:22:23Z",
+    "version": "v1.2.0",
+    "name": "onnxruntime-osx-x64-1.2.0.tgz",
+    "package": "onnxruntime-osx-x64-{version}.tgz",
+    "size": 49899968
+  },
+  {
+    "date": "2020-03-10T22:22:23Z",
+    "version": "v1.2.0",
+    "name": "onnxruntime-win-x64-1.2.0.zip",
+    "package": "onnxruntime-win-x64-{version}.zip",
+    "size": 33988017
+  },
+  {
+    "date": "2020-03-10T22:22:23Z",
+    "version": "v1.2.0",
+    "name": "onnxruntime-win-x64-gpu-1.2.0.zip",
+    "package": "onnxruntime-win-x64-gpu-{version}.zip",
+    "size": 55071173
+  },
+  {
+    "date": "2020-03-10T22:22:23Z",
+    "version": "v1.2.0",
+    "name": "onnxruntime-win-x86-1.2.0.zip",
+    "package": "onnxruntime-win-x86-{version}.zip",
+    "size": 33261373
+  },
+  {
+    "date": "2020-05-19T03:15:13Z",
+    "version": "v1.3.0",
+    "name": "Microsoft.AI.MachineLearning.1.3.0.zip",
+    "package": "Microsoft.AI.MachineLearning.{version}.zip",
+    "size": 172272552
+  },
+  {
+    "date": "2020-05-19T03:15:13Z",
+    "version": "v1.3.0",
+    "name": "Microsoft.ML.OnnxRuntime.DirectML.1.3.0.zip",
+    "package": "Microsoft.ML.OnnxRuntime.DirectML.{version}.zip",
+    "size": 75723938
+  },
+  {
+    "date": "2020-05-19T03:15:13Z",
+    "version": "v1.3.0",
+    "name": "onnxruntime-linux-x64-1.3.0.tgz",
+    "package": "onnxruntime-linux-x64-{version}.tgz",
+    "size": 3699322
+  },
+  {
+    "date": "2020-05-19T03:15:13Z",
+    "version": "v1.3.0",
+    "name": "onnxruntime-linux-x64-gpu-1.3.0.tgz",
+    "package": "onnxruntime-linux-x64-gpu-{version}.tgz",
+    "size": 21349856
+  },
+  {
+    "date": "2020-05-19T03:15:13Z",
+    "version": "v1.3.0",
+    "name": "onnxruntime-osx-x64-1.3.0.tgz",
+    "package": "onnxruntime-osx-x64-{version}.tgz",
+    "size": 55408498
+  },
+  {
+    "date": "2020-05-19T03:15:13Z",
+    "version": "v1.3.0",
+    "name": "onnxruntime-win-x64-1.3.0.zip",
+    "package": "onnxruntime-win-x64-{version}.zip",
+    "size": 24397918
+  },
+  {
+    "date": "2020-05-19T03:15:13Z",
+    "version": "v1.3.0",
+    "name": "onnxruntime-win-x64-gpu-1.3.0.zip",
+    "package": "onnxruntime-win-x64-gpu-{version}.zip",
+    "size": 64816831
+  },
+  {
+    "date": "2020-05-19T03:15:13Z",
+    "version": "v1.3.0",
+    "name": "onnxruntime-win-x86-1.3.0.zip",
+    "package": "onnxruntime-win-x86-{version}.zip",
+    "size": 24554461
+  },
+  {
+    "date": "2020-07-17T20:24:43Z",
+    "version": "v1.4.0",
+    "name": "Microsoft.AI.MachineLearning.1.4.0.zip",
+    "package": "Microsoft.AI.MachineLearning.{version}.zip",
+    "size": 171752976
+  },
+  {
+    "date": "2020-07-17T20:24:43Z",
+    "version": "v1.4.0",
+    "name": "Microsoft.ML.OnnxRuntime.DirectML.1.4.0.zip",
+    "package": "Microsoft.ML.OnnxRuntime.DirectML.{version}.zip",
+    "size": 75670590
+  },
+  {
+    "date": "2020-07-17T20:24:43Z",
+    "version": "v1.4.0",
+    "name": "onnxruntime-linux-x64-1.4.0.tgz",
+    "package": "onnxruntime-linux-x64-{version}.tgz",
+    "size": 3787919
+  },
+  {
+    "date": "2020-07-17T20:24:43Z",
+    "version": "v1.4.0",
+    "name": "onnxruntime-linux-x64-gpu-1.4.0.tgz",
+    "package": "onnxruntime-linux-x64-gpu-{version}.tgz",
+    "size": 24723259
+  },
+  {
+    "date": "2020-07-17T20:24:43Z",
+    "version": "v1.4.0",
+    "name": "onnxruntime-osx-x64-1.4.0.tgz",
+    "package": "onnxruntime-osx-x64-{version}.tgz",
+    "size": 56162293
+  },
+  {
+    "date": "2020-07-17T20:24:43Z",
+    "version": "v1.4.0",
+    "name": "onnxruntime-win-x64-1.4.0.zip",
+    "package": "onnxruntime-win-x64-{version}.zip",
+    "size": 24241100
+  },
+  {
+    "date": "2020-07-17T20:24:43Z",
+    "version": "v1.4.0",
+    "name": "onnxruntime-win-x64-gpu-1.4.0.zip",
+    "package": "onnxruntime-win-x64-gpu-{version}.zip",
+    "size": 69241172
+  },
+  {
+    "date": "2020-07-17T20:24:43Z",
+    "version": "v1.4.0",
+    "name": "onnxruntime-win-x86-1.4.0.zip",
+    "package": "onnxruntime-win-x86-{version}.zip",
+    "size": 24457372
+  },
+  {
+    "date": "2020-09-29T23:46:23Z",
+    "version": "v1.5.1",
+    "name": "Microsoft.AI.MachineLearning.1.5.1.symbols.zip",
+    "package": "Microsoft.AI.MachineLearning.{version}.symbols.zip",
+    "size": 155047716
+  },
+  {
+    "date": "2020-09-29T23:46:23Z",
+    "version": "v1.5.1",
+    "name": "Microsoft.AI.MachineLearning.1.5.1.zip",
+    "package": "Microsoft.AI.MachineLearning.{version}.zip",
+    "size": 38766144
+  },
+  {
+    "date": "2020-09-29T23:46:23Z",
+    "version": "v1.5.1",
+    "name": "Microsoft.ML.OnnxRuntime.DirectML.1.5.1.zip",
+    "package": "Microsoft.ML.OnnxRuntime.DirectML.{version}.zip",
+    "size": 87380891
+  },
+  {
+    "date": "2020-09-29T23:46:23Z",
+    "version": "v1.5.1",
+    "name": "onnxruntime-linux-x64-1.5.1.tgz",
+    "package": "onnxruntime-linux-x64-{version}.tgz",
+    "size": 4084159
+  },
+  {
+    "date": "2020-09-29T23:46:23Z",
+    "version": "v1.5.1",
+    "name": "onnxruntime-linux-x64-gpu-1.5.1.tgz",
+    "package": "onnxruntime-linux-x64-gpu-{version}.tgz",
+    "size": 28745351
+  },
+  {
+    "date": "2020-09-29T23:46:23Z",
+    "version": "v1.5.1",
+    "name": "onnxruntime-osx-x64-1.5.1.tgz",
+    "package": "onnxruntime-osx-x64-{version}.tgz",
+    "size": 4650392
+  },
+  {
+    "date": "2020-09-29T23:46:23Z",
+    "version": "v1.5.1",
+    "name": "onnxruntime-win-x64-1.5.1.zip",
+    "package": "onnxruntime-win-x64-{version}.zip",
+    "size": 26065699
+  },
+  {
+    "date": "2020-09-29T23:46:23Z",
+    "version": "v1.5.1",
+    "name": "onnxruntime-win-x64-gpu-1.5.1.zip",
+    "package": "onnxruntime-win-x64-gpu-{version}.zip",
+    "size": 80918169
+  },
+  {
+    "date": "2020-09-29T23:46:23Z",
+    "version": "v1.5.1",
+    "name": "onnxruntime-win-x86-1.5.1.zip",
+    "package": "onnxruntime-win-x86-{version}.zip",
+    "size": 26193184
+  },
+  {
+    "date": "2020-10-15T07:04:22Z",
+    "version": "v1.5.2",
+    "name": "Microsoft.AI.MachineLearning.1.5.2.symbols.zip",
+    "package": "Microsoft.AI.MachineLearning.{version}.symbols.zip",
+    "size": 154802555
+  },
+  {
+    "date": "2020-10-15T07:04:22Z",
+    "version": "v1.5.2",
+    "name": "Microsoft.AI.MachineLearning.1.5.2.zip",
+    "package": "Microsoft.AI.MachineLearning.{version}.zip",
+    "size": 38857742
+  },
+  {
+    "date": "2020-10-15T07:04:22Z",
+    "version": "v1.5.2",
+    "name": "Microsoft.ML.OnnxRuntime.DirectML.1.5.2.zip",
+    "package": "Microsoft.ML.OnnxRuntime.DirectML.{version}.zip",
+    "size": 87422214
+  },
+  {
+    "date": "2020-10-15T07:04:22Z",
+    "version": "v1.5.2",
+    "name": "onnxruntime-linux-x64-1.5.2.tgz",
+    "package": "onnxruntime-linux-x64-{version}.tgz",
+    "size": 4101947
+  },
+  {
+    "date": "2020-10-15T07:04:22Z",
+    "version": "v1.5.2",
+    "name": "onnxruntime-linux-x64-gpu-1.5.2.tgz",
+    "package": "onnxruntime-linux-x64-gpu-{version}.tgz",
+    "size": 28834248
+  },
+  {
+    "date": "2020-10-15T07:04:22Z",
+    "version": "v1.5.2",
+    "name": "onnxruntime-osx-x64-1.5.2.tgz",
+    "package": "onnxruntime-osx-x64-{version}.tgz",
+    "size": 4668414
+  },
+  {
+    "date": "2020-10-15T07:04:22Z",
+    "version": "v1.5.2",
+    "name": "onnxruntime-win-x64-1.5.2.zip",
+    "package": "onnxruntime-win-x64-{version}.zip",
+    "size": 26089593
+  },
+  {
+    "date": "2020-10-15T07:04:22Z",
+    "version": "v1.5.2",
+    "name": "onnxruntime-win-x64-gpu-1.5.2.zip",
+    "package": "onnxruntime-win-x64-gpu-{version}.zip",
+    "size": 81060010
+  },
+  {
+    "date": "2020-10-15T07:04:22Z",
+    "version": "v1.5.2",
+    "name": "onnxruntime-win-x86-1.5.2.zip",
+    "package": "onnxruntime-win-x86-{version}.zip",
+    "size": 26231183
+  },
+  {
+    "date": "2020-12-11T05:06:51Z",
+    "version": "v1.6.0",
+    "name": "Microsoft.AI.MachineLearning.1.6.0.symbols.zip",
+    "package": "Microsoft.AI.MachineLearning.{version}.symbols.zip",
+    "size": 160541080
+  },
+  {
+    "date": "2020-12-11T05:06:51Z",
+    "version": "v1.6.0",
+    "name": "Microsoft.AI.MachineLearning.1.6.0.zip",
+    "package": "Microsoft.AI.MachineLearning.{version}.zip",
+    "size": 36203759
+  },
+  {
+    "date": "2020-12-11T05:06:51Z",
+    "version": "v1.6.0",
+    "name": "Microsoft.ML.OnnxRuntime.DirectML.1.6.0.zip",
+    "package": "Microsoft.ML.OnnxRuntime.DirectML.{version}.zip",
+    "size": 66252313
+  },
+  {
+    "date": "2020-12-11T05:06:51Z",
+    "version": "v1.6.0",
+    "name": "onnxruntime-linux-x64-1.6.0.tgz",
+    "package": "onnxruntime-linux-x64-{version}.tgz",
+    "size": 4307532
+  },
+  {
+    "date": "2020-12-11T05:06:51Z",
+    "version": "v1.6.0",
+    "name": "onnxruntime-linux-x64-gpu-1.6.0.tgz",
+    "package": "onnxruntime-linux-x64-gpu-{version}.tgz",
+    "size": 30507872
+  },
+  {
+    "date": "2020-12-11T05:06:51Z",
+    "version": "v1.6.0",
+    "name": "onnxruntime-osx-x64-1.6.0.tgz",
+    "package": "onnxruntime-osx-x64-{version}.tgz",
+    "size": 4781545
+  },
+  {
+    "date": "2020-12-11T05:06:51Z",
+    "version": "v1.6.0",
+    "name": "onnxruntime-win-x64-1.6.0.zip",
+    "package": "onnxruntime-win-x64-{version}.zip",
+    "size": 28044697
+  },
+  {
+    "date": "2020-12-11T05:06:51Z",
+    "version": "v1.6.0",
+    "name": "onnxruntime-win-x64-gpu-1.6.0.zip",
+    "package": "onnxruntime-win-x64-gpu-{version}.zip",
+    "size": 84775865
+  },
+  {
+    "date": "2020-12-11T05:06:51Z",
+    "version": "v1.6.0",
+    "name": "onnxruntime-win-x86-1.6.0.zip",
+    "package": "onnxruntime-win-x86-{version}.zip",
+    "size": 28303246
+  },
+  {
+    "date": "2021-03-03T04:45:30Z",
+    "version": "v1.7.0",
+    "name": "Microsoft.AI.MachineLearning.1.7.0.symbols.zip",
+    "package": "Microsoft.AI.MachineLearning.{version}.symbols.zip",
+    "size": 167778849
+  },
+  {
+    "date": "2021-03-03T04:45:30Z",
+    "version": "v1.7.0",
+    "name": "Microsoft.AI.MachineLearning.1.7.0.zip",
+    "package": "Microsoft.AI.MachineLearning.{version}.zip",
+    "size": 37286911
+  },
+  {
+    "date": "2021-03-03T04:45:30Z",
+    "version": "v1.7.0",
+    "name": "Microsoft.ML.OnnxRuntime.DirectML.1.7.0.zip",
+    "package": "Microsoft.ML.OnnxRuntime.DirectML.{version}.zip",
+    "size": 68933630
+  },
+  {
+    "date": "2021-03-03T04:45:30Z",
+    "version": "v1.7.0",
+    "name": "onnxruntime-linux-x64-1.7.0.tgz",
+    "package": "onnxruntime-linux-x64-{version}.tgz",
+    "size": 4362964
+  },
+  {
+    "date": "2021-03-03T04:45:30Z",
+    "version": "v1.7.0",
+    "name": "onnxruntime-linux-x64-gpu-1.7.0.tgz",
+    "package": "onnxruntime-linux-x64-gpu-{version}.tgz",
+    "size": 178674138
+  },
+  {
+    "date": "2021-03-03T04:45:30Z",
+    "version": "v1.7.0",
+    "name": "onnxruntime-osx-x64-1.7.0.tgz",
+    "package": "onnxruntime-osx-x64-{version}.tgz",
+    "size": 4917351
+  },
+  {
+    "date": "2021-03-03T04:45:30Z",
+    "version": "v1.7.0",
+    "name": "onnxruntime-win-arm-1.7.0.zip",
+    "package": "onnxruntime-win-arm-{version}.zip",
+    "size": 28044782
+  },
+  {
+    "date": "2021-03-03T04:45:30Z",
+    "version": "v1.7.0",
+    "name": "onnxruntime-win-arm64-1.7.0.zip",
+    "package": "onnxruntime-win-arm64-{version}.zip",
+    "size": 29621800
+  },
+  {
+    "date": "2021-03-03T04:45:30Z",
+    "version": "v1.7.0",
+    "name": "onnxruntime-win-gpu-x64-1.7.0.zip",
+    "package": "onnxruntime-win-gpu-x64-{version}.zip",
+    "size": 85764601
+  },
+  {
+    "date": "2021-03-03T04:45:30Z",
+    "version": "v1.7.0",
+    "name": "onnxruntime-win-x64-1.7.0.zip",
+    "package": "onnxruntime-win-x64-{version}.zip",
+    "size": 29178478
+  },
+  {
+    "date": "2021-03-03T04:45:30Z",
+    "version": "v1.7.0",
+    "name": "onnxruntime-win-x86-1.7.0.zip",
+    "package": "onnxruntime-win-x86-{version}.zip",
+    "size": 29580361
+  },
+  {
+    "date": "2021-04-08T00:38:52Z",
+    "version": "v1.7.2",
+    "name": "Microsoft.AI.MachineLearning.1.7.2.symbols.zip",
+    "package": "Microsoft.AI.MachineLearning.{version}.symbols.zip",
+    "size": 167457797
+  },
+  {
+    "date": "2021-04-08T00:38:52Z",
+    "version": "v1.7.2",
+    "name": "Microsoft.AI.MachineLearning.1.7.2.zip",
+    "package": "Microsoft.AI.MachineLearning.{version}.zip",
+    "size": 36664853
+  },
+  {
+    "date": "2021-06-03T06:14:48Z",
+    "version": "v1.8.0",
+    "name": "Microsoft.AI.MachineLearning.1.8.0.symbols.zip",
+    "package": "Microsoft.AI.MachineLearning.{version}.symbols.zip",
+    "size": 177872793
+  },
+  {
+    "date": "2021-06-03T06:14:48Z",
+    "version": "v1.8.0",
+    "name": "Microsoft.AI.MachineLearning.1.8.0.zip",
+    "package": "Microsoft.AI.MachineLearning.{version}.zip",
+    "size": 40399644
+  },
+  {
+    "date": "2021-06-03T06:14:48Z",
+    "version": "v1.8.0",
+    "name": "Microsoft.ML.OnnxRuntime.DirectML.1.8.0.zip",
+    "package": "Microsoft.ML.OnnxRuntime.DirectML.{version}.zip",
+    "size": 142844365
+  },
+  {
+    "date": "2021-06-03T06:14:48Z",
+    "version": "v1.8.0",
+    "name": "onnxruntime-linux-x64-1.8.0.tgz",
+    "package": "onnxruntime-linux-x64-{version}.tgz",
+    "size": 4738059
+  },
+  {
+    "date": "2021-06-03T06:14:48Z",
+    "version": "v1.8.0",
+    "name": "onnxruntime-linux-x64-gpu-1.8.0.tgz",
+    "package": "onnxruntime-linux-x64-gpu-{version}.tgz",
+    "size": 30836957
+  },
+  {
+    "date": "2021-06-03T06:14:48Z",
+    "version": "v1.8.0",
+    "name": "onnxruntime-osx-x64-1.8.0.tgz",
+    "package": "onnxruntime-osx-x64-{version}.tgz",
+    "size": 4635173
+  },
+  {
+    "date": "2021-06-03T06:14:48Z",
+    "version": "v1.8.0",
+    "name": "onnxruntime-win-arm-1.8.0.zip",
+    "package": "onnxruntime-win-arm-{version}.zip",
+    "size": 29350406
+  },
+  {
+    "date": "2021-06-03T06:14:48Z",
+    "version": "v1.8.0",
+    "name": "onnxruntime-win-arm64-1.8.0.zip",
+    "package": "onnxruntime-win-arm64-{version}.zip",
+    "size": 31046385
+  },
+  {
+    "date": "2021-06-03T06:14:48Z",
+    "version": "v1.8.0",
+    "name": "onnxruntime-win-gpu-x64-1.8.0.zip",
+    "package": "onnxruntime-win-gpu-x64-{version}.zip",
+    "size": 29948505
+  },
+  {
+    "date": "2021-06-03T06:14:48Z",
+    "version": "v1.8.0",
+    "name": "onnxruntime-win-x64-1.8.0.zip",
+    "package": "onnxruntime-win-x64-{version}.zip",
+    "size": 30612741
+  },
+  {
+    "date": "2021-06-03T06:14:48Z",
+    "version": "v1.8.0",
+    "name": "onnxruntime-win-x86-1.8.0.zip",
+    "package": "onnxruntime-win-x86-{version}.zip",
+    "size": 30944088
+  },
+  {
+    "date": "2021-07-08T01:54:51Z",
+    "version": "v1.8.1",
+    "name": "Microsoft.AI.MachineLearning.1.8.1.symbols.zip",
+    "package": "Microsoft.AI.MachineLearning.{version}.symbols.zip",
+    "size": 180906336
+  },
+  {
+    "date": "2021-07-08T01:54:51Z",
+    "version": "v1.8.1",
+    "name": "Microsoft.AI.MachineLearning.1.8.1.zip",
+    "package": "Microsoft.AI.MachineLearning.{version}.zip",
+    "size": 40578290
+  },
+  {
+    "date": "2021-07-08T01:54:51Z",
+    "version": "v1.8.1",
+    "name": "Microsoft.ML.OnnxRuntime.DirectML.1.8.1.zip",
+    "package": "Microsoft.ML.OnnxRuntime.DirectML.{version}.zip",
+    "size": 144659227
+  },
+  {
+    "date": "2021-07-08T01:54:51Z",
+    "version": "v1.8.1",
+    "name": "onnxruntime-linux-x64-1.8.1.tgz",
+    "package": "onnxruntime-linux-x64-{version}.tgz",
+    "size": 4736207
+  },
+  {
+    "date": "2021-07-08T01:54:51Z",
+    "version": "v1.8.1",
+    "name": "onnxruntime-linux-x64-gpu-1.8.1.tgz",
+    "package": "onnxruntime-linux-x64-gpu-{version}.tgz",
+    "size": 30835289
+  },
+  {
+    "date": "2021-07-08T01:54:51Z",
+    "version": "v1.8.1",
+    "name": "onnxruntime-osx-x64-1.8.1.tgz",
+    "package": "onnxruntime-osx-x64-{version}.tgz",
+    "size": 4626862
+  },
+  {
+    "date": "2021-07-08T01:54:51Z",
+    "version": "v1.8.1",
+    "name": "onnxruntime-win-arm-1.8.1.zip",
+    "package": "onnxruntime-win-arm-{version}.zip",
+    "size": 29676487
+  },
+  {
+    "date": "2021-07-08T01:54:51Z",
+    "version": "v1.8.1",
+    "name": "onnxruntime-win-arm64-1.8.1.zip",
+    "package": "onnxruntime-win-arm64-{version}.zip",
+    "size": 31293401
+  },
+  {
+    "date": "2021-07-08T01:54:51Z",
+    "version": "v1.8.1",
+    "name": "onnxruntime-win-gpu-x64-1.8.1.zip",
+    "package": "onnxruntime-win-gpu-x64-{version}.zip",
+    "size": 87180913
+  },
+  {
+    "date": "2021-07-08T01:54:51Z",
+    "version": "v1.8.1",
+    "name": "onnxruntime-win-x64-1.8.1.zip",
+    "package": "onnxruntime-win-x64-{version}.zip",
+    "size": 31634990
+  },
+  {
+    "date": "2021-07-08T01:54:51Z",
+    "version": "v1.8.1",
+    "name": "onnxruntime-win-x86-1.8.1.zip",
+    "package": "onnxruntime-win-x86-{version}.zip",
+    "size": 31504589
+  },
+  {
+    "date": "2021-09-23T02:05:03Z",
+    "version": "v1.9.0",
+    "name": "Microsoft.AI.MachineLearning.1.9.0.symbols.zip",
+    "package": "Microsoft.AI.MachineLearning.{version}.symbols.zip",
+    "size": 189564270
+  },
+  {
+    "date": "2021-09-23T02:05:03Z",
+    "version": "v1.9.0",
+    "name": "Microsoft.AI.MachineLearning.1.9.0.zip",
+    "package": "Microsoft.AI.MachineLearning.{version}.zip",
+    "size": 43934155
+  },
+  {
+    "date": "2021-09-23T02:05:03Z",
+    "version": "v1.9.0",
+    "name": "Microsoft.ML.OnnxRuntime.DirectML.1.9.0.zip",
+    "package": "Microsoft.ML.OnnxRuntime.DirectML.{version}.zip",
+    "size": 12447113
+  },
+  {
+    "date": "2021-09-23T02:05:03Z",
+    "version": "v1.9.0",
+    "name": "onnxruntime-linux-x64-1.9.0.tgz",
+    "package": "onnxruntime-linux-x64-{version}.tgz",
+    "size": 5331704
+  },
+  {
+    "date": "2021-09-23T02:05:03Z",
+    "version": "v1.9.0",
+    "name": "onnxruntime-linux-x64-gpu-1.9.0.tgz",
+    "package": "onnxruntime-linux-x64-gpu-{version}.tgz",
+    "size": 96711619
+  },
+  {
+    "date": "2021-09-23T02:05:03Z",
+    "version": "v1.9.0",
+    "name": "onnxruntime-osx-x64-1.9.0.tgz",
+    "package": "onnxruntime-osx-x64-{version}.tgz",
+    "size": 4897857
+  },
+  {
+    "date": "2021-09-23T02:05:03Z",
+    "version": "v1.9.0",
+    "name": "onnxruntime-win-arm-1.9.0.zip",
+    "package": "onnxruntime-win-arm-{version}.zip",
+    "size": 32613091
+  },
+  {
+    "date": "2021-09-23T02:05:03Z",
+    "version": "v1.9.0",
+    "name": "onnxruntime-win-arm64-1.9.0.zip",
+    "package": "onnxruntime-win-arm64-{version}.zip",
+    "size": 34383074
+  },
+  {
+    "date": "2021-09-23T02:05:03Z",
+    "version": "v1.9.0",
+    "name": "onnxruntime-win-x64-1.9.0.zip",
+    "package": "onnxruntime-win-x64-{version}.zip",
+    "size": 34702932
+  },
+  {
+    "date": "2021-09-23T02:05:03Z",
+    "version": "v1.9.0",
+    "name": "onnxruntime-win-x64-gpu-1.9.0.zip",
+    "package": "onnxruntime-win-x64-gpu-{version}.zip",
+    "size": 133275910
+  },
+  {
+    "date": "2021-09-23T02:05:03Z",
+    "version": "v1.9.0",
+    "name": "onnxruntime-win-x86-1.9.0.zip",
+    "package": "onnxruntime-win-x86-{version}.zip",
+    "size": 33718117
+  },
+  {
+    "date": "2021-10-05T00:13:24Z",
+    "version": "v1.9.1",
+    "name": "Microsoft.AI.MachineLearning.1.9.1.symbols.zip",
+    "package": "Microsoft.AI.MachineLearning.{version}.symbols.zip",
+    "size": 189074946
+  },
+  {
+    "date": "2021-10-05T00:13:24Z",
+    "version": "v1.9.1",
+    "name": "Microsoft.AI.MachineLearning.1.9.1.zip",
+    "package": "Microsoft.AI.MachineLearning.{version}.zip",
+    "size": 45793508
+  },
+  {
+    "date": "2021-12-08T00:22:39Z",
+    "version": "v1.10.0",
+    "name": "Microsoft.AI.MachineLearning.1.10.0.symbols.zip",
+    "package": "Microsoft.AI.MachineLearning.{version}.symbols.zip",
+    "size": 190234972
+  },
+  {
+    "date": "2021-12-08T00:22:39Z",
+    "version": "v1.10.0",
+    "name": "Microsoft.AI.MachineLearning.1.10.0.zip",
+    "package": "Microsoft.AI.MachineLearning.{version}.zip",
+    "size": 45254525
+  },
+  {
+    "date": "2021-12-08T00:22:39Z",
+    "version": "v1.10.0",
+    "name": "Microsoft.ML.OnnxRuntime.DirectML.1.10.0.zip",
+    "package": "Microsoft.ML.OnnxRuntime.DirectML.{version}.zip",
+    "size": 155511853
+  },
+  {
+    "date": "2021-12-08T00:22:39Z",
+    "version": "v1.10.0",
+    "name": "onnxruntime-linux-aarch64-1.10.0.tgz",
+    "package": "onnxruntime-linux-aarch64-{version}.tgz",
+    "size": 4918847
+  },
+  {
+    "date": "2021-12-08T00:22:39Z",
+    "version": "v1.10.0",
+    "name": "onnxruntime-linux-x64-1.10.0.tgz",
+    "package": "onnxruntime-linux-x64-{version}.tgz",
+    "size": 5417316
+  },
+  {
+    "date": "2021-12-08T00:22:39Z",
+    "version": "v1.10.0",
+    "name": "onnxruntime-linux-x64-gpu-1.10.0.tgz",
+    "package": "onnxruntime-linux-x64-gpu-{version}.tgz",
+    "size": 104243680
+  },
+  {
+    "date": "2021-12-08T00:22:39Z",
+    "version": "v1.10.0",
+    "name": "onnxruntime-osx-arm64-1.10.0.tgz",
+    "package": "onnxruntime-osx-arm64-{version}.tgz",
+    "size": 4736993
+  },
+  {
+    "date": "2021-12-08T00:22:39Z",
+    "version": "v1.10.0",
+    "name": "onnxruntime-osx-universal2-1.10.0.tgz",
+    "package": "onnxruntime-osx-universal2-{version}.tgz",
+    "size": 10022987
+  },
+  {
+    "date": "2021-12-08T00:22:39Z",
+    "version": "v1.10.0",
+    "name": "onnxruntime-osx-x86_64-1.10.0.tgz",
+    "package": "onnxruntime-osx-x86_64-{version}.tgz",
+    "size": 5385677
+  },
+  {
+    "date": "2021-12-08T00:22:39Z",
+    "version": "v1.10.0",
+    "name": "onnxruntime-win-arm-1.10.0.zip",
+    "package": "onnxruntime-win-arm-{version}.zip",
+    "size": 31918285
+  },
+  {
+    "date": "2021-12-08T00:22:39Z",
+    "version": "v1.10.0",
+    "name": "onnxruntime-win-arm64-1.10.0.zip",
+    "package": "onnxruntime-win-arm64-{version}.zip",
+    "size": 34173900
+  },
+  {
+    "date": "2021-12-08T00:22:39Z",
+    "version": "v1.10.0",
+    "name": "onnxruntime-win-x64-1.10.0.zip",
+    "package": "onnxruntime-win-x64-{version}.zip",
+    "size": 34499553
+  },
+  {
+    "date": "2021-12-08T00:22:39Z",
+    "version": "v1.10.0",
+    "name": "onnxruntime-win-x64-gpu-1.10.0.zip",
+    "package": "onnxruntime-win-x64-gpu-{version}.zip",
+    "size": 140666201
+  },
+  {
+    "date": "2021-12-08T00:22:39Z",
+    "version": "v1.10.0",
+    "name": "onnxruntime-win-x86-1.10.0.zip",
+    "package": "onnxruntime-win-x86-{version}.zip",
+    "size": 33532179
+  },
+  {
+    "date": "2022-03-26T16:06:31Z",
+    "version": "v1.11.0",
+    "name": "Microsoft.AI.MachineLearning.1.11.0.symbols.zip",
+    "package": "Microsoft.AI.MachineLearning.{version}.symbols.zip",
+    "size": 200641000
+  },
+  {
+    "date": "2022-03-26T16:06:31Z",
+    "version": "v1.11.0",
+    "name": "Microsoft.AI.MachineLearning.1.11.0.zip",
+    "package": "Microsoft.AI.MachineLearning.{version}.zip",
+    "size": 31385382
+  },
+  {
+    "date": "2022-03-26T16:06:31Z",
+    "version": "v1.11.0",
+    "name": "Microsoft.ML.OnnxRuntime.DirectML.1.11.0.zip",
+    "package": "Microsoft.ML.OnnxRuntime.DirectML.{version}.zip",
+    "size": 13664007
+  },
+  {
+    "date": "2022-03-26T16:06:31Z",
+    "version": "v1.11.0",
+    "name": "onnxruntime-linux-aarch64-1.11.0.tgz",
+    "package": "onnxruntime-linux-aarch64-{version}.tgz",
+    "size": 5173355
+  },
+  {
+    "date": "2022-03-26T16:06:31Z",
+    "version": "v1.11.0",
+    "name": "onnxruntime-linux-x64-1.11.0.tgz",
+    "package": "onnxruntime-linux-x64-{version}.tgz",
+    "size": 5681885
+  },
+  {
+    "date": "2022-03-26T16:06:31Z",
+    "version": "v1.11.0",
+    "name": "onnxruntime-linux-x64-gpu-1.11.0.tgz",
+    "package": "onnxruntime-linux-x64-gpu-{version}.tgz",
+    "size": 108352371
+  },
+  {
+    "date": "2022-03-26T16:06:31Z",
+    "version": "v1.11.0",
+    "name": "onnxruntime-osx-arm64-1.11.0.tgz",
+    "package": "onnxruntime-osx-arm64-{version}.tgz",
+    "size": 5756572
+  },
+  {
+    "date": "2022-03-26T16:06:31Z",
+    "version": "v1.11.0",
+    "name": "onnxruntime-osx-universal2-1.11.0.tgz",
+    "package": "onnxruntime-osx-universal2-{version}.tgz",
+    "size": 12141236
+  },
+  {
+    "date": "2022-03-26T16:06:31Z",
+    "version": "v1.11.0",
+    "name": "onnxruntime-osx-x86_64-1.11.0.tgz",
+    "package": "onnxruntime-osx-x86_64-{version}.tgz",
+    "size": 6483964
+  },
+  {
+    "date": "2022-03-26T16:06:31Z",
+    "version": "v1.11.0",
+    "name": "onnxruntime-win-arm-1.11.0.zip",
+    "package": "onnxruntime-win-arm-{version}.zip",
+    "size": 34978195
+  },
+  {
+    "date": "2022-03-26T16:06:31Z",
+    "version": "v1.11.0",
+    "name": "onnxruntime-win-arm64-1.11.0.zip",
+    "package": "onnxruntime-win-arm64-{version}.zip",
+    "size": 36838848
+  },
+  {
+    "date": "2022-03-26T16:06:31Z",
+    "version": "v1.11.0",
+    "name": "onnxruntime-win-x64-1.11.0.zip",
+    "package": "onnxruntime-win-x64-{version}.zip",
+    "size": 37394445
+  },
+  {
+    "date": "2022-03-26T16:06:31Z",
+    "version": "v1.11.0",
+    "name": "onnxruntime-win-x64-gpu-1.11.0.zip",
+    "package": "onnxruntime-win-x64-gpu-{version}.zip",
+    "size": 147832219
+  },
+  {
+    "date": "2022-03-26T16:06:31Z",
+    "version": "v1.11.0",
+    "name": "onnxruntime-win-x86-1.11.0.zip",
+    "package": "onnxruntime-win-x86-{version}.zip",
+    "size": 36314008
+  },
+  {
+    "date": "2022-04-27T17:16:55Z",
+    "version": "v1.11.1",
+    "name": "Microsoft.AI.MachineLearning.1.11.1.symbols.zip",
+    "package": "Microsoft.AI.MachineLearning.{version}.symbols.zip",
+    "size": 200899079
+  },
+  {
+    "date": "2022-04-27T17:16:55Z",
+    "version": "v1.11.1",
+    "name": "Microsoft.AI.MachineLearning.1.11.1.zip",
+    "package": "Microsoft.AI.MachineLearning.{version}.zip",
+    "size": 31387585
+  },
+  {
+    "date": "2022-04-27T17:16:55Z",
+    "version": "v1.11.1",
+    "name": "Microsoft.ML.OnnxRuntime.DirectML.1.11.1.zip",
+    "package": "Microsoft.ML.OnnxRuntime.DirectML.{version}.zip",
+    "size": 13663856
+  },
+  {
+    "date": "2022-04-27T17:16:55Z",
+    "version": "v1.11.1",
+    "name": "onnxruntime-linux-aarch64-1.11.1.tgz",
+    "package": "onnxruntime-linux-aarch64-{version}.tgz",
+    "size": 5174408
+  },
+  {
+    "date": "2022-04-27T17:16:55Z",
+    "version": "v1.11.1",
+    "name": "onnxruntime-linux-x64-1.11.1.tgz",
+    "package": "onnxruntime-linux-x64-{version}.tgz",
+    "size": 5684173
+  },
+  {
+    "date": "2022-04-27T17:16:55Z",
+    "version": "v1.11.1",
+    "name": "onnxruntime-linux-x64-gpu-1.11.1.tgz",
+    "package": "onnxruntime-linux-x64-gpu-{version}.tgz",
+    "size": 108367459
+  },
+  {
+    "date": "2022-04-27T17:16:55Z",
+    "version": "v1.11.1",
+    "name": "onnxruntime-osx-arm64-1.11.1.tgz",
+    "package": "onnxruntime-osx-arm64-{version}.tgz",
+    "size": 5756537
+  },
+  {
+    "date": "2022-04-27T17:16:55Z",
+    "version": "v1.11.1",
+    "name": "onnxruntime-osx-universal2-1.11.1.tgz",
+    "package": "onnxruntime-osx-universal2-{version}.tgz",
+    "size": 12141232
+  },
+  {
+    "date": "2022-04-27T17:16:55Z",
+    "version": "v1.11.1",
+    "name": "onnxruntime-osx-x86_64-1.11.1.tgz",
+    "package": "onnxruntime-osx-x86_64-{version}.tgz",
+    "size": 6483817
+  },
+  {
+    "date": "2022-04-27T17:16:55Z",
+    "version": "v1.11.1",
+    "name": "onnxruntime-win-arm-1.11.1.zip",
+    "package": "onnxruntime-win-arm-{version}.zip",
+    "size": 34975495
+  },
+  {
+    "date": "2022-04-27T17:16:55Z",
+    "version": "v1.11.1",
+    "name": "onnxruntime-win-arm64-1.11.1.zip",
+    "package": "onnxruntime-win-arm64-{version}.zip",
+    "size": 36855538
+  },
+  {
+    "date": "2022-04-27T17:16:55Z",
+    "version": "v1.11.1",
+    "name": "onnxruntime-win-x64-1.11.1.zip",
+    "package": "onnxruntime-win-x64-{version}.zip",
+    "size": 37323298
+  },
+  {
+    "date": "2022-04-27T17:16:55Z",
+    "version": "v1.11.1",
+    "name": "onnxruntime-win-x64-gpu-1.11.1.zip",
+    "package": "onnxruntime-win-x64-gpu-{version}.zip",
+    "size": 147949140
+  },
+  {
+    "date": "2022-04-27T17:16:55Z",
+    "version": "v1.11.1",
+    "name": "onnxruntime-win-x86-1.11.1.zip",
+    "package": "onnxruntime-win-x86-{version}.zip",
+    "size": 36536424
+  },
+  {
+    "date": "2022-07-22T04:43:39Z",
+    "version": "v1.12.0",
+    "name": "Microsoft.AI.MachineLearning.1.12.0.symbols.zip",
+    "package": "Microsoft.AI.MachineLearning.{version}.symbols.zip",
+    "size": 205815172
+  },
+  {
+    "date": "2022-07-22T04:43:39Z",
+    "version": "v1.12.0",
+    "name": "Microsoft.AI.MachineLearning.1.12.0.zip",
+    "package": "Microsoft.AI.MachineLearning.{version}.zip",
+    "size": 32340466
+  },
+  {
+    "date": "2022-07-22T04:43:39Z",
+    "version": "v1.12.0",
+    "name": "Microsoft.ML.OnnxRuntime.DirectML.1.12.0.zip",
+    "package": "Microsoft.ML.OnnxRuntime.DirectML.{version}.zip",
+    "size": 14264178
+  },
+  {
+    "date": "2022-07-22T04:43:39Z",
+    "version": "v1.12.0",
+    "name": "onnxruntime-linux-aarch64-1.12.0.tgz",
+    "package": "onnxruntime-linux-aarch64-{version}.tgz",
+    "size": 5412030
+  },
+  {
+    "date": "2022-07-22T04:43:39Z",
+    "version": "v1.12.0",
+    "name": "onnxruntime-linux-x64-1.12.0.tgz",
+    "package": "onnxruntime-linux-x64-{version}.tgz",
+    "size": 5774150
+  },
+  {
+    "date": "2022-07-22T04:43:39Z",
+    "version": "v1.12.0",
+    "name": "onnxruntime-linux-x64-gpu-1.12.0.tgz",
+    "package": "onnxruntime-linux-x64-gpu-{version}.tgz",
+    "size": 110157323
+  },
+  {
+    "date": "2022-07-22T04:43:39Z",
+    "version": "v1.12.0",
+    "name": "onnxruntime-osx-arm64-1.12.0.tgz",
+    "package": "onnxruntime-osx-arm64-{version}.tgz",
+    "size": 6054822
+  },
+  {
+    "date": "2022-07-22T04:43:39Z",
+    "version": "v1.12.0",
+    "name": "onnxruntime-osx-universal2-1.12.0.tgz",
+    "package": "onnxruntime-osx-universal2-{version}.tgz",
+    "size": 12767585
+  },
+  {
+    "date": "2022-07-22T04:43:39Z",
+    "version": "v1.12.0",
+    "name": "onnxruntime-osx-x86_64-1.12.0.tgz",
+    "package": "onnxruntime-osx-x86_64-{version}.tgz",
+    "size": 6795778
+  },
+  {
+    "date": "2022-07-22T04:43:39Z",
+    "version": "v1.12.0",
+    "name": "onnxruntime-win-arm-1.12.0.zip",
+    "package": "onnxruntime-win-arm-{version}.zip",
+    "size": 35922674
+  },
+  {
+    "date": "2022-07-22T04:43:39Z",
+    "version": "v1.12.0",
+    "name": "onnxruntime-win-arm64-1.12.0.zip",
+    "package": "onnxruntime-win-arm64-{version}.zip",
+    "size": 38058625
+  },
+  {
+    "date": "2022-07-22T04:43:39Z",
+    "version": "v1.12.0",
+    "name": "onnxruntime-win-x64-1.12.0.zip",
+    "package": "onnxruntime-win-x64-{version}.zip",
+    "size": 38572923
+  },
+  {
+    "date": "2022-07-22T04:43:39Z",
+    "version": "v1.12.0",
+    "name": "onnxruntime-win-x64-gpu-1.12.0.zip",
+    "package": "onnxruntime-win-x64-gpu-{version}.zip",
+    "size": 150777218
+  },
+  {
+    "date": "2022-07-22T04:43:39Z",
+    "version": "v1.12.0",
+    "name": "onnxruntime-win-x86-1.12.0.zip",
+    "package": "onnxruntime-win-x86-{version}.zip",
+    "size": 37302049
+  },
+  {
+    "date": "2022-08-04T22:07:11Z",
+    "version": "v1.12.1",
+    "name": "Microsoft.AI.MachineLearning.1.12.1.symbols.zip",
+    "package": "Microsoft.AI.MachineLearning.{version}.symbols.zip",
+    "size": 205375349
+  },
+  {
+    "date": "2022-08-04T22:07:11Z",
+    "version": "v1.12.1",
+    "name": "Microsoft.AI.MachineLearning.1.12.1.zip",
+    "package": "Microsoft.AI.MachineLearning.{version}.zip",
+    "size": 32343298
+  },
+  {
+    "date": "2022-08-04T22:07:11Z",
+    "version": "v1.12.1",
+    "name": "Microsoft.ML.OnnxRuntime.DirectML.1.12.1.zip",
+    "package": "Microsoft.ML.OnnxRuntime.DirectML.{version}.zip",
+    "size": 14266519
+  },
+  {
+    "date": "2022-08-04T22:07:11Z",
+    "version": "v1.12.1",
+    "name": "onnxruntime-linux-aarch64-1.12.1.tgz",
+    "package": "onnxruntime-linux-aarch64-{version}.tgz",
+    "size": 5412739
+  },
+  {
+    "date": "2022-08-04T22:07:11Z",
+    "version": "v1.12.1",
+    "name": "onnxruntime-linux-x64-1.12.1.tgz",
+    "package": "onnxruntime-linux-x64-{version}.tgz",
+    "size": 5773215
+  },
+  {
+    "date": "2022-08-04T22:07:11Z",
+    "version": "v1.12.1",
+    "name": "onnxruntime-linux-x64-gpu-1.12.1.tgz",
+    "package": "onnxruntime-linux-x64-gpu-{version}.tgz",
+    "size": 110163549
+  },
+  {
+    "date": "2022-08-04T22:07:11Z",
+    "version": "v1.12.1",
+    "name": "onnxruntime-osx-arm64-1.12.1.tgz",
+    "package": "onnxruntime-osx-arm64-{version}.tgz",
+    "size": 6056156
+  },
+  {
+    "date": "2022-08-04T22:07:11Z",
+    "version": "v1.12.1",
+    "name": "onnxruntime-osx-universal2-1.12.1.tgz",
+    "package": "onnxruntime-osx-universal2-{version}.tgz",
+    "size": 12768786
+  },
+  {
+    "date": "2022-08-04T22:07:11Z",
+    "version": "v1.12.1",
+    "name": "onnxruntime-osx-x86_64-1.12.1.tgz",
+    "package": "onnxruntime-osx-x86_64-{version}.tgz",
+    "size": 6795569
+  },
+  {
+    "date": "2022-08-04T22:07:11Z",
+    "version": "v1.12.1",
+    "name": "onnxruntime-win-arm-1.12.1.zip",
+    "package": "onnxruntime-win-arm-{version}.zip",
+    "size": 36160540
+  },
+  {
+    "date": "2022-08-04T22:07:11Z",
+    "version": "v1.12.1",
+    "name": "onnxruntime-win-arm64-1.12.1.zip",
+    "package": "onnxruntime-win-arm64-{version}.zip",
+    "size": 37625571
+  },
+  {
+    "date": "2022-08-04T22:07:11Z",
+    "version": "v1.12.1",
+    "name": "onnxruntime-win-x64-1.12.1.zip",
+    "package": "onnxruntime-win-x64-{version}.zip",
+    "size": 38440738
+  },
+  {
+    "date": "2022-08-04T22:07:11Z",
+    "version": "v1.12.1",
+    "name": "onnxruntime-win-x64-gpu-1.12.1.zip",
+    "package": "onnxruntime-win-x64-gpu-{version}.zip",
+    "size": 150278916
+  },
+  {
+    "date": "2022-08-04T22:07:11Z",
+    "version": "v1.12.1",
+    "name": "onnxruntime-win-x86-1.12.1.zip",
+    "package": "onnxruntime-win-x86-{version}.zip",
+    "size": 37694017
+  },
+  {
+    "date": "2022-10-24T21:09:37Z",
+    "version": "v1.13.1",
+    "name": "Microsoft.AI.MachineLearning.1.13.1.symbols.zip",
+    "package": "Microsoft.AI.MachineLearning.{version}.symbols.zip",
+    "size": 207911421
+  },
+  {
+    "date": "2022-10-24T21:09:37Z",
+    "version": "v1.13.1",
+    "name": "Microsoft.AI.MachineLearning.1.13.1.zip",
+    "package": "Microsoft.AI.MachineLearning.{version}.zip",
+    "size": 32856651
+  },
+  {
+    "date": "2022-10-24T21:09:37Z",
+    "version": "v1.13.1",
+    "name": "Microsoft.ML.OnnxRuntime.DirectML.1.13.1.zip",
+    "package": "Microsoft.ML.OnnxRuntime.DirectML.{version}.zip",
+    "size": 8278795
+  },
+  {
+    "date": "2022-10-24T21:09:37Z",
+    "version": "v1.13.1",
+    "name": "onnxruntime-linux-aarch64-1.13.1.tgz",
+    "package": "onnxruntime-linux-aarch64-{version}.tgz",
+    "size": 5416834
+  },
+  {
+    "date": "2022-10-24T21:09:37Z",
+    "version": "v1.13.1",
+    "name": "onnxruntime-linux-x64-1.13.1.tgz",
+    "package": "onnxruntime-linux-x64-{version}.tgz",
+    "size": 5791598
+  },
+  {
+    "date": "2022-10-24T21:09:37Z",
+    "version": "v1.13.1",
+    "name": "onnxruntime-linux-x64-gpu-1.13.1.tgz",
+    "package": "onnxruntime-linux-x64-gpu-{version}.tgz",
+    "size": 116038428
+  },
+  {
+    "date": "2022-10-24T21:09:37Z",
+    "version": "v1.13.1",
+    "name": "onnxruntime-osx-arm64-1.13.1.tgz",
+    "package": "onnxruntime-osx-arm64-{version}.tgz",
+    "size": 6119801
+  },
+  {
+    "date": "2022-10-24T21:09:37Z",
+    "version": "v1.13.1",
+    "name": "onnxruntime-osx-universal2-1.13.1.tgz",
+    "package": "onnxruntime-osx-universal2-{version}.tgz",
+    "size": 12918447
+  },
+  {
+    "date": "2022-10-24T21:09:37Z",
+    "version": "v1.13.1",
+    "name": "onnxruntime-osx-x86_64-1.13.1.tgz",
+    "package": "onnxruntime-osx-x86_64-{version}.tgz",
+    "size": 6881536
+  },
+  {
+    "date": "2022-10-24T21:09:37Z",
+    "version": "v1.13.1",
+    "name": "onnxruntime-win-arm-1.13.1.zip",
+    "package": "onnxruntime-win-arm-{version}.zip",
+    "size": 36406212
+  },
+  {
+    "date": "2022-10-24T21:09:37Z",
+    "version": "v1.13.1",
+    "name": "onnxruntime-win-arm64-1.13.1.zip",
+    "package": "onnxruntime-win-arm64-{version}.zip",
+    "size": 38726410
+  },
+  {
+    "date": "2022-10-24T21:09:37Z",
+    "version": "v1.13.1",
+    "name": "onnxruntime-win-x64-1.13.1.zip",
+    "package": "onnxruntime-win-x64-{version}.zip",
+    "size": 39063638
+  },
+  {
+    "date": "2022-10-24T21:09:37Z",
+    "version": "v1.13.1",
+    "name": "onnxruntime-win-x64-gpu-1.13.1.zip",
+    "package": "onnxruntime-win-x64-gpu-{version}.zip",
+    "size": 157104020
+  },
+  {
+    "date": "2022-10-24T21:09:37Z",
+    "version": "v1.13.1",
+    "name": "onnxruntime-win-x86-1.13.1.zip",
+    "package": "onnxruntime-win-x86-{version}.zip",
+    "size": 38155786
+  },
+  {
+    "date": "2023-02-11T01:03:57Z",
+    "version": "v1.14.0",
+    "name": "Microsoft.AI.MachineLearning.1.14.0.symbols.zip",
+    "package": "Microsoft.AI.MachineLearning.{version}.symbols.zip",
+    "size": 216858582
+  },
+  {
+    "date": "2023-02-11T01:03:57Z",
+    "version": "v1.14.0",
+    "name": "Microsoft.AI.MachineLearning.1.14.0.zip",
+    "package": "Microsoft.AI.MachineLearning.{version}.zip",
+    "size": 34577293
+  },
+  {
+    "date": "2023-02-11T01:03:57Z",
+    "version": "v1.14.0",
+    "name": "Microsoft.ML.OnnxRuntime.DirectML.1.14.0.zip",
+    "package": "Microsoft.ML.OnnxRuntime.DirectML.{version}.zip",
+    "size": 20499747
+  },
+  {
+    "date": "2023-02-11T01:03:57Z",
+    "version": "v1.14.0",
+    "name": "onnxruntime-linux-aarch64-1.14.0.tgz",
+    "package": "onnxruntime-linux-aarch64-{version}.tgz",
+    "size": 5787059
+  },
+  {
+    "date": "2023-02-11T01:03:57Z",
+    "version": "v1.14.0",
+    "name": "onnxruntime-linux-x64-1.14.0.tgz",
+    "package": "onnxruntime-linux-x64-{version}.tgz",
+    "size": 6224889
+  },
+  {
+    "date": "2023-02-11T01:03:57Z",
+    "version": "v1.14.0",
+    "name": "onnxruntime-linux-x64-gpu-1.14.0.tgz",
+    "package": "onnxruntime-linux-x64-gpu-{version}.tgz",
+    "size": 136840731
+  },
+  {
+    "date": "2023-02-11T01:03:57Z",
+    "version": "v1.14.0",
+    "name": "onnxruntime-osx-arm64-1.14.0.tgz",
+    "package": "onnxruntime-osx-arm64-{version}.tgz",
+    "size": 6563829
+  },
+  {
+    "date": "2023-02-11T01:03:57Z",
+    "version": "v1.14.0",
+    "name": "onnxruntime-osx-universal2-1.14.0.tgz",
+    "package": "onnxruntime-osx-universal2-{version}.tgz",
+    "size": 13789773
+  },
+  {
+    "date": "2023-02-11T01:03:57Z",
+    "version": "v1.14.0",
+    "name": "onnxruntime-osx-x86_64-1.14.0.tgz",
+    "package": "onnxruntime-osx-x86_64-{version}.tgz",
+    "size": 7328214
+  },
+  {
+    "date": "2023-02-11T01:03:57Z",
+    "version": "v1.14.0",
+    "name": "onnxruntime-win-arm-1.14.0.zip",
+    "package": "onnxruntime-win-arm-{version}.zip",
+    "size": 39000782
+  },
+  {
+    "date": "2023-02-11T01:03:57Z",
+    "version": "v1.14.0",
+    "name": "onnxruntime-win-arm64-1.14.0.zip",
+    "package": "onnxruntime-win-arm64-{version}.zip",
+    "size": 40944207
+  },
+  {
+    "date": "2023-02-11T01:03:57Z",
+    "version": "v1.14.0",
+    "name": "onnxruntime-win-x64-1.14.0.zip",
+    "package": "onnxruntime-win-x64-{version}.zip",
+    "size": 41940194
+  },
+  {
+    "date": "2023-02-11T01:03:57Z",
+    "version": "v1.14.0",
+    "name": "onnxruntime-win-x64-gpu-1.14.0.zip",
+    "package": "onnxruntime-win-x64-gpu-{version}.zip",
+    "size": 176889906
+  },
+  {
+    "date": "2023-02-11T01:03:57Z",
+    "version": "v1.14.0",
+    "name": "onnxruntime-win-x86-1.14.0.zip",
+    "package": "onnxruntime-win-x86-{version}.zip",
+    "size": 40664327
+  },
+  {
+    "date": "2023-03-02T19:43:13Z",
+    "version": "v1.14.1",
+    "name": "Microsoft.AI.MachineLearning.1.14.1.symbols.zip",
+    "package": "Microsoft.AI.MachineLearning.{version}.symbols.zip",
+    "size": 218625438
+  },
+  {
+    "date": "2023-03-02T19:43:13Z",
+    "version": "v1.14.1",
+    "name": "Microsoft.AI.MachineLearning.1.14.1.zip",
+    "package": "Microsoft.AI.MachineLearning.{version}.zip",
+    "size": 34923562
+  },
+  {
+    "date": "2023-03-02T19:43:13Z",
+    "version": "v1.14.1",
+    "name": "Microsoft.ML.OnnxRuntime.DirectML.1.14.1.zip",
+    "package": "Microsoft.ML.OnnxRuntime.DirectML.{version}.zip",
+    "size": 16054678
+  },
+  {
+    "date": "2023-03-02T19:43:13Z",
+    "version": "v1.14.1",
+    "name": "onnxruntime-linux-aarch64-1.14.1.tgz",
+    "package": "onnxruntime-linux-aarch64-{version}.tgz",
+    "size": 5793649
+  },
+  {
+    "date": "2023-03-02T19:43:13Z",
+    "version": "v1.14.1",
+    "name": "onnxruntime-linux-x64-1.14.1.tgz",
+    "package": "onnxruntime-linux-x64-{version}.tgz",
+    "size": 6233648
+  },
+  {
+    "date": "2023-03-02T19:43:13Z",
+    "version": "v1.14.1",
+    "name": "onnxruntime-linux-x64-gpu-1.14.1.tgz",
+    "package": "onnxruntime-linux-x64-gpu-{version}.tgz",
+    "size": 136907454
+  },
+  {
+    "date": "2023-03-02T19:43:13Z",
+    "version": "v1.14.1",
+    "name": "onnxruntime-osx-arm64-1.14.1.tgz",
+    "package": "onnxruntime-osx-arm64-{version}.tgz",
+    "size": 6563098
+  },
+  {
+    "date": "2023-03-02T19:43:13Z",
+    "version": "v1.14.1",
+    "name": "onnxruntime-osx-universal2-1.14.1.tgz",
+    "package": "onnxruntime-osx-universal2-{version}.tgz",
+    "size": 13788893
+  },
+  {
+    "date": "2023-03-02T19:43:13Z",
+    "version": "v1.14.1",
+    "name": "onnxruntime-osx-x86_64-1.14.1.tgz",
+    "package": "onnxruntime-osx-x86_64-{version}.tgz",
+    "size": 7327070
+  },
+  {
+    "date": "2023-03-02T19:43:13Z",
+    "version": "v1.14.1",
+    "name": "onnxruntime-win-arm-1.14.1.zip",
+    "package": "onnxruntime-win-arm-{version}.zip",
+    "size": 39114775
+  },
+  {
+    "date": "2023-03-02T19:43:13Z",
+    "version": "v1.14.1",
+    "name": "onnxruntime-win-arm64-1.14.1.zip",
+    "package": "onnxruntime-win-arm64-{version}.zip",
+    "size": 41165467
+  },
+  {
+    "date": "2023-03-02T19:43:13Z",
+    "version": "v1.14.1",
+    "name": "onnxruntime-win-x64-1.14.1.zip",
+    "package": "onnxruntime-win-x64-{version}.zip",
+    "size": 41748936
+  },
+  {
+    "date": "2023-03-02T19:43:13Z",
+    "version": "v1.14.1",
+    "name": "onnxruntime-win-x64-gpu-1.14.1.zip",
+    "package": "onnxruntime-win-x64-gpu-{version}.zip",
+    "size": 177008397
+  },
+  {
+    "date": "2023-03-02T19:43:13Z",
+    "version": "v1.14.1",
+    "name": "onnxruntime-win-x86-1.14.1.zip",
+    "package": "onnxruntime-win-x86-{version}.zip",
+    "size": 40690132
+  },
+  {
+    "date": "2023-05-25T01:44:38Z",
+    "version": "v1.15.0",
+    "name": "Microsoft.AI.MachineLearning.1.15.0.symbols.zip",
+    "package": "Microsoft.AI.MachineLearning.{version}.symbols.zip",
+    "size": 223908986
+  },
+  {
+    "date": "2023-05-25T01:44:38Z",
+    "version": "v1.15.0",
+    "name": "Microsoft.AI.MachineLearning.1.15.0.zip",
+    "package": "Microsoft.AI.MachineLearning.{version}.zip",
+    "size": 38814591
+  },
+  {
+    "date": "2023-05-25T01:44:38Z",
+    "version": "v1.15.0",
+    "name": "Microsoft.ML.OnnxRuntime.DirectML.1.15.0.zip",
+    "package": "Microsoft.ML.OnnxRuntime.DirectML.{version}.zip",
+    "size": 18068059
+  },
+  {
+    "date": "2023-05-25T01:44:38Z",
+    "version": "v1.15.0",
+    "name": "onnxruntime-linux-aarch64-1.15.0.tgz",
+    "package": "onnxruntime-linux-aarch64-{version}.tgz",
+    "size": 6006751
+  },
+  {
+    "date": "2023-05-25T01:44:38Z",
+    "version": "v1.15.0",
+    "name": "onnxruntime-linux-x64-1.15.0.tgz",
+    "package": "onnxruntime-linux-x64-{version}.tgz",
+    "size": 6374682
+  },
+  {
+    "date": "2023-05-25T01:44:38Z",
+    "version": "v1.15.0",
+    "name": "onnxruntime-linux-x64-gpu-1.15.0.tgz",
+    "package": "onnxruntime-linux-x64-gpu-{version}.tgz",
+    "size": 122270004
+  },
+  {
+    "date": "2023-05-25T01:44:38Z",
+    "version": "v1.15.0",
+    "name": "onnxruntime-osx-arm64-1.15.0.tgz",
+    "package": "onnxruntime-osx-arm64-{version}.tgz",
+    "size": 6818107
+  },
+  {
+    "date": "2023-05-25T01:44:38Z",
+    "version": "v1.15.0",
+    "name": "onnxruntime-osx-universal2-1.15.0.tgz",
+    "package": "onnxruntime-osx-universal2-{version}.tgz",
+    "size": 14188445
+  },
+  {
+    "date": "2023-05-25T01:44:38Z",
+    "version": "v1.15.0",
+    "name": "onnxruntime-osx-x86_64-1.15.0.tgz",
+    "package": "onnxruntime-osx-x86_64-{version}.tgz",
+    "size": 7479308
+  },
+  {
+    "date": "2023-05-25T01:44:38Z",
+    "version": "v1.15.0",
+    "name": "onnxruntime-training-linux-aarch64-1.15.0.tgz",
+    "package": "onnxruntime-training-linux-aarch64-{version}.tgz",
+    "size": 6511142
+  },
+  {
+    "date": "2023-05-25T01:44:38Z",
+    "version": "v1.15.0",
+    "name": "onnxruntime-training-linux-x64-1.15.0.tgz",
+    "package": "onnxruntime-training-linux-x64-{version}.tgz",
+    "size": 6935508
+  },
+  {
+    "date": "2023-05-25T01:44:38Z",
+    "version": "v1.15.0",
+    "name": "onnxruntime-training-win-arm-1.15.0.zip",
+    "package": "onnxruntime-training-win-arm-{version}.zip",
+    "size": 43507828
+  },
+  {
+    "date": "2023-05-25T01:44:38Z",
+    "version": "v1.15.0",
+    "name": "onnxruntime-training-win-arm64-1.15.0.zip",
+    "package": "onnxruntime-training-win-arm64-{version}.zip",
+    "size": 45217917
+  },
+  {
+    "date": "2023-05-25T01:44:38Z",
+    "version": "v1.15.0",
+    "name": "onnxruntime-training-win-x64-1.15.0.zip",
+    "package": "onnxruntime-training-win-x64-{version}.zip",
+    "size": 46572396
+  },
+  {
+    "date": "2023-05-25T01:44:38Z",
+    "version": "v1.15.0",
+    "name": "onnxruntime-training-win-x86-1.15.0.zip",
+    "package": "onnxruntime-training-win-x86-{version}.zip",
+    "size": 45451297
+  },
+  {
+    "date": "2023-05-25T01:44:38Z",
+    "version": "v1.15.0",
+    "name": "onnxruntime-win-arm-1.15.0.zip",
+    "package": "onnxruntime-win-arm-{version}.zip",
+    "size": 40086771
+  },
+  {
+    "date": "2023-05-25T01:44:38Z",
+    "version": "v1.15.0",
+    "name": "onnxruntime-win-arm64-1.15.0.zip",
+    "package": "onnxruntime-win-arm64-{version}.zip",
+    "size": 41886931
+  },
+  {
+    "date": "2023-05-25T01:44:38Z",
+    "version": "v1.15.0",
+    "name": "onnxruntime-win-x64-1.15.0.zip",
+    "package": "onnxruntime-win-x64-{version}.zip",
+    "size": 43014013
+  },
+  {
+    "date": "2023-05-25T01:44:38Z",
+    "version": "v1.15.0",
+    "name": "onnxruntime-win-x64-gpu-1.15.0.zip",
+    "package": "onnxruntime-win-x64-gpu-{version}.zip",
+    "size": 173464940
+  },
+  {
+    "date": "2023-05-25T01:44:38Z",
+    "version": "v1.15.0",
+    "name": "onnxruntime-win-x86-1.15.0.zip",
+    "package": "onnxruntime-win-x86-{version}.zip",
+    "size": 41907205
+  },
+  {
+    "date": "2023-06-16T21:12:02Z",
+    "version": "v1.15.1",
+    "name": "Microsoft.AI.MachineLearning.1.15.1.symbols.zip",
+    "package": "Microsoft.AI.MachineLearning.{version}.symbols.zip",
+    "size": 223973629
+  },
+  {
+    "date": "2023-06-16T21:12:02Z",
+    "version": "v1.15.1",
+    "name": "Microsoft.AI.MachineLearning.1.15.1.zip",
+    "package": "Microsoft.AI.MachineLearning.{version}.zip",
+    "size": 38814517
+  },
+  {
+    "date": "2023-06-16T21:12:02Z",
+    "version": "v1.15.1",
+    "name": "Microsoft.ML.OnnxRuntime.DirectML.1.15.1.zip",
+    "package": "Microsoft.ML.OnnxRuntime.DirectML.{version}.zip",
+    "size": 18069938
+  },
+  {
+    "date": "2023-06-16T21:12:02Z",
+    "version": "v1.15.1",
+    "name": "onnxruntime-linux-aarch64-1.15.1.tgz",
+    "package": "onnxruntime-linux-aarch64-{version}.tgz",
+    "size": 6018864
+  },
+  {
+    "date": "2023-06-16T21:12:02Z",
+    "version": "v1.15.1",
+    "name": "onnxruntime-linux-x64-1.15.1.tgz",
+    "package": "onnxruntime-linux-x64-{version}.tgz",
+    "size": 6383317
+  },
+  {
+    "date": "2023-06-16T21:12:02Z",
+    "version": "v1.15.1",
+    "name": "onnxruntime-linux-x64-gpu-1.15.1.tgz",
+    "package": "onnxruntime-linux-x64-gpu-{version}.tgz",
+    "size": 122280787
+  },
+  {
+    "date": "2023-06-16T21:12:02Z",
+    "version": "v1.15.1",
+    "name": "onnxruntime-osx-arm64-1.15.1.tgz",
+    "package": "onnxruntime-osx-arm64-{version}.tgz",
+    "size": 6834760
+  },
+  {
+    "date": "2023-06-16T21:12:02Z",
+    "version": "v1.15.1",
+    "name": "onnxruntime-osx-universal2-1.15.1.tgz",
+    "package": "onnxruntime-osx-universal2-{version}.tgz",
+    "size": 14397593
+  },
+  {
+    "date": "2023-06-16T21:12:02Z",
+    "version": "v1.15.1",
+    "name": "onnxruntime-osx-x86_64-1.15.1.tgz",
+    "package": "onnxruntime-osx-x86_64-{version}.tgz",
+    "size": 7681555
+  },
+  {
+    "date": "2023-06-16T21:12:02Z",
+    "version": "v1.15.1",
+    "name": "onnxruntime-training-linux-aarch64-1.15.1.tgz",
+    "package": "onnxruntime-training-linux-aarch64-{version}.tgz",
+    "size": 6520332
+  },
+  {
+    "date": "2023-06-16T21:12:02Z",
+    "version": "v1.15.1",
+    "name": "onnxruntime-training-linux-x64-1.15.1.tgz",
+    "package": "onnxruntime-training-linux-x64-{version}.tgz",
+    "size": 6945279
+  },
+  {
+    "date": "2023-06-16T21:12:02Z",
+    "version": "v1.15.1",
+    "name": "onnxruntime-training-win-arm-1.15.1.zip",
+    "package": "onnxruntime-training-win-arm-{version}.zip",
+    "size": 43209846
+  },
+  {
+    "date": "2023-06-16T21:12:02Z",
+    "version": "v1.15.1",
+    "name": "onnxruntime-training-win-arm64-1.15.1.zip",
+    "package": "onnxruntime-training-win-arm64-{version}.zip",
+    "size": 45590762
+  },
+  {
+    "date": "2023-06-16T21:12:02Z",
+    "version": "v1.15.1",
+    "name": "onnxruntime-training-win-x64-1.15.1.zip",
+    "package": "onnxruntime-training-win-x64-{version}.zip",
+    "size": 46830292
+  },
+  {
+    "date": "2023-06-16T21:12:02Z",
+    "version": "v1.15.1",
+    "name": "onnxruntime-training-win-x86-1.15.1.zip",
+    "package": "onnxruntime-training-win-x86-{version}.zip",
+    "size": 45561016
+  },
+  {
+    "date": "2023-06-16T21:12:02Z",
+    "version": "v1.15.1",
+    "name": "onnxruntime-win-arm-1.15.1.zip",
+    "package": "onnxruntime-win-arm-{version}.zip",
+    "size": 39599040
+  },
+  {
+    "date": "2023-06-16T21:12:02Z",
+    "version": "v1.15.1",
+    "name": "onnxruntime-win-arm64-1.15.1.zip",
+    "package": "onnxruntime-win-arm64-{version}.zip",
+    "size": 42170102
+  },
+  {
+    "date": "2023-06-16T21:12:02Z",
+    "version": "v1.15.1",
+    "name": "onnxruntime-win-x64-1.15.1.zip",
+    "package": "onnxruntime-win-x64-{version}.zip",
+    "size": 43003399
+  },
+  {
+    "date": "2023-06-16T21:12:02Z",
+    "version": "v1.15.1",
+    "name": "onnxruntime-win-x64-gpu-1.15.1.zip",
+    "package": "onnxruntime-win-x64-gpu-{version}.zip",
+    "size": 173498549
+  },
+  {
+    "date": "2023-06-16T21:12:02Z",
+    "version": "v1.15.1",
+    "name": "onnxruntime-win-x86-1.15.1.zip",
+    "package": "onnxruntime-win-x86-{version}.zip",
+    "size": 41813677
+  },
+  {
+    "date": "2023-09-20T21:27:50Z",
+    "version": "v1.16.0",
+    "name": "Microsoft.AI.MachineLearning.1.16.0.symbols.zip",
+    "package": "Microsoft.AI.MachineLearning.{version}.symbols.zip",
+    "size": 283481087
+  },
+  {
+    "date": "2023-09-20T21:27:50Z",
+    "version": "v1.16.0",
+    "name": "Microsoft.AI.MachineLearning.1.16.0.zip",
+    "package": "Microsoft.AI.MachineLearning.{version}.zip",
+    "size": 40479130
+  },
+  {
+    "date": "2023-09-20T21:27:50Z",
+    "version": "v1.16.0",
+    "name": "Microsoft.ML.OnnxRuntime.DirectML.1.16.0.zip",
+    "package": "Microsoft.ML.OnnxRuntime.DirectML.{version}.zip",
+    "size": 5184101
+  },
+  {
+    "date": "2023-09-20T21:27:50Z",
+    "version": "v1.16.0",
+    "name": "onnxruntime-linux-aarch64-1.16.0.tgz",
+    "package": "onnxruntime-linux-aarch64-{version}.tgz",
+    "size": 6195708
+  },
+  {
+    "date": "2023-09-20T21:27:50Z",
+    "version": "v1.16.0",
+    "name": "onnxruntime-linux-x64-1.16.0.tgz",
+    "package": "onnxruntime-linux-x64-{version}.tgz",
+    "size": 6595973
+  },
+  {
+    "date": "2023-09-20T21:27:50Z",
+    "version": "v1.16.0",
+    "name": "onnxruntime-linux-x64-gpu-1.16.0.tgz",
+    "package": "onnxruntime-linux-x64-gpu-{version}.tgz",
+    "size": 131364943
+  },
+  {
+    "date": "2023-09-20T21:27:50Z",
+    "version": "v1.16.0",
+    "name": "onnxruntime-osx-arm64-1.16.0.tgz",
+    "package": "onnxruntime-osx-arm64-{version}.tgz",
+    "size": 6684221
+  },
+  {
+    "date": "2023-09-20T21:27:50Z",
+    "version": "v1.16.0",
+    "name": "onnxruntime-osx-universal2-1.16.0.tgz",
+    "package": "onnxruntime-osx-universal2-{version}.tgz",
+    "size": 14123636
+  },
+  {
+    "date": "2023-09-20T21:27:50Z",
+    "version": "v1.16.0",
+    "name": "onnxruntime-osx-x86_64-1.16.0.tgz",
+    "package": "onnxruntime-osx-x86_64-{version}.tgz",
+    "size": 7560832
+  },
+  {
+    "date": "2023-09-20T21:27:50Z",
+    "version": "v1.16.0",
+    "name": "onnxruntime-training-linux-aarch64-1.16.0.tgz",
+    "package": "onnxruntime-training-linux-aarch64-{version}.tgz",
+    "size": 6734911
+  },
+  {
+    "date": "2023-09-20T21:27:50Z",
+    "version": "v1.16.0",
+    "name": "onnxruntime-training-linux-x64-1.16.0.tgz",
+    "package": "onnxruntime-training-linux-x64-{version}.tgz",
+    "size": 7186904
+  },
+  {
+    "date": "2023-09-20T21:27:50Z",
+    "version": "v1.16.0",
+    "name": "onnxruntime-training-win-arm-1.16.0.zip",
+    "package": "onnxruntime-training-win-arm-{version}.zip",
+    "size": 57186310
+  },
+  {
+    "date": "2023-09-20T21:27:50Z",
+    "version": "v1.16.0",
+    "name": "onnxruntime-training-win-arm64-1.16.0.zip",
+    "package": "onnxruntime-training-win-arm64-{version}.zip",
+    "size": 60007396
+  },
+  {
+    "date": "2023-09-20T21:27:50Z",
+    "version": "v1.16.0",
+    "name": "onnxruntime-training-win-x64-1.16.0.zip",
+    "package": "onnxruntime-training-win-x64-{version}.zip",
+    "size": 59941146
+  },
+  {
+    "date": "2023-09-20T21:27:50Z",
+    "version": "v1.16.0",
+    "name": "onnxruntime-training-win-x86-1.16.0.zip",
+    "package": "onnxruntime-training-win-x86-{version}.zip",
+    "size": 59540545
+  },
+  {
+    "date": "2023-09-20T21:27:50Z",
+    "version": "v1.16.0",
+    "name": "onnxruntime-win-arm-1.16.0.zip",
+    "package": "onnxruntime-win-arm-{version}.zip",
+    "size": 52647826
+  },
+  {
+    "date": "2023-09-20T21:27:50Z",
+    "version": "v1.16.0",
+    "name": "onnxruntime-win-arm64-1.16.0.zip",
+    "package": "onnxruntime-win-arm64-{version}.zip",
+    "size": 55176986
+  },
+  {
+    "date": "2023-09-20T21:27:50Z",
+    "version": "v1.16.0",
+    "name": "onnxruntime-win-x64-1.16.0.zip",
+    "package": "onnxruntime-win-x64-{version}.zip",
+    "size": 54991693
+  },
+  {
+    "date": "2023-09-20T21:27:50Z",
+    "version": "v1.16.0",
+    "name": "onnxruntime-win-x64-gpu-1.16.0.zip",
+    "package": "onnxruntime-win-x64-gpu-{version}.zip",
+    "size": 175524077
+  },
+  {
+    "date": "2023-09-20T21:27:50Z",
+    "version": "v1.16.0",
+    "name": "onnxruntime-win-x86-1.16.0.zip",
+    "package": "onnxruntime-win-x86-{version}.zip",
+    "size": 55008641
+  },
+  {
+    "date": "2023-10-11T18:28:30Z",
+    "version": "v1.16.1",
+    "name": "Microsoft.AI.MachineLearning.1.16.1.symbols.zip",
+    "package": "Microsoft.AI.MachineLearning.{version}.symbols.zip",
+    "size": 284060033
+  },
+  {
+    "date": "2023-10-11T18:28:30Z",
+    "version": "v1.16.1",
+    "name": "Microsoft.AI.MachineLearning.1.16.1.zip",
+    "package": "Microsoft.AI.MachineLearning.{version}.zip",
+    "size": 40488802
+  },
+  {
+    "date": "2023-10-11T18:28:30Z",
+    "version": "v1.16.1",
+    "name": "Microsoft.ML.OnnxRuntime.DirectML.1.16.1.zip",
+    "package": "Microsoft.ML.OnnxRuntime.DirectML.{version}.zip",
+    "size": 5184344
+  },
+  {
+    "date": "2023-10-11T18:28:30Z",
+    "version": "v1.16.1",
+    "name": "onnxruntime-linux-aarch64-1.16.1.tgz",
+    "package": "onnxruntime-linux-aarch64-{version}.tgz",
+    "size": 6196538
+  },
+  {
+    "date": "2023-10-11T18:28:30Z",
+    "version": "v1.16.1",
+    "name": "onnxruntime-linux-x64-1.16.1.tgz",
+    "package": "onnxruntime-linux-x64-{version}.tgz",
+    "size": 6598316
+  },
+  {
+    "date": "2023-10-11T18:28:30Z",
+    "version": "v1.16.1",
+    "name": "onnxruntime-linux-x64-gpu-1.16.1.tgz",
+    "package": "onnxruntime-linux-x64-gpu-{version}.tgz",
+    "size": 131360248
+  },
+  {
+    "date": "2023-10-11T18:28:30Z",
+    "version": "v1.16.1",
+    "name": "onnxruntime-osx-arm64-1.16.1.tgz",
+    "package": "onnxruntime-osx-arm64-{version}.tgz",
+    "size": 6690206
+  },
+  {
+    "date": "2023-10-11T18:28:30Z",
+    "version": "v1.16.1",
+    "name": "onnxruntime-osx-universal2-1.16.1.tgz",
+    "package": "onnxruntime-osx-universal2-{version}.tgz",
+    "size": 14133492
+  },
+  {
+    "date": "2023-10-11T18:28:30Z",
+    "version": "v1.16.1",
+    "name": "onnxruntime-osx-x86_64-1.16.1.tgz",
+    "package": "onnxruntime-osx-x86_64-{version}.tgz",
+    "size": 7568714
+  },
+  {
+    "date": "2023-10-11T18:28:30Z",
+    "version": "v1.16.1",
+    "name": "onnxruntime-training-linux-aarch64-1.16.1.tgz",
+    "package": "onnxruntime-training-linux-aarch64-{version}.tgz",
+    "size": 6738976
+  },
+  {
+    "date": "2023-10-11T18:28:30Z",
+    "version": "v1.16.1",
+    "name": "onnxruntime-training-linux-x64-1.16.1.tgz",
+    "package": "onnxruntime-training-linux-x64-{version}.tgz",
+    "size": 7187960
+  },
+  {
+    "date": "2023-10-11T18:28:30Z",
+    "version": "v1.16.1",
+    "name": "onnxruntime-training-win-arm-1.16.1.zip",
+    "package": "onnxruntime-training-win-arm-{version}.zip",
+    "size": 57189636
+  },
+  {
+    "date": "2023-10-11T18:28:30Z",
+    "version": "v1.16.1",
+    "name": "onnxruntime-training-win-arm64-1.16.1.zip",
+    "package": "onnxruntime-training-win-arm64-{version}.zip",
+    "size": 60068390
+  },
+  {
+    "date": "2023-10-11T18:28:30Z",
+    "version": "v1.16.1",
+    "name": "onnxruntime-training-win-x64-1.16.1.zip",
+    "package": "onnxruntime-training-win-x64-{version}.zip",
+    "size": 59788088
+  },
+  {
+    "date": "2023-10-11T18:28:30Z",
+    "version": "v1.16.1",
+    "name": "onnxruntime-training-win-x86-1.16.1.zip",
+    "package": "onnxruntime-training-win-x86-{version}.zip",
+    "size": 58880724
+  },
+  {
+    "date": "2023-10-11T18:28:30Z",
+    "version": "v1.16.1",
+    "name": "onnxruntime-win-arm-1.16.1.zip",
+    "package": "onnxruntime-win-arm-{version}.zip",
+    "size": 52823170
+  },
+  {
+    "date": "2023-10-11T18:28:30Z",
+    "version": "v1.16.1",
+    "name": "onnxruntime-win-arm64-1.16.1.zip",
+    "package": "onnxruntime-win-arm64-{version}.zip",
+    "size": 55424293
+  },
+  {
+    "date": "2023-10-11T18:28:30Z",
+    "version": "v1.16.1",
+    "name": "onnxruntime-win-x64-1.16.1.zip",
+    "package": "onnxruntime-win-x64-{version}.zip",
+    "size": 55050537
+  },
+  {
+    "date": "2023-10-11T18:28:30Z",
+    "version": "v1.16.1",
+    "name": "onnxruntime-win-x64-gpu-1.16.1.zip",
+    "package": "onnxruntime-win-x64-gpu-{version}.zip",
+    "size": 175278784
+  },
+  {
+    "date": "2023-10-11T18:28:30Z",
+    "version": "v1.16.1",
+    "name": "onnxruntime-win-x86-1.16.1.zip",
+    "package": "onnxruntime-win-x86-{version}.zip",
+    "size": 54330453
+  },
+  {
+    "date": "2023-11-09T12:08:24Z",
+    "version": "v1.16.2",
+    "name": "Microsoft.AI.MachineLearning.1.16.2.symbols.zip",
+    "package": "Microsoft.AI.MachineLearning.{version}.symbols.zip",
+    "size": 286854275
+  },
+  {
+    "date": "2023-11-09T12:08:24Z",
+    "version": "v1.16.2",
+    "name": "Microsoft.AI.MachineLearning.1.16.2.zip",
+    "package": "Microsoft.AI.MachineLearning.{version}.zip",
+    "size": 40887552
+  },
+  {
+    "date": "2023-11-09T12:08:24Z",
+    "version": "v1.16.2",
+    "name": "Microsoft.ML.OnnxRuntime.DirectML.1.16.2.zip",
+    "package": "Microsoft.ML.OnnxRuntime.DirectML.{version}.zip",
+    "size": 5238442
+  },
+  {
+    "date": "2023-11-09T12:08:24Z",
+    "version": "v1.16.2",
+    "name": "onnxruntime-linux-aarch64-1.16.2.tgz",
+    "package": "onnxruntime-linux-aarch64-{version}.tgz",
+    "size": 6254974
+  },
+  {
+    "date": "2023-11-09T12:08:24Z",
+    "version": "v1.16.2",
+    "name": "onnxruntime-linux-x64-1.16.2.tgz",
+    "package": "onnxruntime-linux-x64-{version}.tgz",
+    "size": 6656336
+  },
+  {
+    "date": "2023-11-09T12:08:24Z",
+    "version": "v1.16.2",
+    "name": "onnxruntime-linux-x64-gpu-1.16.2.tgz",
+    "package": "onnxruntime-linux-x64-gpu-{version}.tgz",
+    "size": 136715070
+  },
+  {
+    "date": "2023-11-09T12:08:24Z",
+    "version": "v1.16.2",
+    "name": "onnxruntime-osx-arm64-1.16.2.tgz",
+    "package": "onnxruntime-osx-arm64-{version}.tgz",
+    "size": 6729793
+  },
+  {
+    "date": "2023-11-09T12:08:24Z",
+    "version": "v1.16.2",
+    "name": "onnxruntime-osx-universal2-1.16.2.tgz",
+    "package": "onnxruntime-osx-universal2-{version}.tgz",
+    "size": 14207696
+  },
+  {
+    "date": "2023-11-09T12:08:24Z",
+    "version": "v1.16.2",
+    "name": "onnxruntime-osx-x86_64-1.16.2.tgz",
+    "package": "onnxruntime-osx-x86_64-{version}.tgz",
+    "size": 7606804
+  },
+  {
+    "date": "2023-11-09T12:08:24Z",
+    "version": "v1.16.2",
+    "name": "onnxruntime-training-linux-aarch64-1.16.2.tgz",
+    "package": "onnxruntime-training-linux-aarch64-{version}.tgz",
+    "size": 6799840
+  },
+  {
+    "date": "2023-11-09T12:08:24Z",
+    "version": "v1.16.2",
+    "name": "onnxruntime-training-linux-x64-1.16.2.tgz",
+    "package": "onnxruntime-training-linux-x64-{version}.tgz",
+    "size": 7250201
+  },
+  {
+    "date": "2023-11-09T12:08:24Z",
+    "version": "v1.16.2",
+    "name": "onnxruntime-training-win-arm-1.16.2.zip",
+    "package": "onnxruntime-training-win-arm-{version}.zip",
+    "size": 57892739
+  },
+  {
+    "date": "2023-11-09T12:08:24Z",
+    "version": "v1.16.2",
+    "name": "onnxruntime-training-win-arm64-1.16.2.zip",
+    "package": "onnxruntime-training-win-arm64-{version}.zip",
+    "size": 60162700
+  },
+  {
+    "date": "2023-11-09T12:08:24Z",
+    "version": "v1.16.2",
+    "name": "onnxruntime-training-win-x64-1.16.2.zip",
+    "package": "onnxruntime-training-win-x64-{version}.zip",
+    "size": 60267354
+  },
+  {
+    "date": "2023-11-09T12:08:24Z",
+    "version": "v1.16.2",
+    "name": "onnxruntime-training-win-x86-1.16.2.zip",
+    "package": "onnxruntime-training-win-x86-{version}.zip",
+    "size": 59740473
+  },
+  {
+    "date": "2023-11-09T12:08:24Z",
+    "version": "v1.16.2",
+    "name": "onnxruntime-win-arm-1.16.2.zip",
+    "package": "onnxruntime-win-arm-{version}.zip",
+    "size": 52762894
+  },
+  {
+    "date": "2023-11-09T12:08:24Z",
+    "version": "v1.16.2",
+    "name": "onnxruntime-win-arm64-1.16.2.zip",
+    "package": "onnxruntime-win-arm64-{version}.zip",
+    "size": 55696409
+  },
+  {
+    "date": "2023-11-09T12:08:24Z",
+    "version": "v1.16.2",
+    "name": "onnxruntime-win-x64-1.16.2.zip",
+    "package": "onnxruntime-win-x64-{version}.zip",
+    "size": 55050496
+  },
+  {
+    "date": "2023-11-09T12:08:24Z",
+    "version": "v1.16.2",
+    "name": "onnxruntime-win-x64-gpu-1.16.2.zip",
+    "package": "onnxruntime-win-x64-gpu-{version}.zip",
+    "size": 188686224
+  },
+  {
+    "date": "2023-11-09T12:08:24Z",
+    "version": "v1.16.2",
+    "name": "onnxruntime-win-x86-1.16.2.zip",
+    "package": "onnxruntime-win-x86-{version}.zip",
+    "size": 55031856
+  },
+  {
+    "date": "2023-11-20T20:51:56Z",
+    "version": "v1.16.3",
+    "name": "Microsoft.AI.MachineLearning.1.16.3.symbols.zip",
+    "package": "Microsoft.AI.MachineLearning.{version}.symbols.zip",
+    "size": 287612566
+  },
+  {
+    "date": "2023-11-20T20:51:56Z",
+    "version": "v1.16.3",
+    "name": "Microsoft.AI.MachineLearning.1.16.3.zip",
+    "package": "Microsoft.AI.MachineLearning.{version}.zip",
+    "size": 40889161
+  },
+  {
+    "date": "2023-11-20T20:51:56Z",
+    "version": "v1.16.3",
+    "name": "Microsoft.ML.OnnxRuntime.DirectML.1.16.3.zip",
+    "package": "Microsoft.ML.OnnxRuntime.DirectML.{version}.zip",
+    "size": 19159261
+  },
+  {
+    "date": "2023-11-20T20:51:56Z",
+    "version": "v1.16.3",
+    "name": "onnxruntime-linux-aarch64-1.16.3.tgz",
+    "package": "onnxruntime-linux-aarch64-{version}.tgz",
+    "size": 6251265
+  },
+  {
+    "date": "2023-11-20T20:51:56Z",
+    "version": "v1.16.3",
+    "name": "onnxruntime-linux-x64-1.16.3.tgz",
+    "package": "onnxruntime-linux-x64-{version}.tgz",
+    "size": 6656265
+  },
+  {
+    "date": "2023-11-20T20:51:56Z",
+    "version": "v1.16.3",
+    "name": "onnxruntime-linux-x64-gpu-1.16.3.tgz",
+    "package": "onnxruntime-linux-x64-gpu-{version}.tgz",
+    "size": 136722770
+  },
+  {
+    "date": "2023-11-20T20:51:56Z",
+    "version": "v1.16.3",
+    "name": "onnxruntime-osx-arm64-1.16.3.tgz",
+    "package": "onnxruntime-osx-arm64-{version}.tgz",
+    "size": 6734362
+  },
+  {
+    "date": "2023-11-20T20:51:56Z",
+    "version": "v1.16.3",
+    "name": "onnxruntime-osx-universal2-1.16.3.tgz",
+    "package": "onnxruntime-osx-universal2-{version}.tgz",
+    "size": 14407204
+  },
+  {
+    "date": "2023-11-20T20:51:56Z",
+    "version": "v1.16.3",
+    "name": "onnxruntime-osx-x86_64-1.16.3.tgz",
+    "package": "onnxruntime-osx-x86_64-{version}.tgz",
+    "size": 7801205
+  },
+  {
+    "date": "2023-11-20T20:51:56Z",
+    "version": "v1.16.3",
+    "name": "onnxruntime-training-linux-aarch64-1.16.3.tgz",
+    "package": "onnxruntime-training-linux-aarch64-{version}.tgz",
+    "size": 6798958
+  },
+  {
+    "date": "2023-11-20T20:51:56Z",
+    "version": "v1.16.3",
+    "name": "onnxruntime-training-linux-x64-1.16.3.tgz",
+    "package": "onnxruntime-training-linux-x64-{version}.tgz",
+    "size": 7250101
+  },
+  {
+    "date": "2023-11-20T20:51:56Z",
+    "version": "v1.16.3",
+    "name": "onnxruntime-training-win-arm-1.16.3.zip",
+    "package": "onnxruntime-training-win-arm-{version}.zip",
+    "size": 57406241
+  },
+  {
+    "date": "2023-11-20T20:51:56Z",
+    "version": "v1.16.3",
+    "name": "onnxruntime-training-win-arm64-1.16.3.zip",
+    "package": "onnxruntime-training-win-arm64-{version}.zip",
+    "size": 60247984
+  },
+  {
+    "date": "2023-11-20T20:51:56Z",
+    "version": "v1.16.3",
+    "name": "onnxruntime-training-win-x64-1.16.3.zip",
+    "package": "onnxruntime-training-win-x64-{version}.zip",
+    "size": 60327149
+  },
+  {
+    "date": "2023-11-20T20:51:56Z",
+    "version": "v1.16.3",
+    "name": "onnxruntime-training-win-x86-1.16.3.zip",
+    "package": "onnxruntime-training-win-x86-{version}.zip",
+    "size": 59320466
+  },
+  {
+    "date": "2023-11-20T20:51:56Z",
+    "version": "v1.16.3",
+    "name": "onnxruntime-win-arm-1.16.3.zip",
+    "package": "onnxruntime-win-arm-{version}.zip",
+    "size": 53157005
+  },
+  {
+    "date": "2023-11-20T20:51:56Z",
+    "version": "v1.16.3",
+    "name": "onnxruntime-win-arm64-1.16.3.zip",
+    "package": "onnxruntime-win-arm64-{version}.zip",
+    "size": 55485418
+  },
+  {
+    "date": "2023-11-20T20:51:56Z",
+    "version": "v1.16.3",
+    "name": "onnxruntime-win-x64-1.16.3.zip",
+    "package": "onnxruntime-win-x64-{version}.zip",
+    "size": 55808388
+  },
+  {
+    "date": "2023-11-20T20:51:56Z",
+    "version": "v1.16.3",
+    "name": "onnxruntime-win-x64-gpu-1.16.3.zip",
+    "package": "onnxruntime-win-x64-gpu-{version}.zip",
+    "size": 188535504
+  },
+  {
+    "date": "2023-11-20T20:51:56Z",
+    "version": "v1.16.3",
+    "name": "onnxruntime-win-x86-1.16.3.zip",
+    "package": "onnxruntime-win-x86-{version}.zip",
+    "size": 54872219
+  },
+  {
+    "date": "2024-02-03T00:25:21Z",
+    "version": "v1.17.0",
+    "name": "Microsoft.AI.MachineLearning.1.17.0.symbols.zip",
+    "package": "Microsoft.AI.MachineLearning.{version}.symbols.zip",
+    "size": 235627432
+  },
+  {
+    "date": "2024-02-03T00:25:21Z",
+    "version": "v1.17.0",
+    "name": "Microsoft.AI.MachineLearning.1.17.0.zip",
+    "package": "Microsoft.AI.MachineLearning.{version}.zip",
+    "size": 30989994
+  },
+  {
+    "date": "2024-02-03T00:25:21Z",
+    "version": "v1.17.0",
+    "name": "Microsoft.ML.OnnxRuntime.DirectML.1.17.0.zip",
+    "package": "Microsoft.ML.OnnxRuntime.DirectML.{version}.zip",
+    "size": 5393286
+  },
+  {
+    "date": "2024-02-03T00:25:21Z",
+    "version": "v1.17.0",
+    "name": "onnxruntime-linux-aarch64-1.17.0.tgz",
+    "package": "onnxruntime-linux-aarch64-{version}.tgz",
+    "size": 4914616
+  },
+  {
+    "date": "2024-02-03T00:25:21Z",
+    "version": "v1.17.0",
+    "name": "onnxruntime-linux-x64-1.17.0.tgz",
+    "package": "onnxruntime-linux-x64-{version}.tgz",
+    "size": 5786918
+  },
+  {
+    "date": "2024-02-03T00:25:21Z",
+    "version": "v1.17.0",
+    "name": "onnxruntime-linux-x64-cuda12-1.17.0.tgz",
+    "package": "onnxruntime-linux-x64-cuda12-{version}.tgz",
+    "size": 169101500
+  },
+  {
+    "date": "2024-02-03T00:25:21Z",
+    "version": "v1.17.0",
+    "name": "onnxruntime-linux-x64-gpu-1.17.0.tgz",
+    "package": "onnxruntime-linux-x64-gpu-{version}.tgz",
+    "size": 170777146
+  },
+  {
+    "date": "2024-02-03T00:25:21Z",
+    "version": "v1.17.0",
+    "name": "onnxruntime-osx-arm64-1.17.0.tgz",
+    "package": "onnxruntime-osx-arm64-{version}.tgz",
+    "size": 7243646
+  },
+  {
+    "date": "2024-02-03T00:25:21Z",
+    "version": "v1.17.0",
+    "name": "onnxruntime-osx-universal2-1.17.0.tgz",
+    "package": "onnxruntime-osx-universal2-{version}.tgz",
+    "size": 15157722
+  },
+  {
+    "date": "2024-02-03T00:25:21Z",
+    "version": "v1.17.0",
+    "name": "onnxruntime-osx-x86_64-1.17.0.tgz",
+    "package": "onnxruntime-osx-x86_64-{version}.tgz",
+    "size": 8048246
+  },
+  {
+    "date": "2024-02-03T00:25:21Z",
+    "version": "v1.17.0",
+    "name": "onnxruntime-training-linux-aarch64-1.17.0.tgz",
+    "package": "onnxruntime-training-linux-aarch64-{version}.tgz",
+    "size": 5289741
+  },
+  {
+    "date": "2024-02-03T00:25:21Z",
+    "version": "v1.17.0",
+    "name": "onnxruntime-training-linux-x64-1.17.0.tgz",
+    "package": "onnxruntime-training-linux-x64-{version}.tgz",
+    "size": 6229945
+  },
+  {
+    "date": "2024-02-03T00:25:21Z",
+    "version": "v1.17.0",
+    "name": "onnxruntime-training-win-arm-1.17.0.zip",
+    "package": "onnxruntime-training-win-arm-{version}.zip",
+    "size": 62833644
+  },
+  {
+    "date": "2024-02-03T00:25:21Z",
+    "version": "v1.17.0",
+    "name": "onnxruntime-training-win-arm64-1.17.0.zip",
+    "package": "onnxruntime-training-win-arm64-{version}.zip",
+    "size": 65574935
+  },
+  {
+    "date": "2024-02-03T00:25:21Z",
+    "version": "v1.17.0",
+    "name": "onnxruntime-training-win-x64-1.17.0.zip",
+    "package": "onnxruntime-training-win-x64-{version}.zip",
+    "size": 66572381
+  },
+  {
+    "date": "2024-02-03T00:25:21Z",
+    "version": "v1.17.0",
+    "name": "onnxruntime-training-win-x86-1.17.0.zip",
+    "package": "onnxruntime-training-win-x86-{version}.zip",
+    "size": 65372781
+  },
+  {
+    "date": "2024-02-03T00:25:21Z",
+    "version": "v1.17.0",
+    "name": "onnxruntime-win-arm64-1.17.0.zip",
+    "package": "onnxruntime-win-arm64-{version}.zip",
+    "size": 60197868
+  },
+  {
+    "date": "2024-02-03T00:25:21Z",
+    "version": "v1.17.0",
+    "name": "onnxruntime-win-x64-1.17.0.zip",
+    "package": "onnxruntime-win-x64-{version}.zip",
+    "size": 62057123
+  },
+  {
+    "date": "2024-02-03T00:25:21Z",
+    "version": "v1.17.0",
+    "name": "onnxruntime-win-x64-cuda12-1.17.0.zip",
+    "package": "onnxruntime-win-x64-cuda12-{version}.zip",
+    "size": 194299728
+  },
+  {
+    "date": "2024-02-03T00:25:21Z",
+    "version": "v1.17.0",
+    "name": "onnxruntime-win-x64-gpu-1.17.0.zip",
+    "package": "onnxruntime-win-x64-gpu-{version}.zip",
+    "size": 200895157
+  },
+  {
+    "date": "2024-02-03T00:25:21Z",
+    "version": "v1.17.0",
+    "name": "onnxruntime-win-x86-1.17.0.zip",
+    "package": "onnxruntime-win-x86-{version}.zip",
+    "size": 60181686
+  },
+  {
+    "date": "2024-02-27T18:34:20Z",
+    "version": "v1.17.1",
+    "name": "Microsoft.AI.MachineLearning.1.17.1.nupkg",
+    "package": "Microsoft.AI.MachineLearning.{version}.nupkg",
+    "size": 30774091
+  },
+  {
+    "date": "2024-02-27T18:34:20Z",
+    "version": "v1.17.1",
+    "name": "Microsoft.ML.OnnxRuntime.DirectML.1.17.1.zip",
+    "package": "Microsoft.ML.OnnxRuntime.DirectML.{version}.zip",
+    "size": 14350209
+  },
+  {
+    "date": "2024-02-27T18:34:20Z",
+    "version": "v1.17.1",
+    "name": "onnxruntime-linux-aarch64-1.17.1.tgz",
+    "package": "onnxruntime-linux-aarch64-{version}.tgz",
+    "size": 4916127
+  },
+  {
+    "date": "2024-02-27T18:34:20Z",
+    "version": "v1.17.1",
+    "name": "onnxruntime-linux-x64-1.17.1.tgz",
+    "package": "onnxruntime-linux-x64-{version}.tgz",
+    "size": 5783432
+  },
+  {
+    "date": "2024-02-27T18:34:20Z",
+    "version": "v1.17.1",
+    "name": "onnxruntime-linux-x64-cuda12-1.17.1.tgz",
+    "package": "onnxruntime-linux-x64-cuda12-{version}.tgz",
+    "size": 169107313
+  },
+  {
+    "date": "2024-02-27T18:34:20Z",
+    "version": "v1.17.1",
+    "name": "onnxruntime-linux-x64-gpu-1.17.1.tgz",
+    "package": "onnxruntime-linux-x64-gpu-{version}.tgz",
+    "size": 170787228
+  },
+  {
+    "date": "2024-02-27T18:34:20Z",
+    "version": "v1.17.1",
+    "name": "onnxruntime-osx-arm64-1.17.1.tgz",
+    "package": "onnxruntime-osx-arm64-{version}.tgz",
+    "size": 7243473
+  },
+  {
+    "date": "2024-02-27T18:34:20Z",
+    "version": "v1.17.1",
+    "name": "onnxruntime-osx-universal2-1.17.1.tgz",
+    "package": "onnxruntime-osx-universal2-{version}.tgz",
+    "size": 15158896
+  },
+  {
+    "date": "2024-02-27T18:34:20Z",
+    "version": "v1.17.1",
+    "name": "onnxruntime-osx-x86_64-1.17.1.tgz",
+    "package": "onnxruntime-osx-x86_64-{version}.tgz",
+    "size": 8048330
+  },
+  {
+    "date": "2024-02-27T18:34:20Z",
+    "version": "v1.17.1",
+    "name": "onnxruntime-training-linux-aarch64-1.17.1.tgz",
+    "package": "onnxruntime-training-linux-aarch64-{version}.tgz",
+    "size": 5285540
+  },
+  {
+    "date": "2024-02-27T18:34:20Z",
+    "version": "v1.17.1",
+    "name": "onnxruntime-training-linux-x64-1.17.1.tgz",
+    "package": "onnxruntime-training-linux-x64-{version}.tgz",
+    "size": 6230297
+  },
+  {
+    "date": "2024-02-27T18:34:20Z",
+    "version": "v1.17.1",
+    "name": "onnxruntime-training-win-arm-1.17.1.zip",
+    "package": "onnxruntime-training-win-arm-{version}.zip",
+    "size": 62986592
+  },
+  {
+    "date": "2024-02-27T18:34:20Z",
+    "version": "v1.17.1",
+    "name": "onnxruntime-training-win-arm64-1.17.1.zip",
+    "package": "onnxruntime-training-win-arm64-{version}.zip",
+    "size": 65547227
+  },
+  {
+    "date": "2024-02-27T18:34:20Z",
+    "version": "v1.17.1",
+    "name": "onnxruntime-training-win-x64-1.17.1.zip",
+    "package": "onnxruntime-training-win-x64-{version}.zip",
+    "size": 66321978
+  },
+  {
+    "date": "2024-02-27T18:34:20Z",
+    "version": "v1.17.1",
+    "name": "onnxruntime-training-win-x86-1.17.1.zip",
+    "package": "onnxruntime-training-win-x86-{version}.zip",
+    "size": 64732068
+  },
+  {
+    "date": "2024-02-27T18:34:20Z",
+    "version": "v1.17.1",
+    "name": "onnxruntime-win-arm64-1.17.1.zip",
+    "package": "onnxruntime-win-arm64-{version}.zip",
+    "size": 61136338
+  },
+  {
+    "date": "2024-02-27T18:34:20Z",
+    "version": "v1.17.1",
+    "name": "onnxruntime-win-x64-1.17.1.zip",
+    "package": "onnxruntime-win-x64-{version}.zip",
+    "size": 61193481
+  },
+  {
+    "date": "2024-02-27T18:34:20Z",
+    "version": "v1.17.1",
+    "name": "onnxruntime-win-x64-cuda12-1.17.1.zip",
+    "package": "onnxruntime-win-x64-cuda12-{version}.zip",
+    "size": 195148150
+  },
+  {
+    "date": "2024-02-27T18:34:20Z",
+    "version": "v1.17.1",
+    "name": "onnxruntime-win-x64-gpu-1.17.1.zip",
+    "package": "onnxruntime-win-x64-gpu-{version}.zip",
+    "size": 200887572
+  },
+  {
+    "date": "2024-02-27T18:34:20Z",
+    "version": "v1.17.1",
+    "name": "onnxruntime-win-x86-1.17.1.zip",
+    "package": "onnxruntime-win-x86-{version}.zip",
+    "size": 60244610
+  },
+  {
+    "date": "2024-04-18T15:46:48Z",
+    "version": "v1.17.3",
+    "name": "Microsoft.AI.MachineLearning.1.17.3.nupkg",
+    "package": "Microsoft.AI.MachineLearning.{version}.nupkg",
+    "size": 31088164
+  },
+  {
+    "date": "2024-04-18T15:46:48Z",
+    "version": "v1.17.3",
+    "name": "Microsoft.ML.OnnxRuntime.DirectML.1.17.3.zip",
+    "package": "Microsoft.ML.OnnxRuntime.DirectML.{version}.zip",
+    "size": 5435374
+  },
+  {
+    "date": "2024-04-18T15:46:48Z",
+    "version": "v1.17.3",
+    "name": "Microsoft.ML.OnnxRuntime.Managed.1.17.3.nupkg",
+    "package": "Microsoft.ML.OnnxRuntime.Managed.{version}.nupkg",
+    "size": 649837
+  },
+  {
+    "date": "2024-04-18T15:46:48Z",
+    "version": "v1.17.3",
+    "name": "onnxruntime-linux-aarch64-1.17.3.tgz",
+    "package": "onnxruntime-linux-aarch64-{version}.tgz",
+    "size": 4923627
+  },
+  {
+    "date": "2024-04-18T15:46:48Z",
+    "version": "v1.17.3",
+    "name": "onnxruntime-linux-x64-1.17.3.tgz",
+    "package": "onnxruntime-linux-x64-{version}.tgz",
+    "size": 5796502
+  },
+  {
+    "date": "2024-04-18T15:46:48Z",
+    "version": "v1.17.3",
+    "name": "onnxruntime-linux-x64-gpu-1.17.3.tgz",
+    "package": "onnxruntime-linux-x64-gpu-{version}.tgz",
+    "size": 170820965
+  },
+  {
+    "date": "2024-04-18T15:46:48Z",
+    "version": "v1.17.3",
+    "name": "onnxruntime-linux-x64-gpu-cuda12-1.17.3.tgz",
+    "package": "onnxruntime-linux-x64-gpu-cuda12-{version}.tgz",
+    "size": 171562597
+  },
+  {
+    "date": "2024-04-18T15:46:48Z",
+    "version": "v1.17.3",
+    "name": "onnxruntime-linux-x64-rocm-1.17.3.tgz",
+    "package": "onnxruntime-linux-x64-rocm-{version}.tgz",
+    "size": 109885219
+  },
+  {
+    "date": "2024-04-18T15:46:48Z",
+    "version": "v1.17.3",
+    "name": "onnxruntime-osx-arm64-1.17.3.tgz",
+    "package": "onnxruntime-osx-arm64-{version}.tgz",
+    "size": 7256903
+  },
+  {
+    "date": "2024-04-18T15:46:48Z",
+    "version": "v1.17.3",
+    "name": "onnxruntime-osx-universal2-1.17.3.tgz",
+    "package": "onnxruntime-osx-universal2-{version}.tgz",
+    "size": 15388158
+  },
+  {
+    "date": "2024-04-18T15:46:48Z",
+    "version": "v1.17.3",
+    "name": "onnxruntime-osx-x86_64-1.17.3.tgz",
+    "package": "onnxruntime-osx-x86_64-{version}.tgz",
+    "size": 8269089
+  },
+  {
+    "date": "2024-04-18T15:46:48Z",
+    "version": "v1.17.3",
+    "name": "onnxruntime-training-linux-aarch64-1.17.3.tgz",
+    "package": "onnxruntime-training-linux-aarch64-{version}.tgz",
+    "size": 5296255
+  },
+  {
+    "date": "2024-04-18T15:46:48Z",
+    "version": "v1.17.3",
+    "name": "onnxruntime-training-linux-x64-1.17.3.tgz",
+    "package": "onnxruntime-training-linux-x64-{version}.tgz",
+    "size": 6240618
+  },
+  {
+    "date": "2024-04-18T15:46:48Z",
+    "version": "v1.17.3",
+    "name": "onnxruntime-training-win-arm-1.17.3.zip",
+    "package": "onnxruntime-training-win-arm-{version}.zip",
+    "size": 62260521
+  },
+  {
+    "date": "2024-04-18T15:46:48Z",
+    "version": "v1.17.3",
+    "name": "onnxruntime-training-win-arm64-1.17.3.zip",
+    "package": "onnxruntime-training-win-arm64-{version}.zip",
+    "size": 65894340
+  },
+  {
+    "date": "2024-04-18T15:46:48Z",
+    "version": "v1.17.3",
+    "name": "onnxruntime-training-win-x64-1.17.3.zip",
+    "package": "onnxruntime-training-win-x64-{version}.zip",
+    "size": 66369321
+  },
+  {
+    "date": "2024-04-18T15:46:48Z",
+    "version": "v1.17.3",
+    "name": "onnxruntime-training-win-x86-1.17.3.zip",
+    "package": "onnxruntime-training-win-x86-{version}.zip",
+    "size": 65454554
+  },
+  {
+    "date": "2024-04-18T15:46:48Z",
+    "version": "v1.17.3",
+    "name": "onnxruntime-win-arm64-1.17.3.zip",
+    "package": "onnxruntime-win-arm64-{version}.zip",
+    "size": 60680407
+  },
+  {
+    "date": "2024-04-18T15:46:48Z",
+    "version": "v1.17.3",
+    "name": "onnxruntime-win-x64-1.17.3.zip",
+    "package": "onnxruntime-win-x64-{version}.zip",
+    "size": 62029994
+  },
+  {
+    "date": "2024-04-18T15:46:48Z",
+    "version": "v1.17.3",
+    "name": "onnxruntime-win-x64-gpu-1.17.3.zip",
+    "package": "onnxruntime-win-x64-gpu-{version}.zip",
+    "size": 201146337
+  },
+  {
+    "date": "2024-04-18T15:46:48Z",
+    "version": "v1.17.3",
+    "name": "onnxruntime-win-x64-gpu-cuda12-1.17.3.zip",
+    "package": "onnxruntime-win-x64-gpu-cuda12-{version}.zip",
+    "size": 201807814
+  },
+  {
+    "date": "2024-05-21T00:28:41Z",
+    "version": "v1.18.0",
+    "name": "Microsoft.AI.MachineLearning.1.18.0.nupkg",
+    "package": "Microsoft.AI.MachineLearning.{version}.nupkg",
+    "size": 31848573
+  },
+  {
+    "date": "2024-05-21T00:28:41Z",
+    "version": "v1.18.0",
+    "name": "Microsoft.ML.OnnxRuntime.DirectML.1.18.0.zip",
+    "package": "Microsoft.ML.OnnxRuntime.DirectML.{version}.zip",
+    "size": 14962437
+  },
+  {
+    "date": "2024-05-21T00:28:41Z",
+    "version": "v1.18.0",
+    "name": "Microsoft.ML.OnnxRuntime.Managed.1.18.0.nupkg",
+    "package": "Microsoft.ML.OnnxRuntime.Managed.{version}.nupkg",
+    "size": 1300093
+  },
+  {
+    "date": "2024-05-21T00:28:41Z",
+    "version": "v1.18.0",
+    "name": "onnxruntime-linux-aarch64-1.18.0.tgz",
+    "package": "onnxruntime-linux-aarch64-{version}.tgz",
+    "size": 5015919
+  },
+  {
+    "date": "2024-05-21T00:28:41Z",
+    "version": "v1.18.0",
+    "name": "onnxruntime-linux-x64-1.18.0.tgz",
+    "package": "onnxruntime-linux-x64-{version}.tgz",
+    "size": 5740642
+  },
+  {
+    "date": "2024-05-21T00:28:41Z",
+    "version": "v1.18.0",
+    "name": "onnxruntime-linux-x64-gpu-1.18.0.tgz",
+    "package": "onnxruntime-linux-x64-gpu-{version}.tgz",
+    "size": 177554476
+  },
+  {
+    "date": "2024-05-21T00:28:41Z",
+    "version": "v1.18.0",
+    "name": "onnxruntime-linux-x64-gpu-cuda12-1.18.0.tgz",
+    "package": "onnxruntime-linux-x64-gpu-cuda12-{version}.tgz",
+    "size": 178317346
+  },
+  {
+    "date": "2024-05-21T00:28:41Z",
+    "version": "v1.18.0",
+    "name": "onnxruntime-linux-x64-rocm-1.18.0.tgz",
+    "package": "onnxruntime-linux-x64-rocm-{version}.tgz",
+    "size": 112735424
+  },
+  {
+    "date": "2024-05-21T00:28:41Z",
+    "version": "v1.18.0",
+    "name": "onnxruntime-osx-arm64-1.18.0.tgz",
+    "package": "onnxruntime-osx-arm64-{version}.tgz",
+    "size": 7706157
+  },
+  {
+    "date": "2024-05-21T00:28:41Z",
+    "version": "v1.18.0",
+    "name": "onnxruntime-osx-universal2-1.18.0.tgz",
+    "package": "onnxruntime-osx-universal2-{version}.tgz",
+    "size": 16265848
+  },
+  {
+    "date": "2024-05-21T00:28:41Z",
+    "version": "v1.18.0",
+    "name": "onnxruntime-osx-x86_64-1.18.0.tgz",
+    "package": "onnxruntime-osx-x86_64-{version}.tgz",
+    "size": 8715016
+  },
+  {
+    "date": "2024-05-21T00:28:41Z",
+    "version": "v1.18.0",
+    "name": "onnxruntime-training-linux-aarch64-1.18.0.tgz",
+    "package": "onnxruntime-training-linux-aarch64-{version}.tgz",
+    "size": 5402072
+  },
+  {
+    "date": "2024-05-21T00:28:41Z",
+    "version": "v1.18.0",
+    "name": "onnxruntime-training-linux-x64-1.18.0.tgz",
+    "package": "onnxruntime-training-linux-x64-{version}.tgz",
+    "size": 6189754
+  },
+  {
+    "date": "2024-05-21T00:28:41Z",
+    "version": "v1.18.0",
+    "name": "onnxruntime-training-win-arm64-1.18.0.zip",
+    "package": "onnxruntime-training-win-arm64-{version}.zip",
+    "size": 66613120
+  },
+  {
+    "date": "2024-05-21T00:28:41Z",
+    "version": "v1.18.0",
+    "name": "onnxruntime-training-win-x64-1.18.0.zip",
+    "package": "onnxruntime-training-win-x64-{version}.zip",
+    "size": 67037367
+  },
+  {
+    "date": "2024-05-21T00:28:41Z",
+    "version": "v1.18.0",
+    "name": "onnxruntime-training-win-x86-1.18.0.zip",
+    "package": "onnxruntime-training-win-x86-{version}.zip",
+    "size": 66351710
+  },
+  {
+    "date": "2024-05-21T00:28:41Z",
+    "version": "v1.18.0",
+    "name": "onnxruntime-win-arm64-1.18.0.zip",
+    "package": "onnxruntime-win-arm64-{version}.zip",
+    "size": 61194003
+  },
+  {
+    "date": "2024-05-21T00:28:41Z",
+    "version": "v1.18.0",
+    "name": "onnxruntime-win-x64-1.18.0.zip",
+    "package": "onnxruntime-win-x64-{version}.zip",
+    "size": 61608566
+  },
+  {
+    "date": "2024-05-21T00:28:41Z",
+    "version": "v1.18.0",
+    "name": "onnxruntime-win-x64-gpu-1.18.0.zip",
+    "package": "onnxruntime-win-x64-gpu-{version}.zip",
+    "size": 211398852
+  },
+  {
+    "date": "2024-05-21T00:28:41Z",
+    "version": "v1.18.0",
+    "name": "onnxruntime-win-x64-gpu-cuda12-1.18.0.zip",
+    "package": "onnxruntime-win-x64-gpu-cuda12-{version}.zip",
+    "size": 212054097
+  },
+  {
+    "date": "2024-05-21T00:28:41Z",
+    "version": "v1.18.0",
+    "name": "onnxruntime-win-x86-1.18.0.zip",
+    "package": "onnxruntime-win-x86-{version}.zip",
+    "size": 61288718
+  },
+  {
+    "date": "2024-06-28T00:29:13Z",
+    "version": "v1.18.1",
+    "name": "Microsoft.AI.MachineLearning.1.18.1.nupkg",
+    "package": "Microsoft.AI.MachineLearning.{version}.nupkg",
+    "size": 31848615
+  },
+  {
+    "date": "2024-06-28T00:29:13Z",
+    "version": "v1.18.1",
+    "name": "onnxruntime-linux-aarch64-1.18.1.tgz",
+    "package": "onnxruntime-linux-aarch64-{version}.tgz",
+    "size": 5018240
+  },
+  {
+    "date": "2024-06-28T00:29:13Z",
+    "version": "v1.18.1",
+    "name": "onnxruntime-linux-x64-1.18.1.tgz",
+    "package": "onnxruntime-linux-x64-{version}.tgz",
+    "size": 5744161
+  },
+  {
+    "date": "2024-06-28T00:29:13Z",
+    "version": "v1.18.1",
+    "name": "onnxruntime-linux-x64-gpu-1.18.1.tgz",
+    "package": "onnxruntime-linux-x64-gpu-{version}.tgz",
+    "size": 177813548
+  },
+  {
+    "date": "2024-06-28T00:29:13Z",
+    "version": "v1.18.1",
+    "name": "onnxruntime-linux-x64-gpu-cuda12-1.18.1.tgz",
+    "package": "onnxruntime-linux-x64-gpu-cuda12-{version}.tgz",
+    "size": 178539147
+  },
+  {
+    "date": "2024-06-28T00:29:13Z",
+    "version": "v1.18.1",
+    "name": "onnxruntime-osx-arm64-1.18.1.tgz",
+    "package": "onnxruntime-osx-arm64-{version}.tgz",
+    "size": 7705611
+  },
+  {
+    "date": "2024-06-28T00:29:13Z",
+    "version": "v1.18.1",
+    "name": "onnxruntime-osx-universal2-1.18.1.tgz",
+    "package": "onnxruntime-osx-universal2-{version}.tgz",
+    "size": 16265857
+  },
+  {
+    "date": "2024-06-28T00:29:13Z",
+    "version": "v1.18.1",
+    "name": "onnxruntime-osx-x86_64-1.18.1.tgz",
+    "package": "onnxruntime-osx-x86_64-{version}.tgz",
+    "size": 8714874
+  },
+  {
+    "date": "2024-06-28T00:29:13Z",
+    "version": "v1.18.1",
+    "name": "onnxruntime-win-arm64-1.18.1.zip",
+    "package": "onnxruntime-win-arm64-{version}.zip",
+    "size": 61447447
+  },
+  {
+    "date": "2024-06-28T00:29:13Z",
+    "version": "v1.18.1",
+    "name": "onnxruntime-win-x64-1.18.1.zip",
+    "package": "onnxruntime-win-x64-{version}.zip",
+    "size": 60979938
+  },
+  {
+    "date": "2024-06-28T00:29:13Z",
+    "version": "v1.18.1",
+    "name": "onnxruntime-win-x64-gpu-1.18.1.zip",
+    "package": "onnxruntime-win-x64-gpu-{version}.zip",
+    "size": 209884350
+  },
+  {
+    "date": "2024-06-28T00:29:13Z",
+    "version": "v1.18.1",
+    "name": "onnxruntime-win-x64-gpu-cuda12-1.18.1.zip",
+    "package": "onnxruntime-win-x64-gpu-cuda12-{version}.zip",
+    "size": 210083835
+  },
+  {
+    "date": "2024-06-28T00:29:13Z",
+    "version": "v1.18.1",
+    "name": "onnxruntime-win-x86-1.18.1.zip",
+    "package": "onnxruntime-win-x86-{version}.zip",
+    "size": 60749583
+  },
+  {
+    "date": "2024-08-19T18:44:22Z",
+    "version": "v1.19.0",
+    "name": "Microsoft.AI.MachineLearning.1.19.0.nupkg",
+    "package": "Microsoft.AI.MachineLearning.{version}.nupkg",
+    "size": 32810630
+  },
+  {
+    "date": "2024-08-19T18:44:22Z",
+    "version": "v1.19.0",
+    "name": "Microsoft.ML.OnnxRuntime.DirectML.1.19.0.zip",
+    "package": "Microsoft.ML.OnnxRuntime.DirectML.{version}.zip",
+    "size": 15485398
+  },
+  {
+    "date": "2024-08-19T18:44:22Z",
+    "version": "v1.19.0",
+    "name": "Microsoft.ML.OnnxRuntime.Managed.1.19.0.nupkg",
+    "package": "Microsoft.ML.OnnxRuntime.Managed.{version}.nupkg",
+    "size": 545880
+  },
+  {
+    "date": "2024-08-19T18:44:22Z",
+    "version": "v1.19.0",
+    "name": "onnxruntime-linux-aarch64-1.19.0.tgz",
+    "package": "onnxruntime-linux-aarch64-{version}.tgz",
+    "size": 5285104
+  },
+  {
+    "date": "2024-08-19T18:44:22Z",
+    "version": "v1.19.0",
+    "name": "onnxruntime-linux-x64-1.19.0.tgz",
+    "package": "onnxruntime-linux-x64-{version}.tgz",
+    "size": 6082651
+  },
+  {
+    "date": "2024-08-19T18:44:22Z",
+    "version": "v1.19.0",
+    "name": "onnxruntime-linux-x64-gpu-1.19.0.tgz",
+    "package": "onnxruntime-linux-x64-gpu-{version}.tgz",
+    "size": 191264770
+  },
+  {
+    "date": "2024-08-19T18:44:22Z",
+    "version": "v1.19.0",
+    "name": "onnxruntime-osx-arm64-1.19.0.tgz",
+    "package": "onnxruntime-osx-arm64-{version}.tgz",
+    "size": 8110187
+  },
+  {
+    "date": "2024-08-19T18:44:22Z",
+    "version": "v1.19.0",
+    "name": "onnxruntime-osx-universal2-1.19.0.tgz",
+    "package": "onnxruntime-osx-universal2-{version}.tgz",
+    "size": 17189635
+  },
+  {
+    "date": "2024-08-19T18:44:22Z",
+    "version": "v1.19.0",
+    "name": "onnxruntime-osx-x86_64-1.19.0.tgz",
+    "package": "onnxruntime-osx-x86_64-{version}.tgz",
+    "size": 9219454
+  },
+  {
+    "date": "2024-08-19T18:44:22Z",
+    "version": "v1.19.0",
+    "name": "onnxruntime-training-linux-aarch64-1.19.0.tgz",
+    "package": "onnxruntime-training-linux-aarch64-{version}.tgz",
+    "size": 5679412
+  },
+  {
+    "date": "2024-08-19T18:44:22Z",
+    "version": "v1.19.0",
+    "name": "onnxruntime-training-linux-x64-1.19.0.tgz",
+    "package": "onnxruntime-training-linux-x64-{version}.tgz",
+    "size": 6560504
+  },
+  {
+    "date": "2024-08-19T18:44:22Z",
+    "version": "v1.19.0",
+    "name": "onnxruntime-training-win-arm64-1.19.0.zip",
+    "package": "onnxruntime-training-win-arm64-{version}.zip",
+    "size": 70133868
+  },
+  {
+    "date": "2024-08-19T18:44:22Z",
+    "version": "v1.19.0",
+    "name": "onnxruntime-training-win-x64-1.19.0.zip",
+    "package": "onnxruntime-training-win-x64-{version}.zip",
+    "size": 69751339
+  },
+  {
+    "date": "2024-08-19T18:44:22Z",
+    "version": "v1.19.0",
+    "name": "onnxruntime-training-win-x86-1.19.0.zip",
+    "package": "onnxruntime-training-win-x86-{version}.zip",
+    "size": 69011987
+  },
+  {
+    "date": "2024-08-19T18:44:22Z",
+    "version": "v1.19.0",
+    "name": "onnxruntime-win-arm64-1.19.0.zip",
+    "package": "onnxruntime-win-arm64-{version}.zip",
+    "size": 64921758
+  },
+  {
+    "date": "2024-08-19T18:44:22Z",
+    "version": "v1.19.0",
+    "name": "onnxruntime-win-x64-1.19.0.zip",
+    "package": "onnxruntime-win-x64-{version}.zip",
+    "size": 64612246
+  },
+  {
+    "date": "2024-08-19T18:44:22Z",
+    "version": "v1.19.0",
+    "name": "onnxruntime-win-x64-gpu-1.19.0.zip",
+    "package": "onnxruntime-win-x64-gpu-{version}.zip",
+    "size": 221483755
+  },
+  {
+    "date": "2024-08-19T18:44:22Z",
+    "version": "v1.19.0",
+    "name": "onnxruntime-win-x86-1.19.0.zip",
+    "package": "onnxruntime-win-x86-{version}.zip",
+    "size": 64414410
+  },
+  {
+    "date": "2024-09-04T19:33:14Z",
+    "version": "v1.19.2",
+    "name": "Microsoft.AI.MachineLearning.1.19.2.nupkg",
+    "package": "Microsoft.AI.MachineLearning.{version}.nupkg",
+    "size": 32543150
+  },
+  {
+    "date": "2024-09-04T19:33:14Z",
+    "version": "v1.19.2",
+    "name": "Microsoft.ML.OnnxRuntime.DirectML.1.19.2.nupkg",
+    "package": "Microsoft.ML.OnnxRuntime.DirectML.{version}.nupkg",
+    "size": 15485762
+  },
+  {
+    "date": "2024-09-04T19:33:14Z",
+    "version": "v1.19.2",
+    "name": "Microsoft.ML.OnnxRuntime.Managed.1.19.2.nupkg",
+    "package": "Microsoft.ML.OnnxRuntime.Managed.{version}.nupkg",
+    "size": 546929
+  },
+  {
+    "date": "2024-09-04T19:33:14Z",
+    "version": "v1.19.2",
+    "name": "onnxruntime-linux-aarch64-1.19.2.tgz",
+    "package": "onnxruntime-linux-aarch64-{version}.tgz",
+    "size": 5269430
+  },
+  {
+    "date": "2024-09-04T19:33:14Z",
+    "version": "v1.19.2",
+    "name": "onnxruntime-linux-x64-1.19.2.tgz",
+    "package": "onnxruntime-linux-x64-{version}.tgz",
+    "size": 6083273
+  },
+  {
+    "date": "2024-09-04T19:33:14Z",
+    "version": "v1.19.2",
+    "name": "onnxruntime-linux-x64-gpu-1.19.2.tgz",
+    "package": "onnxruntime-linux-x64-gpu-{version}.tgz",
+    "size": 194278474
+  },
+  {
+    "date": "2024-09-04T19:33:14Z",
+    "version": "v1.19.2",
+    "name": "onnxruntime-osx-arm64-1.19.2.tgz",
+    "package": "onnxruntime-osx-arm64-{version}.tgz",
+    "size": 8110550
+  },
+  {
+    "date": "2024-09-04T19:33:14Z",
+    "version": "v1.19.2",
+    "name": "onnxruntime-osx-universal2-1.19.2.tgz",
+    "package": "onnxruntime-osx-universal2-{version}.tgz",
+    "size": 17190972
+  },
+  {
+    "date": "2024-09-04T19:33:14Z",
+    "version": "v1.19.2",
+    "name": "onnxruntime-osx-x86_64-1.19.2.tgz",
+    "package": "onnxruntime-osx-x86_64-{version}.tgz",
+    "size": 9219426
+  },
+  {
+    "date": "2024-09-04T19:33:14Z",
+    "version": "v1.19.2",
+    "name": "onnxruntime-training-linux-aarch64-1.19.2.tgz",
+    "package": "onnxruntime-training-linux-aarch64-{version}.tgz",
+    "size": 5681522
+  },
+  {
+    "date": "2024-09-04T19:33:14Z",
+    "version": "v1.19.2",
+    "name": "onnxruntime-training-linux-x64-1.19.2.tgz",
+    "package": "onnxruntime-training-linux-x64-{version}.tgz",
+    "size": 6558014
+  },
+  {
+    "date": "2024-09-04T19:33:14Z",
+    "version": "v1.19.2",
+    "name": "onnxruntime-training-win-arm64-1.19.2.zip",
+    "package": "onnxruntime-training-win-arm64-{version}.zip",
+    "size": 69806287
+  },
+  {
+    "date": "2024-09-04T19:33:14Z",
+    "version": "v1.19.2",
+    "name": "onnxruntime-training-win-x64-1.19.2.zip",
+    "package": "onnxruntime-training-win-x64-{version}.zip",
+    "size": 69461714
+  },
+  {
+    "date": "2024-09-04T19:33:14Z",
+    "version": "v1.19.2",
+    "name": "onnxruntime-training-win-x86-1.19.2.zip",
+    "package": "onnxruntime-training-win-x86-{version}.zip",
+    "size": 69216165
+  },
+  {
+    "date": "2024-09-04T19:33:14Z",
+    "version": "v1.19.2",
+    "name": "onnxruntime-win-arm64-1.19.2.zip",
+    "package": "onnxruntime-win-arm64-{version}.zip",
+    "size": 65082015
+  },
+  {
+    "date": "2024-09-04T19:33:14Z",
+    "version": "v1.19.2",
+    "name": "onnxruntime-win-x64-1.19.2.zip",
+    "package": "onnxruntime-win-x64-{version}.zip",
+    "size": 64540734
+  },
+  {
+    "date": "2024-09-04T19:33:14Z",
+    "version": "v1.19.2",
+    "name": "onnxruntime-win-x64-gpu-1.19.2.zip",
+    "package": "onnxruntime-win-x64-gpu-{version}.zip",
+    "size": 278458155
+  },
+  {
+    "date": "2024-09-04T19:33:14Z",
+    "version": "v1.19.2",
+    "name": "onnxruntime-win-x86-1.19.2.zip",
+    "package": "onnxruntime-win-x86-{version}.zip",
+    "size": 64470701
+  },
+  {
+    "date": "2024-11-01T18:02:18Z",
+    "version": "v1.20.0",
+    "name": "Microsoft.AI.MachineLearning.1.20.0.nupkg",
+    "package": "Microsoft.AI.MachineLearning.{version}.nupkg",
+    "size": 33168268
+  },
+  {
+    "date": "2024-11-01T18:02:18Z",
+    "version": "v1.20.0",
+    "name": "Microsoft.ML.OnnxRuntime.DirectML.1.20.0.nupkg",
+    "package": "Microsoft.ML.OnnxRuntime.DirectML.{version}.nupkg",
+    "size": 15823611
+  },
+  {
+    "date": "2024-11-01T18:02:18Z",
+    "version": "v1.20.0",
+    "name": "Microsoft.ML.OnnxRuntime.Managed.1.20.0.nupkg",
+    "package": "Microsoft.ML.OnnxRuntime.Managed.{version}.nupkg",
+    "size": 548909
+  },
+  {
+    "date": "2024-11-01T18:02:18Z",
+    "version": "v1.20.0",
+    "name": "onnxruntime-linux-aarch64-1.20.0.tgz",
+    "package": "onnxruntime-linux-aarch64-{version}.tgz",
+    "size": 5368581
+  },
+  {
+    "date": "2024-11-01T18:02:18Z",
+    "version": "v1.20.0",
+    "name": "onnxruntime-linux-x64-1.20.0.tgz",
+    "package": "onnxruntime-linux-x64-{version}.tgz",
+    "size": 6184676
+  },
+  {
+    "date": "2024-11-01T18:02:18Z",
+    "version": "v1.20.0",
+    "name": "onnxruntime-linux-x64-gpu-1.20.0.tgz",
+    "package": "onnxruntime-linux-x64-gpu-{version}.tgz",
+    "size": 258494029
+  },
+  {
+    "date": "2024-11-01T18:02:18Z",
+    "version": "v1.20.0",
+    "name": "onnxruntime-osx-arm64-1.20.0.tgz",
+    "package": "onnxruntime-osx-arm64-{version}.tgz",
+    "size": 7875127
+  },
+  {
+    "date": "2024-11-01T18:02:18Z",
+    "version": "v1.20.0",
+    "name": "onnxruntime-osx-universal2-1.20.0.tgz",
+    "package": "onnxruntime-osx-universal2-{version}.tgz",
+    "size": 16668679
+  },
+  {
+    "date": "2024-11-01T18:02:18Z",
+    "version": "v1.20.0",
+    "name": "onnxruntime-osx-x86_64-1.20.0.tgz",
+    "package": "onnxruntime-osx-x86_64-{version}.tgz",
+    "size": 8940384
+  },
+  {
+    "date": "2024-11-01T18:02:18Z",
+    "version": "v1.20.0",
+    "name": "onnxruntime-win-arm64-1.20.0.zip",
+    "package": "onnxruntime-win-arm64-{version}.zip",
+    "size": 65990591
+  },
+  {
+    "date": "2024-11-01T18:02:18Z",
+    "version": "v1.20.0",
+    "name": "onnxruntime-win-x64-1.20.0.zip",
+    "package": "onnxruntime-win-x64-{version}.zip",
+    "size": 65562355
+  },
+  {
+    "date": "2024-11-01T18:02:18Z",
+    "version": "v1.20.0",
+    "name": "onnxruntime-win-x64-gpu-1.20.0.zip",
+    "package": "onnxruntime-win-x64-gpu-{version}.zip",
+    "size": 338186756
+  },
+  {
+    "date": "2024-11-01T18:02:18Z",
+    "version": "v1.20.0",
+    "name": "onnxruntime-win-x86-1.20.0.zip",
+    "package": "onnxruntime-win-x86-{version}.zip",
+    "size": 64637407
+  },
+  {
+    "date": "2024-11-21T22:20:31Z",
+    "version": "v1.20.1",
+    "name": "onnxruntime-linux-aarch64-1.20.1.tgz",
+    "package": "onnxruntime-linux-aarch64-{version}.tgz",
+    "size": 5366376
+  },
+  {
+    "date": "2024-11-21T22:20:31Z",
+    "version": "v1.20.1",
+    "name": "onnxruntime-linux-x64-1.20.1.tgz",
+    "package": "onnxruntime-linux-x64-{version}.tgz",
+    "size": 6191581
+  },
+  {
+    "date": "2024-11-21T22:20:31Z",
+    "version": "v1.20.1",
+    "name": "onnxruntime-linux-x64-gpu-1.20.1.tgz",
+    "package": "onnxruntime-linux-x64-gpu-{version}.tgz",
+    "size": 258487100
+  },
+  {
+    "date": "2024-11-21T22:20:31Z",
+    "version": "v1.20.1",
+    "name": "onnxruntime-osx-arm64-1.20.1.tgz",
+    "package": "onnxruntime-osx-arm64-{version}.tgz",
+    "size": 7878242
+  },
+  {
+    "date": "2024-11-21T22:20:31Z",
+    "version": "v1.20.1",
+    "name": "onnxruntime-osx-universal2-1.20.1.tgz",
+    "package": "onnxruntime-osx-universal2-{version}.tgz",
+    "size": 16678080
+  },
+  {
+    "date": "2024-11-21T22:20:31Z",
+    "version": "v1.20.1",
+    "name": "onnxruntime-osx-x86_64-1.20.1.tgz",
+    "package": "onnxruntime-osx-x86_64-{version}.tgz",
+    "size": 8940679
+  },
+  {
+    "date": "2024-11-21T22:20:31Z",
+    "version": "v1.20.1",
+    "name": "onnxruntime-win-arm64-1.20.1.zip",
+    "package": "onnxruntime-win-arm64-{version}.zip",
+    "size": 66048622
+  },
+  {
+    "date": "2024-11-21T22:20:31Z",
+    "version": "v1.20.1",
+    "name": "onnxruntime-win-x64-1.20.1.zip",
+    "package": "onnxruntime-win-x64-{version}.zip",
+    "size": 65585496
+  },
+  {
+    "date": "2024-11-21T22:20:31Z",
+    "version": "v1.20.1",
+    "name": "onnxruntime-win-x64-gpu-1.20.1.zip",
+    "package": "onnxruntime-win-x64-gpu-{version}.zip",
+    "size": 337932991
+  },
+  {
+    "date": "2024-11-21T22:20:31Z",
+    "version": "v1.20.1",
+    "name": "onnxruntime-win-x86-1.20.1.zip",
+    "package": "onnxruntime-win-x86-{version}.zip",
+    "size": 64486328
+  },
+  {
+    "date": "2025-03-08T05:33:03Z",
+    "version": "v1.21.0",
+    "name": "Microsoft.AI.MachineLearning.1.21.0.nupkg",
+    "package": "Microsoft.AI.MachineLearning.{version}.nupkg",
+    "size": 33827985
+  },
+  {
+    "date": "2025-03-08T05:33:03Z",
+    "version": "v1.21.0",
+    "name": "Microsoft.ML.OnnxRuntime.DirectML.1.21.0.nupkg",
+    "package": "Microsoft.ML.OnnxRuntime.DirectML.{version}.nupkg",
+    "size": 17398037
+  },
+  {
+    "date": "2025-03-08T05:33:03Z",
+    "version": "v1.21.0",
+    "name": "Microsoft.ML.OnnxRuntime.Managed.1.21.0.nupkg",
+    "package": "Microsoft.ML.OnnxRuntime.Managed.{version}.nupkg",
+    "size": 523919
+  },
+  {
+    "date": "2025-03-08T05:33:03Z",
+    "version": "v1.21.0",
+    "name": "onnxruntime-linux-aarch64-1.21.0.tgz",
+    "package": "onnxruntime-linux-aarch64-{version}.tgz",
+    "size": 6684577
+  },
+  {
+    "date": "2025-03-08T05:33:03Z",
+    "version": "v1.21.0",
+    "name": "onnxruntime-linux-x64-1.21.0.tgz",
+    "package": "onnxruntime-linux-x64-{version}.tgz",
+    "size": 7585530
+  },
+  {
+    "date": "2025-03-08T05:33:03Z",
+    "version": "v1.21.0",
+    "name": "onnxruntime-linux-x64-gpu-1.21.0.tgz",
+    "package": "onnxruntime-linux-x64-gpu-{version}.tgz",
+    "size": 225318955
+  },
+  {
+    "date": "2025-03-08T05:33:03Z",
+    "version": "v1.21.0",
+    "name": "onnxruntime-osx-arm64-1.21.0.tgz",
+    "package": "onnxruntime-osx-arm64-{version}.tgz",
+    "size": 24821811
+  },
+  {
+    "date": "2025-03-08T05:33:03Z",
+    "version": "v1.21.0",
+    "name": "onnxruntime-osx-universal2-1.21.0.tgz",
+    "package": "onnxruntime-osx-universal2-{version}.tgz",
+    "size": 52428613
+  },
+  {
+    "date": "2025-03-08T05:33:03Z",
+    "version": "v1.21.0",
+    "name": "onnxruntime-osx-x86_64-1.21.0.tgz",
+    "package": "onnxruntime-osx-x86_64-{version}.tgz",
+    "size": 27039113
+  },
+  {
+    "date": "2025-03-08T05:33:03Z",
+    "version": "v1.21.0",
+    "name": "onnxruntime-win-arm64-1.21.0.zip",
+    "package": "onnxruntime-win-arm64-{version}.zip",
+    "size": 72811643
+  },
+  {
+    "date": "2025-03-08T05:33:03Z",
+    "version": "v1.21.0",
+    "name": "onnxruntime-win-x64-1.21.0.zip",
+    "package": "onnxruntime-win-x64-{version}.zip",
+    "size": 72311515
+  },
+  {
+    "date": "2025-03-08T05:33:03Z",
+    "version": "v1.21.0",
+    "name": "onnxruntime-win-x64-gpu-1.21.0.zip",
+    "package": "onnxruntime-win-x64-gpu-{version}.zip",
+    "size": 307588400
+  },
+  {
+    "date": "2025-03-08T05:33:03Z",
+    "version": "v1.21.0",
+    "name": "onnxruntime-win-x86-1.21.0.zip",
+    "package": "onnxruntime-win-x86-{version}.zip",
+    "size": 71765994
+  },
+  {
+    "date": "2025-04-21T17:38:36Z",
+    "version": "v1.21.1",
+    "name": "onnxruntime-linux-x64-gpu-1.21.1.tgz",
+    "package": "onnxruntime-linux-x64-gpu-{version}.tgz",
+    "size": 225316712
+  },
+  {
+    "date": "2025-05-10T01:14:00Z",
+    "version": "v1.22.0",
+    "name": "Microsoft.AI.MachineLearning.1.22.0.nupkg",
+    "package": "Microsoft.AI.MachineLearning.{version}.nupkg",
+    "size": 37552431
+  },
+  {
+    "date": "2025-05-10T01:14:00Z",
+    "version": "v1.22.0",
+    "name": "Microsoft.ML.OnnxRuntime.DirectML.1.22.0.nupkg",
+    "package": "Microsoft.ML.OnnxRuntime.DirectML.{version}.nupkg",
+    "size": 17885648
+  },
+  {
+    "date": "2025-05-10T01:14:00Z",
+    "version": "v1.22.0",
+    "name": "onnxruntime-linux-aarch64-1.22.0.tgz",
+    "package": "onnxruntime-linux-aarch64-{version}.tgz",
+    "size": 6849865
+  },
+  {
+    "date": "2025-05-10T01:14:00Z",
+    "version": "v1.22.0",
+    "name": "onnxruntime-linux-x64-1.22.0.tgz",
+    "package": "onnxruntime-linux-x64-{version}.tgz",
+    "size": 7798730
+  },
+  {
+    "date": "2025-05-10T01:14:00Z",
+    "version": "v1.22.0",
+    "name": "onnxruntime-linux-x64-gpu-1.22.0.tgz",
+    "package": "onnxruntime-linux-x64-gpu-{version}.tgz",
+    "size": 227317516
+  },
+  {
+    "date": "2025-05-10T01:14:00Z",
+    "version": "v1.22.0",
+    "name": "onnxruntime-osx-arm64-1.22.0.tgz",
+    "package": "onnxruntime-osx-arm64-{version}.tgz",
+    "size": 25943843
+  },
+  {
+    "date": "2025-05-10T01:14:00Z",
+    "version": "v1.22.0",
+    "name": "onnxruntime-osx-universal2-1.22.0.tgz",
+    "package": "onnxruntime-osx-universal2-{version}.tgz",
+    "size": 54820264
+  },
+  {
+    "date": "2025-05-10T01:14:00Z",
+    "version": "v1.22.0",
+    "name": "onnxruntime-osx-x86_64-1.22.0.tgz",
+    "package": "onnxruntime-osx-x86_64-{version}.tgz",
+    "size": 27889590
+  },
+  {
+    "date": "2025-05-10T01:14:00Z",
+    "version": "v1.22.0",
+    "name": "onnxruntime-win-arm64-1.22.0.zip",
+    "package": "onnxruntime-win-arm64-{version}.zip",
+    "size": 73055483
+  },
+  {
+    "date": "2025-05-10T01:14:00Z",
+    "version": "v1.22.0",
+    "name": "onnxruntime-win-x64-1.22.0.zip",
+    "package": "onnxruntime-win-x64-{version}.zip",
+    "size": 72368545
+  },
+  {
+    "date": "2025-05-10T01:14:00Z",
+    "version": "v1.22.0",
+    "name": "onnxruntime-win-x64-gpu-1.22.0.zip",
+    "package": "onnxruntime-win-x64-gpu-{version}.zip",
+    "size": 312740706
+  },
+  {
+    "date": "2025-05-10T01:14:00Z",
+    "version": "v1.22.0",
+    "name": "onnxruntime-win-x86-1.22.0.zip",
+    "package": "onnxruntime-win-x86-{version}.zip",
+    "size": 71917632
+  },
+  {
+    "date": "2025-07-08T22:08:08Z",
+    "version": "v1.22.1",
+    "name": "Microsoft.ML.OnnxRuntime.1.22.1.nupkg",
+    "package": "Microsoft.ML.OnnxRuntime.{version}.nupkg",
+    "size": 121484102
+  },
+  {
+    "date": "2025-07-08T22:08:08Z",
+    "version": "v1.22.1",
+    "name": "Microsoft.ML.OnnxRuntime.DirectML.1.22.1.nupkg",
+    "package": "Microsoft.ML.OnnxRuntime.DirectML.{version}.nupkg",
+    "size": 17889940
+  },
+  {
+    "date": "2025-07-08T22:08:08Z",
+    "version": "v1.22.1",
+    "name": "Microsoft.ML.OnnxRuntime.Gpu.1.22.1.nupkg",
+    "package": "Microsoft.ML.OnnxRuntime.Gpu.{version}.nupkg",
+    "size": 312718
+  },
+  {
+    "date": "2025-07-08T22:08:08Z",
+    "version": "v1.22.1",
+    "name": "Microsoft.ML.OnnxRuntime.Gpu.Windows.1.22.1.nupkg",
+    "package": "Microsoft.ML.OnnxRuntime.Gpu.Windows.{version}.nupkg",
+    "size": 207673694
+  },
+  {
+    "date": "2025-07-08T22:08:08Z",
+    "version": "v1.22.1",
+    "name": "Microsoft.ML.OnnxRuntime.Managed.1.22.1.nupkg",
+    "package": "Microsoft.ML.OnnxRuntime.Managed.{version}.nupkg",
+    "size": 905233
+  },
+  {
+    "date": "2025-07-08T22:08:08Z",
+    "version": "v1.22.1",
+    "name": "onnxruntime-win-arm64-1.22.1.zip",
+    "package": "onnxruntime-win-arm64-{version}.zip",
+    "size": 73464479
+  },
+  {
+    "date": "2025-07-08T22:08:08Z",
+    "version": "v1.22.1",
+    "name": "onnxruntime-win-x64-1.22.1.zip",
+    "package": "onnxruntime-win-x64-{version}.zip",
+    "size": 73731806
+  },
+  {
+    "date": "2025-07-08T22:08:08Z",
+    "version": "v1.22.1",
+    "name": "onnxruntime-win-x64-gpu-1.22.1.zip",
+    "package": "onnxruntime-win-x64-gpu-{version}.zip",
+    "size": 314403447
+  },
+  {
+    "date": "2025-07-08T22:08:08Z",
+    "version": "v1.22.1",
+    "name": "onnxruntime-win-x86-1.22.1.zip",
+    "package": "onnxruntime-win-x86-{version}.zip",
+    "size": 72552355
+  },
+  {
+    "date": "2025-08-13T16:53:48Z",
+    "version": "v1.22.2",
+    "name": "Microsoft.ML.OnnxRuntime.Managed.1.22.2.nupkg",
+    "package": "Microsoft.ML.OnnxRuntime.Managed.{version}.nupkg",
+    "size": 905241
+  },
+  {
+    "date": "2025-08-13T16:53:48Z",
+    "version": "v1.22.2",
+    "name": "Microsoft.ML.OnnxRuntime.QNN.1.22.2.nupkg",
+    "package": "Microsoft.ML.OnnxRuntime.QNN.{version}.nupkg",
+    "size": 72909686
+  },
+  {
+    "date": "2025-09-26T04:33:48Z",
+    "version": "v1.23.0",
+    "name": "onnxruntime-linux-aarch64-1.23.0.tgz",
+    "package": "onnxruntime-linux-aarch64-{version}.tgz",
+    "size": 7216713
+  },
+  {
+    "date": "2025-09-26T04:33:48Z",
+    "version": "v1.23.0",
+    "name": "onnxruntime-linux-x64-1.23.0.tgz",
+    "package": "onnxruntime-linux-x64-{version}.tgz",
+    "size": 8257032
+  },
+  {
+    "date": "2025-09-26T04:33:48Z",
+    "version": "v1.23.0",
+    "name": "onnxruntime-linux-x64-gpu-1.23.0.tgz",
+    "package": "onnxruntime-linux-x64-gpu-{version}.tgz",
+    "size": 240863500
+  },
+  {
+    "date": "2025-09-26T04:33:48Z",
+    "version": "v1.23.0",
+    "name": "onnxruntime-osx-arm64-1.23.0.tgz",
+    "package": "onnxruntime-osx-arm64-{version}.tgz",
+    "size": 9962096
+  },
+  {
+    "date": "2025-09-26T04:33:48Z",
+    "version": "v1.23.0",
+    "name": "onnxruntime-osx-universal2-1.23.0.tgz",
+    "package": "onnxruntime-osx-universal2-{version}.tgz",
+    "size": 42631433
+  },
+  {
+    "date": "2025-09-26T04:33:48Z",
+    "version": "v1.23.0",
+    "name": "onnxruntime-osx-x86_64-1.23.0.tgz",
+    "package": "onnxruntime-osx-x86_64-{version}.tgz",
+    "size": 11621905
+  },
+  {
+    "date": "2025-09-26T04:33:48Z",
+    "version": "v1.23.0",
+    "name": "onnxruntime-win-arm64-1.23.0.zip",
+    "package": "onnxruntime-win-arm64-{version}.zip",
+    "size": 78800676
+  },
+  {
+    "date": "2025-09-26T04:33:48Z",
+    "version": "v1.23.0",
+    "name": "onnxruntime-win-x64-1.23.0.zip",
+    "package": "onnxruntime-win-x64-{version}.zip",
+    "size": 78078377
+  },
+  {
+    "date": "2025-09-26T04:33:48Z",
+    "version": "v1.23.0",
+    "name": "onnxruntime-win-x64-gpu-1.23.0.zip",
+    "package": "onnxruntime-win-x64-gpu-{version}.zip",
+    "size": 370655392
+  },
+  {
+    "date": "2025-10-08T04:12:55Z",
+    "version": "v1.23.1",
+    "name": "onnxruntime-linux-aarch64-1.23.1.tgz",
+    "package": "onnxruntime-linux-aarch64-{version}.tgz",
+    "size": 7249284
+  },
+  {
+    "date": "2025-10-08T04:12:55Z",
+    "version": "v1.23.1",
+    "name": "onnxruntime-linux-x64-1.23.1.tgz",
+    "package": "onnxruntime-linux-x64-{version}.tgz",
+    "size": 8307113
+  },
+  {
+    "date": "2025-10-08T04:12:55Z",
+    "version": "v1.23.1",
+    "name": "onnxruntime-linux-x64-gpu-1.23.1.tgz",
+    "package": "onnxruntime-linux-x64-gpu-{version}.tgz",
+    "size": 240915322
+  },
+  {
+    "date": "2025-10-08T04:12:55Z",
+    "version": "v1.23.1",
+    "name": "onnxruntime-osx-arm64-1.23.1.tgz",
+    "package": "onnxruntime-osx-arm64-{version}.tgz",
+    "size": 9997403
+  },
+  {
+    "date": "2025-10-08T04:12:55Z",
+    "version": "v1.23.1",
+    "name": "onnxruntime-osx-universal2-1.23.1.tgz",
+    "package": "onnxruntime-osx-universal2-{version}.tgz",
+    "size": 42810126
+  },
+  {
+    "date": "2025-10-08T04:12:55Z",
+    "version": "v1.23.1",
+    "name": "onnxruntime-osx-x86_64-1.23.1.tgz",
+    "package": "onnxruntime-osx-x86_64-{version}.tgz",
+    "size": 11674565
+  },
+  {
+    "date": "2025-10-08T04:12:55Z",
+    "version": "v1.23.1",
+    "name": "onnxruntime-win-arm64-1.23.1.zip",
+    "package": "onnxruntime-win-arm64-{version}.zip",
+    "size": 78787665
+  },
+  {
+    "date": "2025-10-08T04:12:55Z",
+    "version": "v1.23.1",
+    "name": "onnxruntime-win-x64-1.23.1.zip",
+    "package": "onnxruntime-win-x64-{version}.zip",
+    "size": 78099392
+  },
+  {
+    "date": "2025-10-08T04:12:55Z",
+    "version": "v1.23.1",
+    "name": "onnxruntime-win-x64-gpu-1.23.1.zip",
+    "package": "onnxruntime-win-x64-gpu-{version}.zip",
+    "size": 371232436
+  },
+  {
+    "date": "2025-10-25T04:15:21Z",
+    "version": "v1.23.2",
+    "name": "onnxruntime-linux-aarch64-1.23.2.tgz",
+    "package": "onnxruntime-linux-aarch64-{version}.tgz",
+    "size": 7254068
+  },
+  {
+    "date": "2025-10-25T04:15:21Z",
+    "version": "v1.23.2",
+    "name": "onnxruntime-linux-x64-1.23.2.tgz",
+    "package": "onnxruntime-linux-x64-{version}.tgz",
+    "size": 8309231
+  },
+  {
+    "date": "2025-10-25T04:15:21Z",
+    "version": "v1.23.2",
+    "name": "onnxruntime-linux-x64-gpu-1.23.2.tgz",
+    "package": "onnxruntime-linux-x64-gpu-{version}.tgz",
+    "size": 240893669
+  },
+  {
+    "date": "2025-10-25T04:15:21Z",
+    "version": "v1.23.2",
+    "name": "onnxruntime-osx-arm64-1.23.2.tgz",
+    "package": "onnxruntime-osx-arm64-{version}.tgz",
+    "size": 9999931
+  },
+  {
+    "date": "2025-10-25T04:15:21Z",
+    "version": "v1.23.2",
+    "name": "onnxruntime-osx-universal2-1.23.2.tgz",
+    "package": "onnxruntime-osx-universal2-{version}.tgz",
+    "size": 42818339
+  },
+  {
+    "date": "2025-10-25T04:15:21Z",
+    "version": "v1.23.2",
+    "name": "onnxruntime-osx-x86_64-1.23.2.tgz",
+    "package": "onnxruntime-osx-x86_64-{version}.tgz",
+    "size": 11676322
+  },
+  {
+    "date": "2025-10-25T04:15:21Z",
+    "version": "v1.23.2",
+    "name": "onnxruntime-win-arm64-1.23.2.zip",
+    "package": "onnxruntime-win-arm64-{version}.zip",
+    "size": 78932411
+  },
+  {
+    "date": "2025-10-25T04:15:21Z",
+    "version": "v1.23.2",
+    "name": "onnxruntime-win-x64-1.23.2.zip",
+    "package": "onnxruntime-win-x64-{version}.zip",
+    "size": 78127794
+  },
+  {
+    "date": "2025-10-25T04:15:21Z",
+    "version": "v1.23.2",
+    "name": "onnxruntime-win-x64-gpu-1.23.2.zip",
+    "package": "onnxruntime-win-x64-gpu-{version}.zip",
+    "size": 326087140
+  },
+  {
+    "date": "2026-02-06T00:00:13Z",
+    "version": "v1.24.1",
+    "name": "onnxruntime-linux-aarch64-1.24.1.tgz",
+    "package": "onnxruntime-linux-aarch64-{version}.tgz",
+    "size": 7127704
+  },
+  {
+    "date": "2026-02-06T00:00:13Z",
+    "version": "v1.24.1",
+    "name": "onnxruntime-linux-x64-1.24.1.tgz",
+    "package": "onnxruntime-linux-x64-{version}.tgz",
+    "size": 8115952
+  },
+  {
+    "date": "2026-02-06T00:00:13Z",
+    "version": "v1.24.1",
+    "name": "onnxruntime-linux-x64-gpu-1.24.1.tgz",
+    "package": "onnxruntime-linux-x64-gpu-{version}.tgz",
+    "size": 205366392
+  },
+  {
+    "date": "2026-02-06T00:00:13Z",
+    "version": "v1.24.1",
+    "name": "onnxruntime-linux-x64-gpu_cuda13-1.24.1.tgz",
+    "package": "onnxruntime-linux-x64-gpu_cuda13-{version}.tgz",
+    "size": 180220702
+  },
+  {
+    "date": "2026-02-06T00:00:13Z",
+    "version": "v1.24.1",
+    "name": "onnxruntime-osx-arm64-1.24.1.tgz",
+    "package": "onnxruntime-osx-arm64-{version}.tgz",
+    "size": 21587430
+  },
+  {
+    "date": "2026-02-06T00:00:13Z",
+    "version": "v1.24.1",
+    "name": "onnxruntime-win-arm64-1.24.1.zip",
+    "package": "onnxruntime-win-arm64-{version}.zip",
+    "size": 74827506
+  },
+  {
+    "date": "2026-02-06T00:00:13Z",
+    "version": "v1.24.1",
+    "name": "onnxruntime-win-x64-1.24.1.zip",
+    "package": "onnxruntime-win-x64-{version}.zip",
+    "size": 74055731
+  },
+  {
+    "date": "2026-02-06T00:00:13Z",
+    "version": "v1.24.1",
+    "name": "onnxruntime-win-x64-gpu-1.24.1.zip",
+    "package": "onnxruntime-win-x64-gpu-{version}.zip",
+    "size": 280714207
+  },
+  {
+    "date": "2026-02-06T00:00:13Z",
+    "version": "v1.24.1",
+    "name": "onnxruntime-win-x64-gpu_cuda13-1.24.1.zip",
+    "package": "onnxruntime-win-x64-gpu_cuda13-{version}.zip",
+    "size": 288306964
+  },
+  {
+    "date": "2026-02-19T21:28:03Z",
+    "version": "v1.24.2",
+    "name": "onnxruntime-linux-aarch64-1.24.2.tgz",
+    "package": "onnxruntime-linux-aarch64-{version}.tgz",
+    "size": 7135756
+  },
+  {
+    "date": "2026-02-19T21:28:03Z",
+    "version": "v1.24.2",
+    "name": "onnxruntime-linux-x64-1.24.2.tgz",
+    "package": "onnxruntime-linux-x64-{version}.tgz",
+    "size": 8123282
+  },
+  {
+    "date": "2026-02-19T21:28:03Z",
+    "version": "v1.24.2",
+    "name": "onnxruntime-linux-x64-gpu-1.24.2.tgz",
+    "package": "onnxruntime-linux-x64-gpu-{version}.tgz",
+    "size": 205369881
+  },
+  {
+    "date": "2026-02-19T21:28:03Z",
+    "version": "v1.24.2",
+    "name": "onnxruntime-linux-x64-gpu_cuda13-1.24.2.tgz",
+    "package": "onnxruntime-linux-x64-gpu_cuda13-{version}.tgz",
+    "size": 180220519
+  },
+  {
+    "date": "2026-02-19T21:28:03Z",
+    "version": "v1.24.2",
+    "name": "onnxruntime-osx-arm64-1.24.2.tgz",
+    "package": "onnxruntime-osx-arm64-{version}.tgz",
+    "size": 31604221
+  },
+  {
+    "date": "2026-02-19T21:28:03Z",
+    "version": "v1.24.2",
+    "name": "onnxruntime-win-arm64-1.24.2.zip",
+    "package": "onnxruntime-win-arm64-{version}.zip",
+    "size": 74960464
+  },
+  {
+    "date": "2026-02-19T21:28:03Z",
+    "version": "v1.24.2",
+    "name": "onnxruntime-win-x64-1.24.2.zip",
+    "package": "onnxruntime-win-x64-{version}.zip",
+    "size": 74075355
+  },
+  {
+    "date": "2026-02-19T21:28:03Z",
+    "version": "v1.24.2",
+    "name": "onnxruntime-win-x64-gpu-1.24.2.zip",
+    "package": "onnxruntime-win-x64-gpu-{version}.zip",
+    "size": 280855316
+  },
+  {
+    "date": "2026-02-19T21:28:03Z",
+    "version": "v1.24.2",
+    "name": "onnxruntime-win-x64-gpu_cuda13-1.24.2.zip",
+    "package": "onnxruntime-win-x64-gpu_cuda13-{version}.zip",
+    "size": 288348147
+  },
+  {
+    "date": "2026-03-05T19:00:05Z",
+    "version": "v1.24.3",
+    "name": "onnxruntime-linux-aarch64-1.24.3.tgz",
+    "package": "onnxruntime-linux-aarch64-{version}.tgz",
+    "size": 7166580
+  },
+  {
+    "date": "2026-03-05T19:00:05Z",
+    "version": "v1.24.3",
+    "name": "onnxruntime-linux-x64-1.24.3.tgz",
+    "package": "onnxruntime-linux-x64-{version}.tgz",
+    "size": 8150413
+  },
+  {
+    "date": "2026-03-05T19:00:05Z",
+    "version": "v1.24.3",
+    "name": "onnxruntime-linux-x64-gpu-1.24.3.tgz",
+    "package": "onnxruntime-linux-x64-gpu-{version}.tgz",
+    "size": 205423372
+  },
+  {
+    "date": "2026-03-05T19:00:05Z",
+    "version": "v1.24.3",
+    "name": "onnxruntime-linux-x64-gpu_cuda13-1.24.3.tgz",
+    "package": "onnxruntime-linux-x64-gpu_cuda13-{version}.tgz",
+    "size": 180266347
+  },
+  {
+    "date": "2026-03-05T19:00:05Z",
+    "version": "v1.24.3",
+    "name": "onnxruntime-osx-arm64-1.24.3.tgz",
+    "package": "onnxruntime-osx-arm64-{version}.tgz",
+    "size": 30381891
+  },
+  {
+    "date": "2026-03-05T19:00:05Z",
+    "version": "v1.24.3",
+    "name": "onnxruntime-win-arm64-1.24.3.zip",
+    "package": "onnxruntime-win-arm64-{version}.zip",
+    "size": 75093351
+  },
+  {
+    "date": "2026-03-05T19:00:05Z",
+    "version": "v1.24.3",
+    "name": "onnxruntime-win-arm64x-1.24.3.zip",
+    "package": "onnxruntime-win-arm64x-{version}.zip",
+    "size": 116788491
+  },
+  {
+    "date": "2026-03-05T19:00:05Z",
+    "version": "v1.24.3",
+    "name": "onnxruntime-win-x64-1.24.3.zip",
+    "package": "onnxruntime-win-x64-{version}.zip",
+    "size": 74397435
+  },
+  {
+    "date": "2026-03-05T19:00:05Z",
+    "version": "v1.24.3",
+    "name": "onnxruntime-win-x64-gpu-1.24.3.zip",
+    "package": "onnxruntime-win-x64-gpu-{version}.zip",
+    "size": 311219580
+  },
+  {
+    "date": "2026-03-05T19:00:05Z",
+    "version": "v1.24.3",
+    "name": "onnxruntime-win-x64-gpu_cuda13-1.24.3.zip",
+    "package": "onnxruntime-win-x64-gpu_cuda13-{version}.zip",
+    "size": 288361145
+  },
+  {
+    "date": "2026-03-17T23:08:09Z",
+    "version": "v1.24.4",
+    "name": "onnxruntime-linux-aarch64-1.24.4.tgz",
+    "package": "onnxruntime-linux-aarch64-{version}.tgz",
+    "size": 7181958
+  },
+  {
+    "date": "2026-03-17T23:08:09Z",
+    "version": "v1.24.4",
+    "name": "onnxruntime-linux-x64-1.24.4.tgz",
+    "package": "onnxruntime-linux-x64-{version}.tgz",
+    "size": 8155822
+  },
+  {
+    "date": "2026-03-17T23:08:09Z",
+    "version": "v1.24.4",
+    "name": "onnxruntime-linux-x64-gpu-1.24.4.tgz",
+    "package": "onnxruntime-linux-x64-gpu-{version}.tgz",
+    "size": 205429115
+  },
+  {
+    "date": "2026-03-17T23:08:09Z",
+    "version": "v1.24.4",
+    "name": "onnxruntime-linux-x64-gpu_cuda13-1.24.4.tgz",
+    "package": "onnxruntime-linux-x64-gpu_cuda13-{version}.tgz",
+    "size": 180280340
+  },
+  {
+    "date": "2026-03-17T23:08:09Z",
+    "version": "v1.24.4",
+    "name": "onnxruntime-osx-arm64-1.24.4.tgz",
+    "package": "onnxruntime-osx-arm64-{version}.tgz",
+    "size": 30937282
+  },
+  {
+    "date": "2026-03-17T23:08:09Z",
+    "version": "v1.24.4",
+    "name": "onnxruntime-win-arm64-1.24.4.zip",
+    "package": "onnxruntime-win-arm64-{version}.zip",
+    "size": 75182070
+  },
+  {
+    "date": "2026-03-17T23:08:09Z",
+    "version": "v1.24.4",
+    "name": "onnxruntime-win-arm64x-1.24.4.zip",
+    "package": "onnxruntime-win-arm64x-{version}.zip",
+    "size": 116777315
+  },
+  {
+    "date": "2026-03-17T23:08:09Z",
+    "version": "v1.24.4",
+    "name": "onnxruntime-win-x64-1.24.4.zip",
+    "package": "onnxruntime-win-x64-{version}.zip",
+    "size": 74442783
+  },
+  {
+    "date": "2026-03-17T23:08:09Z",
+    "version": "v1.24.4",
+    "name": "onnxruntime-win-x64-gpu-1.24.4.zip",
+    "package": "onnxruntime-win-x64-gpu-{version}.zip",
+    "size": 280958859
+  },
+  {
+    "date": "2026-03-17T23:08:09Z",
+    "version": "v1.24.4",
+    "name": "onnxruntime-win-x64-gpu_cuda13-1.24.4.zip",
+    "package": "onnxruntime-win-x64-gpu_cuda13-{version}.zip",
+    "size": 288420862
+  },
+  {
+    "date": "2026-04-20T18:25:24Z",
+    "version": "v1.25.0",
+    "name": "onnxruntime-linux-aarch64-1.25.0.tgz",
+    "package": "onnxruntime-linux-aarch64-{version}.tgz",
+    "size": 7501532
+  },
+  {
+    "date": "2026-04-20T18:25:24Z",
+    "version": "v1.25.0",
+    "name": "onnxruntime-linux-x64-1.25.0.tgz",
+    "package": "onnxruntime-linux-x64-{version}.tgz",
+    "size": 8492947
+  },
+  {
+    "date": "2026-04-20T18:25:24Z",
+    "version": "v1.25.0",
+    "name": "onnxruntime-linux-x64-gpu-1.25.0.tgz",
+    "package": "onnxruntime-linux-x64-gpu-{version}.tgz",
+    "size": 219349856
+  },
+  {
+    "date": "2026-04-20T18:25:24Z",
+    "version": "v1.25.0",
+    "name": "onnxruntime-linux-x64-gpu_cuda13-1.25.0.tgz",
+    "package": "onnxruntime-linux-x64-gpu_cuda13-{version}.tgz",
+    "size": 192552263
+  },
+  {
+    "date": "2026-04-20T18:25:24Z",
+    "version": "v1.25.0",
+    "name": "onnxruntime-osx-arm64-1.25.0.tgz",
+    "package": "onnxruntime-osx-arm64-{version}.tgz",
+    "size": 31792081
+  },
+  {
+    "date": "2026-04-20T18:25:24Z",
+    "version": "v1.25.0",
+    "name": "onnxruntime-win-arm64-1.25.0.zip",
+    "package": "onnxruntime-win-arm64-{version}.zip",
+    "size": 76022733
+  },
+  {
+    "date": "2026-04-20T18:25:24Z",
+    "version": "v1.25.0",
+    "name": "onnxruntime-win-arm64x-1.25.0.zip",
+    "package": "onnxruntime-win-arm64x-{version}.zip",
+    "size": 117970490
+  },
+  {
+    "date": "2026-04-20T18:25:24Z",
+    "version": "v1.25.0",
+    "name": "onnxruntime-win-x64-1.25.0.zip",
+    "package": "onnxruntime-win-x64-{version}.zip",
+    "size": 75136847
+  },
+  {
+    "date": "2026-04-20T18:25:24Z",
+    "version": "v1.25.0",
+    "name": "onnxruntime-win-x64-gpu-1.25.0.zip",
+    "package": "onnxruntime-win-x64-gpu-{version}.zip",
+    "size": 294166735
+  },
+  {
+    "date": "2026-04-20T18:25:24Z",
+    "version": "v1.25.0",
+    "name": "onnxruntime-win-x64-gpu_cuda13-1.25.0.zip",
+    "package": "onnxruntime-win-x64-gpu_cuda13-{version}.zip",
+    "size": 302658133
+  },
+  {
+    "date": "2026-04-27T21:46:20Z",
+    "version": "v1.25.1",
+    "name": "onnxruntime-linux-aarch64-1.25.1.tgz",
+    "package": "onnxruntime-linux-aarch64-{version}.tgz",
+    "size": 7533892
+  },
+  {
+    "date": "2026-04-27T21:46:20Z",
+    "version": "v1.25.1",
+    "name": "onnxruntime-linux-x64-1.25.1.tgz",
+    "package": "onnxruntime-linux-x64-{version}.tgz",
+    "size": 8518976
+  },
+  {
+    "date": "2026-04-27T21:46:20Z",
+    "version": "v1.25.1",
+    "name": "onnxruntime-linux-x64-gpu-1.25.1.tgz",
+    "package": "onnxruntime-linux-x64-gpu-{version}.tgz",
+    "size": 220155589
+  },
+  {
+    "date": "2026-04-27T21:46:20Z",
+    "version": "v1.25.1",
+    "name": "onnxruntime-linux-x64-gpu_cuda13-1.25.1.tgz",
+    "package": "onnxruntime-linux-x64-gpu_cuda13-{version}.tgz",
+    "size": 193166931
+  },
+  {
+    "date": "2026-04-27T21:46:20Z",
+    "version": "v1.25.1",
+    "name": "onnxruntime-osx-arm64-1.25.1.tgz",
+    "package": "onnxruntime-osx-arm64-{version}.tgz",
+    "size": 31886655
+  },
+  {
+    "date": "2026-04-27T21:46:20Z",
+    "version": "v1.25.1",
+    "name": "onnxruntime-win-arm64-1.25.1.zip",
+    "package": "onnxruntime-win-arm64-{version}.zip",
+    "size": 75958257
+  },
+  {
+    "date": "2026-04-27T21:46:20Z",
+    "version": "v1.25.1",
+    "name": "onnxruntime-win-arm64x-1.25.1.zip",
+    "package": "onnxruntime-win-arm64x-{version}.zip",
+    "size": 118200260
+  },
+  {
+    "date": "2026-04-27T21:46:20Z",
+    "version": "v1.25.1",
+    "name": "onnxruntime-win-x64-1.25.1.zip",
+    "package": "onnxruntime-win-x64-{version}.zip",
+    "size": 75237895
+  },
+  {
+    "date": "2026-04-27T21:46:20Z",
+    "version": "v1.25.1",
+    "name": "onnxruntime-win-x64-gpu-1.25.1.zip",
+    "package": "onnxruntime-win-x64-gpu-{version}.zip",
+    "size": 295675488
+  },
+  {
+    "date": "2026-04-27T21:46:20Z",
+    "version": "v1.25.1",
+    "name": "onnxruntime-win-x64-gpu_cuda13-1.25.1.zip",
+    "package": "onnxruntime-win-x64-gpu_cuda13-{version}.zip",
+    "size": 304026743
+  },
+  {
+    "date": "2026-05-08T19:24:39Z",
+    "version": "v1.26.0",
+    "name": "onnxruntime-linux-aarch64-1.26.0.tgz",
+    "package": "onnxruntime-linux-aarch64-{version}.tgz",
+    "size": 7608947
+  },
+  {
+    "date": "2026-05-08T19:24:39Z",
+    "version": "v1.26.0",
+    "name": "onnxruntime-linux-x64-1.26.0.tgz",
+    "package": "onnxruntime-linux-x64-{version}.tgz",
+    "size": 8590023
+  },
+  {
+    "date": "2026-05-08T19:24:39Z",
+    "version": "v1.26.0",
+    "name": "onnxruntime-linux-x64-gpu-1.26.0.tgz",
+    "package": "onnxruntime-linux-x64-gpu-{version}.tgz",
+    "size": 225080769
+  },
+  {
+    "date": "2026-05-08T19:24:39Z",
+    "version": "v1.26.0",
+    "name": "onnxruntime-linux-x64-gpu_cuda13-1.26.0.tgz",
+    "package": "onnxruntime-linux-x64-gpu_cuda13-{version}.tgz",
+    "size": 196443970
+  },
+  {
+    "date": "2026-05-08T19:24:39Z",
+    "version": "v1.26.0",
+    "name": "onnxruntime-osx-arm64-1.26.0.tgz",
+    "package": "onnxruntime-osx-arm64-{version}.tgz",
+    "size": 31717869
+  },
+  {
+    "date": "2026-05-08T19:24:39Z",
+    "version": "v1.26.0",
+    "name": "onnxruntime-win-arm64-1.26.0.zip",
+    "package": "onnxruntime-win-arm64-{version}.zip",
+    "size": 77548904
+  },
+  {
+    "date": "2026-05-08T19:24:39Z",
+    "version": "v1.26.0",
+    "name": "onnxruntime-win-arm64x-1.26.0.zip",
+    "package": "onnxruntime-win-arm64x-{version}.zip",
+    "size": 120151142
+  },
+  {
+    "date": "2026-05-08T19:24:39Z",
+    "version": "v1.26.0",
+    "name": "onnxruntime-win-x64-1.26.0.zip",
+    "package": "onnxruntime-win-x64-{version}.zip",
+    "size": 75675381
+  },
+  {
+    "date": "2026-05-08T19:24:39Z",
+    "version": "v1.26.0",
+    "name": "onnxruntime-win-x64-gpu-1.26.0.zip",
+    "package": "onnxruntime-win-x64-gpu-{version}.zip",
+    "size": 300180373
+  },
+  {
+    "date": "2026-05-08T19:24:39Z",
+    "version": "v1.26.0",
+    "name": "onnxruntime-win-x64-gpu_cuda13-1.26.0.zip",
+    "package": "onnxruntime-win-x64-gpu_cuda13-{version}.zip",
+    "size": 308611829
+  },
+  {
+    "date": "2026-06-19T21:11:07Z",
+    "version": "v1.27.0",
+    "name": "onnxruntime-linux-aarch64-1.27.0.tgz",
+    "package": "onnxruntime-linux-aarch64-{version}.tgz",
+    "size": 7797972
+  },
+  {
+    "date": "2026-06-19T21:11:07Z",
+    "version": "v1.27.0",
+    "name": "onnxruntime-linux-x64-1.27.0.tgz",
+    "package": "onnxruntime-linux-x64-{version}.tgz",
+    "size": 8831605
+  },
+  {
+    "date": "2026-06-19T21:11:07Z",
+    "version": "v1.27.0",
+    "name": "onnxruntime-linux-x64-gpu_cuda12-1.27.0.tgz",
+    "package": "onnxruntime-linux-x64-gpu_cuda12-{version}.tgz",
+    "size": 239349446
+  },
+  {
+    "date": "2026-06-19T21:11:07Z",
+    "version": "v1.27.0",
+    "name": "onnxruntime-linux-x64-gpu_cuda13-1.27.0.tgz",
+    "package": "onnxruntime-linux-x64-gpu_cuda13-{version}.tgz",
+    "size": 211562085
+  },
+  {
+    "date": "2026-06-19T21:11:07Z",
+    "version": "v1.27.0",
+    "name": "onnxruntime-osx-arm64-1.27.0.tgz",
+    "package": "onnxruntime-osx-arm64-{version}.tgz",
+    "size": 32485368
+  },
+  {
+    "date": "2026-06-19T21:11:07Z",
+    "version": "v1.27.0",
+    "name": "onnxruntime-win-arm64-1.27.0.zip",
+    "package": "onnxruntime-win-arm64-{version}.zip",
+    "size": 78593089
+  },
+  {
+    "date": "2026-06-19T21:11:07Z",
+    "version": "v1.27.0",
+    "name": "onnxruntime-win-arm64x-1.27.0.zip",
+    "package": "onnxruntime-win-arm64x-{version}.zip",
+    "size": 122365243
+  },
+  {
+    "date": "2026-06-19T21:11:07Z",
+    "version": "v1.27.0",
+    "name": "onnxruntime-win-x64-1.27.0.zip",
+    "package": "onnxruntime-win-x64-{version}.zip",
+    "size": 77086915
+  },
+  {
+    "date": "2026-06-19T21:11:07Z",
+    "version": "v1.27.0",
+    "name": "onnxruntime-win-x64-gpu_cuda12-1.27.0.zip",
+    "package": "onnxruntime-win-x64-gpu_cuda12-{version}.zip",
+    "size": 320611114
+  },
+  {
+    "date": "2026-06-19T21:11:07Z",
+    "version": "v1.27.0",
+    "name": "onnxruntime-win-x64-gpu_cuda13-1.27.0.zip",
+    "package": "onnxruntime-win-x64-gpu_cuda13-{version}.zip",
+    "size": 328903966
+  },
+  {
+    "date": "2026-07-11T01:11:02Z",
+    "version": "v1.27.1",
+    "name": "onnxruntime-linux-aarch64-1.27.1.tgz",
+    "package": "onnxruntime-linux-aarch64-{version}.tgz",
+    "size": 7812402
+  },
+  {
+    "date": "2026-07-11T01:11:02Z",
+    "version": "v1.27.1",
+    "name": "onnxruntime-linux-x64-1.27.1.tgz",
+    "package": "onnxruntime-linux-x64-{version}.tgz",
+    "size": 8828892
+  },
+  {
+    "date": "2026-07-11T01:11:02Z",
+    "version": "v1.27.1",
+    "name": "onnxruntime-linux-x64-gpu_cuda12-1.27.1.tgz",
+    "package": "onnxruntime-linux-x64-gpu_cuda12-{version}.tgz",
+    "size": 244763765
+  },
+  {
+    "date": "2026-07-11T01:11:02Z",
+    "version": "v1.27.1",
+    "name": "onnxruntime-linux-x64-gpu_cuda13-1.27.1.tgz",
+    "package": "onnxruntime-linux-x64-gpu_cuda13-{version}.tgz",
+    "size": 216106460
+  },
+  {
+    "date": "2026-07-11T01:11:02Z",
+    "version": "v1.27.1",
+    "name": "onnxruntime-osx-arm64-1.27.1.tgz",
+    "package": "onnxruntime-osx-arm64-{version}.tgz",
+    "size": 31959937
+  },
+  {
+    "date": "2026-07-11T01:11:02Z",
+    "version": "v1.27.1",
+    "name": "onnxruntime-win-arm64-1.27.1.zip",
+    "package": "onnxruntime-win-arm64-{version}.zip",
+    "size": 78590093
+  },
+  {
+    "date": "2026-07-11T01:11:02Z",
+    "version": "v1.27.1",
+    "name": "onnxruntime-win-arm64x-1.27.1.zip",
+    "package": "onnxruntime-win-arm64x-{version}.zip",
+    "size": 122478127
+  },
+  {
+    "date": "2026-07-11T01:11:02Z",
+    "version": "v1.27.1",
+    "name": "onnxruntime-win-x64-1.27.1.zip",
+    "package": "onnxruntime-win-x64-{version}.zip",
+    "size": 77242362
+  },
+  {
+    "date": "2026-07-11T01:11:02Z",
+    "version": "v1.27.1",
+    "name": "onnxruntime-win-x64-gpu_cuda12-1.27.1.zip",
+    "package": "onnxruntime-win-x64-gpu_cuda12-{version}.zip",
+    "size": 325895374
+  },
+  {
+    "date": "2026-07-11T01:11:02Z",
+    "version": "v1.27.1",
+    "name": "onnxruntime-win-x64-gpu_cuda13-1.27.1.zip",
+    "package": "onnxruntime-win-x64-gpu_cuda13-{version}.zip",
+    "size": 333496804
+  },
+  {
+    "date": "2026-07-25T05:27:07Z",
+    "version": "v1.28.0",
+    "name": "onnxruntime-linux-aarch64-1.28.0.tgz",
+    "package": "onnxruntime-linux-aarch64-{version}.tgz",
+    "size": 8116278
+  },
+  {
+    "date": "2026-07-25T05:27:07Z",
+    "version": "v1.28.0",
+    "name": "onnxruntime-linux-x64-1.28.0.tgz",
+    "package": "onnxruntime-linux-x64-{version}.tgz",
+    "size": 9125960
+  },
+  {
+    "date": "2026-07-25T05:27:07Z",
+    "version": "v1.28.0",
+    "name": "onnxruntime-linux-x64-gpu_cuda12-1.28.0.tgz",
+    "package": "onnxruntime-linux-x64-gpu_cuda12-{version}.tgz",
+    "size": 423724908
+  },
+  {
+    "date": "2026-07-25T05:27:07Z",
+    "version": "v1.28.0",
+    "name": "onnxruntime-linux-x64-gpu_cuda13-1.28.0.tgz",
+    "package": "onnxruntime-linux-x64-gpu_cuda13-{version}.tgz",
+    "size": 240874643
+  },
+  {
+    "date": "2026-07-25T05:27:07Z",
+    "version": "v1.28.0",
+    "name": "onnxruntime-osx-arm64-1.28.0.tgz",
+    "package": "onnxruntime-osx-arm64-{version}.tgz",
+    "size": 32396562
+  },
+  {
+    "date": "2026-07-25T05:27:07Z",
+    "version": "v1.28.0",
+    "name": "onnxruntime-win-arm64-1.28.0.zip",
+    "package": "onnxruntime-win-arm64-{version}.zip",
+    "size": 79812663
+  },
+  {
+    "date": "2026-07-25T05:27:07Z",
+    "version": "v1.28.0",
+    "name": "onnxruntime-win-arm64x-1.28.0.zip",
+    "package": "onnxruntime-win-arm64x-{version}.zip",
+    "size": 125059340
+  },
+  {
+    "date": "2026-07-25T05:27:07Z",
+    "version": "v1.28.0",
+    "name": "onnxruntime-win-x64-1.28.0.zip",
+    "package": "onnxruntime-win-x64-{version}.zip",
+    "size": 78796801
+  },
+  {
+    "date": "2026-07-25T05:27:07Z",
+    "version": "v1.28.0",
+    "name": "onnxruntime-win-x64-gpu_cuda12-1.28.0.zip",
+    "package": "onnxruntime-win-x64-gpu_cuda12-{version}.zip",
+    "size": 455344532
+  },
+  {
+    "date": "2026-07-25T05:27:07Z",
+    "version": "v1.28.0",
+    "name": "onnxruntime-win-x64-gpu_cuda13-1.28.0.zip",
+    "package": "onnxruntime-win-x64-gpu_cuda13-{version}.zip",
+    "size": 365825268
+  },
+  {
+    "date": "2026-08-12T06:15:37Z",
+    "version": "v1.29.0",
+    "name": "onnxruntime-linux-aarch64-1.29.0.tgz",
+    "package": "onnxruntime-linux-aarch64-{version}.tgz",
+    "size": 10027600
+  },
+  {
+    "date": "2026-08-12T06:15:37Z",
+    "version": "v1.29.0",
+    "name": "onnxruntime-linux-x64-1.29.0.tgz",
+    "package": "onnxruntime-linux-x64-{version}.tgz",
+    "size": 11082880
+  },
+  {
+    "date": "2026-08-12T06:15:37Z",
+    "version": "v1.29.0",
+    "name": "onnxruntime-linux-x64-gpu_cuda12-1.29.0.tgz",
+    "package": "onnxruntime-linux-x64-gpu_cuda12-{version}.tgz",
+    "size": 420000503
+  },
+  {
+    "date": "2026-08-12T06:15:37Z",
+    "version": "v1.29.0",
+    "name": "onnxruntime-linux-x64-gpu_cuda13-1.29.0.tgz",
+    "package": "onnxruntime-linux-x64-gpu_cuda13-{version}.tgz",
+    "size": 191380186
+  },
+  {
+    "date": "2026-08-12T06:15:37Z",
+    "version": "v1.29.0",
+    "name": "onnxruntime-osx-arm64-1.29.0.tgz",
+    "package": "onnxruntime-osx-arm64-{version}.tgz",
+    "size": 41578864
+  },
+  {
+    "date": "2026-08-12T06:15:37Z",
+    "version": "v1.29.0",
+    "name": "onnxruntime-win-arm64-1.29.0.zip",
+    "package": "onnxruntime-win-arm64-{version}.zip",
+    "size": 81679033
+  },
+  {
+    "date": "2026-08-12T06:15:37Z",
+    "version": "v1.29.0",
+    "name": "onnxruntime-win-arm64x-1.29.0.zip",
+    "package": "onnxruntime-win-arm64x-{version}.zip",
+    "size": 127256575
+  },
+  {
+    "date": "2026-08-12T06:15:37Z",
+    "version": "v1.29.0",
+    "name": "onnxruntime-win-x64-1.29.0.zip",
+    "package": "onnxruntime-win-x64-{version}.zip",
+    "size": 79645520
+  },
+  {
+    "date": "2026-08-12T06:15:37Z",
+    "version": "v1.29.0",
+    "name": "onnxruntime-win-x64-gpu_cuda12-1.29.0.zip",
+    "package": "onnxruntime-win-x64-gpu_cuda12-{version}.zip",
+    "size": 362974227
+  },
+  {
+    "date": "2026-08-12T06:15:37Z",
+    "version": "v1.29.0",
+    "name": "onnxruntime-win-x64-gpu_cuda13-1.29.0.zip",
+    "package": "onnxruntime-win-x64-gpu_cuda13-{version}.zip",
+    "size": 275109089
+  },
+  {
+    "date": "2026-08-17T23:12:43Z",
+    "version": "plugin-ep-cuda/v0.1.0",
+    "name": "cuda_ep_cuda12_0.1.0_linux-x64.tar.gz",
+    "package": "cuda_ep_cuda12_0.1.0_linux-x64.tar.gz",
+    "size": 333933579
+  },
+  {
+    "date": "2026-08-17T23:12:43Z",
+    "version": "plugin-ep-cuda/v0.1.0",
+    "name": "cuda_ep_cuda12_0.1.0_win-x64.zip",
+    "package": "cuda_ep_cuda12_0.1.0_win-x64.zip",
+    "size": 191925307
+  },
+  {
+    "date": "2026-08-17T23:12:43Z",
+    "version": "plugin-ep-cuda/v0.1.0",
+    "name": "cuda_ep_cuda13_0.1.0_linux-aarch64.tar.gz",
+    "package": "cuda_ep_cuda13_0.1.0_linux-aarch64.tar.gz",
+    "size": 145759732
+  },
+  {
+    "date": "2026-08-17T23:12:43Z",
+    "version": "plugin-ep-cuda/v0.1.0",
+    "name": "cuda_ep_cuda13_0.1.0_linux-x64.tar.gz",
+    "package": "cuda_ep_cuda13_0.1.0_linux-x64.tar.gz",
+    "size": 182876357
+  },
+  {
+    "date": "2026-08-17T23:12:43Z",
+    "version": "plugin-ep-cuda/v0.1.0",
+    "name": "cuda_ep_cuda13_0.1.0_win-arm64.zip",
+    "package": "cuda_ep_cuda13_0.1.0_win-arm64.zip",
+    "size": 70692913
+  },
+  {
+    "date": "2026-08-17T23:12:43Z",
+    "version": "plugin-ep-cuda/v0.1.0",
+    "name": "cuda_ep_cuda13_0.1.0_win-x64.zip",
+    "package": "cuda_ep_cuda13_0.1.0_win-x64.zip",
+    "size": 132565271
+  },
+  {
+    "date": "2026-08-18T23:19:52Z",
+    "version": "v1.28.1",
+    "name": "onnxruntime-linux-aarch64-1.28.1.tgz",
+    "package": "onnxruntime-linux-aarch64-{version}.tgz",
+    "size": 8120538
+  },
+  {
+    "date": "2026-08-18T23:19:52Z",
+    "version": "v1.28.1",
+    "name": "onnxruntime-linux-x64-1.28.1.tgz",
+    "package": "onnxruntime-linux-x64-{version}.tgz",
+    "size": 9127154
+  },
+  {
+    "date": "2026-08-18T23:19:52Z",
+    "version": "v1.28.1",
+    "name": "onnxruntime-linux-x64-gpu_cuda12-1.28.1.tgz",
+    "package": "onnxruntime-linux-x64-gpu_cuda12-{version}.tgz",
+    "size": 423736973
+  },
+  {
+    "date": "2026-08-18T23:19:52Z",
+    "version": "v1.28.1",
+    "name": "onnxruntime-linux-x64-gpu_cuda13-1.28.1.tgz",
+    "package": "onnxruntime-linux-x64-gpu_cuda13-{version}.tgz",
+    "size": 240877607
+  },
+  {
+    "date": "2026-08-18T23:19:52Z",
+    "version": "v1.28.1",
+    "name": "onnxruntime-osx-arm64-1.28.1.tgz",
+    "package": "onnxruntime-osx-arm64-{version}.tgz",
+    "size": 31484009
+  },
+  {
+    "date": "2026-08-18T23:19:52Z",
+    "version": "v1.28.1",
+    "name": "onnxruntime-win-arm64-1.28.1.zip",
+    "package": "onnxruntime-win-arm64-{version}.zip",
+    "size": 79761389
+  },
+  {
+    "date": "2026-08-18T23:19:52Z",
+    "version": "v1.28.1",
+    "name": "onnxruntime-win-arm64x-1.28.1.zip",
+    "package": "onnxruntime-win-arm64x-{version}.zip",
+    "size": 122919980
+  },
+  {
+    "date": "2026-08-18T23:19:52Z",
+    "version": "v1.28.1",
+    "name": "onnxruntime-win-x64-1.28.1.zip",
+    "package": "onnxruntime-win-x64-{version}.zip",
+    "size": 78632658
+  },
+  {
+    "date": "2026-08-18T23:19:52Z",
+    "version": "v1.28.1",
+    "name": "onnxruntime-win-x64-gpu_cuda12-1.28.1.zip",
+    "package": "onnxruntime-win-x64-gpu_cuda12-{version}.zip",
+    "size": 454954048
+  },
+  {
+    "date": "2026-08-18T23:19:52Z",
+    "version": "v1.28.1",
+    "name": "onnxruntime-win-x64-gpu_cuda13-1.28.1.zip",
+    "package": "onnxruntime-win-x64-gpu_cuda13-{version}.zip",
+    "size": 365893955
+  },
+  {
+    "date": "2026-09-03T01:17:16Z",
+    "version": "v1.28.2",
+    "name": "onnxruntime-linux-aarch64-1.28.2.tgz",
+    "package": "onnxruntime-linux-aarch64-{version}.tgz",
+    "size": 8119456
+  },
+  {
+    "date": "2026-09-03T01:17:16Z",
+    "version": "v1.28.2",
+    "name": "onnxruntime-linux-x64-1.28.2.tgz",
+    "package": "onnxruntime-linux-x64-{version}.tgz",
+    "size": 9128991
+  },
+  {
+    "date": "2026-09-03T01:17:16Z",
+    "version": "v1.28.2",
+    "name": "onnxruntime-linux-x64-gpu_cuda12-1.28.2.tgz",
+    "package": "onnxruntime-linux-x64-gpu_cuda12-{version}.tgz",
+    "size": 423730083
+  },
+  {
+    "date": "2026-09-03T01:17:16Z",
+    "version": "v1.28.2",
+    "name": "onnxruntime-linux-x64-gpu_cuda13-1.28.2.tgz",
+    "package": "onnxruntime-linux-x64-gpu_cuda13-{version}.tgz",
+    "size": 240868705
+  },
+  {
+    "date": "2026-09-03T01:17:16Z",
+    "version": "v1.28.2",
+    "name": "onnxruntime-osx-arm64-1.28.2.tgz",
+    "package": "onnxruntime-osx-arm64-{version}.tgz",
+    "size": 32093967
+  },
+  {
+    "date": "2026-09-03T01:17:16Z",
+    "version": "v1.28.2",
+    "name": "onnxruntime-win-arm64-1.28.2.zip",
+    "package": "onnxruntime-win-arm64-{version}.zip",
+    "size": 79713523
+  },
+  {
+    "date": "2026-09-03T01:17:16Z",
+    "version": "v1.28.2",
+    "name": "onnxruntime-win-arm64x-1.28.2.zip",
+    "package": "onnxruntime-win-arm64x-{version}.zip",
+    "size": 125122898
+  },
+  {
+    "date": "2026-09-03T01:17:16Z",
+    "version": "v1.28.2",
+    "name": "onnxruntime-win-x64-1.28.2.zip",
+    "package": "onnxruntime-win-x64-{version}.zip",
+    "size": 78620837
+  },
+  {
+    "date": "2026-09-03T01:17:16Z",
+    "version": "v1.28.2",
+    "name": "onnxruntime-win-x64-gpu_cuda12-1.28.2.zip",
+    "package": "onnxruntime-win-x64-gpu_cuda12-{version}.zip",
+    "size": 454306028
+  },
+  {
+    "date": "2026-09-03T01:17:16Z",
+    "version": "v1.28.2",
+    "name": "onnxruntime-win-x64-gpu_cuda13-1.28.2.zip",
+    "package": "onnxruntime-win-x64-gpu_cuda13-{version}.zip",
+    "size": 365562963
+  },
+  {
+    "date": "2026-09-10T05:26:07Z",
+    "version": "v1.29.1",
+    "name": "onnxruntime-linux-aarch64-1.29.1.tgz",
+    "package": "onnxruntime-linux-aarch64-{version}.tgz",
+    "size": 10008098
+  },
+  {
+    "date": "2026-09-10T05:26:07Z",
+    "version": "v1.29.1",
+    "name": "onnxruntime-linux-x64-1.29.1.tgz",
+    "package": "onnxruntime-linux-x64-{version}.tgz",
+    "size": 11117547
+  },
+  {
+    "date": "2026-09-10T05:26:07Z",
+    "version": "v1.29.1",
+    "name": "onnxruntime-linux-x64-gpu_cuda12-1.29.1.tgz",
+    "package": "onnxruntime-linux-x64-gpu_cuda12-{version}.tgz",
+    "size": 420038659
+  },
+  {
+    "date": "2026-09-10T05:26:07Z",
+    "version": "v1.29.1",
+    "name": "onnxruntime-linux-x64-gpu_cuda13-1.29.1.tgz",
+    "package": "onnxruntime-linux-x64-gpu_cuda13-{version}.tgz",
+    "size": 191432390
+  },
+  {
+    "date": "2026-09-10T05:26:07Z",
+    "version": "v1.29.1",
+    "name": "onnxruntime-osx-arm64-1.29.1.tgz",
+    "package": "onnxruntime-osx-arm64-{version}.tgz",
+    "size": 40861245
+  },
+  {
+    "date": "2026-09-10T05:26:07Z",
+    "version": "v1.29.1",
+    "name": "onnxruntime-win-arm64-1.29.1.zip",
+    "package": "onnxruntime-win-arm64-{version}.zip",
+    "size": 81975317
+  },
+  {
+    "date": "2026-09-10T05:26:07Z",
+    "version": "v1.29.1",
+    "name": "onnxruntime-win-arm64x-1.29.1.zip",
+    "package": "onnxruntime-win-arm64x-{version}.zip",
+    "size": 127563329
+  },
+  {
+    "date": "2026-09-10T05:26:07Z",
+    "version": "v1.29.1",
+    "name": "onnxruntime-win-x64-1.29.1.zip",
+    "package": "onnxruntime-win-x64-{version}.zip",
+    "size": 79671670
+  },
+  {
+    "date": "2026-09-10T05:26:07Z",
+    "version": "v1.29.1",
+    "name": "onnxruntime-win-x64-gpu_cuda12-1.29.1.zip",
+    "package": "onnxruntime-win-x64-gpu_cuda12-{version}.zip",
+    "size": 362331975
+  },
+  {
+    "date": "2026-09-10T05:26:07Z",
+    "version": "v1.29.1",
+    "name": "onnxruntime-win-x64-gpu_cuda13-1.29.1.zip",
+    "package": "onnxruntime-win-x64-gpu_cuda13-{version}.zip",
+    "size": 275073752
+  },
+  {
+    "date": "2026-09-10T16:55:55Z",
+    "version": "v1.30.0",
+    "name": "onnxruntime-linux-aarch64-1.30.0.tgz",
+    "package": "onnxruntime-linux-aarch64-{version}.tgz",
+    "size": 10269495
+  },
+  {
+    "date": "2026-09-10T16:55:55Z",
+    "version": "v1.30.0",
+    "name": "onnxruntime-linux-x64-1.30.0.tgz",
+    "package": "onnxruntime-linux-x64-{version}.tgz",
+    "size": 11306877
+  },
+  {
+    "date": "2026-09-10T16:55:55Z",
+    "version": "v1.30.0",
+    "name": "onnxruntime-linux-x64-gpu_cuda12-1.30.0.tgz",
+    "package": "onnxruntime-linux-x64-gpu_cuda12-{version}.tgz",
+    "size": 439354926
+  },
+  {
+    "date": "2026-09-10T16:55:55Z",
+    "version": "v1.30.0",
+    "name": "onnxruntime-linux-x64-gpu_cuda13-1.30.0.tgz",
+    "package": "onnxruntime-linux-x64-gpu_cuda13-{version}.tgz",
+    "size": 235697517
+  },
+  {
+    "date": "2026-09-10T16:55:55Z",
+    "version": "v1.30.0",
+    "name": "onnxruntime-osx-arm64-1.30.0.tgz",
+    "package": "onnxruntime-osx-arm64-{version}.tgz",
+    "size": 42373116
+  },
+  {
+    "date": "2026-09-10T16:55:55Z",
+    "version": "v1.30.0",
+    "name": "onnxruntime-win-arm64-1.30.0.zip",
+    "package": "onnxruntime-win-arm64-{version}.zip",
+    "size": 83954906
+  },
+  {
+    "date": "2026-09-10T16:55:55Z",
+    "version": "v1.30.0",
+    "name": "onnxruntime-win-arm64x-1.30.0.zip",
+    "package": "onnxruntime-win-arm64x-{version}.zip",
+    "size": 131128901
+  },
+  {
+    "date": "2026-09-10T16:55:55Z",
+    "version": "v1.30.0",
+    "name": "onnxruntime-win-x64-1.30.0.zip",
+    "package": "onnxruntime-win-x64-{version}.zip",
+    "size": 82645522
+  },
+  {
+    "date": "2026-09-10T16:55:55Z",
+    "version": "v1.30.0",
+    "name": "onnxruntime-win-x64-gpu_cuda12-1.30.0.zip",
+    "package": "onnxruntime-win-x64-gpu_cuda12-{version}.zip",
+    "size": 379723801
+  },
+  {
+    "date": "2026-09-10T16:55:55Z",
+    "version": "v1.30.0",
+    "name": "onnxruntime-win-x64-gpu_cuda13-1.30.0.zip",
+    "package": "onnxruntime-win-x64-gpu_cuda13-{version}.zip",
+    "size": 294386823
+  }
+]
