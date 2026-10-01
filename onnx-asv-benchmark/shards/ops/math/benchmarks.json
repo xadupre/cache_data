@@ -2,7 +2,7 @@
   "ops.math.add.Add.time_run": {
     "code": "class Add:\n    def time_run(self, backend):\n        run_session(self)\n\n    def setup(self, backend):\n        model = oh.make_model(\n            oh.make_graph(\n                [oh.make_node(\"Add\", [\"X\", \"Y\"], [\"Z\"])],\n                \"add\",\n                [\n                    oh.make_tensor_value_info(\"X\", TensorProto.FLOAT, [1024, 1024]),\n                    oh.make_tensor_value_info(\"Y\", TensorProto.FLOAT, [1024, 1024]),\n                ],\n                [oh.make_tensor_value_info(\"Z\", TensorProto.FLOAT, [1024, 1024])],\n            ),\n            opset_imports=[oh.make_opsetid(\"\", 18)],\n            ir_version=10,\n        )\n        rng = np.random.default_rng(2)\n        feeds = {\n            \"X\": rng.standard_normal((1024, 1024), dtype=np.float32),\n            \"Y\": rng.standard_normal((1024, 1024), dtype=np.float32),\n        }\n        setup_session(self, backend, model, feeds)",
     "min_run_count": 2,
-    "name": "maths.add.Add.time_run",
+    "name": "ops.math.add.Add.time_run",
     "number": 4,
     "param_names": [
       "backend"
@@ -26,7 +26,7 @@
   "ops.math.matmul.MatMul.time_run": {
     "code": "class MatMul:\n    def time_run(self, backend):\n        run_session(self)\n\n    def setup(self, backend):\n        model = oh.make_model(\n            oh.make_graph(\n                [oh.make_node(\"MatMul\", [\"X\", \"Y\"], [\"Z\"])],\n                \"matmul\",\n                [\n                    oh.make_tensor_value_info(\"X\", TensorProto.FLOAT, [256, 256]),\n                    oh.make_tensor_value_info(\"Y\", TensorProto.FLOAT, [256, 256]),\n                ],\n                [oh.make_tensor_value_info(\"Z\", TensorProto.FLOAT, [256, 256])],\n            ),\n            opset_imports=[oh.make_opsetid(\"\", 18)],\n            ir_version=10,\n        )\n        rng = np.random.default_rng(3)\n        feeds = {\n            \"X\": rng.standard_normal((256, 256), dtype=np.float32),\n            \"Y\": rng.standard_normal((256, 256), dtype=np.float32),\n        }\n        setup_session(self, backend, model, feeds)",
     "min_run_count": 2,
-    "name": "maths.matmul.MatMul.time_run",
+    "name": "ops.math.matmul.MatMul.time_run",
     "number": 1,
     "param_names": [
       "backend"
