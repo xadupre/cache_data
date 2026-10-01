@@ -8,8 +8,8 @@
   },
   "params": {
     "arch": "x86_64",
-    "cpu": "anonymous",
-    "machine": "cpu",
+    "cpu": "13th Gen Intel(R) Core(TM) i7-13800H",
+    "machine": "13th Gen Intel(R) Core(TM) i7-13800H",
     "num_cpu": "anonymous",
     "numpy": "2.5.3",
     "onnx": "1.23.1",
