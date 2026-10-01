@@ -1,0 +1,92 @@
+{
+  "commit_hash": "fcc46291574713fd429ed295c64ee96b5085a6ee",
+  "date": 1790782710000,
+  "durations": {},
+  "env_name": "virtualenv-py3.12-numpy2.5.3-onnx1.23.1-onnxruntime1.30.0-ONNX_LIGHT_VERSION0.1.28",
+  "env_vars": {
+    "ONNX_LIGHT_VERSION": "0.1.28"
+  },
+  "params": {
+    "arch": "x86_64",
+    "cpu": "anonymous",
+    "machine": "cpu",
+    "num_cpu": "anonymous",
+    "numpy": "2.5.3",
+    "onnx": "1.23.1",
+    "onnxruntime": "1.30.0",
+    "os": "anonymous",
+    "python": "3.12",
+    "ram": "anonymous"
+  },
+  "python": "3.12",
+  "requirements": {
+    "numpy": "2.5.3",
+    "onnx": "1.23.1",
+    "onnxruntime": "1.30.0"
+  },
+  "result_columns": [
+    "result",
+    "params",
+    "version",
+    "started_at",
+    "duration",
+    "stats_ci_99_a",
+    "stats_ci_99_b",
+    "stats_q_25",
+    "stats_q_75",
+    "stats_number",
+    "stats_repeat",
+    "samples",
+    "profile"
+  ],
+  "results": {
+    "nn.relu.Relu.time_run": [
+      [
+        0.0002818799998749455,
+        0.0019070110001848661,
+        0.0007242739998218894
+      ],
+      [
+        [
+          "'onnxruntime'",
+          "'onnx-reference'",
+          "'onnx-light'"
+        ]
+      ],
+      "c5710e3754f2f2b1d82b7656e4fe9b9bc20f8599daa0ce71e4a78636e664694e",
+      1790804867325,
+      2.0205,
+      [
+        -Infinity,
+        -Infinity,
+        -Infinity
+      ],
+      [
+        Infinity,
+        Infinity,
+        Infinity
+      ],
+      [
+        0.00028188,
+        0.001907,
+        0.00072427
+      ],
+      [
+        0.00028188,
+        0.001907,
+        0.00072427
+      ],
+      [
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1
+      ]
+    ]
+  },
+  "version": 2
+}

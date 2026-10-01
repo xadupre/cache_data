@@ -1,0 +1,92 @@
+{
+  "commit_hash": "fcc46291574713fd429ed295c64ee96b5085a6ee",
+  "date": 1790782710000,
+  "durations": {},
+  "env_name": "virtualenv-py3.12-numpy2.5.3-onnx1.23.1-onnxruntime1.30.0-ONNX_LIGHT_VERSION0.1.28",
+  "env_vars": {
+    "ONNX_LIGHT_VERSION": "0.1.28"
+  },
+  "params": {
+    "arch": "x86_64",
+    "cpu": "anonymous",
+    "machine": "cpu",
+    "num_cpu": "anonymous",
+    "numpy": "2.5.3",
+    "onnx": "1.23.1",
+    "onnxruntime": "1.30.0",
+    "os": "anonymous",
+    "python": "3.12",
+    "ram": "anonymous"
+  },
+  "python": "3.12",
+  "requirements": {
+    "numpy": "2.5.3",
+    "onnx": "1.23.1",
+    "onnxruntime": "1.30.0"
+  },
+  "result_columns": [
+    "result",
+    "params",
+    "version",
+    "started_at",
+    "duration",
+    "stats_ci_99_a",
+    "stats_ci_99_b",
+    "stats_q_25",
+    "stats_q_75",
+    "stats_number",
+    "stats_repeat",
+    "samples",
+    "profile"
+  ],
+  "results": {
+    "models.matmul_add.MatMulAdd.time_run": [
+      [
+        0.004279499999938707,
+        0.001830821000112337,
+        0.004170242999862239
+      ],
+      [
+        [
+          "'onnxruntime'",
+          "'onnx-reference'",
+          "'onnx-light'"
+        ]
+      ],
+      "c806be89ccfd90b1065c0b1d965a76f51b9a7f1d45a9910b6bd903bf07a6b12d",
+      1790804863553,
+      1.8971,
+      [
+        -Infinity,
+        -Infinity,
+        -Infinity
+      ],
+      [
+        Infinity,
+        Infinity,
+        Infinity
+      ],
+      [
+        0.0042795,
+        0.0018308,
+        0.0041702
+      ],
+      [
+        0.0042795,
+        0.0018308,
+        0.0041702
+      ],
+      [
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1
+      ]
+    ]
+  },
+  "version": 2
+}

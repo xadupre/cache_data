@@ -1,0 +1,139 @@
+{
+  "commit_hash": "67c92e352cd6c4627fea721311301b3cd9077138",
+  "date": 1790805762000,
+  "durations": {},
+  "env_name": "virtualenv-py3.12-numpy2.5.3-onnx1.23.1-onnxruntime1.30.0-ONNX_LIGHT_VERSION0.1.28",
+  "env_vars": {
+    "ONNX_LIGHT_VERSION": "0.1.28"
+  },
+  "params": {
+    "arch": "x86_64",
+    "cpu": "anonymous",
+    "machine": "cpu",
+    "num_cpu": "anonymous",
+    "numpy": "2.5.3",
+    "onnx": "1.23.1",
+    "onnxruntime": "1.30.0",
+    "os": "anonymous",
+    "python": "3.12",
+    "ram": "anonymous"
+  },
+  "python": "3.12",
+  "requirements": {
+    "numpy": "2.5.3",
+    "onnx": "1.23.1",
+    "onnxruntime": "1.30.0"
+  },
+  "result_columns": [
+    "result",
+    "params",
+    "version",
+    "started_at",
+    "duration",
+    "stats_ci_99_a",
+    "stats_ci_99_b",
+    "stats_q_25",
+    "stats_q_75",
+    "stats_number",
+    "stats_repeat",
+    "samples",
+    "profile"
+  ],
+  "results": {
+    "maths.add.Add.time_run": [
+      [
+        0.0004253135000453767,
+        0.0012759087500171518,
+        0.0010176603749414426
+      ],
+      [
+        [
+          "'onnxruntime'",
+          "'onnx-reference'",
+          "'onnx-light'"
+        ]
+      ],
+      "45dffc2ea6fe2a24ecac85c5a019d613dbd1662ee34279afce3ed9505cfcaa58",
+      1790806005310,
+      12.835,
+      [
+        0.00036007,
+        0.00086877,
+        0.00075639
+      ],
+      [
+        0.00069986,
+        0.0018826,
+        0.0015544
+      ],
+      [
+        0.00039152,
+        0.0010376,
+        0.00093341
+      ],
+      [
+        0.00045788,
+        0.0014857,
+        0.0011575
+      ],
+      [
+        4,
+        4,
+        4
+      ],
+      [
+        10,
+        10,
+        10
+      ]
+    ],
+    "maths.matmul.MatMul.time_run": [
+      [
+        0.0005409379996308417,
+        0.000984874999630847,
+        0.018823554999471526
+      ],
+      [
+        [
+          "'onnxruntime'",
+          "'onnx-reference'",
+          "'onnx-light'"
+        ]
+      ],
+      "0f554c7b0e4e507fa9bfbda0f7b880ec03a3558d8c590a2359191fdfa77e5521",
+      1790806011270,
+      5.5669,
+      [
+        0.0003907,
+        0.00030114,
+        0.012301
+      ],
+      [
+        0.0012688,
+        0.0050975,
+        0.042355
+      ],
+      [
+        0.00046764,
+        0.00058863,
+        0.013483
+      ],
+      [
+        0.00083394,
+        0.0018277,
+        0.026273
+      ],
+      [
+        1,
+        1,
+        1
+      ],
+      [
+        10,
+        10,
+        10
+      ]
+    ]
+  },
+  "version": 2
+}

@@ -1,0 +1,27 @@
+{
+  "models.mlp.MLP.time_run": {
+    "code": "class MLP:\n    def time_run(self, backend):\n        run_session(self)\n\n    def setup(self, backend):\n        rng = np.random.default_rng(1)\n        weights1 = rng.standard_normal((128, 256), dtype=np.float32)\n        bias1 = rng.standard_normal(256, dtype=np.float32)\n        weights2 = rng.standard_normal((256, 64), dtype=np.float32)\n        bias2 = rng.standard_normal(64, dtype=np.float32)\n        model = oh.make_model(\n            oh.make_graph(\n                [\n                    oh.make_node(\"MatMul\", [\"X\", \"weights1\"], [\"hidden_matmul\"]),\n                    oh.make_node(\"Add\", [\"hidden_matmul\", \"bias1\"], [\"hidden_bias\"]),\n                    oh.make_node(\"Relu\", [\"hidden_bias\"], [\"hidden\"]),\n                    oh.make_node(\"MatMul\", [\"hidden\", \"weights2\"], [\"output_matmul\"]),\n                    oh.make_node(\"Add\", [\"output_matmul\", \"bias2\"], [\"Y\"]),\n                ],\n                \"mlp\",\n                [oh.make_tensor_value_info(\"X\", TensorProto.FLOAT, [32, 128])],\n                [oh.make_tensor_value_info(\"Y\", TensorProto.FLOAT, [32, 64])],\n                [\n                    onh.from_array(weights1, \"weights1\"),\n                    onh.from_array(bias1, \"bias1\"),\n                    onh.from_array(weights2, \"weights2\"),\n                    onh.from_array(bias2, \"bias2\"),\n                ],\n            ),\n            opset_imports=[oh.make_opsetid(\"\", 18)],\n            ir_version=10,\n        )\n        feeds = {\"X\": rng.standard_normal((32, 128), dtype=np.float32)}\n        setup_session(self, backend, model, feeds)",
+    "min_run_count": 2,
+    "name": "models.mlp.MLP.time_run",
+    "number": 2,
+    "param_names": [
+      "backend"
+    ],
+    "params": [
+      [
+        "'onnxruntime'",
+        "'onnx-reference'",
+        "'onnx-light'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "timeout": 10,
+    "type": "time",
+    "unit": "seconds",
+    "version": "62685d8106a8ac5165036deb22e334ae7dd58216f080fe55f1f7dca5d7a17ae5",
+    "warmup_time": -1
+  },
+  "version": 2
+}

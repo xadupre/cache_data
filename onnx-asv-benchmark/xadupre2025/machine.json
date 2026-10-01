@@ -1,9 +1,0 @@
-{
-    "arch": "x86_64",
-    "cpu": "13th Gen Intel(R) Core(TM) i7-13800H",
-    "machine": "xadupre2025",
-    "num_cpu": "20",
-    "os": "Linux 6.6.114.1-microsoft-standard-WSL2",
-    "ram": "33561804800",
-    "version": 1
-}
