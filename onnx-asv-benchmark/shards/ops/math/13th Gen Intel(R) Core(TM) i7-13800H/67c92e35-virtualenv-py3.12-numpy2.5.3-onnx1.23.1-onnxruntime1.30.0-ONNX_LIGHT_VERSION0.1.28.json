@@ -40,7 +40,7 @@
     "profile"
   ],
   "results": {
-    "maths.add.Add.time_run": [
+    "ops.math.add.Add.time_run": [
       [
         0.0004253135000453767,
         0.0012759087500171518,
@@ -87,7 +87,7 @@
         10
       ]
     ],
-    "maths.matmul.MatMul.time_run": [
+    "ops.math.matmul.MatMul.time_run": [
       [
         0.0005409379996308417,
         0.000984874999630847,

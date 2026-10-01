@@ -1,0 +1,27 @@
+{
+  "ops.nn.relu.Relu.time_run": {
+    "code": "class Relu:\n    def time_run(self, backend):\n        run_session(self)\n\n    def setup(self, backend):\n        model = oh.make_model(\n            oh.make_graph(\n                [oh.make_node(\"Relu\", [\"X\"], [\"Y\"])],\n                \"relu\",\n                [oh.make_tensor_value_info(\"X\", TensorProto.FLOAT, [1024, 1024])],\n                [oh.make_tensor_value_info(\"Y\", TensorProto.FLOAT, [1024, 1024])],\n            ),\n            opset_imports=[oh.make_opsetid(\"\", 18)],\n            ir_version=10,\n        )\n        rng = np.random.default_rng(4)\n        feeds = {\"X\": rng.standard_normal((1024, 1024), dtype=np.float32)}\n        setup_session(self, backend, model, feeds)",
+    "min_run_count": 2,
+    "name": "nn.relu.Relu.time_run",
+    "number": 5,
+    "param_names": [
+      "backend"
+    ],
+    "params": [
+      [
+        "'onnxruntime'",
+        "'onnx-reference'",
+        "'onnx-light'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "timeout": 10,
+    "type": "time",
+    "unit": "seconds",
+    "version": "c5710e3754f2f2b1d82b7656e4fe9b9bc20f8599daa0ce71e4a78636e664694e",
+    "warmup_time": -1
+  },
+  "version": 2
+}
