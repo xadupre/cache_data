@@ -1,4 +1,662 @@
 {
+  "nn.attention.Attention.time_run": {
+    "code": "class OperatorBenchmark:\n    def time_run(self, backend):\n        self.session.run(None, self.feeds)\n\n    def setup(self, backend):\n        case, feeds, expected_by_name = _load_case(self.case_name, self.case_mode)\n        model_bytes = case.model.SerializeToString()\n        if backend == \"onnxruntime\":\n            session = onnxruntime.InferenceSession(\n                model_bytes,\n                providers=[\"CPUExecutionProvider\"],\n            )\n        elif backend == \"onnx-reference\":\n            session = OnnxReferenceEvaluator(onnx.load_model_from_string(model_bytes))\n        elif backend == \"onnx-light\":\n            session = OnnxLightReferenceEvaluator(case.model)\n        else:\n            raise ValueError(f\"Unexpected backend {backend!r}.\")\n    \n        outputs = session.run(None, feeds)\n        output_names = [output.name for output in case.model.graph.output]\n        if expected_by_name and self.operator not in NONDETERMINISTIC_OPERATORS:\n            for name, output in zip(output_names, outputs, strict=True):\n                _assert_value(\n                    output,\n                    expected_by_name[name],\n                    rtol=max(case.rtol, 1e-2),\n                    atol=max(case.atol, 1e-4),\n                )\n    \n        self.case = case\n        self.feeds = feeds\n        self.session = session",
+    "min_run_count": 2,
+    "name": "nn.attention.Attention.time_run",
+    "number": 1,
+    "param_names": [
+      "backend"
+    ],
+    "params": [
+      [
+        "'onnxruntime'",
+        "'onnx-reference'",
+        "'onnx-light'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "21d19ca62ce894414613d9b671ad94da792742f641a53820801a41a6cf43424e",
+    "warmup_time": -1
+  },
+  "nn.average_pool.AveragePool.time_run": {
+    "code": "class OperatorBenchmark:\n    def time_run(self, backend):\n        self.session.run(None, self.feeds)\n\n    def setup(self, backend):\n        case, feeds, expected_by_name = _load_case(self.case_name, self.case_mode)\n        model_bytes = case.model.SerializeToString()\n        if backend == \"onnxruntime\":\n            session = onnxruntime.InferenceSession(\n                model_bytes,\n                providers=[\"CPUExecutionProvider\"],\n            )\n        elif backend == \"onnx-reference\":\n            session = OnnxReferenceEvaluator(onnx.load_model_from_string(model_bytes))\n        elif backend == \"onnx-light\":\n            session = OnnxLightReferenceEvaluator(case.model)\n        else:\n            raise ValueError(f\"Unexpected backend {backend!r}.\")\n    \n        outputs = session.run(None, feeds)\n        output_names = [output.name for output in case.model.graph.output]\n        if expected_by_name and self.operator not in NONDETERMINISTIC_OPERATORS:\n            for name, output in zip(output_names, outputs, strict=True):\n                _assert_value(\n                    output,\n                    expected_by_name[name],\n                    rtol=max(case.rtol, 1e-2),\n                    atol=max(case.atol, 1e-4),\n                )\n    \n        self.case = case\n        self.feeds = feeds\n        self.session = session",
+    "min_run_count": 2,
+    "name": "nn.average_pool.AveragePool.time_run",
+    "number": 1,
+    "param_names": [
+      "backend"
+    ],
+    "params": [
+      [
+        "'onnxruntime'",
+        "'onnx-reference'",
+        "'onnx-light'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "21d19ca62ce894414613d9b671ad94da792742f641a53820801a41a6cf43424e",
+    "warmup_time": -1
+  },
+  "nn.batch_normalization.BatchNormalization.time_run": {
+    "code": "class OperatorBenchmark:\n    def time_run(self, backend):\n        self.session.run(None, self.feeds)\n\n    def setup(self, backend):\n        case, feeds, expected_by_name = _load_case(self.case_name, self.case_mode)\n        model_bytes = case.model.SerializeToString()\n        if backend == \"onnxruntime\":\n            session = onnxruntime.InferenceSession(\n                model_bytes,\n                providers=[\"CPUExecutionProvider\"],\n            )\n        elif backend == \"onnx-reference\":\n            session = OnnxReferenceEvaluator(onnx.load_model_from_string(model_bytes))\n        elif backend == \"onnx-light\":\n            session = OnnxLightReferenceEvaluator(case.model)\n        else:\n            raise ValueError(f\"Unexpected backend {backend!r}.\")\n    \n        outputs = session.run(None, feeds)\n        output_names = [output.name for output in case.model.graph.output]\n        if expected_by_name and self.operator not in NONDETERMINISTIC_OPERATORS:\n            for name, output in zip(output_names, outputs, strict=True):\n                _assert_value(\n                    output,\n                    expected_by_name[name],\n                    rtol=max(case.rtol, 1e-2),\n                    atol=max(case.atol, 1e-4),\n                )\n    \n        self.case = case\n        self.feeds = feeds\n        self.session = session",
+    "min_run_count": 2,
+    "name": "nn.batch_normalization.BatchNormalization.time_run",
+    "number": 1,
+    "param_names": [
+      "backend"
+    ],
+    "params": [
+      [
+        "'onnxruntime'",
+        "'onnx-reference'",
+        "'onnx-light'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "21d19ca62ce894414613d9b671ad94da792742f641a53820801a41a6cf43424e",
+    "warmup_time": -1
+  },
+  "nn.causal_conv_with_state.CausalConvWithState.time_run": {
+    "code": "class OperatorBenchmark:\n    def time_run(self, backend):\n        self.session.run(None, self.feeds)\n\n    def setup(self, backend):\n        case, feeds, expected_by_name = _load_case(self.case_name, self.case_mode)\n        model_bytes = case.model.SerializeToString()\n        if backend == \"onnxruntime\":\n            session = onnxruntime.InferenceSession(\n                model_bytes,\n                providers=[\"CPUExecutionProvider\"],\n            )\n        elif backend == \"onnx-reference\":\n            session = OnnxReferenceEvaluator(onnx.load_model_from_string(model_bytes))\n        elif backend == \"onnx-light\":\n            session = OnnxLightReferenceEvaluator(case.model)\n        else:\n            raise ValueError(f\"Unexpected backend {backend!r}.\")\n    \n        outputs = session.run(None, feeds)\n        output_names = [output.name for output in case.model.graph.output]\n        if expected_by_name and self.operator not in NONDETERMINISTIC_OPERATORS:\n            for name, output in zip(output_names, outputs, strict=True):\n                _assert_value(\n                    output,\n                    expected_by_name[name],\n                    rtol=max(case.rtol, 1e-2),\n                    atol=max(case.atol, 1e-4),\n                )\n    \n        self.case = case\n        self.feeds = feeds\n        self.session = session",
+    "min_run_count": 2,
+    "name": "nn.causal_conv_with_state.CausalConvWithState.time_run",
+    "number": 1,
+    "param_names": [
+      "backend"
+    ],
+    "params": [
+      [
+        "'onnx-reference'",
+        "'onnx-light'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "21d19ca62ce894414613d9b671ad94da792742f641a53820801a41a6cf43424e",
+    "warmup_time": -1
+  },
+  "nn.col2_im.Col2Im.time_run": {
+    "code": "class OperatorBenchmark:\n    def time_run(self, backend):\n        self.session.run(None, self.feeds)\n\n    def setup(self, backend):\n        case, feeds, expected_by_name = _load_case(self.case_name, self.case_mode)\n        model_bytes = case.model.SerializeToString()\n        if backend == \"onnxruntime\":\n            session = onnxruntime.InferenceSession(\n                model_bytes,\n                providers=[\"CPUExecutionProvider\"],\n            )\n        elif backend == \"onnx-reference\":\n            session = OnnxReferenceEvaluator(onnx.load_model_from_string(model_bytes))\n        elif backend == \"onnx-light\":\n            session = OnnxLightReferenceEvaluator(case.model)\n        else:\n            raise ValueError(f\"Unexpected backend {backend!r}.\")\n    \n        outputs = session.run(None, feeds)\n        output_names = [output.name for output in case.model.graph.output]\n        if expected_by_name and self.operator not in NONDETERMINISTIC_OPERATORS:\n            for name, output in zip(output_names, outputs, strict=True):\n                _assert_value(\n                    output,\n                    expected_by_name[name],\n                    rtol=max(case.rtol, 1e-2),\n                    atol=max(case.atol, 1e-4),\n                )\n    \n        self.case = case\n        self.feeds = feeds\n        self.session = session",
+    "min_run_count": 2,
+    "name": "nn.col2_im.Col2Im.time_run",
+    "number": 1,
+    "param_names": [
+      "backend"
+    ],
+    "params": [
+      [
+        "'onnxruntime'",
+        "'onnx-reference'",
+        "'onnx-light'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "21d19ca62ce894414613d9b671ad94da792742f641a53820801a41a6cf43424e",
+    "warmup_time": -1
+  },
+  "nn.conv.Conv.time_run": {
+    "code": "class OperatorBenchmark:\n    def time_run(self, backend):\n        self.session.run(None, self.feeds)\n\n    def setup(self, backend):\n        case, feeds, expected_by_name = _load_case(self.case_name, self.case_mode)\n        model_bytes = case.model.SerializeToString()\n        if backend == \"onnxruntime\":\n            session = onnxruntime.InferenceSession(\n                model_bytes,\n                providers=[\"CPUExecutionProvider\"],\n            )\n        elif backend == \"onnx-reference\":\n            session = OnnxReferenceEvaluator(onnx.load_model_from_string(model_bytes))\n        elif backend == \"onnx-light\":\n            session = OnnxLightReferenceEvaluator(case.model)\n        else:\n            raise ValueError(f\"Unexpected backend {backend!r}.\")\n    \n        outputs = session.run(None, feeds)\n        output_names = [output.name for output in case.model.graph.output]\n        if expected_by_name and self.operator not in NONDETERMINISTIC_OPERATORS:\n            for name, output in zip(output_names, outputs, strict=True):\n                _assert_value(\n                    output,\n                    expected_by_name[name],\n                    rtol=max(case.rtol, 1e-2),\n                    atol=max(case.atol, 1e-4),\n                )\n    \n        self.case = case\n        self.feeds = feeds\n        self.session = session",
+    "min_run_count": 2,
+    "name": "nn.conv.Conv.time_run",
+    "number": 1,
+    "param_names": [
+      "backend"
+    ],
+    "params": [
+      [
+        "'onnxruntime'",
+        "'onnx-reference'",
+        "'onnx-light'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "21d19ca62ce894414613d9b671ad94da792742f641a53820801a41a6cf43424e",
+    "warmup_time": -1
+  },
+  "nn.conv_integer.ConvInteger.time_run": {
+    "code": "class OperatorBenchmark:\n    def time_run(self, backend):\n        self.session.run(None, self.feeds)\n\n    def setup(self, backend):\n        case, feeds, expected_by_name = _load_case(self.case_name, self.case_mode)\n        model_bytes = case.model.SerializeToString()\n        if backend == \"onnxruntime\":\n            session = onnxruntime.InferenceSession(\n                model_bytes,\n                providers=[\"CPUExecutionProvider\"],\n            )\n        elif backend == \"onnx-reference\":\n            session = OnnxReferenceEvaluator(onnx.load_model_from_string(model_bytes))\n        elif backend == \"onnx-light\":\n            session = OnnxLightReferenceEvaluator(case.model)\n        else:\n            raise ValueError(f\"Unexpected backend {backend!r}.\")\n    \n        outputs = session.run(None, feeds)\n        output_names = [output.name for output in case.model.graph.output]\n        if expected_by_name and self.operator not in NONDETERMINISTIC_OPERATORS:\n            for name, output in zip(output_names, outputs, strict=True):\n                _assert_value(\n                    output,\n                    expected_by_name[name],\n                    rtol=max(case.rtol, 1e-2),\n                    atol=max(case.atol, 1e-4),\n                )\n    \n        self.case = case\n        self.feeds = feeds\n        self.session = session",
+    "min_run_count": 2,
+    "name": "nn.conv_integer.ConvInteger.time_run",
+    "number": 1,
+    "param_names": [
+      "backend"
+    ],
+    "params": [
+      [
+        "'onnxruntime'",
+        "'onnx-reference'",
+        "'onnx-light'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "21d19ca62ce894414613d9b671ad94da792742f641a53820801a41a6cf43424e",
+    "warmup_time": -1
+  },
+  "nn.conv_transpose.ConvTranspose.time_run": {
+    "code": "class OperatorBenchmark:\n    def time_run(self, backend):\n        self.session.run(None, self.feeds)\n\n    def setup(self, backend):\n        case, feeds, expected_by_name = _load_case(self.case_name, self.case_mode)\n        model_bytes = case.model.SerializeToString()\n        if backend == \"onnxruntime\":\n            session = onnxruntime.InferenceSession(\n                model_bytes,\n                providers=[\"CPUExecutionProvider\"],\n            )\n        elif backend == \"onnx-reference\":\n            session = OnnxReferenceEvaluator(onnx.load_model_from_string(model_bytes))\n        elif backend == \"onnx-light\":\n            session = OnnxLightReferenceEvaluator(case.model)\n        else:\n            raise ValueError(f\"Unexpected backend {backend!r}.\")\n    \n        outputs = session.run(None, feeds)\n        output_names = [output.name for output in case.model.graph.output]\n        if expected_by_name and self.operator not in NONDETERMINISTIC_OPERATORS:\n            for name, output in zip(output_names, outputs, strict=True):\n                _assert_value(\n                    output,\n                    expected_by_name[name],\n                    rtol=max(case.rtol, 1e-2),\n                    atol=max(case.atol, 1e-4),\n                )\n    \n        self.case = case\n        self.feeds = feeds\n        self.session = session",
+    "min_run_count": 2,
+    "name": "nn.conv_transpose.ConvTranspose.time_run",
+    "number": 1,
+    "param_names": [
+      "backend"
+    ],
+    "params": [
+      [
+        "'onnxruntime'",
+        "'onnx-light'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "21d19ca62ce894414613d9b671ad94da792742f641a53820801a41a6cf43424e",
+    "warmup_time": -1
+  },
+  "nn.deform_conv.DeformConv.time_run": {
+    "code": "class OperatorBenchmark:\n    def time_run(self, backend):\n        self.session.run(None, self.feeds)\n\n    def setup(self, backend):\n        case, feeds, expected_by_name = _load_case(self.case_name, self.case_mode)\n        model_bytes = case.model.SerializeToString()\n        if backend == \"onnxruntime\":\n            session = onnxruntime.InferenceSession(\n                model_bytes,\n                providers=[\"CPUExecutionProvider\"],\n            )\n        elif backend == \"onnx-reference\":\n            session = OnnxReferenceEvaluator(onnx.load_model_from_string(model_bytes))\n        elif backend == \"onnx-light\":\n            session = OnnxLightReferenceEvaluator(case.model)\n        else:\n            raise ValueError(f\"Unexpected backend {backend!r}.\")\n    \n        outputs = session.run(None, feeds)\n        output_names = [output.name for output in case.model.graph.output]\n        if expected_by_name and self.operator not in NONDETERMINISTIC_OPERATORS:\n            for name, output in zip(output_names, outputs, strict=True):\n                _assert_value(\n                    output,\n                    expected_by_name[name],\n                    rtol=max(case.rtol, 1e-2),\n                    atol=max(case.atol, 1e-4),\n                )\n    \n        self.case = case\n        self.feeds = feeds\n        self.session = session",
+    "min_run_count": 2,
+    "name": "nn.deform_conv.DeformConv.time_run",
+    "number": 1,
+    "param_names": [
+      "backend"
+    ],
+    "params": [
+      [
+        "'onnxruntime'",
+        "'onnx-light'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "21d19ca62ce894414613d9b671ad94da792742f641a53820801a41a6cf43424e",
+    "warmup_time": -1
+  },
+  "nn.dropout.Dropout.time_run": {
+    "code": "class OperatorBenchmark:\n    def time_run(self, backend):\n        self.session.run(None, self.feeds)\n\n    def setup(self, backend):\n        case, feeds, expected_by_name = _load_case(self.case_name, self.case_mode)\n        model_bytes = case.model.SerializeToString()\n        if backend == \"onnxruntime\":\n            session = onnxruntime.InferenceSession(\n                model_bytes,\n                providers=[\"CPUExecutionProvider\"],\n            )\n        elif backend == \"onnx-reference\":\n            session = OnnxReferenceEvaluator(onnx.load_model_from_string(model_bytes))\n        elif backend == \"onnx-light\":\n            session = OnnxLightReferenceEvaluator(case.model)\n        else:\n            raise ValueError(f\"Unexpected backend {backend!r}.\")\n    \n        outputs = session.run(None, feeds)\n        output_names = [output.name for output in case.model.graph.output]\n        if expected_by_name and self.operator not in NONDETERMINISTIC_OPERATORS:\n            for name, output in zip(output_names, outputs, strict=True):\n                _assert_value(\n                    output,\n                    expected_by_name[name],\n                    rtol=max(case.rtol, 1e-2),\n                    atol=max(case.atol, 1e-4),\n                )\n    \n        self.case = case\n        self.feeds = feeds\n        self.session = session",
+    "min_run_count": 2,
+    "name": "nn.dropout.Dropout.time_run",
+    "number": 1,
+    "param_names": [
+      "backend"
+    ],
+    "params": [
+      [
+        "'onnxruntime'",
+        "'onnx-reference'",
+        "'onnx-light'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "21d19ca62ce894414613d9b671ad94da792742f641a53820801a41a6cf43424e",
+    "warmup_time": -1
+  },
+  "nn.flatten.Flatten.time_run": {
+    "code": "class OperatorBenchmark:\n    def time_run(self, backend):\n        self.session.run(None, self.feeds)\n\n    def setup(self, backend):\n        case, feeds, expected_by_name = _load_case(self.case_name, self.case_mode)\n        model_bytes = case.model.SerializeToString()\n        if backend == \"onnxruntime\":\n            session = onnxruntime.InferenceSession(\n                model_bytes,\n                providers=[\"CPUExecutionProvider\"],\n            )\n        elif backend == \"onnx-reference\":\n            session = OnnxReferenceEvaluator(onnx.load_model_from_string(model_bytes))\n        elif backend == \"onnx-light\":\n            session = OnnxLightReferenceEvaluator(case.model)\n        else:\n            raise ValueError(f\"Unexpected backend {backend!r}.\")\n    \n        outputs = session.run(None, feeds)\n        output_names = [output.name for output in case.model.graph.output]\n        if expected_by_name and self.operator not in NONDETERMINISTIC_OPERATORS:\n            for name, output in zip(output_names, outputs, strict=True):\n                _assert_value(\n                    output,\n                    expected_by_name[name],\n                    rtol=max(case.rtol, 1e-2),\n                    atol=max(case.atol, 1e-4),\n                )\n    \n        self.case = case\n        self.feeds = feeds\n        self.session = session",
+    "min_run_count": 2,
+    "name": "nn.flatten.Flatten.time_run",
+    "number": 1,
+    "param_names": [
+      "backend"
+    ],
+    "params": [
+      [
+        "'onnxruntime'",
+        "'onnx-reference'",
+        "'onnx-light'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "21d19ca62ce894414613d9b671ad94da792742f641a53820801a41a6cf43424e",
+    "warmup_time": -1
+  },
+  "nn.global_average_pool.GlobalAveragePool.time_run": {
+    "code": "class OperatorBenchmark:\n    def time_run(self, backend):\n        self.session.run(None, self.feeds)\n\n    def setup(self, backend):\n        case, feeds, expected_by_name = _load_case(self.case_name, self.case_mode)\n        model_bytes = case.model.SerializeToString()\n        if backend == \"onnxruntime\":\n            session = onnxruntime.InferenceSession(\n                model_bytes,\n                providers=[\"CPUExecutionProvider\"],\n            )\n        elif backend == \"onnx-reference\":\n            session = OnnxReferenceEvaluator(onnx.load_model_from_string(model_bytes))\n        elif backend == \"onnx-light\":\n            session = OnnxLightReferenceEvaluator(case.model)\n        else:\n            raise ValueError(f\"Unexpected backend {backend!r}.\")\n    \n        outputs = session.run(None, feeds)\n        output_names = [output.name for output in case.model.graph.output]\n        if expected_by_name and self.operator not in NONDETERMINISTIC_OPERATORS:\n            for name, output in zip(output_names, outputs, strict=True):\n                _assert_value(\n                    output,\n                    expected_by_name[name],\n                    rtol=max(case.rtol, 1e-2),\n                    atol=max(case.atol, 1e-4),\n                )\n    \n        self.case = case\n        self.feeds = feeds\n        self.session = session",
+    "min_run_count": 2,
+    "name": "nn.global_average_pool.GlobalAveragePool.time_run",
+    "number": 1,
+    "param_names": [
+      "backend"
+    ],
+    "params": [
+      [
+        "'onnxruntime'",
+        "'onnx-reference'",
+        "'onnx-light'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "21d19ca62ce894414613d9b671ad94da792742f641a53820801a41a6cf43424e",
+    "warmup_time": -1
+  },
+  "nn.global_lp_pool.GlobalLpPool.time_run": {
+    "code": "class OperatorBenchmark:\n    def time_run(self, backend):\n        self.session.run(None, self.feeds)\n\n    def setup(self, backend):\n        case, feeds, expected_by_name = _load_case(self.case_name, self.case_mode)\n        model_bytes = case.model.SerializeToString()\n        if backend == \"onnxruntime\":\n            session = onnxruntime.InferenceSession(\n                model_bytes,\n                providers=[\"CPUExecutionProvider\"],\n            )\n        elif backend == \"onnx-reference\":\n            session = OnnxReferenceEvaluator(onnx.load_model_from_string(model_bytes))\n        elif backend == \"onnx-light\":\n            session = OnnxLightReferenceEvaluator(case.model)\n        else:\n            raise ValueError(f\"Unexpected backend {backend!r}.\")\n    \n        outputs = session.run(None, feeds)\n        output_names = [output.name for output in case.model.graph.output]\n        if expected_by_name and self.operator not in NONDETERMINISTIC_OPERATORS:\n            for name, output in zip(output_names, outputs, strict=True):\n                _assert_value(\n                    output,\n                    expected_by_name[name],\n                    rtol=max(case.rtol, 1e-2),\n                    atol=max(case.atol, 1e-4),\n                )\n    \n        self.case = case\n        self.feeds = feeds\n        self.session = session",
+    "min_run_count": 2,
+    "name": "nn.global_lp_pool.GlobalLpPool.time_run",
+    "number": 1,
+    "param_names": [
+      "backend"
+    ],
+    "params": [
+      [
+        "'onnx-reference'",
+        "'onnx-light'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "21d19ca62ce894414613d9b671ad94da792742f641a53820801a41a6cf43424e",
+    "warmup_time": -1
+  },
+  "nn.global_max_pool.GlobalMaxPool.time_run": {
+    "code": "class OperatorBenchmark:\n    def time_run(self, backend):\n        self.session.run(None, self.feeds)\n\n    def setup(self, backend):\n        case, feeds, expected_by_name = _load_case(self.case_name, self.case_mode)\n        model_bytes = case.model.SerializeToString()\n        if backend == \"onnxruntime\":\n            session = onnxruntime.InferenceSession(\n                model_bytes,\n                providers=[\"CPUExecutionProvider\"],\n            )\n        elif backend == \"onnx-reference\":\n            session = OnnxReferenceEvaluator(onnx.load_model_from_string(model_bytes))\n        elif backend == \"onnx-light\":\n            session = OnnxLightReferenceEvaluator(case.model)\n        else:\n            raise ValueError(f\"Unexpected backend {backend!r}.\")\n    \n        outputs = session.run(None, feeds)\n        output_names = [output.name for output in case.model.graph.output]\n        if expected_by_name and self.operator not in NONDETERMINISTIC_OPERATORS:\n            for name, output in zip(output_names, outputs, strict=True):\n                _assert_value(\n                    output,\n                    expected_by_name[name],\n                    rtol=max(case.rtol, 1e-2),\n                    atol=max(case.atol, 1e-4),\n                )\n    \n        self.case = case\n        self.feeds = feeds\n        self.session = session",
+    "min_run_count": 2,
+    "name": "nn.global_max_pool.GlobalMaxPool.time_run",
+    "number": 1,
+    "param_names": [
+      "backend"
+    ],
+    "params": [
+      [
+        "'onnxruntime'",
+        "'onnx-reference'",
+        "'onnx-light'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "21d19ca62ce894414613d9b671ad94da792742f641a53820801a41a6cf43424e",
+    "warmup_time": -1
+  },
+  "nn.group_normalization.GroupNormalization.time_run": {
+    "code": "class OperatorBenchmark:\n    def time_run(self, backend):\n        self.session.run(None, self.feeds)\n\n    def setup(self, backend):\n        case, feeds, expected_by_name = _load_case(self.case_name, self.case_mode)\n        model_bytes = case.model.SerializeToString()\n        if backend == \"onnxruntime\":\n            session = onnxruntime.InferenceSession(\n                model_bytes,\n                providers=[\"CPUExecutionProvider\"],\n            )\n        elif backend == \"onnx-reference\":\n            session = OnnxReferenceEvaluator(onnx.load_model_from_string(model_bytes))\n        elif backend == \"onnx-light\":\n            session = OnnxLightReferenceEvaluator(case.model)\n        else:\n            raise ValueError(f\"Unexpected backend {backend!r}.\")\n    \n        outputs = session.run(None, feeds)\n        output_names = [output.name for output in case.model.graph.output]\n        if expected_by_name and self.operator not in NONDETERMINISTIC_OPERATORS:\n            for name, output in zip(output_names, outputs, strict=True):\n                _assert_value(\n                    output,\n                    expected_by_name[name],\n                    rtol=max(case.rtol, 1e-2),\n                    atol=max(case.atol, 1e-4),\n                )\n    \n        self.case = case\n        self.feeds = feeds\n        self.session = session",
+    "min_run_count": 2,
+    "name": "nn.group_normalization.GroupNormalization.time_run",
+    "number": 1,
+    "param_names": [
+      "backend"
+    ],
+    "params": [
+      [
+        "'onnxruntime'",
+        "'onnx-reference'",
+        "'onnx-light'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "21d19ca62ce894414613d9b671ad94da792742f641a53820801a41a6cf43424e",
+    "warmup_time": -1
+  },
+  "nn.gru.GRU.time_run": {
+    "code": "class OperatorBenchmark:\n    def time_run(self, backend):\n        self.session.run(None, self.feeds)\n\n    def setup(self, backend):\n        case, feeds, expected_by_name = _load_case(self.case_name, self.case_mode)\n        model_bytes = case.model.SerializeToString()\n        if backend == \"onnxruntime\":\n            session = onnxruntime.InferenceSession(\n                model_bytes,\n                providers=[\"CPUExecutionProvider\"],\n            )\n        elif backend == \"onnx-reference\":\n            session = OnnxReferenceEvaluator(onnx.load_model_from_string(model_bytes))\n        elif backend == \"onnx-light\":\n            session = OnnxLightReferenceEvaluator(case.model)\n        else:\n            raise ValueError(f\"Unexpected backend {backend!r}.\")\n    \n        outputs = session.run(None, feeds)\n        output_names = [output.name for output in case.model.graph.output]\n        if expected_by_name and self.operator not in NONDETERMINISTIC_OPERATORS:\n            for name, output in zip(output_names, outputs, strict=True):\n                _assert_value(\n                    output,\n                    expected_by_name[name],\n                    rtol=max(case.rtol, 1e-2),\n                    atol=max(case.atol, 1e-4),\n                )\n    \n        self.case = case\n        self.feeds = feeds\n        self.session = session",
+    "min_run_count": 2,
+    "name": "nn.gru.GRU.time_run",
+    "number": 1,
+    "param_names": [
+      "backend"
+    ],
+    "params": [
+      [
+        "'onnx-light'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "21d19ca62ce894414613d9b671ad94da792742f641a53820801a41a6cf43424e",
+    "warmup_time": -1
+  },
+  "nn.instance_normalization.InstanceNormalization.time_run": {
+    "code": "class OperatorBenchmark:\n    def time_run(self, backend):\n        self.session.run(None, self.feeds)\n\n    def setup(self, backend):\n        case, feeds, expected_by_name = _load_case(self.case_name, self.case_mode)\n        model_bytes = case.model.SerializeToString()\n        if backend == \"onnxruntime\":\n            session = onnxruntime.InferenceSession(\n                model_bytes,\n                providers=[\"CPUExecutionProvider\"],\n            )\n        elif backend == \"onnx-reference\":\n            session = OnnxReferenceEvaluator(onnx.load_model_from_string(model_bytes))\n        elif backend == \"onnx-light\":\n            session = OnnxLightReferenceEvaluator(case.model)\n        else:\n            raise ValueError(f\"Unexpected backend {backend!r}.\")\n    \n        outputs = session.run(None, feeds)\n        output_names = [output.name for output in case.model.graph.output]\n        if expected_by_name and self.operator not in NONDETERMINISTIC_OPERATORS:\n            for name, output in zip(output_names, outputs, strict=True):\n                _assert_value(\n                    output,\n                    expected_by_name[name],\n                    rtol=max(case.rtol, 1e-2),\n                    atol=max(case.atol, 1e-4),\n                )\n    \n        self.case = case\n        self.feeds = feeds\n        self.session = session",
+    "min_run_count": 2,
+    "name": "nn.instance_normalization.InstanceNormalization.time_run",
+    "number": 1,
+    "param_names": [
+      "backend"
+    ],
+    "params": [
+      [
+        "'onnxruntime'",
+        "'onnx-reference'",
+        "'onnx-light'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "21d19ca62ce894414613d9b671ad94da792742f641a53820801a41a6cf43424e",
+    "warmup_time": -1
+  },
+  "nn.layer_normalization.LayerNormalization.time_run": {
+    "code": "class OperatorBenchmark:\n    def time_run(self, backend):\n        self.session.run(None, self.feeds)\n\n    def setup(self, backend):\n        case, feeds, expected_by_name = _load_case(self.case_name, self.case_mode)\n        model_bytes = case.model.SerializeToString()\n        if backend == \"onnxruntime\":\n            session = onnxruntime.InferenceSession(\n                model_bytes,\n                providers=[\"CPUExecutionProvider\"],\n            )\n        elif backend == \"onnx-reference\":\n            session = OnnxReferenceEvaluator(onnx.load_model_from_string(model_bytes))\n        elif backend == \"onnx-light\":\n            session = OnnxLightReferenceEvaluator(case.model)\n        else:\n            raise ValueError(f\"Unexpected backend {backend!r}.\")\n    \n        outputs = session.run(None, feeds)\n        output_names = [output.name for output in case.model.graph.output]\n        if expected_by_name and self.operator not in NONDETERMINISTIC_OPERATORS:\n            for name, output in zip(output_names, outputs, strict=True):\n                _assert_value(\n                    output,\n                    expected_by_name[name],\n                    rtol=max(case.rtol, 1e-2),\n                    atol=max(case.atol, 1e-4),\n                )\n    \n        self.case = case\n        self.feeds = feeds\n        self.session = session",
+    "min_run_count": 2,
+    "name": "nn.layer_normalization.LayerNormalization.time_run",
+    "number": 1,
+    "param_names": [
+      "backend"
+    ],
+    "params": [
+      [
+        "'onnx-reference'",
+        "'onnx-light'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "21d19ca62ce894414613d9b671ad94da792742f641a53820801a41a6cf43424e",
+    "warmup_time": -1
+  },
+  "nn.linear_attention.LinearAttention.time_run": {
+    "code": "class OperatorBenchmark:\n    def time_run(self, backend):\n        self.session.run(None, self.feeds)\n\n    def setup(self, backend):\n        case, feeds, expected_by_name = _load_case(self.case_name, self.case_mode)\n        model_bytes = case.model.SerializeToString()\n        if backend == \"onnxruntime\":\n            session = onnxruntime.InferenceSession(\n                model_bytes,\n                providers=[\"CPUExecutionProvider\"],\n            )\n        elif backend == \"onnx-reference\":\n            session = OnnxReferenceEvaluator(onnx.load_model_from_string(model_bytes))\n        elif backend == \"onnx-light\":\n            session = OnnxLightReferenceEvaluator(case.model)\n        else:\n            raise ValueError(f\"Unexpected backend {backend!r}.\")\n    \n        outputs = session.run(None, feeds)\n        output_names = [output.name for output in case.model.graph.output]\n        if expected_by_name and self.operator not in NONDETERMINISTIC_OPERATORS:\n            for name, output in zip(output_names, outputs, strict=True):\n                _assert_value(\n                    output,\n                    expected_by_name[name],\n                    rtol=max(case.rtol, 1e-2),\n                    atol=max(case.atol, 1e-4),\n                )\n    \n        self.case = case\n        self.feeds = feeds\n        self.session = session",
+    "min_run_count": 2,
+    "name": "nn.linear_attention.LinearAttention.time_run",
+    "number": 1,
+    "param_names": [
+      "backend"
+    ],
+    "params": [
+      [
+        "'onnx-reference'",
+        "'onnx-light'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "21d19ca62ce894414613d9b671ad94da792742f641a53820801a41a6cf43424e",
+    "warmup_time": -1
+  },
+  "nn.lp_normalization.LpNormalization.time_run": {
+    "code": "class OperatorBenchmark:\n    def time_run(self, backend):\n        self.session.run(None, self.feeds)\n\n    def setup(self, backend):\n        case, feeds, expected_by_name = _load_case(self.case_name, self.case_mode)\n        model_bytes = case.model.SerializeToString()\n        if backend == \"onnxruntime\":\n            session = onnxruntime.InferenceSession(\n                model_bytes,\n                providers=[\"CPUExecutionProvider\"],\n            )\n        elif backend == \"onnx-reference\":\n            session = OnnxReferenceEvaluator(onnx.load_model_from_string(model_bytes))\n        elif backend == \"onnx-light\":\n            session = OnnxLightReferenceEvaluator(case.model)\n        else:\n            raise ValueError(f\"Unexpected backend {backend!r}.\")\n    \n        outputs = session.run(None, feeds)\n        output_names = [output.name for output in case.model.graph.output]\n        if expected_by_name and self.operator not in NONDETERMINISTIC_OPERATORS:\n            for name, output in zip(output_names, outputs, strict=True):\n                _assert_value(\n                    output,\n                    expected_by_name[name],\n                    rtol=max(case.rtol, 1e-2),\n                    atol=max(case.atol, 1e-4),\n                )\n    \n        self.case = case\n        self.feeds = feeds\n        self.session = session",
+    "min_run_count": 2,
+    "name": "nn.lp_normalization.LpNormalization.time_run",
+    "number": 1,
+    "param_names": [
+      "backend"
+    ],
+    "params": [
+      [
+        "'onnxruntime'",
+        "'onnx-reference'",
+        "'onnx-light'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "21d19ca62ce894414613d9b671ad94da792742f641a53820801a41a6cf43424e",
+    "warmup_time": -1
+  },
+  "nn.lp_pool.LpPool.time_run": {
+    "code": "class OperatorBenchmark:\n    def time_run(self, backend):\n        self.session.run(None, self.feeds)\n\n    def setup(self, backend):\n        case, feeds, expected_by_name = _load_case(self.case_name, self.case_mode)\n        model_bytes = case.model.SerializeToString()\n        if backend == \"onnxruntime\":\n            session = onnxruntime.InferenceSession(\n                model_bytes,\n                providers=[\"CPUExecutionProvider\"],\n            )\n        elif backend == \"onnx-reference\":\n            session = OnnxReferenceEvaluator(onnx.load_model_from_string(model_bytes))\n        elif backend == \"onnx-light\":\n            session = OnnxLightReferenceEvaluator(case.model)\n        else:\n            raise ValueError(f\"Unexpected backend {backend!r}.\")\n    \n        outputs = session.run(None, feeds)\n        output_names = [output.name for output in case.model.graph.output]\n        if expected_by_name and self.operator not in NONDETERMINISTIC_OPERATORS:\n            for name, output in zip(output_names, outputs, strict=True):\n                _assert_value(\n                    output,\n                    expected_by_name[name],\n                    rtol=max(case.rtol, 1e-2),\n                    atol=max(case.atol, 1e-4),\n                )\n    \n        self.case = case\n        self.feeds = feeds\n        self.session = session",
+    "min_run_count": 2,
+    "name": "nn.lp_pool.LpPool.time_run",
+    "number": 1,
+    "param_names": [
+      "backend"
+    ],
+    "params": [
+      [
+        "'onnxruntime'",
+        "'onnx-reference'",
+        "'onnx-light'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "21d19ca62ce894414613d9b671ad94da792742f641a53820801a41a6cf43424e",
+    "warmup_time": -1
+  },
+  "nn.lrn.LRN.time_run": {
+    "code": "class OperatorBenchmark:\n    def time_run(self, backend):\n        self.session.run(None, self.feeds)\n\n    def setup(self, backend):\n        case, feeds, expected_by_name = _load_case(self.case_name, self.case_mode)\n        model_bytes = case.model.SerializeToString()\n        if backend == \"onnxruntime\":\n            session = onnxruntime.InferenceSession(\n                model_bytes,\n                providers=[\"CPUExecutionProvider\"],\n            )\n        elif backend == \"onnx-reference\":\n            session = OnnxReferenceEvaluator(onnx.load_model_from_string(model_bytes))\n        elif backend == \"onnx-light\":\n            session = OnnxLightReferenceEvaluator(case.model)\n        else:\n            raise ValueError(f\"Unexpected backend {backend!r}.\")\n    \n        outputs = session.run(None, feeds)\n        output_names = [output.name for output in case.model.graph.output]\n        if expected_by_name and self.operator not in NONDETERMINISTIC_OPERATORS:\n            for name, output in zip(output_names, outputs, strict=True):\n                _assert_value(\n                    output,\n                    expected_by_name[name],\n                    rtol=max(case.rtol, 1e-2),\n                    atol=max(case.atol, 1e-4),\n                )\n    \n        self.case = case\n        self.feeds = feeds\n        self.session = session",
+    "min_run_count": 2,
+    "name": "nn.lrn.LRN.time_run",
+    "number": 1,
+    "param_names": [
+      "backend"
+    ],
+    "params": [
+      [
+        "'onnxruntime'",
+        "'onnx-reference'",
+        "'onnx-light'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "21d19ca62ce894414613d9b671ad94da792742f641a53820801a41a6cf43424e",
+    "warmup_time": -1
+  },
+  "nn.lstm.LSTM.time_run": {
+    "code": "class OperatorBenchmark:\n    def time_run(self, backend):\n        self.session.run(None, self.feeds)\n\n    def setup(self, backend):\n        case, feeds, expected_by_name = _load_case(self.case_name, self.case_mode)\n        model_bytes = case.model.SerializeToString()\n        if backend == \"onnxruntime\":\n            session = onnxruntime.InferenceSession(\n                model_bytes,\n                providers=[\"CPUExecutionProvider\"],\n            )\n        elif backend == \"onnx-reference\":\n            session = OnnxReferenceEvaluator(onnx.load_model_from_string(model_bytes))\n        elif backend == \"onnx-light\":\n            session = OnnxLightReferenceEvaluator(case.model)\n        else:\n            raise ValueError(f\"Unexpected backend {backend!r}.\")\n    \n        outputs = session.run(None, feeds)\n        output_names = [output.name for output in case.model.graph.output]\n        if expected_by_name and self.operator not in NONDETERMINISTIC_OPERATORS:\n            for name, output in zip(output_names, outputs, strict=True):\n                _assert_value(\n                    output,\n                    expected_by_name[name],\n                    rtol=max(case.rtol, 1e-2),\n                    atol=max(case.atol, 1e-4),\n                )\n    \n        self.case = case\n        self.feeds = feeds\n        self.session = session",
+    "min_run_count": 2,
+    "name": "nn.lstm.LSTM.time_run",
+    "number": 1,
+    "param_names": [
+      "backend"
+    ],
+    "params": [
+      [
+        "'onnx-light'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "21d19ca62ce894414613d9b671ad94da792742f641a53820801a41a6cf43424e",
+    "warmup_time": -1
+  },
+  "nn.max_pool.MaxPool.time_run": {
+    "code": "class OperatorBenchmark:\n    def time_run(self, backend):\n        self.session.run(None, self.feeds)\n\n    def setup(self, backend):\n        case, feeds, expected_by_name = _load_case(self.case_name, self.case_mode)\n        model_bytes = case.model.SerializeToString()\n        if backend == \"onnxruntime\":\n            session = onnxruntime.InferenceSession(\n                model_bytes,\n                providers=[\"CPUExecutionProvider\"],\n            )\n        elif backend == \"onnx-reference\":\n            session = OnnxReferenceEvaluator(onnx.load_model_from_string(model_bytes))\n        elif backend == \"onnx-light\":\n            session = OnnxLightReferenceEvaluator(case.model)\n        else:\n            raise ValueError(f\"Unexpected backend {backend!r}.\")\n    \n        outputs = session.run(None, feeds)\n        output_names = [output.name for output in case.model.graph.output]\n        if expected_by_name and self.operator not in NONDETERMINISTIC_OPERATORS:\n            for name, output in zip(output_names, outputs, strict=True):\n                _assert_value(\n                    output,\n                    expected_by_name[name],\n                    rtol=max(case.rtol, 1e-2),\n                    atol=max(case.atol, 1e-4),\n                )\n    \n        self.case = case\n        self.feeds = feeds\n        self.session = session",
+    "min_run_count": 2,
+    "name": "nn.max_pool.MaxPool.time_run",
+    "number": 1,
+    "param_names": [
+      "backend"
+    ],
+    "params": [
+      [
+        "'onnxruntime'",
+        "'onnx-reference'",
+        "'onnx-light'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "21d19ca62ce894414613d9b671ad94da792742f641a53820801a41a6cf43424e",
+    "warmup_time": -1
+  },
+  "nn.max_roi_pool.MaxRoiPool.time_run": {
+    "code": "class OperatorBenchmark:\n    def time_run(self, backend):\n        self.session.run(None, self.feeds)\n\n    def setup(self, backend):\n        case, feeds, expected_by_name = _load_case(self.case_name, self.case_mode)\n        model_bytes = case.model.SerializeToString()\n        if backend == \"onnxruntime\":\n            session = onnxruntime.InferenceSession(\n                model_bytes,\n                providers=[\"CPUExecutionProvider\"],\n            )\n        elif backend == \"onnx-reference\":\n            session = OnnxReferenceEvaluator(onnx.load_model_from_string(model_bytes))\n        elif backend == \"onnx-light\":\n            session = OnnxLightReferenceEvaluator(case.model)\n        else:\n            raise ValueError(f\"Unexpected backend {backend!r}.\")\n    \n        outputs = session.run(None, feeds)\n        output_names = [output.name for output in case.model.graph.output]\n        if expected_by_name and self.operator not in NONDETERMINISTIC_OPERATORS:\n            for name, output in zip(output_names, outputs, strict=True):\n                _assert_value(\n                    output,\n                    expected_by_name[name],\n                    rtol=max(case.rtol, 1e-2),\n                    atol=max(case.atol, 1e-4),\n                )\n    \n        self.case = case\n        self.feeds = feeds\n        self.session = session",
+    "min_run_count": 2,
+    "name": "nn.max_roi_pool.MaxRoiPool.time_run",
+    "number": 1,
+    "param_names": [
+      "backend"
+    ],
+    "params": [
+      [
+        "'onnx-light'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "21d19ca62ce894414613d9b671ad94da792742f641a53820801a41a6cf43424e",
+    "warmup_time": -1
+  },
+  "nn.max_unpool.MaxUnpool.time_run": {
+    "code": "class OperatorBenchmark:\n    def time_run(self, backend):\n        self.session.run(None, self.feeds)\n\n    def setup(self, backend):\n        case, feeds, expected_by_name = _load_case(self.case_name, self.case_mode)\n        model_bytes = case.model.SerializeToString()\n        if backend == \"onnxruntime\":\n            session = onnxruntime.InferenceSession(\n                model_bytes,\n                providers=[\"CPUExecutionProvider\"],\n            )\n        elif backend == \"onnx-reference\":\n            session = OnnxReferenceEvaluator(onnx.load_model_from_string(model_bytes))\n        elif backend == \"onnx-light\":\n            session = OnnxLightReferenceEvaluator(case.model)\n        else:\n            raise ValueError(f\"Unexpected backend {backend!r}.\")\n    \n        outputs = session.run(None, feeds)\n        output_names = [output.name for output in case.model.graph.output]\n        if expected_by_name and self.operator not in NONDETERMINISTIC_OPERATORS:\n            for name, output in zip(output_names, outputs, strict=True):\n                _assert_value(\n                    output,\n                    expected_by_name[name],\n                    rtol=max(case.rtol, 1e-2),\n                    atol=max(case.atol, 1e-4),\n                )\n    \n        self.case = case\n        self.feeds = feeds\n        self.session = session",
+    "min_run_count": 2,
+    "name": "nn.max_unpool.MaxUnpool.time_run",
+    "number": 1,
+    "param_names": [
+      "backend"
+    ],
+    "params": [
+      [
+        "'onnxruntime'",
+        "'onnx-reference'",
+        "'onnx-light'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "21d19ca62ce894414613d9b671ad94da792742f641a53820801a41a6cf43424e",
+    "warmup_time": -1
+  },
+  "nn.mean_variance_normalization.MeanVarianceNormalization.time_run": {
+    "code": "class OperatorBenchmark:\n    def time_run(self, backend):\n        self.session.run(None, self.feeds)\n\n    def setup(self, backend):\n        case, feeds, expected_by_name = _load_case(self.case_name, self.case_mode)\n        model_bytes = case.model.SerializeToString()\n        if backend == \"onnxruntime\":\n            session = onnxruntime.InferenceSession(\n                model_bytes,\n                providers=[\"CPUExecutionProvider\"],\n            )\n        elif backend == \"onnx-reference\":\n            session = OnnxReferenceEvaluator(onnx.load_model_from_string(model_bytes))\n        elif backend == \"onnx-light\":\n            session = OnnxLightReferenceEvaluator(case.model)\n        else:\n            raise ValueError(f\"Unexpected backend {backend!r}.\")\n    \n        outputs = session.run(None, feeds)\n        output_names = [output.name for output in case.model.graph.output]\n        if expected_by_name and self.operator not in NONDETERMINISTIC_OPERATORS:\n            for name, output in zip(output_names, outputs, strict=True):\n                _assert_value(\n                    output,\n                    expected_by_name[name],\n                    rtol=max(case.rtol, 1e-2),\n                    atol=max(case.atol, 1e-4),\n                )\n    \n        self.case = case\n        self.feeds = feeds\n        self.session = session",
+    "min_run_count": 2,
+    "name": "nn.mean_variance_normalization.MeanVarianceNormalization.time_run",
+    "number": 1,
+    "param_names": [
+      "backend"
+    ],
+    "params": [
+      [
+        "'onnxruntime'",
+        "'onnx-reference'",
+        "'onnx-light'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "21d19ca62ce894414613d9b671ad94da792742f641a53820801a41a6cf43424e",
+    "warmup_time": -1
+  },
+  "nn.quantize_paged_cache.QuantizePagedCache.time_run": {
+    "code": "class QuantizePagedCacheBenchmark:\n    def time_run(self, backend):\n        self.session.run(self.context)\n\n    def setup(self, backend):\n        cache = onnx_light.PagedCacheProto()\n        for page_index in range(16):\n            block = cache.blocks.add()\n            block.start = page_index * 32\n            block.length = 32\n            values = np.linspace(\n                -1,\n                1,\n                8 * 32 * 64,\n                dtype=np.float32,\n            ).reshape(1, 8, 32, 64)\n            block.key.CopyFrom(onh.from_array(values))\n            block.value.CopyFrom(onh.from_array(-values))\n    \n        cache_type = onnx_light.TypeProto(struct_type=onnx_light.StructTypeProto())\n        model = oh.make_model(\n            oh.make_graph(\n                [\n                    oh.make_node(\n                        \"QuantizePagedCache\",\n                        [\n                            \"past\",\n                            \"indices\",\n                            \"key_scale\",\n                            \"key_zero\",\n                            \"value_scale\",\n                            \"value_zero\",\n                        ],\n                        [\"quantized\"],\n                        domain=\"ai.rt\",\n                    )\n                ],\n                \"quantize_paged_cache\",\n                [\n                    oh.make_value_info(\"past\", cache_type),\n                    oh.make_tensor_value_info(\n                        \"indices\",\n                        onnx_light.TensorProto.INT64,\n                        [16],\n                    ),\n                ],\n                [oh.make_value_info(\"quantized\", cache_type)],\n                initializer=[\n                    oh.make_tensor(\n                        \"key_scale\",\n                        onnx_light.TensorProto.FLOAT,\n                        [],\n                        [0.125],\n                    ),\n                    oh.make_tensor(\n                        \"key_zero\",\n                        onnx_light.TensorProto.INT4,\n                        [],\n                        [0],\n                    ),\n                    oh.make_tensor(\n                        \"value_scale\",\n                        onnx_light.TensorProto.FLOAT,\n                        [],\n                        [0.125],\n                    ),\n                    oh.make_tensor(\n                        \"value_zero\",\n                        onnx_light.TensorProto.UINT4,\n                        [],\n                        [8],\n                    ),\n                ],\n            ),\n            opset_imports=[\n                oh.make_opsetid(\"\", 23),\n                oh.make_opsetid(\"ai.rt\", 1),\n            ],\n            ir_version=10,\n        )\n        context = RuntimeContext()\n        context.put_value(\"past\", cache)\n        context.set(\n            \"indices\",\n            tensor_from_proto(onh.from_array(np.arange(16, dtype=np.int64))),\n        )\n        session = RuntimeSession(model)\n        session.run(context)\n    \n        self.context = context\n        self.model = model\n        self.session = session",
+    "min_run_count": 2,
+    "name": "nn.quantize_paged_cache.QuantizePagedCache.time_run",
+    "number": 1,
+    "param_names": [
+      "backend"
+    ],
+    "params": [
+      [
+        "'onnx-light'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "15b080ca17007294a911d84a397fda0a1fd6207c490439c1bdd3034327e2235c",
+    "warmup_time": -1
+  },
   "nn.relu.Relu.time_run": {
     "code": "class Relu:\n    def time_run(self, backend):\n        run_session(self)\n\n    def setup(self, backend):\n        model = oh.make_model(\n            oh.make_graph(\n                [oh.make_node(\"Relu\", [\"X\"], [\"Y\"])],\n                \"relu\",\n                [oh.make_tensor_value_info(\"X\", TensorProto.FLOAT, [1024, 1024])],\n                [oh.make_tensor_value_info(\"Y\", TensorProto.FLOAT, [1024, 1024])],\n            ),\n            opset_imports=[oh.make_opsetid(\"\", 18)],\n            ir_version=10,\n        )\n        rng = np.random.default_rng(4)\n        feeds = {\"X\": rng.standard_normal((1024, 1024), dtype=np.float32)}\n        setup_session(self, backend, model, feeds)",
     "min_run_count": 2,
@@ -21,6 +679,76 @@
     "type": "time",
     "unit": "seconds",
     "version": "c5710e3754f2f2b1d82b7656e4fe9b9bc20f8599daa0ce71e4a78636e664694e",
+    "warmup_time": -1
+  },
+  "nn.rms_normalization.RMSNormalization.time_run": {
+    "code": "class OperatorBenchmark:\n    def time_run(self, backend):\n        self.session.run(None, self.feeds)\n\n    def setup(self, backend):\n        case, feeds, expected_by_name = _load_case(self.case_name, self.case_mode)\n        model_bytes = case.model.SerializeToString()\n        if backend == \"onnxruntime\":\n            session = onnxruntime.InferenceSession(\n                model_bytes,\n                providers=[\"CPUExecutionProvider\"],\n            )\n        elif backend == \"onnx-reference\":\n            session = OnnxReferenceEvaluator(onnx.load_model_from_string(model_bytes))\n        elif backend == \"onnx-light\":\n            session = OnnxLightReferenceEvaluator(case.model)\n        else:\n            raise ValueError(f\"Unexpected backend {backend!r}.\")\n    \n        outputs = session.run(None, feeds)\n        output_names = [output.name for output in case.model.graph.output]\n        if expected_by_name and self.operator not in NONDETERMINISTIC_OPERATORS:\n            for name, output in zip(output_names, outputs, strict=True):\n                _assert_value(\n                    output,\n                    expected_by_name[name],\n                    rtol=max(case.rtol, 1e-2),\n                    atol=max(case.atol, 1e-4),\n                )\n    \n        self.case = case\n        self.feeds = feeds\n        self.session = session",
+    "min_run_count": 2,
+    "name": "nn.rms_normalization.RMSNormalization.time_run",
+    "number": 1,
+    "param_names": [
+      "backend"
+    ],
+    "params": [
+      [
+        "'onnxruntime'",
+        "'onnx-reference'",
+        "'onnx-light'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "21d19ca62ce894414613d9b671ad94da792742f641a53820801a41a6cf43424e",
+    "warmup_time": -1
+  },
+  "nn.rnn.RNN.time_run": {
+    "code": "class OperatorBenchmark:\n    def time_run(self, backend):\n        self.session.run(None, self.feeds)\n\n    def setup(self, backend):\n        case, feeds, expected_by_name = _load_case(self.case_name, self.case_mode)\n        model_bytes = case.model.SerializeToString()\n        if backend == \"onnxruntime\":\n            session = onnxruntime.InferenceSession(\n                model_bytes,\n                providers=[\"CPUExecutionProvider\"],\n            )\n        elif backend == \"onnx-reference\":\n            session = OnnxReferenceEvaluator(onnx.load_model_from_string(model_bytes))\n        elif backend == \"onnx-light\":\n            session = OnnxLightReferenceEvaluator(case.model)\n        else:\n            raise ValueError(f\"Unexpected backend {backend!r}.\")\n    \n        outputs = session.run(None, feeds)\n        output_names = [output.name for output in case.model.graph.output]\n        if expected_by_name and self.operator not in NONDETERMINISTIC_OPERATORS:\n            for name, output in zip(output_names, outputs, strict=True):\n                _assert_value(\n                    output,\n                    expected_by_name[name],\n                    rtol=max(case.rtol, 1e-2),\n                    atol=max(case.atol, 1e-4),\n                )\n    \n        self.case = case\n        self.feeds = feeds\n        self.session = session",
+    "min_run_count": 2,
+    "name": "nn.rnn.RNN.time_run",
+    "number": 1,
+    "param_names": [
+      "backend"
+    ],
+    "params": [
+      [
+        "'onnx-light'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "21d19ca62ce894414613d9b671ad94da792742f641a53820801a41a6cf43424e",
+    "warmup_time": -1
+  },
+  "nn.rotary_embedding.RotaryEmbedding.time_run": {
+    "code": "class OperatorBenchmark:\n    def time_run(self, backend):\n        self.session.run(None, self.feeds)\n\n    def setup(self, backend):\n        case, feeds, expected_by_name = _load_case(self.case_name, self.case_mode)\n        model_bytes = case.model.SerializeToString()\n        if backend == \"onnxruntime\":\n            session = onnxruntime.InferenceSession(\n                model_bytes,\n                providers=[\"CPUExecutionProvider\"],\n            )\n        elif backend == \"onnx-reference\":\n            session = OnnxReferenceEvaluator(onnx.load_model_from_string(model_bytes))\n        elif backend == \"onnx-light\":\n            session = OnnxLightReferenceEvaluator(case.model)\n        else:\n            raise ValueError(f\"Unexpected backend {backend!r}.\")\n    \n        outputs = session.run(None, feeds)\n        output_names = [output.name for output in case.model.graph.output]\n        if expected_by_name and self.operator not in NONDETERMINISTIC_OPERATORS:\n            for name, output in zip(output_names, outputs, strict=True):\n                _assert_value(\n                    output,\n                    expected_by_name[name],\n                    rtol=max(case.rtol, 1e-2),\n                    atol=max(case.atol, 1e-4),\n                )\n    \n        self.case = case\n        self.feeds = feeds\n        self.session = session",
+    "min_run_count": 2,
+    "name": "nn.rotary_embedding.RotaryEmbedding.time_run",
+    "number": 1,
+    "param_names": [
+      "backend"
+    ],
+    "params": [
+      [
+        "'onnxruntime'",
+        "'onnx-reference'",
+        "'onnx-light'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "21d19ca62ce894414613d9b671ad94da792742f641a53820801a41a6cf43424e",
     "warmup_time": -1
   },
   "version": 2
