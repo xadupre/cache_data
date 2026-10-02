@@ -1,0 +1,220 @@
+{
+  "commit_hash": "a08ef55dfa92560e4e68d8d74afb64bac1a94536",
+  "date": 1790956363000,
+  "durations": {},
+  "env_name": "virtualenv-py3.12-numpy2.5.3-onnx1.23.1-onnxruntime1.30.0-ONNX_LIGHT_CPU_VERSION0.1.16-ONNX_LIGHT_VERSION0.1.28",
+  "env_vars": {
+    "ONNX_LIGHT_CPU_VERSION": "0.1.16",
+    "ONNX_LIGHT_VERSION": "0.1.28"
+  },
+  "params": {
+    "arch": "x86_64",
+    "cpu": "AMD EPYC 9V74 80-Core Processor",
+    "machine": "AMD EPYC 9V74 80-Core Processor",
+    "num_cpu": "anonymous",
+    "numpy": "2.5.3",
+    "onnx": "1.23.1",
+    "onnxruntime": "1.30.0",
+    "os": "anonymous",
+    "python": "3.12",
+    "ram": "anonymous"
+  },
+  "python": "3.12",
+  "requirements": {
+    "numpy": "2.5.3",
+    "onnx": "1.23.1",
+    "onnxruntime": "1.30.0"
+  },
+  "result_columns": [
+    "result",
+    "params",
+    "version",
+    "started_at",
+    "duration",
+    "stats_ci_99_a",
+    "stats_ci_99_b",
+    "stats_q_25",
+    "stats_q_75",
+    "stats_number",
+    "stats_repeat",
+    "samples",
+    "profile"
+  ],
+  "results": {
+    "ops.optional.optional.Optional.time_run": [
+      [
+        7.659349998334619e-05,
+        null,
+        4.1461499989736694e-05,
+        null
+      ],
+      [
+        [
+          "'input=512x512'"
+        ],
+        [
+          "'onnxruntime'",
+          "'onnx-reference'",
+          "'onnx-light'",
+          "'onnx-light-cpu'"
+        ]
+      ],
+      "193ebf6a7f2d5c108e30170980ceaa153ae964a0857f3e0bb7d4cd7732e526e2",
+      1790961873016,
+      8.3467,
+      [
+        6.7981e-05,
+        null,
+        3.4662e-05,
+        null
+      ],
+      [
+        0.00010786,
+        null,
+        5.2958e-05,
+        null
+      ],
+      [
+        7.1541e-05,
+        null,
+        3.5811e-05,
+        null
+      ],
+      [
+        9.2713e-05,
+        null,
+        4.9117e-05,
+        null
+      ],
+      [
+        1,
+        null,
+        1,
+        null
+      ],
+      [
+        10,
+        null,
+        10,
+        null
+      ]
+    ],
+    "ops.optional.optional_get_element.OptionalGetElement.time_run": [
+      [
+        7.698400000322181e-05,
+        1.6484000013861078e-05,
+        3.753600000777624e-05,
+        null
+      ],
+      [
+        [
+          "'input=512x512'"
+        ],
+        [
+          "'onnxruntime'",
+          "'onnx-reference'",
+          "'onnx-light'",
+          "'onnx-light-cpu'"
+        ]
+      ],
+      "193ebf6a7f2d5c108e30170980ceaa153ae964a0857f3e0bb7d4cd7732e526e2",
+      1790961877292,
+      8.5949,
+      [
+        5.5783e-05,
+        1.5574e-05,
+        3.5603e-05,
+        null
+      ],
+      [
+        9.8185e-05,
+        2.3925e-05,
+        4.1431e-05,
+        null
+      ],
+      [
+        5.8885e-05,
+        1.6067e-05,
+        3.6291e-05,
+        null
+      ],
+      [
+        8.8334e-05,
+        1.73e-05,
+        3.9523e-05,
+        null
+      ],
+      [
+        1,
+        1,
+        1,
+        null
+      ],
+      [
+        10,
+        10,
+        10,
+        null
+      ]
+    ],
+    "ops.optional.optional_has_element.OptionalHasElement.time_run": [
+      [
+        2.3950500008140807e-05,
+        1.1116499990748707e-05,
+        6.9955000014942925e-06,
+        null
+      ],
+      [
+        [
+          "'input=512x512'"
+        ],
+        [
+          "'onnxruntime'",
+          "'onnx-reference'",
+          "'onnx-light'",
+          "'onnx-light-cpu'"
+        ]
+      ],
+      "193ebf6a7f2d5c108e30170980ceaa153ae964a0857f3e0bb7d4cd7732e526e2",
+      1790961881681,
+      8.4065,
+      [
+        2.2743e-05,
+        1.0536e-05,
+        6.69e-06,
+        null
+      ],
+      [
+        4.1472e-05,
+        1.1647e-05,
+        8.282e-06,
+        null
+      ],
+      [
+        2.3144e-05,
+        1.0868e-05,
+        6.8025e-06,
+        null
+      ],
+      [
+        2.4982e-05,
+        1.1324e-05,
+        7.2953e-06,
+        null
+      ],
+      [
+        1,
+        1,
+        1,
+        null
+      ],
+      [
+        10,
+        10,
+        10,
+        null
+      ]
+    ]
+  },
+  "version": 2
+}
