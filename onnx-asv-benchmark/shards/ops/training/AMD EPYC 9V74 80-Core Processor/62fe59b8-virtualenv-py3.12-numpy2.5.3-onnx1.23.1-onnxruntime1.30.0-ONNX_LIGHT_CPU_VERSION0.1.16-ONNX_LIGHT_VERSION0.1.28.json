@@ -1,0 +1,187 @@
+{
+  "commit_hash": "62fe59b890810a978ef14ba87017be822789248c",
+  "date": 1790942146000,
+  "durations": {},
+  "env_name": "virtualenv-py3.12-numpy2.5.3-onnx1.23.1-onnxruntime1.30.0-ONNX_LIGHT_CPU_VERSION0.1.16-ONNX_LIGHT_VERSION0.1.28",
+  "env_vars": {
+    "ONNX_LIGHT_CPU_VERSION": "0.1.16",
+    "ONNX_LIGHT_VERSION": "0.1.28"
+  },
+  "params": {
+    "arch": "x86_64",
+    "cpu": "AMD EPYC 9V74 80-Core Processor",
+    "machine": "AMD EPYC 9V74 80-Core Processor",
+    "num_cpu": "anonymous",
+    "numpy": "2.5.3",
+    "onnx": "1.23.1",
+    "onnxruntime": "1.30.0",
+    "os": "anonymous",
+    "python": "3.12",
+    "ram": "anonymous"
+  },
+  "python": "3.12",
+  "requirements": {
+    "numpy": "2.5.3",
+    "onnx": "1.23.1",
+    "onnxruntime": "1.30.0"
+  },
+  "result_columns": [
+    "result",
+    "params",
+    "version",
+    "started_at",
+    "duration",
+    "stats_ci_99_a",
+    "stats_ci_99_b",
+    "stats_q_25",
+    "stats_q_75",
+    "stats_number",
+    "stats_repeat",
+    "samples",
+    "profile"
+  ],
+  "results": {
+    "ops.training.adagrad.Adagrad.time_run": [
+      [
+        0.035686776500014616,
+        0.04226871749999361,
+        null
+      ],
+      [
+        [
+          "'onnx-reference'",
+          "'onnx-light'",
+          "'onnx-light-cpu'"
+        ]
+      ],
+      "c74b633df2f1d366969b77e83b3a3d8d3ad54bc79a6d841950eb52000813e477",
+      1790945235610,
+      14.839,
+      [
+        0.034749,
+        0.042069,
+        null
+      ],
+      [
+        0.036622,
+        0.042733,
+        null
+      ],
+      [
+        0.034866,
+        0.042204,
+        null
+      ],
+      [
+        0.036467,
+        0.042285,
+        null
+      ],
+      [
+        1,
+        1,
+        null
+      ],
+      [
+        10,
+        10,
+        null
+      ]
+    ],
+    "ops.training.adam.Adam.time_run": [
+      [
+        0.028710028499986606,
+        0.07101623399999824,
+        null
+      ],
+      [
+        [
+          "'onnx-reference'",
+          "'onnx-light'",
+          "'onnx-light-cpu'"
+        ]
+      ],
+      "c74b633df2f1d366969b77e83b3a3d8d3ad54bc79a6d841950eb52000813e477",
+      1790945242986,
+      17.817,
+      [
+        0.026778,
+        0.070741,
+        null
+      ],
+      [
+        0.030161,
+        0.076401,
+        null
+      ],
+      [
+        0.026852,
+        0.07084,
+        null
+      ],
+      [
+        0.029981,
+        0.07173,
+        null
+      ],
+      [
+        1,
+        1,
+        null
+      ],
+      [
+        10,
+        10,
+        null
+      ]
+    ],
+    "ops.training.momentum.Momentum.time_run": [
+      [
+        0.015431431999985534,
+        0.004144978000013566,
+        null
+      ],
+      [
+        [
+          "'onnx-reference'",
+          "'onnx-light'",
+          "'onnx-light-cpu'"
+        ]
+      ],
+      "c74b633df2f1d366969b77e83b3a3d8d3ad54bc79a6d841950eb52000813e477",
+      1790945251871,
+      12.726,
+      [
+        0.015192,
+        0.004087,
+        null
+      ],
+      [
+        0.016581,
+        0.0042877,
+        null
+      ],
+      [
+        0.015336,
+        0.0041124,
+        null
+      ],
+      [
+        0.015522,
+        0.0041835,
+        null
+      ],
+      [
+        1,
+        1,
+        null
+      ],
+      [
+        10,
+        10,
+        null
+      ]
+    ]
+  },
+  "version": 2
+}

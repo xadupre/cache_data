@@ -1,0 +1,9 @@
+{
+  "arch": "x86_64",
+  "cpu": "AMD EPYC 9V74 80-Core Processor",
+  "machine": "AMD EPYC 9V74 80-Core Processor",
+  "num_cpu": "anonymous",
+  "os": "anonymous",
+  "ram": "anonymous",
+  "version": 1
+}
