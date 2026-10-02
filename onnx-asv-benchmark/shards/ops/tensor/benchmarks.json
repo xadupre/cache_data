@@ -362,6 +362,7 @@
       ],
       [
         "'onnxruntime'",
+        "'onnx-reference'",
         "'onnx-light'",
         "'onnx-light-cpu'"
       ]
@@ -593,6 +594,7 @@
       ],
       [
         "'onnxruntime'",
+        "'onnx-reference'",
         "'onnx-light'",
         "'onnx-light-cpu'"
       ]
