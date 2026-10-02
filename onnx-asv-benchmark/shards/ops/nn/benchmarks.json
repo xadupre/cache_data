@@ -100,6 +100,7 @@
         "'input=1x32x16384, weight=32x1x3'"
       ],
       [
+        "'onnxruntime'",
         "'onnx-reference'",
         "'onnx-light'",
         "'onnx-light-cpu'"
@@ -216,6 +217,7 @@
       ],
       [
         "'onnxruntime'",
+        "'onnx-reference'",
         "'onnx-light'",
         "'onnx-light-cpu'"
       ]
@@ -244,6 +246,7 @@
       ],
       [
         "'onnxruntime'",
+        "'onnx-reference'",
         "'onnx-light'",
         "'onnx-light-cpu'"
       ]
@@ -358,6 +361,7 @@
         "'x=1x64x128x128'"
       ],
       [
+        "'onnxruntime'",
         "'onnx-reference'",
         "'onnx-light'",
         "'onnx-light-cpu'"
@@ -444,6 +448,8 @@
         "'X=64x32x128, W=1x384x128, R=1x384x128'"
       ],
       [
+        "'onnxruntime'",
+        "'onnx-reference'",
         "'onnx-light'",
         "'onnx-light-cpu'"
       ]
@@ -500,6 +506,7 @@
         "'X=2048x2048, W=2048x2048, B=2048x2048'"
       ],
       [
+        "'onnxruntime'",
         "'onnx-reference'",
         "'onnx-light'",
         "'onnx-light-cpu'"
@@ -528,6 +535,7 @@
         "'query=1x512x512, key=1x512x512, value=1x512x512'"
       ],
       [
+        "'onnxruntime'",
         "'onnx-reference'",
         "'onnx-light'",
         "'onnx-light-cpu'"
@@ -643,6 +651,8 @@
         "'X=64x32x128, W=1x512x128, R=1x512x128'"
       ],
       [
+        "'onnxruntime'",
+        "'onnx-reference'",
         "'onnx-light'",
         "'onnx-light-cpu'"
       ]
@@ -699,6 +709,8 @@
         "'X=1x32x128x128, rois=64x5'"
       ],
       [
+        "'onnxruntime'",
+        "'onnx-reference'",
         "'onnx-light'",
         "'onnx-light-cpu'"
       ]
@@ -771,7 +783,7 @@
     "warmup_time": -1
   },
   "ops.nn.quantize_paged_cache.QuantizePagedCache.time_run": {
-    "code": "class QuantizePagedCacheBenchmark:\n    def time_run(self, shape, backend):\n        self.session.run(self.context)\n\n    def setup(self, shape, backend):\n        if shape != self.params[0][0]:\n            raise ValueError(f\"Unexpected input shape parameter {shape!r}.\")\n        cache = onnx_light.PagedCacheProto()\n        for page_index in range(16):\n            block = cache.blocks.add()\n            block.start = page_index * 32\n            block.length = 32\n            values = np.linspace(\n                -1,\n                1,\n                8 * 32 * 64,\n                dtype=np.float32,\n            ).reshape(1, 8, 32, 64)\n            block.key.CopyFrom(onh.from_array(values))\n            block.value.CopyFrom(onh.from_array(-values))\n    \n        cache_type = onnx_light.TypeProto(struct_type=onnx_light.StructTypeProto())\n        model = oh.make_model(\n            oh.make_graph(\n                [\n                    oh.make_node(\n                        \"QuantizePagedCache\",\n                        [\n                            \"past\",\n                            \"indices\",\n                            \"key_scale\",\n                            \"key_zero\",\n                            \"value_scale\",\n                            \"value_zero\",\n                        ],\n                        [\"quantized\"],\n                        domain=\"ai.rt\",\n                    )\n                ],\n                \"quantize_paged_cache\",\n                [\n                    oh.make_value_info(\"past\", cache_type),\n                    oh.make_tensor_value_info(\n                        \"indices\",\n                        onnx_light.TensorProto.INT64,\n                        [16],\n                    ),\n                ],\n                [oh.make_value_info(\"quantized\", cache_type)],\n                initializer=[\n                    oh.make_tensor(\n                        \"key_scale\",\n                        onnx_light.TensorProto.FLOAT,\n                        [],\n                        [0.125],\n                    ),\n                    oh.make_tensor(\n                        \"key_zero\",\n                        onnx_light.TensorProto.INT4,\n                        [],\n                        [0],\n                    ),\n                    oh.make_tensor(\n                        \"value_scale\",\n                        onnx_light.TensorProto.FLOAT,\n                        [],\n                        [0.125],\n                    ),\n                    oh.make_tensor(\n                        \"value_zero\",\n                        onnx_light.TensorProto.UINT4,\n                        [],\n                        [8],\n                    ),\n                ],\n            ),\n            opset_imports=[\n                oh.make_opsetid(\"\", 23),\n                oh.make_opsetid(\"ai.rt\", 1),\n            ],\n            ir_version=10,\n        )\n        context = RuntimeContext()\n        context.put_value(\"past\", cache)\n        context.set(\n            \"indices\",\n            tensor_from_proto(onh.from_array(np.arange(16, dtype=np.int64))),\n        )\n        session = RuntimeSession(model)\n        session.run(context)\n    \n        self.context = context\n        self.model = model\n        self.session = session",
+    "code": "class QuantizePagedCacheBenchmark:\n    def time_run(self, shape, backend):\n        self.session.run(self.context)\n\n    def setup(self, shape, backend):\n        if shape != self.params[0][0]:\n            raise ValueError(f\"Unexpected input shape parameter {shape!r}.\")\n        if backend in {\"onnxruntime\", \"onnx-reference\"}:\n            raise NotImplementedError(\n                f\"{backend} does not support the ai.rt QuantizePagedCache operator.\"\n            )\n        cache = onnx_light.PagedCacheProto()\n        for page_index in range(16):\n            block = cache.blocks.add()\n            block.start = page_index * 32\n            block.length = 32\n            values = np.linspace(\n                -1,\n                1,\n                8 * 32 * 64,\n                dtype=np.float32,\n            ).reshape(1, 8, 32, 64)\n            block.key.CopyFrom(onh.from_array(values))\n            block.value.CopyFrom(onh.from_array(-values))\n    \n        cache_type = onnx_light.TypeProto(struct_type=onnx_light.StructTypeProto())\n        model = oh.make_model(\n            oh.make_graph(\n                [\n                    oh.make_node(\n                        \"QuantizePagedCache\",\n                        [\n                            \"past\",\n                            \"indices\",\n                            \"key_scale\",\n                            \"key_zero\",\n                            \"value_scale\",\n                            \"value_zero\",\n                        ],\n                        [\"quantized\"],\n                        domain=\"ai.rt\",\n                    )\n                ],\n                \"quantize_paged_cache\",\n                [\n                    oh.make_value_info(\"past\", cache_type),\n                    oh.make_tensor_value_info(\n                        \"indices\",\n                        onnx_light.TensorProto.INT64,\n                        [16],\n                    ),\n                ],\n                [oh.make_value_info(\"quantized\", cache_type)],\n                initializer=[\n                    oh.make_tensor(\n                        \"key_scale\",\n                        onnx_light.TensorProto.FLOAT,\n                        [],\n                        [0.125],\n                    ),\n                    oh.make_tensor(\n                        \"key_zero\",\n                        onnx_light.TensorProto.INT4,\n                        [],\n                        [0],\n                    ),\n                    oh.make_tensor(\n                        \"value_scale\",\n                        onnx_light.TensorProto.FLOAT,\n                        [],\n                        [0.125],\n                    ),\n                    oh.make_tensor(\n                        \"value_zero\",\n                        onnx_light.TensorProto.UINT4,\n                        [],\n                        [8],\n                    ),\n                ],\n            ),\n            opset_imports=[\n                oh.make_opsetid(\"\", 23),\n                oh.make_opsetid(\"ai.rt\", 1),\n            ],\n            ir_version=10,\n        )\n        context = RuntimeContext()\n        context.put_value(\"past\", cache)\n        context.set(\n            \"indices\",\n            tensor_from_proto(onh.from_array(np.arange(16, dtype=np.int64))),\n        )\n        session = RuntimeSession(model)\n        session.run(context)\n    \n        self.context = context\n        self.model = model\n        self.session = session",
     "min_run_count": 2,
     "name": "ops.nn.quantize_paged_cache.QuantizePagedCache.time_run",
     "number": 1,
@@ -784,6 +796,8 @@
         "'cache=1x8x512x64'"
       ],
       [
+        "'onnxruntime'",
+        "'onnx-reference'",
         "'onnx-light'",
         "'onnx-light-cpu'"
       ]
@@ -794,7 +808,7 @@
     "timeout": 60,
     "type": "time",
     "unit": "seconds",
-    "version": "87a4426602368a706289f6c3aadadf31ea549cbadea224f4cb5f3ea0baed9390",
+    "version": "71685a3d7de3d47548634b852ae2d59b1d8c77b13f845c3319b3180d7e65f66c",
     "warmup_time": -1
   },
   "ops.nn.rms_normalization.RMSNormalization.time_run": {
@@ -840,6 +854,8 @@
         "'X=64x32x128, W=1x128x128, R=1x128x128'"
       ],
       [
+        "'onnxruntime'",
+        "'onnx-reference'",
         "'onnx-light'",
         "'onnx-light-cpu'"
       ]
