@@ -1,0 +1,196 @@
+{
+  "commit_hash": "64a1bca27fc6b5bb7316f172bf2e2da65ef5d432",
+  "date": 1790946521000,
+  "durations": {},
+  "env_name": "virtualenv-py3.12-numpy2.5.3-onnx1.23.1-onnxruntime1.30.0-ONNX_LIGHT_CPU_VERSION0.1.16-ONNX_LIGHT_VERSION0.1.28",
+  "env_vars": {
+    "ONNX_LIGHT_CPU_VERSION": "0.1.16",
+    "ONNX_LIGHT_VERSION": "0.1.28"
+  },
+  "params": {
+    "arch": "x86_64",
+    "cpu": "INTEL(R) XEON(R) PLATINUM 8573C",
+    "machine": "INTEL(R) XEON(R) PLATINUM 8573C",
+    "num_cpu": "anonymous",
+    "numpy": "2.5.3",
+    "onnx": "1.23.1",
+    "onnxruntime": "1.30.0",
+    "os": "anonymous",
+    "python": "3.12",
+    "ram": "anonymous"
+  },
+  "python": "3.12",
+  "requirements": {
+    "numpy": "2.5.3",
+    "onnx": "1.23.1",
+    "onnxruntime": "1.30.0"
+  },
+  "result_columns": [
+    "result",
+    "params",
+    "version",
+    "started_at",
+    "duration",
+    "stats_ci_99_a",
+    "stats_ci_99_b",
+    "stats_q_25",
+    "stats_q_75",
+    "stats_number",
+    "stats_repeat",
+    "samples",
+    "profile"
+  ],
+  "results": {
+    "ops.training.adagrad.Adagrad.time_run": [
+      [
+        0.04350349850001578,
+        0.02982877350001445,
+        null
+      ],
+      [
+        [
+          "'R=scalar, T=scalar, X=4194304, G=4194304, H=4194304'"
+        ],
+        [
+          "'onnx-reference'",
+          "'onnx-light'",
+          "'onnx-light-cpu'"
+        ]
+      ],
+      "193ebf6a7f2d5c108e30170980ceaa153ae964a0857f3e0bb7d4cd7732e526e2",
+      1790947429431,
+      12.885,
+      [
+        0.039451,
+        0.0296,
+        null
+      ],
+      [
+        0.047449,
+        0.034896,
+        null
+      ],
+      [
+        0.041781,
+        0.029758,
+        null
+      ],
+      [
+        0.045151,
+        0.030318,
+        null
+      ],
+      [
+        1,
+        1,
+        null
+      ],
+      [
+        10,
+        10,
+        null
+      ]
+    ],
+    "ops.training.adam.Adam.time_run": [
+      [
+        0.03974548349999907,
+        0.0514169290000126,
+        null
+      ],
+      [
+        [
+          "'R=scalar, T=scalar, X=4194304, G=4194304, V=4194304, H=4194304'"
+        ],
+        [
+          "'onnx-reference'",
+          "'onnx-light'",
+          "'onnx-light-cpu'"
+        ]
+      ],
+      "193ebf6a7f2d5c108e30170980ceaa153ae964a0857f3e0bb7d4cd7732e526e2",
+      1790947435763,
+      15.255,
+      [
+        0.039344,
+        0.051316,
+        null
+      ],
+      [
+        0.040452,
+        0.051682,
+        null
+      ],
+      [
+        0.039399,
+        0.051333,
+        null
+      ],
+      [
+        0.039948,
+        0.051432,
+        null
+      ],
+      [
+        1,
+        1,
+        null
+      ],
+      [
+        10,
+        10,
+        null
+      ]
+    ],
+    "ops.training.momentum.Momentum.time_run": [
+      [
+        0.02177901400000337,
+        0.00680179299999395,
+        null
+      ],
+      [
+        [
+          "'R=scalar, T=scalar, X=4194304, G=4194304, V=4194304'"
+        ],
+        [
+          "'onnx-reference'",
+          "'onnx-light'",
+          "'onnx-light-cpu'"
+        ]
+      ],
+      "193ebf6a7f2d5c108e30170980ceaa153ae964a0857f3e0bb7d4cd7732e526e2",
+      1790947443375,
+      10.905,
+      [
+        0.020979,
+        0.0065842,
+        null
+      ],
+      [
+        0.022493,
+        0.0074071,
+        null
+      ],
+      [
+        0.021665,
+        0.0067678,
+        null
+      ],
+      [
+        0.022114,
+        0.0069411,
+        null
+      ],
+      [
+        1,
+        1,
+        null
+      ],
+      [
+        10,
+        10,
+        null
+      ]
+    ]
+  },
+  "version": 2
+}
