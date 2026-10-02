@@ -1,0 +1,221 @@
+{
+  "commit_hash": "1febb854600b9a80ecb9b590a9103b179af98a8e",
+  "date": 1790979000000,
+  "durations": {},
+  "env_name": "virtualenv-py3.12-numpy2.5.3-onnx1.23.1-onnxruntime1.30.0-ONNX_LIGHT_CPU_VERSION0.1.17-ONNX_LIGHT_VERSION0.1.29",
+  "env_vars": {
+    "ONNX_LIGHT_CPU_VERSION": "0.1.17",
+    "ONNX_LIGHT_VERSION": "0.1.29"
+  },
+  "params": {
+    "arch": "x86_64",
+    "cpu": "AMD EPYC 7763 64-Core Processor",
+    "instruction_sets": "SSE2, SSE3, SSSE3, SSE4.1, SSE4.2, AVX, AVX2",
+    "machine": "AMD EPYC 7763 64-Core Processor",
+    "num_cpu": "4",
+    "numpy": "2.5.3",
+    "onnx": "1.23.1",
+    "onnxruntime": "1.30.0",
+    "os": "anonymous",
+    "python": "3.12",
+    "ram": "anonymous"
+  },
+  "python": "3.12",
+  "requirements": {
+    "numpy": "2.5.3",
+    "onnx": "1.23.1",
+    "onnxruntime": "1.30.0"
+  },
+  "result_columns": [
+    "result",
+    "params",
+    "version",
+    "started_at",
+    "duration",
+    "stats_ci_99_a",
+    "stats_ci_99_b",
+    "stats_q_25",
+    "stats_q_75",
+    "stats_number",
+    "stats_repeat",
+    "samples",
+    "profile"
+  ],
+  "results": {
+    "ops.training.adagrad.Adagrad.time_run": [
+      [
+        null,
+        0.03333889150002278,
+        0.03731541600001265,
+        null
+      ],
+      [
+        [
+          "'R=scalar, T=scalar, X=4194304, G=4194304, H=4194304'"
+        ],
+        [
+          "'onnxruntime'",
+          "'onnx-reference'",
+          "'onnx-light'",
+          "'onnx-light-cpu'"
+        ]
+      ],
+      "193ebf6a7f2d5c108e30170980ceaa153ae964a0857f3e0bb7d4cd7732e526e2",
+      1790979789985,
+      17.867,
+      [
+        null,
+        0.031643,
+        0.03721,
+        null
+      ],
+      [
+        null,
+        0.03592,
+        0.037445,
+        null
+      ],
+      [
+        null,
+        0.03196,
+        0.037286,
+        null
+      ],
+      [
+        null,
+        0.035346,
+        0.037399,
+        null
+      ],
+      [
+        null,
+        1,
+        1,
+        null
+      ],
+      [
+        null,
+        10,
+        10,
+        null
+      ]
+    ],
+    "ops.training.adam.Adam.time_run": [
+      [
+        null,
+        0.026456938999956492,
+        0.0619297289999281,
+        null
+      ],
+      [
+        [
+          "'R=scalar, T=scalar, X=4194304, G=4194304, V=4194304, H=4194304'"
+        ],
+        [
+          "'onnxruntime'",
+          "'onnx-reference'",
+          "'onnx-light'",
+          "'onnx-light-cpu'"
+        ]
+      ],
+      "193ebf6a7f2d5c108e30170980ceaa153ae964a0857f3e0bb7d4cd7732e526e2",
+      1790979798827,
+      20.623,
+      [
+        null,
+        0.022602,
+        0.061774,
+        null
+      ],
+      [
+        null,
+        0.030576,
+        0.062577,
+        null
+      ],
+      [
+        null,
+        0.022736,
+        0.06186,
+        null
+      ],
+      [
+        null,
+        0.03022,
+        0.062425,
+        null
+      ],
+      [
+        null,
+        1,
+        1,
+        null
+      ],
+      [
+        null,
+        10,
+        10,
+        null
+      ]
+    ],
+    "ops.training.momentum.Momentum.time_run": [
+      [
+        null,
+        0.015323817500018322,
+        0.003984135499990771,
+        null
+      ],
+      [
+        [
+          "'R=scalar, T=scalar, X=4194304, G=4194304, V=4194304'"
+        ],
+        [
+          "'onnxruntime'",
+          "'onnx-reference'",
+          "'onnx-light'",
+          "'onnx-light-cpu'"
+        ]
+      ],
+      "193ebf6a7f2d5c108e30170980ceaa153ae964a0857f3e0bb7d4cd7732e526e2",
+      1790979809055,
+      15.62,
+      [
+        null,
+        0.015058,
+        0.0039709,
+        null
+      ],
+      [
+        null,
+        0.015623,
+        0.0040832,
+        null
+      ],
+      [
+        null,
+        0.015199,
+        0.0039794,
+        null
+      ],
+      [
+        null,
+        0.015496,
+        0.0039993,
+        null
+      ],
+      [
+        null,
+        1,
+        1,
+        null
+      ],
+      [
+        null,
+        10,
+        10,
+        null
+      ]
+    ]
+  },
+  "version": 2
+}
