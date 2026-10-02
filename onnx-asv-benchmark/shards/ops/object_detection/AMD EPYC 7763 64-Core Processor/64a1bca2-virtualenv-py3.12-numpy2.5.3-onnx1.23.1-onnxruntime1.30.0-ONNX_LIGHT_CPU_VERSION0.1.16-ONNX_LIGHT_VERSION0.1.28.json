@@ -1,0 +1,162 @@
+{
+  "commit_hash": "64a1bca27fc6b5bb7316f172bf2e2da65ef5d432",
+  "date": 1790946521000,
+  "durations": {},
+  "env_name": "virtualenv-py3.12-numpy2.5.3-onnx1.23.1-onnxruntime1.30.0-ONNX_LIGHT_CPU_VERSION0.1.16-ONNX_LIGHT_VERSION0.1.28",
+  "env_vars": {
+    "ONNX_LIGHT_CPU_VERSION": "0.1.16",
+    "ONNX_LIGHT_VERSION": "0.1.28"
+  },
+  "params": {
+    "arch": "x86_64",
+    "cpu": "AMD EPYC 7763 64-Core Processor",
+    "machine": "AMD EPYC 7763 64-Core Processor",
+    "num_cpu": "anonymous",
+    "numpy": "2.5.3",
+    "onnx": "1.23.1",
+    "onnxruntime": "1.30.0",
+    "os": "anonymous",
+    "python": "3.12",
+    "ram": "anonymous"
+  },
+  "python": "3.12",
+  "requirements": {
+    "numpy": "2.5.3",
+    "onnx": "1.23.1",
+    "onnxruntime": "1.30.0"
+  },
+  "result_columns": [
+    "result",
+    "params",
+    "version",
+    "started_at",
+    "duration",
+    "stats_ci_99_a",
+    "stats_ci_99_b",
+    "stats_q_25",
+    "stats_q_75",
+    "stats_number",
+    "stats_repeat",
+    "samples",
+    "profile"
+  ],
+  "results": {
+    "ops.object_detection.non_max_suppression.NonMaxSuppression.time_run": [
+      [
+        0.0013155525000172474,
+        0.28776826799997934,
+        0.0014036725000039496,
+        null
+      ],
+      [
+        [
+          "'boxes=1x2000x4, scores=1x10x2000, max_output_boxes_per_class=1, iou_threshold=1, score_threshold=1'"
+        ],
+        [
+          "'onnxruntime'",
+          "'onnx-reference'",
+          "'onnx-light'",
+          "'onnx-light-cpu'"
+        ]
+      ],
+      "193ebf6a7f2d5c108e30170980ceaa153ae964a0857f3e0bb7d4cd7732e526e2",
+      1790947243227,
+      16.857,
+      [
+        0.0013,
+        0.28642,
+        0.0013934,
+        null
+      ],
+      [
+        0.0013195,
+        0.28973,
+        0.0014135,
+        null
+      ],
+      [
+        0.0013037,
+        0.28744,
+        0.0013975,
+        null
+      ],
+      [
+        0.0013179,
+        0.28905,
+        0.0014073,
+        null
+      ],
+      [
+        1,
+        1,
+        1,
+        null
+      ],
+      [
+        10,
+        10,
+        10,
+        null
+      ]
+    ],
+    "ops.object_detection.roi_align.RoiAlign.time_run": [
+      [
+        0.0024141639999868403,
+        1.6007218570000248,
+        0.006728995499997836,
+        null
+      ],
+      [
+        [
+          "'X=1x1x64x64, rois=4096x4, batch_indices=4096'"
+        ],
+        [
+          "'onnxruntime'",
+          "'onnx-reference'",
+          "'onnx-light'",
+          "'onnx-light-cpu'"
+        ]
+      ],
+      "193ebf6a7f2d5c108e30170980ceaa153ae964a0857f3e0bb7d4cd7732e526e2",
+      1790947251651,
+      35.767,
+      [
+        0.002384,
+        1.5829,
+        0.0067175,
+        null
+      ],
+      [
+        0.002516,
+        1.6186,
+        0.0068021,
+        null
+      ],
+      [
+        0.0023901,
+        1.5956,
+        0.0067271,
+        null
+      ],
+      [
+        0.0024298,
+        1.6089,
+        0.006749,
+        null
+      ],
+      [
+        1,
+        1,
+        1,
+        null
+      ],
+      [
+        10,
+        6,
+        10,
+        null
+      ]
+    ]
+  },
+  "version": 2
+}
