@@ -13,6 +13,8 @@
         "'no inputs'"
       ],
       [
+        "'onnxruntime'",
+        "'onnx-reference'",
         "'onnx-light'",
         "'onnx-light-cpu'"
       ]
@@ -156,6 +158,8 @@
         "'X=3'"
       ],
       [
+        "'onnxruntime'",
+        "'onnx-reference'",
         "'onnx-light'",
         "'onnx-light-cpu'"
       ]
