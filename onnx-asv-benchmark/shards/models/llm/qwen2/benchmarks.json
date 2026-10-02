@@ -1,0 +1,132 @@
+{
+  "models.llm.qwen2.Qwen2.time_decode": {
+    "code": "class Qwen2:\n    def time_decode(self, model, shape, precision, backend):\n        self.session.run([\"logits\"], self.decode_feeds)\n\nclass _Qwen2Base:\n    def setup(self, model, shape, precision, backend):\n        if model != self.model_name:\n            raise ValueError(f\"Unexpected model parameter {model!r}.\")\n        super().setup(shape, precision, backend)",
+    "min_run_count": 2,
+    "name": "models.llm.qwen2.Qwen2.time_decode",
+    "number": 1,
+    "param_names": [
+      "model",
+      "shape",
+      "dtype",
+      "backend"
+    ],
+    "params": [
+      [
+        "'Qwen/Qwen2-0.5B'"
+      ],
+      [
+        "'prefill[input_ids=1x128, attention_mask=1x128, cache=1x4x0x64]; decode[input_ids=1x1, attention_mask=1x129, cache=1x4x128x64]'"
+      ],
+      [
+        "'fp32'",
+        "'fp16'",
+        "'bf16'",
+        "'int8'",
+        "'int4'",
+        "'int2'"
+      ],
+      [
+        "'onnxruntime'",
+        "'onnx-reference'",
+        "'onnx-light'",
+        "'onnx-light-cpu'"
+      ]
+    ],
+    "pretty_name": "Qwen2-0.5B decode",
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "ee5afe2562b073df394523ad68a3914587f22b0f0ff7793cf02ccb6e0d5bd6bf",
+    "warmup_time": -1
+  },
+  "models.llm.qwen2.Qwen2.time_prefill": {
+    "code": "class Qwen2:\n    def time_prefill(self, model, shape, precision, backend):\n        self.session.run([\"logits\"], self.prefill_feeds)\n\nclass _Qwen2Base:\n    def setup(self, model, shape, precision, backend):\n        if model != self.model_name:\n            raise ValueError(f\"Unexpected model parameter {model!r}.\")\n        super().setup(shape, precision, backend)",
+    "min_run_count": 2,
+    "name": "models.llm.qwen2.Qwen2.time_prefill",
+    "number": 1,
+    "param_names": [
+      "model",
+      "shape",
+      "dtype",
+      "backend"
+    ],
+    "params": [
+      [
+        "'Qwen/Qwen2-0.5B'"
+      ],
+      [
+        "'prefill[input_ids=1x128, attention_mask=1x128, cache=1x4x0x64]; decode[input_ids=1x1, attention_mask=1x129, cache=1x4x128x64]'"
+      ],
+      [
+        "'fp32'",
+        "'fp16'",
+        "'bf16'",
+        "'int8'",
+        "'int4'",
+        "'int2'"
+      ],
+      [
+        "'onnxruntime'",
+        "'onnx-reference'",
+        "'onnx-light'",
+        "'onnx-light-cpu'"
+      ]
+    ],
+    "pretty_name": "Qwen2-0.5B prefill",
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "7cdbfff359bf7fc18a077b3f21d162f66d978c432a94e08d7d87f83a06eb9d55",
+    "warmup_time": -1
+  },
+  "models.llm.qwen2.Qwen2GenAI.time_generate": {
+    "code": "class Qwen2GenAI:\n    def time_generate(self, model, shape, precision, backend):\n        if backend == \"onnxruntime-genai\":\n            self._generate_genai()\n        elif backend == \"onnx-reference\":\n            self._generate_reference()\n        else:\n            self._generate_onnx_light()\n\nclass _Qwen2Base:\n    def setup(self, model, shape, precision, backend):\n        if model != self.model_name:\n            raise ValueError(f\"Unexpected model parameter {model!r}.\")\n        super().setup(shape, precision, backend)",
+    "min_run_count": 2,
+    "name": "models.llm.qwen2.Qwen2GenAI.time_generate",
+    "number": 1,
+    "param_names": [
+      "model",
+      "shape",
+      "dtype",
+      "backend"
+    ],
+    "params": [
+      [
+        "'Qwen/Qwen2-0.5B'"
+      ],
+      [
+        "'input_ids=1x6, attention_mask=1x6, cache=1x4x0x64'"
+      ],
+      [
+        "'fp32'",
+        "'fp16'",
+        "'bf16'",
+        "'int8'",
+        "'int4'",
+        "'int2'"
+      ],
+      [
+        "'onnxruntime-genai'",
+        "'onnx-reference'",
+        "'onnx-light'",
+        "'onnx-light-cpu'"
+      ]
+    ],
+    "pretty_name": "Qwen2-0.5B generation",
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "654c9b458e0c86b18eb83549d131c2fcdc6ee1605b56d281ed3e4f781c3f6ccc",
+    "warmup_time": -1
+  },
+  "version": 2
+}
