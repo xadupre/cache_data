@@ -1,0 +1,105 @@
+{
+  "commit_hash": "698fdeed2ff84a5a3776b16285ef11b6db2113f5",
+  "date": 1790975672000,
+  "durations": {},
+  "env_name": "virtualenv-py3.12-numpy2.5.3-onnx1.23.1-onnxruntime1.30.0-ONNX_LIGHT_CPU_VERSION0.1.17-ONNX_LIGHT_VERSION0.1.29",
+  "env_vars": {
+    "ONNX_LIGHT_CPU_VERSION": "0.1.17",
+    "ONNX_LIGHT_VERSION": "0.1.29"
+  },
+  "params": {
+    "arch": "x86_64",
+    "cpu": "AMD EPYC 7763 64-Core Processor",
+    "instruction_sets": "SSE2, SSE3, SSSE3, SSE4.1, SSE4.2, AVX, AVX2",
+    "machine": "AMD EPYC 7763 64-Core Processor",
+    "num_cpu": "4",
+    "numpy": "2.5.3",
+    "onnx": "1.23.1",
+    "onnxruntime": "1.30.0",
+    "os": "anonymous",
+    "python": "3.12",
+    "ram": "anonymous"
+  },
+  "python": "3.12",
+  "requirements": {
+    "numpy": "2.5.3",
+    "onnx": "1.23.1",
+    "onnxruntime": "1.30.0"
+  },
+  "result_columns": [
+    "result",
+    "params",
+    "version",
+    "started_at",
+    "duration",
+    "stats_ci_99_a",
+    "stats_ci_99_b",
+    "stats_q_25",
+    "stats_q_75",
+    "stats_number",
+    "stats_repeat",
+    "samples",
+    "profile"
+  ],
+  "results": {
+    "ops.image.image_decoder.ImageDecoder.time_run": [
+      [
+        null,
+        null,
+        2.5252999989788805e-05,
+        null
+      ],
+      [
+        [
+          "'data=3126'"
+        ],
+        [
+          "'onnxruntime'",
+          "'onnx-reference'",
+          "'onnx-light'",
+          "'onnx-light-cpu'"
+        ]
+      ],
+      "193ebf6a7f2d5c108e30170980ceaa153ae964a0857f3e0bb7d4cd7732e526e2",
+      1790976118095,
+      10.023,
+      [
+        null,
+        null,
+        1.619e-05,
+        null
+      ],
+      [
+        null,
+        null,
+        3.4825e-05,
+        null
+      ],
+      [
+        null,
+        null,
+        2.153e-05,
+        null
+      ],
+      [
+        null,
+        null,
+        2.6758e-05,
+        null
+      ],
+      [
+        null,
+        null,
+        1,
+        null
+      ],
+      [
+        null,
+        null,
+        10,
+        null
+      ]
+    ]
+  },
+  "version": 2
+}
