@@ -13,6 +13,7 @@
         "'Q=1x8x128x64, K=1x8x128x64, V=1x8x128x64'"
       ],
       [
+        "'onnxruntime'",
         "'onnx-reference'",
         "'onnx-light'",
         "'onnx-light-cpu'"
