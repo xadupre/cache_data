@@ -71,6 +71,8 @@
         "'x=map[65536->65536]'"
       ],
       [
+        "'onnxruntime'",
+        "'onnx-reference'",
         "'onnx-light'",
         "'onnx-light-cpu'"
       ]
@@ -99,6 +101,7 @@
       ],
       [
         "'onnxruntime'",
+        "'onnx-reference'",
         "'onnx-light'",
         "'onnx-light-cpu'"
       ]
@@ -126,6 +129,7 @@
         "'x=map[2->2]'"
       ],
       [
+        "'onnxruntime'",
         "'onnx-reference'",
         "'onnx-light'",
         "'onnx-light-cpu'"
@@ -241,6 +245,7 @@
         "'x=8192x2'"
       ],
       [
+        "'onnxruntime'",
         "'onnx-reference'",
         "'onnx-light'",
         "'onnx-light-cpu'"
@@ -472,6 +477,7 @@
         "'x=8192x1'"
       ],
       [
+        "'onnxruntime'",
         "'onnx-reference'",
         "'onnx-light'",
         "'onnx-light-cpu'"
