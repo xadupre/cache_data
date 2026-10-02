@@ -13,6 +13,7 @@
         "'R=scalar, T=scalar, X=4194304, G=4194304, H=4194304'"
       ],
       [
+        "'onnxruntime'",
         "'onnx-reference'",
         "'onnx-light'",
         "'onnx-light-cpu'"
@@ -41,6 +42,7 @@
         "'R=scalar, T=scalar, X=4194304, G=4194304, V=4194304, H=4194304'"
       ],
       [
+        "'onnxruntime'",
         "'onnx-reference'",
         "'onnx-light'",
         "'onnx-light-cpu'"
@@ -69,6 +71,7 @@
         "'R=scalar, T=scalar, X=4194304, G=4194304, V=4194304'"
       ],
       [
+        "'onnxruntime'",
         "'onnx-reference'",
         "'onnx-light'",
         "'onnx-light-cpu'"
