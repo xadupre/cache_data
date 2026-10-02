@@ -1869,6 +1869,7 @@
         "'x=4194304, y=4194304'"
       ],
       [
+        "'onnxruntime'",
         "'onnx-reference'",
         "'onnx-light'",
         "'onnx-light-cpu'"
