@@ -13,6 +13,7 @@
         "'data=3126'"
       ],
       [
+        "'onnxruntime'",
         "'onnx-reference'",
         "'onnx-light'",
         "'onnx-light-cpu'"
