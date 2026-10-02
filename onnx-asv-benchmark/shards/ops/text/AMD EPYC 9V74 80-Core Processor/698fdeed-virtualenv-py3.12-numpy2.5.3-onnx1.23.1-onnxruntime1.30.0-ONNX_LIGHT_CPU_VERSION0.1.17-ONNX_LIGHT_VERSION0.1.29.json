@@ -1,0 +1,337 @@
+{
+  "commit_hash": "698fdeed2ff84a5a3776b16285ef11b6db2113f5",
+  "date": 1790975672000,
+  "durations": {},
+  "env_name": "virtualenv-py3.12-numpy2.5.3-onnx1.23.1-onnxruntime1.30.0-ONNX_LIGHT_CPU_VERSION0.1.17-ONNX_LIGHT_VERSION0.1.29",
+  "env_vars": {
+    "ONNX_LIGHT_CPU_VERSION": "0.1.17",
+    "ONNX_LIGHT_VERSION": "0.1.29"
+  },
+  "params": {
+    "arch": "x86_64",
+    "cpu": "AMD EPYC 9V74 80-Core Processor",
+    "instruction_sets": "SSE2, SSE3, SSSE3, SSE4.1, SSE4.2, AVX, AVX2",
+    "machine": "AMD EPYC 9V74 80-Core Processor",
+    "num_cpu": "4",
+    "numpy": "2.5.3",
+    "onnx": "1.23.1",
+    "onnxruntime": "1.30.0",
+    "os": "anonymous",
+    "python": "3.12",
+    "ram": "anonymous"
+  },
+  "python": "3.12",
+  "requirements": {
+    "numpy": "2.5.3",
+    "onnx": "1.23.1",
+    "onnxruntime": "1.30.0"
+  },
+  "result_columns": [
+    "result",
+    "params",
+    "version",
+    "started_at",
+    "duration",
+    "stats_ci_99_a",
+    "stats_ci_99_b",
+    "stats_q_25",
+    "stats_q_75",
+    "stats_number",
+    "stats_repeat",
+    "samples",
+    "profile"
+  ],
+  "results": {
+    "ops.text.regex_full_match.RegexFullMatch.time_run": [
+      [
+        0.036007661499994015,
+        0.12211394049998603,
+        0.1482653859999914,
+        null
+      ],
+      [
+        [
+          "'x=262144'"
+        ],
+        [
+          "'onnxruntime'",
+          "'onnx-reference'",
+          "'onnx-light'",
+          "'onnx-light-cpu'"
+        ]
+      ],
+      "193ebf6a7f2d5c108e30170980ceaa153ae964a0857f3e0bb7d4cd7732e526e2",
+      1790976438512,
+      19.026,
+      [
+        0.035127,
+        0.1191,
+        0.14767,
+        null
+      ],
+      [
+        0.03764,
+        0.1226,
+        0.15056,
+        null
+      ],
+      [
+        0.035563,
+        0.12034,
+        0.14806,
+        null
+      ],
+      [
+        0.0361,
+        0.12225,
+        0.14903,
+        null
+      ],
+      [
+        1,
+        1,
+        1,
+        null
+      ],
+      [
+        10,
+        10,
+        10,
+        null
+      ]
+    ],
+    "ops.text.string_concat.StringConcat.time_run": [
+      [
+        0.03555570400000363,
+        0.018064469000009353,
+        0.06674631200000647,
+        null
+      ],
+      [
+        [
+          "'x=262144, y=262144'"
+        ],
+        [
+          "'onnxruntime'",
+          "'onnx-reference'",
+          "'onnx-light'",
+          "'onnx-light-cpu'"
+        ]
+      ],
+      "193ebf6a7f2d5c108e30170980ceaa153ae964a0857f3e0bb7d4cd7732e526e2",
+      1790976448011,
+      15.303,
+      [
+        0.034333,
+        0.016064,
+        0.065876,
+        null
+      ],
+      [
+        0.036731,
+        0.019978,
+        0.067295,
+        null
+      ],
+      [
+        0.035381,
+        0.016775,
+        0.066379,
+        null
+      ],
+      [
+        0.035783,
+        0.019284,
+        0.067013,
+        null
+      ],
+      [
+        1,
+        1,
+        1,
+        null
+      ],
+      [
+        10,
+        10,
+        10,
+        null
+      ]
+    ],
+    "ops.text.string_normalizer.StringNormalizer.time_run": [
+      [
+        0.033543390999980716,
+        0.3585691280000134,
+        0.050710358499998165,
+        null
+      ],
+      [
+        [
+          "'x=262144'"
+        ],
+        [
+          "'onnxruntime'",
+          "'onnx-reference'",
+          "'onnx-light'",
+          "'onnx-light-cpu'"
+        ]
+      ],
+      "193ebf6a7f2d5c108e30170980ceaa153ae964a0857f3e0bb7d4cd7732e526e2",
+      1790976455667,
+      22.185,
+      [
+        0.033028,
+        0.35553,
+        0.049776,
+        null
+      ],
+      [
+        0.034567,
+        0.36246,
+        0.051558,
+        null
+      ],
+      [
+        0.033301,
+        0.35668,
+        0.05055,
+        null
+      ],
+      [
+        0.033896,
+        0.36148,
+        0.051028,
+        null
+      ],
+      [
+        1,
+        1,
+        1,
+        null
+      ],
+      [
+        10,
+        10,
+        10,
+        null
+      ]
+    ],
+    "ops.text.string_split.StringSplit.time_run": [
+      [
+        0.021089443000008146,
+        0.15062925700000562,
+        0.03969436400002735,
+        null
+      ],
+      [
+        [
+          "'x=131072'"
+        ],
+        [
+          "'onnxruntime'",
+          "'onnx-reference'",
+          "'onnx-light'",
+          "'onnx-light-cpu'"
+        ]
+      ],
+      "193ebf6a7f2d5c108e30170980ceaa153ae964a0857f3e0bb7d4cd7732e526e2",
+      1790976466762,
+      16.768,
+      [
+        0.02025,
+        0.14678,
+        0.037155,
+        null
+      ],
+      [
+        0.021678,
+        0.15384,
+        0.041693,
+        null
+      ],
+      [
+        0.020644,
+        0.14827,
+        0.038451,
+        null
+      ],
+      [
+        0.021363,
+        0.15115,
+        0.041195,
+        null
+      ],
+      [
+        1,
+        1,
+        1,
+        null
+      ],
+      [
+        10,
+        10,
+        10,
+        null
+      ]
+    ],
+    "ops.text.tf_idf_vectorizer.TfIdfVectorizer.time_run": [
+      [
+        0.0018423945000165531,
+        0.24079722499999434,
+        0.0009355390000109765,
+        null
+      ],
+      [
+        [
+          "'X=196608'"
+        ],
+        [
+          "'onnxruntime'",
+          "'onnx-reference'",
+          "'onnx-light'",
+          "'onnx-light-cpu'"
+        ]
+      ],
+      "193ebf6a7f2d5c108e30170980ceaa153ae964a0857f3e0bb7d4cd7732e526e2",
+      1790976475128,
+      15.965,
+      [
+        0.0018283,
+        0.23723,
+        0.00093177,
+        null
+      ],
+      [
+        0.0018795,
+        0.25035,
+        0.00093936,
+        null
+      ],
+      [
+        0.0018347,
+        0.2385,
+        0.00093412,
+        null
+      ],
+      [
+        0.0018686,
+        0.24321,
+        0.00093706,
+        null
+      ],
+      [
+        1,
+        1,
+        1,
+        null
+      ],
+      [
+        10,
+        10,
+        10,
+        null
+      ]
+    ]
+  },
+  "version": 2
+}
