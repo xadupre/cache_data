@@ -1,0 +1,1045 @@
+{
+  "ops.tensor.affine_grid.AffineGrid.time_run": {
+    "code": "class OperatorBenchmark:\n    def time_run(self, shape, backend):\n        self.session.run(None, self.feeds)\n\n    def setup(self, shape, backend):\n        case, feeds, expected_by_name = _load_case(self.case_name, self.case_mode)\n        actual_shape = input_shape_label(feeds)\n        if shape != actual_shape:\n            raise ValueError(\n                f\"Input shape parameter {shape!r} does not match {actual_shape!r}.\"\n            )\n        model_bytes = case.model.SerializeToString()\n        if backend == \"onnxruntime\":\n            session = onnxruntime.InferenceSession(\n                model_bytes,\n                providers=[\"CPUExecutionProvider\"],\n            )\n        elif backend == \"onnx-reference\":\n            session = OnnxReferenceEvaluator(onnx.load_model_from_string(model_bytes))\n        elif backend == \"onnx-light\":\n            session = OnnxLightReferenceEvaluator(case.model)\n        elif backend == \"onnx-light-cpu\":\n            session = OnnxLightReferenceEvaluator(case.model)\n            register_kernels_for_session(session)\n        else:\n            raise ValueError(f\"Unexpected backend {backend!r}.\")\n    \n        outputs = session.run(None, feeds)\n        output_names = [output.name for output in case.model.graph.output]\n        if expected_by_name and self.operator not in NONDETERMINISTIC_OPERATORS:\n            for name, output in zip(output_names, outputs, strict=True):\n                _assert_value(\n                    output,\n                    expected_by_name[name],\n                    rtol=max(case.rtol, 1e-2),\n                    atol=max(case.atol, 1e-4),\n                )\n    \n        self.case = case\n        self.feeds = feeds\n        self.session = session",
+    "min_run_count": 2,
+    "name": "ops.tensor.affine_grid.AffineGrid.time_run",
+    "number": 1,
+    "param_names": [
+      "shape",
+      "backend"
+    ],
+    "params": [
+      [
+        "'theta=1x2x3, size=4'"
+      ],
+      [
+        "'onnxruntime'",
+        "'onnx-reference'",
+        "'onnx-light'",
+        "'onnx-light-cpu'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "193ebf6a7f2d5c108e30170980ceaa153ae964a0857f3e0bb7d4cd7732e526e2",
+    "warmup_time": -1
+  },
+  "ops.tensor.bit_cast.BitCast.time_run": {
+    "code": "class OperatorBenchmark:\n    def time_run(self, shape, backend):\n        self.session.run(None, self.feeds)\n\n    def setup(self, shape, backend):\n        case, feeds, expected_by_name = _load_case(self.case_name, self.case_mode)\n        actual_shape = input_shape_label(feeds)\n        if shape != actual_shape:\n            raise ValueError(\n                f\"Input shape parameter {shape!r} does not match {actual_shape!r}.\"\n            )\n        model_bytes = case.model.SerializeToString()\n        if backend == \"onnxruntime\":\n            session = onnxruntime.InferenceSession(\n                model_bytes,\n                providers=[\"CPUExecutionProvider\"],\n            )\n        elif backend == \"onnx-reference\":\n            session = OnnxReferenceEvaluator(onnx.load_model_from_string(model_bytes))\n        elif backend == \"onnx-light\":\n            session = OnnxLightReferenceEvaluator(case.model)\n        elif backend == \"onnx-light-cpu\":\n            session = OnnxLightReferenceEvaluator(case.model)\n            register_kernels_for_session(session)\n        else:\n            raise ValueError(f\"Unexpected backend {backend!r}.\")\n    \n        outputs = session.run(None, feeds)\n        output_names = [output.name for output in case.model.graph.output]\n        if expected_by_name and self.operator not in NONDETERMINISTIC_OPERATORS:\n            for name, output in zip(output_names, outputs, strict=True):\n                _assert_value(\n                    output,\n                    expected_by_name[name],\n                    rtol=max(case.rtol, 1e-2),\n                    atol=max(case.atol, 1e-4),\n                )\n    \n        self.case = case\n        self.feeds = feeds\n        self.session = session",
+    "min_run_count": 2,
+    "name": "ops.tensor.bit_cast.BitCast.time_run",
+    "number": 1,
+    "param_names": [
+      "shape",
+      "backend"
+    ],
+    "params": [
+      [
+        "'x=4194304'"
+      ],
+      [
+        "'onnxruntime'",
+        "'onnx-reference'",
+        "'onnx-light'",
+        "'onnx-light-cpu'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "193ebf6a7f2d5c108e30170980ceaa153ae964a0857f3e0bb7d4cd7732e526e2",
+    "warmup_time": -1
+  },
+  "ops.tensor.cast.Cast.time_run": {
+    "code": "class OperatorBenchmark:\n    def time_run(self, shape, backend):\n        self.session.run(None, self.feeds)\n\n    def setup(self, shape, backend):\n        case, feeds, expected_by_name = _load_case(self.case_name, self.case_mode)\n        actual_shape = input_shape_label(feeds)\n        if shape != actual_shape:\n            raise ValueError(\n                f\"Input shape parameter {shape!r} does not match {actual_shape!r}.\"\n            )\n        model_bytes = case.model.SerializeToString()\n        if backend == \"onnxruntime\":\n            session = onnxruntime.InferenceSession(\n                model_bytes,\n                providers=[\"CPUExecutionProvider\"],\n            )\n        elif backend == \"onnx-reference\":\n            session = OnnxReferenceEvaluator(onnx.load_model_from_string(model_bytes))\n        elif backend == \"onnx-light\":\n            session = OnnxLightReferenceEvaluator(case.model)\n        elif backend == \"onnx-light-cpu\":\n            session = OnnxLightReferenceEvaluator(case.model)\n            register_kernels_for_session(session)\n        else:\n            raise ValueError(f\"Unexpected backend {backend!r}.\")\n    \n        outputs = session.run(None, feeds)\n        output_names = [output.name for output in case.model.graph.output]\n        if expected_by_name and self.operator not in NONDETERMINISTIC_OPERATORS:\n            for name, output in zip(output_names, outputs, strict=True):\n                _assert_value(\n                    output,\n                    expected_by_name[name],\n                    rtol=max(case.rtol, 1e-2),\n                    atol=max(case.atol, 1e-4),\n                )\n    \n        self.case = case\n        self.feeds = feeds\n        self.session = session",
+    "min_run_count": 2,
+    "name": "ops.tensor.cast.Cast.time_run",
+    "number": 1,
+    "param_names": [
+      "shape",
+      "backend"
+    ],
+    "params": [
+      [
+        "'input=4194304'"
+      ],
+      [
+        "'onnxruntime'",
+        "'onnx-reference'",
+        "'onnx-light'",
+        "'onnx-light-cpu'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "193ebf6a7f2d5c108e30170980ceaa153ae964a0857f3e0bb7d4cd7732e526e2",
+    "warmup_time": -1
+  },
+  "ops.tensor.cast_like.CastLike.time_run": {
+    "code": "class OperatorBenchmark:\n    def time_run(self, shape, backend):\n        self.session.run(None, self.feeds)\n\n    def setup(self, shape, backend):\n        case, feeds, expected_by_name = _load_case(self.case_name, self.case_mode)\n        actual_shape = input_shape_label(feeds)\n        if shape != actual_shape:\n            raise ValueError(\n                f\"Input shape parameter {shape!r} does not match {actual_shape!r}.\"\n            )\n        model_bytes = case.model.SerializeToString()\n        if backend == \"onnxruntime\":\n            session = onnxruntime.InferenceSession(\n                model_bytes,\n                providers=[\"CPUExecutionProvider\"],\n            )\n        elif backend == \"onnx-reference\":\n            session = OnnxReferenceEvaluator(onnx.load_model_from_string(model_bytes))\n        elif backend == \"onnx-light\":\n            session = OnnxLightReferenceEvaluator(case.model)\n        elif backend == \"onnx-light-cpu\":\n            session = OnnxLightReferenceEvaluator(case.model)\n            register_kernels_for_session(session)\n        else:\n            raise ValueError(f\"Unexpected backend {backend!r}.\")\n    \n        outputs = session.run(None, feeds)\n        output_names = [output.name for output in case.model.graph.output]\n        if expected_by_name and self.operator not in NONDETERMINISTIC_OPERATORS:\n            for name, output in zip(output_names, outputs, strict=True):\n                _assert_value(\n                    output,\n                    expected_by_name[name],\n                    rtol=max(case.rtol, 1e-2),\n                    atol=max(case.atol, 1e-4),\n                )\n    \n        self.case = case\n        self.feeds = feeds\n        self.session = session",
+    "min_run_count": 2,
+    "name": "ops.tensor.cast_like.CastLike.time_run",
+    "number": 1,
+    "param_names": [
+      "shape",
+      "backend"
+    ],
+    "params": [
+      [
+        "'input=4194304, target_type=1'"
+      ],
+      [
+        "'onnxruntime'",
+        "'onnx-reference'",
+        "'onnx-light'",
+        "'onnx-light-cpu'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "193ebf6a7f2d5c108e30170980ceaa153ae964a0857f3e0bb7d4cd7732e526e2",
+    "warmup_time": -1
+  },
+  "ops.tensor.center_crop_pad.CenterCropPad.time_run": {
+    "code": "class OperatorBenchmark:\n    def time_run(self, shape, backend):\n        self.session.run(None, self.feeds)\n\n    def setup(self, shape, backend):\n        case, feeds, expected_by_name = _load_case(self.case_name, self.case_mode)\n        actual_shape = input_shape_label(feeds)\n        if shape != actual_shape:\n            raise ValueError(\n                f\"Input shape parameter {shape!r} does not match {actual_shape!r}.\"\n            )\n        model_bytes = case.model.SerializeToString()\n        if backend == \"onnxruntime\":\n            session = onnxruntime.InferenceSession(\n                model_bytes,\n                providers=[\"CPUExecutionProvider\"],\n            )\n        elif backend == \"onnx-reference\":\n            session = OnnxReferenceEvaluator(onnx.load_model_from_string(model_bytes))\n        elif backend == \"onnx-light\":\n            session = OnnxLightReferenceEvaluator(case.model)\n        elif backend == \"onnx-light-cpu\":\n            session = OnnxLightReferenceEvaluator(case.model)\n            register_kernels_for_session(session)\n        else:\n            raise ValueError(f\"Unexpected backend {backend!r}.\")\n    \n        outputs = session.run(None, feeds)\n        output_names = [output.name for output in case.model.graph.output]\n        if expected_by_name and self.operator not in NONDETERMINISTIC_OPERATORS:\n            for name, output in zip(output_names, outputs, strict=True):\n                _assert_value(\n                    output,\n                    expected_by_name[name],\n                    rtol=max(case.rtol, 1e-2),\n                    atol=max(case.atol, 1e-4),\n                )\n    \n        self.case = case\n        self.feeds = feeds\n        self.session = session",
+    "min_run_count": 2,
+    "name": "ops.tensor.center_crop_pad.CenterCropPad.time_run",
+    "number": 1,
+    "param_names": [
+      "shape",
+      "backend"
+    ],
+    "params": [
+      [
+        "'x=4096x2048x1, shape=3'"
+      ],
+      [
+        "'onnxruntime'",
+        "'onnx-reference'",
+        "'onnx-light'",
+        "'onnx-light-cpu'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "193ebf6a7f2d5c108e30170980ceaa153ae964a0857f3e0bb7d4cd7732e526e2",
+    "warmup_time": -1
+  },
+  "ops.tensor.compress.Compress.time_run": {
+    "code": "class OperatorBenchmark:\n    def time_run(self, shape, backend):\n        self.session.run(None, self.feeds)\n\n    def setup(self, shape, backend):\n        case, feeds, expected_by_name = _load_case(self.case_name, self.case_mode)\n        actual_shape = input_shape_label(feeds)\n        if shape != actual_shape:\n            raise ValueError(\n                f\"Input shape parameter {shape!r} does not match {actual_shape!r}.\"\n            )\n        model_bytes = case.model.SerializeToString()\n        if backend == \"onnxruntime\":\n            session = onnxruntime.InferenceSession(\n                model_bytes,\n                providers=[\"CPUExecutionProvider\"],\n            )\n        elif backend == \"onnx-reference\":\n            session = OnnxReferenceEvaluator(onnx.load_model_from_string(model_bytes))\n        elif backend == \"onnx-light\":\n            session = OnnxLightReferenceEvaluator(case.model)\n        elif backend == \"onnx-light-cpu\":\n            session = OnnxLightReferenceEvaluator(case.model)\n            register_kernels_for_session(session)\n        else:\n            raise ValueError(f\"Unexpected backend {backend!r}.\")\n    \n        outputs = session.run(None, feeds)\n        output_names = [output.name for output in case.model.graph.output]\n        if expected_by_name and self.operator not in NONDETERMINISTIC_OPERATORS:\n            for name, output in zip(output_names, outputs, strict=True):\n                _assert_value(\n                    output,\n                    expected_by_name[name],\n                    rtol=max(case.rtol, 1e-2),\n                    atol=max(case.atol, 1e-4),\n                )\n    \n        self.case = case\n        self.feeds = feeds\n        self.session = session",
+    "min_run_count": 2,
+    "name": "ops.tensor.compress.Compress.time_run",
+    "number": 1,
+    "param_names": [
+      "shape",
+      "backend"
+    ],
+    "params": [
+      [
+        "'input=4096x1024, condition=4194304'"
+      ],
+      [
+        "'onnxruntime'",
+        "'onnx-reference'",
+        "'onnx-light'",
+        "'onnx-light-cpu'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "193ebf6a7f2d5c108e30170980ceaa153ae964a0857f3e0bb7d4cd7732e526e2",
+    "warmup_time": -1
+  },
+  "ops.tensor.concat.Concat.time_run": {
+    "code": "class OperatorBenchmark:\n    def time_run(self, shape, backend):\n        self.session.run(None, self.feeds)\n\n    def setup(self, shape, backend):\n        case, feeds, expected_by_name = _load_case(self.case_name, self.case_mode)\n        actual_shape = input_shape_label(feeds)\n        if shape != actual_shape:\n            raise ValueError(\n                f\"Input shape parameter {shape!r} does not match {actual_shape!r}.\"\n            )\n        model_bytes = case.model.SerializeToString()\n        if backend == \"onnxruntime\":\n            session = onnxruntime.InferenceSession(\n                model_bytes,\n                providers=[\"CPUExecutionProvider\"],\n            )\n        elif backend == \"onnx-reference\":\n            session = OnnxReferenceEvaluator(onnx.load_model_from_string(model_bytes))\n        elif backend == \"onnx-light\":\n            session = OnnxLightReferenceEvaluator(case.model)\n        elif backend == \"onnx-light-cpu\":\n            session = OnnxLightReferenceEvaluator(case.model)\n            register_kernels_for_session(session)\n        else:\n            raise ValueError(f\"Unexpected backend {backend!r}.\")\n    \n        outputs = session.run(None, feeds)\n        output_names = [output.name for output in case.model.graph.output]\n        if expected_by_name and self.operator not in NONDETERMINISTIC_OPERATORS:\n            for name, output in zip(output_names, outputs, strict=True):\n                _assert_value(\n                    output,\n                    expected_by_name[name],\n                    rtol=max(case.rtol, 1e-2),\n                    atol=max(case.atol, 1e-4),\n                )\n    \n        self.case = case\n        self.feeds = feeds\n        self.session = session",
+    "min_run_count": 2,
+    "name": "ops.tensor.concat.Concat.time_run",
+    "number": 1,
+    "param_names": [
+      "shape",
+      "backend"
+    ],
+    "params": [
+      [
+        "'value0=2097152, value1=2097152'"
+      ],
+      [
+        "'onnxruntime'",
+        "'onnx-reference'",
+        "'onnx-light'",
+        "'onnx-light-cpu'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "193ebf6a7f2d5c108e30170980ceaa153ae964a0857f3e0bb7d4cd7732e526e2",
+    "warmup_time": -1
+  },
+  "ops.tensor.depth_to_space.DepthToSpace.time_run": {
+    "code": "class OperatorBenchmark:\n    def time_run(self, shape, backend):\n        self.session.run(None, self.feeds)\n\n    def setup(self, shape, backend):\n        case, feeds, expected_by_name = _load_case(self.case_name, self.case_mode)\n        actual_shape = input_shape_label(feeds)\n        if shape != actual_shape:\n            raise ValueError(\n                f\"Input shape parameter {shape!r} does not match {actual_shape!r}.\"\n            )\n        model_bytes = case.model.SerializeToString()\n        if backend == \"onnxruntime\":\n            session = onnxruntime.InferenceSession(\n                model_bytes,\n                providers=[\"CPUExecutionProvider\"],\n            )\n        elif backend == \"onnx-reference\":\n            session = OnnxReferenceEvaluator(onnx.load_model_from_string(model_bytes))\n        elif backend == \"onnx-light\":\n            session = OnnxLightReferenceEvaluator(case.model)\n        elif backend == \"onnx-light-cpu\":\n            session = OnnxLightReferenceEvaluator(case.model)\n            register_kernels_for_session(session)\n        else:\n            raise ValueError(f\"Unexpected backend {backend!r}.\")\n    \n        outputs = session.run(None, feeds)\n        output_names = [output.name for output in case.model.graph.output]\n        if expected_by_name and self.operator not in NONDETERMINISTIC_OPERATORS:\n            for name, output in zip(output_names, outputs, strict=True):\n                _assert_value(\n                    output,\n                    expected_by_name[name],\n                    rtol=max(case.rtol, 1e-2),\n                    atol=max(case.atol, 1e-4),\n                )\n    \n        self.case = case\n        self.feeds = feeds\n        self.session = session",
+    "min_run_count": 2,
+    "name": "ops.tensor.depth_to_space.DepthToSpace.time_run",
+    "number": 1,
+    "param_names": [
+      "shape",
+      "backend"
+    ],
+    "params": [
+      [
+        "'input=1x8x512x1024'"
+      ],
+      [
+        "'onnxruntime'",
+        "'onnx-reference'",
+        "'onnx-light'",
+        "'onnx-light-cpu'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "193ebf6a7f2d5c108e30170980ceaa153ae964a0857f3e0bb7d4cd7732e526e2",
+    "warmup_time": -1
+  },
+  "ops.tensor.expand.Expand.time_run": {
+    "code": "class OperatorBenchmark:\n    def time_run(self, shape, backend):\n        self.session.run(None, self.feeds)\n\n    def setup(self, shape, backend):\n        case, feeds, expected_by_name = _load_case(self.case_name, self.case_mode)\n        actual_shape = input_shape_label(feeds)\n        if shape != actual_shape:\n            raise ValueError(\n                f\"Input shape parameter {shape!r} does not match {actual_shape!r}.\"\n            )\n        model_bytes = case.model.SerializeToString()\n        if backend == \"onnxruntime\":\n            session = onnxruntime.InferenceSession(\n                model_bytes,\n                providers=[\"CPUExecutionProvider\"],\n            )\n        elif backend == \"onnx-reference\":\n            session = OnnxReferenceEvaluator(onnx.load_model_from_string(model_bytes))\n        elif backend == \"onnx-light\":\n            session = OnnxLightReferenceEvaluator(case.model)\n        elif backend == \"onnx-light-cpu\":\n            session = OnnxLightReferenceEvaluator(case.model)\n            register_kernels_for_session(session)\n        else:\n            raise ValueError(f\"Unexpected backend {backend!r}.\")\n    \n        outputs = session.run(None, feeds)\n        output_names = [output.name for output in case.model.graph.output]\n        if expected_by_name and self.operator not in NONDETERMINISTIC_OPERATORS:\n            for name, output in zip(output_names, outputs, strict=True):\n                _assert_value(\n                    output,\n                    expected_by_name[name],\n                    rtol=max(case.rtol, 1e-2),\n                    atol=max(case.atol, 1e-4),\n                )\n    \n        self.case = case\n        self.feeds = feeds\n        self.session = session",
+    "min_run_count": 2,
+    "name": "ops.tensor.expand.Expand.time_run",
+    "number": 1,
+    "param_names": [
+      "shape",
+      "backend"
+    ],
+    "params": [
+      [
+        "'input=4096x1, shape=3'"
+      ],
+      [
+        "'onnxruntime'",
+        "'onnx-reference'",
+        "'onnx-light'",
+        "'onnx-light-cpu'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "193ebf6a7f2d5c108e30170980ceaa153ae964a0857f3e0bb7d4cd7732e526e2",
+    "warmup_time": -1
+  },
+  "ops.tensor.gather.Gather.time_run": {
+    "code": "class OperatorBenchmark:\n    def time_run(self, shape, backend):\n        self.session.run(None, self.feeds)\n\n    def setup(self, shape, backend):\n        case, feeds, expected_by_name = _load_case(self.case_name, self.case_mode)\n        actual_shape = input_shape_label(feeds)\n        if shape != actual_shape:\n            raise ValueError(\n                f\"Input shape parameter {shape!r} does not match {actual_shape!r}.\"\n            )\n        model_bytes = case.model.SerializeToString()\n        if backend == \"onnxruntime\":\n            session = onnxruntime.InferenceSession(\n                model_bytes,\n                providers=[\"CPUExecutionProvider\"],\n            )\n        elif backend == \"onnx-reference\":\n            session = OnnxReferenceEvaluator(onnx.load_model_from_string(model_bytes))\n        elif backend == \"onnx-light\":\n            session = OnnxLightReferenceEvaluator(case.model)\n        elif backend == \"onnx-light-cpu\":\n            session = OnnxLightReferenceEvaluator(case.model)\n            register_kernels_for_session(session)\n        else:\n            raise ValueError(f\"Unexpected backend {backend!r}.\")\n    \n        outputs = session.run(None, feeds)\n        output_names = [output.name for output in case.model.graph.output]\n        if expected_by_name and self.operator not in NONDETERMINISTIC_OPERATORS:\n            for name, output in zip(output_names, outputs, strict=True):\n                _assert_value(\n                    output,\n                    expected_by_name[name],\n                    rtol=max(case.rtol, 1e-2),\n                    atol=max(case.atol, 1e-4),\n                )\n    \n        self.case = case\n        self.feeds = feeds\n        self.session = session",
+    "min_run_count": 2,
+    "name": "ops.tensor.gather.Gather.time_run",
+    "number": 1,
+    "param_names": [
+      "shape",
+      "backend"
+    ],
+    "params": [
+      [
+        "'data=4096x1024, indices=4096'"
+      ],
+      [
+        "'onnxruntime'",
+        "'onnx-reference'",
+        "'onnx-light'",
+        "'onnx-light-cpu'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "193ebf6a7f2d5c108e30170980ceaa153ae964a0857f3e0bb7d4cd7732e526e2",
+    "warmup_time": -1
+  },
+  "ops.tensor.gather_elements.GatherElements.time_run": {
+    "code": "class OperatorBenchmark:\n    def time_run(self, shape, backend):\n        self.session.run(None, self.feeds)\n\n    def setup(self, shape, backend):\n        case, feeds, expected_by_name = _load_case(self.case_name, self.case_mode)\n        actual_shape = input_shape_label(feeds)\n        if shape != actual_shape:\n            raise ValueError(\n                f\"Input shape parameter {shape!r} does not match {actual_shape!r}.\"\n            )\n        model_bytes = case.model.SerializeToString()\n        if backend == \"onnxruntime\":\n            session = onnxruntime.InferenceSession(\n                model_bytes,\n                providers=[\"CPUExecutionProvider\"],\n            )\n        elif backend == \"onnx-reference\":\n            session = OnnxReferenceEvaluator(onnx.load_model_from_string(model_bytes))\n        elif backend == \"onnx-light\":\n            session = OnnxLightReferenceEvaluator(case.model)\n        elif backend == \"onnx-light-cpu\":\n            session = OnnxLightReferenceEvaluator(case.model)\n            register_kernels_for_session(session)\n        else:\n            raise ValueError(f\"Unexpected backend {backend!r}.\")\n    \n        outputs = session.run(None, feeds)\n        output_names = [output.name for output in case.model.graph.output]\n        if expected_by_name and self.operator not in NONDETERMINISTIC_OPERATORS:\n            for name, output in zip(output_names, outputs, strict=True):\n                _assert_value(\n                    output,\n                    expected_by_name[name],\n                    rtol=max(case.rtol, 1e-2),\n                    atol=max(case.atol, 1e-4),\n                )\n    \n        self.case = case\n        self.feeds = feeds\n        self.session = session",
+    "min_run_count": 2,
+    "name": "ops.tensor.gather_elements.GatherElements.time_run",
+    "number": 1,
+    "param_names": [
+      "shape",
+      "backend"
+    ],
+    "params": [
+      [
+        "'data=4096x1024, indices=4096x1024'"
+      ],
+      [
+        "'onnxruntime'",
+        "'onnx-reference'",
+        "'onnx-light'",
+        "'onnx-light-cpu'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "193ebf6a7f2d5c108e30170980ceaa153ae964a0857f3e0bb7d4cd7732e526e2",
+    "warmup_time": -1
+  },
+  "ops.tensor.gather_nd.GatherND.time_run": {
+    "code": "class OperatorBenchmark:\n    def time_run(self, shape, backend):\n        self.session.run(None, self.feeds)\n\n    def setup(self, shape, backend):\n        case, feeds, expected_by_name = _load_case(self.case_name, self.case_mode)\n        actual_shape = input_shape_label(feeds)\n        if shape != actual_shape:\n            raise ValueError(\n                f\"Input shape parameter {shape!r} does not match {actual_shape!r}.\"\n            )\n        model_bytes = case.model.SerializeToString()\n        if backend == \"onnxruntime\":\n            session = onnxruntime.InferenceSession(\n                model_bytes,\n                providers=[\"CPUExecutionProvider\"],\n            )\n        elif backend == \"onnx-reference\":\n            session = OnnxReferenceEvaluator(onnx.load_model_from_string(model_bytes))\n        elif backend == \"onnx-light\":\n            session = OnnxLightReferenceEvaluator(case.model)\n        elif backend == \"onnx-light-cpu\":\n            session = OnnxLightReferenceEvaluator(case.model)\n            register_kernels_for_session(session)\n        else:\n            raise ValueError(f\"Unexpected backend {backend!r}.\")\n    \n        outputs = session.run(None, feeds)\n        output_names = [output.name for output in case.model.graph.output]\n        if expected_by_name and self.operator not in NONDETERMINISTIC_OPERATORS:\n            for name, output in zip(output_names, outputs, strict=True):\n                _assert_value(\n                    output,\n                    expected_by_name[name],\n                    rtol=max(case.rtol, 1e-2),\n                    atol=max(case.atol, 1e-4),\n                )\n    \n        self.case = case\n        self.feeds = feeds\n        self.session = session",
+    "min_run_count": 2,
+    "name": "ops.tensor.gather_nd.GatherND.time_run",
+    "number": 1,
+    "param_names": [
+      "shape",
+      "backend"
+    ],
+    "params": [
+      [
+        "'data=4096x1024, indices=4194304x2'"
+      ],
+      [
+        "'onnxruntime'",
+        "'onnx-reference'",
+        "'onnx-light'",
+        "'onnx-light-cpu'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "193ebf6a7f2d5c108e30170980ceaa153ae964a0857f3e0bb7d4cd7732e526e2",
+    "warmup_time": -1
+  },
+  "ops.tensor.grid_sample.GridSample.time_run": {
+    "code": "class OperatorBenchmark:\n    def time_run(self, shape, backend):\n        self.session.run(None, self.feeds)\n\n    def setup(self, shape, backend):\n        case, feeds, expected_by_name = _load_case(self.case_name, self.case_mode)\n        actual_shape = input_shape_label(feeds)\n        if shape != actual_shape:\n            raise ValueError(\n                f\"Input shape parameter {shape!r} does not match {actual_shape!r}.\"\n            )\n        model_bytes = case.model.SerializeToString()\n        if backend == \"onnxruntime\":\n            session = onnxruntime.InferenceSession(\n                model_bytes,\n                providers=[\"CPUExecutionProvider\"],\n            )\n        elif backend == \"onnx-reference\":\n            session = OnnxReferenceEvaluator(onnx.load_model_from_string(model_bytes))\n        elif backend == \"onnx-light\":\n            session = OnnxLightReferenceEvaluator(case.model)\n        elif backend == \"onnx-light-cpu\":\n            session = OnnxLightReferenceEvaluator(case.model)\n            register_kernels_for_session(session)\n        else:\n            raise ValueError(f\"Unexpected backend {backend!r}.\")\n    \n        outputs = session.run(None, feeds)\n        output_names = [output.name for output in case.model.graph.output]\n        if expected_by_name and self.operator not in NONDETERMINISTIC_OPERATORS:\n            for name, output in zip(output_names, outputs, strict=True):\n                _assert_value(\n                    output,\n                    expected_by_name[name],\n                    rtol=max(case.rtol, 1e-2),\n                    atol=max(case.atol, 1e-4),\n                )\n    \n        self.case = case\n        self.feeds = feeds\n        self.session = session",
+    "min_run_count": 2,
+    "name": "ops.tensor.grid_sample.GridSample.time_run",
+    "number": 1,
+    "param_names": [
+      "shape",
+      "backend"
+    ],
+    "params": [
+      [
+        "'X=1x16x256x256, Grid=1x256x256x2'"
+      ],
+      [
+        "'onnxruntime'",
+        "'onnx-light'",
+        "'onnx-light-cpu'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "193ebf6a7f2d5c108e30170980ceaa153ae964a0857f3e0bb7d4cd7732e526e2",
+    "warmup_time": -1
+  },
+  "ops.tensor.identity.Identity.time_run": {
+    "code": "class OperatorBenchmark:\n    def time_run(self, shape, backend):\n        self.session.run(None, self.feeds)\n\n    def setup(self, shape, backend):\n        case, feeds, expected_by_name = _load_case(self.case_name, self.case_mode)\n        actual_shape = input_shape_label(feeds)\n        if shape != actual_shape:\n            raise ValueError(\n                f\"Input shape parameter {shape!r} does not match {actual_shape!r}.\"\n            )\n        model_bytes = case.model.SerializeToString()\n        if backend == \"onnxruntime\":\n            session = onnxruntime.InferenceSession(\n                model_bytes,\n                providers=[\"CPUExecutionProvider\"],\n            )\n        elif backend == \"onnx-reference\":\n            session = OnnxReferenceEvaluator(onnx.load_model_from_string(model_bytes))\n        elif backend == \"onnx-light\":\n            session = OnnxLightReferenceEvaluator(case.model)\n        elif backend == \"onnx-light-cpu\":\n            session = OnnxLightReferenceEvaluator(case.model)\n            register_kernels_for_session(session)\n        else:\n            raise ValueError(f\"Unexpected backend {backend!r}.\")\n    \n        outputs = session.run(None, feeds)\n        output_names = [output.name for output in case.model.graph.output]\n        if expected_by_name and self.operator not in NONDETERMINISTIC_OPERATORS:\n            for name, output in zip(output_names, outputs, strict=True):\n                _assert_value(\n                    output,\n                    expected_by_name[name],\n                    rtol=max(case.rtol, 1e-2),\n                    atol=max(case.atol, 1e-4),\n                )\n    \n        self.case = case\n        self.feeds = feeds\n        self.session = session",
+    "min_run_count": 2,
+    "name": "ops.tensor.identity.Identity.time_run",
+    "number": 1,
+    "param_names": [
+      "shape",
+      "backend"
+    ],
+    "params": [
+      [
+        "'x=4194304'"
+      ],
+      [
+        "'onnxruntime'",
+        "'onnx-reference'",
+        "'onnx-light'",
+        "'onnx-light-cpu'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "193ebf6a7f2d5c108e30170980ceaa153ae964a0857f3e0bb7d4cd7732e526e2",
+    "warmup_time": -1
+  },
+  "ops.tensor.non_zero.NonZero.time_run": {
+    "code": "class OperatorBenchmark:\n    def time_run(self, shape, backend):\n        self.session.run(None, self.feeds)\n\n    def setup(self, shape, backend):\n        case, feeds, expected_by_name = _load_case(self.case_name, self.case_mode)\n        actual_shape = input_shape_label(feeds)\n        if shape != actual_shape:\n            raise ValueError(\n                f\"Input shape parameter {shape!r} does not match {actual_shape!r}.\"\n            )\n        model_bytes = case.model.SerializeToString()\n        if backend == \"onnxruntime\":\n            session = onnxruntime.InferenceSession(\n                model_bytes,\n                providers=[\"CPUExecutionProvider\"],\n            )\n        elif backend == \"onnx-reference\":\n            session = OnnxReferenceEvaluator(onnx.load_model_from_string(model_bytes))\n        elif backend == \"onnx-light\":\n            session = OnnxLightReferenceEvaluator(case.model)\n        elif backend == \"onnx-light-cpu\":\n            session = OnnxLightReferenceEvaluator(case.model)\n            register_kernels_for_session(session)\n        else:\n            raise ValueError(f\"Unexpected backend {backend!r}.\")\n    \n        outputs = session.run(None, feeds)\n        output_names = [output.name for output in case.model.graph.output]\n        if expected_by_name and self.operator not in NONDETERMINISTIC_OPERATORS:\n            for name, output in zip(output_names, outputs, strict=True):\n                _assert_value(\n                    output,\n                    expected_by_name[name],\n                    rtol=max(case.rtol, 1e-2),\n                    atol=max(case.atol, 1e-4),\n                )\n    \n        self.case = case\n        self.feeds = feeds\n        self.session = session",
+    "min_run_count": 2,
+    "name": "ops.tensor.non_zero.NonZero.time_run",
+    "number": 1,
+    "param_names": [
+      "shape",
+      "backend"
+    ],
+    "params": [
+      [
+        "'X=2048x2048'"
+      ],
+      [
+        "'onnxruntime'",
+        "'onnx-reference'",
+        "'onnx-light'",
+        "'onnx-light-cpu'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "193ebf6a7f2d5c108e30170980ceaa153ae964a0857f3e0bb7d4cd7732e526e2",
+    "warmup_time": -1
+  },
+  "ops.tensor.one_hot.OneHot.time_run": {
+    "code": "class OperatorBenchmark:\n    def time_run(self, shape, backend):\n        self.session.run(None, self.feeds)\n\n    def setup(self, shape, backend):\n        case, feeds, expected_by_name = _load_case(self.case_name, self.case_mode)\n        actual_shape = input_shape_label(feeds)\n        if shape != actual_shape:\n            raise ValueError(\n                f\"Input shape parameter {shape!r} does not match {actual_shape!r}.\"\n            )\n        model_bytes = case.model.SerializeToString()\n        if backend == \"onnxruntime\":\n            session = onnxruntime.InferenceSession(\n                model_bytes,\n                providers=[\"CPUExecutionProvider\"],\n            )\n        elif backend == \"onnx-reference\":\n            session = OnnxReferenceEvaluator(onnx.load_model_from_string(model_bytes))\n        elif backend == \"onnx-light\":\n            session = OnnxLightReferenceEvaluator(case.model)\n        elif backend == \"onnx-light-cpu\":\n            session = OnnxLightReferenceEvaluator(case.model)\n            register_kernels_for_session(session)\n        else:\n            raise ValueError(f\"Unexpected backend {backend!r}.\")\n    \n        outputs = session.run(None, feeds)\n        output_names = [output.name for output in case.model.graph.output]\n        if expected_by_name and self.operator not in NONDETERMINISTIC_OPERATORS:\n            for name, output in zip(output_names, outputs, strict=True):\n                _assert_value(\n                    output,\n                    expected_by_name[name],\n                    rtol=max(case.rtol, 1e-2),\n                    atol=max(case.atol, 1e-4),\n                )\n    \n        self.case = case\n        self.feeds = feeds\n        self.session = session",
+    "min_run_count": 2,
+    "name": "ops.tensor.one_hot.OneHot.time_run",
+    "number": 1,
+    "param_names": [
+      "shape",
+      "backend"
+    ],
+    "params": [
+      [
+        "'indices=349525, depth=scalar, values=2'"
+      ],
+      [
+        "'onnxruntime'",
+        "'onnx-reference'",
+        "'onnx-light'",
+        "'onnx-light-cpu'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "193ebf6a7f2d5c108e30170980ceaa153ae964a0857f3e0bb7d4cd7732e526e2",
+    "warmup_time": -1
+  },
+  "ops.tensor.pad.Pad.time_run": {
+    "code": "class OperatorBenchmark:\n    def time_run(self, shape, backend):\n        self.session.run(None, self.feeds)\n\n    def setup(self, shape, backend):\n        case, feeds, expected_by_name = _load_case(self.case_name, self.case_mode)\n        actual_shape = input_shape_label(feeds)\n        if shape != actual_shape:\n            raise ValueError(\n                f\"Input shape parameter {shape!r} does not match {actual_shape!r}.\"\n            )\n        model_bytes = case.model.SerializeToString()\n        if backend == \"onnxruntime\":\n            session = onnxruntime.InferenceSession(\n                model_bytes,\n                providers=[\"CPUExecutionProvider\"],\n            )\n        elif backend == \"onnx-reference\":\n            session = OnnxReferenceEvaluator(onnx.load_model_from_string(model_bytes))\n        elif backend == \"onnx-light\":\n            session = OnnxLightReferenceEvaluator(case.model)\n        elif backend == \"onnx-light-cpu\":\n            session = OnnxLightReferenceEvaluator(case.model)\n            register_kernels_for_session(session)\n        else:\n            raise ValueError(f\"Unexpected backend {backend!r}.\")\n    \n        outputs = session.run(None, feeds)\n        output_names = [output.name for output in case.model.graph.output]\n        if expected_by_name and self.operator not in NONDETERMINISTIC_OPERATORS:\n            for name, output in zip(output_names, outputs, strict=True):\n                _assert_value(\n                    output,\n                    expected_by_name[name],\n                    rtol=max(case.rtol, 1e-2),\n                    atol=max(case.atol, 1e-4),\n                )\n    \n        self.case = case\n        self.feeds = feeds\n        self.session = session",
+    "min_run_count": 2,
+    "name": "ops.tensor.pad.Pad.time_run",
+    "number": 1,
+    "param_names": [
+      "shape",
+      "backend"
+    ],
+    "params": [
+      [
+        "'x=2048x2048, pads=4, value=scalar'"
+      ],
+      [
+        "'onnxruntime'",
+        "'onnx-reference'",
+        "'onnx-light'",
+        "'onnx-light-cpu'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "193ebf6a7f2d5c108e30170980ceaa153ae964a0857f3e0bb7d4cd7732e526e2",
+    "warmup_time": -1
+  },
+  "ops.tensor.reshape.Reshape.time_run": {
+    "code": "class OperatorBenchmark:\n    def time_run(self, shape, backend):\n        self.session.run(None, self.feeds)\n\n    def setup(self, shape, backend):\n        case, feeds, expected_by_name = _load_case(self.case_name, self.case_mode)\n        actual_shape = input_shape_label(feeds)\n        if shape != actual_shape:\n            raise ValueError(\n                f\"Input shape parameter {shape!r} does not match {actual_shape!r}.\"\n            )\n        model_bytes = case.model.SerializeToString()\n        if backend == \"onnxruntime\":\n            session = onnxruntime.InferenceSession(\n                model_bytes,\n                providers=[\"CPUExecutionProvider\"],\n            )\n        elif backend == \"onnx-reference\":\n            session = OnnxReferenceEvaluator(onnx.load_model_from_string(model_bytes))\n        elif backend == \"onnx-light\":\n            session = OnnxLightReferenceEvaluator(case.model)\n        elif backend == \"onnx-light-cpu\":\n            session = OnnxLightReferenceEvaluator(case.model)\n            register_kernels_for_session(session)\n        else:\n            raise ValueError(f\"Unexpected backend {backend!r}.\")\n    \n        outputs = session.run(None, feeds)\n        output_names = [output.name for output in case.model.graph.output]\n        if expected_by_name and self.operator not in NONDETERMINISTIC_OPERATORS:\n            for name, output in zip(output_names, outputs, strict=True):\n                _assert_value(\n                    output,\n                    expected_by_name[name],\n                    rtol=max(case.rtol, 1e-2),\n                    atol=max(case.atol, 1e-4),\n                )\n    \n        self.case = case\n        self.feeds = feeds\n        self.session = session",
+    "min_run_count": 2,
+    "name": "ops.tensor.reshape.Reshape.time_run",
+    "number": 1,
+    "param_names": [
+      "shape",
+      "backend"
+    ],
+    "params": [
+      [
+        "'data=2048x2048, shape=2'"
+      ],
+      [
+        "'onnxruntime'",
+        "'onnx-reference'",
+        "'onnx-light'",
+        "'onnx-light-cpu'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "193ebf6a7f2d5c108e30170980ceaa153ae964a0857f3e0bb7d4cd7732e526e2",
+    "warmup_time": -1
+  },
+  "ops.tensor.resize.Resize.time_run": {
+    "code": "class OperatorBenchmark:\n    def time_run(self, shape, backend):\n        self.session.run(None, self.feeds)\n\n    def setup(self, shape, backend):\n        case, feeds, expected_by_name = _load_case(self.case_name, self.case_mode)\n        actual_shape = input_shape_label(feeds)\n        if shape != actual_shape:\n            raise ValueError(\n                f\"Input shape parameter {shape!r} does not match {actual_shape!r}.\"\n            )\n        model_bytes = case.model.SerializeToString()\n        if backend == \"onnxruntime\":\n            session = onnxruntime.InferenceSession(\n                model_bytes,\n                providers=[\"CPUExecutionProvider\"],\n            )\n        elif backend == \"onnx-reference\":\n            session = OnnxReferenceEvaluator(onnx.load_model_from_string(model_bytes))\n        elif backend == \"onnx-light\":\n            session = OnnxLightReferenceEvaluator(case.model)\n        elif backend == \"onnx-light-cpu\":\n            session = OnnxLightReferenceEvaluator(case.model)\n            register_kernels_for_session(session)\n        else:\n            raise ValueError(f\"Unexpected backend {backend!r}.\")\n    \n        outputs = session.run(None, feeds)\n        output_names = [output.name for output in case.model.graph.output]\n        if expected_by_name and self.operator not in NONDETERMINISTIC_OPERATORS:\n            for name, output in zip(output_names, outputs, strict=True):\n                _assert_value(\n                    output,\n                    expected_by_name[name],\n                    rtol=max(case.rtol, 1e-2),\n                    atol=max(case.atol, 1e-4),\n                )\n    \n        self.case = case\n        self.feeds = feeds\n        self.session = session",
+    "min_run_count": 2,
+    "name": "ops.tensor.resize.Resize.time_run",
+    "number": 1,
+    "param_names": [
+      "shape",
+      "backend"
+    ],
+    "params": [
+      [
+        "'X=1x1x1024x1024, scales=4'"
+      ],
+      [
+        "'onnxruntime'",
+        "'onnx-reference'",
+        "'onnx-light'",
+        "'onnx-light-cpu'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "193ebf6a7f2d5c108e30170980ceaa153ae964a0857f3e0bb7d4cd7732e526e2",
+    "warmup_time": -1
+  },
+  "ops.tensor.reverse_sequence.ReverseSequence.time_run": {
+    "code": "class OperatorBenchmark:\n    def time_run(self, shape, backend):\n        self.session.run(None, self.feeds)\n\n    def setup(self, shape, backend):\n        case, feeds, expected_by_name = _load_case(self.case_name, self.case_mode)\n        actual_shape = input_shape_label(feeds)\n        if shape != actual_shape:\n            raise ValueError(\n                f\"Input shape parameter {shape!r} does not match {actual_shape!r}.\"\n            )\n        model_bytes = case.model.SerializeToString()\n        if backend == \"onnxruntime\":\n            session = onnxruntime.InferenceSession(\n                model_bytes,\n                providers=[\"CPUExecutionProvider\"],\n            )\n        elif backend == \"onnx-reference\":\n            session = OnnxReferenceEvaluator(onnx.load_model_from_string(model_bytes))\n        elif backend == \"onnx-light\":\n            session = OnnxLightReferenceEvaluator(case.model)\n        elif backend == \"onnx-light-cpu\":\n            session = OnnxLightReferenceEvaluator(case.model)\n            register_kernels_for_session(session)\n        else:\n            raise ValueError(f\"Unexpected backend {backend!r}.\")\n    \n        outputs = session.run(None, feeds)\n        output_names = [output.name for output in case.model.graph.output]\n        if expected_by_name and self.operator not in NONDETERMINISTIC_OPERATORS:\n            for name, output in zip(output_names, outputs, strict=True):\n                _assert_value(\n                    output,\n                    expected_by_name[name],\n                    rtol=max(case.rtol, 1e-2),\n                    atol=max(case.atol, 1e-4),\n                )\n    \n        self.case = case\n        self.feeds = feeds\n        self.session = session",
+    "min_run_count": 2,
+    "name": "ops.tensor.reverse_sequence.ReverseSequence.time_run",
+    "number": 1,
+    "param_names": [
+      "shape",
+      "backend"
+    ],
+    "params": [
+      [
+        "'X=4096x1024, sequence_lens=1024'"
+      ],
+      [
+        "'onnxruntime'",
+        "'onnx-reference'",
+        "'onnx-light'",
+        "'onnx-light-cpu'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "193ebf6a7f2d5c108e30170980ceaa153ae964a0857f3e0bb7d4cd7732e526e2",
+    "warmup_time": -1
+  },
+  "ops.tensor.scatter.Scatter.time_run": {
+    "code": "class OperatorBenchmark:\n    def time_run(self, shape, backend):\n        self.session.run(None, self.feeds)\n\n    def setup(self, shape, backend):\n        case, feeds, expected_by_name = _load_case(self.case_name, self.case_mode)\n        actual_shape = input_shape_label(feeds)\n        if shape != actual_shape:\n            raise ValueError(\n                f\"Input shape parameter {shape!r} does not match {actual_shape!r}.\"\n            )\n        model_bytes = case.model.SerializeToString()\n        if backend == \"onnxruntime\":\n            session = onnxruntime.InferenceSession(\n                model_bytes,\n                providers=[\"CPUExecutionProvider\"],\n            )\n        elif backend == \"onnx-reference\":\n            session = OnnxReferenceEvaluator(onnx.load_model_from_string(model_bytes))\n        elif backend == \"onnx-light\":\n            session = OnnxLightReferenceEvaluator(case.model)\n        elif backend == \"onnx-light-cpu\":\n            session = OnnxLightReferenceEvaluator(case.model)\n            register_kernels_for_session(session)\n        else:\n            raise ValueError(f\"Unexpected backend {backend!r}.\")\n    \n        outputs = session.run(None, feeds)\n        output_names = [output.name for output in case.model.graph.output]\n        if expected_by_name and self.operator not in NONDETERMINISTIC_OPERATORS:\n            for name, output in zip(output_names, outputs, strict=True):\n                _assert_value(\n                    output,\n                    expected_by_name[name],\n                    rtol=max(case.rtol, 1e-2),\n                    atol=max(case.atol, 1e-4),\n                )\n    \n        self.case = case\n        self.feeds = feeds\n        self.session = session",
+    "min_run_count": 2,
+    "name": "ops.tensor.scatter.Scatter.time_run",
+    "number": 1,
+    "param_names": [
+      "shape",
+      "backend"
+    ],
+    "params": [
+      [
+        "'data=4096x1024, indices=4096x1024, updates=4096x1024'"
+      ],
+      [
+        "'onnxruntime'",
+        "'onnx-light'",
+        "'onnx-light-cpu'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "193ebf6a7f2d5c108e30170980ceaa153ae964a0857f3e0bb7d4cd7732e526e2",
+    "warmup_time": -1
+  },
+  "ops.tensor.scatter_elements.ScatterElements.time_run": {
+    "code": "class OperatorBenchmark:\n    def time_run(self, shape, backend):\n        self.session.run(None, self.feeds)\n\n    def setup(self, shape, backend):\n        case, feeds, expected_by_name = _load_case(self.case_name, self.case_mode)\n        actual_shape = input_shape_label(feeds)\n        if shape != actual_shape:\n            raise ValueError(\n                f\"Input shape parameter {shape!r} does not match {actual_shape!r}.\"\n            )\n        model_bytes = case.model.SerializeToString()\n        if backend == \"onnxruntime\":\n            session = onnxruntime.InferenceSession(\n                model_bytes,\n                providers=[\"CPUExecutionProvider\"],\n            )\n        elif backend == \"onnx-reference\":\n            session = OnnxReferenceEvaluator(onnx.load_model_from_string(model_bytes))\n        elif backend == \"onnx-light\":\n            session = OnnxLightReferenceEvaluator(case.model)\n        elif backend == \"onnx-light-cpu\":\n            session = OnnxLightReferenceEvaluator(case.model)\n            register_kernels_for_session(session)\n        else:\n            raise ValueError(f\"Unexpected backend {backend!r}.\")\n    \n        outputs = session.run(None, feeds)\n        output_names = [output.name for output in case.model.graph.output]\n        if expected_by_name and self.operator not in NONDETERMINISTIC_OPERATORS:\n            for name, output in zip(output_names, outputs, strict=True):\n                _assert_value(\n                    output,\n                    expected_by_name[name],\n                    rtol=max(case.rtol, 1e-2),\n                    atol=max(case.atol, 1e-4),\n                )\n    \n        self.case = case\n        self.feeds = feeds\n        self.session = session",
+    "min_run_count": 2,
+    "name": "ops.tensor.scatter_elements.ScatterElements.time_run",
+    "number": 1,
+    "param_names": [
+      "shape",
+      "backend"
+    ],
+    "params": [
+      [
+        "'data=4096x1024, indices=4096x1024, updates=4096x1024'"
+      ],
+      [
+        "'onnxruntime'",
+        "'onnx-reference'",
+        "'onnx-light'",
+        "'onnx-light-cpu'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "193ebf6a7f2d5c108e30170980ceaa153ae964a0857f3e0bb7d4cd7732e526e2",
+    "warmup_time": -1
+  },
+  "ops.tensor.scatter_nd.ScatterND.time_run": {
+    "code": "class OperatorBenchmark:\n    def time_run(self, shape, backend):\n        self.session.run(None, self.feeds)\n\n    def setup(self, shape, backend):\n        case, feeds, expected_by_name = _load_case(self.case_name, self.case_mode)\n        actual_shape = input_shape_label(feeds)\n        if shape != actual_shape:\n            raise ValueError(\n                f\"Input shape parameter {shape!r} does not match {actual_shape!r}.\"\n            )\n        model_bytes = case.model.SerializeToString()\n        if backend == \"onnxruntime\":\n            session = onnxruntime.InferenceSession(\n                model_bytes,\n                providers=[\"CPUExecutionProvider\"],\n            )\n        elif backend == \"onnx-reference\":\n            session = OnnxReferenceEvaluator(onnx.load_model_from_string(model_bytes))\n        elif backend == \"onnx-light\":\n            session = OnnxLightReferenceEvaluator(case.model)\n        elif backend == \"onnx-light-cpu\":\n            session = OnnxLightReferenceEvaluator(case.model)\n            register_kernels_for_session(session)\n        else:\n            raise ValueError(f\"Unexpected backend {backend!r}.\")\n    \n        outputs = session.run(None, feeds)\n        output_names = [output.name for output in case.model.graph.output]\n        if expected_by_name and self.operator not in NONDETERMINISTIC_OPERATORS:\n            for name, output in zip(output_names, outputs, strict=True):\n                _assert_value(\n                    output,\n                    expected_by_name[name],\n                    rtol=max(case.rtol, 1e-2),\n                    atol=max(case.atol, 1e-4),\n                )\n    \n        self.case = case\n        self.feeds = feeds\n        self.session = session",
+    "min_run_count": 2,
+    "name": "ops.tensor.scatter_nd.ScatterND.time_run",
+    "number": 1,
+    "param_names": [
+      "shape",
+      "backend"
+    ],
+    "params": [
+      [
+        "'data=256x128x128, indices=256x1, updates=256x128x128'"
+      ],
+      [
+        "'onnxruntime'",
+        "'onnx-reference'",
+        "'onnx-light'",
+        "'onnx-light-cpu'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "193ebf6a7f2d5c108e30170980ceaa153ae964a0857f3e0bb7d4cd7732e526e2",
+    "warmup_time": -1
+  },
+  "ops.tensor.shape.Shape.time_run": {
+    "code": "class OperatorBenchmark:\n    def time_run(self, shape, backend):\n        self.session.run(None, self.feeds)\n\n    def setup(self, shape, backend):\n        case, feeds, expected_by_name = _load_case(self.case_name, self.case_mode)\n        actual_shape = input_shape_label(feeds)\n        if shape != actual_shape:\n            raise ValueError(\n                f\"Input shape parameter {shape!r} does not match {actual_shape!r}.\"\n            )\n        model_bytes = case.model.SerializeToString()\n        if backend == \"onnxruntime\":\n            session = onnxruntime.InferenceSession(\n                model_bytes,\n                providers=[\"CPUExecutionProvider\"],\n            )\n        elif backend == \"onnx-reference\":\n            session = OnnxReferenceEvaluator(onnx.load_model_from_string(model_bytes))\n        elif backend == \"onnx-light\":\n            session = OnnxLightReferenceEvaluator(case.model)\n        elif backend == \"onnx-light-cpu\":\n            session = OnnxLightReferenceEvaluator(case.model)\n            register_kernels_for_session(session)\n        else:\n            raise ValueError(f\"Unexpected backend {backend!r}.\")\n    \n        outputs = session.run(None, feeds)\n        output_names = [output.name for output in case.model.graph.output]\n        if expected_by_name and self.operator not in NONDETERMINISTIC_OPERATORS:\n            for name, output in zip(output_names, outputs, strict=True):\n                _assert_value(\n                    output,\n                    expected_by_name[name],\n                    rtol=max(case.rtol, 1e-2),\n                    atol=max(case.atol, 1e-4),\n                )\n    \n        self.case = case\n        self.feeds = feeds\n        self.session = session",
+    "min_run_count": 2,
+    "name": "ops.tensor.shape.Shape.time_run",
+    "number": 1,
+    "param_names": [
+      "shape",
+      "backend"
+    ],
+    "params": [
+      [
+        "'x=2048x2048'"
+      ],
+      [
+        "'onnxruntime'",
+        "'onnx-reference'",
+        "'onnx-light'",
+        "'onnx-light-cpu'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "193ebf6a7f2d5c108e30170980ceaa153ae964a0857f3e0bb7d4cd7732e526e2",
+    "warmup_time": -1
+  },
+  "ops.tensor.size.Size.time_run": {
+    "code": "class OperatorBenchmark:\n    def time_run(self, shape, backend):\n        self.session.run(None, self.feeds)\n\n    def setup(self, shape, backend):\n        case, feeds, expected_by_name = _load_case(self.case_name, self.case_mode)\n        actual_shape = input_shape_label(feeds)\n        if shape != actual_shape:\n            raise ValueError(\n                f\"Input shape parameter {shape!r} does not match {actual_shape!r}.\"\n            )\n        model_bytes = case.model.SerializeToString()\n        if backend == \"onnxruntime\":\n            session = onnxruntime.InferenceSession(\n                model_bytes,\n                providers=[\"CPUExecutionProvider\"],\n            )\n        elif backend == \"onnx-reference\":\n            session = OnnxReferenceEvaluator(onnx.load_model_from_string(model_bytes))\n        elif backend == \"onnx-light\":\n            session = OnnxLightReferenceEvaluator(case.model)\n        elif backend == \"onnx-light-cpu\":\n            session = OnnxLightReferenceEvaluator(case.model)\n            register_kernels_for_session(session)\n        else:\n            raise ValueError(f\"Unexpected backend {backend!r}.\")\n    \n        outputs = session.run(None, feeds)\n        output_names = [output.name for output in case.model.graph.output]\n        if expected_by_name and self.operator not in NONDETERMINISTIC_OPERATORS:\n            for name, output in zip(output_names, outputs, strict=True):\n                _assert_value(\n                    output,\n                    expected_by_name[name],\n                    rtol=max(case.rtol, 1e-2),\n                    atol=max(case.atol, 1e-4),\n                )\n    \n        self.case = case\n        self.feeds = feeds\n        self.session = session",
+    "min_run_count": 2,
+    "name": "ops.tensor.size.Size.time_run",
+    "number": 1,
+    "param_names": [
+      "shape",
+      "backend"
+    ],
+    "params": [
+      [
+        "'x=2048x2048'"
+      ],
+      [
+        "'onnxruntime'",
+        "'onnx-reference'",
+        "'onnx-light'",
+        "'onnx-light-cpu'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "193ebf6a7f2d5c108e30170980ceaa153ae964a0857f3e0bb7d4cd7732e526e2",
+    "warmup_time": -1
+  },
+  "ops.tensor.slice.Slice.time_run": {
+    "code": "class OperatorBenchmark:\n    def time_run(self, shape, backend):\n        self.session.run(None, self.feeds)\n\n    def setup(self, shape, backend):\n        case, feeds, expected_by_name = _load_case(self.case_name, self.case_mode)\n        actual_shape = input_shape_label(feeds)\n        if shape != actual_shape:\n            raise ValueError(\n                f\"Input shape parameter {shape!r} does not match {actual_shape!r}.\"\n            )\n        model_bytes = case.model.SerializeToString()\n        if backend == \"onnxruntime\":\n            session = onnxruntime.InferenceSession(\n                model_bytes,\n                providers=[\"CPUExecutionProvider\"],\n            )\n        elif backend == \"onnx-reference\":\n            session = OnnxReferenceEvaluator(onnx.load_model_from_string(model_bytes))\n        elif backend == \"onnx-light\":\n            session = OnnxLightReferenceEvaluator(case.model)\n        elif backend == \"onnx-light-cpu\":\n            session = OnnxLightReferenceEvaluator(case.model)\n            register_kernels_for_session(session)\n        else:\n            raise ValueError(f\"Unexpected backend {backend!r}.\")\n    \n        outputs = session.run(None, feeds)\n        output_names = [output.name for output in case.model.graph.output]\n        if expected_by_name and self.operator not in NONDETERMINISTIC_OPERATORS:\n            for name, output in zip(output_names, outputs, strict=True):\n                _assert_value(\n                    output,\n                    expected_by_name[name],\n                    rtol=max(case.rtol, 1e-2),\n                    atol=max(case.atol, 1e-4),\n                )\n    \n        self.case = case\n        self.feeds = feeds\n        self.session = session",
+    "min_run_count": 2,
+    "name": "ops.tensor.slice.Slice.time_run",
+    "number": 1,
+    "param_names": [
+      "shape",
+      "backend"
+    ],
+    "params": [
+      [
+        "'data=4096x4096, starts=2, ends=2, axes=2, steps=2'"
+      ],
+      [
+        "'onnxruntime'",
+        "'onnx-reference'",
+        "'onnx-light'",
+        "'onnx-light-cpu'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "193ebf6a7f2d5c108e30170980ceaa153ae964a0857f3e0bb7d4cd7732e526e2",
+    "warmup_time": -1
+  },
+  "ops.tensor.space_to_depth.SpaceToDepth.time_run": {
+    "code": "class OperatorBenchmark:\n    def time_run(self, shape, backend):\n        self.session.run(None, self.feeds)\n\n    def setup(self, shape, backend):\n        case, feeds, expected_by_name = _load_case(self.case_name, self.case_mode)\n        actual_shape = input_shape_label(feeds)\n        if shape != actual_shape:\n            raise ValueError(\n                f\"Input shape parameter {shape!r} does not match {actual_shape!r}.\"\n            )\n        model_bytes = case.model.SerializeToString()\n        if backend == \"onnxruntime\":\n            session = onnxruntime.InferenceSession(\n                model_bytes,\n                providers=[\"CPUExecutionProvider\"],\n            )\n        elif backend == \"onnx-reference\":\n            session = OnnxReferenceEvaluator(onnx.load_model_from_string(model_bytes))\n        elif backend == \"onnx-light\":\n            session = OnnxLightReferenceEvaluator(case.model)\n        elif backend == \"onnx-light-cpu\":\n            session = OnnxLightReferenceEvaluator(case.model)\n            register_kernels_for_session(session)\n        else:\n            raise ValueError(f\"Unexpected backend {backend!r}.\")\n    \n        outputs = session.run(None, feeds)\n        output_names = [output.name for output in case.model.graph.output]\n        if expected_by_name and self.operator not in NONDETERMINISTIC_OPERATORS:\n            for name, output in zip(output_names, outputs, strict=True):\n                _assert_value(\n                    output,\n                    expected_by_name[name],\n                    rtol=max(case.rtol, 1e-2),\n                    atol=max(case.atol, 1e-4),\n                )\n    \n        self.case = case\n        self.feeds = feeds\n        self.session = session",
+    "min_run_count": 2,
+    "name": "ops.tensor.space_to_depth.SpaceToDepth.time_run",
+    "number": 1,
+    "param_names": [
+      "shape",
+      "backend"
+    ],
+    "params": [
+      [
+        "'input=1x2x1024x2048'"
+      ],
+      [
+        "'onnxruntime'",
+        "'onnx-reference'",
+        "'onnx-light'",
+        "'onnx-light-cpu'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "193ebf6a7f2d5c108e30170980ceaa153ae964a0857f3e0bb7d4cd7732e526e2",
+    "warmup_time": -1
+  },
+  "ops.tensor.split.Split.time_run": {
+    "code": "class OperatorBenchmark:\n    def time_run(self, shape, backend):\n        self.session.run(None, self.feeds)\n\n    def setup(self, shape, backend):\n        case, feeds, expected_by_name = _load_case(self.case_name, self.case_mode)\n        actual_shape = input_shape_label(feeds)\n        if shape != actual_shape:\n            raise ValueError(\n                f\"Input shape parameter {shape!r} does not match {actual_shape!r}.\"\n            )\n        model_bytes = case.model.SerializeToString()\n        if backend == \"onnxruntime\":\n            session = onnxruntime.InferenceSession(\n                model_bytes,\n                providers=[\"CPUExecutionProvider\"],\n            )\n        elif backend == \"onnx-reference\":\n            session = OnnxReferenceEvaluator(onnx.load_model_from_string(model_bytes))\n        elif backend == \"onnx-light\":\n            session = OnnxLightReferenceEvaluator(case.model)\n        elif backend == \"onnx-light-cpu\":\n            session = OnnxLightReferenceEvaluator(case.model)\n            register_kernels_for_session(session)\n        else:\n            raise ValueError(f\"Unexpected backend {backend!r}.\")\n    \n        outputs = session.run(None, feeds)\n        output_names = [output.name for output in case.model.graph.output]\n        if expected_by_name and self.operator not in NONDETERMINISTIC_OPERATORS:\n            for name, output in zip(output_names, outputs, strict=True):\n                _assert_value(\n                    output,\n                    expected_by_name[name],\n                    rtol=max(case.rtol, 1e-2),\n                    atol=max(case.atol, 1e-4),\n                )\n    \n        self.case = case\n        self.feeds = feeds\n        self.session = session",
+    "min_run_count": 2,
+    "name": "ops.tensor.split.Split.time_run",
+    "number": 1,
+    "param_names": [
+      "shape",
+      "backend"
+    ],
+    "params": [
+      [
+        "'input=4194303'"
+      ],
+      [
+        "'onnxruntime'",
+        "'onnx-reference'",
+        "'onnx-light'",
+        "'onnx-light-cpu'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "193ebf6a7f2d5c108e30170980ceaa153ae964a0857f3e0bb7d4cd7732e526e2",
+    "warmup_time": -1
+  },
+  "ops.tensor.squeeze.Squeeze.time_run": {
+    "code": "class OperatorBenchmark:\n    def time_run(self, shape, backend):\n        self.session.run(None, self.feeds)\n\n    def setup(self, shape, backend):\n        case, feeds, expected_by_name = _load_case(self.case_name, self.case_mode)\n        actual_shape = input_shape_label(feeds)\n        if shape != actual_shape:\n            raise ValueError(\n                f\"Input shape parameter {shape!r} does not match {actual_shape!r}.\"\n            )\n        model_bytes = case.model.SerializeToString()\n        if backend == \"onnxruntime\":\n            session = onnxruntime.InferenceSession(\n                model_bytes,\n                providers=[\"CPUExecutionProvider\"],\n            )\n        elif backend == \"onnx-reference\":\n            session = OnnxReferenceEvaluator(onnx.load_model_from_string(model_bytes))\n        elif backend == \"onnx-light\":\n            session = OnnxLightReferenceEvaluator(case.model)\n        elif backend == \"onnx-light-cpu\":\n            session = OnnxLightReferenceEvaluator(case.model)\n            register_kernels_for_session(session)\n        else:\n            raise ValueError(f\"Unexpected backend {backend!r}.\")\n    \n        outputs = session.run(None, feeds)\n        output_names = [output.name for output in case.model.graph.output]\n        if expected_by_name and self.operator not in NONDETERMINISTIC_OPERATORS:\n            for name, output in zip(output_names, outputs, strict=True):\n                _assert_value(\n                    output,\n                    expected_by_name[name],\n                    rtol=max(case.rtol, 1e-2),\n                    atol=max(case.atol, 1e-4),\n                )\n    \n        self.case = case\n        self.feeds = feeds\n        self.session = session",
+    "min_run_count": 2,
+    "name": "ops.tensor.squeeze.Squeeze.time_run",
+    "number": 1,
+    "param_names": [
+      "shape",
+      "backend"
+    ],
+    "params": [
+      [
+        "'data=2048x1x2048x1, axes=2'"
+      ],
+      [
+        "'onnxruntime'",
+        "'onnx-reference'",
+        "'onnx-light'",
+        "'onnx-light-cpu'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "193ebf6a7f2d5c108e30170980ceaa153ae964a0857f3e0bb7d4cd7732e526e2",
+    "warmup_time": -1
+  },
+  "ops.tensor.tensor_scatter.TensorScatter.time_run": {
+    "code": "class OperatorBenchmark:\n    def time_run(self, shape, backend):\n        self.session.run(None, self.feeds)\n\n    def setup(self, shape, backend):\n        case, feeds, expected_by_name = _load_case(self.case_name, self.case_mode)\n        actual_shape = input_shape_label(feeds)\n        if shape != actual_shape:\n            raise ValueError(\n                f\"Input shape parameter {shape!r} does not match {actual_shape!r}.\"\n            )\n        model_bytes = case.model.SerializeToString()\n        if backend == \"onnxruntime\":\n            session = onnxruntime.InferenceSession(\n                model_bytes,\n                providers=[\"CPUExecutionProvider\"],\n            )\n        elif backend == \"onnx-reference\":\n            session = OnnxReferenceEvaluator(onnx.load_model_from_string(model_bytes))\n        elif backend == \"onnx-light\":\n            session = OnnxLightReferenceEvaluator(case.model)\n        elif backend == \"onnx-light-cpu\":\n            session = OnnxLightReferenceEvaluator(case.model)\n            register_kernels_for_session(session)\n        else:\n            raise ValueError(f\"Unexpected backend {backend!r}.\")\n    \n        outputs = session.run(None, feeds)\n        output_names = [output.name for output in case.model.graph.output]\n        if expected_by_name and self.operator not in NONDETERMINISTIC_OPERATORS:\n            for name, output in zip(output_names, outputs, strict=True):\n                _assert_value(\n                    output,\n                    expected_by_name[name],\n                    rtol=max(case.rtol, 1e-2),\n                    atol=max(case.atol, 1e-4),\n                )\n    \n        self.case = case\n        self.feeds = feeds\n        self.session = session",
+    "min_run_count": 2,
+    "name": "ops.tensor.tensor_scatter.TensorScatter.time_run",
+    "number": 1,
+    "param_names": [
+      "shape",
+      "backend"
+    ],
+    "params": [
+      [
+        "'past_cache=2x1x4096x512, update=2x1x1x512, write_indices=2'"
+      ],
+      [
+        "'onnxruntime'",
+        "'onnx-reference'",
+        "'onnx-light'",
+        "'onnx-light-cpu'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "193ebf6a7f2d5c108e30170980ceaa153ae964a0857f3e0bb7d4cd7732e526e2",
+    "warmup_time": -1
+  },
+  "ops.tensor.tile.Tile.time_run": {
+    "code": "class OperatorBenchmark:\n    def time_run(self, shape, backend):\n        self.session.run(None, self.feeds)\n\n    def setup(self, shape, backend):\n        case, feeds, expected_by_name = _load_case(self.case_name, self.case_mode)\n        actual_shape = input_shape_label(feeds)\n        if shape != actual_shape:\n            raise ValueError(\n                f\"Input shape parameter {shape!r} does not match {actual_shape!r}.\"\n            )\n        model_bytes = case.model.SerializeToString()\n        if backend == \"onnxruntime\":\n            session = onnxruntime.InferenceSession(\n                model_bytes,\n                providers=[\"CPUExecutionProvider\"],\n            )\n        elif backend == \"onnx-reference\":\n            session = OnnxReferenceEvaluator(onnx.load_model_from_string(model_bytes))\n        elif backend == \"onnx-light\":\n            session = OnnxLightReferenceEvaluator(case.model)\n        elif backend == \"onnx-light-cpu\":\n            session = OnnxLightReferenceEvaluator(case.model)\n            register_kernels_for_session(session)\n        else:\n            raise ValueError(f\"Unexpected backend {backend!r}.\")\n    \n        outputs = session.run(None, feeds)\n        output_names = [output.name for output in case.model.graph.output]\n        if expected_by_name and self.operator not in NONDETERMINISTIC_OPERATORS:\n            for name, output in zip(output_names, outputs, strict=True):\n                _assert_value(\n                    output,\n                    expected_by_name[name],\n                    rtol=max(case.rtol, 1e-2),\n                    atol=max(case.atol, 1e-4),\n                )\n    \n        self.case = case\n        self.feeds = feeds\n        self.session = session",
+    "min_run_count": 2,
+    "name": "ops.tensor.tile.Tile.time_run",
+    "number": 1,
+    "param_names": [
+      "shape",
+      "backend"
+    ],
+    "params": [
+      [
+        "'x=1024x1024, y=2'"
+      ],
+      [
+        "'onnxruntime'",
+        "'onnx-reference'",
+        "'onnx-light'",
+        "'onnx-light-cpu'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "193ebf6a7f2d5c108e30170980ceaa153ae964a0857f3e0bb7d4cd7732e526e2",
+    "warmup_time": -1
+  },
+  "ops.tensor.transpose.Transpose.time_run": {
+    "code": "class OperatorBenchmark:\n    def time_run(self, shape, backend):\n        self.session.run(None, self.feeds)\n\n    def setup(self, shape, backend):\n        case, feeds, expected_by_name = _load_case(self.case_name, self.case_mode)\n        actual_shape = input_shape_label(feeds)\n        if shape != actual_shape:\n            raise ValueError(\n                f\"Input shape parameter {shape!r} does not match {actual_shape!r}.\"\n            )\n        model_bytes = case.model.SerializeToString()\n        if backend == \"onnxruntime\":\n            session = onnxruntime.InferenceSession(\n                model_bytes,\n                providers=[\"CPUExecutionProvider\"],\n            )\n        elif backend == \"onnx-reference\":\n            session = OnnxReferenceEvaluator(onnx.load_model_from_string(model_bytes))\n        elif backend == \"onnx-light\":\n            session = OnnxLightReferenceEvaluator(case.model)\n        elif backend == \"onnx-light-cpu\":\n            session = OnnxLightReferenceEvaluator(case.model)\n            register_kernels_for_session(session)\n        else:\n            raise ValueError(f\"Unexpected backend {backend!r}.\")\n    \n        outputs = session.run(None, feeds)\n        output_names = [output.name for output in case.model.graph.output]\n        if expected_by_name and self.operator not in NONDETERMINISTIC_OPERATORS:\n            for name, output in zip(output_names, outputs, strict=True):\n                _assert_value(\n                    output,\n                    expected_by_name[name],\n                    rtol=max(case.rtol, 1e-2),\n                    atol=max(case.atol, 1e-4),\n                )\n    \n        self.case = case\n        self.feeds = feeds\n        self.session = session",
+    "min_run_count": 2,
+    "name": "ops.tensor.transpose.Transpose.time_run",
+    "number": 1,
+    "param_names": [
+      "shape",
+      "backend"
+    ],
+    "params": [
+      [
+        "'data=2048x2048'"
+      ],
+      [
+        "'onnxruntime'",
+        "'onnx-reference'",
+        "'onnx-light'",
+        "'onnx-light-cpu'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "193ebf6a7f2d5c108e30170980ceaa153ae964a0857f3e0bb7d4cd7732e526e2",
+    "warmup_time": -1
+  },
+  "ops.tensor.trilu.Trilu.time_run": {
+    "code": "class OperatorBenchmark:\n    def time_run(self, shape, backend):\n        self.session.run(None, self.feeds)\n\n    def setup(self, shape, backend):\n        case, feeds, expected_by_name = _load_case(self.case_name, self.case_mode)\n        actual_shape = input_shape_label(feeds)\n        if shape != actual_shape:\n            raise ValueError(\n                f\"Input shape parameter {shape!r} does not match {actual_shape!r}.\"\n            )\n        model_bytes = case.model.SerializeToString()\n        if backend == \"onnxruntime\":\n            session = onnxruntime.InferenceSession(\n                model_bytes,\n                providers=[\"CPUExecutionProvider\"],\n            )\n        elif backend == \"onnx-reference\":\n            session = OnnxReferenceEvaluator(onnx.load_model_from_string(model_bytes))\n        elif backend == \"onnx-light\":\n            session = OnnxLightReferenceEvaluator(case.model)\n        elif backend == \"onnx-light-cpu\":\n            session = OnnxLightReferenceEvaluator(case.model)\n            register_kernels_for_session(session)\n        else:\n            raise ValueError(f\"Unexpected backend {backend!r}.\")\n    \n        outputs = session.run(None, feeds)\n        output_names = [output.name for output in case.model.graph.output]\n        if expected_by_name and self.operator not in NONDETERMINISTIC_OPERATORS:\n            for name, output in zip(output_names, outputs, strict=True):\n                _assert_value(\n                    output,\n                    expected_by_name[name],\n                    rtol=max(case.rtol, 1e-2),\n                    atol=max(case.atol, 1e-4),\n                )\n    \n        self.case = case\n        self.feeds = feeds\n        self.session = session",
+    "min_run_count": 2,
+    "name": "ops.tensor.trilu.Trilu.time_run",
+    "number": 1,
+    "param_names": [
+      "shape",
+      "backend"
+    ],
+    "params": [
+      [
+        "'X=2048x2048'"
+      ],
+      [
+        "'onnxruntime'",
+        "'onnx-reference'",
+        "'onnx-light'",
+        "'onnx-light-cpu'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "193ebf6a7f2d5c108e30170980ceaa153ae964a0857f3e0bb7d4cd7732e526e2",
+    "warmup_time": -1
+  },
+  "ops.tensor.unique.Unique.time_run": {
+    "code": "class OperatorBenchmark:\n    def time_run(self, shape, backend):\n        self.session.run(None, self.feeds)\n\n    def setup(self, shape, backend):\n        case, feeds, expected_by_name = _load_case(self.case_name, self.case_mode)\n        actual_shape = input_shape_label(feeds)\n        if shape != actual_shape:\n            raise ValueError(\n                f\"Input shape parameter {shape!r} does not match {actual_shape!r}.\"\n            )\n        model_bytes = case.model.SerializeToString()\n        if backend == \"onnxruntime\":\n            session = onnxruntime.InferenceSession(\n                model_bytes,\n                providers=[\"CPUExecutionProvider\"],\n            )\n        elif backend == \"onnx-reference\":\n            session = OnnxReferenceEvaluator(onnx.load_model_from_string(model_bytes))\n        elif backend == \"onnx-light\":\n            session = OnnxLightReferenceEvaluator(case.model)\n        elif backend == \"onnx-light-cpu\":\n            session = OnnxLightReferenceEvaluator(case.model)\n            register_kernels_for_session(session)\n        else:\n            raise ValueError(f\"Unexpected backend {backend!r}.\")\n    \n        outputs = session.run(None, feeds)\n        output_names = [output.name for output in case.model.graph.output]\n        if expected_by_name and self.operator not in NONDETERMINISTIC_OPERATORS:\n            for name, output in zip(output_names, outputs, strict=True):\n                _assert_value(\n                    output,\n                    expected_by_name[name],\n                    rtol=max(case.rtol, 1e-2),\n                    atol=max(case.atol, 1e-4),\n                )\n    \n        self.case = case\n        self.feeds = feeds\n        self.session = session",
+    "min_run_count": 2,
+    "name": "ops.tensor.unique.Unique.time_run",
+    "number": 1,
+    "param_names": [
+      "shape",
+      "backend"
+    ],
+    "params": [
+      [
+        "'X=1048576'"
+      ],
+      [
+        "'onnxruntime'",
+        "'onnx-reference'",
+        "'onnx-light'",
+        "'onnx-light-cpu'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "193ebf6a7f2d5c108e30170980ceaa153ae964a0857f3e0bb7d4cd7732e526e2",
+    "warmup_time": -1
+  },
+  "ops.tensor.unsqueeze.Unsqueeze.time_run": {
+    "code": "class OperatorBenchmark:\n    def time_run(self, shape, backend):\n        self.session.run(None, self.feeds)\n\n    def setup(self, shape, backend):\n        case, feeds, expected_by_name = _load_case(self.case_name, self.case_mode)\n        actual_shape = input_shape_label(feeds)\n        if shape != actual_shape:\n            raise ValueError(\n                f\"Input shape parameter {shape!r} does not match {actual_shape!r}.\"\n            )\n        model_bytes = case.model.SerializeToString()\n        if backend == \"onnxruntime\":\n            session = onnxruntime.InferenceSession(\n                model_bytes,\n                providers=[\"CPUExecutionProvider\"],\n            )\n        elif backend == \"onnx-reference\":\n            session = OnnxReferenceEvaluator(onnx.load_model_from_string(model_bytes))\n        elif backend == \"onnx-light\":\n            session = OnnxLightReferenceEvaluator(case.model)\n        elif backend == \"onnx-light-cpu\":\n            session = OnnxLightReferenceEvaluator(case.model)\n            register_kernels_for_session(session)\n        else:\n            raise ValueError(f\"Unexpected backend {backend!r}.\")\n    \n        outputs = session.run(None, feeds)\n        output_names = [output.name for output in case.model.graph.output]\n        if expected_by_name and self.operator not in NONDETERMINISTIC_OPERATORS:\n            for name, output in zip(output_names, outputs, strict=True):\n                _assert_value(\n                    output,\n                    expected_by_name[name],\n                    rtol=max(case.rtol, 1e-2),\n                    atol=max(case.atol, 1e-4),\n                )\n    \n        self.case = case\n        self.feeds = feeds\n        self.session = session",
+    "min_run_count": 2,
+    "name": "ops.tensor.unsqueeze.Unsqueeze.time_run",
+    "number": 1,
+    "param_names": [
+      "shape",
+      "backend"
+    ],
+    "params": [
+      [
+        "'data=2048x2048, axes=2'"
+      ],
+      [
+        "'onnxruntime'",
+        "'onnx-reference'",
+        "'onnx-light'",
+        "'onnx-light-cpu'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "193ebf6a7f2d5c108e30170980ceaa153ae964a0857f3e0bb7d4cd7732e526e2",
+    "warmup_time": -1
+  },
+  "ops.tensor.upsample.Upsample.time_run": {
+    "code": "class OperatorBenchmark:\n    def time_run(self, shape, backend):\n        self.session.run(None, self.feeds)\n\n    def setup(self, shape, backend):\n        case, feeds, expected_by_name = _load_case(self.case_name, self.case_mode)\n        actual_shape = input_shape_label(feeds)\n        if shape != actual_shape:\n            raise ValueError(\n                f\"Input shape parameter {shape!r} does not match {actual_shape!r}.\"\n            )\n        model_bytes = case.model.SerializeToString()\n        if backend == \"onnxruntime\":\n            session = onnxruntime.InferenceSession(\n                model_bytes,\n                providers=[\"CPUExecutionProvider\"],\n            )\n        elif backend == \"onnx-reference\":\n            session = OnnxReferenceEvaluator(onnx.load_model_from_string(model_bytes))\n        elif backend == \"onnx-light\":\n            session = OnnxLightReferenceEvaluator(case.model)\n        elif backend == \"onnx-light-cpu\":\n            session = OnnxLightReferenceEvaluator(case.model)\n            register_kernels_for_session(session)\n        else:\n            raise ValueError(f\"Unexpected backend {backend!r}.\")\n    \n        outputs = session.run(None, feeds)\n        output_names = [output.name for output in case.model.graph.output]\n        if expected_by_name and self.operator not in NONDETERMINISTIC_OPERATORS:\n            for name, output in zip(output_names, outputs, strict=True):\n                _assert_value(\n                    output,\n                    expected_by_name[name],\n                    rtol=max(case.rtol, 1e-2),\n                    atol=max(case.atol, 1e-4),\n                )\n    \n        self.case = case\n        self.feeds = feeds\n        self.session = session",
+    "min_run_count": 2,
+    "name": "ops.tensor.upsample.Upsample.time_run",
+    "number": 1,
+    "param_names": [
+      "shape",
+      "backend"
+    ],
+    "params": [
+      [
+        "'X=1x1x1024x1024, scales=4'"
+      ],
+      [
+        "'onnxruntime'",
+        "'onnx-reference'",
+        "'onnx-light'",
+        "'onnx-light-cpu'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "193ebf6a7f2d5c108e30170980ceaa153ae964a0857f3e0bb7d4cd7732e526e2",
+    "warmup_time": -1
+  },
+  "version": 2
+}
