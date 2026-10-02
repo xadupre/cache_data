@@ -1,0 +1,165 @@
+{
+  "commit_hash": "64a1bca27fc6b5bb7316f172bf2e2da65ef5d432",
+  "date": 1790946521000,
+  "durations": {},
+  "env_name": "virtualenv-py3.12-numpy2.5.3-onnx1.23.1-onnxruntime1.30.0-ONNX_LIGHT_CPU_VERSION0.1.16-ONNX_LIGHT_VERSION0.1.28",
+  "env_vars": {
+    "ONNX_LIGHT_CPU_VERSION": "0.1.16",
+    "ONNX_LIGHT_VERSION": "0.1.28"
+  },
+  "params": {
+    "arch": "x86_64",
+    "cpu": "AMD EPYC 9V74 80-Core Processor",
+    "machine": "AMD EPYC 9V74 80-Core Processor",
+    "num_cpu": "anonymous",
+    "numpy": "2.5.3",
+    "onnx": "1.23.1",
+    "onnxruntime": "1.30.0",
+    "os": "anonymous",
+    "python": "3.12",
+    "ram": "anonymous"
+  },
+  "python": "3.12",
+  "requirements": {
+    "numpy": "2.5.3",
+    "onnx": "1.23.1",
+    "onnxruntime": "1.30.0"
+  },
+  "result_columns": [
+    "result",
+    "params",
+    "version",
+    "started_at",
+    "duration",
+    "stats_ci_99_a",
+    "stats_ci_99_b",
+    "stats_q_25",
+    "stats_q_75",
+    "stats_number",
+    "stats_repeat",
+    "samples",
+    "profile"
+  ],
+  "results": {
+    "models.dummies.matmul_add.MatMulAdd.time_run": [
+      [
+        9.042516667060832e-05,
+        0.015213927333329973,
+        0.0019859033333299676,
+        null,
+        0.00010806116666136252,
+        0.00010980666666190095,
+        0.0024317456666646344,
+        null,
+        0.00022619000000171735,
+        0.00015700950000526365,
+        0.0019877194999935455,
+        null
+      ],
+      [
+        [
+          "'X=64x256'"
+        ],
+        [
+          "'float16'",
+          "'float32'",
+          "'float64'"
+        ],
+        [
+          "'onnxruntime'",
+          "'onnx-reference'",
+          "'onnx-light'",
+          "'onnx-light-cpu'"
+        ]
+      ],
+      "af11858eb607324d59558241e25c1f8fed7b1a3d5ea0e5814f390a3900855101",
+      1790948026000,
+      14.824,
+      [
+        8.7285e-05,
+        0.015184,
+        0.0019808,
+        null,
+        0.00010513,
+        0.00010773,
+        0.0024294,
+        null,
+        0.00018169,
+        0.0001556,
+        0.0019831,
+        null
+      ],
+      [
+        9.5724e-05,
+        0.015228,
+        0.002002,
+        null,
+        0.00011214,
+        0.00099829,
+        0.0024724,
+        null,
+        0.00025454,
+        0.00017313,
+        0.0019914,
+        null
+      ],
+      [
+        8.8506e-05,
+        0.015204,
+        0.0019848,
+        null,
+        0.00010656,
+        0.00010875,
+        0.0024311,
+        null,
+        0.00020946,
+        0.00015619,
+        0.001984,
+        null
+      ],
+      [
+        9.3773e-05,
+        0.01522,
+        0.0019875,
+        null,
+        0.00010986,
+        0.00011605,
+        0.0024358,
+        null,
+        0.00023865,
+        0.0001576,
+        0.0019892,
+        null
+      ],
+      [
+        3,
+        3,
+        3,
+        null,
+        3,
+        3,
+        3,
+        null,
+        3,
+        3,
+        3,
+        null
+      ],
+      [
+        10,
+        10,
+        10,
+        null,
+        10,
+        10,
+        10,
+        null,
+        10,
+        10,
+        10,
+        null
+      ]
+    ]
+  },
+  "version": 2
+}
