@@ -10,7 +10,7 @@
   "params": {
     "arch": "x86_64",
     "cpu": "AMD EPYC 9V74 80-Core Processor",
-    "instruction_sets": "SSE2, SSE3, SSSE3, SSE4.1, SSE4.2, AVX, AVX2",
+    "instruction_sets": "SSE2,SSE3,SSSE3,SSE4.1,SSE4.2,AVX,AVX2;SSE2,SSE3,SSSE3,SSE4.1,SSE4.2,AVX,AVX2,AVX-512F,AVX-512BW,AVX-512CD,AVX-512DQ,AVX-512VL,AVX-512VNNI",
     "machine": "AMD EPYC 9V74 80-Core Processor",
     "num_cpu": "4",
     "numpy": "2.5.3",
