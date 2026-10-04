@@ -5276,5 +5276,75 @@
     "name": "onnxruntime-win-x64-gpu_cuda13-1.30.0.zip",
     "package": "onnxruntime-win-x64-gpu_cuda13-{version}.zip",
     "size": 294386823
+  },
+  {
+    "date": "2026-10-02T20:48:43Z",
+    "version": "v1.28.3",
+    "name": "onnxruntime-linux-aarch64-1.28.3.tgz",
+    "package": "onnxruntime-linux-aarch64-{version}.tgz",
+    "size": 8123797
+  },
+  {
+    "date": "2026-10-02T20:48:43Z",
+    "version": "v1.28.3",
+    "name": "onnxruntime-linux-x64-1.28.3.tgz",
+    "package": "onnxruntime-linux-x64-{version}.tgz",
+    "size": 9130098
+  },
+  {
+    "date": "2026-10-02T20:48:43Z",
+    "version": "v1.28.3",
+    "name": "onnxruntime-linux-x64-gpu_cuda12-1.28.3.tgz",
+    "package": "onnxruntime-linux-x64-gpu_cuda12-{version}.tgz",
+    "size": 423745424
+  },
+  {
+    "date": "2026-10-02T20:48:43Z",
+    "version": "v1.28.3",
+    "name": "onnxruntime-linux-x64-gpu_cuda13-1.28.3.tgz",
+    "package": "onnxruntime-linux-x64-gpu_cuda13-{version}.tgz",
+    "size": 240886111
+  },
+  {
+    "date": "2026-10-02T20:48:43Z",
+    "version": "v1.28.3",
+    "name": "onnxruntime-osx-arm64-1.28.3.tgz",
+    "package": "onnxruntime-osx-arm64-{version}.tgz",
+    "size": 33057743
+  },
+  {
+    "date": "2026-10-02T20:48:43Z",
+    "version": "v1.28.3",
+    "name": "onnxruntime-win-arm64-1.28.3.zip",
+    "package": "onnxruntime-win-arm64-{version}.zip",
+    "size": 79730664
+  },
+  {
+    "date": "2026-10-02T20:48:43Z",
+    "version": "v1.28.3",
+    "name": "onnxruntime-win-arm64x-1.28.3.zip",
+    "package": "onnxruntime-win-arm64x-{version}.zip",
+    "size": 125071222
+  },
+  {
+    "date": "2026-10-02T20:48:43Z",
+    "version": "v1.28.3",
+    "name": "onnxruntime-win-x64-1.28.3.zip",
+    "package": "onnxruntime-win-x64-{version}.zip",
+    "size": 78606946
+  },
+  {
+    "date": "2026-10-02T20:48:43Z",
+    "version": "v1.28.3",
+    "name": "onnxruntime-win-x64-gpu_cuda12-1.28.3.zip",
+    "package": "onnxruntime-win-x64-gpu_cuda12-{version}.zip",
+    "size": 454803675
+  },
+  {
+    "date": "2026-10-02T20:48:43Z",
+    "version": "v1.28.3",
+    "name": "onnxruntime-win-x64-gpu_cuda13-1.28.3.zip",
+    "package": "onnxruntime-win-x64-gpu_cuda13-{version}.zip",
+    "size": 366180839
   }
 ]
