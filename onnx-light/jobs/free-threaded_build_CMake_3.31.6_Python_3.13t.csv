@@ -1,0 +1,5 @@
+job_id,run_id,workflow,job_name,status,conclusion,started_at,completed_at,duration_seconds,head_sha
+109420115569,36572630186,ci-1-core,"free-threaded build (CMake 3.31.6, Python 3.13t)",completed,success,2026-09-29T13:05:48Z,2026-09-29T13:10:23Z,275,6cea089027fe07b50f1bf4f2abe74d778680bbc9
+109407913685,36568813029,ci-1-core,"free-threaded build (CMake 3.31.6, Python 3.13t)",completed,success,2026-09-29T12:34:15Z,2026-09-29T12:38:28Z,253,8d903679ee6830341eeed7d54c240c87f511a340
+109406358093,36568517936,ci-1-core,"free-threaded build (CMake 3.31.6, Python 3.13t)",completed,cancelled,2026-09-29T12:30:11Z,2026-09-29T12:34:08Z,237,aee9b8fc427e12ea08eba0c771350b6483abcf34
+109392841031,36564442285,ci-1-core,"free-threaded build (CMake 3.31.6, Python 3.13t)",completed,failure,2026-09-29T11:52:28Z,2026-09-29T12:00:00Z,452,6bd4a972dd0c3d3c906dfddb037c73fe208faaf8

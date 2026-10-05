@@ -1,0 +1,9 @@
+job_id,run_id,workflow,job_name,status,conclusion,started_at,completed_at,duration_seconds,head_sha
+111673765046,37282554687,Create Releases,"call-sdist / build (3.11, arm64)",completed,success,2026-10-05T08:15:59Z,2026-10-05T08:16:11Z,12,2c4eb821e2cf9feae72fa933fe6d901a97242b63
+111571155384,37248513280,Create Releases,"call-sdist / build (3.11, arm64)",completed,success,2026-10-05T00:41:58Z,2026-10-05T00:42:08Z,10,703db9d22f41f71616eba607b06daab1108bf3d6
+111508001662,37226799901,Create Releases,"call-sdist / build (3.11, arm64)",completed,success,2026-10-04T19:03:30Z,2026-10-04T19:03:41Z,11,d60f3cd8819123b1c751e39f345b7cff8c3533b3
+111188580023,37118048953,Create Releases,"call-sdist / build (3.11, arm64)",completed,success,2026-10-03T10:56:51Z,2026-10-03T10:57:04Z,13,3818d0d8de795d9f7c5dacd31d3517e982066c49
+111188409362,37117988118,Create Releases,"call-sdist / build (3.11, arm64)",completed,success,2026-10-03T10:55:40Z,2026-10-03T10:55:51Z,11,703db9d22f41f71616eba607b06daab1108bf3d6
+111185528525,37116948852,Create Releases,"call-sdist / build (3.11, arm64)",completed,success,2026-10-03T10:36:25Z,2026-10-03T10:36:37Z,12,72f30e09f5e5596e30cd05121280db8a4a98c686
+111185404890,37116903099,Create Releases,"call-sdist / build (3.11, arm64)",completed,success,2026-10-03T10:35:36Z,2026-10-03T10:35:49Z,13,72f30e09f5e5596e30cd05121280db8a4a98c686
+111184787526,37116698549,Create Releases,"call-sdist / build (3.11, arm64)",completed,success,2026-10-03T10:31:34Z,2026-10-03T10:31:48Z,14,97c548bc36800956717cddf86013d030c2222d2a

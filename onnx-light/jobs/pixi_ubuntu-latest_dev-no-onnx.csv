@@ -113,3 +113,6 @@ job_id,run_id,workflow,job_name,status,conclusion,started_at,completed_at,durati
 107633050648,35999681681,acq - pixi,"pixi (ubuntu-latest, dev-no-onnx)",completed,failure,2026-09-24T12:32:32Z,2026-09-24T13:00:36Z,1684,ddd647fffd73e1ebc97d0b7a9a9ee072369d07d6
 106741843088,35726633707,acq - pixi,"pixi (ubuntu-latest, dev-no-onnx)",completed,failure,2026-09-22T12:21:11Z,2026-09-22T12:47:37Z,1586,44ee80a1ca9a2dcacca2bc22c00b2684e9749191
 106355759677,35606784012,acq - pixi,"pixi (ubuntu-latest, dev-no-onnx)",completed,failure,2026-09-21T13:37:28Z,2026-09-21T14:04:32Z,1624,7983a52c5da23d57dcf4ceb55d86f84c8aa092f2
+110409607911,36874266564,acq - pixi,"pixi (ubuntu-latest, dev-no-onnx)",completed,failure,2026-10-01T14:10:40Z,2026-10-01T14:39:22Z,1722,c7f9cc319e943f8e4e388d66d1308c1b09d7587c
+109915266276,36720878728,acq - pixi,"pixi (ubuntu-latest, dev-no-onnx)",completed,failure,2026-09-30T14:40:04Z,2026-09-30T15:09:16Z,1752,83ae5b31955569efff8a42cdcb929a8dc63632c2
+109436177149,36577297111,acq - pixi,"pixi (ubuntu-latest, dev-no-onnx)",completed,failure,2026-09-29T13:44:23Z,2026-09-29T14:07:01Z,1358,0a857038ca3072b4b84f41c458e96cb744184fac

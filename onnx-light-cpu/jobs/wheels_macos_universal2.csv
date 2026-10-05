@@ -1,0 +1,7 @@
+job_id,run_id,workflow,job_name,status,conclusion,started_at,completed_at,duration_seconds,head_sha
+111734824870,37299361808,Build Release Wheels,"wheels (macos, universal2)",completed,failure,2026-10-05T11:15:38Z,2026-10-05T11:20:47Z,309,74b13e55577ccef4e954ec32d8ee476b06204550
+111709434537,37293037452,Build Release Wheels,"wheels (macos, universal2)",completed,skipped,2026-10-05T09:58:47Z,2026-10-05T09:58:47Z,0,ffdf201f2d2b7a496b905d0f59dbdb7e8576ae6e
+111662035024,37276129283,Build Release Wheels,"wheels (macos, universal2)",completed,skipped,2026-10-05T07:38:37Z,2026-10-05T07:38:37Z,0,ec059df3bd5f8abc1c81dff3144cd46fda49fefa
+110985499021,37032663344,Build Release Wheels,"wheels (macos, universal2)",completed,failure,2026-10-02T19:02:13Z,2026-10-02T19:04:05Z,112,f7641a3c9d87958df112d44a53dcb7819a290463
+110358209353,36857328757,Build Release Wheels,"wheels (macos, universal2)",completed,success,2026-10-01T12:02:49Z,2026-10-01T12:06:21Z,212,dba43db71e0a34532561e01baba3e4d77adab88f
+110315383644,36845184369,Build Release Wheels,"wheels (macos, universal2)",completed,success,2026-10-01T09:55:31Z,2026-10-01T09:59:34Z,243,aba3a4034eb196e57ee98ea788d292ee97665003

@@ -2,3 +2,4 @@ job_id,run_id,workflow,job_name,status,conclusion,started_at,completed_at,durati
 101895389485,34172506940,Test source distribution build,"test_sdist (windows-latest, 3.12)",completed,success,2026-09-08T00:11:25Z,2026-09-08T00:35:36Z,1451,5e5fedc04d4500f576b1e8f5fe2c5213e8f751e0
 104201709027,34912123152,Test source distribution build,"test_sdist (windows-latest, 3.12)",completed,success,2026-09-15T00:11:21Z,2026-09-15T00:35:02Z,1421,c3b48137bc56203c7435fe4cad0a091991c349a1
 106566786171,35670870884,Test source distribution build,"test_sdist (windows-latest, 3.12)",completed,success,2026-09-22T00:11:05Z,2026-09-22T00:34:15Z,1390,1b7ae64f88bafb30cef74f4e9174aa8f73ec97f8
+109194575277,36501940550,Test source distribution build,"test_sdist (windows-latest, 3.12)",completed,success,2026-09-29T00:12:35Z,2026-09-29T00:34:01Z,1286,66962871fe5e4f495e23c52ba4fa7764d85a6915

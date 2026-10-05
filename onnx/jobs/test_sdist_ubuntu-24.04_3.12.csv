@@ -2,3 +2,4 @@ job_id,run_id,workflow,job_name,status,conclusion,started_at,completed_at,durati
 101895389581,34172506940,Test source distribution build,"test_sdist (ubuntu-24.04, 3.12)",completed,success,2026-09-08T00:11:24Z,2026-09-08T00:18:40Z,436,5e5fedc04d4500f576b1e8f5fe2c5213e8f751e0
 104201708278,34912123152,Test source distribution build,"test_sdist (ubuntu-24.04, 3.12)",completed,success,2026-09-15T00:11:18Z,2026-09-15T00:21:17Z,599,c3b48137bc56203c7435fe4cad0a091991c349a1
 106566786262,35670870884,Test source distribution build,"test_sdist (ubuntu-24.04, 3.12)",completed,success,2026-09-22T00:11:07Z,2026-09-22T00:21:08Z,601,1b7ae64f88bafb30cef74f4e9174aa8f73ec97f8
+109194575236,36501940550,Test source distribution build,"test_sdist (ubuntu-24.04, 3.12)",completed,success,2026-09-29T00:12:35Z,2026-09-29T00:19:41Z,426,66962871fe5e4f495e23c52ba4fa7764d85a6915

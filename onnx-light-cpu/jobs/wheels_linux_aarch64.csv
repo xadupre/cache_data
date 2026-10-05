@@ -1,0 +1,7 @@
+job_id,run_id,workflow,job_name,status,conclusion,started_at,completed_at,duration_seconds,head_sha
+111728145976,37299361808,Build Release Wheels,"wheels (linux, aarch64)",completed,success,2026-10-05T10:53:21Z,2026-10-05T11:01:54Z,513,74b13e55577ccef4e954ec32d8ee476b06204550
+111707710062,37293037452,Build Release Wheels,"wheels (linux, aarch64)",completed,failure,2026-10-05T09:54:36Z,2026-10-05T09:57:43Z,187,ffdf201f2d2b7a496b905d0f59dbdb7e8576ae6e
+111653438112,37276129283,Build Release Wheels,"wheels (linux, aarch64)",completed,failure,2026-10-05T07:11:35Z,2026-10-05T07:32:00Z,1225,ec059df3bd5f8abc1c81dff3144cd46fda49fefa
+110923091974,37032663344,Build Release Wheels,"wheels (linux, aarch64)",completed,success,2026-10-02T16:17:34Z,2026-10-02T18:04:47Z,6433,f7641a3c9d87958df112d44a53dcb7819a290463
+110352854519,36857328757,Build Release Wheels,"wheels (linux, aarch64)",completed,success,2026-10-01T11:50:56Z,2026-10-01T11:53:22Z,146,dba43db71e0a34532561e01baba3e4d77adab88f
+110313516589,36845184369,Build Release Wheels,"wheels (linux, aarch64)",completed,success,2026-10-01T09:50:38Z,2026-10-01T09:52:58Z,140,aba3a4034eb196e57ee98ea788d292ee97665003

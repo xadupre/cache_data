@@ -1,0 +1,6 @@
+job_id,run_id,workflow,job_name,status,conclusion,started_at,completed_at,duration_seconds,head_sha
+111707707726,37293036664,Build C++ Release,cpp (macos-universal2),completed,success,2026-10-05T09:54:48Z,2026-10-05T09:55:43Z,55,ffdf201f2d2b7a496b905d0f59dbdb7e8576ae6e
+111653438246,37276129465,Build C++ Release,cpp (macos-universal2),completed,success,2026-10-05T07:11:45Z,2026-10-05T07:12:49Z,64,ec059df3bd5f8abc1c81dff3144cd46fda49fefa
+110923090310,37032662952,Build C++ Release,cpp (macos-universal2),completed,success,2026-10-02T16:18:26Z,2026-10-02T16:19:52Z,86,f7641a3c9d87958df112d44a53dcb7819a290463
+110352852710,36857328516,Build C++ Release,cpp (macos-universal2),completed,success,2026-10-01T11:48:59Z,2026-10-01T11:50:19Z,80,dba43db71e0a34532561e01baba3e4d77adab88f
+110313454128,36845165831,Build C++ Release,cpp (macos-universal2),completed,success,2026-10-01T09:50:37Z,2026-10-01T09:51:43Z,66,aba3a4034eb196e57ee98ea788d292ee97665003

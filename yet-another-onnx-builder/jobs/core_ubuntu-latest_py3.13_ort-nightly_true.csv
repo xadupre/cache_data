@@ -200,3 +200,14 @@ job_id,run_id,workflow,job_name,status,conclusion,started_at,completed_at,durati
 105584534238,35340131339,ci-1-core,"core (ubuntu-latest, py3.13, ort-nightly=true)",completed,failure,2026-09-18T11:37:15Z,2026-09-18T11:38:47Z,92,b876a60d1b79314ad02a68ccd9ae2fee7b6c354b
 105583662393,35339938279,ci-1-core,"core (ubuntu-latest, py3.13, ort-nightly=true)",completed,success,2026-09-18T11:32:54Z,2026-09-18T11:34:29Z,95,31e62781f6493c209bbdb4370824610826885e1a
 105581466132,35339341070,ci-1-core,"core (ubuntu-latest, py3.13, ort-nightly=true)",completed,success,2026-09-18T11:23:17Z,2026-09-18T11:25:10Z,113,2208bb6de5c0215b6543830a31df8a7a7b4783e4
+110936323516,37034419915,ci-1-core,"core (ubuntu-latest, py3.13, ort-nightly=true)",completed,failure,2026-10-02T17:15:39Z,2026-10-02T17:17:16Z,97,70941ea7452ad6fc0a653d8449f45067a9904f5e
+110922735966,37030399980,ci-1-core,"core (ubuntu-latest, py3.13, ort-nightly=true)",completed,failure,2026-10-02T16:29:55Z,2026-10-02T16:31:12Z,77,c29bac2751c602122f8ba07a164467b4b19303d2
+110910509443,37028871936,ci-1-core,"core (ubuntu-latest, py3.13, ort-nightly=true)",completed,failure,2026-10-02T15:51:50Z,2026-10-02T15:53:43Z,113,6029a3f6734afd2e75bc660acf27293b05f35a3d
+110479227854,36894850205,ci-1-core,"core (ubuntu-latest, py3.13, ort-nightly=true)",completed,failure,2026-10-01T16:49:41Z,2026-10-01T16:51:18Z,97,5d896f4f11ddb62ab867172905a7f72b69c64894
+110418710513,36876696430,ci-1-core,"core (ubuntu-latest, py3.13, ort-nightly=true)",completed,failure,2026-10-01T14:32:48Z,2026-10-01T14:34:41Z,113,2cb59cfe9540b9212dbdd337e987fcf706ceebac
+110365763477,36860161933,ci-1-core,"core (ubuntu-latest, py3.13, ort-nightly=true)",completed,success,2026-10-01T12:22:33Z,2026-10-01T12:24:22Z,109,24dc47265d36aa3c62d04f3006655853d3adcc20
+110358890509,36858391661,ci-1-core,"core (ubuntu-latest, py3.13, ort-nightly=true)",completed,failure,2026-10-01T12:05:48Z,2026-10-01T12:07:56Z,128,e8230a3e313ab72e7cbc74a8f388fbc764b054b6
+110352403849,36856882681,ci-1-core,"core (ubuntu-latest, py3.13, ort-nightly=true)",completed,failure,2026-10-01T11:48:21Z,2026-10-01T11:50:08Z,107,36434ede0d938e560cff58c805f4d782e675aeb9
+109845697348,36702534157,ci-1-core,"core (ubuntu-latest, py3.13, ort-nightly=true)",completed,success,2026-09-30T10:43:12Z,2026-09-30T10:44:39Z,87,483e0d3a5850940509469bbe48262442a681e44e
+109811240365,36691934884,ci-1-core,"core (ubuntu-latest, py3.13, ort-nightly=true)",completed,success,2026-09-30T08:50:13Z,2026-09-30T08:52:02Z,109,b4856585c1ac3859b3f0437988bbf69b0fe2207b
+109808948218,36691299597,ci-1-core,"core (ubuntu-latest, py3.13, ort-nightly=true)",completed,failure,2026-09-30T08:41:56Z,2026-09-30T08:43:40Z,104,469e52f94664aa64f3a8670af27e1006cc1b328a
