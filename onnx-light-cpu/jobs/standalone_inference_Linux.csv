@@ -300,6 +300,7 @@ job_id,run_id,workflow,job_name,status,conclusion,started_at,completed_at,durati
 107211884581,35868243511,C++ standalone inference,standalone inference (Linux),completed,success,2026-09-23T13:54:00Z,2026-09-23T14:13:33Z,1173,fb2b2d7bbc30837f60419157a7425e05b05a628e
 106744528508,35727466794,C++ standalone inference,standalone inference (Linux),completed,success,2026-09-22T12:29:21Z,2026-09-22T12:56:57Z,1656,9afbf613ecf63a3caefc04f056292c8d214f169a
 106716606100,35712749122,C++ standalone inference,standalone inference (Linux),completed,success,2026-09-22T10:57:52Z,2026-09-22T11:15:37Z,1065,d07ad49756040698c0b8a97d2e07b32f7ac44982
+111752401234,37306824731,C++ standalone inference,standalone inference (Linux),completed,success,2026-10-05T12:02:33Z,2026-10-05T12:22:15Z,1182,bedc13ec3a7da0841b0b564ae77cb6abe0a80452
 111743080330,37303929966,C++ standalone inference,standalone inference (Linux),completed,success,2026-10-05T11:36:04Z,2026-10-05T12:03:34Z,1650,176f27e2fe26e529b0ca895596efe8a65bdb1a4f
 111739104206,37302741978,C++ standalone inference,standalone inference (Linux),completed,cancelled,2026-10-05T11:26:40Z,2026-10-05T11:36:01Z,561,baa8d71f31b85b971a687560c21d7a03c01f56f9
 111738457407,37302492627,C++ standalone inference,standalone inference (Linux),completed,success,2026-10-05T11:22:49Z,2026-10-05T11:47:24Z,1475,299db90620e13786ea082538f33d18c7d20dec32

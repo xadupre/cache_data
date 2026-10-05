@@ -1036,6 +1036,7 @@ job_id,run_id,workflow,job_name,status,conclusion,started_at,completed_at,durati
 107211876283,35868243647,ci-core,"core (windows-latest, py3.13)",completed,success,2026-09-23T13:53:06Z,2026-09-23T13:56:36Z,210,fb2b2d7bbc30837f60419157a7425e05b05a628e
 106744527736,35727466722,ci-core,"core (windows-latest, py3.13)",completed,success,2026-09-22T12:29:21Z,2026-09-22T12:32:32Z,191,9afbf613ecf63a3caefc04f056292c8d214f169a
 106716607686,35712749109,ci-core,"core (windows-latest, py3.13)",completed,success,2026-09-22T10:57:53Z,2026-09-22T11:01:43Z,230,d07ad49756040698c0b8a97d2e07b32f7ac44982
+111752400636,37306824728,ci-core,"core (windows-latest, py3.13)",completed,success,2026-10-05T12:02:33Z,2026-10-05T12:06:19Z,226,bedc13ec3a7da0841b0b564ae77cb6abe0a80452
 111743116960,37303929772,ci-core,"core (windows-latest, py3.13)",completed,success,2026-10-05T11:37:29Z,2026-10-05T11:41:07Z,218,176f27e2fe26e529b0ca895596efe8a65bdb1a4f
 111739103328,37302741861,ci-core,"core (windows-latest, py3.13)",completed,success,2026-10-05T11:25:49Z,2026-10-05T11:29:18Z,209,baa8d71f31b85b971a687560c21d7a03c01f56f9
 111738460604,37302492590,ci-core,"core (windows-latest, py3.13)",completed,success,2026-10-05T11:23:38Z,2026-10-05T11:26:56Z,198,299db90620e13786ea082538f33d18c7d20dec32

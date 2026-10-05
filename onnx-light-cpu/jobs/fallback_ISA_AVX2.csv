@@ -121,6 +121,7 @@ job_id,run_id,workflow,job_name,status,conclusion,started_at,completed_at,durati
 107211884007,35868243511,C++ standalone inference,fallback ISA (AVX2),completed,success,2026-09-23T13:53:13Z,2026-09-23T13:55:08Z,115,fb2b2d7bbc30837f60419157a7425e05b05a628e
 106744528778,35727466794,C++ standalone inference,fallback ISA (AVX2),completed,success,2026-09-22T12:29:21Z,2026-09-22T12:31:07Z,106,9afbf613ecf63a3caefc04f056292c8d214f169a
 106716606418,35712749122,C++ standalone inference,fallback ISA (AVX2),completed,success,2026-09-22T10:57:59Z,2026-09-22T11:00:03Z,124,d07ad49756040698c0b8a97d2e07b32f7ac44982
+111752401405,37306824731,C++ standalone inference,fallback ISA (AVX2),completed,success,2026-10-05T12:02:33Z,2026-10-05T12:03:55Z,82,bedc13ec3a7da0841b0b564ae77cb6abe0a80452
 111743080420,37303929966,C++ standalone inference,fallback ISA (AVX2),completed,success,2026-10-05T11:36:04Z,2026-10-05T11:37:56Z,112,176f27e2fe26e529b0ca895596efe8a65bdb1a4f
 111739103973,37302741978,C++ standalone inference,fallback ISA (AVX2),completed,success,2026-10-05T11:24:52Z,2026-10-05T11:26:30Z,98,baa8d71f31b85b971a687560c21d7a03c01f56f9
 111738457868,37302492627,C++ standalone inference,fallback ISA (AVX2),completed,success,2026-10-05T11:22:48Z,2026-10-05T11:24:28Z,100,299db90620e13786ea082538f33d18c7d20dec32

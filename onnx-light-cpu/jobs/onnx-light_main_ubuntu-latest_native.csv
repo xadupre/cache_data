@@ -1,4 +1,5 @@
 job_id,run_id,workflow,job_name,status,conclusion,started_at,completed_at,duration_seconds,head_sha
+111752400412,37306824728,ci-core,"onnx-light main (ubuntu-latest, native)",completed,success,2026-10-05T12:02:33Z,2026-10-05T12:07:47Z,314,bedc13ec3a7da0841b0b564ae77cb6abe0a80452
 111743116675,37303929772,ci-core,"onnx-light main (ubuntu-latest, native)",completed,success,2026-10-05T11:36:10Z,2026-10-05T11:44:03Z,473,176f27e2fe26e529b0ca895596efe8a65bdb1a4f
 111739103566,37302741861,ci-core,"onnx-light main (ubuntu-latest, native)",completed,cancelled,2026-10-05T11:29:10Z,2026-10-05T11:35:53Z,403,baa8d71f31b85b971a687560c21d7a03c01f56f9
 111738460778,37302492590,ci-core,"onnx-light main (ubuntu-latest, native)",completed,success,2026-10-05T11:23:28Z,2026-10-05T11:29:18Z,350,299db90620e13786ea082538f33d18c7d20dec32

@@ -1,4 +1,5 @@
 job_id,run_id,workflow,job_name,status,conclusion,started_at,completed_at,duration_seconds,head_sha
+111752400472,37306824728,ci-core,"onnx-light main (macos-latest, stable)",completed,success,2026-10-05T12:02:42Z,2026-10-05T12:12:32Z,590,bedc13ec3a7da0841b0b564ae77cb6abe0a80452
 111743116858,37303929772,ci-core,"onnx-light main (macos-latest, stable)",completed,success,2026-10-05T11:36:16Z,2026-10-05T11:45:56Z,580,176f27e2fe26e529b0ca895596efe8a65bdb1a4f
 111739103319,37302741861,ci-core,"onnx-light main (macos-latest, stable)",completed,success,2026-10-05T11:25:47Z,2026-10-05T11:31:49Z,362,baa8d71f31b85b971a687560c21d7a03c01f56f9
 111738460910,37302492590,ci-core,"onnx-light main (macos-latest, stable)",completed,success,2026-10-05T11:24:26Z,2026-10-05T11:34:00Z,574,299db90620e13786ea082538f33d18c7d20dec32

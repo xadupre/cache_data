@@ -1036,6 +1036,7 @@ job_id,run_id,workflow,job_name,status,conclusion,started_at,completed_at,durati
 107211876388,35868243647,ci-core,"core (ubuntu-latest, py3.13)",completed,success,2026-09-23T13:52:54Z,2026-09-23T13:54:17Z,83,fb2b2d7bbc30837f60419157a7425e05b05a628e
 106744527816,35727466722,ci-core,"core (ubuntu-latest, py3.13)",completed,success,2026-09-22T12:29:30Z,2026-09-22T12:30:37Z,67,9afbf613ecf63a3caefc04f056292c8d214f169a
 106716607758,35712749109,ci-core,"core (ubuntu-latest, py3.13)",completed,success,2026-09-22T10:57:52Z,2026-09-22T10:59:15Z,83,d07ad49756040698c0b8a97d2e07b32f7ac44982
+111752400511,37306824728,ci-core,"core (ubuntu-latest, py3.13)",completed,success,2026-10-05T12:02:36Z,2026-10-05T12:04:06Z,90,bedc13ec3a7da0841b0b564ae77cb6abe0a80452
 111743116825,37303929772,ci-core,"core (ubuntu-latest, py3.13)",completed,success,2026-10-05T11:36:09Z,2026-10-05T11:37:25Z,76,176f27e2fe26e529b0ca895596efe8a65bdb1a4f
 111739103488,37302741861,ci-core,"core (ubuntu-latest, py3.13)",completed,success,2026-10-05T11:27:12Z,2026-10-05T11:29:02Z,110,baa8d71f31b85b971a687560c21d7a03c01f56f9
 111738460587,37302492590,ci-core,"core (ubuntu-latest, py3.13)",completed,success,2026-10-05T11:22:49Z,2026-10-05T11:23:59Z,70,299db90620e13786ea082538f33d18c7d20dec32

@@ -8643,10 +8643,21 @@ run_id,workflow,event,status,conclusion,created_at,updated_at,duration_seconds,h
 35711810421,Running Copilot cloud agent,dynamic,completed,success,2026-09-22T09:41:28Z,2026-09-22T10:06:39Z,1511,3ad88b2c3c3d5fcdc03504a71abd636b90429861
 35606373879,acq - pixi,schedule,completed,success,2026-09-21T13:33:29Z,2026-09-21T13:33:39Z,10,5c19e55b75050fde3062fc87ae4d348aaa478c7d
 35603127145,acq - hardening,schedule,completed,success,2026-09-21T13:03:01Z,2026-09-21T13:03:11Z,10,5c19e55b75050fde3062fc87ae4d348aaa478c7d
+37308914401,Style,pull_request,completed,action_required,2026-10-05T12:20:59Z,2026-10-05T12:20:59Z,0,da16f50eb1086f19bf3a1114a5834ea2f7954cc3
+37308914461,ci-core,pull_request,completed,action_required,2026-10-05T12:20:59Z,2026-10-05T12:20:59Z,0,da16f50eb1086f19bf3a1114a5834ea2f7954cc3
+37308914089,C++ standalone inference,pull_request,completed,action_required,2026-10-05T12:20:58Z,2026-10-05T12:20:58Z,0,da16f50eb1086f19bf3a1114a5834ea2f7954cc3
+37308914022,clang-format,pull_request,completed,action_required,2026-10-05T12:20:58Z,2026-10-05T12:20:58Z,0,da16f50eb1086f19bf3a1114a5834ea2f7954cc3
+37308914053,Typing,pull_request,completed,action_required,2026-10-05T12:20:58Z,2026-10-05T12:20:58Z,0,da16f50eb1086f19bf3a1114a5834ea2f7954cc3
+37308913983,docs,pull_request,completed,action_required,2026-10-05T12:20:58Z,2026-10-05T12:20:58Z,0,da16f50eb1086f19bf3a1114a5834ea2f7954cc3
+37308914163,Spelling,pull_request,completed,action_required,2026-10-05T12:20:58Z,2026-10-05T12:20:58Z,0,da16f50eb1086f19bf3a1114a5834ea2f7954cc3
+37306853375,Build Release Wheels,workflow_dispatch,completed,failure,2026-10-05T12:02:46Z,2026-10-05T12:19:36Z,1010,bedc13ec3a7da0841b0b564ae77cb6abe0a80452
+37306824700,docs,push,completed,success,2026-10-05T12:02:30Z,2026-10-05T12:05:40Z,190,bedc13ec3a7da0841b0b564ae77cb6abe0a80452
 37306824727,clang-format,push,completed,success,2026-10-05T12:02:30Z,2026-10-05T12:02:44Z,14,bedc13ec3a7da0841b0b564ae77cb6abe0a80452
 37306824808,Style,push,completed,success,2026-10-05T12:02:30Z,2026-10-05T12:02:46Z,16,bedc13ec3a7da0841b0b564ae77cb6abe0a80452
 37306824682,Typing,push,completed,success,2026-10-05T12:02:30Z,2026-10-05T12:02:52Z,22,bedc13ec3a7da0841b0b564ae77cb6abe0a80452
 37306824771,Spelling,push,completed,success,2026-10-05T12:02:30Z,2026-10-05T12:02:58Z,28,bedc13ec3a7da0841b0b564ae77cb6abe0a80452
+37306824728,ci-core,push,completed,success,2026-10-05T12:02:30Z,2026-10-05T12:19:04Z,994,bedc13ec3a7da0841b0b564ae77cb6abe0a80452
+37306824731,C++ standalone inference,push,completed,success,2026-10-05T12:02:30Z,2026-10-05T12:22:16Z,1186,bedc13ec3a7da0841b0b564ae77cb6abe0a80452
 37306378812,cpp-coverage-weekly,schedule,completed,success,2026-10-05T11:58:24Z,2026-10-05T12:02:30Z,246,299db90620e13786ea082538f33d18c7d20dec32
 37304139912,Running Copilot Code Review,dynamic,completed,success,2026-10-05T11:37:34Z,2026-10-05T11:41:13Z,219,176f27e2fe26e529b0ca895596efe8a65bdb1a4f
 37303929805,Spelling,pull_request,completed,success,2026-10-05T11:35:35Z,2026-10-05T11:35:46Z,11,176f27e2fe26e529b0ca895596efe8a65bdb1a4f
