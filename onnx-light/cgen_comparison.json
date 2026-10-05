@@ -1,7 +1,7 @@
 {
   "cgen_support_ops_url": "https://raw.githubusercontent.com/emmtrix/emx-onnx-cgen/main/SUPPORT_OPS.md",
   "cgen_url": "https://github.com/emmtrix/emx-onnx-cgen",
-  "date": "2026-09-28T13:48:32Z",
+  "date": "2026-10-05T14:31:17Z",
   "rows": [
     {
       "domain": "ai.onnx",
@@ -32,7 +32,7 @@
       "in_cgen": true,
       "in_onnx_light": true,
       "name": "Add",
-      "onnx_light_backend_tests": 22,
+      "onnx_light_backend_tests": 23,
       "onnx_light_source_url": "https://raw.githubusercontent.com/xadupre/onnx-light/main/onnx_light/onnx_extensions/kernels/kernels/math/kernel_add.cc"
     },
     {
@@ -416,7 +416,7 @@
       "in_cgen": true,
       "in_onnx_light": true,
       "name": "Det",
-      "onnx_light_backend_tests": 2,
+      "onnx_light_backend_tests": 9,
       "onnx_light_source_url": "https://raw.githubusercontent.com/xadupre/onnx-light/main/onnx_light/onnx_extensions/kernels/kernels/math/kernel_det.cc"
     },
     {
@@ -542,7 +542,7 @@
       "in_cgen": true,
       "in_onnx_light": true,
       "name": "Gather",
-      "onnx_light_backend_tests": 4,
+      "onnx_light_backend_tests": 6,
       "onnx_light_source_url": "https://raw.githubusercontent.com/xadupre/onnx-light/main/onnx_light/onnx_extensions/kernels/kernels/tensor/kernel_gather.cc"
     },
     {
@@ -891,7 +891,7 @@
       "in_cgen": true,
       "in_onnx_light": true,
       "name": "Mean",
-      "onnx_light_backend_tests": 5,
+      "onnx_light_backend_tests": 33,
       "onnx_light_source_url": "https://raw.githubusercontent.com/xadupre/onnx-light/main/onnx_light/onnx_extensions/kernels/kernels/math/kernel_mean.cc"
     },
     {
@@ -966,7 +966,7 @@
       "in_cgen": true,
       "in_onnx_light": true,
       "name": "NegativeLogLikelihoodLoss",
-      "onnx_light_backend_tests": 23,
+      "onnx_light_backend_tests": 25,
       "onnx_light_source_url": "https://raw.githubusercontent.com/xadupre/onnx-light/main/onnx_light/onnx_extensions/kernels/kernels/math/kernel_negative_log_likelihood_loss.cc"
     },
     {
@@ -1000,7 +1000,7 @@
       "in_cgen": true,
       "in_onnx_light": true,
       "name": "OneHot",
-      "onnx_light_backend_tests": 7,
+      "onnx_light_backend_tests": 8,
       "onnx_light_source_url": "https://raw.githubusercontent.com/xadupre/onnx-light/main/onnx_light/onnx_extensions/kernels/kernels/tensor/kernel_one_hot.cc"
     },
     {
@@ -1214,7 +1214,7 @@
       "in_cgen": true,
       "in_onnx_light": true,
       "name": "ReduceSum",
-      "onnx_light_backend_tests": 18,
+      "onnx_light_backend_tests": 19,
       "onnx_light_source_url": "https://raw.githubusercontent.com/xadupre/onnx-light/main/onnx_light/onnx_extensions/kernels/kernels/reduction/kernel_reducesum.cc"
     },
     {
@@ -1255,7 +1255,7 @@
       "in_cgen": true,
       "in_onnx_light": true,
       "name": "Resize",
-      "onnx_light_backend_tests": 42,
+      "onnx_light_backend_tests": 46,
       "onnx_light_source_url": "https://raw.githubusercontent.com/xadupre/onnx-light/main/onnx_light/onnx_extensions/kernels/kernels/tensor/kernel_resize.cc"
     },
     {
@@ -1670,7 +1670,7 @@
       "in_cgen": true,
       "in_onnx_light": true,
       "name": "TopK",
-      "onnx_light_backend_tests": 11,
+      "onnx_light_backend_tests": 14,
       "onnx_light_source_url": "https://raw.githubusercontent.com/xadupre/onnx-light/main/onnx_light/onnx_extensions/kernels/kernels/math/kernel_topk.cc"
     },
     {
@@ -1949,9 +1949,25 @@
       "domain": "ai.rt",
       "in_cgen": false,
       "in_onnx_light": true,
+      "name": "PagedAttention",
+      "onnx_light_backend_tests": 0,
+      "onnx_light_source_url": "https://raw.githubusercontent.com/xadupre/onnx-light/main/onnx_light/onnx_extensions/kernels/kernels/nn/kernel_paged_attention.cc"
+    },
+    {
+      "domain": "ai.rt",
+      "in_cgen": false,
+      "in_onnx_light": true,
       "name": "Quantize",
       "onnx_light_backend_tests": 4,
       "onnx_light_source_url": "https://raw.githubusercontent.com/xadupre/onnx-light/main/onnx_light/onnx_extensions/kernels/kernels/quantization/kernel_quantize.cc"
+    },
+    {
+      "domain": "ai.rt",
+      "in_cgen": false,
+      "in_onnx_light": true,
+      "name": "QuantizePagedCache",
+      "onnx_light_backend_tests": 0,
+      "onnx_light_source_url": "https://raw.githubusercontent.com/xadupre/onnx-light/main/onnx_light/onnx_extensions/kernels/kernels/nn/kernel_quantize_paged_cache.cc"
     },
     {
       "cgen_source_url": "https://raw.githubusercontent.com/emmtrix/emx-onnx-cgen/main/src/emx_onnx_cgen/templates/attention_op.c.j2",
@@ -2390,7 +2406,7 @@
     "cgen": 264,
     "neither": 1,
     "only_cgen": 60,
-    "only_onnx_light": 26,
-    "onnx_light": 230
+    "only_onnx_light": 28,
+    "onnx_light": 232
   }
 }
