@@ -2549,3 +2549,58 @@ pr_number,title,author,merged_at,commits,comments,copilot_comments,copilot_commi
 5016,Add graph-declared persistent state with zero-copy feedback,Copilot,2026-09-21T17:12:42Z,18,2,1,4
 5022,Add zero-copy NumPy initializers with reference-counted lifetime,Copilot,2026-09-21T15:09:01Z,5,5,2,4
 5021,Add zero-copy TensorProto construction from DLPack arrays,Copilot,2026-09-21T10:38:55Z,4,0,0,3
+5145,Support per-case tolerances in C++ backend node tests,Copilot,2026-10-05T10:47:34Z,2,0,0,2
+5147,Add Det backend coverage for low-precision edge cases,Copilot,2026-10-05T10:47:17Z,3,2,1,3
+5151,Cover scalar-first Mean broadcasting in C++ backend cases,Copilot,2026-10-05T09:55:47Z,2,0,0,2
+5141,Support string keys in numpy_helper.from_dict,Copilot,2026-10-05T09:55:08Z,2,0,0,2
+5139,Parallelize STFT over independent frame and frequency bins,Copilot,2026-10-05T09:54:41Z,2,0,0,2
+5137,Update onnx-light version to 0.1.31,Copilot,2026-10-05T08:51:54Z,2,0,0,2
+5130,Start batch-four parallelization with tunable DFT frequency bins,Copilot,2026-10-04T19:38:10Z,4,3,2,3
+5135,Update 0.1.30 release notes,Copilot,2026-10-04T19:20:20Z,2,0,0,2
+5133,Support INT64 inputs in ReduceSum,Copilot,2026-10-04T18:49:27Z,2,0,0,2
+5131,Document parallel Where support,xadupre,2026-10-04T17:14:41Z,1,2,1,0
+5127,Parallelize numeric Where as a batch-three kernel migration,Copilot,2026-10-04T13:04:08Z,7,6,4,4
+5128,Make Python stable ABI configurable,xadupre,2026-10-04T11:59:29Z,4,6,3,0
+5124,Parallelize Softmax and LogSoftmax across independent rows,Copilot,2026-10-03T18:08:32Z,3,0,0,3
+5125,Derive missing execution plan unlocks,xadupre,2026-10-03T18:08:09Z,2,9,6,1
+5120,Handle partial release metadata in ExecutionPlan,Copilot,2026-10-03T10:12:19Z,6,4,2,3
+5119,Benchmark GraphBuilder against onnxscript,Copilot,2026-10-03T09:11:02Z,10,14,7,5
+5122,Accept zero-copy BF16 KV-cache feedback during generation,Copilot,2026-10-03T08:56:52Z,2,2,1,2
+5104,Parallelize first-wave native kernels,xadupre,2026-10-02T20:56:44Z,7,27,20,0
+5116,Handle variadic Mean inputs with expanding broadcast shapes,Copilot,2026-10-02T20:41:12Z,6,6,4,3
+5114,Align Resize singleton coordinates with ONNX,Copilot,2026-10-02T20:00:04Z,5,6,3,4
+5112,Preserve input dtype for low-precision Det,Copilot,2026-10-02T16:05:31Z,8,4,3,5
+5103,Add partial release metadata reproducer,xadupre,2026-10-02T16:04:49Z,5,5,5,0
+5110,Align Resize corners using the integer output size,Copilot,2026-10-02T15:15:44Z,4,0,0,3
+5108,Support per-case tolerances in backend node tests,Copilot,2026-10-02T15:15:30Z,2,0,0,2
+5101,Bump onnx-light to 0.1.30,xadupre,2026-10-02T15:12:26Z,1,0,0,0
+5106,Support Mul downgrade from ONNX opset 14 to 13,Copilot,2026-10-02T14:30:30Z,2,0,0,2
+5100,Update 0.1.29 changelog,xadupre,2026-10-02T11:41:37Z,1,0,0,0
+5095,Fold initializer Unsqueeze–Cast chains before Add,Copilot,2026-10-02T11:20:29Z,5,4,4,2
+5099,Refresh next-step roadmap and retire split-wheel proposal,Copilot,2026-10-02T10:33:48Z,6,1,0,2
+5097,Parallelize Cast with typed runtime tuning,Copilot,2026-10-02T09:41:30Z,2,0,0,2
+5094,Fold Transpose applied to initializers,xadupre,2026-10-02T09:24:16Z,2,5,4,1
+5093,Parallelize the Transpose kernel,xadupre,2026-10-01T21:17:37Z,2,2,1,0
+5087,Bound symbolic broadcast growth during graph construction,Copilot,2026-10-01T14:12:24Z,3,6,3,3
+5090,Update 0.1.28 and 0.1.29 changelogs,Copilot,2026-10-01T13:15:14Z,2,0,0,2
+5082,Add MixedReferenceEvaluator with NumPy operator kernels,Copilot,2026-10-01T12:42:25Z,6,6,3,6
+5088,Fix native sklearn classifier execution,xadupre,2026-10-01T12:36:33Z,1,0,0,0
+5086,Preserve symbolic shape values through Slice,Copilot,2026-10-01T11:34:30Z,2,0,0,2
+5083,Parallelize MatMul output ranges,xadupre,2026-10-01T10:43:17Z,1,0,0,0
+5080,Add in-place reuse expectations for the fused Qwen model,Copilot,2026-09-30T21:04:14Z,3,2,1,3
+5078,Add guidance to reduce wasted CI compute,Copilot,2026-09-30T18:30:47Z,2,2,1,2
+5076,Support string values in OneHot,Copilot,2026-09-30T18:21:32Z,5,2,1,5
+5075,Cover ignored targets in unweighted NLLLoss mean reduction,Copilot,2026-09-30T16:53:38Z,2,0,0,2
+5072,Align ReduceLogSumExp non-finite behavior with upstream ONNX,Copilot,2026-09-30T16:53:14Z,3,2,1,3
+5069,Bump onnx-light to 0.1.29,Copilot,2026-09-30T12:05:39Z,2,0,0,2
+5070,Add end-to-end feedback validation and decode measurements,Copilot,2026-09-30T10:30:43Z,6,0,0,4
+5067,Add persistent Qwen3 cache backend cases,xadupre,2026-09-29T22:55:50Z,6,8,4,0
+5053,Port upstream ONNX’s free-threaded Python discovery fixes,Copilot,2026-09-29T18:52:07Z,12,22,10,4
+5062,Add runtime LLM generation with temperature sampling and optional persistent caches,Copilot,2026-09-29T14:56:29Z,6,8,4,4
+5066,Standardize NumPy helper imports as onh,Copilot,2026-09-29T11:53:08Z,3,2,1,3
+5064,Investigate latest ONNX shape-inference CI failure,Copilot,2026-09-29T09:36:55Z,1,0,0,1
+5057,Port upstream TopK validation for non-positive K,Copilot,2026-09-29T07:42:40Z,3,2,1,3
+5061,Add paged-cache quantization example and update changelog,xadupre,2026-09-28T20:23:14Z,1,0,0,0
+5055,Preserve Resize semantics when converting opset 10 to 11,Copilot,2026-09-28T20:21:23Z,2,0,0,2
+5051,Reject tensor data types newer than the declared IR version,Copilot,2026-09-28T20:20:03Z,4,2,1,4
+5024,Add optional paged KV Attention with heterogeneous quantization,Copilot,2026-09-28T16:02:26Z,36,51,26,11

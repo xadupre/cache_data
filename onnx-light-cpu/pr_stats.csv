@@ -452,3 +452,82 @@ pr_number,title,author,merged_at,commits,comments,copilot_comments,copilot_commi
 756,Add AVX-512 Tanh kernel and runtime dispatch,Copilot,2026-09-25T13:23:37Z,4,6,2,4
 754,Reduce CDist overhead with packed AVX-512 and AVX2 distance tiles,Copilot,2026-09-23T14:29:20Z,2,4,2,2
 752,Fix kernel helper name collisions with latest onnx-light,Copilot,2026-09-22T12:29:15Z,2,1,0,2
+858,Bump to 0.1.20 and correct changelog release history,Copilot,2026-10-05T11:22:13Z,2,1,0,2
+853,Add a targeted SSSE3 fallback for integer Abs,Copilot,2026-10-05T11:03:10Z,4,4,1,4
+859,Fix release wheel effective nanobind ABI,xadupre,2026-10-05T10:52:18Z,1,1,0,0
+856,Document the release-wheel ABI fix in CHANGELOGS,Copilot,2026-10-05T09:50:59Z,2,1,0,2
+854,Fix release wheel onnx-light ABI mismatch,xadupre,2026-10-05T09:29:45Z,5,6,5,0
+852,Bump onnx-light-cpu to 0.1.19,Copilot,2026-10-05T08:25:39Z,2,0,0,2
+850,Update changelog with recent unreleased changes,Copilot,2026-10-05T07:08:30Z,2,0,0,2
+848,Use onnx-light 0.1.30,Copilot,2026-10-05T07:02:30Z,2,0,0,2
+846,Implement INT64 ReduceSum CPU kernel,Copilot,2026-10-04T20:24:59Z,13,13,9,3
+844,Document AVX-512VL evaluation,xadupre,2026-10-04T16:55:31Z,1,1,0,0
+843,Test stable and native Python ABIs,xadupre,2026-10-04T12:48:41Z,4,3,1,0
+842,Document AVX-512VL narrow-vector evaluation,Copilot,2026-10-04T11:27:34Z,3,6,4,2
+840,Evaluate AVX-512CD conflict detection for ScatterND,Copilot,2026-10-04T10:01:12Z,6,12,5,4
+839,Add AVX-VNNI dispatch for integer GEMM,Copilot,2026-10-03T10:04:23Z,3,10,4,2
+834,Pin release wheel compatibility checks,xadupre,2026-10-02T22:13:31Z,2,3,1,1
+833,Upgrade onnx-light-cpu to 0.1.18,Copilot,2026-10-02T20:17:05Z,3,3,1,3
+831,Update changelog for 0.1.17,xadupre,2026-10-02T16:14:15Z,1,1,0,0
+830,Switch onnx-light development wheels to 0.1.29,Copilot,2026-10-02T15:51:06Z,2,1,0,2
+828,Include compiled _cpuregister in release wheels,Copilot,2026-10-01T20:50:33Z,2,1,0,2
+826,Update onnx-light-cpu to 0.1.17,Copilot,2026-10-01T14:28:27Z,3,5,2,3
+824,Update changelog for 0.1.16,xadupre,2026-10-01T11:44:01Z,1,1,0,0
+823,Optimize FLOAT16 BatchNormalization inference,xadupre,2026-10-01T11:33:38Z,1,2,0,0
+822,Optimize masked FLOAT16 Attention on AVX2,xadupre,2026-10-01T11:32:24Z,1,2,0,0
+821,Add AVX2 MatMulNBits accuracy-4 kernel,xadupre,2026-10-01T11:32:12Z,1,2,0,0
+820,Fuse FLOAT16 GEMM bias conversion,xadupre,2026-10-01T10:50:26Z,1,2,0,0
+819,Optimize FLOAT16 Tanh with AVX2 F16C,xadupre,2026-10-01T10:45:04Z,1,2,0,0
+818,Optimize FLOAT16 Cast with AVX2 F16C,xadupre,2026-10-01T10:44:12Z,1,2,0,0
+816,Use onnx-light 0.1.28,Copilot,2026-10-01T09:49:35Z,2,1,0,2
+817,Add tag-driven release workflows,xadupre,2026-10-01T09:48:43Z,1,2,0,0
+804,Optimize BFLOAT16 Pow with AVX-512BF16,xadupre,2026-10-01T08:16:01Z,3,4,1,1
+801,Add native AVX-512 BF16 Softmax,xadupre,2026-10-01T08:15:42Z,3,4,1,1
+799,Add native AVX-512 BF16 SwiGLU,xadupre,2026-10-01T08:15:29Z,3,6,2,1
+798,Add native AVX-512 BF16 Tanh,xadupre,2026-10-01T08:15:16Z,4,6,2,2
+813,"Optimize BFLOAT16 Add, Sub, and Mul kernels",xadupre,2026-09-30T21:06:06Z,2,4,1,1
+810,Optimize BFLOAT16 Attention execution,xadupre,2026-09-30T21:05:41Z,2,4,1,1
+797,Add native AVX-512 BF16 Sigmoid,xadupre,2026-09-30T21:04:55Z,3,4,1,1
+811,Optimize wide MatMulNBits panels,xadupre,2026-09-30T18:34:57Z,1,2,0,0
+791,Optimize FP32 Log execution,xadupre,2026-09-30T18:25:45Z,2,4,1,1
+806,Optimize BFLOAT16 simplified layer normalization,xadupre,2026-09-30T18:25:19Z,2,4,1,1
+805,Optimize FP32 Pow scalar scheduling,xadupre,2026-09-30T18:24:28Z,2,4,1,1
+796,Optimize BFLOAT16 PRelu with AVX-512,xadupre,2026-09-30T16:50:36Z,1,1,0,0
+812,Optimize BFLOAT16 MatMulNBits accuracy level 4,xadupre,2026-09-30T16:45:50Z,1,2,0,0
+814,Optimize FP32 attention KV tiling,xadupre,2026-09-30T16:44:23Z,1,2,0,0
+807,Optimize BFLOAT16 skinny GEMM kernels,xadupre,2026-09-30T16:43:37Z,1,2,0,0
+809,Optimize BFLOAT16 division kernels,xadupre,2026-09-30T16:01:53Z,1,2,0,0
+808,Optimize small causal GQA scheduling,xadupre,2026-09-30T16:01:36Z,1,2,0,0
+794,Optimize FP32 RMS normalization affine pass,xadupre,2026-09-30T16:00:47Z,1,2,0,0
+803,Optimize single-row FP32 TreeEnsemble,xadupre,2026-09-30T16:00:30Z,1,2,0,0
+802,Optimize large FP32 PRelu scheduling,xadupre,2026-09-30T16:00:18Z,1,2,0,0
+793,Add native AVX-512 BF16 Exp,xadupre,2026-09-30T15:59:50Z,1,2,0,0
+788,Optimize large Concat scheduling,xadupre,2026-09-30T15:57:14Z,1,2,0,0
+787,Fuse float16 GEMM bias conversion,xadupre,2026-09-30T15:56:57Z,1,2,0,0
+781,"Optimize FP32 Tanh, Sigmoid, and Softmax execution",xadupre,2026-09-30T15:56:36Z,3,2,0,0
+780,Add native AVX-512 FP16 binary kernels,xadupre,2026-09-30T15:53:10Z,3,4,1,0
+795,Optimize BFLOAT16 Log with lookup table,xadupre,2026-09-30T15:15:11Z,1,2,0,0
+800,Balance large Split row copies,xadupre,2026-09-30T15:14:55Z,1,2,0,0
+779,Optimize large FP32 Exp execution,xadupre,2026-09-30T14:54:43Z,2,2,0,0
+790,Avoid dtype conversion in CPU benchmarks,xadupre,2026-09-30T14:54:24Z,1,1,0,0
+792,Add native AVX-512 BF16 BiasGelu,xadupre,2026-09-30T14:51:00Z,1,2,0,0
+784,Optimize float16 normalization ranges,xadupre,2026-09-30T14:31:16Z,1,2,0,0
+782,Optimize float16 Mod scalar broadcasts,xadupre,2026-09-30T14:30:53Z,1,1,0,0
+789,Optimize medium identity Cast copies,xadupre,2026-09-30T14:30:14Z,1,2,0,0
+783,Optimize medium FP32 GEMM execution,xadupre,2026-09-30T14:09:31Z,2,2,0,0
+786,Optimize large FP32 CDist execution,xadupre,2026-09-30T14:09:04Z,1,2,0,0
+785,Optimize float16 Pow scalar broadcasts with AVX-512,xadupre,2026-09-30T13:46:21Z,1,2,0,0
+778,Optimize large FP32 Abs execution,xadupre,2026-09-30T11:28:06Z,1,1,0,0
+777,Optimize FP32 binary arithmetic kernels,xadupre,2026-09-30T11:05:18Z,1,1,0,0
+776,Add automatic dtype benchmark comparison,xadupre,2026-09-30T11:00:17Z,2,1,0,0
+773,Optimize float16 Attention and GroupQueryAttention,xadupre,2026-09-29T22:15:11Z,5,12,5,4
+767,Organize math SIMD sources by operation and ISA,Copilot,2026-09-29T20:58:37Z,4,5,2,4
+775,Optimize float16 MatMulNBits accuracy level 4,xadupre,2026-09-29T19:01:38Z,1,1,0,0
+772,Optimize float16 Split and Gather copies,xadupre,2026-09-29T19:00:57Z,1,2,0,0
+771,"Optimize float16 PRelu, Sigmoid, and Softmax",xadupre,2026-09-29T19:00:39Z,1,1,0,0
+770,Optimize float16 normalization kernels,xadupre,2026-09-29T19:00:21Z,1,1,0,0
+769,Optimize float16 Concat and Gather copies,xadupre,2026-09-29T19:00:02Z,1,1,0,0
+766,Optimize float16 binary arithmetic,xadupre,2026-09-29T18:59:30Z,1,1,0,0
+765,Optimize float16 Pow scalar broadcasts,xadupre,2026-09-29T18:59:09Z,1,1,0,0
+774,Optimize float16 GEMM and MatMul kernels,xadupre,2026-09-29T18:58:12Z,1,2,0,0
+768,Optimize AVX2 float16 Abs,xadupre,2026-09-29T18:57:34Z,1,2,0,0
