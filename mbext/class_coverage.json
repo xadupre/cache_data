@@ -1096,7 +1096,7 @@
       "name": "_Branch"
     }
   ],
-  "date": "2026-09-28T15:36:05Z",
+  "date": "2026-10-05T16:11:43Z",
   "projects": {
     "mbext": {
       "commit": "368db9b736a8e79859db47dddf492465734d54b6",
@@ -1106,7 +1106,7 @@
       "repo": "mbext"
     },
     "ort_genai": {
-      "commit": "b48d3b93487f11863cbd33257714e4b70a7f26b1",
+      "commit": "24b310ade7bff608067e7a9709d60a51e17aed91",
       "owner": "microsoft",
       "path": "src/python/py/models",
       "ref": "main",
