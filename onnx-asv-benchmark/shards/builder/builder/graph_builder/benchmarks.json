@@ -1,0 +1,43 @@
+{
+  "builder.builder.graph_builder.GraphBuilderAttention.time_build": {
+    "code": "class GraphBuilderAttention:\n    def time_build(self, nodes, dtype, builder, serialize):\n        self.model = self.build(nodes, self.payload)\n        if serialize:\n            self.serialized = self.model.SerializeToString()\n\n    def setup(self, nodes, dtype, builder, serialize):\n        if nodes not in NODE_COUNTS or dtype != \"float32\":\n            raise ValueError(f\"Unexpected parameters {nodes!r}, {dtype!r}.\")\n        if builder == \"onnx-light\":\n            self.build = build_light\n        elif builder == \"onnxscript\":\n            self.build = build_onnxscript\n        else:\n            raise ValueError(f\"Unexpected builder {builder!r}.\")\n        self.payload = payload()\n        self.model = None\n        self.serialized = None",
+    "min_run_count": 2,
+    "name": "builder.builder.graph_builder.GraphBuilderAttention.time_build",
+    "number": 1,
+    "param_names": [
+      "nodes",
+      "dtype",
+      "builder",
+      "serialize"
+    ],
+    "params": [
+      [
+        "100",
+        "200",
+        "500",
+        "1000",
+        "2000"
+      ],
+      [
+        "'float32'"
+      ],
+      [
+        "'onnx-light'",
+        "'onnxscript'"
+      ],
+      [
+        "False",
+        "True"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "timeout": 120,
+    "type": "time",
+    "unit": "seconds",
+    "version": "9a57fe40ed33af5b040054c79433c1c21a541c98c131b48e425a5ee033bf50c7",
+    "warmup_time": -1
+  },
+  "version": 2
+}
