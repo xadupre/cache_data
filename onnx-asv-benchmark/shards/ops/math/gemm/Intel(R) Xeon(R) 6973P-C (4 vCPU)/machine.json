@@ -1,0 +1,9 @@
+{
+  "arch": "x86_64",
+  "cpu": "Intel(R) Xeon(R) 6973P-C",
+  "machine": "Intel(R) Xeon(R) 6973P-C (4 vCPU)",
+  "num_cpu": "anonymous",
+  "os": "anonymous",
+  "ram": "anonymous",
+  "version": 1
+}
