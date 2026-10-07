@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-07T00:37:01Z",
+  "date": "2026-10-07T16:15:17Z",
   "examples": [
     {
       "backends": [
@@ -37010,7 +37010,53 @@
         "onnx_light_cpu",
         "onnxruntime"
       ],
-      "date": "2026-09-30T16:17:11Z",
+      "date": "2026-10-05T17:53:39Z",
+      "domain": "com.microsoft",
+      "machine": "AMD EPYC 7763 64-Core Processor",
+      "name": "GroupQueryAttention_float32_benchmark",
+      "op": "GroupQueryAttention",
+      "rows": [
+        {
+          "input_elements": 2048,
+          "input_type": "float32",
+          "inputs": "float32[1x16x128], float32[1x16x128], float32[1x16x128], int32[1], int32",
+          "onnx_light_cpu_error": "warmup: set_kernel_usage_recording(): incompatible function arguments. The following argument types are supported:",
+          "onnxruntime_ms": 0.039607,
+          "test_name": "test_cpu_group_query_attention_mha_b1_s16_qh4_kvh4_hd32_causal_float32_benchmark"
+        },
+        {
+          "input_elements": 65536,
+          "input_type": "float32",
+          "inputs": "float32[2x64x512], float32[2x64x128], float32[2x64x128], int32[2], int32",
+          "onnx_light_cpu_error": "warmup: set_kernel_usage_recording(): incompatible function arguments. The following argument types are supported:",
+          "onnxruntime_ms": 0.204943,
+          "test_name": "test_cpu_group_query_attention_gqa_b2_s64_qh8_kvh2_hd64_causal_float32_benchmark"
+        },
+        {
+          "input_elements": 65536,
+          "input_type": "float32",
+          "inputs": "float32[4x32x512], float32[4x32x64], float32[4x32x64], int32[4], int32",
+          "onnx_light_cpu_error": "warmup: set_kernel_usage_recording(): incompatible function arguments. The following argument types are supported:",
+          "onnxruntime_ms": 0.14828,
+          "test_name": "test_cpu_group_query_attention_mqa_b4_s32_qh8_kvh1_hd64_causal_float32_benchmark"
+        }
+      ],
+      "simd_level": 3,
+      "simd_name": "AVX2",
+      "source": "3 onnx-light-cpu benchmark tests",
+      "summary": {
+        "cpu_error": "warmup: set_kernel_usage_recording(): incompatible function arguments. The following argument types are supported:",
+        "cpu_succeeded": 0,
+        "inputs": 3
+      },
+      "title": "GroupQueryAttention (float32): onnxruntime vs onnx-light-cpu"
+    },
+    {
+      "backends": [
+        "onnx_light_cpu",
+        "onnxruntime"
+      ],
+      "date": "2026-10-07T16:15:17Z",
       "domain": "com.microsoft",
       "machine": "AMD EPYC 9V74 80-Core Processor",
       "name": "GroupQueryAttention_float32_benchmark",
@@ -37065,59 +37111,13 @@
           "test_name": "test_cpu_group_query_attention_model_qwen3_8b_int4_mb_prefill_b1_s128_qh32_kvh8_hd128_pastlen0_causal_float32_benchmark"
         }
       ],
-      "simd_level": 4,
-      "simd_name": "AVX-512",
+      "simd_level": 3,
+      "simd_name": "AVX2",
       "source": "6 onnx-light-cpu benchmark tests",
       "summary": {
         "cpu_error": "warmup: set_kernel_usage_recording(): incompatible function arguments. The following argument types are supported:",
         "cpu_succeeded": 0,
         "inputs": 6
-      },
-      "title": "GroupQueryAttention (float32): onnxruntime vs onnx-light-cpu"
-    },
-    {
-      "backends": [
-        "onnx_light_cpu",
-        "onnxruntime"
-      ],
-      "date": "2026-10-05T17:53:39Z",
-      "domain": "com.microsoft",
-      "machine": "AMD EPYC 7763 64-Core Processor",
-      "name": "GroupQueryAttention_float32_benchmark",
-      "op": "GroupQueryAttention",
-      "rows": [
-        {
-          "input_elements": 2048,
-          "input_type": "float32",
-          "inputs": "float32[1x16x128], float32[1x16x128], float32[1x16x128], int32[1], int32",
-          "onnx_light_cpu_error": "warmup: set_kernel_usage_recording(): incompatible function arguments. The following argument types are supported:",
-          "onnxruntime_ms": 0.039607,
-          "test_name": "test_cpu_group_query_attention_mha_b1_s16_qh4_kvh4_hd32_causal_float32_benchmark"
-        },
-        {
-          "input_elements": 65536,
-          "input_type": "float32",
-          "inputs": "float32[2x64x512], float32[2x64x128], float32[2x64x128], int32[2], int32",
-          "onnx_light_cpu_error": "warmup: set_kernel_usage_recording(): incompatible function arguments. The following argument types are supported:",
-          "onnxruntime_ms": 0.204943,
-          "test_name": "test_cpu_group_query_attention_gqa_b2_s64_qh8_kvh2_hd64_causal_float32_benchmark"
-        },
-        {
-          "input_elements": 65536,
-          "input_type": "float32",
-          "inputs": "float32[4x32x512], float32[4x32x64], float32[4x32x64], int32[4], int32",
-          "onnx_light_cpu_error": "warmup: set_kernel_usage_recording(): incompatible function arguments. The following argument types are supported:",
-          "onnxruntime_ms": 0.14828,
-          "test_name": "test_cpu_group_query_attention_mqa_b4_s32_qh8_kvh1_hd64_causal_float32_benchmark"
-        }
-      ],
-      "simd_level": 3,
-      "simd_name": "AVX2",
-      "source": "3 onnx-light-cpu benchmark tests",
-      "summary": {
-        "cpu_error": "warmup: set_kernel_usage_recording(): incompatible function arguments. The following argument types are supported:",
-        "cpu_succeeded": 0,
-        "inputs": 3
       },
       "title": "GroupQueryAttention (float32): onnxruntime vs onnx-light-cpu"
     },
