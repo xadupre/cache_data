@@ -1,12 +1,12 @@
 {
-  "date": "2026-10-06T15:54:46Z",
+  "date": "2026-10-07T00:37:01Z",
   "examples": [
     {
       "backends": [
         "onnx_light_cpu",
         "onnxruntime"
       ],
-      "date": "2026-09-30T00:57:23Z",
+      "date": "2026-10-07T00:37:01Z",
       "domain": "ai.onnx",
       "machine": "AMD EPYC 7763 64-Core Processor",
       "name": "Abs_bfloat16_benchmark",
@@ -630,7 +630,7 @@
         "onnx_light_cpu",
         "onnxruntime"
       ],
-      "date": "2026-09-30T00:57:23Z",
+      "date": "2026-10-07T00:37:01Z",
       "domain": "ai.onnx",
       "machine": "AMD EPYC 7763 64-Core Processor",
       "name": "Add_bfloat16_benchmark",
@@ -3685,7 +3685,7 @@
         "onnx_light_cpu",
         "onnxruntime"
       ],
-      "date": "2026-09-30T00:57:23Z",
+      "date": "2026-10-07T00:37:01Z",
       "domain": "ai.onnx",
       "machine": "AMD EPYC 7763 64-Core Processor",
       "name": "Attention_bfloat16_benchmark",
@@ -4415,7 +4415,7 @@
         "onnx_light_cpu",
         "onnxruntime"
       ],
-      "date": "2026-09-30T00:57:23Z",
+      "date": "2026-10-07T00:37:01Z",
       "domain": "ai.onnx",
       "machine": "AMD EPYC 7763 64-Core Processor",
       "name": "BatchNormalization_bfloat16_benchmark",
@@ -4545,7 +4545,7 @@
         "onnx_light_cpu",
         "onnxruntime"
       ],
-      "date": "2026-09-30T00:57:23Z",
+      "date": "2026-10-07T00:37:01Z",
       "domain": "com.microsoft",
       "machine": "AMD EPYC 7763 64-Core Processor",
       "name": "BiasGelu_bfloat16_benchmark",
@@ -13409,7 +13409,7 @@
         "onnx_light_cpu",
         "onnxruntime"
       ],
-      "date": "2026-09-30T00:57:23Z",
+      "date": "2026-10-07T00:37:01Z",
       "domain": "ai.onnx",
       "machine": "AMD EPYC 7763 64-Core Processor",
       "name": "Cast_bfloat16_benchmark",
@@ -14825,7 +14825,7 @@
         "onnx_light_cpu",
         "onnxruntime"
       ],
-      "date": "2026-09-30T00:57:23Z",
+      "date": "2026-10-07T00:37:01Z",
       "domain": "ai.onnx",
       "machine": "AMD EPYC 7763 64-Core Processor",
       "name": "Concat_bfloat16_benchmark",
@@ -15437,7 +15437,7 @@
         "onnx_light_cpu",
         "onnxruntime"
       ],
-      "date": "2026-09-30T00:57:23Z",
+      "date": "2026-10-07T00:37:01Z",
       "domain": "ai.onnx",
       "machine": "AMD EPYC 7763 64-Core Processor",
       "name": "Div_bfloat16_benchmark",
@@ -21077,7 +21077,7 @@
         "onnx_light_cpu",
         "onnxruntime"
       ],
-      "date": "2026-09-30T00:57:23Z",
+      "date": "2026-10-07T00:37:01Z",
       "domain": "ai.onnx",
       "machine": "AMD EPYC 7763 64-Core Processor",
       "name": "Equal_bfloat16_benchmark",
@@ -24060,7 +24060,7 @@
         "onnx_light_cpu",
         "onnxruntime"
       ],
-      "date": "2026-09-30T00:57:23Z",
+      "date": "2026-10-07T00:37:01Z",
       "domain": "ai.onnx",
       "machine": "AMD EPYC 7763 64-Core Processor",
       "name": "Exp_bfloat16_benchmark",
@@ -24372,7 +24372,7 @@
         "onnx_light_cpu",
         "onnxruntime"
       ],
-      "date": "2026-09-30T00:57:23Z",
+      "date": "2026-10-07T00:37:01Z",
       "domain": "ai.onnx",
       "machine": "AMD EPYC 7763 64-Core Processor",
       "name": "Gather_bfloat16_benchmark",
@@ -25368,7 +25368,7 @@
         "onnx_light_cpu",
         "onnxruntime"
       ],
-      "date": "2026-09-30T00:57:23Z",
+      "date": "2026-10-07T00:37:01Z",
       "domain": "ai.onnx",
       "machine": "AMD EPYC 7763 64-Core Processor",
       "name": "Gemm_bfloat16_benchmark",
@@ -26464,7 +26464,7 @@
         "onnx_light_cpu",
         "onnxruntime"
       ],
-      "date": "2026-09-30T00:57:23Z",
+      "date": "2026-10-07T00:37:01Z",
       "domain": "ai.onnx",
       "machine": "AMD EPYC 7763 64-Core Processor",
       "name": "Greater_bfloat16_benchmark",
@@ -31634,7 +31634,7 @@
         "onnx_light_cpu",
         "onnxruntime"
       ],
-      "date": "2026-09-30T00:57:23Z",
+      "date": "2026-10-07T00:37:01Z",
       "domain": "ai.onnx",
       "machine": "AMD EPYC 7763 64-Core Processor",
       "name": "GreaterOrEqual_bfloat16_benchmark",
@@ -36804,7 +36804,7 @@
         "onnx_light_cpu",
         "onnxruntime"
       ],
-      "date": "2026-09-30T00:57:23Z",
+      "date": "2026-10-07T00:37:01Z",
       "domain": "ai.onnx",
       "machine": "AMD EPYC 7763 64-Core Processor",
       "name": "GroupNormalization_bfloat16_benchmark",
@@ -36918,7 +36918,7 @@
         "onnx_light_cpu",
         "onnxruntime"
       ],
-      "date": "2026-09-30T00:57:23Z",
+      "date": "2026-10-07T00:37:01Z",
       "domain": "com.microsoft",
       "machine": "AMD EPYC 7763 64-Core Processor",
       "name": "GroupQueryAttention_bfloat16_benchmark",
@@ -37126,7 +37126,7 @@
         "onnx_light_cpu",
         "onnxruntime"
       ],
-      "date": "2026-09-30T00:57:23Z",
+      "date": "2026-10-07T00:37:01Z",
       "domain": "ai.onnx",
       "machine": "AMD EPYC 7763 64-Core Processor",
       "name": "InstanceNormalization_bfloat16_benchmark",
@@ -37240,7 +37240,7 @@
         "onnx_light_cpu",
         "onnxruntime"
       ],
-      "date": "2026-09-30T00:57:23Z",
+      "date": "2026-10-07T00:37:01Z",
       "domain": "ai.onnx",
       "machine": "AMD EPYC 7763 64-Core Processor",
       "name": "LayerNormalization_bfloat16_benchmark",
@@ -37370,7 +37370,7 @@
         "onnx_light_cpu",
         "onnxruntime"
       ],
-      "date": "2026-09-30T00:57:23Z",
+      "date": "2026-10-07T00:37:01Z",
       "domain": "ai.onnx",
       "machine": "AMD EPYC 7763 64-Core Processor",
       "name": "Less_bfloat16_benchmark",
@@ -42540,7 +42540,7 @@
         "onnx_light_cpu",
         "onnxruntime"
       ],
-      "date": "2026-09-30T00:57:23Z",
+      "date": "2026-10-07T00:37:01Z",
       "domain": "ai.onnx",
       "machine": "AMD EPYC 7763 64-Core Processor",
       "name": "LessOrEqual_bfloat16_benchmark",
@@ -47710,7 +47710,7 @@
         "onnx_light_cpu",
         "onnxruntime"
       ],
-      "date": "2026-09-30T00:57:23Z",
+      "date": "2026-10-07T00:37:01Z",
       "domain": "ai.onnx",
       "machine": "AMD EPYC 7763 64-Core Processor",
       "name": "LinearAttention_bfloat16_benchmark",
@@ -47824,7 +47824,7 @@
         "onnx_light_cpu",
         "onnxruntime"
       ],
-      "date": "2026-09-30T00:57:23Z",
+      "date": "2026-10-07T00:37:01Z",
       "domain": "ai.onnx",
       "machine": "AMD EPYC 7763 64-Core Processor",
       "name": "Log_bfloat16_benchmark",
@@ -48136,7 +48136,7 @@
         "onnx_light_cpu",
         "onnxruntime"
       ],
-      "date": "2026-09-30T00:57:23Z",
+      "date": "2026-10-07T00:37:01Z",
       "domain": "ai.onnx",
       "machine": "AMD EPYC 7763 64-Core Processor",
       "name": "LpNormalization_bfloat16_benchmark",
@@ -48258,7 +48258,7 @@
         "onnx_light_cpu",
         "onnxruntime"
       ],
-      "date": "2026-09-30T00:57:23Z",
+      "date": "2026-10-07T00:37:01Z",
       "domain": "ai.onnx",
       "machine": "AMD EPYC 7763 64-Core Processor",
       "name": "MatMul_bfloat16_benchmark",
@@ -48814,7 +48814,7 @@
         "onnx_light_cpu",
         "onnxruntime"
       ],
-      "date": "2026-09-30T00:57:23Z",
+      "date": "2026-10-07T00:37:01Z",
       "domain": "com.microsoft",
       "machine": "AMD EPYC 7763 64-Core Processor",
       "name": "MatMulNBits_bfloat16_benchmark",
@@ -49642,7 +49642,7 @@
         "onnx_light_cpu",
         "onnxruntime"
       ],
-      "date": "2026-09-30T00:57:23Z",
+      "date": "2026-10-07T00:37:01Z",
       "domain": "ai.onnx",
       "machine": "AMD EPYC 7763 64-Core Processor",
       "name": "MeanVarianceNormalization_bfloat16_benchmark",
@@ -49802,7 +49802,7 @@
         "onnx_light_cpu",
         "onnxruntime"
       ],
-      "date": "2026-09-30T00:57:23Z",
+      "date": "2026-10-07T00:37:01Z",
       "domain": "ai.onnx",
       "machine": "AMD EPYC 7763 64-Core Processor",
       "name": "Mod_bfloat16_benchmark",
@@ -52754,7 +52754,7 @@
         "onnx_light_cpu",
         "onnxruntime"
       ],
-      "date": "2026-09-30T00:57:23Z",
+      "date": "2026-10-07T00:37:01Z",
       "domain": "ai.onnx",
       "machine": "AMD EPYC 7763 64-Core Processor",
       "name": "Mul_bfloat16_benchmark",
@@ -55918,7 +55918,7 @@
         "onnx_light_cpu",
         "onnxruntime"
       ],
-      "date": "2026-09-30T00:57:23Z",
+      "date": "2026-10-07T00:37:01Z",
       "domain": "ai.onnx",
       "machine": "AMD EPYC 7763 64-Core Processor",
       "name": "Pow_bfloat16_benchmark",
@@ -69020,7 +69020,7 @@
         "onnx_light_cpu",
         "onnxruntime"
       ],
-      "date": "2026-09-30T00:57:23Z",
+      "date": "2026-10-07T00:37:01Z",
       "domain": "ai.onnx",
       "machine": "AMD EPYC 7763 64-Core Processor",
       "name": "PRelu_bfloat16_benchmark",
@@ -71048,7 +71048,7 @@
         "onnx_light_cpu",
         "onnxruntime"
       ],
-      "date": "2026-09-30T00:57:23Z",
+      "date": "2026-10-07T00:37:01Z",
       "domain": "ai.onnx",
       "machine": "AMD EPYC 7763 64-Core Processor",
       "name": "RMSNormalization_bfloat16_benchmark",
@@ -71346,7 +71346,7 @@
         "onnx_light_cpu",
         "onnxruntime"
       ],
-      "date": "2026-09-30T00:57:23Z",
+      "date": "2026-10-07T00:37:01Z",
       "domain": "ai.onnx",
       "machine": "AMD EPYC 7763 64-Core Processor",
       "name": "ScatterND_bfloat16_benchmark",
@@ -71556,7 +71556,7 @@
         "onnx_light_cpu",
         "onnxruntime"
       ],
-      "date": "2026-09-30T00:57:23Z",
+      "date": "2026-10-07T00:37:01Z",
       "domain": "ai.onnx",
       "machine": "AMD EPYC 7763 64-Core Processor",
       "name": "Sigmoid_bfloat16_benchmark",
@@ -71868,7 +71868,7 @@
         "onnx_light_cpu",
         "onnxruntime"
       ],
-      "date": "2026-09-30T00:57:23Z",
+      "date": "2026-10-07T00:37:01Z",
       "domain": "ai.onnx",
       "machine": "AMD EPYC 7763 64-Core Processor",
       "name": "SimplifiedLayerNormalization_bfloat16_benchmark",
@@ -72724,7 +72724,7 @@
         "onnx_light_cpu",
         "onnxruntime"
       ],
-      "date": "2026-09-30T00:57:23Z",
+      "date": "2026-10-07T00:37:01Z",
       "domain": "com.microsoft",
       "machine": "AMD EPYC 7763 64-Core Processor",
       "name": "SkipSimplifiedLayerNormalization_bfloat16_benchmark",
@@ -72838,7 +72838,7 @@
         "onnx_light_cpu",
         "onnxruntime"
       ],
-      "date": "2026-09-30T00:57:23Z",
+      "date": "2026-10-07T00:37:01Z",
       "domain": "ai.onnx",
       "machine": "AMD EPYC 7763 64-Core Processor",
       "name": "Slice_bfloat16_benchmark",
@@ -73930,7 +73930,7 @@
         "onnx_light_cpu",
         "onnxruntime"
       ],
-      "date": "2026-09-30T00:57:23Z",
+      "date": "2026-10-07T00:37:01Z",
       "domain": "ai.onnx",
       "machine": "AMD EPYC 7763 64-Core Processor",
       "name": "Softmax_bfloat16_benchmark",
@@ -74114,7 +74114,7 @@
         "onnx_light_cpu",
         "onnxruntime"
       ],
-      "date": "2026-09-30T00:57:23Z",
+      "date": "2026-10-07T00:37:01Z",
       "domain": "ai.onnx",
       "machine": "AMD EPYC 7763 64-Core Processor",
       "name": "Split_bfloat16_benchmark",
@@ -74822,7 +74822,7 @@
         "onnx_light_cpu",
         "onnxruntime"
       ],
-      "date": "2026-09-30T00:57:23Z",
+      "date": "2026-10-07T00:37:01Z",
       "domain": "ai.onnx",
       "machine": "AMD EPYC 7763 64-Core Processor",
       "name": "Sub_bfloat16_benchmark",
@@ -80530,7 +80530,7 @@
         "onnx_light_cpu",
         "onnxruntime"
       ],
-      "date": "2026-09-30T00:57:23Z",
+      "date": "2026-10-07T00:37:01Z",
       "domain": "ai.onnx",
       "machine": "AMD EPYC 7763 64-Core Processor",
       "name": "SwiGLU_bfloat16_benchmark",
@@ -80842,7 +80842,7 @@
         "onnx_light_cpu",
         "onnxruntime"
       ],
-      "date": "2026-09-30T00:57:23Z",
+      "date": "2026-10-07T00:37:01Z",
       "domain": "ai.onnx",
       "machine": "AMD EPYC 7763 64-Core Processor",
       "name": "Tanh_bfloat16_benchmark",
