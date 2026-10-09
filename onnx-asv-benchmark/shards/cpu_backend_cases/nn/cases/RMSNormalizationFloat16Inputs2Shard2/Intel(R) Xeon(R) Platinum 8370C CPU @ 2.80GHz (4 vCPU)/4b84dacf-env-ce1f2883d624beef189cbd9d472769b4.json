@@ -1,0 +1,147 @@
+{
+  "commit_hash": "4b84dacffe0bd0d954251bc29a699b6c549f6680",
+  "date": 1791555793000,
+  "durations": {},
+  "env_name": "virtualenv-py3.12-numpy2.5.3-onnx1.23.1-onnx-ir1.0.0-onnxruntime1.30.0-onnxscript0.7.2-ONNX_LIGHT_CPU_VERSION0.1.20-ONNX_LIGHT_VERSION0.1.30",
+  "env_vars": {
+    "ONNX_LIGHT_CPU_VERSION": "0.1.20",
+    "ONNX_LIGHT_VERSION": "0.1.30"
+  },
+  "params": {
+    "arch": "x86_64",
+    "cpu": "Intel(R) Xeon(R) Platinum 8370C CPU @ 2.80GHz",
+    "instruction_sets": "SSE2, SSE3, SSSE3, SSE4.1, SSE4.2, AVX, AVX2, AVX-512F, AVX-512BW, AVX-512CD, AVX-512DQ, AVX-512VL, AVX-512VNNI",
+    "machine": "Intel(R) Xeon(R) Platinum 8370C CPU @ 2.80GHz (4 vCPU)",
+    "num_cpu": "4",
+    "numpy": "2.5.3",
+    "onnx": "1.23.1",
+    "onnx-ir": "1.0.0",
+    "onnxruntime": "1.30.0",
+    "onnxscript": "0.7.2",
+    "os": "anonymous",
+    "python": "3.12",
+    "ram": "anonymous"
+  },
+  "python": "3.12",
+  "requirements": {
+    "numpy": "2.5.3",
+    "onnx": "1.23.1",
+    "onnx-ir": "1.0.0",
+    "onnxruntime": "1.30.0",
+    "onnxscript": "0.7.2"
+  },
+  "result_columns": [
+    "result",
+    "params",
+    "version",
+    "started_at",
+    "duration",
+    "stats_ci_99_a",
+    "stats_ci_99_b",
+    "stats_q_25",
+    "stats_q_75",
+    "stats_number",
+    "stats_repeat",
+    "samples",
+    "profile"
+  ],
+  "results": {
+    "cpu_backend_cases.nn.cases.RMSNormalizationFloat16Inputs2Shard2.time_rms_normalization_llm_qwen3_8b_hidden4096_s1": [
+      [
+        2.0934000019678933e-05,
+        5.102900001929811e-05
+      ],
+      [
+        [
+          "'float16'"
+        ],
+        [
+          "'float16'"
+        ],
+        [
+          "'(1, 1, 4096) x (4096,)'"
+        ],
+        [
+          "'onnx-light-cpu'",
+          "'onnxruntime'"
+        ]
+      ],
+      "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+      1791585179789,
+      22.635,
+      [
+        1.9912e-05,
+        4.8841e-05
+      ],
+      [
+        2.3094e-05,
+        7.0406e-05
+      ],
+      [
+        2.0503e-05,
+        5.0651e-05
+      ],
+      [
+        2.1711e-05,
+        5.1465e-05
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        10,
+        10
+      ]
+    ],
+    "cpu_backend_cases.nn.cases.RMSNormalizationFloat16Inputs2Shard2.time_rms_normalization_llm_qwen3_8b_q_norm_hd128_s1_qh32": [
+      [
+        2.093849997208963e-05,
+        3.794750000452041e-05
+      ],
+      [
+        [
+          "'float16'"
+        ],
+        [
+          "'float16'"
+        ],
+        [
+          "'(1, 32, 128) x (128,)'"
+        ],
+        [
+          "'onnx-light-cpu'",
+          "'onnxruntime'"
+        ]
+      ],
+      "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+      1791585190997,
+      22.44,
+      [
+        1.9817e-05,
+        3.6455e-05
+      ],
+      [
+        3.3446e-05,
+        3.9766e-05
+      ],
+      [
+        2.0231e-05,
+        3.7262e-05
+      ],
+      [
+        2.2899e-05,
+        3.837e-05
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        10,
+        10
+      ]
+    ]
+  },
+  "version": 2
+}
