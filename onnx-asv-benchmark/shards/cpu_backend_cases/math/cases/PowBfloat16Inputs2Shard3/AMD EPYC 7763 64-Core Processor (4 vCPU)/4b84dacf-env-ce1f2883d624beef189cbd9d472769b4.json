@@ -1,0 +1,477 @@
+{
+  "commit_hash": "4b84dacffe0bd0d954251bc29a699b6c549f6680",
+  "date": 1791555793000,
+  "durations": {},
+  "env_name": "virtualenv-py3.12-numpy2.5.3-onnx1.23.1-onnx-ir1.0.0-onnxruntime1.30.0-onnxscript0.7.2-ONNX_LIGHT_CPU_VERSION0.1.20-ONNX_LIGHT_VERSION0.1.30",
+  "env_vars": {
+    "ONNX_LIGHT_CPU_VERSION": "0.1.20",
+    "ONNX_LIGHT_VERSION": "0.1.30"
+  },
+  "params": {
+    "arch": "x86_64",
+    "cpu": "AMD EPYC 7763 64-Core Processor",
+    "instruction_sets": "SSE2, SSE3, SSSE3, SSE4.1, SSE4.2, AVX, AVX2",
+    "machine": "AMD EPYC 7763 64-Core Processor (4 vCPU)",
+    "num_cpu": "4",
+    "numpy": "2.5.3",
+    "onnx": "1.23.1",
+    "onnx-ir": "1.0.0",
+    "onnxruntime": "1.30.0",
+    "onnxscript": "0.7.2",
+    "os": "anonymous",
+    "python": "3.12",
+    "ram": "anonymous"
+  },
+  "python": "3.12",
+  "requirements": {
+    "numpy": "2.5.3",
+    "onnx": "1.23.1",
+    "onnx-ir": "1.0.0",
+    "onnxruntime": "1.30.0",
+    "onnxscript": "0.7.2"
+  },
+  "result_columns": [
+    "result",
+    "params",
+    "version",
+    "started_at",
+    "duration",
+    "stats_ci_99_a",
+    "stats_ci_99_b",
+    "stats_q_25",
+    "stats_q_75",
+    "stats_number",
+    "stats_repeat",
+    "samples",
+    "profile"
+  ],
+  "results": {
+    "cpu_backend_cases.math.cases.PowBfloat16Inputs2Shard3.time_pow_v15_contiguous": [
+      [
+        0.006162939999995842,
+        null
+      ],
+      [
+        [
+          "'bfloat16'"
+        ],
+        [
+          "'bfloat16'"
+        ],
+        [
+          "'(4194304,) x (4194304,)'"
+        ],
+        [
+          "'onnx-light-cpu'",
+          "'onnxruntime'"
+        ]
+      ],
+      "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+      1791583476626,
+      15.715,
+      [
+        0.0061233,
+        null
+      ],
+      [
+        0.0064282,
+        null
+      ],
+      [
+        0.0061296,
+        null
+      ],
+      [
+        0.0062133,
+        null
+      ],
+      [
+        1,
+        null
+      ],
+      [
+        10,
+        null
+      ]
+    ],
+    "cpu_backend_cases.math.cases.PowBfloat16Inputs2Shard3.time_pow_v15_general": [
+      [
+        0.008180388500008462,
+        null,
+        0.006056434499996044,
+        null
+      ],
+      [
+        [
+          "'bfloat16'"
+        ],
+        [
+          "'bfloat16'"
+        ],
+        [
+          "'(1, 4, 1, 64) x (2048, 1, 8, 1)'",
+          "'(2048, 1, 8, 1) x (1, 4, 1, 64)'"
+        ],
+        [
+          "'onnx-light-cpu'",
+          "'onnxruntime'"
+        ]
+      ],
+      "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+      1791583484459,
+      30.798,
+      [
+        0.0081373,
+        null,
+        0.0060263,
+        null
+      ],
+      [
+        0.0082358,
+        null,
+        0.0060861,
+        null
+      ],
+      [
+        0.0081665,
+        null,
+        0.0060369,
+        null
+      ],
+      [
+        0.0081976,
+        null,
+        0.0060718,
+        null
+      ],
+      [
+        1,
+        null,
+        1,
+        null
+      ],
+      [
+        10,
+        null,
+        10,
+        null
+      ]
+    ],
+    "cpu_backend_cases.math.cases.PowBfloat16Inputs2Shard3.time_pow_v15_left_scalar": [
+      [
+        0.0015972140000002355,
+        null,
+        0.0007394014999704268,
+        null
+      ],
+      [
+        [
+          "'bfloat16'"
+        ],
+        [
+          "'bfloat16'"
+        ],
+        [
+          "'() x (4194304,)'",
+          "'(4194304,) x ()'"
+        ],
+        [
+          "'onnx-light-cpu'",
+          "'onnxruntime'"
+        ]
+      ],
+      "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+      1791583499831,
+      30.785,
+      [
+        0.0015854,
+        null,
+        0.00066735,
+        null
+      ],
+      [
+        0.0020674,
+        null,
+        0.00082945,
+        null
+      ],
+      [
+        0.0015917,
+        null,
+        0.00068195,
+        null
+      ],
+      [
+        0.0016278,
+        null,
+        0.00079947,
+        null
+      ],
+      [
+        1,
+        null,
+        1,
+        null
+      ],
+      [
+        10,
+        null,
+        10,
+        null
+      ]
+    ],
+    "cpu_backend_cases.math.cases.PowBfloat16Inputs2Shard3.time_pow_v15_outer": [
+      [
+        0.008134109499991382,
+        null,
+        0.006025361500007875,
+        null
+      ],
+      [
+        [
+          "'bfloat16'"
+        ],
+        [
+          "'bfloat16'"
+        ],
+        [
+          "'(1, 64) x (65536, 1)'",
+          "'(65536, 1) x (1, 64)'"
+        ],
+        [
+          "'onnx-light-cpu'",
+          "'onnxruntime'"
+        ]
+      ],
+      "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+      1791583515201,
+      30.745,
+      [
+        0.0081051,
+        null,
+        0.0060016,
+        null
+      ],
+      [
+        0.0082029,
+        null,
+        0.0061506,
+        null
+      ],
+      [
+        0.0081261,
+        null,
+        0.0060132,
+        null
+      ],
+      [
+        0.0081696,
+        null,
+        0.0060361,
+        null
+      ],
+      [
+        1,
+        null,
+        1,
+        null
+      ],
+      [
+        10,
+        null,
+        10,
+        null
+      ]
+    ],
+    "cpu_backend_cases.math.cases.PowBfloat16Inputs2Shard3.time_pow_v15_per_channel": [
+      [
+        0.01207109550003338,
+        null,
+        0.01067258999999865,
+        null
+      ],
+      [
+        [
+          "'bfloat16'"
+        ],
+        [
+          "'bfloat16'"
+        ],
+        [
+          "'(2048, 64, 32) x (64, 1)'",
+          "'(64, 1) x (2048, 64, 32)'"
+        ],
+        [
+          "'onnx-light-cpu'",
+          "'onnxruntime'"
+        ]
+      ],
+      "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+      1791583530548,
+      31.364,
+      [
+        0.012022,
+        null,
+        0.010571,
+        null
+      ],
+      [
+        0.012202,
+        null,
+        0.010708,
+        null
+      ],
+      [
+        0.012066,
+        null,
+        0.010643,
+        null
+      ],
+      [
+        0.012111,
+        null,
+        0.010686,
+        null
+      ],
+      [
+        1,
+        null,
+        1,
+        null
+      ],
+      [
+        10,
+        null,
+        10,
+        null
+      ]
+    ],
+    "cpu_backend_cases.math.cases.PowBfloat16Inputs2Shard3.time_pow_v15_right_scalar": [
+      [
+        0.0015972390000058567,
+        null,
+        0.0008008714999760969,
+        null
+      ],
+      [
+        [
+          "'bfloat16'"
+        ],
+        [
+          "'bfloat16'"
+        ],
+        [
+          "'() x (4194304,)'",
+          "'(4194304,) x ()'"
+        ],
+        [
+          "'onnx-light-cpu'",
+          "'onnxruntime'"
+        ]
+      ],
+      "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+      1791583546212,
+      30.727,
+      [
+        0.0015721,
+        null,
+        0.00068693,
+        null
+      ],
+      [
+        0.0020433,
+        null,
+        0.0008843,
+        null
+      ],
+      [
+        0.0015804,
+        null,
+        0.00074138,
+        null
+      ],
+      [
+        0.0016061,
+        null,
+        0.00083134,
+        null
+      ],
+      [
+        1,
+        null,
+        1,
+        null
+      ],
+      [
+        10,
+        null,
+        10,
+        null
+      ]
+    ],
+    "cpu_backend_cases.math.cases.PowBfloat16Inputs2Shard3.time_pow_v15_row": [
+      [
+        0.007594188999988205,
+        null,
+        0.007600846000002548,
+        null
+      ],
+      [
+        [
+          "'bfloat16'"
+        ],
+        [
+          "'bfloat16'"
+        ],
+        [
+          "'(16384, 256) x (256,)'",
+          "'(256,) x (16384, 256)'"
+        ],
+        [
+          "'onnx-light-cpu'",
+          "'onnxruntime'"
+        ]
+      ],
+      "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+      1791583561575,
+      31.089,
+      [
+        0.0075854,
+        null,
+        0.0075522,
+        null
+      ],
+      [
+        0.0076502,
+        null,
+        0.0076399,
+        null
+      ],
+      [
+        0.0075908,
+        null,
+        0.00759,
+        null
+      ],
+      [
+        0.0076059,
+        null,
+        0.007614,
+        null
+      ],
+      [
+        1,
+        null,
+        1,
+        null
+      ],
+      [
+        10,
+        null,
+        10,
+        null
+      ]
+    ]
+  },
+  "version": 2
+}
