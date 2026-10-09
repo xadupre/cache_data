@@ -1,0 +1,321 @@
+{
+  "commit_hash": "4b84dacffe0bd0d954251bc29a699b6c549f6680",
+  "date": 1791555793000,
+  "durations": {},
+  "env_name": "virtualenv-py3.12-numpy2.5.3-onnx1.23.1-onnx-ir1.0.0-onnxruntime1.30.0-onnxscript0.7.2-ONNX_LIGHT_CPU_VERSION0.1.20-ONNX_LIGHT_VERSION0.1.30",
+  "env_vars": {
+    "ONNX_LIGHT_CPU_VERSION": "0.1.20",
+    "ONNX_LIGHT_VERSION": "0.1.30"
+  },
+  "params": {
+    "arch": "x86_64",
+    "cpu": "AMD EPYC 9V45 96-Core Processor",
+    "instruction_sets": "SSE2, SSE3, SSSE3, SSE4.1, SSE4.2, AVX, AVX2, AVX-VNNI, AVX-512F, AVX-512BW, AVX-512CD, AVX-512DQ, AVX-512VL, AVX-512VNNI",
+    "machine": "AMD EPYC 9V45 96-Core Processor (4 vCPU)",
+    "num_cpu": "4",
+    "numpy": "2.5.3",
+    "onnx": "1.23.1",
+    "onnx-ir": "1.0.0",
+    "onnxruntime": "1.30.0",
+    "onnxscript": "0.7.2",
+    "os": "anonymous",
+    "python": "3.12",
+    "ram": "anonymous"
+  },
+  "python": "3.12",
+  "requirements": {
+    "numpy": "2.5.3",
+    "onnx": "1.23.1",
+    "onnx-ir": "1.0.0",
+    "onnxruntime": "1.30.0",
+    "onnxscript": "0.7.2"
+  },
+  "result_columns": [
+    "result",
+    "params",
+    "version",
+    "started_at",
+    "duration",
+    "stats_ci_99_a",
+    "stats_ci_99_b",
+    "stats_q_25",
+    "stats_q_75",
+    "stats_number",
+    "stats_repeat",
+    "samples",
+    "profile"
+  ],
+  "results": {
+    "cpu_backend_cases.tensor.cases.CastFloat64.time_cast_large_to_float32": [
+      [
+        0.00012759700001652163,
+        0.0001768005000002404
+      ],
+      [
+        [
+          "'float64'"
+        ],
+        [
+          "'(1048576,)'"
+        ],
+        [
+          "'onnx-light-cpu'",
+          "'onnxruntime'"
+        ]
+      ],
+      "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+      1791584604411,
+      16.881,
+      [
+        0.00010338,
+        0.00015483
+      ],
+      [
+        0.00015923,
+        0.00024278
+      ],
+      [
+        0.00011456,
+        0.00016038
+      ],
+      [
+        0.00013073,
+        0.00019602
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        10,
+        10
+      ]
+    ],
+    "cpu_backend_cases.tensor.cases.CastFloat64.time_cast_matrix_to_float32": [
+      [
+        0.00011299000000519754,
+        0.00017749200002015186
+      ],
+      [
+        [
+          "'float64'"
+        ],
+        [
+          "'(256, 4096)'"
+        ],
+        [
+          "'onnx-light-cpu'",
+          "'onnxruntime'"
+        ]
+      ],
+      "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+      1791584612699,
+      16.734,
+      [
+        0.0001005,
+        0.00014948
+      ],
+      [
+        0.00016091,
+        0.0002106
+      ],
+      [
+        0.00011186,
+        0.00015953
+      ],
+      [
+        0.00012902,
+        0.0001942
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        10,
+        10
+      ]
+    ],
+    "cpu_backend_cases.tensor.cases.CastFloat64.time_cast_medium_to_float32": [
+      [
+        1.1777499992149387e-05,
+        1.3860999999337764e-05
+      ],
+      [
+        [
+          "'float64'"
+        ],
+        [
+          "'(1024,)'"
+        ],
+        [
+          "'onnx-light-cpu'",
+          "'onnxruntime'"
+        ]
+      ],
+      "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+      1791584620921,
+      15.999,
+      [
+        9.564e-06,
+        1.2749e-05
+      ],
+      [
+        2.1482e-05,
+        1.8888e-05
+      ],
+      [
+        1.0734e-05,
+        1.3315e-05
+      ],
+      [
+        1.2849e-05,
+        1.423e-05
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        10,
+        10
+      ]
+    ],
+    "cpu_backend_cases.tensor.cases.CastFloat64.time_cast_scalar_to_float32": [
+      [
+        1.3921499999014486e-05,
+        1.40315000010105e-05
+      ],
+      [
+        [
+          "'float64'"
+        ],
+        [
+          "'()'"
+        ],
+        [
+          "'onnx-light-cpu'",
+          "'onnxruntime'"
+        ]
+      ],
+      "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+      1791584628879,
+      16.074,
+      [
+        1.1607e-05,
+        1.323e-05
+      ],
+      [
+        1.6695e-05,
+        1.8178e-05
+      ],
+      [
+        1.2907e-05,
+        1.3561e-05
+      ],
+      [
+        1.5398e-05,
+        1.527e-05
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        10,
+        10
+      ]
+    ],
+    "cpu_backend_cases.tensor.cases.CastFloat64.time_cast_small_to_float32": [
+      [
+        1.1227000001667875e-05,
+        1.3840500002970657e-05
+      ],
+      [
+        [
+          "'float64'"
+        ],
+        [
+          "'(16,)'"
+        ],
+        [
+          "'onnx-light-cpu'",
+          "'onnxruntime'"
+        ]
+      ],
+      "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+      1791584636911,
+      16.224,
+      [
+        8.593e-06,
+        1.2098e-05
+      ],
+      [
+        1.977e-05,
+        1.8958e-05
+      ],
+      [
+        1.0023e-05,
+        1.3287e-05
+      ],
+      [
+        1.2379e-05,
+        1.496e-05
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        10,
+        10
+      ]
+    ],
+    "cpu_backend_cases.tensor.cases.CastFloat64.time_cast_tail_to_float32": [
+      [
+        2.109200001143563e-05,
+        2.3630999990587043e-05
+      ],
+      [
+        [
+          "'float64'"
+        ],
+        [
+          "'(65537,)'"
+        ],
+        [
+          "'onnx-light-cpu'",
+          "'onnxruntime'"
+        ]
+      ],
+      "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+      1791584645156,
+      16.209,
+      [
+        1.9149e-05,
+        2.0961e-05
+      ],
+      [
+        2.4346e-05,
+        3.2338e-05
+      ],
+      [
+        1.9682e-05,
+        2.2143e-05
+      ],
+      [
+        2.2346e-05,
+        2.6049e-05
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        10,
+        10
+      ]
+    ]
+  },
+  "version": 2
+}
