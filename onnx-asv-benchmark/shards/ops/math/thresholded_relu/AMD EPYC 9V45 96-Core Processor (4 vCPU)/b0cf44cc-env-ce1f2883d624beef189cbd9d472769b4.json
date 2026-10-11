@@ -1,0 +1,170 @@
+{
+  "commit_hash": "b0cf44cc6467764f6d3c5f0898600166af152605",
+  "date": 1791655630000,
+  "durations": {},
+  "env_name": "virtualenv-py3.12-numpy2.5.3-onnx1.23.1-onnx-ir1.0.0-onnxruntime1.30.0-onnxscript0.7.2-ONNX_LIGHT_CPU_VERSION0.1.20-ONNX_LIGHT_VERSION0.1.30",
+  "env_vars": {
+    "ONNX_LIGHT_CPU_VERSION": "0.1.20",
+    "ONNX_LIGHT_VERSION": "0.1.30"
+  },
+  "params": {
+    "arch": "x86_64",
+    "cpu": "AMD EPYC 9V45 96-Core Processor",
+    "instruction_sets": "SSE2, SSE3, SSSE3, SSE4.1, SSE4.2, AVX, AVX2, AVX-VNNI, AVX-512F, AVX-512BW, AVX-512CD, AVX-512DQ, AVX-512VL, AVX-512VNNI",
+    "machine": "AMD EPYC 9V45 96-Core Processor (4 vCPU)",
+    "num_cpu": "4",
+    "numpy": "2.5.3",
+    "onnx": "1.23.1",
+    "onnx-ir": "1.0.0",
+    "onnxruntime": "1.30.0",
+    "onnxscript": "0.7.2",
+    "os": "anonymous",
+    "python": "3.12",
+    "ram": "anonymous"
+  },
+  "python": "3.12",
+  "requirements": {
+    "numpy": "2.5.3",
+    "onnx": "1.23.1",
+    "onnx-ir": "1.0.0",
+    "onnxruntime": "1.30.0",
+    "onnxscript": "0.7.2"
+  },
+  "result_columns": [
+    "result",
+    "params",
+    "version",
+    "started_at",
+    "duration",
+    "stats_ci_99_a",
+    "stats_ci_99_b",
+    "stats_q_25",
+    "stats_q_75",
+    "stats_number",
+    "stats_repeat",
+    "samples",
+    "profile"
+  ],
+  "results": {
+    "ops.math.thresholded_relu.ThresholdedRelu.time_run": [
+      [
+        0.0008633940000066787,
+        0.010298124000001962,
+        0.0008663379999944709,
+        0.0008596230000108562,
+        0.0011653515000062953,
+        0.010037289000010219,
+        null,
+        null,
+        null,
+        0.015049432500006787,
+        0.001656421000006958,
+        0.0016647785000003523
+      ],
+      [
+        [
+          "'x=4194304'"
+        ],
+        [
+          "'float32'",
+          "'float16'",
+          "'float64'"
+        ],
+        [
+          "'onnxruntime'",
+          "'onnx-reference'",
+          "'onnx-light'",
+          "'onnx-light-cpu'"
+        ]
+      ],
+      "862874b6d501be674f68e019bfd43f212b9d44f86a58f42d0553b43386a75e0c",
+      1791678511790,
+      31.335,
+      [
+        0.00074507,
+        0.0096913,
+        0.00085031,
+        0.00083208,
+        0.0010993,
+        0.0075007,
+        null,
+        null,
+        null,
+        0.014659,
+        0.0016292,
+        0.001638
+      ],
+      [
+        0.00094649,
+        0.011571,
+        0.00089341,
+        0.00092664,
+        0.001332,
+        0.010766,
+        null,
+        null,
+        null,
+        0.015633,
+        0.0017122,
+        0.001688
+      ],
+      [
+        0.0007767,
+        0.010137,
+        0.00086191,
+        0.00084964,
+        0.0011133,
+        0.0079847,
+        null,
+        null,
+        null,
+        0.014871,
+        0.0016474,
+        0.0016532
+      ],
+      [
+        0.00094046,
+        0.010624,
+        0.00088306,
+        0.00087649,
+        0.0012039,
+        0.010544,
+        null,
+        null,
+        null,
+        0.015416,
+        0.0016662,
+        0.0016718
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null,
+        1,
+        1,
+        1
+      ],
+      [
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        null,
+        null,
+        null,
+        10,
+        10,
+        10
+      ]
+    ]
+  },
+  "version": 2
+}
