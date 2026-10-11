@@ -1,0 +1,339 @@
+{
+  "commit_hash": "b0cf44cc6467764f6d3c5f0898600166af152605",
+  "date": 1791655630000,
+  "durations": {},
+  "env_name": "virtualenv-py3.12-numpy2.5.3-onnx1.23.1-onnx-ir1.0.0-onnxruntime1.30.0-onnxscript0.7.2-ONNX_LIGHT_CPU_VERSION0.1.20-ONNX_LIGHT_VERSION0.1.30",
+  "env_vars": {
+    "ONNX_LIGHT_CPU_VERSION": "0.1.20",
+    "ONNX_LIGHT_VERSION": "0.1.30"
+  },
+  "params": {
+    "arch": "x86_64",
+    "cpu": "AMD EPYC 7763 64-Core Processor",
+    "instruction_sets": "SSE2, SSE3, SSSE3, SSE4.1, SSE4.2, AVX, AVX2",
+    "machine": "AMD EPYC 7763 64-Core Processor (4 vCPU)",
+    "num_cpu": "4",
+    "numpy": "2.5.3",
+    "onnx": "1.23.1",
+    "onnx-ir": "1.0.0",
+    "onnxruntime": "1.30.0",
+    "onnxscript": "0.7.2",
+    "os": "anonymous",
+    "python": "3.12",
+    "ram": "anonymous"
+  },
+  "python": "3.12",
+  "requirements": {
+    "numpy": "2.5.3",
+    "onnx": "1.23.1",
+    "onnx-ir": "1.0.0",
+    "onnxruntime": "1.30.0",
+    "onnxscript": "0.7.2"
+  },
+  "result_columns": [
+    "result",
+    "params",
+    "version",
+    "started_at",
+    "duration",
+    "stats_ci_99_a",
+    "stats_ci_99_b",
+    "stats_q_25",
+    "stats_q_75",
+    "stats_number",
+    "stats_repeat",
+    "samples",
+    "profile"
+  ],
+  "results": {
+    "cpu_backend_cases.math.cases.GemmFloat64Inputs2Shard2.time_gemm_direct_k32_transA_0_transB_0_bias_none": [
+      [
+        5.363499998622956e-05,
+        5.657050000706931e-05
+      ],
+      [
+        [
+          "'float64'"
+        ],
+        [
+          "'float64'"
+        ],
+        [
+          "'(64, 32) x (32, 256)'"
+        ],
+        [
+          "'onnx-light-cpu'",
+          "'onnxruntime'"
+        ]
+      ],
+      "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+      1791679086839,
+      25.559,
+      [
+        4.7639e-05,
+        5.1967e-05
+      ],
+      [
+        5.5182e-05,
+        9.175e-05
+      ],
+      [
+        5.0361e-05,
+        5.3808e-05
+      ],
+      [
+        5.4432e-05,
+        6.2383e-05
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        10,
+        10
+      ]
+    ],
+    "cpu_backend_cases.math.cases.GemmFloat64Inputs2Shard2.time_gemm_skinny_m_transA_0_transB_0_bias_none": [
+      [
+        0.0006872794999992493,
+        0.00047187099998780013
+      ],
+      [
+        [
+          "'float64'"
+        ],
+        [
+          "'float64'"
+        ],
+        [
+          "'(1, 1024) x (1024, 1024)'"
+        ],
+        [
+          "'onnx-light-cpu'",
+          "'onnxruntime'"
+        ]
+      ],
+      "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+      1791679099582,
+      26.542,
+      [
+        0.0006473,
+        0.00034119
+      ],
+      [
+        0.00079281,
+        0.00058049
+      ],
+      [
+        0.0006606,
+        0.00040386
+      ],
+      [
+        0.00074428,
+        0.00050758
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        10,
+        10
+      ]
+    ],
+    "cpu_backend_cases.math.cases.GemmFloat64Inputs2Shard2.time_gemm_split_k_16384_transA_0_transB_0_bias_none": [
+      [
+        5.009800000266296e-05,
+        0.00010231999999632535
+      ],
+      [
+        [
+          "'float64'"
+        ],
+        [
+          "'float64'"
+        ],
+        [
+          "'(2, 16384) x (16384, 2)'"
+        ],
+        [
+          "'onnx-light-cpu'",
+          "'onnxruntime'"
+        ]
+      ],
+      "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+      1791679112882,
+      25.615,
+      [
+        4.847e-05,
+        9.7742e-05
+      ],
+      [
+        7.0371e-05,
+        0.00012189
+      ],
+      [
+        4.9067e-05,
+        0.00010062
+      ],
+      [
+        5.096e-05,
+        0.00011056
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        10,
+        10
+      ]
+    ],
+    "cpu_backend_cases.math.cases.GemmFloat64Inputs2Shard2.time_gemm_square_128_transA_0_transB_1_bias_none": [
+      [
+        0.00013314749999437936,
+        0.00013925449999874218
+      ],
+      [
+        [
+          "'float64'"
+        ],
+        [
+          "'float64'"
+        ],
+        [
+          "'(128, 128) x (128, 128)'"
+        ],
+        [
+          "'onnx-light-cpu'",
+          "'onnxruntime'"
+        ]
+      ],
+      "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+      1791679125651,
+      25.62,
+      [
+        0.00012508,
+        0.00011679
+      ],
+      [
+        0.00014513,
+        0.00020275
+      ],
+      [
+        0.00012914,
+        0.00013201
+      ],
+      [
+        0.00013838,
+        0.00015294
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        10,
+        10
+      ]
+    ],
+    "cpu_backend_cases.math.cases.GemmFloat64Inputs2Shard2.time_gemm_square_4096_transA_0_transB_0_bias_none": [
+      [
+        1.7109029675000045,
+        1.816931303500013
+      ],
+      [
+        [
+          "'float64'"
+        ],
+        [
+          "'float64'"
+        ],
+        [
+          "'(4096, 4096) x (4096, 4096)'"
+        ],
+        [
+          "'onnx-light-cpu'",
+          "'onnxruntime'"
+        ]
+      ],
+      "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+      1791679138448,
+      70.321,
+      [
+        1.6962,
+        1.646
+      ],
+      [
+        1.7264,
+        1.9454
+      ],
+      [
+        1.7062,
+        1.78
+      ],
+      [
+        1.716,
+        1.8327
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        4,
+        4
+      ]
+    ],
+    "cpu_backend_cases.math.cases.GemmFloat64Inputs2Shard2.time_gemm_transformer_projection_transA_0_transB_0_bias_none": [
+      [
+        0.008419347500023378,
+        0.007012736999982394
+      ],
+      [
+        [
+          "'float64'"
+        ],
+        [
+          "'float64'"
+        ],
+        [
+          "'(128, 768) x (768, 3072)'"
+        ],
+        [
+          "'onnx-light-cpu'",
+          "'onnxruntime'"
+        ]
+      ],
+      "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+      1791679173678,
+      28.435,
+      [
+        0.0082274,
+        0.0067404
+      ],
+      [
+        0.010147,
+        0.0073498
+      ],
+      [
+        0.0083076,
+        0.0068389
+      ],
+      [
+        0.0086138,
+        0.0071765
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        10,
+        10
+      ]
+    ]
+  },
+  "version": 2
+}
