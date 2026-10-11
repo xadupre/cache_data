@@ -1,0 +1,73 @@
+{
+  "builder.save.onnx_io.OnnxSave.time_run": {
+    "code": "class _OnnxSave:\n    def time_run(self, shape, dtype, case, library):\n        case = self._full_case(case, library)\n        _, files, library = case.split(\"/\")\n        external = files.startswith(\"2file\")\n        threads = 4 if files.endswith(\"x4\") else 1\n        if library == \"onnx\":\n            if external:\n                onnx.save_model(\n                    self.onnx_model,\n                    self.out,\n                    save_as_external_data=True,\n                    all_tensors_to_one_file=True,\n                    location=Path(self.out_data).name,\n                    size_threshold=0,\n                )\n            else:\n                onnx.save(self.onnx_model, self.out)\n        elif library == \"ir-py\":\n            if external:\n                self.ir.save(\n                    self.ir_model, self.out, external_data=Path(self.out_data).name\n                )\n            else:\n                self.ir.save(self.ir_model, self.out)\n        else:\n            options = {\"num_threads\": threads}\n            if external:\n                options[\"location\"] = self.out_data\n            self._light_save(options)\n        if external:\n            _flush(self.out_data)\n            _flush(self.out)\n\n    def setup(self, shape, dtype, case, library):\n        super().setup(shape, dtype, case, library)\n        self.out = str(Path(self.tmp.name) / \"out.onnx\")\n        self.out_data = self.out + \".data\"",
+    "min_run_count": 2,
+    "name": "builder.save.onnx_io.OnnxSave.time_run",
+    "number": 1,
+    "param_names": [
+      "shape",
+      "dtype",
+      "case",
+      "library"
+    ],
+    "params": [
+      [
+        "'X=dynamicx2048 (40 Gemm)'"
+      ],
+      [
+        "'float32'"
+      ],
+      [
+        "'save/1filex1'",
+        "'save/2filex1'",
+        "'save/1filex4'",
+        "'save/2filex4'"
+      ],
+      [
+        "'onnx'",
+        "'ir-py'",
+        "'onnxlight'"
+      ]
+    ],
+    "repeat": 1,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "timeout": 600,
+    "type": "time",
+    "unit": "seconds",
+    "version": "285e7c0408f50b1d7d7baf988850c218cd9486323dfdc156860470b8455e7d86",
+    "warmup_time": -1
+  },
+  "builder.save.onnx_io.OnnxSaveCpp.track_run": {
+    "code": "class _OnnxCpp:\n    def track_run(self, shape, dtype, case, library):\n        case = self._full_case(case, library)\n        operation, files, _ = case.split(\"/\")\n        threads = 4 if files.endswith(\"x4\") else 1\n        args = [\n            self.path,\n            self.out_dir.name,\n            \"20\",\n            str(threads),\n            \"external\" if files.startswith(\"2file\") else \"onefile\",\n        ]\n        metric = re.compile(\n            rf\"^\\s*(Average|Median|Min|Max|Std|Standard deviation) {operation} \"\n            r\"\\(ms\\)\\s*:\\s*([0-9.eE+-]+)\\s*$\"\n        )\n        result = measure_cpp_with_example(\n            self.executable, args, metric, case, Path(self.executable).name\n        )\n        if result is None:\n            raise RuntimeError(f\"C++ benchmark {case} failed\")\n        average = result[\"avg\"]\n        if not np.isfinite(average) or average < 0:\n            raise RuntimeError(\n                f\"C++ benchmark {case} returned invalid average {average!r}\"\n            )\n        return average\n\n    def setup(self, shape, dtype, case, library):\n        self.out_dir = None\n        self._full_case(case, library)\n        executable = \"save_onnx_light_time\"\n        paths = (\n            \"build/save-onnx-light-time-example/save_onnx_light_time\",\n            \"build/examples/save_onnx_light_time/save_onnx_light_time\",\n            \"build-save-onnx-light-time/save_onnx_light_time\",\n        )\n        self.executable = find_standalone_executable(\n            executable, list(map(Path, paths)), script_file=None\n        )\n        if self.executable is None:\n            raise NotImplementedError(f\"{executable} is unavailable\")\n        super().setup(shape, dtype, case, library)\n        self.out_dir = tempfile.TemporaryDirectory()",
+    "name": "builder.save.onnx_io.OnnxSaveCpp.track_run",
+    "param_names": [
+      "shape",
+      "dtype",
+      "case",
+      "library"
+    ],
+    "params": [
+      [
+        "'X=dynamicx2048 (40 Gemm)'"
+      ],
+      [
+        "'float32'"
+      ],
+      [
+        "'save/1filex1'",
+        "'save/1filex4'",
+        "'save/2filex1'",
+        "'save/2filex4'"
+      ],
+      [
+        "'onnxlight-cpp'"
+      ]
+    ],
+    "timeout": 600,
+    "type": "track",
+    "unit": "seconds",
+    "version": "4effd14be05c3c328d9ea3ba9ecbaacc988ae4d4798b3a51c6c60ddaa10cb41d"
+  },
+  "version": 2
+}
