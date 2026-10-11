@@ -1,0 +1,147 @@
+{
+  "commit_hash": "b0cf44cc6467764f6d3c5f0898600166af152605",
+  "date": 1791655630000,
+  "durations": {},
+  "env_name": "virtualenv-py3.12-numpy2.5.3-onnx1.23.1-onnx-ir1.0.0-onnxruntime1.30.0-onnxscript0.7.2-ONNX_LIGHT_CPU_VERSION0.1.20-ONNX_LIGHT_VERSION0.1.30",
+  "env_vars": {
+    "ONNX_LIGHT_CPU_VERSION": "0.1.20",
+    "ONNX_LIGHT_VERSION": "0.1.30"
+  },
+  "params": {
+    "arch": "x86_64",
+    "cpu": "AMD EPYC 7763 64-Core Processor",
+    "instruction_sets": "SSE2, SSE3, SSSE3, SSE4.1, SSE4.2, AVX, AVX2",
+    "machine": "AMD EPYC 7763 64-Core Processor (4 vCPU)",
+    "num_cpu": "4",
+    "numpy": "2.5.3",
+    "onnx": "1.23.1",
+    "onnx-ir": "1.0.0",
+    "onnxruntime": "1.30.0",
+    "onnxscript": "0.7.2",
+    "os": "anonymous",
+    "python": "3.12",
+    "ram": "anonymous"
+  },
+  "python": "3.12",
+  "requirements": {
+    "numpy": "2.5.3",
+    "onnx": "1.23.1",
+    "onnx-ir": "1.0.0",
+    "onnxruntime": "1.30.0",
+    "onnxscript": "0.7.2"
+  },
+  "result_columns": [
+    "result",
+    "params",
+    "version",
+    "started_at",
+    "duration",
+    "stats_ci_99_a",
+    "stats_ci_99_b",
+    "stats_q_25",
+    "stats_q_75",
+    "stats_number",
+    "stats_repeat",
+    "samples",
+    "profile"
+  ],
+  "results": {
+    "cpu_backend_cases.math.cases.MatMulIntegerInt8Uint8Shard1.time_matmulinteger_large_k": [
+      [
+        0.00035306500001297536,
+        0.0006770220000191784
+      ],
+      [
+        [
+          "'int8'"
+        ],
+        [
+          "'uint8'"
+        ],
+        [
+          "'(32, 8192) x (8192, 32)'"
+        ],
+        [
+          "'onnx-light-cpu'",
+          "'onnxruntime'"
+        ]
+      ],
+      "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+      1791679630604,
+      25.979,
+      [
+        0.00031615,
+        0.00066061
+      ],
+      [
+        0.0014939,
+        0.00069132
+      ],
+      [
+        0.0003343,
+        0.00067549
+      ],
+      [
+        0.00037478,
+        0.00067883
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        10,
+        10
+      ]
+    ],
+    "cpu_backend_cases.math.cases.MatMulIntegerInt8Uint8Shard1.time_matmulinteger_square_64": [
+      [
+        8.815499998604537e-05,
+        4.9106999995274236e-05
+      ],
+      [
+        [
+          "'int8'"
+        ],
+        [
+          "'uint8'"
+        ],
+        [
+          "'(64, 64) x (64, 64)'"
+        ],
+        [
+          "'onnx-light-cpu'",
+          "'onnxruntime'"
+        ]
+      ],
+      "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+      1791679643558,
+      25.403,
+      [
+        8.4638e-05,
+        4.3802e-05
+      ],
+      [
+        0.00045325,
+        6.6344e-05
+      ],
+      [
+        8.7351e-05,
+        4.6417e-05
+      ],
+      [
+        9.3179e-05,
+        5.2335e-05
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        10,
+        10
+      ]
+    ]
+  },
+  "version": 2
+}
