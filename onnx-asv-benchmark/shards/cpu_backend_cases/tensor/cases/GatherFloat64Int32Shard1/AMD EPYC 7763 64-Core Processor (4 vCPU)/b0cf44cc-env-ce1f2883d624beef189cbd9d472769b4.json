@@ -1,0 +1,195 @@
+{
+  "commit_hash": "b0cf44cc6467764f6d3c5f0898600166af152605",
+  "date": 1791655630000,
+  "durations": {},
+  "env_name": "virtualenv-py3.12-numpy2.5.3-onnx1.23.1-onnx-ir1.0.0-onnxruntime1.30.0-onnxscript0.7.2-ONNX_LIGHT_CPU_VERSION0.1.20-ONNX_LIGHT_VERSION0.1.30",
+  "env_vars": {
+    "ONNX_LIGHT_CPU_VERSION": "0.1.20",
+    "ONNX_LIGHT_VERSION": "0.1.30"
+  },
+  "params": {
+    "arch": "x86_64",
+    "cpu": "AMD EPYC 7763 64-Core Processor",
+    "instruction_sets": "SSE2, SSE3, SSSE3, SSE4.1, SSE4.2, AVX, AVX2",
+    "machine": "AMD EPYC 7763 64-Core Processor (4 vCPU)",
+    "num_cpu": "4",
+    "numpy": "2.5.3",
+    "onnx": "1.23.1",
+    "onnx-ir": "1.0.0",
+    "onnxruntime": "1.30.0",
+    "onnxscript": "0.7.2",
+    "os": "anonymous",
+    "python": "3.12",
+    "ram": "anonymous"
+  },
+  "python": "3.12",
+  "requirements": {
+    "numpy": "2.5.3",
+    "onnx": "1.23.1",
+    "onnx-ir": "1.0.0",
+    "onnxruntime": "1.30.0",
+    "onnxscript": "0.7.2"
+  },
+  "result_columns": [
+    "result",
+    "params",
+    "version",
+    "started_at",
+    "duration",
+    "stats_ci_99_a",
+    "stats_ci_99_b",
+    "stats_q_25",
+    "stats_q_75",
+    "stats_number",
+    "stats_repeat",
+    "samples",
+    "profile"
+  ],
+  "results": {
+    "cpu_backend_cases.tensor.cases.GatherFloat64Int32Shard1.time_gather_embedding_large_indices32": [
+      [
+        0.00023290250000229662,
+        0.00023712000000841726
+      ],
+      [
+        [
+          "'float64'"
+        ],
+        [
+          "'int32'"
+        ],
+        [
+          "'(8192, 256) x (2048,)'"
+        ],
+        [
+          "'onnx-light-cpu'",
+          "'onnxruntime'"
+        ]
+      ],
+      "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+      1791680529292,
+      27.344,
+      [
+        0.0002141,
+        0.00021538
+      ],
+      [
+        0.00025347,
+        0.00046853
+      ],
+      [
+        0.0002288,
+        0.00022411
+      ],
+      [
+        0.0002382,
+        0.00025964
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        10,
+        10
+      ]
+    ],
+    "cpu_backend_cases.tensor.cases.GatherFloat64Int32Shard1.time_gather_embedding_tail_indices32": [
+      [
+        1.8730499988350857e-05,
+        2.5874000002090725e-05
+      ],
+      [
+        [
+          "'float64'"
+        ],
+        [
+          "'int32'"
+        ],
+        [
+          "'(1024, 65) x (31,)'"
+        ],
+        [
+          "'onnx-light-cpu'",
+          "'onnxruntime'"
+        ]
+      ],
+      "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+      1791680542937,
+      25.28,
+      [
+        1.7844e-05,
+        2.5238e-05
+      ],
+      [
+        2.0769e-05,
+        3.2451e-05
+      ],
+      [
+        1.8154e-05,
+        2.5618e-05
+      ],
+      [
+        1.9303e-05,
+        2.8143e-05
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        10,
+        10
+      ]
+    ],
+    "cpu_backend_cases.tensor.cases.GatherFloat64Int32Shard1.time_gather_vector_random_indices32": [
+      [
+        0.00018971150001334536,
+        0.00032672849999926257
+      ],
+      [
+        [
+          "'float64'"
+        ],
+        [
+          "'int32'"
+        ],
+        [
+          "'(1048576,) x (65535,)'"
+        ],
+        [
+          "'onnx-light-cpu'",
+          "'onnxruntime'"
+        ]
+      ],
+      "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+      1791680555575,
+      26.222,
+      [
+        0.00018043,
+        0.0003205
+      ],
+      [
+        0.00022798,
+        0.00035003
+      ],
+      [
+        0.00018495,
+        0.00032615
+      ],
+      [
+        0.00019184,
+        0.00032847
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        10,
+        10
+      ]
+    ]
+  },
+  "version": 2
+}
