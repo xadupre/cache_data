@@ -1,0 +1,204 @@
+{
+  "commit_hash": "b0cf44cc6467764f6d3c5f0898600166af152605",
+  "date": 1791655630000,
+  "durations": {},
+  "env_name": "virtualenv-py3.12-numpy2.5.3-onnx1.23.1-onnx-ir1.0.0-onnxruntime1.30.0-onnxscript0.7.2-ONNX_LIGHT_CPU_VERSION0.1.20-ONNX_LIGHT_VERSION0.1.30",
+  "env_vars": {
+    "ONNX_LIGHT_CPU_VERSION": "0.1.20",
+    "ONNX_LIGHT_VERSION": "0.1.30"
+  },
+  "params": {
+    "arch": "x86_64",
+    "cpu": "AMD EPYC 7763 64-Core Processor",
+    "instruction_sets": "SSE2, SSE3, SSSE3, SSE4.1, SSE4.2, AVX, AVX2",
+    "machine": "AMD EPYC 7763 64-Core Processor (4 vCPU)",
+    "num_cpu": "4",
+    "numpy": "2.5.3",
+    "onnx": "1.23.1",
+    "onnx-ir": "1.0.0",
+    "onnxruntime": "1.30.0",
+    "onnxscript": "0.7.2",
+    "os": "anonymous",
+    "python": "3.12",
+    "ram": "anonymous"
+  },
+  "python": "3.12",
+  "requirements": {
+    "numpy": "2.5.3",
+    "onnx": "1.23.1",
+    "onnx-ir": "1.0.0",
+    "onnxruntime": "1.30.0",
+    "onnxscript": "0.7.2"
+  },
+  "result_columns": [
+    "result",
+    "params",
+    "version",
+    "started_at",
+    "duration",
+    "stats_ci_99_a",
+    "stats_ci_99_b",
+    "stats_q_25",
+    "stats_q_75",
+    "stats_number",
+    "stats_repeat",
+    "samples",
+    "profile"
+  ],
+  "results": {
+    "cpu_backend_cases.tensor.cases.ScatterNDFloat16Int64Inputs3.time_scatternd_hidden6656_one_row_indices64": [
+      [
+        0.0001118655000027502,
+        9.681199999533874e-05
+      ],
+      [
+        [
+          "'float16'"
+        ],
+        [
+          "'int64'"
+        ],
+        [
+          "'float16'"
+        ],
+        [
+          "'(128, 6656) x (1, 1) x (1, 6656)'"
+        ],
+        [
+          "'onnx-light-cpu'",
+          "'onnxruntime'"
+        ]
+      ],
+      "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+      1791680047107,
+      26.102,
+      [
+        0.00010921,
+        9.2253e-05
+      ],
+      [
+        0.0004889,
+        0.00010032
+      ],
+      [
+        0.00011052,
+        9.3821e-05
+      ],
+      [
+        0.00011834,
+        9.7727e-05
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        10,
+        10
+      ]
+    ],
+    "cpu_backend_cases.tensor.cases.ScatterNDFloat16Int64Inputs3.time_scatternd_hidden6656_rows_indices64": [
+      [
+        0.00012389300000847925,
+        9.903650000353537e-05
+      ],
+      [
+        [
+          "'float16'"
+        ],
+        [
+          "'int64'"
+        ],
+        [
+          "'float16'"
+        ],
+        [
+          "'(128, 6656) x (8, 1) x (8, 6656)'"
+        ],
+        [
+          "'onnx-light-cpu'",
+          "'onnxruntime'"
+        ]
+      ],
+      "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+      1791680060106,
+      26.166,
+      [
+        0.00011149,
+        9.5749e-05
+      ],
+      [
+        0.00043195,
+        0.00014742
+      ],
+      [
+        0.00011616,
+        9.8485e-05
+      ],
+      [
+        0.00013723,
+        0.00010256
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        10,
+        10
+      ]
+    ],
+    "cpu_backend_cases.tensor.cases.ScatterNDFloat16Int64Inputs3.time_scatternd_small_rows_indices64": [
+      [
+        1.8595000000232176e-05,
+        2.733150000722162e-05
+      ],
+      [
+        [
+          "'float16'"
+        ],
+        [
+          "'int64'"
+        ],
+        [
+          "'float16'"
+        ],
+        [
+          "'(32, 64) x (4, 1) x (4, 64)'"
+        ],
+        [
+          "'onnx-light-cpu'",
+          "'onnxruntime'"
+        ]
+      ],
+      "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+      1791680073160,
+      25.115,
+      [
+        1.8264e-05,
+        2.6299e-05
+      ],
+      [
+        2.2211e-05,
+        3.3443e-05
+      ],
+      [
+        1.8517e-05,
+        2.7113e-05
+      ],
+      [
+        1.886e-05,
+        2.9535e-05
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        10,
+        10
+      ]
+    ]
+  },
+  "version": 2
+}
