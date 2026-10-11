@@ -1,0 +1,339 @@
+{
+  "commit_hash": "b0cf44cc6467764f6d3c5f0898600166af152605",
+  "date": 1791655630000,
+  "durations": {},
+  "env_name": "virtualenv-py3.12-numpy2.5.3-onnx1.23.1-onnx-ir1.0.0-onnxruntime1.30.0-onnxscript0.7.2-ONNX_LIGHT_CPU_VERSION0.1.20-ONNX_LIGHT_VERSION0.1.30",
+  "env_vars": {
+    "ONNX_LIGHT_CPU_VERSION": "0.1.20",
+    "ONNX_LIGHT_VERSION": "0.1.30"
+  },
+  "params": {
+    "arch": "x86_64",
+    "cpu": "Intel(R) Xeon(R) Platinum 8370C CPU @ 2.80GHz",
+    "instruction_sets": "SSE2, SSE3, SSSE3, SSE4.1, SSE4.2, AVX, AVX2, AVX-512F, AVX-512BW, AVX-512CD, AVX-512DQ, AVX-512VL, AVX-512VNNI",
+    "machine": "Intel(R) Xeon(R) Platinum 8370C CPU @ 2.80GHz (4 vCPU)",
+    "num_cpu": "4",
+    "numpy": "2.5.3",
+    "onnx": "1.23.1",
+    "onnx-ir": "1.0.0",
+    "onnxruntime": "1.30.0",
+    "onnxscript": "0.7.2",
+    "os": "anonymous",
+    "python": "3.12",
+    "ram": "anonymous"
+  },
+  "python": "3.12",
+  "requirements": {
+    "numpy": "2.5.3",
+    "onnx": "1.23.1",
+    "onnx-ir": "1.0.0",
+    "onnxruntime": "1.30.0",
+    "onnxscript": "0.7.2"
+  },
+  "result_columns": [
+    "result",
+    "params",
+    "version",
+    "started_at",
+    "duration",
+    "stats_ci_99_a",
+    "stats_ci_99_b",
+    "stats_q_25",
+    "stats_q_75",
+    "stats_number",
+    "stats_repeat",
+    "samples",
+    "profile"
+  ],
+  "results": {
+    "cpu_backend_cases.nn.cases.SimplifiedLayerNormalizationFloat32Inputs2Shard1.time_simplified_layer_normalization_decode_w128_stash1_with_inv": [
+      [
+        1.8482000001540655e-05,
+        2.3240499999133135e-05
+      ],
+      [
+        [
+          "'float32'"
+        ],
+        [
+          "'float32'"
+        ],
+        [
+          "'(1, 128) x (128,)'"
+        ],
+        [
+          "'onnx-light-cpu'",
+          "'onnxruntime'"
+        ]
+      ],
+      "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+      1791680382067,
+      21.963,
+      [
+        1.6729e-05,
+        2.1362e-05
+      ],
+      [
+        2.2122e-05,
+        2.3643e-05
+      ],
+      [
+        1.7206e-05,
+        2.3112e-05
+      ],
+      [
+        1.9906e-05,
+        2.3486e-05
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        10,
+        10
+      ]
+    ],
+    "cpu_backend_cases.nn.cases.SimplifiedLayerNormalizationFloat32Inputs2Shard1.time_simplified_layer_normalization_outer_broadcast_stash1_with_inv": [
+      [
+        3.21434999932535e-05,
+        6.825699998103119e-05
+      ],
+      [
+        [
+          "'float32'"
+        ],
+        [
+          "'float32'"
+        ],
+        [
+          "'(4, 64, 128) x (4, 1, 128)'"
+        ],
+        [
+          "'onnx-light-cpu'",
+          "'onnxruntime'"
+        ]
+      ],
+      "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+      1791680393030,
+      22.055,
+      [
+        2.9288e-05,
+        6.5716e-05
+      ],
+      [
+        4.5577e-05,
+        0.00012906
+      ],
+      [
+        3.1264e-05,
+        6.6612e-05
+      ],
+      [
+        3.3185e-05,
+        7.6171e-05
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        10,
+        10
+      ]
+    ],
+    "cpu_backend_cases.nn.cases.SimplifiedLayerNormalizationFloat32Inputs2Shard1.time_simplified_layer_normalization_qwen_hidden2048_prefill_stash1_with_inv": [
+      [
+        0.00010002350001059312,
+        7.648449999919649e-05
+      ],
+      [
+        [
+          "'float32'"
+        ],
+        [
+          "'float32'"
+        ],
+        [
+          "'(1, 128, 2048) x (2048,)'"
+        ],
+        [
+          "'onnx-light-cpu'",
+          "'onnxruntime'"
+        ]
+      ],
+      "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+      1791680404028,
+      22.252,
+      [
+        9.3485e-05,
+        7.2227e-05
+      ],
+      [
+        0.00033391,
+        0.00010325
+      ],
+      [
+        9.7448e-05,
+        7.4004e-05
+      ],
+      [
+        0.0001034,
+        8.4698e-05
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        10,
+        10
+      ]
+    ],
+    "cpu_backend_cases.nn.cases.SimplifiedLayerNormalizationFloat32Inputs2Shard1.time_simplified_layer_normalization_qwen_hidden4096_prefill_stash1_with_inv": [
+      [
+        0.00015936150001039096,
+        0.0001781730000089965
+      ],
+      [
+        [
+          "'float32'"
+        ],
+        [
+          "'float32'"
+        ],
+        [
+          "'(1, 128, 4096) x (4096,)'"
+        ],
+        [
+          "'onnx-light-cpu'",
+          "'onnxruntime'"
+        ]
+      ],
+      "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+      1791680415186,
+      22.553,
+      [
+        0.00015212,
+        0.00014174
+      ],
+      [
+        0.00016974,
+        0.00021082
+      ],
+      [
+        0.00015481,
+        0.00014661
+      ],
+      [
+        0.00016527,
+        0.00018183
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        10,
+        10
+      ]
+    ],
+    "cpu_backend_cases.nn.cases.SimplifiedLayerNormalizationFloat32Inputs2Shard1.time_simplified_layer_normalization_qwen_q_norm_stash1_with_inv": [
+      [
+        0.00015312700000436053,
+        0.00023887700001523626
+      ],
+      [
+        [
+          "'float32'"
+        ],
+        [
+          "'float32'"
+        ],
+        [
+          "'(1, 4096, 128) x (128,)'"
+        ],
+        [
+          "'onnx-light-cpu'",
+          "'onnxruntime'"
+        ]
+      ],
+      "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+      1791680426431,
+      22.499,
+      [
+        0.00014755,
+        0.00021919
+      ],
+      [
+        0.0001884,
+        0.00034081
+      ],
+      [
+        0.00014921,
+        0.00022879
+      ],
+      [
+        0.00016492,
+        0.00024997
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        10,
+        10
+      ]
+    ],
+    "cpu_backend_cases.nn.cases.SimplifiedLayerNormalizationFloat32Inputs2Shard1.time_simplified_layer_normalization_suffix_axis1_stash1_with_inv": [
+      [
+        1.9585500012908597e-05,
+        2.4775499980478344e-05
+      ],
+      [
+        [
+          "'float32'"
+        ],
+        [
+          "'float32'"
+        ],
+        [
+          "'(2, 8, 16) x (8, 16)'"
+        ],
+        [
+          "'onnx-light-cpu'",
+          "'onnxruntime'"
+        ]
+      ],
+      "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+      1791680437671,
+      22.032,
+      [
+        1.7267e-05,
+        2.3699e-05
+      ],
+      [
+        3.019e-05,
+        3.1679e-05
+      ],
+      [
+        1.8479e-05,
+        2.4485e-05
+      ],
+      [
+        2.0892e-05,
+        2.5105e-05
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        10,
+        10
+      ]
+    ]
+  },
+  "version": 2
+}
