@@ -1,0 +1,141 @@
+{
+  "commit_hash": "b0cf44cc6467764f6d3c5f0898600166af152605",
+  "date": 1791655630000,
+  "durations": {},
+  "env_name": "virtualenv-py3.12-numpy2.5.3-onnx1.23.1-onnx-ir1.0.0-onnxruntime1.30.0-onnxscript0.7.2-ONNX_LIGHT_CPU_VERSION0.1.20-ONNX_LIGHT_VERSION0.1.30",
+  "env_vars": {
+    "ONNX_LIGHT_CPU_VERSION": "0.1.20",
+    "ONNX_LIGHT_VERSION": "0.1.30"
+  },
+  "params": {
+    "arch": "x86_64",
+    "cpu": "Intel(R) Xeon(R) 6973P-C",
+    "instruction_sets": "SSE2, SSE3, SSSE3, SSE4.1, SSE4.2, AVX, AVX2, AVX-VNNI, AVX-512F, AVX-512BW, AVX-512CD, AVX-512DQ, AVX-512VL, AVX-512VNNI, AMX-BF16, AMX-INT8, AMX-TILE",
+    "machine": "Intel(R) Xeon(R) 6973P-C (4 vCPU)",
+    "num_cpu": "4",
+    "numpy": "2.5.3",
+    "onnx": "1.23.1",
+    "onnx-ir": "1.0.0",
+    "onnxruntime": "1.30.0",
+    "onnxscript": "0.7.2",
+    "os": "anonymous",
+    "python": "3.12",
+    "ram": "anonymous"
+  },
+  "python": "3.12",
+  "requirements": {
+    "numpy": "2.5.3",
+    "onnx": "1.23.1",
+    "onnx-ir": "1.0.0",
+    "onnxruntime": "1.30.0",
+    "onnxscript": "0.7.2"
+  },
+  "result_columns": [
+    "result",
+    "params",
+    "version",
+    "started_at",
+    "duration",
+    "stats_ci_99_a",
+    "stats_ci_99_b",
+    "stats_q_25",
+    "stats_q_75",
+    "stats_number",
+    "stats_repeat",
+    "samples",
+    "profile"
+  ],
+  "results": {
+    "ops.quantization.q_linear_conv.QLinearConv.time_run": [
+      [
+        0.003441002999991838,
+        0.013031544000000395,
+        0.018906986999994047,
+        0.018864256999989948,
+        null,
+        0.011545218999998497,
+        0.01793766600000879,
+        0.017991407500005607
+      ],
+      [
+        [
+          "'x=1x1x1024x1024, x_scale=scalar, x_zero_point=scalar, w=1x1x1x1, w_scale=1, w_zero_point=1, y_scale=scalar, y_zero_point=scalar'"
+        ],
+        [
+          "'uint8'",
+          "'int8'"
+        ],
+        [
+          "'onnxruntime'",
+          "'onnx-reference'",
+          "'onnx-light'",
+          "'onnx-light-cpu'"
+        ]
+      ],
+      "862874b6d501be674f68e019bfd43f212b9d44f86a58f42d0553b43386a75e0c",
+      1791678487030,
+      22.968,
+      [
+        0.0032864,
+        0.012574,
+        0.017374,
+        0.017854,
+        null,
+        0.01099,
+        0.01665,
+        0.016205
+      ],
+      [
+        0.0036888,
+        0.013987,
+        0.019287,
+        0.019515,
+        null,
+        0.012865,
+        0.018367,
+        0.018615
+      ],
+      [
+        0.0034006,
+        0.012695,
+        0.018644,
+        0.018393,
+        null,
+        0.011492,
+        0.017907,
+        0.017837
+      ],
+      [
+        0.0035166,
+        0.0132,
+        0.019065,
+        0.019003,
+        null,
+        0.011788,
+        0.018004,
+        0.018268
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        null,
+        1,
+        1,
+        1
+      ],
+      [
+        10,
+        10,
+        10,
+        10,
+        null,
+        10,
+        10,
+        10
+      ]
+    ]
+  },
+  "version": 2
+}
