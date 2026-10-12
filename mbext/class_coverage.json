@@ -1096,17 +1096,17 @@
       "name": "_Branch"
     }
   ],
-  "date": "2026-10-05T16:11:43Z",
+  "date": "2026-10-12T16:54:37Z",
   "projects": {
     "mbext": {
-      "commit": "368db9b736a8e79859db47dddf492465734d54b6",
+      "commit": "7624f76075548ec910db475413f42774a8cb836f",
       "owner": "xadupre",
       "path": "modelbuilder",
       "ref": "main",
       "repo": "mbext"
     },
     "ort_genai": {
-      "commit": "24b310ade7bff608067e7a9709d60a51e17aed91",
+      "commit": "6804271d02a6169b0e5d1c5e12bd28ea298a39ea",
       "owner": "microsoft",
       "path": "src/python/py/models",
       "ref": "main",
