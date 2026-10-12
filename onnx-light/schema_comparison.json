@@ -1,6 +1,6 @@
 {
-  "commit": "a7a4799498d8b01626676ac5f24f0cf5f3942a18",
-  "date": "2026-10-05T12:50:08Z",
+  "commit": "2a6907269b3a7f658d950e40de911300dbfa80ff",
+  "date": "2026-10-12T13:51:41Z",
   "onnx_available": true,
   "rows": [
     {
@@ -286,7 +286,7 @@
       "name": "Cast",
       "onnx_backend_tests": 60,
       "onnx_backend_tests_expanded": 0,
-      "onnx_light_backend_tests": 188,
+      "onnx_light_backend_tests": 190,
       "onnx_light_backend_tests_expanded": 0,
       "onnx_light_shape_inference": true,
       "onnx_shape_inference": true
@@ -608,9 +608,9 @@
       "in_onnx": true,
       "in_onnx_light": true,
       "name": "DynamicQuantizeLinear",
-      "onnx_backend_tests": 3,
-      "onnx_backend_tests_expanded": 3,
-      "onnx_light_backend_tests": 3,
+      "onnx_backend_tests": 4,
+      "onnx_backend_tests_expanded": 4,
+      "onnx_light_backend_tests": 4,
       "onnx_light_backend_tests_expanded": 0,
       "onnx_light_shape_inference": true,
       "onnx_shape_inference": true
@@ -1652,9 +1652,9 @@
       "in_onnx": true,
       "in_onnx_light": true,
       "name": "ReduceLogSumExp",
-      "onnx_backend_tests": 9,
-      "onnx_backend_tests_expanded": 9,
-      "onnx_light_backend_tests": 17,
+      "onnx_backend_tests": 10,
+      "onnx_backend_tests_expanded": 10,
+      "onnx_light_backend_tests": 18,
       "onnx_light_backend_tests_expanded": 0,
       "onnx_light_shape_inference": true,
       "onnx_shape_inference": true
@@ -1678,7 +1678,7 @@
       "name": "ReduceMean",
       "onnx_backend_tests": 8,
       "onnx_backend_tests_expanded": 0,
-      "onnx_light_backend_tests": 13,
+      "onnx_light_backend_tests": 14,
       "onnx_light_backend_tests_expanded": 0,
       "onnx_light_shape_inference": true,
       "onnx_shape_inference": true
@@ -1702,7 +1702,7 @@
       "name": "ReduceProd",
       "onnx_backend_tests": 9,
       "onnx_backend_tests_expanded": 0,
-      "onnx_light_backend_tests": 16,
+      "onnx_light_backend_tests": 17,
       "onnx_light_backend_tests_expanded": 0,
       "onnx_light_shape_inference": true,
       "onnx_shape_inference": true
@@ -1714,7 +1714,7 @@
       "name": "ReduceSum",
       "onnx_backend_tests": 12,
       "onnx_backend_tests_expanded": 0,
-      "onnx_light_backend_tests": 19,
+      "onnx_light_backend_tests": 22,
       "onnx_light_backend_tests_expanded": 0,
       "onnx_light_shape_inference": true,
       "onnx_shape_inference": true
@@ -1990,7 +1990,7 @@
       "name": "Shape",
       "onnx_backend_tests": 11,
       "onnx_backend_tests_expanded": 0,
-      "onnx_light_backend_tests": 49,
+      "onnx_light_backend_tests": 71,
       "onnx_light_backend_tests_expanded": 0,
       "onnx_light_shape_inference": true,
       "onnx_shape_inference": true
@@ -2182,7 +2182,7 @@
       "name": "Squeeze",
       "onnx_backend_tests": 2,
       "onnx_backend_tests_expanded": 0,
-      "onnx_light_backend_tests": 4,
+      "onnx_light_backend_tests": 5,
       "onnx_light_backend_tests_expanded": 0,
       "onnx_light_shape_inference": true,
       "onnx_shape_inference": true
@@ -2790,10 +2790,10 @@
   ],
   "totals": {
     "onnx": 227,
-    "onnx_backend_tests": 1423,
-    "onnx_backend_tests_expanded": 480,
+    "onnx_backend_tests": 1425,
+    "onnx_backend_tests_expanded": 482,
     "onnx_light": 232,
-    "onnx_light_backend_tests": 2349,
+    "onnx_light_backend_tests": 2381,
     "onnx_light_backend_tests_expanded": 0,
     "onnx_light_shape_inference": 227,
     "onnx_shape_inference": 217
