@@ -1,0 +1,339 @@
+{
+  "commit_hash": "b0cf44cc6467764f6d3c5f0898600166af152605",
+  "date": 1791655630000,
+  "durations": {},
+  "env_name": "virtualenv-py3.12-numpy2.5.3-onnx1.23.1-onnx-ir1.0.0-onnxruntime1.30.0-onnxscript0.7.2-ONNX_LIGHT_CPU_VERSION0.1.20-ONNX_LIGHT_VERSION0.1.30",
+  "env_vars": {
+    "ONNX_LIGHT_CPU_VERSION": "0.1.20",
+    "ONNX_LIGHT_VERSION": "0.1.30"
+  },
+  "params": {
+    "arch": "x86_64",
+    "cpu": "AMD EPYC 9V74 80-Core Processor",
+    "instruction_sets": "SSE2, SSE3, SSSE3, SSE4.1, SSE4.2, AVX, AVX2",
+    "machine": "AMD EPYC 9V74 80-Core Processor (4 vCPU)",
+    "num_cpu": "4",
+    "numpy": "2.5.3",
+    "onnx": "1.23.1",
+    "onnx-ir": "1.0.0",
+    "onnxruntime": "1.30.0",
+    "onnxscript": "0.7.2",
+    "os": "anonymous",
+    "python": "3.12",
+    "ram": "anonymous"
+  },
+  "python": "3.12",
+  "requirements": {
+    "numpy": "2.5.3",
+    "onnx": "1.23.1",
+    "onnx-ir": "1.0.0",
+    "onnxruntime": "1.30.0",
+    "onnxscript": "0.7.2"
+  },
+  "result_columns": [
+    "result",
+    "params",
+    "version",
+    "started_at",
+    "duration",
+    "stats_ci_99_a",
+    "stats_ci_99_b",
+    "stats_q_25",
+    "stats_q_75",
+    "stats_number",
+    "stats_repeat",
+    "samples",
+    "profile"
+  ],
+  "results": {
+    "cpu_backend_cases.nn.cases.SimplifiedLayerNormalizationFloat32Inputs2Shard3.time_simplified_layer_normalization_medium_r64_w512_stash1_with_inv": [
+      [
+        2.4787000015180638e-05,
+        3.0355500001633118e-05
+      ],
+      [
+        [
+          "'float32'"
+        ],
+        [
+          "'float32'"
+        ],
+        [
+          "'(64, 512) x (512,)'"
+        ],
+        [
+          "'onnx-light-cpu'",
+          "'onnxruntime'"
+        ]
+      ],
+      "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+      1791792655939,
+      25.816,
+      [
+        2.3405e-05,
+        2.8503e-05
+      ],
+      [
+        4.1693e-05,
+        3.4432e-05
+      ],
+      [
+        2.4172e-05,
+        2.9818e-05
+      ],
+      [
+        2.5208e-05,
+        3.1257e-05
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        10,
+        10
+      ]
+    ],
+    "cpu_backend_cases.nn.cases.SimplifiedLayerNormalizationFloat32Inputs2Shard3.time_simplified_layer_normalization_qwen_hidden1024_decode_stash1_with_inv": [
+      [
+        1.8773000007854534e-05,
+        2.7021000008176088e-05
+      ],
+      [
+        [
+          "'float32'"
+        ],
+        [
+          "'float32'"
+        ],
+        [
+          "'(1, 1, 1024) x (1024,)'"
+        ],
+        [
+          "'onnx-light-cpu'",
+          "'onnxruntime'"
+        ]
+      ],
+      "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+      1791792668807,
+      25.815,
+      [
+        1.8188e-05,
+        2.4216e-05
+      ],
+      [
+        2.3275e-05,
+        3.5573e-05
+      ],
+      [
+        1.8461e-05,
+        2.5168e-05
+      ],
+      [
+        1.9542e-05,
+        2.8358e-05
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        10,
+        10
+      ]
+    ],
+    "cpu_backend_cases.nn.cases.SimplifiedLayerNormalizationFloat32Inputs2Shard3.time_simplified_layer_normalization_qwen_hidden4096_decode_stash1_with_inv": [
+      [
+        1.9188999999641965e-05,
+        2.592399998491146e-05
+      ],
+      [
+        [
+          "'float32'"
+        ],
+        [
+          "'float32'"
+        ],
+        [
+          "'(1, 1, 4096) x (4096,)'"
+        ],
+        [
+          "'onnx-light-cpu'",
+          "'onnxruntime'"
+        ]
+      ],
+      "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+      1791792681690,
+      25.819,
+      [
+        1.8067e-05,
+        2.5198e-05
+      ],
+      [
+        2.1782e-05,
+        3.3811e-05
+      ],
+      [
+        1.8621e-05,
+        2.548e-05
+      ],
+      [
+        2.0371e-05,
+        2.816e-05
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        10,
+        10
+      ]
+    ],
+    "cpu_backend_cases.nn.cases.SimplifiedLayerNormalizationFloat32Inputs2Shard3.time_simplified_layer_normalization_qwen_hidden5120_prefill_stash1_with_inv": [
+      [
+        0.00012042149998592322,
+        0.00011286550000022544
+      ],
+      [
+        [
+          "'float32'"
+        ],
+        [
+          "'float32'"
+        ],
+        [
+          "'(1, 128, 5120) x (5120,)'"
+        ],
+        [
+          "'onnx-light-cpu'",
+          "'onnxruntime'"
+        ]
+      ],
+      "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+      1791792694601,
+      26.474,
+      [
+        0.00011712,
+        0.00010756
+      ],
+      [
+        0.00054659,
+        0.00016557
+      ],
+      [
+        0.0001187,
+        0.00010884
+      ],
+      [
+        0.00012198,
+        0.00013595
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        10,
+        10
+      ]
+    ],
+    "cpu_backend_cases.nn.cases.SimplifiedLayerNormalizationFloat32Inputs2Shard3.time_simplified_layer_normalization_small_r8_w32_stash1_with_inv": [
+      [
+        1.8717999992645673e-05,
+        2.5493000009646494e-05
+      ],
+      [
+        [
+          "'float32'"
+        ],
+        [
+          "'float32'"
+        ],
+        [
+          "'(8, 32) x (32,)'"
+        ],
+        [
+          "'onnx-light-cpu'",
+          "'onnxruntime'"
+        ]
+      ],
+      "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+      1791792707854,
+      25.863,
+      [
+        1.7406e-05,
+        2.4798e-05
+      ],
+      [
+        2.03e-05,
+        2.666e-05
+      ],
+      [
+        1.8533e-05,
+        2.5201e-05
+      ],
+      [
+        1.9306e-05,
+        2.5902e-05
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        10,
+        10
+      ]
+    ],
+    "cpu_backend_cases.nn.cases.SimplifiedLayerNormalizationFloat32Inputs2Shard3.time_simplified_layer_normalization_tail_r257_w65_stash1_with_inv": [
+      [
+        2.308000000539323e-05,
+        3.673550000371506e-05
+      ],
+      [
+        [
+          "'float32'"
+        ],
+        [
+          "'float32'"
+        ],
+        [
+          "'(257, 65) x (65,)'"
+        ],
+        [
+          "'onnx-light-cpu'",
+          "'onnxruntime'"
+        ]
+      ],
+      "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+      1791792720837,
+      25.814,
+      [
+        2.2373e-05,
+        3.4632e-05
+      ],
+      [
+        4.2744e-05,
+        4.1232e-05
+      ],
+      [
+        2.2982e-05,
+        3.5939e-05
+      ],
+      [
+        2.5107e-05,
+        3.8566e-05
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        10,
+        10
+      ]
+    ]
+  },
+  "version": 2
+}
