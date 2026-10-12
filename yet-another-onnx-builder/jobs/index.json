@@ -1,8 +1,10 @@
 {
   "jobs": [
+    "Dependabot.csv",
     "Detect_unique_builder_subfolder.csv",
     "Detect_unique_sklearn_subfolder.csv",
     "build.csv",
+    "copilot-pull-request-reviewer.csv",
     "copilot.csv",
     "core_targeted_onnxscript.csv",
     "core_ubuntu-latest_py3.13_ort-nightly_false.csv",
@@ -27,6 +29,7 @@
     "onnx-light_ubuntu-latest_py3.12.csv",
     "perpetual_ubuntu-latest_py3.12.csv",
     "pyrefly.csv",
+    "sklearn_parity_with_skl2onnx.csv",
     "sklearn_targeted_xgboost_sklearn-1.4.csv",
     "sklearn_targeted_xgboost_sklearn-1.8.csv",
     "sklearn_ubuntu-latest_py3.12_sklearn-1.4.csv",

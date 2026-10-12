@@ -9,3 +9,4 @@ job_id,run_id,workflow,job_name,status,conclusion,started_at,completed_at,durati
 106296478589,35588218978,cpp-coverage-weekly,C++ coverage (ubuntu-latest),completed,success,2026-09-21T10:20:41Z,2026-09-21T10:23:15Z,154,5c19e55b75050fde3062fc87ae4d348aaa478c7d
 108904769303,36415247722,cpp-coverage-weekly,C++ coverage (ubuntu-latest),completed,success,2026-09-28T11:22:29Z,2026-09-28T11:25:31Z,182,45e3290dd6b1e679edad3b3cda731e9f5a27c72d
 111750981944,37306378812,cpp-coverage-weekly,C++ coverage (ubuntu-latest),completed,success,2026-10-05T11:58:34Z,2026-10-05T12:02:29Z,235,299db90620e13786ea082538f33d18c7d20dec32
+114814610408,38250300983,cpp-coverage-weekly,C++ coverage (ubuntu-latest),completed,success,2026-10-12T12:38:47Z,2026-10-12T12:42:44Z,237,d5cf5a84ac1a36c7aac5b832948490803bbcbe03

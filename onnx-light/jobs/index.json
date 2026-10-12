@@ -5,6 +5,7 @@
     "Analyze_c-cpp.csv",
     "Analyze_python.csv",
     "CodeQL_CodeQL_python.csv",
+    "Dependabot.csv",
     "Python_discovery_CMake_3.30.9_Python_3.13.csv",
     "Python_discovery_CMake_3.30.9_Python_3.13t.csv",
     "Python_discovery_CMake_3.31.6_Python_3.13.csv",

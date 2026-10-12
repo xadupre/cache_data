@@ -4,6 +4,7 @@
     "ARM64_GEMM_SVE_emulation.csv",
     "C_coverage_ubuntu-24.04-arm.csv",
     "C_coverage_ubuntu-latest.csv",
+    "Dependabot.csv",
     "PR_benchmark_report.csv",
     "build_docs.csv",
     "check_recent_commit.csv",
