@@ -1,0 +1,450 @@
+{
+  "commit_hash": "b0cf44cc6467764f6d3c5f0898600166af152605",
+  "date": 1791655630000,
+  "durations": {},
+  "env_name": "virtualenv-py3.12-numpy2.5.3-onnx1.23.1-onnx-ir1.0.0-onnxruntime1.30.0-onnxscript0.7.2-ONNX_LIGHT_CPU_VERSION0.1.20-ONNX_LIGHT_VERSION0.1.30",
+  "env_vars": {
+    "ONNX_LIGHT_CPU_VERSION": "0.1.20",
+    "ONNX_LIGHT_VERSION": "0.1.30"
+  },
+  "params": {
+    "arch": "x86_64",
+    "cpu": "AMD EPYC 7763 64-Core Processor",
+    "instruction_sets": "SSE2, SSE3, SSSE3, SSE4.1, SSE4.2, AVX, AVX2",
+    "machine": "AMD EPYC 7763 64-Core Processor (4 vCPU)",
+    "num_cpu": "4",
+    "numpy": "2.5.3",
+    "onnx": "1.23.1",
+    "onnx-ir": "1.0.0",
+    "onnxruntime": "1.30.0",
+    "onnxscript": "0.7.2",
+    "os": "anonymous",
+    "python": "3.12",
+    "ram": "anonymous"
+  },
+  "python": "3.12",
+  "requirements": {
+    "numpy": "2.5.3",
+    "onnx": "1.23.1",
+    "onnx-ir": "1.0.0",
+    "onnxruntime": "1.30.0",
+    "onnxscript": "0.7.2"
+  },
+  "result_columns": [
+    "result",
+    "params",
+    "version",
+    "started_at",
+    "duration",
+    "stats_ci_99_a",
+    "stats_ci_99_b",
+    "stats_q_25",
+    "stats_q_75",
+    "stats_number",
+    "stats_repeat",
+    "samples",
+    "profile"
+  ],
+  "results": {
+    "cpu_backend_cases.tensor.cases.SliceInt64Int32Inputs5.time_slice_inner_stride_params32": [
+      [
+        0.0008049360000086381,
+        0.001018231999978525
+      ],
+      [
+        [
+          "'int64'"
+        ],
+        [
+          "'int32'"
+        ],
+        [
+          "'int32'"
+        ],
+        [
+          "'int32'"
+        ],
+        [
+          "'int32'"
+        ],
+        [
+          "'(1024, 1024) x (1,) x (1,) x (1,) x (1,)'"
+        ],
+        [
+          "'onnx-light-cpu'",
+          "'onnxruntime'"
+        ]
+      ],
+      "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+      1791773577139,
+      26.673,
+      [
+        0.0006638,
+        0.00098321
+      ],
+      [
+        0.00091713,
+        0.0010312
+      ],
+      [
+        0.00072996,
+        0.0010088
+      ],
+      [
+        0.00088174,
+        0.0010225
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        10,
+        10
+      ]
+    ],
+    "cpu_backend_cases.tensor.cases.SliceInt64Int32Inputs5.time_slice_multi_axis_params32": [
+      [
+        0.0002311340000034079,
+        0.0002764335000193796
+      ],
+      [
+        [
+          "'int64'"
+        ],
+        [
+          "'int32'"
+        ],
+        [
+          "'int32'"
+        ],
+        [
+          "'int32'"
+        ],
+        [
+          "'int32'"
+        ],
+        [
+          "'(64, 128, 128) x (3,) x (3,) x (3,) x (3,)'"
+        ],
+        [
+          "'onnx-light-cpu'",
+          "'onnxruntime'"
+        ]
+      ],
+      "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+      1791773590509,
+      26.635,
+      [
+        0.00022436,
+        0.00024925
+      ],
+      [
+        0.00027832,
+        0.00030019
+      ],
+      [
+        0.00022506,
+        0.00026126
+      ],
+      [
+        0.00025031,
+        0.00028022
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        10,
+        10
+      ]
+    ],
+    "cpu_backend_cases.tensor.cases.SliceInt64Int32Inputs5.time_slice_outer_stride_params32": [
+      [
+        0.00013007399999764857,
+        0.0001262319999995043
+      ],
+      [
+        [
+          "'int64'"
+        ],
+        [
+          "'int32'"
+        ],
+        [
+          "'int32'"
+        ],
+        [
+          "'int32'"
+        ],
+        [
+          "'int32'"
+        ],
+        [
+          "'(4096, 128) x (1,) x (1,) x (1,) x (1,)'"
+        ],
+        [
+          "'onnx-light-cpu'",
+          "'onnxruntime'"
+        ]
+      ],
+      "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+      1791773603907,
+      25.901,
+      [
+        0.00010127,
+        0.00010451
+      ],
+      [
+        0.00016247,
+        0.00016827
+      ],
+      [
+        0.00012392,
+        0.00012146
+      ],
+      [
+        0.00014971,
+        0.00013186
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        10,
+        10
+      ]
+    ],
+    "cpu_backend_cases.tensor.cases.SliceInt64Int32Inputs5.time_slice_reverse_inner_params32": [
+      [
+        0.001086539999988645,
+        0.0020079900000098405
+      ],
+      [
+        [
+          "'int64'"
+        ],
+        [
+          "'int32'"
+        ],
+        [
+          "'int32'"
+        ],
+        [
+          "'int32'"
+        ],
+        [
+          "'int32'"
+        ],
+        [
+          "'(1024, 1024) x (1,) x (1,) x (1,) x (1,)'"
+        ],
+        [
+          "'onnx-light-cpu'",
+          "'onnxruntime'"
+        ]
+      ],
+      "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+      1791773616861,
+      26.645,
+      [
+        0.0010658,
+        0.0019498
+      ],
+      [
+        0.0012303,
+        0.0020426
+      ],
+      [
+        0.0010769,
+        0.0019916
+      ],
+      [
+        0.0011188,
+        0.0020108
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        10,
+        10
+      ]
+    ],
+    "cpu_backend_cases.tensor.cases.SliceInt64Int32Inputs5.time_slice_reverse_outer_params32": [
+      [
+        0.0002298364999973046,
+        0.0002672370000027513
+      ],
+      [
+        [
+          "'int64'"
+        ],
+        [
+          "'int32'"
+        ],
+        [
+          "'int32'"
+        ],
+        [
+          "'int32'"
+        ],
+        [
+          "'int32'"
+        ],
+        [
+          "'(4096, 128) x (1,) x (1,) x (1,) x (1,)'"
+        ],
+        [
+          "'onnx-light-cpu'",
+          "'onnxruntime'"
+        ]
+      ],
+      "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+      1791773630245,
+      26.048,
+      [
+        0.00019304,
+        0.00022041
+      ],
+      [
+        0.00030985,
+        0.00034325
+      ],
+      [
+        0.00021001,
+        0.00026172
+      ],
+      [
+        0.0002405,
+        0.00028329
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        10,
+        10
+      ]
+    ],
+    "cpu_backend_cases.tensor.cases.SliceInt64Int32Inputs5.time_slice_reverse_vector_params32": [
+      [
+        0.0010709004999966965,
+        0.0019433940000084249
+      ],
+      [
+        [
+          "'int64'"
+        ],
+        [
+          "'int32'"
+        ],
+        [
+          "'int32'"
+        ],
+        [
+          "'int32'"
+        ],
+        [
+          "'int32'"
+        ],
+        [
+          "'(1048576,) x (1,) x (1,) x (1,) x (1,)'"
+        ],
+        [
+          "'onnx-light-cpu'",
+          "'onnxruntime'"
+        ]
+      ],
+      "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+      1791773643318,
+      26.636,
+      [
+        0.0010539,
+        0.001903
+      ],
+      [
+        0.001153,
+        0.0019704
+      ],
+      [
+        0.0010566,
+        0.0019336
+      ],
+      [
+        0.0011152,
+        0.0019563
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        10,
+        10
+      ]
+    ],
+    "cpu_backend_cases.tensor.cases.SliceInt64Int32Inputs5.time_slice_tail_params32": [
+      [
+        3.500550000978819e-05,
+        5.519849997881465e-05
+      ],
+      [
+        [
+          "'int64'"
+        ],
+        [
+          "'int32'"
+        ],
+        [
+          "'int32'"
+        ],
+        [
+          "'int32'"
+        ],
+        [
+          "'int32'"
+        ],
+        [
+          "'(257, 65) x (1,) x (1,) x (1,) x (1,)'"
+        ],
+        [
+          "'onnx-light-cpu'",
+          "'onnxruntime'"
+        ]
+      ],
+      "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+      1791773656635,
+      25.425,
+      [
+        3.3483e-05,
+        5.303e-05
+      ],
+      [
+        3.6889e-05,
+        6.0123e-05
+      ],
+      [
+        3.4124e-05,
+        5.3789e-05
+      ],
+      [
+        3.607e-05,
+        5.6621e-05
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        10,
+        10
+      ]
+    ]
+  },
+  "version": 2
+}
