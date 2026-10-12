@@ -1,7 +1,7 @@
 {
   "cgen_support_ops_url": "https://raw.githubusercontent.com/emmtrix/emx-onnx-cgen/main/SUPPORT_OPS.md",
   "cgen_url": "https://github.com/emmtrix/emx-onnx-cgen",
-  "date": "2026-10-05T14:31:17Z",
+  "date": "2026-10-12T15:16:49Z",
   "rows": [
     {
       "domain": "ai.onnx",
@@ -200,7 +200,7 @@
       "in_cgen": true,
       "in_onnx_light": true,
       "name": "Cast",
-      "onnx_light_backend_tests": 188,
+      "onnx_light_backend_tests": 190,
       "onnx_light_source_url": "https://raw.githubusercontent.com/xadupre/onnx-light/main/onnx_light/onnx_extensions/kernels/kernels/tensor/kernel_cast.cc"
     },
     {
@@ -442,7 +442,7 @@
       "in_cgen": true,
       "in_onnx_light": true,
       "name": "DynamicQuantizeLinear",
-      "onnx_light_backend_tests": 3,
+      "onnx_light_backend_tests": 4,
       "onnx_light_source_url": "https://raw.githubusercontent.com/xadupre/onnx-light/main/onnx_light/onnx_extensions/kernels/kernels/quantization/kernel_dynamicquantizelinear.cc"
     },
     {
@@ -1177,7 +1177,7 @@
       "in_cgen": true,
       "in_onnx_light": true,
       "name": "ReduceLogSumExp",
-      "onnx_light_backend_tests": 17
+      "onnx_light_backend_tests": 18
     },
     {
       "domain": "ai.onnx",
@@ -1191,7 +1191,7 @@
       "in_cgen": true,
       "in_onnx_light": true,
       "name": "ReduceMean",
-      "onnx_light_backend_tests": 13,
+      "onnx_light_backend_tests": 14,
       "onnx_light_source_url": "https://raw.githubusercontent.com/xadupre/onnx-light/main/onnx_light/onnx_extensions/kernels/kernels/reduction/kernel_reducemean.cc"
     },
     {
@@ -1206,7 +1206,7 @@
       "in_cgen": true,
       "in_onnx_light": true,
       "name": "ReduceProd",
-      "onnx_light_backend_tests": 16,
+      "onnx_light_backend_tests": 17,
       "onnx_light_source_url": "https://raw.githubusercontent.com/xadupre/onnx-light/main/onnx_light/onnx_extensions/kernels/kernels/reduction/kernel_reduceprod.cc"
     },
     {
@@ -1214,7 +1214,7 @@
       "in_cgen": true,
       "in_onnx_light": true,
       "name": "ReduceSum",
-      "onnx_light_backend_tests": 19,
+      "onnx_light_backend_tests": 22,
       "onnx_light_source_url": "https://raw.githubusercontent.com/xadupre/onnx-light/main/onnx_light/onnx_extensions/kernels/kernels/reduction/kernel_reducesum.cc"
     },
     {
@@ -1417,7 +1417,7 @@
       "in_cgen": true,
       "in_onnx_light": true,
       "name": "Shape",
-      "onnx_light_backend_tests": 49,
+      "onnx_light_backend_tests": 71,
       "onnx_light_source_url": "https://raw.githubusercontent.com/xadupre/onnx-light/main/onnx_light/onnx_extensions/kernels/kernels/tensor/kernel_shape.cc"
     },
     {
@@ -1552,7 +1552,7 @@
       "in_cgen": true,
       "in_onnx_light": true,
       "name": "Squeeze",
-      "onnx_light_backend_tests": 4,
+      "onnx_light_backend_tests": 5,
       "onnx_light_source_url": "https://raw.githubusercontent.com/xadupre/onnx-light/main/onnx_light/onnx_extensions/kernels/kernels/tensor/kernel_squeeze.cc"
     },
     {
