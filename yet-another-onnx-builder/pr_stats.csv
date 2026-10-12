@@ -259,3 +259,13 @@ pr_number,title,author,merged_at,commits,comments,copilot_comments,copilot_commi
 2325,[yobx/sklearn] Add scikit-learn 1.9 support: CI matrix + GPR float32 precision fix,Copilot,2026-07-09T13:51:10Z,12,6,2,9
 2353,Increase Documentation workflow timeout to 60 minutes,Copilot,2026-08-18T16:08:17Z,2,1,0,2
 2351,[yobx/sql] Fix Polars and JAX compatibility CI failures,xadupre,2026-08-18T14:52:36Z,2,4,1,1
+2360,Replace jax2tf conversion with direct JAX-to-onnx-light export,Copilot,2026-10-09T19:54:07Z,8,13,11,3
+2359,[yobx/builder] Avoid payload copies when registering NumPy and PyTorch initializers,Copilot,2026-10-09T13:24:51Z,5,9,7,2
+2365,Bump actions/checkout from 4 to 7,dependabot[bot],2026-10-09T11:17:49Z,1,1,0,0
+2366,Bump codecov/codecov-action from 5 to 7,dependabot[bot],2026-10-09T08:25:54Z,1,0,0,0
+2364,Bump actions/setup-python from 5 to 7,dependabot[bot],2026-10-09T08:25:32Z,1,0,0,0
+2362,Bump actions/upload-artifact from 4 to 6,dependabot[bot],2026-10-09T08:25:21Z,1,0,0,0
+2363,Bump actions/github-script from 7 to 9,dependabot[bot],2026-10-09T08:25:12Z,1,0,0,0
+2361,"Update jax requirement from <0.8,>=0.4 to >=0.4,<0.12",dependabot[bot],2026-10-09T08:25:00Z,1,0,0,0
+2358,Add weekly Dependabot updates,Copilot,2026-10-08T17:44:25Z,2,1,0,2
+2354,Replace reference ONNX with native onnx-light engines,xadupre,2026-10-07T11:55:49Z,62,21,10,0
