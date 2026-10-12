@@ -1,0 +1,158 @@
+{
+  "cpu_backend_cases.traditionalml.cases.TreeEnsembleFloat32.time_treeensemble_t10000_f4096_b1": {
+    "code": "class <locals>:\n    def time_case(self, *parameters):\n        for feed in state[\"feeds\"]:\n            state[\"session\"].run(None, feed)\n\ndef setup(*parameters):\n    *inputs, backend = parameters\n    case_name = lookup[tuple(inputs)]\n    state[\"case\"], state[\"feeds\"], state[\"session\"] = _prepare_case(\n        case_name, backend\n    )",
+    "min_run_count": 2,
+    "name": "cpu_backend_cases.traditionalml.cases.TreeEnsembleFloat32.time_treeensemble_t10000_f4096_b1",
+    "number": 1,
+    "param_names": [
+      "dtype1",
+      "input_shapes",
+      "backend"
+    ],
+    "params": [
+      [
+        "'float32'"
+      ],
+      [
+        "'(1, 4096)'"
+      ],
+      [
+        "'onnx-light-cpu'",
+        "'onnxruntime'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+    "warmup_time": -1
+  },
+  "cpu_backend_cases.traditionalml.cases.TreeEnsembleFloat32.time_treeensemble_t10000_f4096_b128": {
+    "code": "class <locals>:\n    def time_case(self, *parameters):\n        for feed in state[\"feeds\"]:\n            state[\"session\"].run(None, feed)\n\ndef setup(*parameters):\n    *inputs, backend = parameters\n    case_name = lookup[tuple(inputs)]\n    state[\"case\"], state[\"feeds\"], state[\"session\"] = _prepare_case(\n        case_name, backend\n    )",
+    "min_run_count": 2,
+    "name": "cpu_backend_cases.traditionalml.cases.TreeEnsembleFloat32.time_treeensemble_t10000_f4096_b128",
+    "number": 1,
+    "param_names": [
+      "dtype1",
+      "input_shapes",
+      "backend"
+    ],
+    "params": [
+      [
+        "'float32'"
+      ],
+      [
+        "'(128, 4096)'"
+      ],
+      [
+        "'onnx-light-cpu'",
+        "'onnxruntime'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+    "warmup_time": -1
+  },
+  "cpu_backend_cases.traditionalml.cases.TreeEnsembleFloat32.time_treeensemble_t1000_f1024_b32": {
+    "code": "class <locals>:\n    def time_case(self, *parameters):\n        for feed in state[\"feeds\"]:\n            state[\"session\"].run(None, feed)\n\ndef setup(*parameters):\n    *inputs, backend = parameters\n    case_name = lookup[tuple(inputs)]\n    state[\"case\"], state[\"feeds\"], state[\"session\"] = _prepare_case(\n        case_name, backend\n    )",
+    "min_run_count": 2,
+    "name": "cpu_backend_cases.traditionalml.cases.TreeEnsembleFloat32.time_treeensemble_t1000_f1024_b32",
+    "number": 1,
+    "param_names": [
+      "dtype1",
+      "input_shapes",
+      "backend"
+    ],
+    "params": [
+      [
+        "'float32'"
+      ],
+      [
+        "'(32, 1024)'"
+      ],
+      [
+        "'onnx-light-cpu'",
+        "'onnxruntime'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+    "warmup_time": -1
+  },
+  "cpu_backend_cases.traditionalml.cases.TreeEnsembleFloat32.time_treeensemble_t100_f64_b8": {
+    "code": "class <locals>:\n    def time_case(self, *parameters):\n        for feed in state[\"feeds\"]:\n            state[\"session\"].run(None, feed)\n\ndef setup(*parameters):\n    *inputs, backend = parameters\n    case_name = lookup[tuple(inputs)]\n    state[\"case\"], state[\"feeds\"], state[\"session\"] = _prepare_case(\n        case_name, backend\n    )",
+    "min_run_count": 2,
+    "name": "cpu_backend_cases.traditionalml.cases.TreeEnsembleFloat32.time_treeensemble_t100_f64_b8",
+    "number": 1,
+    "param_names": [
+      "dtype1",
+      "input_shapes",
+      "backend"
+    ],
+    "params": [
+      [
+        "'float32'"
+      ],
+      [
+        "'(8, 64)'"
+      ],
+      [
+        "'onnx-light-cpu'",
+        "'onnxruntime'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+    "warmup_time": -1
+  },
+  "cpu_backend_cases.traditionalml.cases.TreeEnsembleFloat32.time_treeensemble_t10_f4_b1": {
+    "code": "class <locals>:\n    def time_case(self, *parameters):\n        for feed in state[\"feeds\"]:\n            state[\"session\"].run(None, feed)\n\ndef setup(*parameters):\n    *inputs, backend = parameters\n    case_name = lookup[tuple(inputs)]\n    state[\"case\"], state[\"feeds\"], state[\"session\"] = _prepare_case(\n        case_name, backend\n    )",
+    "min_run_count": 2,
+    "name": "cpu_backend_cases.traditionalml.cases.TreeEnsembleFloat32.time_treeensemble_t10_f4_b1",
+    "number": 1,
+    "param_names": [
+      "dtype1",
+      "input_shapes",
+      "backend"
+    ],
+    "params": [
+      [
+        "'float32'"
+      ],
+      [
+        "'(1, 4)'"
+      ],
+      [
+        "'onnx-light-cpu'",
+        "'onnxruntime'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+    "warmup_time": -1
+  },
+  "version": 2
+}
