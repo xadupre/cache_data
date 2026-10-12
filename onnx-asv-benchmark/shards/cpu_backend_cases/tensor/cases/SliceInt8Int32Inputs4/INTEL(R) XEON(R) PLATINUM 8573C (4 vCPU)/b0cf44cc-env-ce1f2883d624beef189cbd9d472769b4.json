@@ -1,0 +1,213 @@
+{
+  "commit_hash": "b0cf44cc6467764f6d3c5f0898600166af152605",
+  "date": 1791655630000,
+  "durations": {},
+  "env_name": "virtualenv-py3.12-numpy2.5.3-onnx1.23.1-onnx-ir1.0.0-onnxruntime1.30.0-onnxscript0.7.2-ONNX_LIGHT_CPU_VERSION0.1.20-ONNX_LIGHT_VERSION0.1.30",
+  "env_vars": {
+    "ONNX_LIGHT_CPU_VERSION": "0.1.20",
+    "ONNX_LIGHT_VERSION": "0.1.30"
+  },
+  "params": {
+    "arch": "x86_64",
+    "cpu": "INTEL(R) XEON(R) PLATINUM 8573C",
+    "instruction_sets": "SSE2, SSE3, SSSE3, SSE4.1, SSE4.2, AVX, AVX2, AVX-VNNI, AVX-512F, AVX-512BW, AVX-512CD, AVX-512DQ, AVX-512VL, AVX-512VNNI, AMX-BF16, AMX-INT8, AMX-TILE",
+    "machine": "INTEL(R) XEON(R) PLATINUM 8573C (4 vCPU)",
+    "num_cpu": "4",
+    "numpy": "2.5.3",
+    "onnx": "1.23.1",
+    "onnx-ir": "1.0.0",
+    "onnxruntime": "1.30.0",
+    "onnxscript": "0.7.2",
+    "os": "anonymous",
+    "python": "3.12",
+    "ram": "anonymous"
+  },
+  "python": "3.12",
+  "requirements": {
+    "numpy": "2.5.3",
+    "onnx": "1.23.1",
+    "onnx-ir": "1.0.0",
+    "onnxruntime": "1.30.0",
+    "onnxscript": "0.7.2"
+  },
+  "result_columns": [
+    "result",
+    "params",
+    "version",
+    "started_at",
+    "duration",
+    "stats_ci_99_a",
+    "stats_ci_99_b",
+    "stats_q_25",
+    "stats_q_75",
+    "stats_number",
+    "stats_repeat",
+    "samples",
+    "profile"
+  ],
+  "results": {
+    "cpu_backend_cases.tensor.cases.SliceInt8Int32Inputs4.time_slice_contiguous_params32": [
+      [
+        3.660349997858248e-05,
+        3.69260000070426e-05
+      ],
+      [
+        [
+          "'int8'"
+        ],
+        [
+          "'int32'"
+        ],
+        [
+          "'int32'"
+        ],
+        [
+          "'int32'"
+        ],
+        [
+          "'(2048, 512) x (1,) x (1,) x (1,)'"
+        ],
+        [
+          "'onnx-light-cpu'",
+          "'onnxruntime'"
+        ]
+      ],
+      "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+      1791792114095,
+      18.95,
+      [
+        3.1919e-05,
+        3.5566e-05
+      ],
+      [
+        4.4049e-05,
+        5.3354e-05
+      ],
+      [
+        3.4116e-05,
+        3.589e-05
+      ],
+      [
+        3.768e-05,
+        4.236e-05
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        10,
+        10
+      ]
+    ],
+    "cpu_backend_cases.tensor.cases.SliceInt8Int32Inputs4.time_slice_inner_crop_params32": [
+      [
+        8.918049999806499e-05,
+        0.00010746200000255612
+      ],
+      [
+        [
+          "'int8'"
+        ],
+        [
+          "'int32'"
+        ],
+        [
+          "'int32'"
+        ],
+        [
+          "'int32'"
+        ],
+        [
+          "'(1024, 1024) x (1,) x (1,) x (1,)'"
+        ],
+        [
+          "'onnx-light-cpu'",
+          "'onnxruntime'"
+        ]
+      ],
+      "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+      1791792123577,
+      19.096,
+      [
+        8.4766e-05,
+        9.9195e-05
+      ],
+      [
+        9.346e-05,
+        0.00015046
+      ],
+      [
+        8.7191e-05,
+        0.00010017
+      ],
+      [
+        9.1614e-05,
+        0.00012052
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        10,
+        10
+      ]
+    ],
+    "cpu_backend_cases.tensor.cases.SliceInt8Int32Inputs4.time_slice_small_params32": [
+      [
+        1.6027500009840878e-05,
+        2.1806999995988008e-05
+      ],
+      [
+        [
+          "'int8'"
+        ],
+        [
+          "'int32'"
+        ],
+        [
+          "'int32'"
+        ],
+        [
+          "'int32'"
+        ],
+        [
+          "'(8, 17) x (1,) x (1,) x (1,)'"
+        ],
+        [
+          "'onnx-light-cpu'",
+          "'onnxruntime'"
+        ]
+      ],
+      "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+      1791792133017,
+      18.104,
+      [
+        1.1736e-05,
+        1.9778e-05
+      ],
+      [
+        2.0042e-05,
+        4.6983e-05
+      ],
+      [
+        1.2715e-05,
+        2.1212e-05
+      ],
+      [
+        1.7399e-05,
+        2.2626e-05
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        10,
+        10
+      ]
+    ]
+  },
+  "version": 2
+}
