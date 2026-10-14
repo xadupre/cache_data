@@ -1,6 +1,6 @@
 {
   "builder.load.onnx_io.OnnxLoad.time_run": {
-    "code": "class _OnnxLoad:\n    def time_run(self, shape, dtype, case, library):\n        case = self._full_case(case, library)\n        _, files, library = case.split(\"/\")\n        path = self.external_path if files.startswith(\"2file\") else self.path\n        threads = 4 if files.endswith(\"x4\") else 1\n        if library == \"onnx\":\n            self.loaded_model = onnx.load(path)\n        elif library == \"ir-py\":\n            model = self.ir.load(path)\n            if files.startswith(\"2file\"):\n                self.ir.external_data.load_to_model(model)\n            self.loaded_model = model\n        elif library == \"ort\":\n            self.loaded_model = ort.InferenceSession(\n                path, sess_options=self.ort_options\n            )\n        else:\n            options = {\"num_threads\": threads}\n            if files.startswith(\"2file\"):\n                options[\"location\"] = self.external_data\n            if library == \"onnxlight-mmap\":\n                options[\"file_load_mode\"] = \"MMAP\"\n            elif library == \"onnxlight-ifstream\":\n                options[\"file_load_mode\"] = \"IFSTREAM\"\n            elif library == \"onnxlight-nocopy\":\n                options[\"no_copy\"] = True\n                options[\"touch_raw_data_pages\"] = True\n            model = onnxl.load(path, **options)\n            if library == \"reference\":\n                model = ReferenceEvaluator(model)\n            self.loaded_model = model\n\n    def setup(self, shape, dtype, case, library):\n        self.loaded_model = None\n        super().setup(shape, dtype, case, library)\n        case = self._full_case(case, library)\n        if case.endswith(\"/ort\"):\n            self.ort_options = ort.SessionOptions()\n            self.ort_options.graph_optimization_level = (\n                ort.GraphOptimizationLevel.ORT_DISABLE_ALL\n            )",
+    "code": "class _OnnxLoad:\n    def time_run(self, shape, dtype, case, library):\n        case = self._full_case(case, library)\n        _, files, library = case.split(\"/\")\n        path = self.external_path if files.startswith(\"2file\") else self.path\n        threads = 4 if files.endswith(\"x4\") else 1\n        if library == \"onnx\":\n            self.loaded_model = onnx.load(path)\n        elif library == \"ir-py\":\n            model = self.ir.load(path)\n            if files.startswith(\"2file\"):\n                self.ir.external_data.load_to_model(model)\n            self.loaded_model = model\n        elif library == \"ort\":\n            self.loaded_model = ort.InferenceSession(\n                path, sess_options=self.ort_options\n            )\n        else:\n            options = {\"num_threads\": threads}\n            if files.startswith(\"2file\"):\n                options[\"location\"] = self.external_data\n            if library == \"onnxlight-mmap\":\n                options[\"file_load_mode\"] = \"MMAP\"\n            elif library == \"onnxlight-ifstream\":\n                options[\"file_load_mode\"] = \"IFSTREAM\"\n            elif library == \"onnxlight-nocopy\":\n                options[\"no_copy\"] = True\n                options[\"touch_raw_data_pages\"] = True\n            self.loaded_model = onnxl.load(path, **options)\n\n    def setup(self, shape, dtype, case, library):\n        self.loaded_model = None\n        super().setup(shape, dtype, case, library)\n        case = self._full_case(case, library)\n        if case.endswith(\"/ort\"):\n            self.ort_options = ort.SessionOptions()\n            self.ort_options.graph_optimization_level = (\n                ort.GraphOptimizationLevel.ORT_DISABLE_ALL\n            )",
     "min_run_count": 2,
     "name": "builder.load.onnx_io.OnnxLoad.time_run",
     "number": 1,
@@ -29,7 +29,6 @@
         "'onnxlight-mmap'",
         "'onnxlight-ifstream'",
         "'ir-py'",
-        "'reference'",
         "'ort'",
         "'onnxlight-nocopy'"
       ]
@@ -40,7 +39,7 @@
     "timeout": 600,
     "type": "time",
     "unit": "seconds",
-    "version": "f198b8b4333f8e323321986e85615f957994c14f01a97028cffdf6655d35b15e",
+    "version": "180154fcfc7028dcdb79ab15d8e6399e0ad927c6fea94bfd661d5a195c20f49c",
     "warmup_time": -1
   },
   "builder.load.onnx_io.OnnxLoadCpp.track_run": {
@@ -74,6 +73,32 @@
     "type": "track",
     "unit": "seconds",
     "version": "c71dae2f70094de5b5018a3fd4e2afa90992ed8f92291c55316c68a8366b07e8"
+  },
+  "builder.load.onnx_io.OnnxReferenceEvaluator.time_run": {
+    "code": "class _OnnxReferenceEvaluator:\n    def time_run(self, shape, dtype):\n        self.session = ReferenceEvaluator(self.model)\n\n    def setup(self, shape, dtype):\n        if shape != f\"X=dynamicx{self.dim} ({self.n_init} Gemm)\" or dtype != \"float32\":\n            raise ValueError(f\"Unexpected model parameters {shape!r}, {dtype!r}\")\n        self.model = _make_model(self.n_init, self.dim)\n        self.session = None",
+    "min_run_count": 2,
+    "name": "builder.load.onnx_io.OnnxReferenceEvaluator.time_run",
+    "number": 1,
+    "param_names": [
+      "shape",
+      "dtype"
+    ],
+    "params": [
+      [
+        "'X=dynamicx2048 (40 Gemm)'"
+      ],
+      [
+        "'float32'"
+      ]
+    ],
+    "repeat": 5,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "timeout": 600,
+    "type": "time",
+    "unit": "seconds",
+    "version": "616f5e9044b44f4d6aa23fe489e8b50fb1cc9598fdd1b23e16d82b4636643011",
+    "warmup_time": -1
   },
   "version": 2
 }
