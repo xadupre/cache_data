@@ -1,0 +1,183 @@
+{
+  "commit_hash": "1e39a6f50efa60e3976eec621b3efe502338b79d",
+  "date": 1791978026000,
+  "durations": {},
+  "env_name": "virtualenv-py3.12-numpy2.5.3-onnx1.23.1-onnx-ir1.0.0-onnxruntime1.30.0-onnxscript0.7.2-ONNX_LIGHT_CPU_VERSION0.1.20-ONNX_LIGHT_VERSION0.1.30",
+  "env_vars": {
+    "ONNX_LIGHT_CPU_VERSION": "0.1.20",
+    "ONNX_LIGHT_VERSION": "0.1.30"
+  },
+  "params": {
+    "arch": "x86_64",
+    "cpu": "AMD EPYC 9V74 80-Core Processor",
+    "instruction_sets": "SSE2, SSE3, SSSE3, SSE4.1, SSE4.2, AVX, AVX2, AVX-512F, AVX-512BW, AVX-512CD, AVX-512DQ, AVX-512VL, AVX-512VNNI",
+    "machine": "AMD EPYC 9V74 80-Core Processor (4 vCPU)",
+    "num_cpu": "4",
+    "numpy": "2.5.3",
+    "onnx": "1.23.1",
+    "onnx-ir": "1.0.0",
+    "onnxruntime": "1.30.0",
+    "onnxscript": "0.7.2",
+    "os": "anonymous",
+    "python": "3.12",
+    "ram": "anonymous"
+  },
+  "python": "3.12",
+  "requirements": {
+    "numpy": "2.5.3",
+    "onnx": "1.23.1",
+    "onnx-ir": "1.0.0",
+    "onnxruntime": "1.30.0",
+    "onnxscript": "0.7.2"
+  },
+  "result_columns": [
+    "result",
+    "params",
+    "version",
+    "started_at",
+    "duration",
+    "stats_ci_99_a",
+    "stats_ci_99_b",
+    "stats_q_25",
+    "stats_q_75",
+    "stats_number",
+    "stats_repeat",
+    "samples",
+    "profile"
+  ],
+  "results": {
+    "cpu_backend_cases.quantization.cases.QLinearMatMulInt8Float32Inputs8.time_qlinearmatmul_square_64": [
+      [
+        5.571949999705339e-05,
+        4.201400000169997e-05
+      ],
+      [
+        [
+          "'int8'"
+        ],
+        [
+          "'float32'"
+        ],
+        [
+          "'int8'"
+        ],
+        [
+          "'int8'"
+        ],
+        [
+          "'float32'"
+        ],
+        [
+          "'int8'"
+        ],
+        [
+          "'float32'"
+        ],
+        [
+          "'int8'"
+        ],
+        [
+          "'(64, 64) x () x () x (64, 64) x () x () x () x ()'"
+        ],
+        [
+          "'onnx-light-cpu'",
+          "'onnxruntime'"
+        ]
+      ],
+      "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+      1791990660093,
+      20.457,
+      [
+        5.3831e-05,
+        4.0581e-05
+      ],
+      [
+        5.7637e-05,
+        4.4087e-05
+      ],
+      [
+        5.4387e-05,
+        4.1645e-05
+      ],
+      [
+        5.7191e-05,
+        4.2377e-05
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        10,
+        10
+      ]
+    ],
+    "cpu_backend_cases.quantization.cases.QLinearMatMulUint8Float32Inputs8.time_qlinearmatmul_square_64": [
+      [
+        5.371099999251783e-05,
+        3.1898000003138804e-05
+      ],
+      [
+        [
+          "'uint8'"
+        ],
+        [
+          "'float32'"
+        ],
+        [
+          "'uint8'"
+        ],
+        [
+          "'uint8'"
+        ],
+        [
+          "'float32'"
+        ],
+        [
+          "'uint8'"
+        ],
+        [
+          "'float32'"
+        ],
+        [
+          "'uint8'"
+        ],
+        [
+          "'(64, 64) x () x () x (64, 64) x () x () x () x ()'"
+        ],
+        [
+          "'onnx-light-cpu'",
+          "'onnxruntime'"
+        ]
+      ],
+      "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+      1791990670249,
+      20.232,
+      [
+        5.1267e-05,
+        2.9705e-05
+      ],
+      [
+        6.5519e-05,
+        4.8173e-05
+      ],
+      [
+        5.2547e-05,
+        3.1145e-05
+      ],
+      [
+        5.5441e-05,
+        3.2707e-05
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        10,
+        10
+      ]
+    ]
+  },
+  "version": 2
+}
