@@ -49,7 +49,7 @@ Examples:
     python study_moe_selected_experts.py \\
       moe-no-offload-unbounded-expert-activation-correlations-selected-experts.zip
 
-  Optimize alpha, W1, and W2 instead:
+  Optimize W0, W1, and W2 instead:
     python study_moe_selected_experts.py \\
       moe-no-offload-unbounded-expert-activation-correlations-selected-experts.zip \\
       --optimization matrix
@@ -82,7 +82,7 @@ Examples:
         "--optimization",
         choices=("alpha", "matrix", "none"),
         default="alpha",
-        help="Run scalar-alpha methods, joint alpha/W1/W2 matrix training, or only build S (default: %(default)s).",
+        help="Run scalar-alpha methods, joint W0/W1/W2 matrix training, or only build S (default: %(default)s).",
     )
     parser.add_argument(
         "--alpha-grid-size",
@@ -94,13 +94,13 @@ Examples:
         "--matrix-epochs",
         type=int,
         default=100,
-        help="Training epochs for alpha, W1, and W2 matrix regression (default: %(default)s).",
+        help="Training epochs for W0, W1, and W2 matrix regression (default: %(default)s).",
     )
     parser.add_argument(
         "--matrix-learning-rate",
         type=float,
         default=0.005,
-        help="Adam learning rate for alpha, W1, and W2 matrix regression (default: %(default)s).",
+        help="Adam learning rate for W0, W1, and W2 matrix regression (default: %(default)s).",
     )
     parser.add_argument(
         "--markdown-output",
@@ -426,7 +426,7 @@ def optimize_popularity_alpha(
         ):
             print(
                 f"Alpha grid: {index + 1}/{grid_size} "
-                f"(alpha={alpha:.6g}, mean_squared_error={errors[index]:.6g})",
+                f"(alpha={alpha:.3f}, mean_squared_error={errors[index]:.3f})",
                 flush=True,
             )
     candidates = [
@@ -445,7 +445,7 @@ def optimize_popularity_alpha(
         if verbose:
             print(
                 f"Refining candidate {interval_index}/{len(intervals)} "
-                f"in [{lower_bound:.6g}, {upper_bound:.6g}]...",
+                f"in [{lower_bound:.3f}, {upper_bound:.3f}]...",
                 flush=True,
             )
         result = minimize_scalar(
@@ -507,7 +507,7 @@ def optimize_routing_alpha(
         ):
             print(
                 f"Routing alpha grid: {index + 1}/{grid_size} "
-                f"(alpha={alpha:.6g}, error={errors[index]:.6g})",
+                f"(alpha={alpha:.3f}, error={errors[index]:.3f})",
                 flush=True,
             )
 
@@ -518,7 +518,7 @@ def optimize_routing_alpha(
         upper_bound = float(alphas[best_index + 1])
         if verbose:
             print(
-                f"Refining routing alpha in [{lower_bound:.6g}, {upper_bound:.6g}]...",
+                f"Refining routing alpha in [{lower_bound:.3f}, {upper_bound:.3f}]...",
                 flush=True,
             )
         result = minimize_scalar(
@@ -584,7 +584,7 @@ def optimize_regression_alpha(
         fitted_alpha = float(np.clip(model.coef_[0], OPTIMIZATION_ALPHA_MIN, 1))
         if verbose:
             print(
-                f"Regression iteration {iteration}: alpha={fitted_alpha:.12g}",
+                f"Regression iteration {iteration}: alpha={fitted_alpha:.3f}",
                 flush=True,
             )
         if abs(fitted_alpha - alpha) <= tolerance:
@@ -598,31 +598,31 @@ def optimize_regression_alpha(
 
 def optimize_matrix_regression(
     selection_tensor,
-    initial_alpha=MATRIX_INITIAL_ALPHA,
+    initial_decay=MATRIX_INITIAL_ALPHA,
     epochs=100,
     learning_rate=0.005,
     device=None,
     verbose=False,
 ):
-    """Optimizes alpha and per-QMoE W1/W2 matrices with PyTorch.
+    """Optimizes per-QMoE W0/W1/W2 matrices with PyTorch.
 
     The prediction follows
-    ``P[t,m] = alpha * P[t-1,m] + W1[m] @ S[t-1,m] + W2[m] @ S[t,m-1]``.
+    ``P[t,m] = W0[m] @ P[t-1,m] + W1[m] @ S[t-1,m] + W2[m] @ S[t,m-1]``.
     ``P[-1,m]``, ``S[-1,m]``, and ``S[t,-1]`` are zero. The loss is
     ``mean(t,m) sum(i) (P[t,m,i] - S[t,m,i])**2``.
 
     Args:
         selection_tensor: Binary tensor ``S`` with shape
             ``(iterations, qmoes, experts)``.
-        initial_alpha: Initial alpha, constrained throughout training to
-            ``0.5 < alpha <= 1``.
+        initial_decay: Scalar used to initialize ``W0`` to
+            ``initial_decay * I`` and ``W1`` to ``(1-initial_decay) * I``.
         epochs: Number of full-batch Adam training epochs.
         learning_rate: Adam learning rate.
         device: PyTorch device. Pass ``None`` to prefer CUDA when available.
         verbose: Whether to print training progress.
 
     Returns:
-        A tuple ``(alpha, W1, W2, P, error)``. ``W1`` and ``W2`` have shape
+        A tuple ``(W0, W1, W2, P, error)``. The three weights have shape
         ``(qmoes, experts, experts)``, ``P`` has the same shape as ``S``, and
         ``error`` is the final mean squared prediction error.
 
@@ -630,11 +630,8 @@ def optimize_matrix_regression(
         ValueError: If an argument is invalid.
     """
     selection_tensor = validate_selection_tensor(selection_tensor)
-    if (
-        not np.isfinite(initial_alpha)
-        or not OPTIMIZATION_ALPHA_MIN <= initial_alpha < 1
-    ):
-        raise ValueError("initial_alpha must be finite and in (0.5, 1).")
+    if not np.isfinite(initial_decay) or not 0 < initial_decay < 1:
+        raise ValueError("initial_decay must be finite and in (0, 1).")
     if epochs <= 0:
         raise ValueError("epochs must be positive.")
     if not np.isfinite(learning_rate) or learning_rate <= 0:
@@ -651,67 +648,75 @@ def optimize_matrix_regression(
     previous_layer_selection = torch.zeros_like(selection)
     previous_layer_selection[:, 1:] = selection[:, :-1]
 
-    alpha_ratio = (initial_alpha - 0.5) / 0.5
-    raw_alpha = torch.nn.Parameter(
-        torch.tensor(
-            np.log(alpha_ratio / (1 - alpha_ratio)),
-            dtype=torch.float32,
-            device=device,
-        )
+    identity = torch.eye(experts, dtype=torch.float32, device=device).repeat(
+        qmoes, 1, 1
     )
+    weight0 = torch.nn.Parameter(identity.mul(initial_decay))
     weight1 = torch.nn.Parameter(
         torch.eye(experts, dtype=torch.float32, device=device)
         .repeat(qmoes, 1, 1)
-        .mul_(1 - initial_alpha)
+        .mul_(1 - initial_decay)
     )
     weight2 = torch.nn.Parameter(
         torch.zeros(qmoes, experts, experts, dtype=torch.float32, device=device)
     )
     optimizer = torch.optim.Adam(
-        (raw_alpha, weight1, weight2),
+        (weight0, weight1, weight2),
         lr=learning_rate,
     )
 
     progress_step = max(1, epochs // 10)
     for epoch in range(epochs):
         optimizer.zero_grad(set_to_none=True)
-        alpha = 0.5 + 0.5 * torch.sigmoid(raw_alpha)
         drive = torch.einsum(
             "mij,tmj->tmi", weight1, previous_selection
         ) + torch.einsum("mij,tmj->tmi", weight2, previous_layer_selection)
         popularity = torch.zeros((qmoes, experts), dtype=torch.float32, device=device)
         loss = torch.zeros((), dtype=torch.float32, device=device)
         for iteration in range(iterations):
-            popularity = alpha * popularity + drive[iteration]
+            popularity = (
+                torch.bmm(weight0, popularity.unsqueeze(2)).squeeze(2)
+                + drive[iteration]
+            )
             loss = loss + (popularity - selection[iteration]).square().sum()
         loss = loss / (iterations * qmoes)
+        if not torch.isfinite(loss):
+            raise RuntimeError(
+                "Matrix regression produced a non-finite loss. "
+                "Reduce --matrix-learning-rate."
+            )
         loss.backward()
-        torch.nn.utils.clip_grad_norm_((raw_alpha, weight1, weight2), 1.0)
+        torch.nn.utils.clip_grad_norm_((weight0, weight1, weight2), 1.0)
         optimizer.step()
+        with torch.no_grad():
+            row_norm = weight0.abs().sum(dim=2).amax(dim=1)
+            scale = torch.clamp(row_norm / 0.999, min=1)
+            weight0.div_(scale[:, None, None])
         if verbose and (
             epoch == 0 or (epoch + 1) % progress_step == 0 or epoch + 1 == epochs
         ):
             print(
                 f"Matrix regression: {epoch + 1}/{epochs} "
-                f"(alpha={alpha.detach().item():.12g}, "
-                f"error={loss.detach().item():.12g})",
+                f"(error={loss.detach().item():.3f})",
                 flush=True,
             )
 
     with torch.no_grad():
-        alpha = 0.5 + 0.5 * torch.sigmoid(raw_alpha)
         drive = torch.einsum(
             "mij,tmj->tmi", weight1, previous_selection
         ) + torch.einsum("mij,tmj->tmi", weight2, previous_layer_selection)
         popularity = torch.zeros((qmoes, experts), dtype=torch.float32, device=device)
         popularity_tensor = torch.empty_like(selection)
         for iteration in range(iterations):
-            popularity = alpha * popularity + drive[iteration]
+            popularity = (
+                torch.bmm(weight0, popularity.unsqueeze(2)).squeeze(2)
+                + drive[iteration]
+            )
             popularity_tensor[iteration] = popularity
         error = (popularity_tensor - selection).square().sum(dim=2).mean()
 
     return (
-        float(alpha.item()),
+        weight0.detach().cpu().numpy(),
         weight1.detach().cpu().numpy(),
         weight2.detach().cpu().numpy(),
         popularity_tensor.cpu().numpy(),
@@ -770,8 +775,8 @@ def print_routing_error_table(
     for row in rows:
         print(
             f"{label},{row[0]},"
-            f"{row[1]:.12g},{row[2]:.12g},{row[3]:.12g},"
-            f"{row[4]:.12g},{row[5]:.12g},{row[6]:.12g}"
+            f"{row[1]:.3f},{row[2]:.3f},{row[3]:.3f},"
+            f"{row[4]:.3f},{row[5]:.3f},{row[6]:.3f}"
         )
 
     markdown_lines = [
@@ -785,9 +790,9 @@ def print_routing_error_table(
     ]
     for row in rows:
         markdown_lines.append(
-            f"| {row[0]} | {row[1]:.12g} | {row[2]:.12g} | "
-            f"{row[3]:.12g} | {row[4]:.12g} | {row[5]:.12g} | "
-            f"{row[6]:.12g} |"
+            f"| {row[0]} | {row[1]:.3f} | {row[2]:.3f} | "
+            f"{row[3]:.3f} | {row[4]:.3f} | {row[5]:.3f} | "
+            f"{row[6]:.3f} |"
         )
     with markdown_output.open("a", encoding="utf-8") as stream:
         stream.write("\n".join(markdown_lines))
@@ -799,7 +804,7 @@ def append_markdown_values(markdown_output, heading, values):
     with markdown_output.open("a", encoding="utf-8") as stream:
         stream.write(f"## {heading}\n\n")
         for name, value in values:
-            stream.write(f"- `{name} = {value:.12g}`\n")
+            stream.write(f"- `{name} = {value:.3f}`\n")
         stream.write("\n")
 
 
@@ -814,7 +819,7 @@ def run_alpha_optimizations(
     """Runs the three scalar-alpha methods and writes their routing results."""
     print("Fitting alpha as a linear-regression coefficient...", flush=True)
     regression_alpha = optimize_regression_alpha(selection_tensor, verbose=True)
-    print(f"regression_alpha={regression_alpha:.12g}")
+    print(f"regression_alpha={regression_alpha:.3f}")
     append_markdown_values(
         markdown_output,
         "Linear regression",
@@ -837,8 +842,8 @@ def run_alpha_optimizations(
         grid_size=grid_size,
         verbose=True,
     )
-    print(f"optimal_alpha={alpha:.12g}")
-    print(f"minimum_mean_squared_error={error:.12g}")
+    print(f"optimal_alpha={alpha:.3f}")
+    print(f"minimum_mean_squared_error={error:.3f}")
     append_markdown_values(
         markdown_output,
         "Squared prediction error",
@@ -865,8 +870,8 @@ def run_alpha_optimizations(
         grid_size=grid_size,
         verbose=True,
     )
-    print(f"routing_optimal_alpha_k6144={routing_alpha:.12g}")
-    print(f"routing_minimum_error_k6144={routing_error:.12g}")
+    print(f"routing_optimal_alpha_k6144={routing_alpha:.3f}")
+    print(f"routing_minimum_error_k6144={routing_error:.3f}")
     append_markdown_values(
         markdown_output,
         "Routing error at K=6144",
@@ -896,10 +901,10 @@ def run_matrix_optimization(
     last_five_start,
     markdown_output,
 ):
-    """Jointly optimizes alpha, W1, and W2 and writes routing results."""
-    print("Optimizing alpha, W1, and W2 with PyTorch...", flush=True)
+    """Jointly optimizes W0, W1, and W2 and writes routing results."""
+    print("Optimizing W0, W1, and W2 with PyTorch...", flush=True)
     (
-        matrix_alpha,
+        _weight0,
         _weight1,
         _weight2,
         matrix_popularity,
@@ -910,15 +915,11 @@ def run_matrix_optimization(
         learning_rate=learning_rate,
         verbose=True,
     )
-    print(f"matrix_regression_alpha={matrix_alpha:.12g}")
-    print(f"matrix_regression_mean_squared_error={matrix_error:.12g}")
+    print(f"matrix_regression_mean_squared_error={matrix_error:.3f}")
     append_markdown_values(
         markdown_output,
         "Matrix regression",
-        (
-            ("matrix_regression_alpha", matrix_alpha),
-            ("matrix_regression_mean_squared_error", matrix_error),
-        ),
+        (("matrix_regression_mean_squared_error", matrix_error),),
     )
     print_routing_error_table(
         "matrix_regression",

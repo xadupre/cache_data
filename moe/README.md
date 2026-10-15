@@ -99,7 +99,7 @@ iteration `t`, and `0` otherwise:
 | `--selected-expert-count` | Selected experts per iteration and QMoE; default `8` |
 | `--optimization` | `alpha`, `matrix`, or `none`; default `alpha` |
 | `--alpha-grid-size` | Coarse optimization grid size; default `101` |
-| `--matrix-epochs` | PyTorch training epochs for `alpha`, `W1`, and `W2`; default `100` |
+| `--matrix-epochs` | PyTorch training epochs for `W0`, `W1`, and `W2`; default `100` |
 | `--matrix-learning-rate` | Adam learning rate for matrix regression; default `0.005` |
 | `--markdown-output` | Markdown result path; default `study_moe_selected_experts.md` beside the script |
 
@@ -127,11 +127,11 @@ S = build_selection_tensor(selected_experts)
 By default, the script optimizes the popularity coefficient in
 `P(t) = alpha * P(t-1) + (1-alpha) * S(t-1)` by minimizing
 `mean(t,m) sum(i) (P(t,m,i) - S(t,m,i))**2`. This error is averaged
-over iterations and QMoEs and therefore lies between 0 and 256. All four
-alpha computations are restricted to `0.5 < alpha <= 1`:
+over iterations and QMoEs and therefore lies between 0 and 256. The three
+scalar-alpha computations are restricted to `0.5 < alpha <= 1`:
 
 The `alpha` mode runs the three scalar-alpha methods. The `matrix` mode runs
-only the joint alpha/W1/W2 optimization; the two modes are mutually exclusive.
+only the joint W0/W1/W2 optimization; the two modes are mutually exclusive.
 
 ```bash
 python study_moe_selected_experts.py \
@@ -143,8 +143,8 @@ The function `optimize_popularity_alpha(S)` returns
 For this dataset and an all-zero initial popularity tensor, it gives:
 
 ```text
-alpha = 0.910330054018
-mean_squared_error = 6.78780329411
+alpha = 0.910
+mean_squared_error = 6.788
 ```
 
 The script also simulates GPU expert retention. At every iteration, it sorts
@@ -176,42 +176,42 @@ of the three scalar-alpha computations. CSV tables remain on standard output;
 GitHub-flavored Markdown is written to `study_moe_selected_experts.md` beside
 the Python script.
 
-The first table uses `alpha = 0.910330054018`, optimized for mean squared
+The first table uses `alpha = 0.910`, optimized for mean squared
 popularity error:
 
 ```text
 alpha_objective,gpu_expert_count,all_prompts,first_2_prompts,last_5_prompts,random_1_last_5_prompts,random_2_last_5_prompts,random_3_last_5_prompts
-squared_error,0,8,8,8,8,8,8
-squared_error,1024,3.68853084236,3.56670480549,3.73584779706,7.21638017356,7.12787049399,7.16999332443
-squared_error,2048,2.34730820252,2.27705949657,2.39001168224,6.36300066756,6.3545894526,6.41693925234
-squared_error,3072,1.54232257351,1.50263157895,1.56744826435,5.54979973298,5.52671895861,5.60034212283
-squared_error,4096,1.01185606898,0.95766590389,1.02489152203,4.80168558077,4.77712783712,4.82947263017
-squared_error,5120,0.652619942516,0.602173913043,0.659429238985,3.99633678238,3.95002503338,4.00191922563
-squared_error,6144,0.393560689808,0.409610983982,0.392832109479,3.20702603471,3.12550901202,3.20624165554
-squared_error,7168,0.198524209595,0.28209382151,0.197046061415,2.41239986649,2.36003838451,2.4245493992
-squared_error,8192,0.0844295821358,0.202688787185,0.078020694259,1.57272196262,1.52489152203,1.60231975968
-squared_error,9216,0.0282611098828,0.124599542334,0.0166889185581,0.742531708945,0.773815086782,0.819851468625
-squared_error,10240,0,0,0,0,0,0
+squared_error,0,8.000,8.000,8.000,8.000,8.000,8.000
+squared_error,1024,3.689,3.567,3.736,7.216,7.128,7.170
+squared_error,2048,2.347,2.277,2.390,6.363,6.355,6.417
+squared_error,3072,1.542,1.503,1.567,5.550,5.527,5.600
+squared_error,4096,1.012,0.958,1.025,4.802,4.777,4.829
+squared_error,5120,0.653,0.602,0.659,3.996,3.950,4.002
+squared_error,6144,0.394,0.410,0.393,3.207,3.126,3.206
+squared_error,7168,0.199,0.282,0.197,2.412,2.360,2.425
+squared_error,8192,0.084,0.203,0.078,1.573,1.525,1.602
+squared_error,9216,0.028,0.125,0.017,0.743,0.774,0.820
+squared_error,10240,0.000,0.000,0.000,0.000,0.000,0.000
 ```
 
 `optimize_routing_alpha(S, gpu_expert_count=6144)` performs a second
 optimization over all prompts. It finds
-`alpha = 0.990556466934`, with routing error `0.353940968384` at `K=6144`.
+`alpha = 0.991`, with routing error `0.354` at `K=6144`.
 The same output columns for this alpha are:
 
 ```text
 alpha_objective,gpu_expert_count,all_prompts,first_2_prompts,last_5_prompts,random_1_last_5_prompts,random_2_last_5_prompts,random_3_last_5_prompts
-routing_error_k6144,0,8,8,8,8,8,8
-routing_error_k6144,1024,4.30809197435,3.9930778032,4.3516605474,7.21638017356,7.12787049399,7.16999332443
-routing_error_k6144,2048,2.83971921291,2.54273455378,2.87661048064,6.36300066756,6.3545894526,6.41693925234
-routing_error_k6144,3072,1.84904377625,1.61550343249,1.8784212283,5.54979973298,5.52671895861,5.60034212283
-routing_error_k6144,4096,1.15437762547,1.01127002288,1.17813751669,4.80168558077,4.77712783712,4.82947263017
-routing_error_k6144,5120,0.669489277029,0.625171624714,0.684521028037,3.99633678238,3.95002503338,4.00191922563
-routing_error_k6144,6144,0.353940968384,0.39971395881,0.359654539386,3.20702603471,3.12550901202,3.20624165554
-routing_error_k6144,7168,0.181251381826,0.280720823799,0.179247329773,2.41239986649,2.36003838451,2.4245493992
-routing_error_k6144,8192,0.0804333407031,0.202688787185,0.0721211615487,1.57272196262,1.52489152203,1.60231975968
-routing_error_k6144,9216,0.0279736900287,0.124599542334,0.0162550066756,0.742531708945,0.773815086782,0.819851468625
-routing_error_k6144,10240,0,0,0,0,0,0
+routing_error_k6144,0,8.000,8.000,8.000,8.000,8.000,8.000
+routing_error_k6144,1024,4.308,3.993,4.352,7.216,7.128,7.170
+routing_error_k6144,2048,2.840,2.543,2.877,6.363,6.355,6.417
+routing_error_k6144,3072,1.849,1.616,1.878,5.550,5.527,5.600
+routing_error_k6144,4096,1.154,1.011,1.178,4.802,4.777,4.829
+routing_error_k6144,5120,0.669,0.625,0.685,3.996,3.950,4.002
+routing_error_k6144,6144,0.354,0.400,0.360,3.207,3.126,3.206
+routing_error_k6144,7168,0.181,0.281,0.179,2.412,2.360,2.425
+routing_error_k6144,8192,0.080,0.203,0.072,1.573,1.525,1.602
+routing_error_k6144,9216,0.028,0.125,0.016,0.743,0.774,0.820
+routing_error_k6144,10240,0.000,0.000,0.000,0.000,0.000,0.000
 ```
 
 `optimize_regression_alpha(S)` fits the no-intercept linear model
@@ -221,27 +221,27 @@ S(t) - S(t-1) = alpha * (P(t-1) - S(t-1))
 ```
 
 and recomputes `P` until the fitted coefficient converges. It gives
-`alpha = 0.719428897297`. The fit uses
+`alpha = 0.719`. The fit uses
 `sklearn.linear_model.LinearRegression(fit_intercept=False)`. The
 corresponding routing table is:
 
 ```text
 alpha_objective,gpu_expert_count,all_prompts,first_2_prompts,last_5_prompts,random_1_last_5_prompts,random_2_last_5_prompts,random_3_last_5_prompts
-linear_regression,0,8,8,8,8,8,8
-linear_regression,1024,3.69957439752,3.59313501144,3.75934579439,7.21638017356,7.12787049399,7.16999332443
-linear_regression,2048,2.42837718329,2.33655606407,2.48478805073,6.36300066756,6.3545894526,6.41693925234
-linear_regression,3072,1.5625580367,1.53901601831,1.5909629506,5.54979973298,5.52671895861,5.60034212283
-linear_regression,4096,1.02139619721,0.974256292906,1.03549732977,4.80168558077,4.77712783712,4.82947263017
-linear_regression,5120,0.65532832191,0.601029748284,0.662216288385,3.99633678238,3.95002503338,4.00191922563
-linear_regression,6144,0.395180190139,0.410411899314,0.394292389853,3.20702603471,3.12550901202,3.20624165554
-linear_regression,7168,0.198944284767,0.281464530892,0.197479973298,2.41239986649,2.36003838451,2.4245493992
-linear_regression,8192,0.0848386026973,0.202688787185,0.0785964619493,1.57272196262,1.52489152203,1.60231975968
-linear_regression,9216,0.0282721644926,0.124599542334,0.0167056074766,0.742531708945,0.773815086782,0.819851468625
-linear_regression,10240,0,0,0,0,0,0
+linear_regression,0,8.000,8.000,8.000,8.000,8.000,8.000
+linear_regression,1024,3.700,3.593,3.759,7.216,7.128,7.170
+linear_regression,2048,2.428,2.337,2.485,6.363,6.355,6.417
+linear_regression,3072,1.563,1.539,1.591,5.550,5.527,5.600
+linear_regression,4096,1.021,0.974,1.035,4.802,4.777,4.829
+linear_regression,5120,0.655,0.601,0.662,3.996,3.950,4.002
+linear_regression,6144,0.395,0.410,0.394,3.207,3.126,3.206
+linear_regression,7168,0.199,0.281,0.197,2.412,2.360,2.425
+linear_regression,8192,0.085,0.203,0.079,1.573,1.525,1.602
+linear_regression,9216,0.028,0.125,0.017,0.743,0.774,0.820
+linear_regression,10240,0.000,0.000,0.000,0.000,0.000,0.000
 ```
 
-The matrix regression uses PyTorch and learns one pair of `256 x 256`
-matrices per QMoE:
+The matrix regression uses PyTorch and learns three `256 x 256` matrices per
+QMoE:
 
 ```bash
 python study_moe_selected_experts.py \
@@ -250,19 +250,19 @@ python study_moe_selected_experts.py \
 ```
 
 ```text
-P[t,m] = alpha * P[t-1,m]
+P[t,m] = W0[m] @ P[t-1,m]
        + W1[m] @ S[t-1,m]
        + W2[m] @ S[t,m-1]
 ```
 
 `P[-1,m]`, `S[-1,m]`, and `S[t,-1]` are zero. Full-batch Adam starts from
-the scalar-regression alpha, `W1[m] = (1-alpha) I`, and `W2[m] = 0`. After
-100 epochs with learning rate `0.005`, it gives:
+`W0[m] = 0.719 I`, `W1[m] = 0.281 I`, and `W2[m] = 0`. After every Adam
+step, `W0` is projected to an induced infinity norm below one to keep the
+recurrence stable. After 100 epochs with learning rate `0.005`, it gives:
 
 ```text
-matrix_regression_alpha = 0.686919271946
-matrix_regression_mean_squared_error = 4.13916301727
-W1.shape = W2.shape = (40, 256, 256)
+matrix_regression_mean_squared_error = 3.959
+W0.shape = W1.shape = W2.shape = (40, 256, 256)
 ```
 
 The routing figures are in-sample: all prompts used for the reported columns
@@ -270,15 +270,15 @@ also participate in matrix training.
 
 ```text
 alpha_objective,gpu_expert_count,all_prompts,first_2_prompts,last_5_prompts,random_1_last_5_prompts,random_2_last_5_prompts,random_3_last_5_prompts
-matrix_regression,0,8,8,8,8,8,8
-matrix_regression,1024,0.377570196772,0.399313501144,0.37742823765,7.21638017356,7.12787049399,7.16999332443
-matrix_regression,2048,0.0837994693787,0.0914187643021,0.082685246996,6.36300066756,6.3545894526,6.41693925234
-matrix_regression,3072,0.0378952022994,0.0441075514874,0.036840787717,5.54979973298,5.52671895861,5.60034212283
-matrix_regression,4096,0.0233307539244,0.0278032036613,0.0225300400534,4.80168558077,4.77712783712,4.82947263017
-matrix_regression,5120,0.0171567543666,0.0215675057208,0.0165720961282,3.99633678238,3.95002503338,4.00191922563
-matrix_regression,6144,0.0148960866681,0.0191075514874,0.0143608144192,3.20702603471,3.12550901202,3.20624165554
-matrix_regression,7168,0.0118781782003,0.0148741418764,0.0113651535381,2.41239986649,2.36003838451,2.4245493992
-matrix_regression,8192,0.00810302896308,0.0103546910755,0.00781875834446,1.57272196262,1.52489152203,1.60231975968
-matrix_regression,9216,0.0038691134203,0.00577803203661,0.00368825100134,0.742531708945,0.773815086782,0.819851468625
-matrix_regression,10240,0,0,0,0,0,0
+matrix_regression,0,8.000,8.000,8.000,8.000,8.000,8.000
+matrix_regression,1024,0.380,0.414,0.378,7.216,7.128,7.170
+matrix_regression,2048,0.084,0.092,0.083,6.363,6.355,6.417
+matrix_regression,3072,0.038,0.044,0.037,5.550,5.527,5.600
+matrix_regression,4096,0.024,0.028,0.023,4.802,4.777,4.829
+matrix_regression,5120,0.018,0.021,0.018,3.996,3.950,4.002
+matrix_regression,6144,0.016,0.019,0.015,3.207,3.126,3.206
+matrix_regression,7168,0.013,0.016,0.012,2.412,2.360,2.425
+matrix_regression,8192,0.009,0.012,0.008,1.573,1.525,1.602
+matrix_regression,9216,0.004,0.005,0.004,0.743,0.774,0.820
+matrix_regression,10240,0.000,0.000,0.000,0.000,0.000,0.000
 ```
