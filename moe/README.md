@@ -97,8 +97,11 @@ iteration `t`, and `0` otherwise:
 | `--qmoe-count` | Expected QMoE count; default `40` |
 | `--expert-count` | Experts per QMoE; default `256` |
 | `--selected-expert-count` | Selected experts per iteration and QMoE; default `8` |
-| `--optimize-alpha`, `--no-optimize-alpha` | Enable or disable alpha optimization and routing errors; enabled by default |
+| `--optimization` | `alpha`, `matrix`, or `none`; default `alpha` |
 | `--alpha-grid-size` | Coarse optimization grid size; default `101` |
+| `--matrix-epochs` | PyTorch training epochs for `alpha`, `W1`, and `W2`; default `100` |
+| `--matrix-learning-rate` | Adam learning rate for matrix regression; default `0.005` |
+| `--markdown-output` | Markdown result path; default `study_moe_selected_experts.md` beside the script |
 
 Run `python study_moe_selected_experts.py --help` to display these options and
 complete command-line examples.
@@ -124,8 +127,11 @@ S = build_selection_tensor(selected_experts)
 By default, the script optimizes the popularity coefficient in
 `P(t) = alpha * P(t-1) + (1-alpha) * S(t-1)` by minimizing
 `mean(t,m) sum(i) (P(t,m,i) - S(t,m,i))**2`. This error is averaged
-over iterations and QMoEs and therefore lies between 0 and 256. All three
+over iterations and QMoEs and therefore lies between 0 and 256. All four
 alpha computations are restricted to `0.5 < alpha <= 1`:
+
+The `alpha` mode runs the three scalar-alpha methods. The `matrix` mode runs
+only the joint alpha/W1/W2 optimization; the two modes are mutually exclusive.
 
 ```bash
 python study_moe_selected_experts.py \
@@ -166,8 +172,9 @@ only on the last five prompts. NumPy seeds `0`, `1`, and `2` make the three
 columns reproducible. Each fixed distribution has shape `(40, 256)`;
 `moe_routing_error` accepts it directly without expanding it over iterations.
 The script runs the linear-regression estimate first because it is the fastest
-of the three alpha computations. Each routing table is printed first as CSV
-and then as a GitHub-flavored Markdown table.
+of the three scalar-alpha computations. CSV tables remain on standard output;
+GitHub-flavored Markdown is written to `study_moe_selected_experts.md` beside
+the Python script.
 
 The first table uses `alpha = 0.910330054018`, optimized for mean squared
 popularity error:
@@ -231,4 +238,47 @@ linear_regression,7168,0.198944284767,0.281464530892,0.197479973298,2.4123998664
 linear_regression,8192,0.0848386026973,0.202688787185,0.0785964619493,1.57272196262,1.52489152203,1.60231975968
 linear_regression,9216,0.0282721644926,0.124599542334,0.0167056074766,0.742531708945,0.773815086782,0.819851468625
 linear_regression,10240,0,0,0,0,0,0
+```
+
+The matrix regression uses PyTorch and learns one pair of `256 x 256`
+matrices per QMoE:
+
+```bash
+python study_moe_selected_experts.py \
+  moe-no-offload-unbounded-expert-activation-correlations-selected-experts.zip \
+  --optimization matrix
+```
+
+```text
+P[t,m] = alpha * P[t-1,m]
+       + W1[m] @ S[t-1,m]
+       + W2[m] @ S[t,m-1]
+```
+
+`P[-1,m]`, `S[-1,m]`, and `S[t,-1]` are zero. Full-batch Adam starts from
+the scalar-regression alpha, `W1[m] = (1-alpha) I`, and `W2[m] = 0`. After
+100 epochs with learning rate `0.005`, it gives:
+
+```text
+matrix_regression_alpha = 0.686919271946
+matrix_regression_mean_squared_error = 4.13916301727
+W1.shape = W2.shape = (40, 256, 256)
+```
+
+The routing figures are in-sample: all prompts used for the reported columns
+also participate in matrix training.
+
+```text
+alpha_objective,gpu_expert_count,all_prompts,first_2_prompts,last_5_prompts,random_1_last_5_prompts,random_2_last_5_prompts,random_3_last_5_prompts
+matrix_regression,0,8,8,8,8,8,8
+matrix_regression,1024,0.377570196772,0.399313501144,0.37742823765,7.21638017356,7.12787049399,7.16999332443
+matrix_regression,2048,0.0837994693787,0.0914187643021,0.082685246996,6.36300066756,6.3545894526,6.41693925234
+matrix_regression,3072,0.0378952022994,0.0441075514874,0.036840787717,5.54979973298,5.52671895861,5.60034212283
+matrix_regression,4096,0.0233307539244,0.0278032036613,0.0225300400534,4.80168558077,4.77712783712,4.82947263017
+matrix_regression,5120,0.0171567543666,0.0215675057208,0.0165720961282,3.99633678238,3.95002503338,4.00191922563
+matrix_regression,6144,0.0148960866681,0.0191075514874,0.0143608144192,3.20702603471,3.12550901202,3.20624165554
+matrix_regression,7168,0.0118781782003,0.0148741418764,0.0113651535381,2.41239986649,2.36003838451,2.4245493992
+matrix_regression,8192,0.00810302896308,0.0103546910755,0.00781875834446,1.57272196262,1.52489152203,1.60231975968
+matrix_regression,9216,0.0038691134203,0.00577803203661,0.00368825100134,0.742531708945,0.773815086782,0.819851468625
+matrix_regression,10240,0,0,0,0,0,0
 ```
