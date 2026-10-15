@@ -67,3 +67,28 @@ Archive SHA-256:
 ```text
 135f4be1e915ed4f6819494b4bb6ade90cdba64b609dbbe53b7f486bc5182f37
 ```
+
+## Binary selection tensor
+
+[`build_selected_expert_tensor.py`](build_selected_expert_tensor.py) reads the
+ZIP archive directly with pandas and creates the binary tensor
+`S[t, m, i]`. It is `1` when expert `i` is selected by QMoE `m` at decode
+iteration `t`, and `0` otherwise:
+
+```bash
+python build_selected_expert_tensor.py \
+  moe-no-offload-unbounded-expert-activation-correlations-selected-experts.zip \
+  --output selected-expert-tensor.npz
+```
+
+The resulting tensor has shape `(4523, 40, 256)`, dtype `uint8`, and exactly
+8 ones along the expert axis for every `(t, m)` pair. The NPZ archive contains
+the tensor under key `S`, together with its one-based `iterations` and
+zero-based `qmoes` and `experts` coordinates:
+
+```python
+import numpy as np
+
+with np.load("selected-expert-tensor.npz") as data:
+    S = data["S"]
+```
