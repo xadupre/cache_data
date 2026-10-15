@@ -596,11 +596,7 @@ def print_routing_error_table(
         (0, first_two_end),
         (last_five_start, selection_tensor.shape[0]),
     )
-    print(
-        "alpha_objective,gpu_expert_count,all_prompts,first_2_prompts,"
-        "last_5_prompts,random_1_last_5_prompts,"
-        "random_2_last_5_prompts,random_3_last_5_prompts"
-    )
+    rows = []
     for gpu_expert_count in range(0, 1024 * 11, 1024):
         errors = moe_routing_error(
             selection_tensor,
@@ -616,11 +612,31 @@ def print_routing_error_table(
             )
             for random_popularity in random_popularities
         )
+        rows.append((gpu_expert_count, *errors, *random_errors))
+
+    print(
+        "alpha_objective,gpu_expert_count,all_prompts,first_2_prompts,"
+        "last_5_prompts,random_1_last_5_prompts,"
+        "random_2_last_5_prompts,random_3_last_5_prompts"
+    )
+    for row in rows:
         print(
-            f"{label},{gpu_expert_count},"
-            f"{errors[0]:.12g},{errors[1]:.12g},{errors[2]:.12g},"
-            f"{random_errors[0]:.12g},{random_errors[1]:.12g},"
-            f"{random_errors[2]:.12g}"
+            f"{label},{row[0]},"
+            f"{row[1]:.12g},{row[2]:.12g},{row[3]:.12g},"
+            f"{row[4]:.12g},{row[5]:.12g},{row[6]:.12g}"
+        )
+
+    print(f"\n### `{label}`")
+    print(
+        "| Experts on GPU | All prompts | First 2 prompts | Last 5 prompts | "
+        "Random 1, last 5 | Random 2, last 5 | Random 3, last 5 |"
+    )
+    print("|---:|---:|---:|---:|---:|---:|---:|")
+    for row in rows:
+        print(
+            f"| {row[0]} | {row[1]:.12g} | {row[2]:.12g} | "
+            f"{row[3]:.12g} | {row[4]:.12g} | {row[5]:.12g} | "
+            f"{row[6]:.12g} |"
         )
 
 

@@ -166,7 +166,8 @@ only on the last five prompts. NumPy seeds `0`, `1`, and `2` make the three
 columns reproducible. Each fixed distribution has shape `(40, 256)`;
 `moe_routing_error` accepts it directly without expanding it over iterations.
 The script runs the linear-regression estimate first because it is the fastest
-of the three alpha computations.
+of the three alpha computations. Each routing table is printed first as CSV
+and then as a GitHub-flavored Markdown table.
 
 The first table uses `alpha = 0.910330054018`, optimized for mean squared
 popularity error:
