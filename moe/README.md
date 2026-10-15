@@ -70,13 +70,13 @@ Archive SHA-256:
 
 ## Binary selection tensor
 
-[`build_selected_expert_tensor.py`](build_selected_expert_tensor.py) reads the
+[`study_moe_selected_experts.py`](study_moe_selected_experts.py) reads the
 ZIP archive directly with pandas and creates the binary tensor
 `S[t, m, i]`. It is `1` when expert `i` is selected by QMoE `m` at decode
 iteration `t`, and `0` otherwise:
 
 ```bash
-python build_selected_expert_tensor.py \
+python study_moe_selected_experts.py \
   moe-no-offload-unbounded-expert-activation-correlations-selected-experts.zip \
   --output selected-expert-tensor.npz
 ```
