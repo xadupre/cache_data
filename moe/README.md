@@ -15,6 +15,22 @@ contains one CSV file with 1,447,360 selected-expert records:
 | `expert_number` | Zero-based expert number local to the QMoE |
 | `position` | Zero-based global expert position before the popularity-counter update |
 
+The first lines of the uncompressed CSV are:
+
+```csv
+iteration,qmoe_number,expert_number,position
+1,0,236,112
+1,0,43,12
+1,0,30,7
+1,0,191,95
+1,0,124,2850
+1,0,73,2827
+1,0,188,94
+1,0,238,114
+1,1,33,18
+1,1,86,31
+```
+
 The trace contains 10 prompts and 4,533 generated tokens. The first generated
 token of each prompt comes from prefill, so the CSV covers 4,523 decode
 iterations. Every decode iteration selects 8 experts in each of the 40 QMoE
