@@ -10,8 +10,25 @@ import pandas as pd
 REQUIRED_COLUMNS = ("iteration", "qmoe_number", "expert_number", "position")
 
 
-def parse_args():
-    """Parses command-line arguments for tensor construction."""
+def parse_args(argv=None):
+    """Parses command-line arguments for tensor construction.
+
+    Args:
+        argv: Command-line arguments without the program name. Pass ``None``
+            to read them from ``sys.argv[1:]``.
+
+    Returns:
+        An ``argparse.Namespace`` containing:
+
+        * ``archive``: input ZIP archive as a ``Path``;
+        * ``output``: destination NPZ file as a ``Path``;
+        * ``qmoe_count``: expected number of QMoE layers;
+        * ``expert_count``: expected number of experts per QMoE;
+        * ``selected_expert_count``: expected selections per iteration/QMoE.
+
+    Raises:
+        SystemExit: If required arguments are missing or an argument is invalid.
+    """
     parser = argparse.ArgumentParser(
         description="Build S[t, m, i], the binary QMoE expert-selection tensor, from the routing CSV archive."
     )
@@ -24,7 +41,7 @@ def parse_args():
     parser.add_argument("--qmoe-count", type=int, default=40)
     parser.add_argument("--expert-count", type=int, default=256)
     parser.add_argument("--selected-expert-count", type=int, default=8)
-    return parser.parse_args()
+    return parser.parse_args(argv)
 
 
 def read_selected_experts(archive):
