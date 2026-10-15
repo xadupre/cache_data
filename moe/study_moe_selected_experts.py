@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+"""Build a binary QMoE expert-selection tensor from the published routing data."""
+
 import argparse
 from pathlib import Path
 
@@ -9,6 +11,7 @@ REQUIRED_COLUMNS = ("iteration", "qmoe_number", "expert_number", "position")
 
 
 def parse_args():
+    """Parses command-line arguments for tensor construction."""
     parser = argparse.ArgumentParser(
         description="Build S[t, m, i], the binary QMoE expert-selection tensor, from the routing CSV archive."
     )
@@ -25,6 +28,14 @@ def parse_args():
 
 
 def read_selected_experts(archive):
+    """Reads the selected-expert table directly from its ZIP archive.
+
+    Args:
+        archive: Path to a ZIP archive containing one routing CSV file.
+
+    Returns:
+        A pandas DataFrame containing the four required integer columns.
+    """
     return pd.read_csv(
         archive,
         compression="zip",
@@ -39,6 +50,26 @@ def build_selection_tensor(
     expert_count=256,
     selected_expert_count=8,
 ):
+    """Builds the binary expert-selection tensor ``S[t, m, i]``.
+
+    The input uses one-based decode iterations and zero-based QMoE and expert
+    numbers. The returned tensor uses zero-based NumPy axes, so CSV iteration
+    ``t`` is stored at ``S[t - 1]``.
+
+    Args:
+        selected_experts: Routing rows with the columns in ``REQUIRED_COLUMNS``.
+        qmoe_count: Expected number of QMoE layers.
+        expert_count: Number of experts in each QMoE layer.
+        selected_expert_count: Expected selections per iteration and QMoE.
+
+    Returns:
+        A uint8 tensor of shape ``(iterations, qmoe_count, expert_count)``.
+        An entry is one exactly when the corresponding expert was selected.
+
+    Raises:
+        ValueError: If the table is empty, incomplete, duplicated, or contains
+            indices outside the configured tensor dimensions.
+    """
     missing_columns = set(REQUIRED_COLUMNS) - set(selected_experts.columns)
     if missing_columns:
         raise ValueError(f"Missing CSV columns: {sorted(missing_columns)}.")
@@ -94,6 +125,7 @@ def build_selection_tensor(
 
 
 def main():
+    """Loads the routing archive, builds ``S``, and writes a compressed NPZ."""
     args = parse_args()
     selected_experts = read_selected_experts(args.archive)
     tensor = build_selection_tensor(
