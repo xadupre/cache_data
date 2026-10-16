@@ -24,6 +24,7 @@
     "repeat": 0,
     "rounds": 2,
     "sample_time": 0.01,
+    "skip_params": [],
     "timeout": 60,
     "type": "time",
     "unit": "seconds",
@@ -55,6 +56,7 @@
     "repeat": 0,
     "rounds": 2,
     "sample_time": 0.01,
+    "skip_params": [],
     "timeout": 60,
     "type": "time",
     "unit": "seconds",
@@ -86,6 +88,7 @@
     "repeat": 0,
     "rounds": 2,
     "sample_time": 0.01,
+    "skip_params": [],
     "timeout": 60,
     "type": "time",
     "unit": "seconds",
@@ -117,6 +120,7 @@
     "repeat": 0,
     "rounds": 2,
     "sample_time": 0.01,
+    "skip_params": [],
     "timeout": 60,
     "type": "time",
     "unit": "seconds",
@@ -148,6 +152,7 @@
     "repeat": 0,
     "rounds": 2,
     "sample_time": 0.01,
+    "skip_params": [],
     "timeout": 60,
     "type": "time",
     "unit": "seconds",
@@ -179,6 +184,7 @@
     "repeat": 0,
     "rounds": 2,
     "sample_time": 0.01,
+    "skip_params": [],
     "timeout": 60,
     "type": "time",
     "unit": "seconds",
@@ -210,6 +216,7 @@
     "repeat": 0,
     "rounds": 2,
     "sample_time": 0.01,
+    "skip_params": [],
     "timeout": 60,
     "type": "time",
     "unit": "seconds",
@@ -241,6 +248,7 @@
     "repeat": 0,
     "rounds": 2,
     "sample_time": 0.01,
+    "skip_params": [],
     "timeout": 60,
     "type": "time",
     "unit": "seconds",
@@ -272,6 +280,7 @@
     "repeat": 0,
     "rounds": 2,
     "sample_time": 0.01,
+    "skip_params": [],
     "timeout": 60,
     "type": "time",
     "unit": "seconds",
@@ -303,6 +312,7 @@
     "repeat": 0,
     "rounds": 2,
     "sample_time": 0.01,
+    "skip_params": [],
     "timeout": 60,
     "type": "time",
     "unit": "seconds",
@@ -334,6 +344,7 @@
     "repeat": 0,
     "rounds": 2,
     "sample_time": 0.01,
+    "skip_params": [],
     "timeout": 60,
     "type": "time",
     "unit": "seconds",
@@ -365,6 +376,1927 @@
     "repeat": 0,
     "rounds": 2,
     "sample_time": 0.01,
+    "skip_params": [],
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+    "warmup_time": -1
+  },
+  "cpu_backend_cases.tensor.cases.CastFloat16.time_cast_large_to_float32": {
+    "code": "class <locals>:\n    def time_case(self, *parameters):\n        for feed in state[\"feeds\"]:\n            state[\"session\"].run(None, feed)\n\ndef setup(*parameters):\n    *inputs, backend = parameters\n    case_name = lookup[tuple(inputs)]\n    state[\"case\"], state[\"feeds\"], state[\"session\"] = _prepare_case(\n        case_name, backend\n    )",
+    "min_run_count": 2,
+    "name": "cpu_backend_cases.tensor.cases.CastFloat16.time_cast_large_to_float32",
+    "number": 1,
+    "param_names": [
+      "dtype1",
+      "input_shapes",
+      "backend"
+    ],
+    "params": [
+      [
+        "'float16'"
+      ],
+      [
+        "'(1048576,)'"
+      ],
+      [
+        "'onnx-light-cpu'",
+        "'onnxruntime'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "skip_params": [],
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+    "warmup_time": -1
+  },
+  "cpu_backend_cases.tensor.cases.CastFloat16.time_cast_matrix_to_float32": {
+    "code": "class <locals>:\n    def time_case(self, *parameters):\n        for feed in state[\"feeds\"]:\n            state[\"session\"].run(None, feed)\n\ndef setup(*parameters):\n    *inputs, backend = parameters\n    case_name = lookup[tuple(inputs)]\n    state[\"case\"], state[\"feeds\"], state[\"session\"] = _prepare_case(\n        case_name, backend\n    )",
+    "min_run_count": 2,
+    "name": "cpu_backend_cases.tensor.cases.CastFloat16.time_cast_matrix_to_float32",
+    "number": 1,
+    "param_names": [
+      "dtype1",
+      "input_shapes",
+      "backend"
+    ],
+    "params": [
+      [
+        "'float16'"
+      ],
+      [
+        "'(256, 4096)'"
+      ],
+      [
+        "'onnx-light-cpu'",
+        "'onnxruntime'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "skip_params": [],
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+    "warmup_time": -1
+  },
+  "cpu_backend_cases.tensor.cases.CastFloat16.time_cast_medium_to_float32": {
+    "code": "class <locals>:\n    def time_case(self, *parameters):\n        for feed in state[\"feeds\"]:\n            state[\"session\"].run(None, feed)\n\ndef setup(*parameters):\n    *inputs, backend = parameters\n    case_name = lookup[tuple(inputs)]\n    state[\"case\"], state[\"feeds\"], state[\"session\"] = _prepare_case(\n        case_name, backend\n    )",
+    "min_run_count": 2,
+    "name": "cpu_backend_cases.tensor.cases.CastFloat16.time_cast_medium_to_float32",
+    "number": 1,
+    "param_names": [
+      "dtype1",
+      "input_shapes",
+      "backend"
+    ],
+    "params": [
+      [
+        "'float16'"
+      ],
+      [
+        "'(1024,)'"
+      ],
+      [
+        "'onnx-light-cpu'",
+        "'onnxruntime'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "skip_params": [],
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+    "warmup_time": -1
+  },
+  "cpu_backend_cases.tensor.cases.CastFloat16.time_cast_scalar_to_float32": {
+    "code": "class <locals>:\n    def time_case(self, *parameters):\n        for feed in state[\"feeds\"]:\n            state[\"session\"].run(None, feed)\n\ndef setup(*parameters):\n    *inputs, backend = parameters\n    case_name = lookup[tuple(inputs)]\n    state[\"case\"], state[\"feeds\"], state[\"session\"] = _prepare_case(\n        case_name, backend\n    )",
+    "min_run_count": 2,
+    "name": "cpu_backend_cases.tensor.cases.CastFloat16.time_cast_scalar_to_float32",
+    "number": 1,
+    "param_names": [
+      "dtype1",
+      "input_shapes",
+      "backend"
+    ],
+    "params": [
+      [
+        "'float16'"
+      ],
+      [
+        "'()'"
+      ],
+      [
+        "'onnx-light-cpu'",
+        "'onnxruntime'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "skip_params": [],
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+    "warmup_time": -1
+  },
+  "cpu_backend_cases.tensor.cases.CastFloat16.time_cast_small_to_float32": {
+    "code": "class <locals>:\n    def time_case(self, *parameters):\n        for feed in state[\"feeds\"]:\n            state[\"session\"].run(None, feed)\n\ndef setup(*parameters):\n    *inputs, backend = parameters\n    case_name = lookup[tuple(inputs)]\n    state[\"case\"], state[\"feeds\"], state[\"session\"] = _prepare_case(\n        case_name, backend\n    )",
+    "min_run_count": 2,
+    "name": "cpu_backend_cases.tensor.cases.CastFloat16.time_cast_small_to_float32",
+    "number": 1,
+    "param_names": [
+      "dtype1",
+      "input_shapes",
+      "backend"
+    ],
+    "params": [
+      [
+        "'float16'"
+      ],
+      [
+        "'(16,)'"
+      ],
+      [
+        "'onnx-light-cpu'",
+        "'onnxruntime'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "skip_params": [],
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+    "warmup_time": -1
+  },
+  "cpu_backend_cases.tensor.cases.CastFloat16.time_cast_tail_to_float32": {
+    "code": "class <locals>:\n    def time_case(self, *parameters):\n        for feed in state[\"feeds\"]:\n            state[\"session\"].run(None, feed)\n\ndef setup(*parameters):\n    *inputs, backend = parameters\n    case_name = lookup[tuple(inputs)]\n    state[\"case\"], state[\"feeds\"], state[\"session\"] = _prepare_case(\n        case_name, backend\n    )",
+    "min_run_count": 2,
+    "name": "cpu_backend_cases.tensor.cases.CastFloat16.time_cast_tail_to_float32",
+    "number": 1,
+    "param_names": [
+      "dtype1",
+      "input_shapes",
+      "backend"
+    ],
+    "params": [
+      [
+        "'float16'"
+      ],
+      [
+        "'(65537,)'"
+      ],
+      [
+        "'onnx-light-cpu'",
+        "'onnxruntime'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "skip_params": [],
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+    "warmup_time": -1
+  },
+  "cpu_backend_cases.tensor.cases.CastFloat32.time_cast_large": {
+    "code": "class <locals>:\n    def time_case(self, *parameters):\n        for feed in state[\"feeds\"]:\n            state[\"session\"].run(None, feed)\n\ndef setup(*parameters):\n    *inputs, backend = parameters\n    case_name = lookup[tuple(inputs)]\n    state[\"case\"], state[\"feeds\"], state[\"session\"] = _prepare_case(\n        case_name, backend\n    )",
+    "min_run_count": 2,
+    "name": "cpu_backend_cases.tensor.cases.CastFloat32.time_cast_large",
+    "number": 1,
+    "param_names": [
+      "dtype1",
+      "input_shapes",
+      "backend"
+    ],
+    "params": [
+      [
+        "'float32'"
+      ],
+      [
+        "'(1048576,)'"
+      ],
+      [
+        "'onnx-light-cpu'",
+        "'onnxruntime'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "skip_params": [],
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+    "warmup_time": -1
+  },
+  "cpu_backend_cases.tensor.cases.CastFloat32.time_cast_large_to_bfloat16": {
+    "code": "class <locals>:\n    def time_case(self, *parameters):\n        for feed in state[\"feeds\"]:\n            state[\"session\"].run(None, feed)\n\ndef setup(*parameters):\n    *inputs, backend = parameters\n    case_name = lookup[tuple(inputs)]\n    state[\"case\"], state[\"feeds\"], state[\"session\"] = _prepare_case(\n        case_name, backend\n    )",
+    "min_run_count": 2,
+    "name": "cpu_backend_cases.tensor.cases.CastFloat32.time_cast_large_to_bfloat16",
+    "number": 1,
+    "param_names": [
+      "dtype1",
+      "input_shapes",
+      "backend"
+    ],
+    "params": [
+      [
+        "'float32'"
+      ],
+      [
+        "'(1048576,)'"
+      ],
+      [
+        "'onnx-light-cpu'",
+        "'onnxruntime'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "skip_params": [],
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+    "warmup_time": -1
+  },
+  "cpu_backend_cases.tensor.cases.CastFloat32.time_cast_large_to_bool": {
+    "code": "class <locals>:\n    def time_case(self, *parameters):\n        for feed in state[\"feeds\"]:\n            state[\"session\"].run(None, feed)\n\ndef setup(*parameters):\n    *inputs, backend = parameters\n    case_name = lookup[tuple(inputs)]\n    state[\"case\"], state[\"feeds\"], state[\"session\"] = _prepare_case(\n        case_name, backend\n    )",
+    "min_run_count": 2,
+    "name": "cpu_backend_cases.tensor.cases.CastFloat32.time_cast_large_to_bool",
+    "number": 1,
+    "param_names": [
+      "dtype1",
+      "input_shapes",
+      "backend"
+    ],
+    "params": [
+      [
+        "'float32'"
+      ],
+      [
+        "'(1048576,)'"
+      ],
+      [
+        "'onnx-light-cpu'",
+        "'onnxruntime'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "skip_params": [],
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+    "warmup_time": -1
+  },
+  "cpu_backend_cases.tensor.cases.CastFloat32.time_cast_large_to_float16": {
+    "code": "class <locals>:\n    def time_case(self, *parameters):\n        for feed in state[\"feeds\"]:\n            state[\"session\"].run(None, feed)\n\ndef setup(*parameters):\n    *inputs, backend = parameters\n    case_name = lookup[tuple(inputs)]\n    state[\"case\"], state[\"feeds\"], state[\"session\"] = _prepare_case(\n        case_name, backend\n    )",
+    "min_run_count": 2,
+    "name": "cpu_backend_cases.tensor.cases.CastFloat32.time_cast_large_to_float16",
+    "number": 1,
+    "param_names": [
+      "dtype1",
+      "input_shapes",
+      "backend"
+    ],
+    "params": [
+      [
+        "'float32'"
+      ],
+      [
+        "'(1048576,)'"
+      ],
+      [
+        "'onnx-light-cpu'",
+        "'onnxruntime'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "skip_params": [],
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+    "warmup_time": -1
+  },
+  "cpu_backend_cases.tensor.cases.CastFloat32.time_cast_large_to_float64": {
+    "code": "class <locals>:\n    def time_case(self, *parameters):\n        for feed in state[\"feeds\"]:\n            state[\"session\"].run(None, feed)\n\ndef setup(*parameters):\n    *inputs, backend = parameters\n    case_name = lookup[tuple(inputs)]\n    state[\"case\"], state[\"feeds\"], state[\"session\"] = _prepare_case(\n        case_name, backend\n    )",
+    "min_run_count": 2,
+    "name": "cpu_backend_cases.tensor.cases.CastFloat32.time_cast_large_to_float64",
+    "number": 1,
+    "param_names": [
+      "dtype1",
+      "input_shapes",
+      "backend"
+    ],
+    "params": [
+      [
+        "'float32'"
+      ],
+      [
+        "'(1048576,)'"
+      ],
+      [
+        "'onnx-light-cpu'",
+        "'onnxruntime'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "skip_params": [],
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+    "warmup_time": -1
+  },
+  "cpu_backend_cases.tensor.cases.CastFloat32.time_cast_large_to_int32": {
+    "code": "class <locals>:\n    def time_case(self, *parameters):\n        for feed in state[\"feeds\"]:\n            state[\"session\"].run(None, feed)\n\ndef setup(*parameters):\n    *inputs, backend = parameters\n    case_name = lookup[tuple(inputs)]\n    state[\"case\"], state[\"feeds\"], state[\"session\"] = _prepare_case(\n        case_name, backend\n    )",
+    "min_run_count": 2,
+    "name": "cpu_backend_cases.tensor.cases.CastFloat32.time_cast_large_to_int32",
+    "number": 1,
+    "param_names": [
+      "dtype1",
+      "input_shapes",
+      "backend"
+    ],
+    "params": [
+      [
+        "'float32'"
+      ],
+      [
+        "'(1048576,)'"
+      ],
+      [
+        "'onnx-light-cpu'",
+        "'onnxruntime'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "skip_params": [],
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+    "warmup_time": -1
+  },
+  "cpu_backend_cases.tensor.cases.CastFloat32.time_cast_large_to_int64": {
+    "code": "class <locals>:\n    def time_case(self, *parameters):\n        for feed in state[\"feeds\"]:\n            state[\"session\"].run(None, feed)\n\ndef setup(*parameters):\n    *inputs, backend = parameters\n    case_name = lookup[tuple(inputs)]\n    state[\"case\"], state[\"feeds\"], state[\"session\"] = _prepare_case(\n        case_name, backend\n    )",
+    "min_run_count": 2,
+    "name": "cpu_backend_cases.tensor.cases.CastFloat32.time_cast_large_to_int64",
+    "number": 1,
+    "param_names": [
+      "dtype1",
+      "input_shapes",
+      "backend"
+    ],
+    "params": [
+      [
+        "'float32'"
+      ],
+      [
+        "'(1048576,)'"
+      ],
+      [
+        "'onnx-light-cpu'",
+        "'onnxruntime'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "skip_params": [],
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+    "warmup_time": -1
+  },
+  "cpu_backend_cases.tensor.cases.CastFloat32.time_cast_large_to_int8": {
+    "code": "class <locals>:\n    def time_case(self, *parameters):\n        for feed in state[\"feeds\"]:\n            state[\"session\"].run(None, feed)\n\ndef setup(*parameters):\n    *inputs, backend = parameters\n    case_name = lookup[tuple(inputs)]\n    state[\"case\"], state[\"feeds\"], state[\"session\"] = _prepare_case(\n        case_name, backend\n    )",
+    "min_run_count": 2,
+    "name": "cpu_backend_cases.tensor.cases.CastFloat32.time_cast_large_to_int8",
+    "number": 1,
+    "param_names": [
+      "dtype1",
+      "input_shapes",
+      "backend"
+    ],
+    "params": [
+      [
+        "'float32'"
+      ],
+      [
+        "'(1048576,)'"
+      ],
+      [
+        "'onnx-light-cpu'",
+        "'onnxruntime'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "skip_params": [],
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+    "warmup_time": -1
+  },
+  "cpu_backend_cases.tensor.cases.CastFloat32.time_cast_large_to_uint8": {
+    "code": "class <locals>:\n    def time_case(self, *parameters):\n        for feed in state[\"feeds\"]:\n            state[\"session\"].run(None, feed)\n\ndef setup(*parameters):\n    *inputs, backend = parameters\n    case_name = lookup[tuple(inputs)]\n    state[\"case\"], state[\"feeds\"], state[\"session\"] = _prepare_case(\n        case_name, backend\n    )",
+    "min_run_count": 2,
+    "name": "cpu_backend_cases.tensor.cases.CastFloat32.time_cast_large_to_uint8",
+    "number": 1,
+    "param_names": [
+      "dtype1",
+      "input_shapes",
+      "backend"
+    ],
+    "params": [
+      [
+        "'float32'"
+      ],
+      [
+        "'(1048576,)'"
+      ],
+      [
+        "'onnx-light-cpu'",
+        "'onnxruntime'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "skip_params": [],
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+    "warmup_time": -1
+  },
+  "cpu_backend_cases.tensor.cases.CastFloat32.time_cast_matrix": {
+    "code": "class <locals>:\n    def time_case(self, *parameters):\n        for feed in state[\"feeds\"]:\n            state[\"session\"].run(None, feed)\n\ndef setup(*parameters):\n    *inputs, backend = parameters\n    case_name = lookup[tuple(inputs)]\n    state[\"case\"], state[\"feeds\"], state[\"session\"] = _prepare_case(\n        case_name, backend\n    )",
+    "min_run_count": 2,
+    "name": "cpu_backend_cases.tensor.cases.CastFloat32.time_cast_matrix",
+    "number": 1,
+    "param_names": [
+      "dtype1",
+      "input_shapes",
+      "backend"
+    ],
+    "params": [
+      [
+        "'float32'"
+      ],
+      [
+        "'(256, 4096)'"
+      ],
+      [
+        "'onnx-light-cpu'",
+        "'onnxruntime'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "skip_params": [],
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+    "warmup_time": -1
+  },
+  "cpu_backend_cases.tensor.cases.CastFloat32.time_cast_matrix_to_bfloat16": {
+    "code": "class <locals>:\n    def time_case(self, *parameters):\n        for feed in state[\"feeds\"]:\n            state[\"session\"].run(None, feed)\n\ndef setup(*parameters):\n    *inputs, backend = parameters\n    case_name = lookup[tuple(inputs)]\n    state[\"case\"], state[\"feeds\"], state[\"session\"] = _prepare_case(\n        case_name, backend\n    )",
+    "min_run_count": 2,
+    "name": "cpu_backend_cases.tensor.cases.CastFloat32.time_cast_matrix_to_bfloat16",
+    "number": 1,
+    "param_names": [
+      "dtype1",
+      "input_shapes",
+      "backend"
+    ],
+    "params": [
+      [
+        "'float32'"
+      ],
+      [
+        "'(256, 4096)'"
+      ],
+      [
+        "'onnx-light-cpu'",
+        "'onnxruntime'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "skip_params": [],
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+    "warmup_time": -1
+  },
+  "cpu_backend_cases.tensor.cases.CastFloat32.time_cast_matrix_to_bool": {
+    "code": "class <locals>:\n    def time_case(self, *parameters):\n        for feed in state[\"feeds\"]:\n            state[\"session\"].run(None, feed)\n\ndef setup(*parameters):\n    *inputs, backend = parameters\n    case_name = lookup[tuple(inputs)]\n    state[\"case\"], state[\"feeds\"], state[\"session\"] = _prepare_case(\n        case_name, backend\n    )",
+    "min_run_count": 2,
+    "name": "cpu_backend_cases.tensor.cases.CastFloat32.time_cast_matrix_to_bool",
+    "number": 1,
+    "param_names": [
+      "dtype1",
+      "input_shapes",
+      "backend"
+    ],
+    "params": [
+      [
+        "'float32'"
+      ],
+      [
+        "'(256, 4096)'"
+      ],
+      [
+        "'onnx-light-cpu'",
+        "'onnxruntime'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "skip_params": [],
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+    "warmup_time": -1
+  },
+  "cpu_backend_cases.tensor.cases.CastFloat32.time_cast_matrix_to_float16": {
+    "code": "class <locals>:\n    def time_case(self, *parameters):\n        for feed in state[\"feeds\"]:\n            state[\"session\"].run(None, feed)\n\ndef setup(*parameters):\n    *inputs, backend = parameters\n    case_name = lookup[tuple(inputs)]\n    state[\"case\"], state[\"feeds\"], state[\"session\"] = _prepare_case(\n        case_name, backend\n    )",
+    "min_run_count": 2,
+    "name": "cpu_backend_cases.tensor.cases.CastFloat32.time_cast_matrix_to_float16",
+    "number": 1,
+    "param_names": [
+      "dtype1",
+      "input_shapes",
+      "backend"
+    ],
+    "params": [
+      [
+        "'float32'"
+      ],
+      [
+        "'(256, 4096)'"
+      ],
+      [
+        "'onnx-light-cpu'",
+        "'onnxruntime'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "skip_params": [],
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+    "warmup_time": -1
+  },
+  "cpu_backend_cases.tensor.cases.CastFloat32.time_cast_matrix_to_float64": {
+    "code": "class <locals>:\n    def time_case(self, *parameters):\n        for feed in state[\"feeds\"]:\n            state[\"session\"].run(None, feed)\n\ndef setup(*parameters):\n    *inputs, backend = parameters\n    case_name = lookup[tuple(inputs)]\n    state[\"case\"], state[\"feeds\"], state[\"session\"] = _prepare_case(\n        case_name, backend\n    )",
+    "min_run_count": 2,
+    "name": "cpu_backend_cases.tensor.cases.CastFloat32.time_cast_matrix_to_float64",
+    "number": 1,
+    "param_names": [
+      "dtype1",
+      "input_shapes",
+      "backend"
+    ],
+    "params": [
+      [
+        "'float32'"
+      ],
+      [
+        "'(256, 4096)'"
+      ],
+      [
+        "'onnx-light-cpu'",
+        "'onnxruntime'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "skip_params": [],
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+    "warmup_time": -1
+  },
+  "cpu_backend_cases.tensor.cases.CastFloat32.time_cast_matrix_to_int32": {
+    "code": "class <locals>:\n    def time_case(self, *parameters):\n        for feed in state[\"feeds\"]:\n            state[\"session\"].run(None, feed)\n\ndef setup(*parameters):\n    *inputs, backend = parameters\n    case_name = lookup[tuple(inputs)]\n    state[\"case\"], state[\"feeds\"], state[\"session\"] = _prepare_case(\n        case_name, backend\n    )",
+    "min_run_count": 2,
+    "name": "cpu_backend_cases.tensor.cases.CastFloat32.time_cast_matrix_to_int32",
+    "number": 1,
+    "param_names": [
+      "dtype1",
+      "input_shapes",
+      "backend"
+    ],
+    "params": [
+      [
+        "'float32'"
+      ],
+      [
+        "'(256, 4096)'"
+      ],
+      [
+        "'onnx-light-cpu'",
+        "'onnxruntime'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "skip_params": [],
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+    "warmup_time": -1
+  },
+  "cpu_backend_cases.tensor.cases.CastFloat32.time_cast_matrix_to_int64": {
+    "code": "class <locals>:\n    def time_case(self, *parameters):\n        for feed in state[\"feeds\"]:\n            state[\"session\"].run(None, feed)\n\ndef setup(*parameters):\n    *inputs, backend = parameters\n    case_name = lookup[tuple(inputs)]\n    state[\"case\"], state[\"feeds\"], state[\"session\"] = _prepare_case(\n        case_name, backend\n    )",
+    "min_run_count": 2,
+    "name": "cpu_backend_cases.tensor.cases.CastFloat32.time_cast_matrix_to_int64",
+    "number": 1,
+    "param_names": [
+      "dtype1",
+      "input_shapes",
+      "backend"
+    ],
+    "params": [
+      [
+        "'float32'"
+      ],
+      [
+        "'(256, 4096)'"
+      ],
+      [
+        "'onnx-light-cpu'",
+        "'onnxruntime'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "skip_params": [],
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+    "warmup_time": -1
+  },
+  "cpu_backend_cases.tensor.cases.CastFloat32.time_cast_matrix_to_int8": {
+    "code": "class <locals>:\n    def time_case(self, *parameters):\n        for feed in state[\"feeds\"]:\n            state[\"session\"].run(None, feed)\n\ndef setup(*parameters):\n    *inputs, backend = parameters\n    case_name = lookup[tuple(inputs)]\n    state[\"case\"], state[\"feeds\"], state[\"session\"] = _prepare_case(\n        case_name, backend\n    )",
+    "min_run_count": 2,
+    "name": "cpu_backend_cases.tensor.cases.CastFloat32.time_cast_matrix_to_int8",
+    "number": 1,
+    "param_names": [
+      "dtype1",
+      "input_shapes",
+      "backend"
+    ],
+    "params": [
+      [
+        "'float32'"
+      ],
+      [
+        "'(256, 4096)'"
+      ],
+      [
+        "'onnx-light-cpu'",
+        "'onnxruntime'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "skip_params": [],
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+    "warmup_time": -1
+  },
+  "cpu_backend_cases.tensor.cases.CastFloat32.time_cast_matrix_to_uint8": {
+    "code": "class <locals>:\n    def time_case(self, *parameters):\n        for feed in state[\"feeds\"]:\n            state[\"session\"].run(None, feed)\n\ndef setup(*parameters):\n    *inputs, backend = parameters\n    case_name = lookup[tuple(inputs)]\n    state[\"case\"], state[\"feeds\"], state[\"session\"] = _prepare_case(\n        case_name, backend\n    )",
+    "min_run_count": 2,
+    "name": "cpu_backend_cases.tensor.cases.CastFloat32.time_cast_matrix_to_uint8",
+    "number": 1,
+    "param_names": [
+      "dtype1",
+      "input_shapes",
+      "backend"
+    ],
+    "params": [
+      [
+        "'float32'"
+      ],
+      [
+        "'(256, 4096)'"
+      ],
+      [
+        "'onnx-light-cpu'",
+        "'onnxruntime'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "skip_params": [],
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+    "warmup_time": -1
+  },
+  "cpu_backend_cases.tensor.cases.CastFloat32.time_cast_medium": {
+    "code": "class <locals>:\n    def time_case(self, *parameters):\n        for feed in state[\"feeds\"]:\n            state[\"session\"].run(None, feed)\n\ndef setup(*parameters):\n    *inputs, backend = parameters\n    case_name = lookup[tuple(inputs)]\n    state[\"case\"], state[\"feeds\"], state[\"session\"] = _prepare_case(\n        case_name, backend\n    )",
+    "min_run_count": 2,
+    "name": "cpu_backend_cases.tensor.cases.CastFloat32.time_cast_medium",
+    "number": 1,
+    "param_names": [
+      "dtype1",
+      "input_shapes",
+      "backend"
+    ],
+    "params": [
+      [
+        "'float32'"
+      ],
+      [
+        "'(1024,)'"
+      ],
+      [
+        "'onnx-light-cpu'",
+        "'onnxruntime'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "skip_params": [],
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+    "warmup_time": -1
+  },
+  "cpu_backend_cases.tensor.cases.CastFloat32.time_cast_medium_to_bfloat16": {
+    "code": "class <locals>:\n    def time_case(self, *parameters):\n        for feed in state[\"feeds\"]:\n            state[\"session\"].run(None, feed)\n\ndef setup(*parameters):\n    *inputs, backend = parameters\n    case_name = lookup[tuple(inputs)]\n    state[\"case\"], state[\"feeds\"], state[\"session\"] = _prepare_case(\n        case_name, backend\n    )",
+    "min_run_count": 2,
+    "name": "cpu_backend_cases.tensor.cases.CastFloat32.time_cast_medium_to_bfloat16",
+    "number": 1,
+    "param_names": [
+      "dtype1",
+      "input_shapes",
+      "backend"
+    ],
+    "params": [
+      [
+        "'float32'"
+      ],
+      [
+        "'(1024,)'"
+      ],
+      [
+        "'onnx-light-cpu'",
+        "'onnxruntime'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "skip_params": [],
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+    "warmup_time": -1
+  },
+  "cpu_backend_cases.tensor.cases.CastFloat32.time_cast_medium_to_bool": {
+    "code": "class <locals>:\n    def time_case(self, *parameters):\n        for feed in state[\"feeds\"]:\n            state[\"session\"].run(None, feed)\n\ndef setup(*parameters):\n    *inputs, backend = parameters\n    case_name = lookup[tuple(inputs)]\n    state[\"case\"], state[\"feeds\"], state[\"session\"] = _prepare_case(\n        case_name, backend\n    )",
+    "min_run_count": 2,
+    "name": "cpu_backend_cases.tensor.cases.CastFloat32.time_cast_medium_to_bool",
+    "number": 1,
+    "param_names": [
+      "dtype1",
+      "input_shapes",
+      "backend"
+    ],
+    "params": [
+      [
+        "'float32'"
+      ],
+      [
+        "'(1024,)'"
+      ],
+      [
+        "'onnx-light-cpu'",
+        "'onnxruntime'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "skip_params": [],
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+    "warmup_time": -1
+  },
+  "cpu_backend_cases.tensor.cases.CastFloat32.time_cast_medium_to_float16": {
+    "code": "class <locals>:\n    def time_case(self, *parameters):\n        for feed in state[\"feeds\"]:\n            state[\"session\"].run(None, feed)\n\ndef setup(*parameters):\n    *inputs, backend = parameters\n    case_name = lookup[tuple(inputs)]\n    state[\"case\"], state[\"feeds\"], state[\"session\"] = _prepare_case(\n        case_name, backend\n    )",
+    "min_run_count": 2,
+    "name": "cpu_backend_cases.tensor.cases.CastFloat32.time_cast_medium_to_float16",
+    "number": 1,
+    "param_names": [
+      "dtype1",
+      "input_shapes",
+      "backend"
+    ],
+    "params": [
+      [
+        "'float32'"
+      ],
+      [
+        "'(1024,)'"
+      ],
+      [
+        "'onnx-light-cpu'",
+        "'onnxruntime'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "skip_params": [],
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+    "warmup_time": -1
+  },
+  "cpu_backend_cases.tensor.cases.CastFloat32.time_cast_medium_to_float64": {
+    "code": "class <locals>:\n    def time_case(self, *parameters):\n        for feed in state[\"feeds\"]:\n            state[\"session\"].run(None, feed)\n\ndef setup(*parameters):\n    *inputs, backend = parameters\n    case_name = lookup[tuple(inputs)]\n    state[\"case\"], state[\"feeds\"], state[\"session\"] = _prepare_case(\n        case_name, backend\n    )",
+    "min_run_count": 2,
+    "name": "cpu_backend_cases.tensor.cases.CastFloat32.time_cast_medium_to_float64",
+    "number": 1,
+    "param_names": [
+      "dtype1",
+      "input_shapes",
+      "backend"
+    ],
+    "params": [
+      [
+        "'float32'"
+      ],
+      [
+        "'(1024,)'"
+      ],
+      [
+        "'onnx-light-cpu'",
+        "'onnxruntime'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "skip_params": [],
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+    "warmup_time": -1
+  },
+  "cpu_backend_cases.tensor.cases.CastFloat32.time_cast_medium_to_int32": {
+    "code": "class <locals>:\n    def time_case(self, *parameters):\n        for feed in state[\"feeds\"]:\n            state[\"session\"].run(None, feed)\n\ndef setup(*parameters):\n    *inputs, backend = parameters\n    case_name = lookup[tuple(inputs)]\n    state[\"case\"], state[\"feeds\"], state[\"session\"] = _prepare_case(\n        case_name, backend\n    )",
+    "min_run_count": 2,
+    "name": "cpu_backend_cases.tensor.cases.CastFloat32.time_cast_medium_to_int32",
+    "number": 1,
+    "param_names": [
+      "dtype1",
+      "input_shapes",
+      "backend"
+    ],
+    "params": [
+      [
+        "'float32'"
+      ],
+      [
+        "'(1024,)'"
+      ],
+      [
+        "'onnx-light-cpu'",
+        "'onnxruntime'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "skip_params": [],
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+    "warmup_time": -1
+  },
+  "cpu_backend_cases.tensor.cases.CastFloat32.time_cast_medium_to_int64": {
+    "code": "class <locals>:\n    def time_case(self, *parameters):\n        for feed in state[\"feeds\"]:\n            state[\"session\"].run(None, feed)\n\ndef setup(*parameters):\n    *inputs, backend = parameters\n    case_name = lookup[tuple(inputs)]\n    state[\"case\"], state[\"feeds\"], state[\"session\"] = _prepare_case(\n        case_name, backend\n    )",
+    "min_run_count": 2,
+    "name": "cpu_backend_cases.tensor.cases.CastFloat32.time_cast_medium_to_int64",
+    "number": 1,
+    "param_names": [
+      "dtype1",
+      "input_shapes",
+      "backend"
+    ],
+    "params": [
+      [
+        "'float32'"
+      ],
+      [
+        "'(1024,)'"
+      ],
+      [
+        "'onnx-light-cpu'",
+        "'onnxruntime'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "skip_params": [],
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+    "warmup_time": -1
+  },
+  "cpu_backend_cases.tensor.cases.CastFloat32.time_cast_medium_to_int8": {
+    "code": "class <locals>:\n    def time_case(self, *parameters):\n        for feed in state[\"feeds\"]:\n            state[\"session\"].run(None, feed)\n\ndef setup(*parameters):\n    *inputs, backend = parameters\n    case_name = lookup[tuple(inputs)]\n    state[\"case\"], state[\"feeds\"], state[\"session\"] = _prepare_case(\n        case_name, backend\n    )",
+    "min_run_count": 2,
+    "name": "cpu_backend_cases.tensor.cases.CastFloat32.time_cast_medium_to_int8",
+    "number": 1,
+    "param_names": [
+      "dtype1",
+      "input_shapes",
+      "backend"
+    ],
+    "params": [
+      [
+        "'float32'"
+      ],
+      [
+        "'(1024,)'"
+      ],
+      [
+        "'onnx-light-cpu'",
+        "'onnxruntime'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "skip_params": [],
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+    "warmup_time": -1
+  },
+  "cpu_backend_cases.tensor.cases.CastFloat32.time_cast_medium_to_uint8": {
+    "code": "class <locals>:\n    def time_case(self, *parameters):\n        for feed in state[\"feeds\"]:\n            state[\"session\"].run(None, feed)\n\ndef setup(*parameters):\n    *inputs, backend = parameters\n    case_name = lookup[tuple(inputs)]\n    state[\"case\"], state[\"feeds\"], state[\"session\"] = _prepare_case(\n        case_name, backend\n    )",
+    "min_run_count": 2,
+    "name": "cpu_backend_cases.tensor.cases.CastFloat32.time_cast_medium_to_uint8",
+    "number": 1,
+    "param_names": [
+      "dtype1",
+      "input_shapes",
+      "backend"
+    ],
+    "params": [
+      [
+        "'float32'"
+      ],
+      [
+        "'(1024,)'"
+      ],
+      [
+        "'onnx-light-cpu'",
+        "'onnxruntime'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "skip_params": [],
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+    "warmup_time": -1
+  },
+  "cpu_backend_cases.tensor.cases.CastFloat32.time_cast_scalar": {
+    "code": "class <locals>:\n    def time_case(self, *parameters):\n        for feed in state[\"feeds\"]:\n            state[\"session\"].run(None, feed)\n\ndef setup(*parameters):\n    *inputs, backend = parameters\n    case_name = lookup[tuple(inputs)]\n    state[\"case\"], state[\"feeds\"], state[\"session\"] = _prepare_case(\n        case_name, backend\n    )",
+    "min_run_count": 2,
+    "name": "cpu_backend_cases.tensor.cases.CastFloat32.time_cast_scalar",
+    "number": 1,
+    "param_names": [
+      "dtype1",
+      "input_shapes",
+      "backend"
+    ],
+    "params": [
+      [
+        "'float32'"
+      ],
+      [
+        "'()'"
+      ],
+      [
+        "'onnx-light-cpu'",
+        "'onnxruntime'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "skip_params": [],
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+    "warmup_time": -1
+  },
+  "cpu_backend_cases.tensor.cases.CastFloat32.time_cast_scalar_to_bfloat16": {
+    "code": "class <locals>:\n    def time_case(self, *parameters):\n        for feed in state[\"feeds\"]:\n            state[\"session\"].run(None, feed)\n\ndef setup(*parameters):\n    *inputs, backend = parameters\n    case_name = lookup[tuple(inputs)]\n    state[\"case\"], state[\"feeds\"], state[\"session\"] = _prepare_case(\n        case_name, backend\n    )",
+    "min_run_count": 2,
+    "name": "cpu_backend_cases.tensor.cases.CastFloat32.time_cast_scalar_to_bfloat16",
+    "number": 1,
+    "param_names": [
+      "dtype1",
+      "input_shapes",
+      "backend"
+    ],
+    "params": [
+      [
+        "'float32'"
+      ],
+      [
+        "'()'"
+      ],
+      [
+        "'onnx-light-cpu'",
+        "'onnxruntime'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "skip_params": [],
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+    "warmup_time": -1
+  },
+  "cpu_backend_cases.tensor.cases.CastFloat32.time_cast_scalar_to_bool": {
+    "code": "class <locals>:\n    def time_case(self, *parameters):\n        for feed in state[\"feeds\"]:\n            state[\"session\"].run(None, feed)\n\ndef setup(*parameters):\n    *inputs, backend = parameters\n    case_name = lookup[tuple(inputs)]\n    state[\"case\"], state[\"feeds\"], state[\"session\"] = _prepare_case(\n        case_name, backend\n    )",
+    "min_run_count": 2,
+    "name": "cpu_backend_cases.tensor.cases.CastFloat32.time_cast_scalar_to_bool",
+    "number": 1,
+    "param_names": [
+      "dtype1",
+      "input_shapes",
+      "backend"
+    ],
+    "params": [
+      [
+        "'float32'"
+      ],
+      [
+        "'()'"
+      ],
+      [
+        "'onnx-light-cpu'",
+        "'onnxruntime'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "skip_params": [],
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+    "warmup_time": -1
+  },
+  "cpu_backend_cases.tensor.cases.CastFloat32.time_cast_scalar_to_float16": {
+    "code": "class <locals>:\n    def time_case(self, *parameters):\n        for feed in state[\"feeds\"]:\n            state[\"session\"].run(None, feed)\n\ndef setup(*parameters):\n    *inputs, backend = parameters\n    case_name = lookup[tuple(inputs)]\n    state[\"case\"], state[\"feeds\"], state[\"session\"] = _prepare_case(\n        case_name, backend\n    )",
+    "min_run_count": 2,
+    "name": "cpu_backend_cases.tensor.cases.CastFloat32.time_cast_scalar_to_float16",
+    "number": 1,
+    "param_names": [
+      "dtype1",
+      "input_shapes",
+      "backend"
+    ],
+    "params": [
+      [
+        "'float32'"
+      ],
+      [
+        "'()'"
+      ],
+      [
+        "'onnx-light-cpu'",
+        "'onnxruntime'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "skip_params": [],
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+    "warmup_time": -1
+  },
+  "cpu_backend_cases.tensor.cases.CastFloat32.time_cast_scalar_to_float64": {
+    "code": "class <locals>:\n    def time_case(self, *parameters):\n        for feed in state[\"feeds\"]:\n            state[\"session\"].run(None, feed)\n\ndef setup(*parameters):\n    *inputs, backend = parameters\n    case_name = lookup[tuple(inputs)]\n    state[\"case\"], state[\"feeds\"], state[\"session\"] = _prepare_case(\n        case_name, backend\n    )",
+    "min_run_count": 2,
+    "name": "cpu_backend_cases.tensor.cases.CastFloat32.time_cast_scalar_to_float64",
+    "number": 1,
+    "param_names": [
+      "dtype1",
+      "input_shapes",
+      "backend"
+    ],
+    "params": [
+      [
+        "'float32'"
+      ],
+      [
+        "'()'"
+      ],
+      [
+        "'onnx-light-cpu'",
+        "'onnxruntime'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "skip_params": [],
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+    "warmup_time": -1
+  },
+  "cpu_backend_cases.tensor.cases.CastFloat32.time_cast_scalar_to_int32": {
+    "code": "class <locals>:\n    def time_case(self, *parameters):\n        for feed in state[\"feeds\"]:\n            state[\"session\"].run(None, feed)\n\ndef setup(*parameters):\n    *inputs, backend = parameters\n    case_name = lookup[tuple(inputs)]\n    state[\"case\"], state[\"feeds\"], state[\"session\"] = _prepare_case(\n        case_name, backend\n    )",
+    "min_run_count": 2,
+    "name": "cpu_backend_cases.tensor.cases.CastFloat32.time_cast_scalar_to_int32",
+    "number": 1,
+    "param_names": [
+      "dtype1",
+      "input_shapes",
+      "backend"
+    ],
+    "params": [
+      [
+        "'float32'"
+      ],
+      [
+        "'()'"
+      ],
+      [
+        "'onnx-light-cpu'",
+        "'onnxruntime'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "skip_params": [],
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+    "warmup_time": -1
+  },
+  "cpu_backend_cases.tensor.cases.CastFloat32.time_cast_scalar_to_int64": {
+    "code": "class <locals>:\n    def time_case(self, *parameters):\n        for feed in state[\"feeds\"]:\n            state[\"session\"].run(None, feed)\n\ndef setup(*parameters):\n    *inputs, backend = parameters\n    case_name = lookup[tuple(inputs)]\n    state[\"case\"], state[\"feeds\"], state[\"session\"] = _prepare_case(\n        case_name, backend\n    )",
+    "min_run_count": 2,
+    "name": "cpu_backend_cases.tensor.cases.CastFloat32.time_cast_scalar_to_int64",
+    "number": 1,
+    "param_names": [
+      "dtype1",
+      "input_shapes",
+      "backend"
+    ],
+    "params": [
+      [
+        "'float32'"
+      ],
+      [
+        "'()'"
+      ],
+      [
+        "'onnx-light-cpu'",
+        "'onnxruntime'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "skip_params": [],
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+    "warmup_time": -1
+  },
+  "cpu_backend_cases.tensor.cases.CastFloat32.time_cast_scalar_to_int8": {
+    "code": "class <locals>:\n    def time_case(self, *parameters):\n        for feed in state[\"feeds\"]:\n            state[\"session\"].run(None, feed)\n\ndef setup(*parameters):\n    *inputs, backend = parameters\n    case_name = lookup[tuple(inputs)]\n    state[\"case\"], state[\"feeds\"], state[\"session\"] = _prepare_case(\n        case_name, backend\n    )",
+    "min_run_count": 2,
+    "name": "cpu_backend_cases.tensor.cases.CastFloat32.time_cast_scalar_to_int8",
+    "number": 1,
+    "param_names": [
+      "dtype1",
+      "input_shapes",
+      "backend"
+    ],
+    "params": [
+      [
+        "'float32'"
+      ],
+      [
+        "'()'"
+      ],
+      [
+        "'onnx-light-cpu'",
+        "'onnxruntime'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "skip_params": [],
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+    "warmup_time": -1
+  },
+  "cpu_backend_cases.tensor.cases.CastFloat32.time_cast_scalar_to_uint8": {
+    "code": "class <locals>:\n    def time_case(self, *parameters):\n        for feed in state[\"feeds\"]:\n            state[\"session\"].run(None, feed)\n\ndef setup(*parameters):\n    *inputs, backend = parameters\n    case_name = lookup[tuple(inputs)]\n    state[\"case\"], state[\"feeds\"], state[\"session\"] = _prepare_case(\n        case_name, backend\n    )",
+    "min_run_count": 2,
+    "name": "cpu_backend_cases.tensor.cases.CastFloat32.time_cast_scalar_to_uint8",
+    "number": 1,
+    "param_names": [
+      "dtype1",
+      "input_shapes",
+      "backend"
+    ],
+    "params": [
+      [
+        "'float32'"
+      ],
+      [
+        "'()'"
+      ],
+      [
+        "'onnx-light-cpu'",
+        "'onnxruntime'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "skip_params": [],
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+    "warmup_time": -1
+  },
+  "cpu_backend_cases.tensor.cases.CastFloat32.time_cast_small": {
+    "code": "class <locals>:\n    def time_case(self, *parameters):\n        for feed in state[\"feeds\"]:\n            state[\"session\"].run(None, feed)\n\ndef setup(*parameters):\n    *inputs, backend = parameters\n    case_name = lookup[tuple(inputs)]\n    state[\"case\"], state[\"feeds\"], state[\"session\"] = _prepare_case(\n        case_name, backend\n    )",
+    "min_run_count": 2,
+    "name": "cpu_backend_cases.tensor.cases.CastFloat32.time_cast_small",
+    "number": 1,
+    "param_names": [
+      "dtype1",
+      "input_shapes",
+      "backend"
+    ],
+    "params": [
+      [
+        "'float32'"
+      ],
+      [
+        "'(16,)'"
+      ],
+      [
+        "'onnx-light-cpu'",
+        "'onnxruntime'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "skip_params": [],
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+    "warmup_time": -1
+  },
+  "cpu_backend_cases.tensor.cases.CastFloat32.time_cast_small_to_bfloat16": {
+    "code": "class <locals>:\n    def time_case(self, *parameters):\n        for feed in state[\"feeds\"]:\n            state[\"session\"].run(None, feed)\n\ndef setup(*parameters):\n    *inputs, backend = parameters\n    case_name = lookup[tuple(inputs)]\n    state[\"case\"], state[\"feeds\"], state[\"session\"] = _prepare_case(\n        case_name, backend\n    )",
+    "min_run_count": 2,
+    "name": "cpu_backend_cases.tensor.cases.CastFloat32.time_cast_small_to_bfloat16",
+    "number": 1,
+    "param_names": [
+      "dtype1",
+      "input_shapes",
+      "backend"
+    ],
+    "params": [
+      [
+        "'float32'"
+      ],
+      [
+        "'(16,)'"
+      ],
+      [
+        "'onnx-light-cpu'",
+        "'onnxruntime'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "skip_params": [],
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+    "warmup_time": -1
+  },
+  "cpu_backend_cases.tensor.cases.CastFloat32.time_cast_small_to_bool": {
+    "code": "class <locals>:\n    def time_case(self, *parameters):\n        for feed in state[\"feeds\"]:\n            state[\"session\"].run(None, feed)\n\ndef setup(*parameters):\n    *inputs, backend = parameters\n    case_name = lookup[tuple(inputs)]\n    state[\"case\"], state[\"feeds\"], state[\"session\"] = _prepare_case(\n        case_name, backend\n    )",
+    "min_run_count": 2,
+    "name": "cpu_backend_cases.tensor.cases.CastFloat32.time_cast_small_to_bool",
+    "number": 1,
+    "param_names": [
+      "dtype1",
+      "input_shapes",
+      "backend"
+    ],
+    "params": [
+      [
+        "'float32'"
+      ],
+      [
+        "'(16,)'"
+      ],
+      [
+        "'onnx-light-cpu'",
+        "'onnxruntime'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "skip_params": [],
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+    "warmup_time": -1
+  },
+  "cpu_backend_cases.tensor.cases.CastFloat32.time_cast_small_to_float16": {
+    "code": "class <locals>:\n    def time_case(self, *parameters):\n        for feed in state[\"feeds\"]:\n            state[\"session\"].run(None, feed)\n\ndef setup(*parameters):\n    *inputs, backend = parameters\n    case_name = lookup[tuple(inputs)]\n    state[\"case\"], state[\"feeds\"], state[\"session\"] = _prepare_case(\n        case_name, backend\n    )",
+    "min_run_count": 2,
+    "name": "cpu_backend_cases.tensor.cases.CastFloat32.time_cast_small_to_float16",
+    "number": 1,
+    "param_names": [
+      "dtype1",
+      "input_shapes",
+      "backend"
+    ],
+    "params": [
+      [
+        "'float32'"
+      ],
+      [
+        "'(16,)'"
+      ],
+      [
+        "'onnx-light-cpu'",
+        "'onnxruntime'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "skip_params": [],
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+    "warmup_time": -1
+  },
+  "cpu_backend_cases.tensor.cases.CastFloat32.time_cast_small_to_float64": {
+    "code": "class <locals>:\n    def time_case(self, *parameters):\n        for feed in state[\"feeds\"]:\n            state[\"session\"].run(None, feed)\n\ndef setup(*parameters):\n    *inputs, backend = parameters\n    case_name = lookup[tuple(inputs)]\n    state[\"case\"], state[\"feeds\"], state[\"session\"] = _prepare_case(\n        case_name, backend\n    )",
+    "min_run_count": 2,
+    "name": "cpu_backend_cases.tensor.cases.CastFloat32.time_cast_small_to_float64",
+    "number": 1,
+    "param_names": [
+      "dtype1",
+      "input_shapes",
+      "backend"
+    ],
+    "params": [
+      [
+        "'float32'"
+      ],
+      [
+        "'(16,)'"
+      ],
+      [
+        "'onnx-light-cpu'",
+        "'onnxruntime'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "skip_params": [],
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+    "warmup_time": -1
+  },
+  "cpu_backend_cases.tensor.cases.CastFloat32.time_cast_small_to_int32": {
+    "code": "class <locals>:\n    def time_case(self, *parameters):\n        for feed in state[\"feeds\"]:\n            state[\"session\"].run(None, feed)\n\ndef setup(*parameters):\n    *inputs, backend = parameters\n    case_name = lookup[tuple(inputs)]\n    state[\"case\"], state[\"feeds\"], state[\"session\"] = _prepare_case(\n        case_name, backend\n    )",
+    "min_run_count": 2,
+    "name": "cpu_backend_cases.tensor.cases.CastFloat32.time_cast_small_to_int32",
+    "number": 1,
+    "param_names": [
+      "dtype1",
+      "input_shapes",
+      "backend"
+    ],
+    "params": [
+      [
+        "'float32'"
+      ],
+      [
+        "'(16,)'"
+      ],
+      [
+        "'onnx-light-cpu'",
+        "'onnxruntime'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "skip_params": [],
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+    "warmup_time": -1
+  },
+  "cpu_backend_cases.tensor.cases.CastFloat32.time_cast_small_to_int64": {
+    "code": "class <locals>:\n    def time_case(self, *parameters):\n        for feed in state[\"feeds\"]:\n            state[\"session\"].run(None, feed)\n\ndef setup(*parameters):\n    *inputs, backend = parameters\n    case_name = lookup[tuple(inputs)]\n    state[\"case\"], state[\"feeds\"], state[\"session\"] = _prepare_case(\n        case_name, backend\n    )",
+    "min_run_count": 2,
+    "name": "cpu_backend_cases.tensor.cases.CastFloat32.time_cast_small_to_int64",
+    "number": 1,
+    "param_names": [
+      "dtype1",
+      "input_shapes",
+      "backend"
+    ],
+    "params": [
+      [
+        "'float32'"
+      ],
+      [
+        "'(16,)'"
+      ],
+      [
+        "'onnx-light-cpu'",
+        "'onnxruntime'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "skip_params": [],
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+    "warmup_time": -1
+  },
+  "cpu_backend_cases.tensor.cases.CastFloat32.time_cast_small_to_int8": {
+    "code": "class <locals>:\n    def time_case(self, *parameters):\n        for feed in state[\"feeds\"]:\n            state[\"session\"].run(None, feed)\n\ndef setup(*parameters):\n    *inputs, backend = parameters\n    case_name = lookup[tuple(inputs)]\n    state[\"case\"], state[\"feeds\"], state[\"session\"] = _prepare_case(\n        case_name, backend\n    )",
+    "min_run_count": 2,
+    "name": "cpu_backend_cases.tensor.cases.CastFloat32.time_cast_small_to_int8",
+    "number": 1,
+    "param_names": [
+      "dtype1",
+      "input_shapes",
+      "backend"
+    ],
+    "params": [
+      [
+        "'float32'"
+      ],
+      [
+        "'(16,)'"
+      ],
+      [
+        "'onnx-light-cpu'",
+        "'onnxruntime'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "skip_params": [],
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+    "warmup_time": -1
+  },
+  "cpu_backend_cases.tensor.cases.CastFloat32.time_cast_small_to_uint8": {
+    "code": "class <locals>:\n    def time_case(self, *parameters):\n        for feed in state[\"feeds\"]:\n            state[\"session\"].run(None, feed)\n\ndef setup(*parameters):\n    *inputs, backend = parameters\n    case_name = lookup[tuple(inputs)]\n    state[\"case\"], state[\"feeds\"], state[\"session\"] = _prepare_case(\n        case_name, backend\n    )",
+    "min_run_count": 2,
+    "name": "cpu_backend_cases.tensor.cases.CastFloat32.time_cast_small_to_uint8",
+    "number": 1,
+    "param_names": [
+      "dtype1",
+      "input_shapes",
+      "backend"
+    ],
+    "params": [
+      [
+        "'float32'"
+      ],
+      [
+        "'(16,)'"
+      ],
+      [
+        "'onnx-light-cpu'",
+        "'onnxruntime'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "skip_params": [],
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+    "warmup_time": -1
+  },
+  "cpu_backend_cases.tensor.cases.CastFloat32.time_cast_tail": {
+    "code": "class <locals>:\n    def time_case(self, *parameters):\n        for feed in state[\"feeds\"]:\n            state[\"session\"].run(None, feed)\n\ndef setup(*parameters):\n    *inputs, backend = parameters\n    case_name = lookup[tuple(inputs)]\n    state[\"case\"], state[\"feeds\"], state[\"session\"] = _prepare_case(\n        case_name, backend\n    )",
+    "min_run_count": 2,
+    "name": "cpu_backend_cases.tensor.cases.CastFloat32.time_cast_tail",
+    "number": 1,
+    "param_names": [
+      "dtype1",
+      "input_shapes",
+      "backend"
+    ],
+    "params": [
+      [
+        "'float32'"
+      ],
+      [
+        "'(65537,)'"
+      ],
+      [
+        "'onnx-light-cpu'",
+        "'onnxruntime'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "skip_params": [],
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+    "warmup_time": -1
+  },
+  "cpu_backend_cases.tensor.cases.CastFloat32.time_cast_tail_to_bfloat16": {
+    "code": "class <locals>:\n    def time_case(self, *parameters):\n        for feed in state[\"feeds\"]:\n            state[\"session\"].run(None, feed)\n\ndef setup(*parameters):\n    *inputs, backend = parameters\n    case_name = lookup[tuple(inputs)]\n    state[\"case\"], state[\"feeds\"], state[\"session\"] = _prepare_case(\n        case_name, backend\n    )",
+    "min_run_count": 2,
+    "name": "cpu_backend_cases.tensor.cases.CastFloat32.time_cast_tail_to_bfloat16",
+    "number": 1,
+    "param_names": [
+      "dtype1",
+      "input_shapes",
+      "backend"
+    ],
+    "params": [
+      [
+        "'float32'"
+      ],
+      [
+        "'(65537,)'"
+      ],
+      [
+        "'onnx-light-cpu'",
+        "'onnxruntime'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "skip_params": [],
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+    "warmup_time": -1
+  },
+  "cpu_backend_cases.tensor.cases.CastFloat32.time_cast_tail_to_bool": {
+    "code": "class <locals>:\n    def time_case(self, *parameters):\n        for feed in state[\"feeds\"]:\n            state[\"session\"].run(None, feed)\n\ndef setup(*parameters):\n    *inputs, backend = parameters\n    case_name = lookup[tuple(inputs)]\n    state[\"case\"], state[\"feeds\"], state[\"session\"] = _prepare_case(\n        case_name, backend\n    )",
+    "min_run_count": 2,
+    "name": "cpu_backend_cases.tensor.cases.CastFloat32.time_cast_tail_to_bool",
+    "number": 1,
+    "param_names": [
+      "dtype1",
+      "input_shapes",
+      "backend"
+    ],
+    "params": [
+      [
+        "'float32'"
+      ],
+      [
+        "'(65537,)'"
+      ],
+      [
+        "'onnx-light-cpu'",
+        "'onnxruntime'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "skip_params": [],
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+    "warmup_time": -1
+  },
+  "cpu_backend_cases.tensor.cases.CastFloat32.time_cast_tail_to_float16": {
+    "code": "class <locals>:\n    def time_case(self, *parameters):\n        for feed in state[\"feeds\"]:\n            state[\"session\"].run(None, feed)\n\ndef setup(*parameters):\n    *inputs, backend = parameters\n    case_name = lookup[tuple(inputs)]\n    state[\"case\"], state[\"feeds\"], state[\"session\"] = _prepare_case(\n        case_name, backend\n    )",
+    "min_run_count": 2,
+    "name": "cpu_backend_cases.tensor.cases.CastFloat32.time_cast_tail_to_float16",
+    "number": 1,
+    "param_names": [
+      "dtype1",
+      "input_shapes",
+      "backend"
+    ],
+    "params": [
+      [
+        "'float32'"
+      ],
+      [
+        "'(65537,)'"
+      ],
+      [
+        "'onnx-light-cpu'",
+        "'onnxruntime'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "skip_params": [],
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+    "warmup_time": -1
+  },
+  "cpu_backend_cases.tensor.cases.CastFloat32.time_cast_tail_to_float64": {
+    "code": "class <locals>:\n    def time_case(self, *parameters):\n        for feed in state[\"feeds\"]:\n            state[\"session\"].run(None, feed)\n\ndef setup(*parameters):\n    *inputs, backend = parameters\n    case_name = lookup[tuple(inputs)]\n    state[\"case\"], state[\"feeds\"], state[\"session\"] = _prepare_case(\n        case_name, backend\n    )",
+    "min_run_count": 2,
+    "name": "cpu_backend_cases.tensor.cases.CastFloat32.time_cast_tail_to_float64",
+    "number": 1,
+    "param_names": [
+      "dtype1",
+      "input_shapes",
+      "backend"
+    ],
+    "params": [
+      [
+        "'float32'"
+      ],
+      [
+        "'(65537,)'"
+      ],
+      [
+        "'onnx-light-cpu'",
+        "'onnxruntime'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "skip_params": [],
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+    "warmup_time": -1
+  },
+  "cpu_backend_cases.tensor.cases.CastFloat32.time_cast_tail_to_int32": {
+    "code": "class <locals>:\n    def time_case(self, *parameters):\n        for feed in state[\"feeds\"]:\n            state[\"session\"].run(None, feed)\n\ndef setup(*parameters):\n    *inputs, backend = parameters\n    case_name = lookup[tuple(inputs)]\n    state[\"case\"], state[\"feeds\"], state[\"session\"] = _prepare_case(\n        case_name, backend\n    )",
+    "min_run_count": 2,
+    "name": "cpu_backend_cases.tensor.cases.CastFloat32.time_cast_tail_to_int32",
+    "number": 1,
+    "param_names": [
+      "dtype1",
+      "input_shapes",
+      "backend"
+    ],
+    "params": [
+      [
+        "'float32'"
+      ],
+      [
+        "'(65537,)'"
+      ],
+      [
+        "'onnx-light-cpu'",
+        "'onnxruntime'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "skip_params": [],
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+    "warmup_time": -1
+  },
+  "cpu_backend_cases.tensor.cases.CastFloat32.time_cast_tail_to_int64": {
+    "code": "class <locals>:\n    def time_case(self, *parameters):\n        for feed in state[\"feeds\"]:\n            state[\"session\"].run(None, feed)\n\ndef setup(*parameters):\n    *inputs, backend = parameters\n    case_name = lookup[tuple(inputs)]\n    state[\"case\"], state[\"feeds\"], state[\"session\"] = _prepare_case(\n        case_name, backend\n    )",
+    "min_run_count": 2,
+    "name": "cpu_backend_cases.tensor.cases.CastFloat32.time_cast_tail_to_int64",
+    "number": 1,
+    "param_names": [
+      "dtype1",
+      "input_shapes",
+      "backend"
+    ],
+    "params": [
+      [
+        "'float32'"
+      ],
+      [
+        "'(65537,)'"
+      ],
+      [
+        "'onnx-light-cpu'",
+        "'onnxruntime'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "skip_params": [],
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+    "warmup_time": -1
+  },
+  "cpu_backend_cases.tensor.cases.CastFloat32.time_cast_tail_to_int8": {
+    "code": "class <locals>:\n    def time_case(self, *parameters):\n        for feed in state[\"feeds\"]:\n            state[\"session\"].run(None, feed)\n\ndef setup(*parameters):\n    *inputs, backend = parameters\n    case_name = lookup[tuple(inputs)]\n    state[\"case\"], state[\"feeds\"], state[\"session\"] = _prepare_case(\n        case_name, backend\n    )",
+    "min_run_count": 2,
+    "name": "cpu_backend_cases.tensor.cases.CastFloat32.time_cast_tail_to_int8",
+    "number": 1,
+    "param_names": [
+      "dtype1",
+      "input_shapes",
+      "backend"
+    ],
+    "params": [
+      [
+        "'float32'"
+      ],
+      [
+        "'(65537,)'"
+      ],
+      [
+        "'onnx-light-cpu'",
+        "'onnxruntime'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "skip_params": [],
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+    "warmup_time": -1
+  },
+  "cpu_backend_cases.tensor.cases.CastFloat32.time_cast_tail_to_uint8": {
+    "code": "class <locals>:\n    def time_case(self, *parameters):\n        for feed in state[\"feeds\"]:\n            state[\"session\"].run(None, feed)\n\ndef setup(*parameters):\n    *inputs, backend = parameters\n    case_name = lookup[tuple(inputs)]\n    state[\"case\"], state[\"feeds\"], state[\"session\"] = _prepare_case(\n        case_name, backend\n    )",
+    "min_run_count": 2,
+    "name": "cpu_backend_cases.tensor.cases.CastFloat32.time_cast_tail_to_uint8",
+    "number": 1,
+    "param_names": [
+      "dtype1",
+      "input_shapes",
+      "backend"
+    ],
+    "params": [
+      [
+        "'float32'"
+      ],
+      [
+        "'(65537,)'"
+      ],
+      [
+        "'onnx-light-cpu'",
+        "'onnxruntime'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "skip_params": [],
     "timeout": 60,
     "type": "time",
     "unit": "seconds",
@@ -396,6 +2328,7 @@
     "repeat": 0,
     "rounds": 2,
     "sample_time": 0.01,
+    "skip_params": [],
     "timeout": 60,
     "type": "time",
     "unit": "seconds",
@@ -427,6 +2360,7 @@
     "repeat": 0,
     "rounds": 2,
     "sample_time": 0.01,
+    "skip_params": [],
     "timeout": 60,
     "type": "time",
     "unit": "seconds",
@@ -458,6 +2392,7 @@
     "repeat": 0,
     "rounds": 2,
     "sample_time": 0.01,
+    "skip_params": [],
     "timeout": 60,
     "type": "time",
     "unit": "seconds",
@@ -489,6 +2424,7 @@
     "repeat": 0,
     "rounds": 2,
     "sample_time": 0.01,
+    "skip_params": [],
     "timeout": 60,
     "type": "time",
     "unit": "seconds",
@@ -520,6 +2456,7 @@
     "repeat": 0,
     "rounds": 2,
     "sample_time": 0.01,
+    "skip_params": [],
     "timeout": 60,
     "type": "time",
     "unit": "seconds",
@@ -551,6 +2488,7 @@
     "repeat": 0,
     "rounds": 2,
     "sample_time": 0.01,
+    "skip_params": [],
     "timeout": 60,
     "type": "time",
     "unit": "seconds",
@@ -582,6 +2520,7 @@
     "repeat": 0,
     "rounds": 2,
     "sample_time": 0.01,
+    "skip_params": [],
     "timeout": 60,
     "type": "time",
     "unit": "seconds",
@@ -613,6 +2552,7 @@
     "repeat": 0,
     "rounds": 2,
     "sample_time": 0.01,
+    "skip_params": [],
     "timeout": 60,
     "type": "time",
     "unit": "seconds",
@@ -644,6 +2584,7 @@
     "repeat": 0,
     "rounds": 2,
     "sample_time": 0.01,
+    "skip_params": [],
     "timeout": 60,
     "type": "time",
     "unit": "seconds",
@@ -675,6 +2616,7 @@
     "repeat": 0,
     "rounds": 2,
     "sample_time": 0.01,
+    "skip_params": [],
     "timeout": 60,
     "type": "time",
     "unit": "seconds",
@@ -706,6 +2648,7 @@
     "repeat": 0,
     "rounds": 2,
     "sample_time": 0.01,
+    "skip_params": [],
     "timeout": 60,
     "type": "time",
     "unit": "seconds",
@@ -737,6 +2680,7 @@
     "repeat": 0,
     "rounds": 2,
     "sample_time": 0.01,
+    "skip_params": [],
     "timeout": 60,
     "type": "time",
     "unit": "seconds",
@@ -768,6 +2712,7 @@
     "repeat": 0,
     "rounds": 2,
     "sample_time": 0.01,
+    "skip_params": [],
     "timeout": 60,
     "type": "time",
     "unit": "seconds",
@@ -799,6 +2744,7 @@
     "repeat": 0,
     "rounds": 2,
     "sample_time": 0.01,
+    "skip_params": [],
     "timeout": 60,
     "type": "time",
     "unit": "seconds",
@@ -830,6 +2776,7 @@
     "repeat": 0,
     "rounds": 2,
     "sample_time": 0.01,
+    "skip_params": [],
     "timeout": 60,
     "type": "time",
     "unit": "seconds",
@@ -861,6 +2808,7 @@
     "repeat": 0,
     "rounds": 2,
     "sample_time": 0.01,
+    "skip_params": [],
     "timeout": 60,
     "type": "time",
     "unit": "seconds",
@@ -892,6 +2840,7 @@
     "repeat": 0,
     "rounds": 2,
     "sample_time": 0.01,
+    "skip_params": [],
     "timeout": 60,
     "type": "time",
     "unit": "seconds",
@@ -923,6 +2872,7 @@
     "repeat": 0,
     "rounds": 2,
     "sample_time": 0.01,
+    "skip_params": [],
     "timeout": 60,
     "type": "time",
     "unit": "seconds",
@@ -954,6 +2904,7 @@
     "repeat": 0,
     "rounds": 2,
     "sample_time": 0.01,
+    "skip_params": [],
     "timeout": 60,
     "type": "time",
     "unit": "seconds",
@@ -985,6 +2936,7 @@
     "repeat": 0,
     "rounds": 2,
     "sample_time": 0.01,
+    "skip_params": [],
     "timeout": 60,
     "type": "time",
     "unit": "seconds",
@@ -1016,6 +2968,7 @@
     "repeat": 0,
     "rounds": 2,
     "sample_time": 0.01,
+    "skip_params": [],
     "timeout": 60,
     "type": "time",
     "unit": "seconds",
@@ -1047,6 +3000,7 @@
     "repeat": 0,
     "rounds": 2,
     "sample_time": 0.01,
+    "skip_params": [],
     "timeout": 60,
     "type": "time",
     "unit": "seconds",
@@ -1078,6 +3032,7 @@
     "repeat": 0,
     "rounds": 2,
     "sample_time": 0.01,
+    "skip_params": [],
     "timeout": 60,
     "type": "time",
     "unit": "seconds",
@@ -1109,6 +3064,7 @@
     "repeat": 0,
     "rounds": 2,
     "sample_time": 0.01,
+    "skip_params": [],
     "timeout": 60,
     "type": "time",
     "unit": "seconds",
@@ -1140,6 +3096,7 @@
     "repeat": 0,
     "rounds": 2,
     "sample_time": 0.01,
+    "skip_params": [],
     "timeout": 60,
     "type": "time",
     "unit": "seconds",
@@ -1171,6 +3128,7 @@
     "repeat": 0,
     "rounds": 2,
     "sample_time": 0.01,
+    "skip_params": [],
     "timeout": 60,
     "type": "time",
     "unit": "seconds",
@@ -1202,6 +3160,7 @@
     "repeat": 0,
     "rounds": 2,
     "sample_time": 0.01,
+    "skip_params": [],
     "timeout": 60,
     "type": "time",
     "unit": "seconds",
@@ -1233,6 +3192,7 @@
     "repeat": 0,
     "rounds": 2,
     "sample_time": 0.01,
+    "skip_params": [],
     "timeout": 60,
     "type": "time",
     "unit": "seconds",
@@ -1264,6 +3224,7 @@
     "repeat": 0,
     "rounds": 2,
     "sample_time": 0.01,
+    "skip_params": [],
     "timeout": 60,
     "type": "time",
     "unit": "seconds",
@@ -1295,6 +3256,7 @@
     "repeat": 0,
     "rounds": 2,
     "sample_time": 0.01,
+    "skip_params": [],
     "timeout": 60,
     "type": "time",
     "unit": "seconds",
@@ -1326,6 +3288,7 @@
     "repeat": 0,
     "rounds": 2,
     "sample_time": 0.01,
+    "skip_params": [],
     "timeout": 60,
     "type": "time",
     "unit": "seconds",
@@ -1357,6 +3320,7 @@
     "repeat": 0,
     "rounds": 2,
     "sample_time": 0.01,
+    "skip_params": [],
     "timeout": 60,
     "type": "time",
     "unit": "seconds",
@@ -1388,6 +3352,7 @@
     "repeat": 0,
     "rounds": 2,
     "sample_time": 0.01,
+    "skip_params": [],
     "timeout": 60,
     "type": "time",
     "unit": "seconds",
@@ -1419,6 +3384,7 @@
     "repeat": 0,
     "rounds": 2,
     "sample_time": 0.01,
+    "skip_params": [],
     "timeout": 60,
     "type": "time",
     "unit": "seconds",
@@ -1450,6 +3416,7 @@
     "repeat": 0,
     "rounds": 2,
     "sample_time": 0.01,
+    "skip_params": [],
     "timeout": 60,
     "type": "time",
     "unit": "seconds",
@@ -1481,6 +3448,7 @@
     "repeat": 0,
     "rounds": 2,
     "sample_time": 0.01,
+    "skip_params": [],
     "timeout": 60,
     "type": "time",
     "unit": "seconds",
@@ -1512,6 +3480,7 @@
     "repeat": 0,
     "rounds": 2,
     "sample_time": 0.01,
+    "skip_params": [],
     "timeout": 60,
     "type": "time",
     "unit": "seconds",
@@ -1543,6 +3512,7 @@
     "repeat": 0,
     "rounds": 2,
     "sample_time": 0.01,
+    "skip_params": [],
     "timeout": 60,
     "type": "time",
     "unit": "seconds",
@@ -1574,6 +3544,7 @@
     "repeat": 0,
     "rounds": 2,
     "sample_time": 0.01,
+    "skip_params": [],
     "timeout": 60,
     "type": "time",
     "unit": "seconds",
@@ -1605,6 +3576,7 @@
     "repeat": 0,
     "rounds": 2,
     "sample_time": 0.01,
+    "skip_params": [],
     "timeout": 60,
     "type": "time",
     "unit": "seconds",
@@ -1636,6 +3608,7 @@
     "repeat": 0,
     "rounds": 2,
     "sample_time": 0.01,
+    "skip_params": [],
     "timeout": 60,
     "type": "time",
     "unit": "seconds",
@@ -1667,6 +3640,7 @@
     "repeat": 0,
     "rounds": 2,
     "sample_time": 0.01,
+    "skip_params": [],
     "timeout": 60,
     "type": "time",
     "unit": "seconds",
@@ -1698,6 +3672,7 @@
     "repeat": 0,
     "rounds": 2,
     "sample_time": 0.01,
+    "skip_params": [],
     "timeout": 60,
     "type": "time",
     "unit": "seconds",
@@ -1729,6 +3704,7 @@
     "repeat": 0,
     "rounds": 2,
     "sample_time": 0.01,
+    "skip_params": [],
     "timeout": 60,
     "type": "time",
     "unit": "seconds",
@@ -1760,6 +3736,7 @@
     "repeat": 0,
     "rounds": 2,
     "sample_time": 0.01,
+    "skip_params": [],
     "timeout": 60,
     "type": "time",
     "unit": "seconds",
@@ -1791,6 +3768,7 @@
     "repeat": 0,
     "rounds": 2,
     "sample_time": 0.01,
+    "skip_params": [],
     "timeout": 60,
     "type": "time",
     "unit": "seconds",
@@ -1822,6 +3800,7 @@
     "repeat": 0,
     "rounds": 2,
     "sample_time": 0.01,
+    "skip_params": [],
     "timeout": 60,
     "type": "time",
     "unit": "seconds",
@@ -1853,6 +3832,7 @@
     "repeat": 0,
     "rounds": 2,
     "sample_time": 0.01,
+    "skip_params": [],
     "timeout": 60,
     "type": "time",
     "unit": "seconds",
@@ -1884,6 +3864,7 @@
     "repeat": 0,
     "rounds": 2,
     "sample_time": 0.01,
+    "skip_params": [],
     "timeout": 60,
     "type": "time",
     "unit": "seconds",
@@ -1915,6 +3896,7 @@
     "repeat": 0,
     "rounds": 2,
     "sample_time": 0.01,
+    "skip_params": [],
     "timeout": 60,
     "type": "time",
     "unit": "seconds",
@@ -1946,6 +3928,7 @@
     "repeat": 0,
     "rounds": 2,
     "sample_time": 0.01,
+    "skip_params": [],
     "timeout": 60,
     "type": "time",
     "unit": "seconds",
@@ -1977,6 +3960,7 @@
     "repeat": 0,
     "rounds": 2,
     "sample_time": 0.01,
+    "skip_params": [],
     "timeout": 60,
     "type": "time",
     "unit": "seconds",
@@ -2008,6 +3992,7 @@
     "repeat": 0,
     "rounds": 2,
     "sample_time": 0.01,
+    "skip_params": [],
     "timeout": 60,
     "type": "time",
     "unit": "seconds",
@@ -2039,6 +4024,199 @@
     "repeat": 0,
     "rounds": 2,
     "sample_time": 0.01,
+    "skip_params": [],
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+    "warmup_time": -1
+  },
+  "cpu_backend_cases.tensor.cases.CastUint8.time_cast_large_to_float32": {
+    "code": "class <locals>:\n    def time_case(self, *parameters):\n        for feed in state[\"feeds\"]:\n            state[\"session\"].run(None, feed)\n\ndef setup(*parameters):\n    *inputs, backend = parameters\n    case_name = lookup[tuple(inputs)]\n    state[\"case\"], state[\"feeds\"], state[\"session\"] = _prepare_case(\n        case_name, backend\n    )",
+    "min_run_count": 2,
+    "name": "cpu_backend_cases.tensor.cases.CastUint8.time_cast_large_to_float32",
+    "number": 1,
+    "param_names": [
+      "dtype1",
+      "input_shapes",
+      "backend"
+    ],
+    "params": [
+      [
+        "'uint8'"
+      ],
+      [
+        "'(1048576,)'"
+      ],
+      [
+        "'onnx-light-cpu'",
+        "'onnxruntime'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "skip_params": [],
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+    "warmup_time": -1
+  },
+  "cpu_backend_cases.tensor.cases.CastUint8.time_cast_matrix_to_float32": {
+    "code": "class <locals>:\n    def time_case(self, *parameters):\n        for feed in state[\"feeds\"]:\n            state[\"session\"].run(None, feed)\n\ndef setup(*parameters):\n    *inputs, backend = parameters\n    case_name = lookup[tuple(inputs)]\n    state[\"case\"], state[\"feeds\"], state[\"session\"] = _prepare_case(\n        case_name, backend\n    )",
+    "min_run_count": 2,
+    "name": "cpu_backend_cases.tensor.cases.CastUint8.time_cast_matrix_to_float32",
+    "number": 1,
+    "param_names": [
+      "dtype1",
+      "input_shapes",
+      "backend"
+    ],
+    "params": [
+      [
+        "'uint8'"
+      ],
+      [
+        "'(256, 4096)'"
+      ],
+      [
+        "'onnx-light-cpu'",
+        "'onnxruntime'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "skip_params": [],
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+    "warmup_time": -1
+  },
+  "cpu_backend_cases.tensor.cases.CastUint8.time_cast_medium_to_float32": {
+    "code": "class <locals>:\n    def time_case(self, *parameters):\n        for feed in state[\"feeds\"]:\n            state[\"session\"].run(None, feed)\n\ndef setup(*parameters):\n    *inputs, backend = parameters\n    case_name = lookup[tuple(inputs)]\n    state[\"case\"], state[\"feeds\"], state[\"session\"] = _prepare_case(\n        case_name, backend\n    )",
+    "min_run_count": 2,
+    "name": "cpu_backend_cases.tensor.cases.CastUint8.time_cast_medium_to_float32",
+    "number": 1,
+    "param_names": [
+      "dtype1",
+      "input_shapes",
+      "backend"
+    ],
+    "params": [
+      [
+        "'uint8'"
+      ],
+      [
+        "'(1024,)'"
+      ],
+      [
+        "'onnx-light-cpu'",
+        "'onnxruntime'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "skip_params": [],
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+    "warmup_time": -1
+  },
+  "cpu_backend_cases.tensor.cases.CastUint8.time_cast_scalar_to_float32": {
+    "code": "class <locals>:\n    def time_case(self, *parameters):\n        for feed in state[\"feeds\"]:\n            state[\"session\"].run(None, feed)\n\ndef setup(*parameters):\n    *inputs, backend = parameters\n    case_name = lookup[tuple(inputs)]\n    state[\"case\"], state[\"feeds\"], state[\"session\"] = _prepare_case(\n        case_name, backend\n    )",
+    "min_run_count": 2,
+    "name": "cpu_backend_cases.tensor.cases.CastUint8.time_cast_scalar_to_float32",
+    "number": 1,
+    "param_names": [
+      "dtype1",
+      "input_shapes",
+      "backend"
+    ],
+    "params": [
+      [
+        "'uint8'"
+      ],
+      [
+        "'()'"
+      ],
+      [
+        "'onnx-light-cpu'",
+        "'onnxruntime'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "skip_params": [],
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+    "warmup_time": -1
+  },
+  "cpu_backend_cases.tensor.cases.CastUint8.time_cast_small_to_float32": {
+    "code": "class <locals>:\n    def time_case(self, *parameters):\n        for feed in state[\"feeds\"]:\n            state[\"session\"].run(None, feed)\n\ndef setup(*parameters):\n    *inputs, backend = parameters\n    case_name = lookup[tuple(inputs)]\n    state[\"case\"], state[\"feeds\"], state[\"session\"] = _prepare_case(\n        case_name, backend\n    )",
+    "min_run_count": 2,
+    "name": "cpu_backend_cases.tensor.cases.CastUint8.time_cast_small_to_float32",
+    "number": 1,
+    "param_names": [
+      "dtype1",
+      "input_shapes",
+      "backend"
+    ],
+    "params": [
+      [
+        "'uint8'"
+      ],
+      [
+        "'(16,)'"
+      ],
+      [
+        "'onnx-light-cpu'",
+        "'onnxruntime'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "skip_params": [],
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+    "warmup_time": -1
+  },
+  "cpu_backend_cases.tensor.cases.CastUint8.time_cast_tail_to_float32": {
+    "code": "class <locals>:\n    def time_case(self, *parameters):\n        for feed in state[\"feeds\"]:\n            state[\"session\"].run(None, feed)\n\ndef setup(*parameters):\n    *inputs, backend = parameters\n    case_name = lookup[tuple(inputs)]\n    state[\"case\"], state[\"feeds\"], state[\"session\"] = _prepare_case(\n        case_name, backend\n    )",
+    "min_run_count": 2,
+    "name": "cpu_backend_cases.tensor.cases.CastUint8.time_cast_tail_to_float32",
+    "number": 1,
+    "param_names": [
+      "dtype1",
+      "input_shapes",
+      "backend"
+    ],
+    "params": [
+      [
+        "'uint8'"
+      ],
+      [
+        "'(65537,)'"
+      ],
+      [
+        "'onnx-light-cpu'",
+        "'onnxruntime'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "skip_params": [],
     "timeout": 60,
     "type": "time",
     "unit": "seconds",
