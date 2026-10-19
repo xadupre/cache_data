@@ -1,7 +1,157 @@
 {
-  "date": "2026-10-12T17:16:51Z",
+  "date": "2026-10-19T15:38:52Z",
   "tag": "release_after",
   "tests": [
+    {
+      "error": "",
+      "graph": {
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"217\" height=\"380\" viewBox=\"0 0 217 380\" font-family=\"sans-serif\" font-size=\"12\">\n<defs><marker id=\"arrow\" markerWidth=\"10\" markerHeight=\"10\" refX=\"8\" refY=\"3\" orient=\"auto\" markerUnits=\"strokeWidth\"><path d=\"M0,0 L8,3 L0,6 Z\" fill=\"#555555\"/></marker></defs>\n<line x1=\"67\" y1=\"68\" x2=\"164\" y2=\"128\" stroke=\"#555555\" marker-end=\"url(#arrow)\"/><text x=\"115.5\" y=\"98\" text-anchor=\"middle\" fill=\"#888888\" font-size=\"9\">lengths \u00b7 int64[2]</text>\n<line x1=\"160.5\" y1=\"68\" x2=\"164\" y2=\"128\" stroke=\"#555555\" marker-end=\"url(#arrow)\"/><text x=\"170.25\" y=\"98\" text-anchor=\"middle\" fill=\"#888888\" font-size=\"9\">index \u00b7 int64</text>\n<line x1=\"164\" y1=\"160\" x2=\"157\" y2=\"236\" stroke=\"#555555\" marker-end=\"url(#arrow)\"/><text x=\"152.5\" y=\"198\" text-anchor=\"middle\" fill=\"#888888\" font-size=\"9\">Gather/output_0 \u00b7 int64</text>\n<line x1=\"164\" y1=\"160\" x2=\"56.5\" y2=\"236\" stroke=\"#555555\" marker-end=\"url(#arrow)\"/><text x=\"126.25\" y=\"198\" text-anchor=\"middle\" fill=\"#888888\" font-size=\"9\">Gather/output_0 \u00b7 int64</text>\n<line x1=\"63.5\" y1=\"176\" x2=\"56.5\" y2=\"236\" stroke=\"#555555\" marker-end=\"url(#arrow)\"/><text x=\"44\" y=\"206\" text-anchor=\"middle\" fill=\"#888888\" font-size=\"9\">threshold \u00b7 int64</text>\n<line x1=\"157\" y1=\"268\" x2=\"146.5\" y2=\"328\" stroke=\"#555555\" marker-end=\"url(#arrow)\"/><text x=\"175.75\" y=\"298\" text-anchor=\"middle\" fill=\"#888888\" font-size=\"9\">copy \u00b7 int64</text>\n<line x1=\"56.5\" y1=\"268\" x2=\"67\" y2=\"328\" stroke=\"#555555\" marker-end=\"url(#arrow)\"/><text x=\"37.75\" y=\"298\" text-anchor=\"middle\" fill=\"#888888\" font-size=\"9\">mask \u00b7 bool</text>\n<rect x=\"27\" y=\"20\" width=\"80\" height=\"48\" rx=\"12\" ry=\"12\" fill=\"#cde4ff\" stroke=\"#3a6ea5\"/><text x=\"67\" y=\"40\" text-anchor=\"middle\" fill=\"#000000\">lengths</text><text x=\"67\" y=\"56\" text-anchor=\"middle\" fill=\"#000000\">int64[2]</text>\n<rect x=\"131\" y=\"20\" width=\"59\" height=\"48\" rx=\"4\" ry=\"4\" fill=\"#eeeeee\" stroke=\"#888888\" stroke-dasharray=\"4 3\"/><text x=\"160.5\" y=\"40\" text-anchor=\"middle\" fill=\"#000000\">index</text><text x=\"160.5\" y=\"56\" text-anchor=\"middle\" fill=\"#000000\">int64</text>\n<rect x=\"20\" y=\"128\" width=\"87\" height=\"48\" rx=\"4\" ry=\"4\" fill=\"#eeeeee\" stroke=\"#888888\" stroke-dasharray=\"4 3\"/><text x=\"63.5\" y=\"148\" text-anchor=\"middle\" fill=\"#000000\">threshold</text><text x=\"63.5\" y=\"164\" text-anchor=\"middle\" fill=\"#000000\">int64</text>\n<rect x=\"131\" y=\"128\" width=\"66\" height=\"32\" rx=\"4\" ry=\"4\" fill=\"#d4ecd4\" stroke=\"#3a8c3a\"/><text x=\"164\" y=\"148\" text-anchor=\"middle\" fill=\"#000000\">Gather</text>\n<rect x=\"117\" y=\"236\" width=\"80\" height=\"32\" rx=\"4\" ry=\"4\" fill=\"#d4ecd4\" stroke=\"#3a8c3a\"/><text x=\"157\" y=\"256\" text-anchor=\"middle\" fill=\"#000000\">Identity</text>\n<rect x=\"20\" y=\"236\" width=\"73\" height=\"32\" rx=\"4\" ry=\"4\" fill=\"#d4ecd4\" stroke=\"#3a8c3a\"/><text x=\"56.5\" y=\"256\" text-anchor=\"middle\" fill=\"#000000\">Greater</text>\n<rect x=\"117\" y=\"328\" width=\"59\" height=\"32\" rx=\"12\" ry=\"12\" fill=\"#ffe1b3\" stroke=\"#a35a00\"/><text x=\"146.5\" y=\"348\" text-anchor=\"middle\" fill=\"#000000\">int64</text>\n<rect x=\"41\" y=\"328\" width=\"52\" height=\"32\" rx=\"12\" ry=\"12\" fill=\"#ffe1b3\" stroke=\"#a35a00\"/><text x=\"67\" y=\"348\" text-anchor=\"middle\" fill=\"#000000\">bool</text>\n</svg>"
+      },
+      "matched_metadata": 3,
+      "matched_nodes": 3,
+      "mermaid": "flowchart TD\n    in_lengths([\"lengths<br>INT64[2]\"])\n    init_index[(\"index<br>INT64[]\")]\n    init_threshold[(\"threshold<br>INT64[]\")]\n    op_Gather_0[\"Gather\"]\n    op_Identity_1[\"Identity\"]\n    op_Greater_2[\"Greater\"]\n    out_copy([\"copy<br>INT64\"])\n    out_mask([\"mask<br>BOOL\"])\n    in_lengths -- \"lengths : INT64[2]\" --> op_Gather_0\n    init_index -- \"index\" --> op_Gather_0\n    op_Gather_0 -- \"/model/attn_mask_reformat/attn_mask_subgraph/Gather/output_0 : INT64\" --> op_Identity_1\n    op_Gather_0 -- \"/model/attn_mask_reformat/attn_mask_subgraph/Gather/output_0 : INT64\" --> op_Greater_2\n    init_threshold -- \"threshold\" --> op_Greater_2\n    op_Identity_1 -- \"copy : INT64\" --> out_copy\n    op_Greater_2 -- \"mask : BOOL\" --> out_mask",
+      "name": "test_cc_release_gather_after_last_consumer",
+      "nodes": [
+        {
+          "actual": {
+            "onnx_light.not_used_after": "lengths;index"
+          },
+          "expected": {
+            "onnx_light.not_used_after": "lengths;index"
+          },
+          "index": 0,
+          "inputs": [
+            "lengths",
+            "index"
+          ],
+          "memory": {
+            "already_allocated_bytes": 32,
+            "initializers": {
+              "": 16
+            },
+            "inputs": {
+              "": 16
+            },
+            "intermediates": {},
+            "output_allocation_bytes": 8,
+            "outputs": {
+              "": 8
+            },
+            "total_bytes": 40
+          },
+          "op_type": "Gather",
+          "outputs": [
+            "/model/attn_mask_reformat/attn_mask_subgraph/Gather/output_0"
+          ],
+          "success": true
+        },
+        {
+          "actual": {},
+          "expected": {},
+          "index": 1,
+          "inputs": [
+            "/model/attn_mask_reformat/attn_mask_subgraph/Gather/output_0"
+          ],
+          "memory": {
+            "already_allocated_bytes": 40,
+            "initializers": {
+              "": 16
+            },
+            "inputs": {
+              "": 16
+            },
+            "intermediates": {
+              "": 8
+            },
+            "output_allocation_bytes": 8,
+            "outputs": {
+              "": 8
+            },
+            "total_bytes": 48
+          },
+          "op_type": "Identity",
+          "outputs": [
+            "copy"
+          ],
+          "success": true
+        },
+        {
+          "actual": {
+            "onnx_light.not_used_after": "threshold",
+            "onnx_light.release_after": "/model/attn_mask_reformat/attn_mask_subgraph/Gather/output_0"
+          },
+          "expected": {
+            "onnx_light.not_used_after": "threshold",
+            "onnx_light.release_after": "/model/attn_mask_reformat/attn_mask_subgraph/Gather/output_0"
+          },
+          "index": 2,
+          "inputs": [
+            "/model/attn_mask_reformat/attn_mask_subgraph/Gather/output_0",
+            "threshold"
+          ],
+          "memory": {
+            "already_allocated_bytes": 48,
+            "initializers": {
+              "": 16
+            },
+            "inputs": {
+              "": 16
+            },
+            "intermediates": {
+              "": 16
+            },
+            "output_allocation_bytes": 0,
+            "outputs": {},
+            "total_bytes": 48
+          },
+          "op_type": "Greater",
+          "outputs": [
+            "mask"
+          ],
+          "success": true
+        }
+      ],
+      "success": true,
+      "total_metadata": 3,
+      "total_nodes": 3,
+      "values": [
+        {
+          "actual": {},
+          "expected": {},
+          "kind": "input",
+          "name": "lengths",
+          "success": true
+        },
+        {
+          "actual": {},
+          "expected": {},
+          "kind": "output",
+          "name": "copy",
+          "success": true
+        },
+        {
+          "actual": {},
+          "expected": {},
+          "kind": "output",
+          "name": "mask",
+          "success": true
+        },
+        {
+          "actual": {},
+          "expected": {},
+          "kind": "initializer",
+          "name": "index",
+          "success": true
+        },
+        {
+          "actual": {},
+          "expected": {},
+          "kind": "initializer",
+          "name": "threshold",
+          "success": true
+        }
+      ]
+    },
     {
       "error": "",
       "graph": {
@@ -618,7 +768,7 @@
             "outputs": {
               "": "4*sequence_length"
             },
-            "total_bytes": "12*sequence_length+16384*batch_size*past_sequence_length+8*batch_size*sequence_length+8*batch_size*total_sequence_length+256922290"
+            "total_bytes": "16384*batch_size*past_sequence_length+12*sequence_length+8*batch_size*sequence_length+8*batch_size*total_sequence_length+256922290"
           },
           "op_type": "Cast",
           "outputs": [
@@ -784,7 +934,7 @@
             "outputs": {
               "": "128*sequence_length"
             },
-            "total_bytes": "16384*batch_size*past_sequence_length+640*sequence_length+8*batch_size*sequence_length+8*batch_size*total_sequence_length+256922290"
+            "total_bytes": "640*sequence_length+16384*batch_size*past_sequence_length+8*batch_size*sequence_length+8*batch_size*total_sequence_length+256922290"
           },
           "op_type": "Cast",
           "outputs": [
@@ -818,7 +968,7 @@
             "outputs": {
               "": "128*sequence_length"
             },
-            "total_bytes": "16384*batch_size*past_sequence_length+512*sequence_length+8*batch_size*sequence_length+8*batch_size*total_sequence_length+256922290"
+            "total_bytes": "512*sequence_length+16384*batch_size*past_sequence_length+8*batch_size*sequence_length+8*batch_size*total_sequence_length+256922290"
           },
           "op_type": "Cast",
           "outputs": [
@@ -1788,7 +1938,7 @@
             "outputs": {
               "": "4096*batch_size*sequence_length"
             },
-            "total_bytes": "16384*batch_size*past_sequence_length+512*sequence_length+6152*batch_size*sequence_length+8*batch_size*total_sequence_length+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
+            "total_bytes": "16384*batch_size*past_sequence_length+6152*batch_size*sequence_length+512*sequence_length+8*batch_size*total_sequence_length+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
           },
           "op_type": "Cast",
           "outputs": [
@@ -1819,7 +1969,7 @@
             "outputs": {
               "": "4096*batch_size*sequence_length"
             },
-            "total_bytes": "10248*batch_size*sequence_length+16384*batch_size*past_sequence_length+512*sequence_length+8*batch_size*total_sequence_length+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
+            "total_bytes": "16384*batch_size*past_sequence_length+10248*batch_size*sequence_length+512*sequence_length+8*batch_size*total_sequence_length+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
           },
           "op_type": "Pow",
           "outputs": [
@@ -2018,7 +2168,7 @@
             "outputs": {
               "": "2048*batch_size*sequence_length"
             },
-            "total_bytes": "16384*batch_size*past_sequence_length+512*sequence_length+8*batch_size*total_sequence_length+8200*batch_size*sequence_length+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
+            "total_bytes": "16384*batch_size*past_sequence_length+8200*batch_size*sequence_length+512*sequence_length+8*batch_size*total_sequence_length+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
           },
           "op_type": "Cast",
           "outputs": [
@@ -2085,7 +2235,7 @@
             "outputs": {
               "": "4096*batch_size*sequence_length"
             },
-            "total_bytes": "16384*batch_size*past_sequence_length+512*sequence_length+8*batch_size*total_sequence_length+8200*batch_size*sequence_length+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
+            "total_bytes": "16384*batch_size*past_sequence_length+8200*batch_size*sequence_length+512*sequence_length+8*batch_size*total_sequence_length+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
           },
           "op_type": "MatMul",
           "outputs": [
@@ -2119,7 +2269,7 @@
             "outputs": {
               "": "8192*batch_size*sequence_length"
             },
-            "total_bytes": "16384*batch_size*past_sequence_length+16392*batch_size*sequence_length+512*sequence_length+8*batch_size*total_sequence_length+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
+            "total_bytes": "16384*batch_size*past_sequence_length+512*sequence_length+8*batch_size*total_sequence_length+16392*batch_size*sequence_length+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
           },
           "op_type": "Cast",
           "outputs": [
@@ -2183,7 +2333,7 @@
             "outputs": {
               "": "8192*batch_size*sequence_length"
             },
-            "total_bytes": "16384*batch_size*past_sequence_length+20488*batch_size*sequence_length+512*sequence_length+8*batch_size*total_sequence_length+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
+            "total_bytes": "20488*batch_size*sequence_length+16384*batch_size*past_sequence_length+512*sequence_length+8*batch_size*total_sequence_length+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
           },
           "op_type": "Pow",
           "outputs": [
@@ -2382,7 +2532,7 @@
             "outputs": {
               "": "4096*batch_size*sequence_length"
             },
-            "total_bytes": "16384*batch_size*past_sequence_length+16392*batch_size*sequence_length+512*sequence_length+8*batch_size*total_sequence_length+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
+            "total_bytes": "16392*batch_size*sequence_length+16384*batch_size*past_sequence_length+512*sequence_length+8*batch_size*total_sequence_length+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
           },
           "op_type": "Cast",
           "outputs": [
@@ -2481,7 +2631,7 @@
             "outputs": {
               "": "2048*batch_size*sequence_length"
             },
-            "total_bytes": "10248*batch_size*sequence_length+16384*batch_size*past_sequence_length+512*sequence_length+8*batch_size*total_sequence_length+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
+            "total_bytes": "16384*batch_size*past_sequence_length+10248*batch_size*sequence_length+512*sequence_length+8*batch_size*total_sequence_length+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
           },
           "op_type": "MatMul",
           "outputs": [
@@ -2579,7 +2729,7 @@
             "outputs": {
               "": "4096*batch_size*sequence_length"
             },
-            "total_bytes": "16384*batch_size*past_sequence_length+16392*batch_size*sequence_length+512*sequence_length+8*batch_size*total_sequence_length+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
+            "total_bytes": "16392*batch_size*sequence_length+16384*batch_size*past_sequence_length+512*sequence_length+8*batch_size*total_sequence_length+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
           },
           "op_type": "Pow",
           "outputs": [
@@ -3041,7 +3191,7 @@
             "outputs": {
               "": "4096*batch_size*sequence_length"
             },
-            "total_bytes": "16384*batch_size*past_sequence_length+18440*batch_size*sequence_length+512*sequence_length+8*batch_size*total_sequence_length+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
+            "total_bytes": "18440*batch_size*sequence_length+16384*batch_size*past_sequence_length+512*sequence_length+8*batch_size*total_sequence_length+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
           },
           "op_type": "Concat",
           "outputs": [
@@ -3440,7 +3590,7 @@
             "outputs": {
               "": "2048*batch_size*(past_sequence_length+sequence_length)"
             },
-            "total_bytes": "16384*batch_size*past_sequence_length+512*sequence_length+6144*batch_size*(past_sequence_length+sequence_length)+6152*batch_size*sequence_length+8*batch_size*total_sequence_length+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
+            "total_bytes": "16384*batch_size*past_sequence_length+6144*batch_size*(past_sequence_length+sequence_length)+512*sequence_length+6152*batch_size*sequence_length+8*batch_size*total_sequence_length+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
           },
           "op_type": "Mul",
           "outputs": [
@@ -3506,7 +3656,7 @@
             "outputs": {
               "": "2048*batch_size*(past_sequence_length+sequence_length)"
             },
-            "total_bytes": "16384*batch_size*past_sequence_length+512*sequence_length+6152*batch_size*sequence_length+8*batch_size*total_sequence_length+8192*batch_size*(past_sequence_length+sequence_length)+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
+            "total_bytes": "16384*batch_size*past_sequence_length+8192*batch_size*(past_sequence_length+sequence_length)+512*sequence_length+6152*batch_size*sequence_length+8*batch_size*total_sequence_length+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
           },
           "op_type": "Unsqueeze",
           "outputs": [
@@ -3541,7 +3691,7 @@
             "outputs": {
               "": "4096*batch_size*(past_sequence_length+sequence_length)"
             },
-            "total_bytes": "12288*batch_size*(past_sequence_length+sequence_length)+16384*batch_size*past_sequence_length+512*sequence_length+6152*batch_size*sequence_length+8*batch_size*total_sequence_length+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
+            "total_bytes": "16384*batch_size*past_sequence_length+12288*batch_size*(past_sequence_length+sequence_length)+512*sequence_length+6152*batch_size*sequence_length+8*batch_size*total_sequence_length+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
           },
           "op_type": "Expand",
           "outputs": [
@@ -3839,7 +3989,7 @@
             "outputs": {
               "": "16*batch_size*(past_sequence_length+sequence_length)*sequence_length"
             },
-            "total_bytes": "16384*batch_size*past_sequence_length+2056*batch_size*sequence_length+49*batch_size*(past_sequence_length+sequence_length)*sequence_length+512*sequence_length+8*batch_size*total_sequence_length+8192*batch_size*(past_sequence_length+sequence_length)+256922266"
+            "total_bytes": "49*batch_size*(past_sequence_length+sequence_length)*sequence_length+16384*batch_size*past_sequence_length+2056*batch_size*sequence_length+512*sequence_length+8*batch_size*total_sequence_length+8192*batch_size*(past_sequence_length+sequence_length)+256922266"
           },
           "op_type": "IsNaN",
           "outputs": [
@@ -3909,7 +4059,7 @@
             "outputs": {
               "": "4096*batch_size*sequence_length"
             },
-            "total_bytes": "16384*batch_size*past_sequence_length+33*batch_size*(past_sequence_length+sequence_length)*sequence_length+512*sequence_length+6152*batch_size*sequence_length+8*batch_size*total_sequence_length+8192*batch_size*(past_sequence_length+sequence_length)+256922266"
+            "total_bytes": "16384*batch_size*past_sequence_length+6152*batch_size*sequence_length+33*batch_size*(past_sequence_length+sequence_length)*sequence_length+512*sequence_length+8*batch_size*total_sequence_length+8192*batch_size*(past_sequence_length+sequence_length)+256922266"
           },
           "op_type": "MatMul",
           "outputs": [
@@ -4010,7 +4160,7 @@
             "outputs": {
               "": "2048*batch_size*sequence_length"
             },
-            "total_bytes": "16384*batch_size*past_sequence_length+4096*batch_size*(past_sequence_length+sequence_length)+512*sequence_length+8*batch_size*total_sequence_length+8200*batch_size*sequence_length+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
+            "total_bytes": "16384*batch_size*past_sequence_length+8200*batch_size*sequence_length+4096*batch_size*(past_sequence_length+sequence_length)+512*sequence_length+8*batch_size*total_sequence_length+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
           },
           "op_type": "MatMul",
           "outputs": [
@@ -4073,7 +4223,7 @@
             "outputs": {
               "": "4096*batch_size*sequence_length"
             },
-            "total_bytes": "16384*batch_size*past_sequence_length+4096*batch_size*(past_sequence_length+sequence_length)+512*sequence_length+6152*batch_size*sequence_length+8*batch_size*total_sequence_length+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
+            "total_bytes": "16384*batch_size*past_sequence_length+6152*batch_size*sequence_length+4096*batch_size*(past_sequence_length+sequence_length)+512*sequence_length+8*batch_size*total_sequence_length+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
           },
           "op_type": "Cast",
           "outputs": [
@@ -4104,7 +4254,7 @@
             "outputs": {
               "": "4096*batch_size*sequence_length"
             },
-            "total_bytes": "10248*batch_size*sequence_length+16384*batch_size*past_sequence_length+4096*batch_size*(past_sequence_length+sequence_length)+512*sequence_length+8*batch_size*total_sequence_length+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
+            "total_bytes": "16384*batch_size*past_sequence_length+4096*batch_size*(past_sequence_length+sequence_length)+10248*batch_size*sequence_length+512*sequence_length+8*batch_size*total_sequence_length+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
           },
           "op_type": "Pow",
           "outputs": [
@@ -4303,7 +4453,7 @@
             "outputs": {
               "": "2048*batch_size*sequence_length"
             },
-            "total_bytes": "16384*batch_size*past_sequence_length+4096*batch_size*(past_sequence_length+sequence_length)+512*sequence_length+8*batch_size*total_sequence_length+8200*batch_size*sequence_length+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
+            "total_bytes": "16384*batch_size*past_sequence_length+8200*batch_size*sequence_length+4096*batch_size*(past_sequence_length+sequence_length)+512*sequence_length+8*batch_size*total_sequence_length+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
           },
           "op_type": "Cast",
           "outputs": [
@@ -4370,7 +4520,7 @@
             "outputs": {
               "": "6144*batch_size*sequence_length"
             },
-            "total_bytes": "10248*batch_size*sequence_length+16384*batch_size*past_sequence_length+4096*batch_size*(past_sequence_length+sequence_length)+512*sequence_length+8*batch_size*total_sequence_length+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
+            "total_bytes": "16384*batch_size*past_sequence_length+4096*batch_size*(past_sequence_length+sequence_length)+10248*batch_size*sequence_length+512*sequence_length+8*batch_size*total_sequence_length+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
           },
           "op_type": "MatMul",
           "outputs": [
@@ -4400,7 +4550,7 @@
             "outputs": {
               "": "6144*batch_size*sequence_length"
             },
-            "total_bytes": "16384*batch_size*past_sequence_length+16392*batch_size*sequence_length+4096*batch_size*(past_sequence_length+sequence_length)+512*sequence_length+8*batch_size*total_sequence_length+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
+            "total_bytes": "16392*batch_size*sequence_length+16384*batch_size*past_sequence_length+4096*batch_size*(past_sequence_length+sequence_length)+512*sequence_length+8*batch_size*total_sequence_length+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
           },
           "op_type": "Sigmoid",
           "outputs": [
@@ -4469,7 +4619,7 @@
             "outputs": {
               "": "6144*batch_size*sequence_length"
             },
-            "total_bytes": "16384*batch_size*past_sequence_length+16392*batch_size*sequence_length+4096*batch_size*(past_sequence_length+sequence_length)+512*sequence_length+8*batch_size*total_sequence_length+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
+            "total_bytes": "16392*batch_size*sequence_length+16384*batch_size*past_sequence_length+4096*batch_size*(past_sequence_length+sequence_length)+512*sequence_length+8*batch_size*total_sequence_length+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
           },
           "op_type": "MatMul",
           "outputs": [
@@ -4538,7 +4688,7 @@
             "outputs": {
               "": "2048*batch_size*sequence_length"
             },
-            "total_bytes": "10248*batch_size*sequence_length+16384*batch_size*past_sequence_length+4096*batch_size*(past_sequence_length+sequence_length)+512*sequence_length+8*batch_size*total_sequence_length+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
+            "total_bytes": "16384*batch_size*past_sequence_length+10248*batch_size*sequence_length+4096*batch_size*(past_sequence_length+sequence_length)+512*sequence_length+8*batch_size*total_sequence_length+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
           },
           "op_type": "MatMul",
           "outputs": [
@@ -4601,7 +4751,7 @@
             "outputs": {
               "": "4096*batch_size*sequence_length"
             },
-            "total_bytes": "16384*batch_size*past_sequence_length+4096*batch_size*(past_sequence_length+sequence_length)+512*sequence_length+6152*batch_size*sequence_length+8*batch_size*total_sequence_length+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
+            "total_bytes": "16384*batch_size*past_sequence_length+6152*batch_size*sequence_length+4096*batch_size*(past_sequence_length+sequence_length)+512*sequence_length+8*batch_size*total_sequence_length+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
           },
           "op_type": "Cast",
           "outputs": [
@@ -4632,7 +4782,7 @@
             "outputs": {
               "": "4096*batch_size*sequence_length"
             },
-            "total_bytes": "10248*batch_size*sequence_length+16384*batch_size*past_sequence_length+4096*batch_size*(past_sequence_length+sequence_length)+512*sequence_length+8*batch_size*total_sequence_length+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
+            "total_bytes": "16384*batch_size*past_sequence_length+4096*batch_size*(past_sequence_length+sequence_length)+10248*batch_size*sequence_length+512*sequence_length+8*batch_size*total_sequence_length+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
           },
           "op_type": "Pow",
           "outputs": [
@@ -4831,7 +4981,7 @@
             "outputs": {
               "": "2048*batch_size*sequence_length"
             },
-            "total_bytes": "16384*batch_size*past_sequence_length+4096*batch_size*(past_sequence_length+sequence_length)+512*sequence_length+8*batch_size*total_sequence_length+8200*batch_size*sequence_length+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
+            "total_bytes": "16384*batch_size*past_sequence_length+8200*batch_size*sequence_length+4096*batch_size*(past_sequence_length+sequence_length)+512*sequence_length+8*batch_size*total_sequence_length+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
           },
           "op_type": "Cast",
           "outputs": [
@@ -4898,7 +5048,7 @@
             "outputs": {
               "": "4096*batch_size*sequence_length"
             },
-            "total_bytes": "16384*batch_size*past_sequence_length+4096*batch_size*(past_sequence_length+sequence_length)+512*sequence_length+8*batch_size*total_sequence_length+8200*batch_size*sequence_length+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
+            "total_bytes": "16384*batch_size*past_sequence_length+4096*batch_size*(past_sequence_length+sequence_length)+8200*batch_size*sequence_length+512*sequence_length+8*batch_size*total_sequence_length+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
           },
           "op_type": "MatMul",
           "outputs": [
@@ -4932,7 +5082,7 @@
             "outputs": {
               "": "8192*batch_size*sequence_length"
             },
-            "total_bytes": "16384*batch_size*past_sequence_length+16392*batch_size*sequence_length+4096*batch_size*(past_sequence_length+sequence_length)+512*sequence_length+8*batch_size*total_sequence_length+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
+            "total_bytes": "16384*batch_size*past_sequence_length+4096*batch_size*(past_sequence_length+sequence_length)+512*sequence_length+8*batch_size*total_sequence_length+16392*batch_size*sequence_length+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
           },
           "op_type": "Cast",
           "outputs": [
@@ -4996,7 +5146,7 @@
             "outputs": {
               "": "8192*batch_size*sequence_length"
             },
-            "total_bytes": "16384*batch_size*past_sequence_length+20488*batch_size*sequence_length+4096*batch_size*(past_sequence_length+sequence_length)+512*sequence_length+8*batch_size*total_sequence_length+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
+            "total_bytes": "20488*batch_size*sequence_length+16384*batch_size*past_sequence_length+4096*batch_size*(past_sequence_length+sequence_length)+512*sequence_length+8*batch_size*total_sequence_length+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
           },
           "op_type": "Pow",
           "outputs": [
@@ -5195,7 +5345,7 @@
             "outputs": {
               "": "4096*batch_size*sequence_length"
             },
-            "total_bytes": "16384*batch_size*past_sequence_length+16392*batch_size*sequence_length+4096*batch_size*(past_sequence_length+sequence_length)+512*sequence_length+8*batch_size*total_sequence_length+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
+            "total_bytes": "16392*batch_size*sequence_length+16384*batch_size*past_sequence_length+4096*batch_size*(past_sequence_length+sequence_length)+512*sequence_length+8*batch_size*total_sequence_length+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
           },
           "op_type": "Cast",
           "outputs": [
@@ -5294,7 +5444,7 @@
             "outputs": {
               "": "2048*batch_size*sequence_length"
             },
-            "total_bytes": "10248*batch_size*sequence_length+16384*batch_size*past_sequence_length+4096*batch_size*(past_sequence_length+sequence_length)+512*sequence_length+8*batch_size*total_sequence_length+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
+            "total_bytes": "16384*batch_size*past_sequence_length+10248*batch_size*sequence_length+4096*batch_size*(past_sequence_length+sequence_length)+512*sequence_length+8*batch_size*total_sequence_length+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
           },
           "op_type": "MatMul",
           "outputs": [
@@ -5392,7 +5542,7 @@
             "outputs": {
               "": "4096*batch_size*sequence_length"
             },
-            "total_bytes": "16384*batch_size*past_sequence_length+16392*batch_size*sequence_length+4096*batch_size*(past_sequence_length+sequence_length)+512*sequence_length+8*batch_size*total_sequence_length+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
+            "total_bytes": "16392*batch_size*sequence_length+16384*batch_size*past_sequence_length+4096*batch_size*(past_sequence_length+sequence_length)+512*sequence_length+8*batch_size*total_sequence_length+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
           },
           "op_type": "Pow",
           "outputs": [
@@ -5854,7 +6004,7 @@
             "outputs": {
               "": "4096*batch_size*sequence_length"
             },
-            "total_bytes": "16384*batch_size*past_sequence_length+18440*batch_size*sequence_length+4096*batch_size*(past_sequence_length+sequence_length)+512*sequence_length+8*batch_size*total_sequence_length+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
+            "total_bytes": "18440*batch_size*sequence_length+16384*batch_size*past_sequence_length+4096*batch_size*(past_sequence_length+sequence_length)+512*sequence_length+8*batch_size*total_sequence_length+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
           },
           "op_type": "Concat",
           "outputs": [
@@ -6186,7 +6336,7 @@
             "outputs": {
               "": "2048*batch_size*(past_sequence_length+sequence_length)"
             },
-            "total_bytes": "10248*batch_size*sequence_length+16384*batch_size*past_sequence_length+512*sequence_length+6144*batch_size*(past_sequence_length+sequence_length)+8*batch_size*total_sequence_length+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
+            "total_bytes": "10248*batch_size*sequence_length+16384*batch_size*past_sequence_length+6144*batch_size*(past_sequence_length+sequence_length)+512*sequence_length+8*batch_size*total_sequence_length+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
           },
           "op_type": "Concat",
           "outputs": [
@@ -6222,7 +6372,7 @@
             "outputs": {
               "": "2048*batch_size*(past_sequence_length+sequence_length)"
             },
-            "total_bytes": "16384*batch_size*past_sequence_length+512*sequence_length+8*batch_size*total_sequence_length+8192*batch_size*(past_sequence_length+sequence_length)+8200*batch_size*sequence_length+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
+            "total_bytes": "16384*batch_size*past_sequence_length+8192*batch_size*(past_sequence_length+sequence_length)+512*sequence_length+8*batch_size*total_sequence_length+8200*batch_size*sequence_length+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
           },
           "op_type": "Concat",
           "outputs": [
@@ -6253,7 +6403,7 @@
             "outputs": {
               "": "2048*batch_size*(past_sequence_length+sequence_length)"
             },
-            "total_bytes": "10240*batch_size*(past_sequence_length+sequence_length)+16384*batch_size*past_sequence_length+512*sequence_length+6152*batch_size*sequence_length+8*batch_size*total_sequence_length+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
+            "total_bytes": "16384*batch_size*past_sequence_length+10240*batch_size*(past_sequence_length+sequence_length)+512*sequence_length+6152*batch_size*sequence_length+8*batch_size*total_sequence_length+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
           },
           "op_type": "Mul",
           "outputs": [
@@ -6389,7 +6539,7 @@
             "outputs": {
               "": "4096*batch_size*(past_sequence_length+sequence_length)"
             },
-            "total_bytes": "16384*batch_size*past_sequence_length+18432*batch_size*(past_sequence_length+sequence_length)+512*sequence_length+6152*batch_size*sequence_length+8*batch_size*total_sequence_length+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
+            "total_bytes": "18432*batch_size*(past_sequence_length+sequence_length)+16384*batch_size*past_sequence_length+512*sequence_length+6152*batch_size*sequence_length+8*batch_size*total_sequence_length+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
           },
           "op_type": "Expand",
           "outputs": [
@@ -6652,7 +6802,7 @@
             "outputs": {
               "": "16*batch_size*(past_sequence_length+sequence_length)*sequence_length"
             },
-            "total_bytes": "12288*batch_size*(past_sequence_length+sequence_length)+16384*batch_size*past_sequence_length+2056*batch_size*sequence_length+49*batch_size*(past_sequence_length+sequence_length)*sequence_length+512*sequence_length+8*batch_size*total_sequence_length+256922266"
+            "total_bytes": "12288*batch_size*(past_sequence_length+sequence_length)+49*batch_size*(past_sequence_length+sequence_length)*sequence_length+16384*batch_size*past_sequence_length+2056*batch_size*sequence_length+512*sequence_length+8*batch_size*total_sequence_length+256922266"
           },
           "op_type": "IsNaN",
           "outputs": [
@@ -6722,7 +6872,7 @@
             "outputs": {
               "": "4096*batch_size*sequence_length"
             },
-            "total_bytes": "12288*batch_size*(past_sequence_length+sequence_length)+16384*batch_size*past_sequence_length+33*batch_size*(past_sequence_length+sequence_length)*sequence_length+512*sequence_length+6152*batch_size*sequence_length+8*batch_size*total_sequence_length+256922266"
+            "total_bytes": "12288*batch_size*(past_sequence_length+sequence_length)+16384*batch_size*past_sequence_length+6152*batch_size*sequence_length+33*batch_size*(past_sequence_length+sequence_length)*sequence_length+512*sequence_length+8*batch_size*total_sequence_length+256922266"
           },
           "op_type": "MatMul",
           "outputs": [
@@ -6823,7 +6973,7 @@
             "outputs": {
               "": "2048*batch_size*sequence_length"
             },
-            "total_bytes": "16384*batch_size*past_sequence_length+512*sequence_length+8*batch_size*total_sequence_length+8192*batch_size*(past_sequence_length+sequence_length)+8200*batch_size*sequence_length+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
+            "total_bytes": "16384*batch_size*past_sequence_length+8200*batch_size*sequence_length+512*sequence_length+8*batch_size*total_sequence_length+8192*batch_size*(past_sequence_length+sequence_length)+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
           },
           "op_type": "MatMul",
           "outputs": [
@@ -6886,7 +7036,7 @@
             "outputs": {
               "": "4096*batch_size*sequence_length"
             },
-            "total_bytes": "16384*batch_size*past_sequence_length+512*sequence_length+6152*batch_size*sequence_length+8*batch_size*total_sequence_length+8192*batch_size*(past_sequence_length+sequence_length)+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
+            "total_bytes": "16384*batch_size*past_sequence_length+6152*batch_size*sequence_length+512*sequence_length+8*batch_size*total_sequence_length+8192*batch_size*(past_sequence_length+sequence_length)+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
           },
           "op_type": "Cast",
           "outputs": [
@@ -6917,7 +7067,7 @@
             "outputs": {
               "": "4096*batch_size*sequence_length"
             },
-            "total_bytes": "10248*batch_size*sequence_length+16384*batch_size*past_sequence_length+512*sequence_length+8*batch_size*total_sequence_length+8192*batch_size*(past_sequence_length+sequence_length)+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
+            "total_bytes": "16384*batch_size*past_sequence_length+10248*batch_size*sequence_length+512*sequence_length+8*batch_size*total_sequence_length+8192*batch_size*(past_sequence_length+sequence_length)+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
           },
           "op_type": "Pow",
           "outputs": [
@@ -7116,7 +7266,7 @@
             "outputs": {
               "": "2048*batch_size*sequence_length"
             },
-            "total_bytes": "16384*batch_size*past_sequence_length+512*sequence_length+8*batch_size*total_sequence_length+8192*batch_size*(past_sequence_length+sequence_length)+8200*batch_size*sequence_length+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
+            "total_bytes": "16384*batch_size*past_sequence_length+8200*batch_size*sequence_length+512*sequence_length+8*batch_size*total_sequence_length+8192*batch_size*(past_sequence_length+sequence_length)+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
           },
           "op_type": "Cast",
           "outputs": [
@@ -7183,7 +7333,7 @@
             "outputs": {
               "": "6144*batch_size*sequence_length"
             },
-            "total_bytes": "10248*batch_size*sequence_length+16384*batch_size*past_sequence_length+512*sequence_length+8*batch_size*total_sequence_length+8192*batch_size*(past_sequence_length+sequence_length)+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
+            "total_bytes": "16384*batch_size*past_sequence_length+10248*batch_size*sequence_length+512*sequence_length+8*batch_size*total_sequence_length+8192*batch_size*(past_sequence_length+sequence_length)+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
           },
           "op_type": "MatMul",
           "outputs": [
@@ -7213,7 +7363,7 @@
             "outputs": {
               "": "6144*batch_size*sequence_length"
             },
-            "total_bytes": "16384*batch_size*past_sequence_length+16392*batch_size*sequence_length+512*sequence_length+8*batch_size*total_sequence_length+8192*batch_size*(past_sequence_length+sequence_length)+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
+            "total_bytes": "16392*batch_size*sequence_length+16384*batch_size*past_sequence_length+512*sequence_length+8*batch_size*total_sequence_length+8192*batch_size*(past_sequence_length+sequence_length)+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
           },
           "op_type": "Sigmoid",
           "outputs": [
@@ -7282,7 +7432,7 @@
             "outputs": {
               "": "6144*batch_size*sequence_length"
             },
-            "total_bytes": "16384*batch_size*past_sequence_length+16392*batch_size*sequence_length+512*sequence_length+8*batch_size*total_sequence_length+8192*batch_size*(past_sequence_length+sequence_length)+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
+            "total_bytes": "16392*batch_size*sequence_length+16384*batch_size*past_sequence_length+512*sequence_length+8*batch_size*total_sequence_length+8192*batch_size*(past_sequence_length+sequence_length)+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
           },
           "op_type": "MatMul",
           "outputs": [
@@ -7351,7 +7501,7 @@
             "outputs": {
               "": "2048*batch_size*sequence_length"
             },
-            "total_bytes": "10248*batch_size*sequence_length+16384*batch_size*past_sequence_length+512*sequence_length+8*batch_size*total_sequence_length+8192*batch_size*(past_sequence_length+sequence_length)+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
+            "total_bytes": "16384*batch_size*past_sequence_length+10248*batch_size*sequence_length+512*sequence_length+8*batch_size*total_sequence_length+8192*batch_size*(past_sequence_length+sequence_length)+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
           },
           "op_type": "MatMul",
           "outputs": [
@@ -7414,7 +7564,7 @@
             "outputs": {
               "": "4096*batch_size*sequence_length"
             },
-            "total_bytes": "16384*batch_size*past_sequence_length+512*sequence_length+6152*batch_size*sequence_length+8*batch_size*total_sequence_length+8192*batch_size*(past_sequence_length+sequence_length)+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
+            "total_bytes": "16384*batch_size*past_sequence_length+6152*batch_size*sequence_length+512*sequence_length+8*batch_size*total_sequence_length+8192*batch_size*(past_sequence_length+sequence_length)+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
           },
           "op_type": "Cast",
           "outputs": [
@@ -7445,7 +7595,7 @@
             "outputs": {
               "": "4096*batch_size*sequence_length"
             },
-            "total_bytes": "10248*batch_size*sequence_length+16384*batch_size*past_sequence_length+512*sequence_length+8*batch_size*total_sequence_length+8192*batch_size*(past_sequence_length+sequence_length)+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
+            "total_bytes": "16384*batch_size*past_sequence_length+10248*batch_size*sequence_length+512*sequence_length+8*batch_size*total_sequence_length+8192*batch_size*(past_sequence_length+sequence_length)+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
           },
           "op_type": "Pow",
           "outputs": [
@@ -7644,7 +7794,7 @@
             "outputs": {
               "": "2048*batch_size*sequence_length"
             },
-            "total_bytes": "16384*batch_size*past_sequence_length+512*sequence_length+8*batch_size*total_sequence_length+8192*batch_size*(past_sequence_length+sequence_length)+8200*batch_size*sequence_length+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
+            "total_bytes": "16384*batch_size*past_sequence_length+8200*batch_size*sequence_length+512*sequence_length+8*batch_size*total_sequence_length+8192*batch_size*(past_sequence_length+sequence_length)+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
           },
           "op_type": "Cast",
           "outputs": [
@@ -7711,7 +7861,7 @@
             "outputs": {
               "": "4096*batch_size*sequence_length"
             },
-            "total_bytes": "16384*batch_size*past_sequence_length+512*sequence_length+8*batch_size*total_sequence_length+8192*batch_size*(past_sequence_length+sequence_length)+8200*batch_size*sequence_length+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
+            "total_bytes": "16384*batch_size*past_sequence_length+8200*batch_size*sequence_length+512*sequence_length+8*batch_size*total_sequence_length+8192*batch_size*(past_sequence_length+sequence_length)+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
           },
           "op_type": "MatMul",
           "outputs": [
@@ -7745,7 +7895,7 @@
             "outputs": {
               "": "8192*batch_size*sequence_length"
             },
-            "total_bytes": "16384*batch_size*past_sequence_length+16392*batch_size*sequence_length+512*sequence_length+8*batch_size*total_sequence_length+8192*batch_size*(past_sequence_length+sequence_length)+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
+            "total_bytes": "16384*batch_size*past_sequence_length+512*sequence_length+8*batch_size*total_sequence_length+8192*batch_size*(past_sequence_length+sequence_length)+16392*batch_size*sequence_length+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
           },
           "op_type": "Cast",
           "outputs": [
@@ -7809,7 +7959,7 @@
             "outputs": {
               "": "8192*batch_size*sequence_length"
             },
-            "total_bytes": "16384*batch_size*past_sequence_length+20488*batch_size*sequence_length+512*sequence_length+8*batch_size*total_sequence_length+8192*batch_size*(past_sequence_length+sequence_length)+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
+            "total_bytes": "20488*batch_size*sequence_length+16384*batch_size*past_sequence_length+512*sequence_length+8*batch_size*total_sequence_length+8192*batch_size*(past_sequence_length+sequence_length)+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
           },
           "op_type": "Pow",
           "outputs": [
@@ -8008,7 +8158,7 @@
             "outputs": {
               "": "4096*batch_size*sequence_length"
             },
-            "total_bytes": "16384*batch_size*past_sequence_length+16392*batch_size*sequence_length+512*sequence_length+8*batch_size*total_sequence_length+8192*batch_size*(past_sequence_length+sequence_length)+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
+            "total_bytes": "16392*batch_size*sequence_length+16384*batch_size*past_sequence_length+512*sequence_length+8*batch_size*total_sequence_length+8192*batch_size*(past_sequence_length+sequence_length)+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
           },
           "op_type": "Cast",
           "outputs": [
@@ -8107,7 +8257,7 @@
             "outputs": {
               "": "2048*batch_size*sequence_length"
             },
-            "total_bytes": "10248*batch_size*sequence_length+16384*batch_size*past_sequence_length+512*sequence_length+8*batch_size*total_sequence_length+8192*batch_size*(past_sequence_length+sequence_length)+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
+            "total_bytes": "16384*batch_size*past_sequence_length+10248*batch_size*sequence_length+512*sequence_length+8*batch_size*total_sequence_length+8192*batch_size*(past_sequence_length+sequence_length)+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
           },
           "op_type": "MatMul",
           "outputs": [
@@ -8205,7 +8355,7 @@
             "outputs": {
               "": "4096*batch_size*sequence_length"
             },
-            "total_bytes": "16384*batch_size*past_sequence_length+16392*batch_size*sequence_length+512*sequence_length+8*batch_size*total_sequence_length+8192*batch_size*(past_sequence_length+sequence_length)+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
+            "total_bytes": "16392*batch_size*sequence_length+16384*batch_size*past_sequence_length+512*sequence_length+8*batch_size*total_sequence_length+8192*batch_size*(past_sequence_length+sequence_length)+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
           },
           "op_type": "Pow",
           "outputs": [
@@ -8667,7 +8817,7 @@
             "outputs": {
               "": "4096*batch_size*sequence_length"
             },
-            "total_bytes": "16384*batch_size*past_sequence_length+18440*batch_size*sequence_length+512*sequence_length+8*batch_size*total_sequence_length+8192*batch_size*(past_sequence_length+sequence_length)+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
+            "total_bytes": "18440*batch_size*sequence_length+16384*batch_size*past_sequence_length+512*sequence_length+8*batch_size*total_sequence_length+8192*batch_size*(past_sequence_length+sequence_length)+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
           },
           "op_type": "Concat",
           "outputs": [
@@ -8999,7 +9149,7 @@
             "outputs": {
               "": "2048*batch_size*(past_sequence_length+sequence_length)"
             },
-            "total_bytes": "10240*batch_size*(past_sequence_length+sequence_length)+10248*batch_size*sequence_length+16384*batch_size*past_sequence_length+512*sequence_length+8*batch_size*total_sequence_length+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
+            "total_bytes": "10248*batch_size*sequence_length+16384*batch_size*past_sequence_length+10240*batch_size*(past_sequence_length+sequence_length)+512*sequence_length+8*batch_size*total_sequence_length+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
           },
           "op_type": "Concat",
           "outputs": [
@@ -9167,7 +9317,7 @@
             "outputs": {
               "": "4096*batch_size*(past_sequence_length+sequence_length)"
             },
-            "total_bytes": "16384*batch_size*past_sequence_length+20480*batch_size*(past_sequence_length+sequence_length)+512*sequence_length+6152*batch_size*sequence_length+8*batch_size*total_sequence_length+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
+            "total_bytes": "20480*batch_size*(past_sequence_length+sequence_length)+16384*batch_size*past_sequence_length+512*sequence_length+6152*batch_size*sequence_length+8*batch_size*total_sequence_length+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
           },
           "op_type": "Expand",
           "outputs": [
@@ -9465,7 +9615,7 @@
             "outputs": {
               "": "16*batch_size*(past_sequence_length+sequence_length)*sequence_length"
             },
-            "total_bytes": "16384*batch_size*(past_sequence_length+sequence_length)+16384*batch_size*past_sequence_length+2056*batch_size*sequence_length+49*batch_size*(past_sequence_length+sequence_length)*sequence_length+512*sequence_length+8*batch_size*total_sequence_length+256922266"
+            "total_bytes": "49*batch_size*(past_sequence_length+sequence_length)*sequence_length+16384*batch_size*(past_sequence_length+sequence_length)+16384*batch_size*past_sequence_length+2056*batch_size*sequence_length+512*sequence_length+8*batch_size*total_sequence_length+256922266"
           },
           "op_type": "IsNaN",
           "outputs": [
@@ -9535,7 +9685,7 @@
             "outputs": {
               "": "4096*batch_size*sequence_length"
             },
-            "total_bytes": "16384*batch_size*(past_sequence_length+sequence_length)+16384*batch_size*past_sequence_length+33*batch_size*(past_sequence_length+sequence_length)*sequence_length+512*sequence_length+6152*batch_size*sequence_length+8*batch_size*total_sequence_length+256922266"
+            "total_bytes": "16384*batch_size*(past_sequence_length+sequence_length)+16384*batch_size*past_sequence_length+6152*batch_size*sequence_length+33*batch_size*(past_sequence_length+sequence_length)*sequence_length+512*sequence_length+8*batch_size*total_sequence_length+256922266"
           },
           "op_type": "MatMul",
           "outputs": [
@@ -9636,7 +9786,7 @@
             "outputs": {
               "": "2048*batch_size*sequence_length"
             },
-            "total_bytes": "12288*batch_size*(past_sequence_length+sequence_length)+16384*batch_size*past_sequence_length+512*sequence_length+8*batch_size*total_sequence_length+8200*batch_size*sequence_length+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
+            "total_bytes": "12288*batch_size*(past_sequence_length+sequence_length)+16384*batch_size*past_sequence_length+8200*batch_size*sequence_length+512*sequence_length+8*batch_size*total_sequence_length+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
           },
           "op_type": "MatMul",
           "outputs": [
@@ -9699,7 +9849,7 @@
             "outputs": {
               "": "4096*batch_size*sequence_length"
             },
-            "total_bytes": "12288*batch_size*(past_sequence_length+sequence_length)+16384*batch_size*past_sequence_length+512*sequence_length+6152*batch_size*sequence_length+8*batch_size*total_sequence_length+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
+            "total_bytes": "12288*batch_size*(past_sequence_length+sequence_length)+16384*batch_size*past_sequence_length+6152*batch_size*sequence_length+512*sequence_length+8*batch_size*total_sequence_length+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
           },
           "op_type": "Cast",
           "outputs": [
@@ -9730,7 +9880,7 @@
             "outputs": {
               "": "4096*batch_size*sequence_length"
             },
-            "total_bytes": "10248*batch_size*sequence_length+12288*batch_size*(past_sequence_length+sequence_length)+16384*batch_size*past_sequence_length+512*sequence_length+8*batch_size*total_sequence_length+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
+            "total_bytes": "12288*batch_size*(past_sequence_length+sequence_length)+16384*batch_size*past_sequence_length+10248*batch_size*sequence_length+512*sequence_length+8*batch_size*total_sequence_length+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
           },
           "op_type": "Pow",
           "outputs": [
@@ -9929,7 +10079,7 @@
             "outputs": {
               "": "2048*batch_size*sequence_length"
             },
-            "total_bytes": "12288*batch_size*(past_sequence_length+sequence_length)+16384*batch_size*past_sequence_length+512*sequence_length+8*batch_size*total_sequence_length+8200*batch_size*sequence_length+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
+            "total_bytes": "12288*batch_size*(past_sequence_length+sequence_length)+16384*batch_size*past_sequence_length+8200*batch_size*sequence_length+512*sequence_length+8*batch_size*total_sequence_length+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
           },
           "op_type": "Cast",
           "outputs": [
@@ -9996,7 +10146,7 @@
             "outputs": {
               "": "6144*batch_size*sequence_length"
             },
-            "total_bytes": "10248*batch_size*sequence_length+12288*batch_size*(past_sequence_length+sequence_length)+16384*batch_size*past_sequence_length+512*sequence_length+8*batch_size*total_sequence_length+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
+            "total_bytes": "12288*batch_size*(past_sequence_length+sequence_length)+16384*batch_size*past_sequence_length+10248*batch_size*sequence_length+512*sequence_length+8*batch_size*total_sequence_length+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
           },
           "op_type": "MatMul",
           "outputs": [
@@ -10026,7 +10176,7 @@
             "outputs": {
               "": "6144*batch_size*sequence_length"
             },
-            "total_bytes": "12288*batch_size*(past_sequence_length+sequence_length)+16384*batch_size*past_sequence_length+16392*batch_size*sequence_length+512*sequence_length+8*batch_size*total_sequence_length+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
+            "total_bytes": "16392*batch_size*sequence_length+12288*batch_size*(past_sequence_length+sequence_length)+16384*batch_size*past_sequence_length+512*sequence_length+8*batch_size*total_sequence_length+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
           },
           "op_type": "Sigmoid",
           "outputs": [
@@ -10095,7 +10245,7 @@
             "outputs": {
               "": "6144*batch_size*sequence_length"
             },
-            "total_bytes": "12288*batch_size*(past_sequence_length+sequence_length)+16384*batch_size*past_sequence_length+16392*batch_size*sequence_length+512*sequence_length+8*batch_size*total_sequence_length+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
+            "total_bytes": "16392*batch_size*sequence_length+12288*batch_size*(past_sequence_length+sequence_length)+16384*batch_size*past_sequence_length+512*sequence_length+8*batch_size*total_sequence_length+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
           },
           "op_type": "MatMul",
           "outputs": [
@@ -10164,7 +10314,7 @@
             "outputs": {
               "": "2048*batch_size*sequence_length"
             },
-            "total_bytes": "10248*batch_size*sequence_length+12288*batch_size*(past_sequence_length+sequence_length)+16384*batch_size*past_sequence_length+512*sequence_length+8*batch_size*total_sequence_length+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
+            "total_bytes": "12288*batch_size*(past_sequence_length+sequence_length)+16384*batch_size*past_sequence_length+10248*batch_size*sequence_length+512*sequence_length+8*batch_size*total_sequence_length+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
           },
           "op_type": "MatMul",
           "outputs": [
@@ -10227,7 +10377,7 @@
             "outputs": {
               "": "4096*batch_size*sequence_length"
             },
-            "total_bytes": "12288*batch_size*(past_sequence_length+sequence_length)+16384*batch_size*past_sequence_length+512*sequence_length+6152*batch_size*sequence_length+8*batch_size*total_sequence_length+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
+            "total_bytes": "12288*batch_size*(past_sequence_length+sequence_length)+16384*batch_size*past_sequence_length+6152*batch_size*sequence_length+512*sequence_length+8*batch_size*total_sequence_length+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
           },
           "op_type": "Cast",
           "outputs": [
@@ -10258,7 +10408,7 @@
             "outputs": {
               "": "4096*batch_size*sequence_length"
             },
-            "total_bytes": "10248*batch_size*sequence_length+12288*batch_size*(past_sequence_length+sequence_length)+16384*batch_size*past_sequence_length+512*sequence_length+8*batch_size*total_sequence_length+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
+            "total_bytes": "12288*batch_size*(past_sequence_length+sequence_length)+16384*batch_size*past_sequence_length+10248*batch_size*sequence_length+512*sequence_length+8*batch_size*total_sequence_length+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
           },
           "op_type": "Pow",
           "outputs": [
@@ -10457,7 +10607,7 @@
             "outputs": {
               "": "2048*batch_size*sequence_length"
             },
-            "total_bytes": "12288*batch_size*(past_sequence_length+sequence_length)+16384*batch_size*past_sequence_length+512*sequence_length+8*batch_size*total_sequence_length+8200*batch_size*sequence_length+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
+            "total_bytes": "12288*batch_size*(past_sequence_length+sequence_length)+16384*batch_size*past_sequence_length+8200*batch_size*sequence_length+512*sequence_length+8*batch_size*total_sequence_length+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
           },
           "op_type": "Cast",
           "outputs": [
@@ -10524,7 +10674,7 @@
             "outputs": {
               "": "4096*batch_size*sequence_length"
             },
-            "total_bytes": "12288*batch_size*(past_sequence_length+sequence_length)+16384*batch_size*past_sequence_length+512*sequence_length+8*batch_size*total_sequence_length+8200*batch_size*sequence_length+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
+            "total_bytes": "12288*batch_size*(past_sequence_length+sequence_length)+16384*batch_size*past_sequence_length+8200*batch_size*sequence_length+512*sequence_length+8*batch_size*total_sequence_length+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
           },
           "op_type": "MatMul",
           "outputs": [
@@ -10558,7 +10708,7 @@
             "outputs": {
               "": "8192*batch_size*sequence_length"
             },
-            "total_bytes": "12288*batch_size*(past_sequence_length+sequence_length)+16384*batch_size*past_sequence_length+16392*batch_size*sequence_length+512*sequence_length+8*batch_size*total_sequence_length+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
+            "total_bytes": "12288*batch_size*(past_sequence_length+sequence_length)+16384*batch_size*past_sequence_length+512*sequence_length+8*batch_size*total_sequence_length+16392*batch_size*sequence_length+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
           },
           "op_type": "Cast",
           "outputs": [
@@ -10623,7 +10773,7 @@
             "outputs": {
               "": "8192*batch_size*sequence_length"
             },
-            "total_bytes": "12288*batch_size*(past_sequence_length+sequence_length)+16384*batch_size*past_sequence_length+20488*batch_size*sequence_length+512*sequence_length+8*batch_size*total_sequence_length+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
+            "total_bytes": "12288*batch_size*(past_sequence_length+sequence_length)+20488*batch_size*sequence_length+16384*batch_size*past_sequence_length+512*sequence_length+8*batch_size*total_sequence_length+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
           },
           "op_type": "Pow",
           "outputs": [
@@ -10822,7 +10972,7 @@
             "outputs": {
               "": "4096*batch_size*sequence_length"
             },
-            "total_bytes": "12288*batch_size*(past_sequence_length+sequence_length)+16384*batch_size*past_sequence_length+16392*batch_size*sequence_length+512*sequence_length+8*batch_size*total_sequence_length+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
+            "total_bytes": "12288*batch_size*(past_sequence_length+sequence_length)+16392*batch_size*sequence_length+16384*batch_size*past_sequence_length+512*sequence_length+8*batch_size*total_sequence_length+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
           },
           "op_type": "Cast",
           "outputs": [
@@ -10921,7 +11071,7 @@
             "outputs": {
               "": "2048*batch_size*sequence_length"
             },
-            "total_bytes": "10248*batch_size*sequence_length+12288*batch_size*(past_sequence_length+sequence_length)+16384*batch_size*past_sequence_length+512*sequence_length+8*batch_size*total_sequence_length+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
+            "total_bytes": "12288*batch_size*(past_sequence_length+sequence_length)+16384*batch_size*past_sequence_length+10248*batch_size*sequence_length+512*sequence_length+8*batch_size*total_sequence_length+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
           },
           "op_type": "MatMul",
           "outputs": [
@@ -10955,7 +11105,7 @@
             "outputs": {
               "": "4096*batch_size*sequence_length"
             },
-            "total_bytes": "12288*batch_size*(past_sequence_length+sequence_length)+14344*batch_size*sequence_length+16384*batch_size*past_sequence_length+512*sequence_length+8*batch_size*total_sequence_length+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
+            "total_bytes": "14344*batch_size*sequence_length+12288*batch_size*(past_sequence_length+sequence_length)+16384*batch_size*past_sequence_length+512*sequence_length+8*batch_size*total_sequence_length+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
           },
           "op_type": "Cast",
           "outputs": [
@@ -11019,7 +11169,7 @@
             "outputs": {
               "": "4096*batch_size*sequence_length"
             },
-            "total_bytes": "12288*batch_size*(past_sequence_length+sequence_length)+16384*batch_size*past_sequence_length+16392*batch_size*sequence_length+512*sequence_length+8*batch_size*total_sequence_length+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
+            "total_bytes": "12288*batch_size*(past_sequence_length+sequence_length)+16392*batch_size*sequence_length+16384*batch_size*past_sequence_length+512*sequence_length+8*batch_size*total_sequence_length+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
           },
           "op_type": "Pow",
           "outputs": [
@@ -11414,7 +11564,7 @@
             "outputs": {
               "": "4096*batch_size*sequence_length"
             },
-            "total_bytes": "12288*batch_size*(past_sequence_length+sequence_length)+14344*batch_size*sequence_length+16384*batch_size*past_sequence_length+512*sequence_length+8*batch_size*total_sequence_length+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
+            "total_bytes": "14344*batch_size*sequence_length+12288*batch_size*(past_sequence_length+sequence_length)+16384*batch_size*past_sequence_length+512*sequence_length+8*batch_size*total_sequence_length+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
           },
           "op_type": "Split",
           "outputs": [
@@ -11482,7 +11632,7 @@
             "outputs": {
               "": "4096*batch_size*sequence_length"
             },
-            "total_bytes": "12288*batch_size*(past_sequence_length+sequence_length)+16384*batch_size*past_sequence_length+18440*batch_size*sequence_length+512*sequence_length+8*batch_size*total_sequence_length+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
+            "total_bytes": "12288*batch_size*(past_sequence_length+sequence_length)+18440*batch_size*sequence_length+16384*batch_size*past_sequence_length+512*sequence_length+8*batch_size*total_sequence_length+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
           },
           "op_type": "Concat",
           "outputs": [
@@ -11611,7 +11761,7 @@
             "outputs": {
               "": "2048*batch_size*sequence_length"
             },
-            "total_bytes": "12288*batch_size*(past_sequence_length+sequence_length)+12296*batch_size*sequence_length+16384*batch_size*past_sequence_length+512*sequence_length+8*batch_size*total_sequence_length+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
+            "total_bytes": "12296*batch_size*sequence_length+12288*batch_size*(past_sequence_length+sequence_length)+16384*batch_size*past_sequence_length+512*sequence_length+8*batch_size*total_sequence_length+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
           },
           "op_type": "Split",
           "outputs": [
@@ -11881,7 +12031,7 @@
             "outputs": {
               "": "2048*batch_size*(past_sequence_length+sequence_length)"
             },
-            "total_bytes": "16384*batch_size*past_sequence_length+18432*batch_size*(past_sequence_length+sequence_length)+6152*batch_size*sequence_length+8*batch_size*total_sequence_length+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
+            "total_bytes": "18432*batch_size*(past_sequence_length+sequence_length)+16384*batch_size*past_sequence_length+6152*batch_size*sequence_length+8*batch_size*total_sequence_length+batch_size*(past_sequence_length+sequence_length)*sequence_length+256922266"
           },
           "op_type": "Mul",
           "outputs": [
@@ -12283,7 +12433,7 @@
             "outputs": {
               "": "16*batch_size*(past_sequence_length+sequence_length)*sequence_length"
             },
-            "total_bytes": "16384*batch_size*past_sequence_length+20480*batch_size*(past_sequence_length+sequence_length)+2056*batch_size*sequence_length+48*batch_size*(past_sequence_length+sequence_length)*sequence_length+8*batch_size*total_sequence_length+256922266"
+            "total_bytes": "48*batch_size*(past_sequence_length+sequence_length)*sequence_length+16384*batch_size*past_sequence_length+20480*batch_size*(past_sequence_length+sequence_length)+2056*batch_size*sequence_length+8*batch_size*total_sequence_length+256922266"
           },
           "op_type": "IsNaN",
           "outputs": [
@@ -12353,7 +12503,7 @@
             "outputs": {
               "": "4096*batch_size*sequence_length"
             },
-            "total_bytes": "16384*batch_size*past_sequence_length+20480*batch_size*(past_sequence_length+sequence_length)+32*batch_size*(past_sequence_length+sequence_length)*sequence_length+6152*batch_size*sequence_length+8*batch_size*total_sequence_length+256922266"
+            "total_bytes": "16384*batch_size*past_sequence_length+20480*batch_size*(past_sequence_length+sequence_length)+6152*batch_size*sequence_length+32*batch_size*(past_sequence_length+sequence_length)*sequence_length+8*batch_size*total_sequence_length+256922266"
           },
           "op_type": "MatMul",
           "outputs": [
@@ -12455,7 +12605,7 @@
             "outputs": {
               "": "2048*batch_size*sequence_length"
             },
-            "total_bytes": "16384*batch_size*(past_sequence_length+sequence_length)+16384*batch_size*past_sequence_length+8*batch_size*total_sequence_length+8200*batch_size*sequence_length+256922266"
+            "total_bytes": "16384*batch_size*(past_sequence_length+sequence_length)+16384*batch_size*past_sequence_length+8200*batch_size*sequence_length+8*batch_size*total_sequence_length+256922266"
           },
           "op_type": "MatMul",
           "outputs": [
@@ -12549,7 +12699,7 @@
             "outputs": {
               "": "4096*batch_size*sequence_length"
             },
-            "total_bytes": "10248*batch_size*sequence_length+16384*batch_size*(past_sequence_length+sequence_length)+16384*batch_size*past_sequence_length+8*batch_size*total_sequence_length+256922266"
+            "total_bytes": "16384*batch_size*(past_sequence_length+sequence_length)+16384*batch_size*past_sequence_length+10248*batch_size*sequence_length+8*batch_size*total_sequence_length+256922266"
           },
           "op_type": "Pow",
           "outputs": [
@@ -12748,7 +12898,7 @@
             "outputs": {
               "": "2048*batch_size*sequence_length"
             },
-            "total_bytes": "16384*batch_size*(past_sequence_length+sequence_length)+16384*batch_size*past_sequence_length+8*batch_size*total_sequence_length+8200*batch_size*sequence_length+256922266"
+            "total_bytes": "16384*batch_size*(past_sequence_length+sequence_length)+16384*batch_size*past_sequence_length+8200*batch_size*sequence_length+8*batch_size*total_sequence_length+256922266"
           },
           "op_type": "Cast",
           "outputs": [
@@ -12815,7 +12965,7 @@
             "outputs": {
               "": "6144*batch_size*sequence_length"
             },
-            "total_bytes": "10248*batch_size*sequence_length+16384*batch_size*(past_sequence_length+sequence_length)+16384*batch_size*past_sequence_length+8*batch_size*total_sequence_length+256922266"
+            "total_bytes": "16384*batch_size*(past_sequence_length+sequence_length)+16384*batch_size*past_sequence_length+10248*batch_size*sequence_length+8*batch_size*total_sequence_length+256922266"
           },
           "op_type": "MatMul",
           "outputs": [
@@ -12845,7 +12995,7 @@
             "outputs": {
               "": "6144*batch_size*sequence_length"
             },
-            "total_bytes": "16384*batch_size*(past_sequence_length+sequence_length)+16384*batch_size*past_sequence_length+16392*batch_size*sequence_length+8*batch_size*total_sequence_length+256922266"
+            "total_bytes": "16392*batch_size*sequence_length+16384*batch_size*(past_sequence_length+sequence_length)+16384*batch_size*past_sequence_length+8*batch_size*total_sequence_length+256922266"
           },
           "op_type": "Sigmoid",
           "outputs": [
@@ -12914,7 +13064,7 @@
             "outputs": {
               "": "6144*batch_size*sequence_length"
             },
-            "total_bytes": "16384*batch_size*(past_sequence_length+sequence_length)+16384*batch_size*past_sequence_length+16392*batch_size*sequence_length+8*batch_size*total_sequence_length+256922266"
+            "total_bytes": "16392*batch_size*sequence_length+16384*batch_size*(past_sequence_length+sequence_length)+16384*batch_size*past_sequence_length+8*batch_size*total_sequence_length+256922266"
           },
           "op_type": "MatMul",
           "outputs": [
@@ -12983,7 +13133,7 @@
             "outputs": {
               "": "2048*batch_size*sequence_length"
             },
-            "total_bytes": "10248*batch_size*sequence_length+16384*batch_size*(past_sequence_length+sequence_length)+16384*batch_size*past_sequence_length+8*batch_size*total_sequence_length+256922266"
+            "total_bytes": "16384*batch_size*(past_sequence_length+sequence_length)+16384*batch_size*past_sequence_length+10248*batch_size*sequence_length+8*batch_size*total_sequence_length+256922266"
           },
           "op_type": "MatMul",
           "outputs": [
@@ -13083,7 +13233,7 @@
             "outputs": {
               "": "4096*batch_size*sequence_length"
             },
-            "total_bytes": "16384*batch_size*(past_sequence_length+sequence_length)+16384*batch_size*past_sequence_length+8*batch_size*total_sequence_length+8200*batch_size*sequence_length+256922266"
+            "total_bytes": "16384*batch_size*(past_sequence_length+sequence_length)+16384*batch_size*past_sequence_length+8200*batch_size*sequence_length+8*batch_size*total_sequence_length+256922266"
           },
           "op_type": "Pow",
           "outputs": [
@@ -13119,7 +13269,7 @@
             "outputs": {
               "": "4*batch_size*sequence_length"
             },
-            "total_bytes": "16384*batch_size*(past_sequence_length+sequence_length)+16384*batch_size*past_sequence_length+8*batch_size*total_sequence_length+8204*batch_size*sequence_length+256922266"
+            "total_bytes": "16384*batch_size*(past_sequence_length+sequence_length)+16384*batch_size*past_sequence_length+8204*batch_size*sequence_length+8*batch_size*total_sequence_length+256922266"
           },
           "op_type": "ReduceMean",
           "outputs": [
@@ -14388,7 +14538,7 @@
             "outputs": {
               "": "4*batch*total_seq"
             },
-            "total_bytes": "12*batch*total_seq+128*batch*past_seq+264*batch*seq+14552"
+            "total_bytes": "128*batch*past_seq+264*batch*seq+12*batch*total_seq+14552"
           },
           "op_type": "Cast",
           "outputs": [
@@ -14530,7 +14680,7 @@
             "outputs": {
               "": "128*batch*total_seq"
             },
-            "total_bytes": "128*batch*past_seq+140*batch*total_seq+264*batch*seq+14552"
+            "total_bytes": "140*batch*total_seq+128*batch*past_seq+264*batch*seq+14552"
           },
           "op_type": "Attention",
           "outputs": [
@@ -14632,7 +14782,7 @@
             "outputs": {
               "": "64*batch*seq"
             },
-            "total_bytes": "128*batch*past_seq+136*batch*seq+136*batch*total_seq+14552"
+            "total_bytes": "128*batch*past_seq+136*batch*total_seq+136*batch*seq+14552"
           },
           "op_type": "RMSNormalization",
           "outputs": [
@@ -14665,7 +14815,7 @@
             "outputs": {
               "": "128*batch*seq"
             },
-            "total_bytes": "128*batch*past_seq+136*batch*total_seq+264*batch*seq+14552"
+            "total_bytes": "128*batch*past_seq+264*batch*seq+136*batch*total_seq+14552"
           },
           "op_type": "MatMul",
           "outputs": [
@@ -14695,7 +14845,7 @@
             "outputs": {
               "": "128*batch*seq"
             },
-            "total_bytes": "128*batch*past_seq+136*batch*total_seq+392*batch*seq+14552"
+            "total_bytes": "128*batch*past_seq+392*batch*seq+136*batch*total_seq+14552"
           },
           "op_type": "Sigmoid",
           "outputs": [
@@ -14764,7 +14914,7 @@
             "outputs": {
               "": "128*batch*seq"
             },
-            "total_bytes": "128*batch*past_seq+136*batch*total_seq+392*batch*seq+14552"
+            "total_bytes": "128*batch*past_seq+392*batch*seq+136*batch*total_seq+14552"
           },
           "op_type": "MatMul",
           "outputs": [
@@ -14936,7 +15086,7 @@
             "outputs": {
               "": "128*batch*seq"
             },
-            "total_bytes": "128*batch*past_seq+136*batch*total_seq+200*batch*seq+14552"
+            "total_bytes": "128*batch*past_seq+200*batch*seq+136*batch*total_seq+14552"
           },
           "op_type": "MatMul",
           "outputs": [
@@ -15470,7 +15620,7 @@
             "outputs": {
               "": "4*batch*total_seq"
             },
-            "total_bytes": "12*batch*total_seq+128*batch*past_seq+264*batch*seq+14624"
+            "total_bytes": "128*batch*past_seq+264*batch*seq+12*batch*total_seq+14624"
           },
           "op_type": "Cast",
           "outputs": [
@@ -15804,7 +15954,7 @@
             "outputs": {
               "": "64*batch*total_seq"
             },
-            "total_bytes": "128*batch*past_seq+264*batch*seq+76*batch*total_seq+14624"
+            "total_bytes": "76*batch*total_seq+128*batch*past_seq+264*batch*seq+14624"
           },
           "op_type": "Concat",
           "outputs": [
@@ -15840,7 +15990,7 @@
             "outputs": {
               "": "64*batch*total_seq"
             },
-            "total_bytes": "128*batch*past_seq+140*batch*total_seq+200*batch*seq+14624"
+            "total_bytes": "128*batch*past_seq+200*batch*seq+140*batch*total_seq+14624"
           },
           "op_type": "Concat",
           "outputs": [
@@ -16039,7 +16189,7 @@
             "outputs": {
               "": "64*batch*seq"
             },
-            "total_bytes": "128*batch*past_seq+136*batch*seq+136*batch*total_seq+16*batch*seq*total_seq+14624"
+            "total_bytes": "128*batch*past_seq+136*batch*total_seq+16*batch*seq*total_seq+136*batch*seq+14624"
           },
           "op_type": "MatMul",
           "outputs": [
@@ -16203,7 +16353,7 @@
             "outputs": {
               "": "64*batch*seq"
             },
-            "total_bytes": "128*batch*past_seq+136*batch*seq+136*batch*total_seq+14624"
+            "total_bytes": "128*batch*past_seq+136*batch*total_seq+136*batch*seq+14624"
           },
           "op_type": "Mul",
           "outputs": [
@@ -16238,7 +16388,7 @@
             "outputs": {
               "": "4*batch*seq"
             },
-            "total_bytes": "128*batch*past_seq+136*batch*total_seq+140*batch*seq+14624"
+            "total_bytes": "128*batch*past_seq+140*batch*seq+136*batch*total_seq+14624"
           },
           "op_type": "ReduceMean",
           "outputs": [
@@ -16405,7 +16555,7 @@
             "outputs": {
               "": "128*batch*seq"
             },
-            "total_bytes": "128*batch*past_seq+136*batch*total_seq+264*batch*seq+14624"
+            "total_bytes": "128*batch*past_seq+264*batch*seq+136*batch*total_seq+14624"
           },
           "op_type": "MatMul",
           "outputs": [
@@ -16435,7 +16585,7 @@
             "outputs": {
               "": "128*batch*seq"
             },
-            "total_bytes": "128*batch*past_seq+136*batch*total_seq+392*batch*seq+14624"
+            "total_bytes": "128*batch*past_seq+392*batch*seq+136*batch*total_seq+14624"
           },
           "op_type": "Sigmoid",
           "outputs": [
@@ -16504,7 +16654,7 @@
             "outputs": {
               "": "128*batch*seq"
             },
-            "total_bytes": "128*batch*past_seq+136*batch*total_seq+392*batch*seq+14624"
+            "total_bytes": "128*batch*past_seq+392*batch*seq+136*batch*total_seq+14624"
           },
           "op_type": "MatMul",
           "outputs": [
@@ -16637,7 +16787,7 @@
             "outputs": {
               "": "64*batch*seq"
             },
-            "total_bytes": "128*batch*past_seq+136*batch*seq+136*batch*total_seq+14624"
+            "total_bytes": "128*batch*past_seq+136*batch*total_seq+136*batch*seq+14624"
           },
           "op_type": "Mul",
           "outputs": [
@@ -16673,7 +16823,7 @@
             "outputs": {
               "": "4*batch*seq"
             },
-            "total_bytes": "128*batch*past_seq+136*batch*total_seq+140*batch*seq+14624"
+            "total_bytes": "128*batch*past_seq+140*batch*seq+136*batch*total_seq+14624"
           },
           "op_type": "ReduceMean",
           "outputs": [
@@ -16842,7 +16992,7 @@
             "outputs": {
               "": "128*batch*seq"
             },
-            "total_bytes": "128*batch*past_seq+136*batch*total_seq+200*batch*seq+14624"
+            "total_bytes": "128*batch*past_seq+200*batch*seq+136*batch*total_seq+14624"
           },
           "op_type": "MatMul",
           "outputs": [
@@ -17050,20 +17200,20 @@
   "totals": {
     "metadata": {
       "fail": 0,
-      "pass": 385
+      "pass": 388
     },
     "nodes": {
       "fail": 0,
-      "pass": 477
+      "pass": 480
     },
     "tests": {
       "fail": 0,
-      "pass": 7
+      "pass": 8
     }
   },
   "versions": {
     "numpy": "2.5.4",
     "onnx": "1.23.2",
-    "onnx_light": "0.1.31"
+    "onnx_light": "0.2.0"
   }
 }
