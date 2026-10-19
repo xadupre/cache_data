@@ -1,0 +1,6 @@
+job_id,run_id,workflow,job_name,status,conclusion,started_at,completed_at,duration_seconds,head_sha
+117997660257,39233571612,ci-1-core,standalone C++ protos,completed,success,2026-10-19T09:56:00Z,2026-10-19T09:59:48Z,228,1c3c807c305e156bdb38be71acdd45c3c90ff309
+117991856088,39231855760,ci-1-core,standalone C++ protos,completed,success,2026-10-19T09:41:43Z,2026-10-19T09:45:30Z,227,dc2d99d586b7a0c8088d181dafa5b61bfbf513c9
+117990858356,39231430129,ci-1-core,standalone C++ protos,completed,cancelled,2026-10-19T09:40:03Z,2026-10-19T09:41:32Z,89,fbbfd56f2e23ef5a6b5615373ec1197d46632dba
+117990052058,39230665174,ci-1-core,standalone C++ protos,completed,cancelled,2026-10-19T09:37:14Z,2026-10-19T09:37:14Z,0,50a711afa903a24b489b0aaf0520fb42d7ac4dad
+117987551711,39228313590,ci-1-core,standalone C++ protos,completed,cancelled,2026-10-19T09:31:06Z,2026-10-19T09:31:06Z,0,046ef3c62f5415291ddac89147022d72a4d02716

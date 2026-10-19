@@ -39,3 +39,17 @@ job_id,run_id,workflow,job_name,status,conclusion,started_at,completed_at,durati
 113664835038,37882415836,Create Releases,"call-sdist / build (3.11, arm64)",completed,success,2026-10-09T04:07:35Z,2026-10-09T04:07:54Z,19,572ac82f982545b5a8c43dcf41a7bdef634e8ccd
 112579253655,37555056953,Create Releases,"call-sdist / build (3.11, arm64)",completed,success,2026-10-07T01:02:11Z,2026-10-07T01:02:24Z,13,ab429ea400dff7d2d89b855f28c58453ec03b5ad
 112437525826,37512659794,Create Releases,"call-sdist / build (3.11, arm64)",completed,success,2026-10-06T18:36:54Z,2026-10-06T18:37:04Z,10,4a7b7aec181c00cd876778cca219439b2a2f2a63
+117912372159,39207153545,Create Releases,"call-sdist / build (3.11, arm64)",completed,success,2026-10-19T05:56:50Z,2026-10-19T05:57:00Z,10,18fb3cfb3b7b2c3f3b05ba9bd3829333432c095d
+117835304960,39181534434,Create Releases,"call-sdist / build (3.11, arm64)",completed,success,2026-10-19T00:37:17Z,2026-10-19T00:37:27Z,10,04dc6df40a7d622b69c7914ae411f100ce7082cc
+117834073966,39181185111,Create Releases,"call-sdist / build (3.11, arm64)",completed,success,2026-10-19T00:31:52Z,2026-10-19T00:32:08Z,16,04dc6df40a7d622b69c7914ae411f100ce7082cc
+117668780457,39125115568,Create Releases,"call-sdist / build (3.11, arm64)",completed,success,2026-10-18T11:56:03Z,2026-10-18T11:56:12Z,9,88e38e2e18851621cc6343f5c685f19b75a98bfd
+117668224686,39125028477,Create Releases,"call-sdist / build (3.11, arm64)",completed,success,2026-10-18T11:53:09Z,2026-10-18T11:53:19Z,10,936ce625e749ba9ece53fe03d0c662efe4eb9fbf
+117641862954,39116022305,Create Releases,"call-sdist / build (3.11, arm64)",completed,success,2026-10-18T09:36:54Z,2026-10-18T09:37:13Z,19,d655d24de1908ac00d8a2baca2def8430d3458ed
+117245422984,38982211879,Create Releases,"call-sdist / build (3.11, arm64)",completed,success,2026-10-16T23:35:13Z,2026-10-16T23:35:26Z,13,8b467a0aff58997a2d684fba21dc5c73b24843fd
+116206849625,38668797196,Create Releases,"call-sdist / build (3.11, arm64)",completed,success,2026-10-15T02:01:57Z,2026-10-15T02:02:07Z,10,18a4972ac6482703dc105de8ade85574207bd241
+116203857351,38667873768,Create Releases,"call-sdist / build (3.11, arm64)",completed,success,2026-10-15T01:51:13Z,2026-10-15T01:51:27Z,14,ee14c1fad71e1a0e73453184c2d5de412ac3e765
+116203466950,38667746242,Create Releases,"call-sdist / build (3.11, arm64)",completed,success,2026-10-15T01:49:51Z,2026-10-15T01:50:03Z,12,5736e3ec9dadfa8e6baab5ddc7f2525be1d86d2d
+116081196997,38630680604,Create Releases,"call-sdist / build (3.11, arm64)",completed,success,2026-10-14T20:16:40Z,2026-10-14T20:17:00Z,20,d6cfcf584e0d20d67bc2fcae6419f2ad499460f6
+115407170198,38429363735,Create Releases,"call-sdist / build (3.11, arm64)",completed,success,2026-10-13T16:18:07Z,2026-10-13T16:18:19Z,12,db5bc99bc777f883d9ea409997fb95e4cb8b5d6a
+115151217589,38353569210,Create Releases,"call-sdist / build (3.11, arm64)",completed,success,2026-10-13T05:51:40Z,2026-10-13T05:51:55Z,15,3649e57e47a1fd8ff82c1e222949604db564ab2a
+114931161731,38285008963,Create Releases,"call-sdist / build (3.11, arm64)",completed,success,2026-10-12T17:33:34Z,2026-10-12T17:33:52Z,18,2aa4765fa3f7fb2626773683b797540e5ff171b0
