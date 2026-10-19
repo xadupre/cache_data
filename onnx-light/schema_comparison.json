@@ -1,6 +1,6 @@
 {
-  "commit": "2a6907269b3a7f658d950e40de911300dbfa80ff",
-  "date": "2026-10-12T13:51:41Z",
+  "commit": "4069684e0c7bc9c9773de2488281e6242098fdbb",
+  "date": "2026-10-19T11:30:13Z",
   "onnx_available": true,
   "rows": [
     {
@@ -286,7 +286,7 @@
       "name": "Cast",
       "onnx_backend_tests": 60,
       "onnx_backend_tests_expanded": 0,
-      "onnx_light_backend_tests": 190,
+      "onnx_light_backend_tests": 198,
       "onnx_light_backend_tests_expanded": 0,
       "onnx_light_shape_inference": true,
       "onnx_shape_inference": true
@@ -742,7 +742,7 @@
       "name": "Gather",
       "onnx_backend_tests": 4,
       "onnx_backend_tests_expanded": 0,
-      "onnx_light_backend_tests": 6,
+      "onnx_light_backend_tests": 7,
       "onnx_light_backend_tests_expanded": 0,
       "onnx_light_shape_inference": true,
       "onnx_shape_inference": true
@@ -1990,7 +1990,7 @@
       "name": "Shape",
       "onnx_backend_tests": 11,
       "onnx_backend_tests_expanded": 0,
-      "onnx_light_backend_tests": 71,
+      "onnx_light_backend_tests": 77,
       "onnx_light_backend_tests_expanded": 0,
       "onnx_light_shape_inference": true,
       "onnx_shape_inference": true
@@ -2158,7 +2158,7 @@
       "name": "SplitToSequence",
       "onnx_backend_tests": 3,
       "onnx_backend_tests_expanded": 0,
-      "onnx_light_backend_tests": 3,
+      "onnx_light_backend_tests": 5,
       "onnx_light_backend_tests_expanded": 0,
       "onnx_light_shape_inference": true,
       "onnx_shape_inference": true
@@ -2793,7 +2793,7 @@
     "onnx_backend_tests": 1425,
     "onnx_backend_tests_expanded": 482,
     "onnx_light": 232,
-    "onnx_light_backend_tests": 2381,
+    "onnx_light_backend_tests": 2398,
     "onnx_light_backend_tests_expanded": 0,
     "onnx_light_shape_inference": 227,
     "onnx_shape_inference": 217
