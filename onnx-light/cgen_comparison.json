@@ -1,7 +1,7 @@
 {
   "cgen_support_ops_url": "https://raw.githubusercontent.com/emmtrix/emx-onnx-cgen/main/SUPPORT_OPS.md",
   "cgen_url": "https://github.com/emmtrix/emx-onnx-cgen",
-  "date": "2026-10-12T15:16:49Z",
+  "date": "2026-10-19T13:09:19Z",
   "rows": [
     {
       "domain": "ai.onnx",
@@ -200,7 +200,7 @@
       "in_cgen": true,
       "in_onnx_light": true,
       "name": "Cast",
-      "onnx_light_backend_tests": 190,
+      "onnx_light_backend_tests": 198,
       "onnx_light_source_url": "https://raw.githubusercontent.com/xadupre/onnx-light/main/onnx_light/onnx_extensions/kernels/kernels/tensor/kernel_cast.cc"
     },
     {
@@ -542,7 +542,7 @@
       "in_cgen": true,
       "in_onnx_light": true,
       "name": "Gather",
-      "onnx_light_backend_tests": 6,
+      "onnx_light_backend_tests": 7,
       "onnx_light_source_url": "https://raw.githubusercontent.com/xadupre/onnx-light/main/onnx_light/onnx_extensions/kernels/kernels/tensor/kernel_gather.cc"
     },
     {
@@ -1417,7 +1417,7 @@
       "in_cgen": true,
       "in_onnx_light": true,
       "name": "Shape",
-      "onnx_light_backend_tests": 71,
+      "onnx_light_backend_tests": 77,
       "onnx_light_source_url": "https://raw.githubusercontent.com/xadupre/onnx-light/main/onnx_light/onnx_extensions/kernels/kernels/tensor/kernel_shape.cc"
     },
     {
@@ -1536,7 +1536,7 @@
       "in_cgen": true,
       "in_onnx_light": true,
       "name": "SplitToSequence",
-      "onnx_light_backend_tests": 3,
+      "onnx_light_backend_tests": 5,
       "onnx_light_source_url": "https://raw.githubusercontent.com/xadupre/onnx-light/main/onnx_light/onnx_extensions/kernels/kernels/sequence/kernel_split_to_sequence.cc"
     },
     {
