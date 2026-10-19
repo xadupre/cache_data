@@ -920,6 +920,14 @@
       ]
     },
     {
+      "in_mbext": true,
+      "in_ort_genai": false,
+      "mbext_files": [
+        "modelbuilder/helpers/compressed_tensors.py"
+      ],
+      "name": "QwenCompressedTensorsModel"
+    },
+    {
       "in_mbext": false,
       "in_ort_genai": true,
       "name": "QwenMTPModel",
@@ -1096,17 +1104,17 @@
       "name": "_Branch"
     }
   ],
-  "date": "2026-10-12T16:54:37Z",
+  "date": "2026-10-19T15:05:30Z",
   "projects": {
     "mbext": {
-      "commit": "7624f76075548ec910db475413f42774a8cb836f",
+      "commit": "9e43fab7efb561f29352081daab0988e2298c03c",
       "owner": "xadupre",
       "path": "modelbuilder",
       "ref": "main",
       "repo": "mbext"
     },
     "ort_genai": {
-      "commit": "6804271d02a6169b0e5d1c5e12bd28ea298a39ea",
+      "commit": "f1f002edccf97c10dc3496fa9b07b2851de980b6",
       "owner": "microsoft",
       "path": "src/python/py/models",
       "ref": "main",
@@ -1114,7 +1122,7 @@
     }
   },
   "totals": {
-    "mbext": 74,
+    "mbext": 75,
     "ort_genai": 86
   }
 }
