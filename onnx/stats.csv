@@ -80,3 +80,4 @@ date,filename,name,wheel_size,version,last_opset,n_operators,n_test_cases,n_supp
 2026-09-28T13:52:46Z,onnx-1.23.0-cp314-cp314t-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl,onnx,8886389,1.23.0,28,227,1884,28
 2026-10-05T14:35:19Z,onnx-1.23.1-cp314-cp314t-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl,onnx,8886673,1.23.1,28,227,1884,28
 2026-10-12T15:22:17Z,onnx-1.23.2-cp314-cp314t-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl,onnx,8886676,1.23.2,28,227,1884,28
+2026-10-19T13:13:32Z,onnx-1.23.2-cp314-cp314t-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl,onnx,8886676,1.23.2,28,227,1884,28
