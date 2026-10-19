@@ -2644,3 +2644,72 @@ pr_number,title,author,merged_at,commits,comments,copilot_comments,copilot_commi
 5156,Parallelize independent ReduceSum output slices,Copilot,2026-10-05T14:31:16Z,3,2,1,2
 5152,Document Python ABI compatibility,xadupre,2026-10-05T12:34:22Z,5,2,2,0
 5154,Parallelize global pooling across batch and channel slices,Copilot,2026-10-05T12:03:08Z,2,0,0,2
+5347,improve clean.sh,xadupre,2026-10-19T08:50:11Z,1,0,0,0
+5346,Update release version to 0.1.36,Copilot,2026-10-19T08:14:13Z,2,0,0,2
+5343,Fix dangling subgraph outputs causing early Loop termination,Copilot,2026-10-18T21:34:45Z,2,0,0,2
+5344,docs: document public API breaking changes in 0.1.34,xadupre,2026-10-18T21:24:20Z,1,0,0,0
+5328,Require explicit GraphBuilder opsets before adding nodes,Copilot,2026-10-18T21:11:42Z,8,18,13,5
+5341,Run linear-regression training entirely with the native runtime,Copilot,2026-10-18T20:16:13Z,2,0,0,2
+5342,docs: plan native LoRA reinforcement learning,xadupre,2026-10-18T20:14:12Z,3,2,1,2
+5334,Organize Next Steps documentation by year,Copilot,2026-10-18T16:27:19Z,4,4,2,4
+5339,Bump release version to 0.1.34,Copilot,2026-10-18T16:14:48Z,2,0,0,2
+5330,Replace GraphBuilder.to_onnx string selectors with ProtoKind,Copilot,2026-10-18T15:00:32Z,2,0,0,2
+5337,Remove excessive line wrapping from changelog entries,Copilot,2026-10-18T15:00:04Z,2,0,0,2
+5335,docs: plan offline-first semantic documentation search,xadupre,2026-10-18T11:13:39Z,2,0,0,0
+5308,Reuse ONNX-style verified descriptors for external-data I/O,Copilot,2026-10-18T11:13:11Z,10,17,9,4
+5322,Show tuning results in the ParallelFor profiling example,Copilot,2026-10-18T10:55:06Z,2,0,0,2
+5332,Add per-command Python CLI reference pages to the API section,Copilot,2026-10-18T10:52:43Z,2,0,0,2
+5320,Train linear regression example with generated ONNX gradients,Copilot,2026-10-18T10:38:38Z,2,0,0,2
+5318,Move ByOp under API and separate domain and pattern catalogues,Copilot,2026-10-18T10:38:18Z,3,2,1,3
+5326,Group the proto relationship diagram by message role,Copilot,2026-10-18T10:37:54Z,2,0,0,2
+5324,Move Technical documentation from Design to Miscellaneous,Copilot,2026-10-18T10:09:31Z,3,2,1,3
+5316,"docs: split how-tos into Python, C++ and Command Line guides",xadupre,2026-10-18T10:08:37Z,2,0,0,0
+5314,docs: propose captured execution plan and kernel capture API,xadupre,2026-10-18T07:30:10Z,2,0,0,0
+5309,Fix external-data validation for hash-prefixed model directories,Copilot,2026-10-17T17:37:51Z,4,2,1,4
+5310,Preserve linked-model loading during automatic external-data discovery,Copilot,2026-10-17T17:16:49Z,2,0,0,2
+5313,Update 0.1.33 changelog with recent fixes,Copilot,2026-10-17T16:48:05Z,2,0,0,2
+5311,Require lightweight presubmission review for this repository,xadupre,2026-10-17T15:28:49Z,1,0,0,0
+5305,Allow one contained subdirectory in external-data path validation,xadupre,2026-10-17T14:55:37Z,4,10,6,0
+5300,Handle scalar SplitToSequence splits with a remainder,Copilot,2026-10-16T18:14:33Z,4,3,1,3
+5301,Preserve symbolic dimensions in open-ended Slice inference,Copilot,2026-10-16T15:45:16Z,4,6,3,3
+5297,Bump black from 26.10.0 to 26.10.1,dependabot[bot],2026-10-16T11:13:49Z,2,0,0,0
+5296,Bump ruff from 0.16.10 to 0.17.0,dependabot[bot],2026-10-16T11:13:35Z,2,0,0,0
+5293,Bump pypa/cibuildwheel from 4.3.0 to 4.3.1,dependabot[bot],2026-10-16T11:13:18Z,1,0,0,0
+5292,Update onnx-light release version to 0.1.33,Copilot,2026-10-16T10:17:32Z,2,0,0,2
+5295,Bump ossf/scorecard-action from 2.4.4 to 2.5.0,dependabot[bot],2026-10-16T09:34:38Z,1,0,0,0
+5294,Bump clang-format from 23.1.2 to 23.1.3,dependabot[bot],2026-10-16T09:34:24Z,1,0,0,0
+5287,Scope split-generation feeds by model,xadupre,2026-10-15T22:16:11Z,14,11,9,1
+5290,Update changelog for generation improvements,xadupre,2026-10-15T21:47:06Z,2,0,0,0
+5289,Support M-RoPE position IDs in native generation,Copilot,2026-10-15T21:46:47Z,2,0,0,2
+5288,Preserve Phi-3 attention-mask values until their last use,Copilot,2026-10-15T20:47:50Z,3,0,0,2
+5271,Allow persistent recurrent state with multiple consumers,Copilot,2026-10-15T20:42:49Z,4,2,1,3
+5286,Add pipeline proto support,xadupre,2026-10-15T18:57:07Z,7,5,4,1
+5285,Reject private generation pipeline name collisions,xadupre,2026-10-15T15:07:40Z,6,6,6,0
+5284,Fix optimizer revalidation and empty control-flow outputs,xadupre,2026-10-15T11:52:42Z,2,1,1,0
+5281,Keep global runtime registries read-only and resolve explicit local scopes first,Copilot,2026-10-15T10:10:14Z,7,8,6,2
+5277,Create onnx-light issues for shape-inference coverage workflow failures,Copilot,2026-10-14T20:48:22Z,4,3,2,3
+5270,Support multi-graph generation with a shared CPU executor,Copilot,2026-10-14T19:05:57Z,19,22,16,3
+5273,Correct symbolic shape inference for fused Qwen3 cases,Copilot,2026-10-14T16:26:14Z,4,2,1,4
+5183,Support complex outputs in the native Cast runtime,Copilot,2026-10-14T12:48:14Z,9,16,8,5
+5268,Upgrade onnx-light to 0.1.32,Copilot,2026-10-14T11:38:38Z,2,0,0,2
+5263,Make the proto relations graph readable on open,Copilot,2026-10-14T09:19:09Z,2,0,0,2
+5261,Extend clean.sh to remove Copilot-generated artifacts,Copilot,2026-10-14T09:18:39Z,3,2,1,3
+5257,Align protobuf byte parsing with ONNX’s complete-buffer contract,Copilot,2026-10-14T08:56:30Z,2,0,0,2
+5255,Validate external tensor data bounds in the ONNX checker,Copilot,2026-10-14T08:56:15Z,2,0,0,2
+5245,Optimize GraphBuilder symbolic metadata scaling,xadupre,2026-10-13T17:30:17Z,12,15,7,0
+5247,Align protobuf buffer limits with upstream ONNX,Copilot,2026-10-13T15:39:03Z,2,0,0,2
+5251,Document protobuf CVE-2026-0994 applicability with OpenVEX,Copilot,2026-10-13T14:40:28Z,2,0,0,2
+5244,Update the unreleased 0.1.31 changelog,Copilot,2026-10-13T14:02:38Z,2,0,0,2
+5242,Optimize incremental GraphBuilder metadata,xadupre,2026-10-13T12:40:15Z,4,14,7,0
+5241,Reject captured-only outputs in nested GraphBuilder graphs,Copilot,2026-10-13T09:43:46Z,6,6,6,3
+5238,Preserve subgraph-local functions during model extraction,Copilot,2026-10-13T07:50:58Z,2,0,0,2
+5240,Propagate immutable initializer provenance into nested sessions,Copilot,2026-10-13T07:45:15Z,2,0,0,2
+5239,Handle Resize incompatibilities when converting from opset 12 to 13,Copilot,2026-10-13T07:44:55Z,4,0,0,3
+5237,Align DynamicQuantizeLinear’s zero-input function body with ONNX,Copilot,2026-10-12T16:33:58Z,2,0,0,2
+5234,Prevent FLOAT16 ReduceLogSumExp overflow,Copilot,2026-10-12T15:53:51Z,6,0,0,5
+5221,Propagate ONNX compiler hardening options,Copilot,2026-10-12T14:46:36Z,6,2,1,3
+5233,Preserve typed-empty OptionalProto values as None,Copilot,2026-10-12T14:46:11Z,3,0,0,2
+5227,Contain external data when the base directory is empty,Copilot,2026-10-12T14:45:55Z,3,0,0,2
+5225,Check serialization before saving inferred models,Copilot,2026-10-12T14:45:42Z,3,0,0,2
+5224,Convert bool values in repeated integer attributes,Copilot,2026-10-12T14:45:26Z,3,0,0,2
+5219,Remove locking from kernel prepacking,xadupre,2026-10-12T13:09:30Z,27,21,12,0
