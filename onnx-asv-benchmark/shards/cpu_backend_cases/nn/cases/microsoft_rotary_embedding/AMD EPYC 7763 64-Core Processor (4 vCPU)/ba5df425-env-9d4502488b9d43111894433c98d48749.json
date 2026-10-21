@@ -1,0 +1,213 @@
+{
+  "commit_hash": "ba5df4259887d884acaef9e02a36efceec5a658b",
+  "date": 1792399373000,
+  "durations": {},
+  "env_name": "virtualenv-py3.12-numpy2.5.3-onnx1.23.1-onnx-ir1.0.0-onnxruntime1.30.0-onnxscript0.7.2-ONNX_LIGHT_CPU_VERSION0.1.21-ONNX_LIGHT_VERSION0.1.31",
+  "env_vars": {
+    "ONNX_LIGHT_CPU_VERSION": "0.1.21",
+    "ONNX_LIGHT_VERSION": "0.1.31"
+  },
+  "params": {
+    "arch": "x86_64",
+    "cpu": "AMD EPYC 7763 64-Core Processor",
+    "instruction_sets": "SSE2, SSE3, SSSE3, SSE4.1, SSE4.2, AVX, AVX2",
+    "machine": "AMD EPYC 7763 64-Core Processor (4 vCPU)",
+    "num_cpu": "4",
+    "numpy": "2.5.3",
+    "onnx": "1.23.1",
+    "onnx-ir": "1.0.0",
+    "onnxruntime": "1.30.0",
+    "onnxscript": "0.7.2",
+    "os": "anonymous",
+    "python": "3.12",
+    "ram": "anonymous"
+  },
+  "python": "3.12",
+  "requirements": {
+    "numpy": "2.5.3",
+    "onnx": "1.23.1",
+    "onnx-ir": "1.0.0",
+    "onnxruntime": "1.30.0",
+    "onnxscript": "0.7.2"
+  },
+  "result_columns": [
+    "result",
+    "params",
+    "version",
+    "started_at",
+    "duration",
+    "stats_ci_99_a",
+    "stats_ci_99_b",
+    "stats_q_25",
+    "stats_q_75",
+    "stats_number",
+    "stats_repeat",
+    "samples",
+    "profile"
+  ],
+  "results": {
+    "cpu_backend_cases.nn.cases.RotaryEmbeddingBfloat16Int64Inputs4.time_microsoft_rotary_embedding_b1_s128_h8_d64": [
+      [
+        0.00013897499999870888,
+        null
+      ],
+      [
+        [
+          "'bfloat16'"
+        ],
+        [
+          "'int64'"
+        ],
+        [
+          "'bfloat16'"
+        ],
+        [
+          "'bfloat16'"
+        ],
+        [
+          "'(1, 128, 512) x (1, 128) x (128, 32) x (128, 32)'"
+        ],
+        [
+          "'onnx-light-cpu'",
+          "'onnxruntime'"
+        ]
+      ],
+      "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+      1792594036103,
+      15.169,
+      [
+        0.00013189,
+        null
+      ],
+      [
+        0.00020381,
+        null
+      ],
+      [
+        0.00013361,
+        null
+      ],
+      [
+        0.00014482,
+        null
+      ],
+      [
+        1,
+        null
+      ],
+      [
+        10,
+        null
+      ]
+    ],
+    "cpu_backend_cases.nn.cases.RotaryEmbeddingFloat16Int64Inputs4.time_microsoft_rotary_embedding_b1_s128_h8_d64": [
+      [
+        0.0004207869999959257,
+        4.510450003181177e-05
+      ],
+      [
+        [
+          "'float16'"
+        ],
+        [
+          "'int64'"
+        ],
+        [
+          "'float16'"
+        ],
+        [
+          "'float16'"
+        ],
+        [
+          "'(1, 128, 512) x (1, 128) x (128, 32) x (128, 32)'"
+        ],
+        [
+          "'onnx-light-cpu'",
+          "'onnxruntime'"
+        ]
+      ],
+      "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+      1792594043664,
+      25.241,
+      [
+        0.00038214,
+        4.0295e-05
+      ],
+      [
+        0.00049945,
+        5.4573e-05
+      ],
+      [
+        0.0004032,
+        4.1783e-05
+      ],
+      [
+        0.0004585,
+        4.9773e-05
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        10,
+        10
+      ]
+    ],
+    "cpu_backend_cases.nn.cases.RotaryEmbeddingFloat32Int64Inputs4.time_microsoft_rotary_embedding_b1_s128_h8_d64": [
+      [
+        0.0001074054999605778,
+        4.3636500009824886e-05
+      ],
+      [
+        [
+          "'float32'"
+        ],
+        [
+          "'int64'"
+        ],
+        [
+          "'float32'"
+        ],
+        [
+          "'float32'"
+        ],
+        [
+          "'(1, 128, 512) x (1, 128) x (128, 32) x (128, 32)'"
+        ],
+        [
+          "'onnx-light-cpu'",
+          "'onnxruntime'"
+        ]
+      ],
+      "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+      1792594056298,
+      25.273,
+      [
+        0.00010266,
+        4.1457e-05
+      ],
+      [
+        0.00017745,
+        8.8345e-05
+      ],
+      [
+        0.00010582,
+        4.3091e-05
+      ],
+      [
+        0.00010989,
+        4.6294e-05
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        10,
+        10
+      ]
+    ]
+  },
+  "version": 2
+}
