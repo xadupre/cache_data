@@ -1,0 +1,201 @@
+{
+  "commit_hash": "ba5df4259887d884acaef9e02a36efceec5a658b",
+  "date": 1792399373000,
+  "durations": {},
+  "env_name": "virtualenv-py3.12-numpy2.5.3-onnx1.23.1-onnx-ir1.0.0-onnxruntime1.30.0-onnxscript0.7.2-ONNX_LIGHT_CPU_VERSION0.1.21-ONNX_LIGHT_VERSION0.1.31",
+  "env_vars": {
+    "ONNX_LIGHT_CPU_VERSION": "0.1.21",
+    "ONNX_LIGHT_VERSION": "0.1.31"
+  },
+  "params": {
+    "arch": "x86_64",
+    "cpu": "AMD EPYC 9V45 96-Core Processor",
+    "instruction_sets": "SSE2, SSE3, SSSE3, SSE4.1, SSE4.2, AVX, AVX2, AVX-VNNI, AVX-512F, AVX-512BW, AVX-512CD, AVX-512DQ, AVX-512VL, AVX-512VNNI",
+    "machine": "AMD EPYC 9V45 96-Core Processor (4 vCPU)",
+    "num_cpu": "4",
+    "numpy": "2.5.3",
+    "onnx": "1.23.1",
+    "onnx-ir": "1.0.0",
+    "onnxruntime": "1.30.0",
+    "onnxscript": "0.7.2",
+    "os": "anonymous",
+    "python": "3.12",
+    "ram": "anonymous"
+  },
+  "python": "3.12",
+  "requirements": {
+    "numpy": "2.5.3",
+    "onnx": "1.23.1",
+    "onnx-ir": "1.0.0",
+    "onnxruntime": "1.30.0",
+    "onnxscript": "0.7.2"
+  },
+  "result_columns": [
+    "result",
+    "params",
+    "version",
+    "started_at",
+    "duration",
+    "stats_ci_99_a",
+    "stats_ci_99_b",
+    "stats_q_25",
+    "stats_q_75",
+    "stats_number",
+    "stats_repeat",
+    "samples",
+    "profile"
+  ],
+  "results": {
+    "builder.save.onnx_io.OnnxSave.time_run": [
+      [
+        0.49468773300000635,
+        0.9942432560000043,
+        0.14743824499998937,
+        3.620256945499989,
+        3.5804801410000096,
+        2.8927332165000337,
+        NaN,
+        NaN,
+        0.16093988399998693,
+        NaN,
+        NaN,
+        2.908959503999995
+      ],
+      [
+        [
+          "'X=dynamicx2048 (40 Gemm)'"
+        ],
+        [
+          "'float32'"
+        ],
+        [
+          "'save/1filex1'",
+          "'save/2filex1'",
+          "'save/1filex4'",
+          "'save/2filex4'"
+        ],
+        [
+          "'onnx'",
+          "'ir-py'",
+          "'onnxlight'"
+        ]
+      ],
+      "285e7c0408f50b1d7d7baf988850c218cd9486323dfdc156860470b8455e7d86",
+      1792596015261,
+      151.29,
+      [
+        0.46503,
+        0.7148,
+        0.12226,
+        3.3684,
+        2.9712,
+        1.1842,
+        null,
+        null,
+        0.12163,
+        null,
+        null,
+        2.874
+      ],
+      [
+        0.52435,
+        1.2737,
+        0.17261,
+        3.8721,
+        4.1897,
+        4.6012,
+        null,
+        null,
+        0.20025,
+        null,
+        null,
+        2.944
+      ],
+      [
+        0.49439,
+        0.99145,
+        0.14719,
+        3.6177,
+        3.5744,
+        2.8756,
+        null,
+        null,
+        0.16055,
+        null,
+        null,
+        2.9086
+      ],
+      [
+        0.49498,
+        0.99704,
+        0.14769,
+        3.6228,
+        3.5866,
+        2.9098,
+        null,
+        null,
+        0.16133,
+        null,
+        null,
+        2.9093
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        null,
+        null,
+        1
+      ],
+      [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        null,
+        null,
+        2,
+        null,
+        null,
+        2
+      ]
+    ],
+    "builder.save.onnx_io.OnnxSaveCpp.track_run": [
+      [
+        NaN,
+        NaN,
+        NaN,
+        NaN
+      ],
+      [
+        [
+          "'X=dynamicx2048 (40 Gemm)'"
+        ],
+        [
+          "'float32'"
+        ],
+        [
+          "'save/1filex1'",
+          "'save/1filex4'",
+          "'save/2filex1'",
+          "'save/2filex4'"
+        ],
+        [
+          "'onnxlight-cpp'"
+        ]
+      ],
+      "4effd14be05c3c328d9ea3ba9ecbaacc988ae4d4798b3a51c6c60ddaa10cb41d",
+      1792596091424,
+      0.85529
+    ]
+  },
+  "version": 2
+}
