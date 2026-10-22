@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-10-22T14:27:22Z",
+  "updated_at": "2026-10-22T15:47:28Z",
   "repositories": [
     {
       "repository": "microsoft/onnxruntime",
-      "total": 25277971,
+      "total": 25285191,
       "releases": [
         {
           "id": 14260845,
@@ -166,7 +166,7 @@
           "tag": "v0.5.0",
           "published_at": "2019-08-01T19:48:28Z",
           "prerelease": false,
-          "total": 3906,
+          "total": 3910,
           "assets": [
             {
               "id": 14083701,
@@ -196,7 +196,7 @@
             {
               "id": 14083706,
               "name": "onnxruntime-linux-x64-0.5.0.tgz",
-              "download_count": 1945
+              "download_count": 1949
             },
             {
               "id": 14083707,
@@ -713,7 +713,7 @@
           "tag": "v1.7.0",
           "published_at": "2021-03-03T04:45:30Z",
           "prerelease": false,
-          "total": 47194,
+          "total": 47195,
           "assets": [
             {
               "id": 32814153,
@@ -753,7 +753,7 @@
             {
               "id": 32843828,
               "name": "onnxruntime-win-x64-1.7.0.zip",
-              "download_count": 3081
+              "download_count": 3082
             },
             {
               "id": 32843848,
@@ -1033,7 +1033,7 @@
           "tag": "v1.10.0",
           "published_at": "2021-12-08T00:22:39Z",
           "prerelease": false,
-          "total": 153029,
+          "total": 153032,
           "assets": [
             {
               "id": 51255143,
@@ -1093,7 +1093,7 @@
             {
               "id": 51255206,
               "name": "onnxruntime-linux-x64-1.10.0.tgz",
-              "download_count": 42799
+              "download_count": 42802
             },
             {
               "id": 51255208,
@@ -1349,7 +1349,7 @@
           "tag": "v1.12.1",
           "published_at": "2022-08-04T22:07:11Z",
           "prerelease": false,
-          "total": 123288,
+          "total": 123297,
           "assets": [
             {
               "id": 73710016,
@@ -1379,7 +1379,7 @@
             {
               "id": 73710056,
               "name": "onnxruntime-linux-x64-gpu-1.12.1.tgz",
-              "download_count": 25955
+              "download_count": 25959
             },
             {
               "id": 73710079,
@@ -1389,7 +1389,7 @@
             {
               "id": 73710082,
               "name": "onnxruntime-osx-universal2-1.12.1.tgz",
-              "download_count": 3114
+              "download_count": 3115
             },
             {
               "id": 73710083,
@@ -1414,7 +1414,7 @@
             {
               "id": 73710092,
               "name": "onnxruntime-win-x64-gpu-1.12.1.zip",
-              "download_count": 19463
+              "download_count": 19467
             },
             {
               "id": 73710103,
@@ -1428,7 +1428,7 @@
           "tag": "v1.13.1",
           "published_at": "2022-10-24T21:09:37Z",
           "prerelease": false,
-          "total": 157059,
+          "total": 157060,
           "assets": [
             {
               "id": 82016220,
@@ -1453,7 +1453,7 @@
             {
               "id": 82016308,
               "name": "onnxruntime-linux-x64-1.13.1.tgz",
-              "download_count": 94109
+              "download_count": 94110
             },
             {
               "id": 82016345,
@@ -1507,7 +1507,7 @@
           "tag": "v1.14.0",
           "published_at": "2023-02-11T01:03:57Z",
           "prerelease": false,
-          "total": 121984,
+          "total": 121986,
           "assets": [
             {
               "id": 95120074,
@@ -1517,7 +1517,7 @@
             {
               "id": 95120086,
               "name": "onnxruntime-linux-x64-1.14.0.tgz",
-              "download_count": 50772
+              "download_count": 50774
             },
             {
               "id": 95120242,
@@ -1586,7 +1586,7 @@
           "tag": "v1.14.1",
           "published_at": "2023-03-02T19:43:13Z",
           "prerelease": false,
-          "total": 721751,
+          "total": 721766,
           "assets": [
             {
               "id": 97361057,
@@ -1606,7 +1606,7 @@
             {
               "id": 97361202,
               "name": "onnxruntime-osx-x86_64-1.14.1.tgz",
-              "download_count": 27032
+              "download_count": 27033
             },
             {
               "id": 97361218,
@@ -1616,7 +1616,7 @@
             {
               "id": 97361228,
               "name": "onnxruntime-osx-arm64-1.14.1.tgz",
-              "download_count": 47749
+              "download_count": 47755
             },
             {
               "id": 97361232,
@@ -1626,7 +1626,7 @@
             {
               "id": 97361362,
               "name": "onnxruntime-linux-x64-1.14.1.tgz",
-              "download_count": 439228
+              "download_count": 439236
             },
             {
               "id": 97361366,
@@ -1665,7 +1665,7 @@
           "tag": "v1.15.0",
           "published_at": "2023-05-25T01:44:38Z",
           "prerelease": false,
-          "total": 40176,
+          "total": 40179,
           "assets": [
             {
               "id": 109663705,
@@ -1760,7 +1760,7 @@
             {
               "id": 109664096,
               "name": "onnxruntime-linux-x64-1.15.0.tgz",
-              "download_count": 15274
+              "download_count": 15277
             },
             {
               "id": 109664098,
@@ -1774,7 +1774,7 @@
           "tag": "v1.15.1",
           "published_at": "2023-06-16T21:12:02Z",
           "prerelease": false,
-          "total": 355595,
+          "total": 355618,
           "assets": [
             {
               "id": 113117922,
@@ -1819,12 +1819,12 @@
             {
               "id": 113118291,
               "name": "onnxruntime-linux-x64-gpu-1.15.1.tgz",
-              "download_count": 112780
+              "download_count": 112781
             },
             {
               "id": 113118297,
               "name": "onnxruntime-linux-x64-1.15.1.tgz",
-              "download_count": 138561
+              "download_count": 138581
             },
             {
               "id": 113118303,
@@ -1849,7 +1849,7 @@
             {
               "id": 113118336,
               "name": "onnxruntime-win-x64-1.15.1.zip",
-              "download_count": 29534
+              "download_count": 29536
             },
             {
               "id": 113118337,
@@ -1883,22 +1883,22 @@
           "tag": "v1.16.0",
           "published_at": "2023-09-20T21:27:50Z",
           "prerelease": false,
-          "total": 243409,
+          "total": 243426,
           "assets": [
             {
               "id": 126978903,
               "name": "onnxruntime-linux-x64-gpu-1.16.0.tgz",
-              "download_count": 36833
+              "download_count": 36840
             },
             {
               "id": 126978911,
               "name": "onnxruntime-linux-aarch64-1.16.0.tgz",
-              "download_count": 38313
+              "download_count": 38321
             },
             {
               "id": 126978914,
               "name": "onnxruntime-linux-x64-1.16.0.tgz",
-              "download_count": 103677
+              "download_count": 103679
             },
             {
               "id": 126978915,
@@ -1992,7 +1992,7 @@
           "tag": "v1.16.1",
           "published_at": "2023-10-11T18:28:30Z",
           "prerelease": false,
-          "total": 89003,
+          "total": 89006,
           "assets": [
             {
               "id": 130118664,
@@ -2087,7 +2087,7 @@
             {
               "id": 130118923,
               "name": "onnxruntime-linux-x64-1.16.1.tgz",
-              "download_count": 45837
+              "download_count": 45840
             },
             {
               "id": 130118925,
@@ -2101,7 +2101,7 @@
           "tag": "v1.16.2",
           "published_at": "2023-11-09T12:08:24Z",
           "prerelease": false,
-          "total": 68519,
+          "total": 68532,
           "assets": [
             {
               "id": 134720932,
@@ -2186,12 +2186,12 @@
             {
               "id": 134721056,
               "name": "onnxruntime-linux-x64-1.16.2.tgz",
-              "download_count": 50600
+              "download_count": 50606
             },
             {
               "id": 134721057,
               "name": "onnxruntime-linux-aarch64-1.16.2.tgz",
-              "download_count": 1047
+              "download_count": 1054
             },
             {
               "id": 134721059,
@@ -2210,17 +2210,17 @@
           "tag": "v1.16.3",
           "published_at": "2023-11-20T20:51:56Z",
           "prerelease": false,
-          "total": 391449,
+          "total": 391542,
           "assets": [
             {
               "id": 136583126,
               "name": "onnxruntime-linux-x64-1.16.3.tgz",
-              "download_count": 252327
+              "download_count": 252342
             },
             {
               "id": 136583131,
               "name": "onnxruntime-linux-aarch64-1.16.3.tgz",
-              "download_count": 26299
+              "download_count": 26371
             },
             {
               "id": 136583132,
@@ -2285,7 +2285,7 @@
             {
               "id": 136583199,
               "name": "onnxruntime-osx-universal2-1.16.3.tgz",
-              "download_count": 3539
+              "download_count": 3542
             },
             {
               "id": 136583201,
@@ -2295,7 +2295,7 @@
             {
               "id": 136583204,
               "name": "onnxruntime-linux-x64-gpu-1.16.3.tgz",
-              "download_count": 25080
+              "download_count": 25083
             },
             {
               "id": 136583728,
@@ -2319,7 +2319,7 @@
           "tag": "v1.17.0",
           "published_at": "2024-02-03T00:25:21Z",
           "prerelease": false,
-          "total": 83890,
+          "total": 83899,
           "assets": [
             {
               "id": 148967673,
@@ -2329,7 +2329,7 @@
             {
               "id": 148967695,
               "name": "onnxruntime-linux-x64-1.17.0.tgz",
-              "download_count": 47218
+              "download_count": 47226
             },
             {
               "id": 148967711,
@@ -2394,7 +2394,7 @@
             {
               "id": 148968171,
               "name": "onnxruntime-win-x64-gpu-1.17.0.zip",
-              "download_count": 4375
+              "download_count": 4376
             },
             {
               "id": 148968204,
@@ -2433,7 +2433,7 @@
           "tag": "v1.17.1",
           "published_at": "2024-02-27T18:34:20Z",
           "prerelease": false,
-          "total": 997224,
+          "total": 997277,
           "assets": [
             {
               "id": 153441953,
@@ -2483,7 +2483,7 @@
             {
               "id": 153441982,
               "name": "onnxruntime-win-x64-1.17.1.zip",
-              "download_count": 79248
+              "download_count": 79249
             },
             {
               "id": 153441985,
@@ -2498,12 +2498,12 @@
             {
               "id": 153442001,
               "name": "onnxruntime-linux-aarch64-1.17.1.tgz",
-              "download_count": 194869
+              "download_count": 194881
             },
             {
               "id": 153442002,
               "name": "onnxruntime-linux-x64-1.17.1.tgz",
-              "download_count": 319076
+              "download_count": 319116
             },
             {
               "id": 153442003,
@@ -2547,7 +2547,7 @@
           "tag": "v1.17.3",
           "published_at": "2024-04-18T15:46:48Z",
           "prerelease": false,
-          "total": 1587120,
+          "total": 1587684,
           "assets": [
             {
               "id": 161202434,
@@ -2562,12 +2562,12 @@
             {
               "id": 161202502,
               "name": "onnxruntime-win-x64-gpu-1.17.3.zip",
-              "download_count": 3674
+              "download_count": 3676
             },
             {
               "id": 161202523,
               "name": "onnxruntime-win-x64-1.17.3.zip",
-              "download_count": 15624
+              "download_count": 15635
             },
             {
               "id": 161202533,
@@ -2607,12 +2607,12 @@
             {
               "id": 161202614,
               "name": "onnxruntime-osx-x86_64-1.17.3.tgz",
-              "download_count": 1895
+              "download_count": 1897
             },
             {
               "id": 161202621,
               "name": "onnxruntime-osx-arm64-1.17.3.tgz",
-              "download_count": 5086
+              "download_count": 5088
             },
             {
               "id": 161202625,
@@ -2622,17 +2622,17 @@
             {
               "id": 161202641,
               "name": "onnxruntime-linux-x64-gpu-1.17.3.tgz",
-              "download_count": 1470130
+              "download_count": 1470672
             },
             {
               "id": 161202662,
               "name": "onnxruntime-linux-x64-1.17.3.tgz",
-              "download_count": 64010
+              "download_count": 64014
             },
             {
               "id": 161202666,
               "name": "onnxruntime-linux-aarch64-1.17.3.tgz",
-              "download_count": 8733
+              "download_count": 8734
             },
             {
               "id": 161206028,
@@ -2666,7 +2666,7 @@
           "tag": "v1.18.0",
           "published_at": "2024-05-21T00:28:41Z",
           "prerelease": false,
-          "total": 455220,
+          "total": 455252,
           "assets": [
             {
               "id": 169083358,
@@ -2696,12 +2696,12 @@
             {
               "id": 169083792,
               "name": "onnxruntime-linux-x64-1.18.0.tgz",
-              "download_count": 83852
+              "download_count": 83857
             },
             {
               "id": 169083820,
               "name": "onnxruntime-linux-x64-gpu-1.18.0.tgz",
-              "download_count": 290937
+              "download_count": 290953
             },
             {
               "id": 169083982,
@@ -2761,7 +2761,7 @@
             {
               "id": 169084710,
               "name": "onnxruntime-win-x64-1.18.0.zip",
-              "download_count": 14236
+              "download_count": 14247
             },
             {
               "id": 169084824,
@@ -2785,7 +2785,7 @@
           "tag": "v1.18.1",
           "published_at": "2024-06-28T00:29:13Z",
           "prerelease": false,
-          "total": 224552,
+          "total": 224610,
           "assets": [
             {
               "id": 176364363,
@@ -2795,7 +2795,7 @@
             {
               "id": 176364657,
               "name": "onnxruntime-linux-x64-gpu-cuda12-1.18.1.tgz",
-              "download_count": 15875
+              "download_count": 15879
             },
             {
               "id": 176382956,
@@ -2815,12 +2815,12 @@
             {
               "id": 176383621,
               "name": "onnxruntime-win-x64-gpu-1.18.1.zip",
-              "download_count": 4586
+              "download_count": 4588
             },
             {
               "id": 176383719,
               "name": "onnxruntime-win-x64-1.18.1.zip",
-              "download_count": 12066
+              "download_count": 12071
             },
             {
               "id": 176383797,
@@ -2830,7 +2830,7 @@
             {
               "id": 176383988,
               "name": "onnxruntime-osx-arm64-1.18.1.tgz",
-              "download_count": 7054
+              "download_count": 7055
             },
             {
               "id": 176383990,
@@ -2840,22 +2840,22 @@
             {
               "id": 176383991,
               "name": "onnxruntime-osx-x86_64-1.18.1.tgz",
-              "download_count": 2055
+              "download_count": 2056
             },
             {
               "id": 176384629,
               "name": "onnxruntime-linux-x64-gpu-1.18.1.tgz",
-              "download_count": 15908
+              "download_count": 15910
             },
             {
               "id": 176384640,
               "name": "onnxruntime-linux-aarch64-1.18.1.tgz",
-              "download_count": 56747
+              "download_count": 56749
             },
             {
               "id": 176384642,
               "name": "onnxruntime-linux-x64-1.18.1.tgz",
-              "download_count": 100629
+              "download_count": 100670
             }
           ]
         },
@@ -2864,7 +2864,7 @@
           "tag": "v1.19.0",
           "published_at": "2024-08-19T18:44:22Z",
           "prerelease": false,
-          "total": 163315,
+          "total": 163321,
           "assets": [
             {
               "id": 186059042,
@@ -2904,7 +2904,7 @@
             {
               "id": 186059401,
               "name": "onnxruntime-linux-x64-1.19.0.tgz",
-              "download_count": 49856
+              "download_count": 49860
             },
             {
               "id": 186059786,
@@ -2959,7 +2959,7 @@
             {
               "id": 187222734,
               "name": "onnxruntime-linux-x64-gpu-1.19.0.tgz",
-              "download_count": 98680
+              "download_count": 98682
             }
           ]
         },
@@ -2968,37 +2968,37 @@
           "tag": "v1.19.2",
           "published_at": "2024-09-04T19:33:14Z",
           "prerelease": false,
-          "total": 1365212,
+          "total": 1365589,
           "assets": [
             {
               "id": 190204577,
               "name": "onnxruntime-linux-aarch64-1.19.2.tgz",
-              "download_count": 41253
+              "download_count": 41273
             },
             {
               "id": 190204584,
               "name": "onnxruntime-linux-x64-1.19.2.tgz",
-              "download_count": 242805
+              "download_count": 242850
             },
             {
               "id": 190204588,
               "name": "onnxruntime-linux-x64-gpu-1.19.2.tgz",
-              "download_count": 921787
+              "download_count": 922078
             },
             {
               "id": 190204605,
               "name": "onnxruntime-osx-arm64-1.19.2.tgz",
-              "download_count": 11715
+              "download_count": 11722
             },
             {
               "id": 190204611,
               "name": "onnxruntime-osx-universal2-1.19.2.tgz",
-              "download_count": 15257
+              "download_count": 15258
             },
             {
               "id": 190204615,
               "name": "onnxruntime-osx-x86_64-1.19.2.tgz",
-              "download_count": 2817
+              "download_count": 2822
             },
             {
               "id": 190204618,
@@ -3033,12 +3033,12 @@
             {
               "id": 190204639,
               "name": "onnxruntime-win-x64-1.19.2.zip",
-              "download_count": 57860
+              "download_count": 57865
             },
             {
               "id": 190204640,
               "name": "onnxruntime-win-x64-gpu-1.19.2.zip",
-              "download_count": 59416
+              "download_count": 59419
             },
             {
               "id": 190204643,
@@ -3072,7 +3072,7 @@
           "tag": "v1.20.0",
           "published_at": "2024-11-01T18:02:18Z",
           "prerelease": false,
-          "total": 489674,
+          "total": 489703,
           "assets": [
             {
               "id": 202998880,
@@ -3102,7 +3102,7 @@
             {
               "id": 202999099,
               "name": "onnxruntime-win-x64-1.20.0.zip",
-              "download_count": 15339
+              "download_count": 15342
             },
             {
               "id": 202999121,
@@ -3112,7 +3112,7 @@
             {
               "id": 202999144,
               "name": "onnxruntime-osx-x86_64-1.20.0.tgz",
-              "download_count": 18427
+              "download_count": 18428
             },
             {
               "id": 202999145,
@@ -3127,7 +3127,7 @@
             {
               "id": 202999196,
               "name": "onnxruntime-linux-x64-1.20.0.tgz",
-              "download_count": 270751
+              "download_count": 270772
             },
             {
               "id": 202999199,
@@ -3142,7 +3142,7 @@
             {
               "id": 204131584,
               "name": "onnxruntime-linux-x64-gpu-1.20.0.tgz",
-              "download_count": 104751
+              "download_count": 104755
             }
           ]
         },
@@ -3151,17 +3151,17 @@
           "tag": "v1.20.1",
           "published_at": "2024-11-21T22:20:31Z",
           "prerelease": false,
-          "total": 4102443,
+          "total": 4102853,
           "assets": [
             {
               "id": 208183212,
               "name": "onnxruntime-linux-aarch64-1.20.1.tgz",
-              "download_count": 53527
+              "download_count": 53543
             },
             {
               "id": 208183214,
               "name": "onnxruntime-linux-x64-1.20.1.tgz",
-              "download_count": 264860
+              "download_count": 264955
             },
             {
               "id": 208183216,
@@ -3171,12 +3171,12 @@
             {
               "id": 208183218,
               "name": "onnxruntime-osx-universal2-1.20.1.tgz",
-              "download_count": 7878
+              "download_count": 7883
             },
             {
               "id": 208183222,
               "name": "onnxruntime-osx-x86_64-1.20.1.tgz",
-              "download_count": 10087
+              "download_count": 10088
             },
             {
               "id": 208183223,
@@ -3191,7 +3191,7 @@
             {
               "id": 208183685,
               "name": "onnxruntime-linux-x64-gpu-1.20.1.tgz",
-              "download_count": 3657744
+              "download_count": 3658027
             },
             {
               "id": 208183749,
@@ -3201,7 +3201,7 @@
             {
               "id": 208987137,
               "name": "onnxruntime-win-x64-1.20.1.zip",
-              "download_count": 43345
+              "download_count": 43355
             }
           ]
         },
@@ -3218,17 +3218,17 @@
           "tag": "v1.21.0",
           "published_at": "2025-03-08T05:33:03Z",
           "prerelease": false,
-          "total": 7774999,
+          "total": 7777399,
           "assets": [
             {
               "id": 235667053,
               "name": "onnxruntime-linux-x64-1.21.0.tgz",
-              "download_count": 74056
+              "download_count": 74093
             },
             {
               "id": 235667158,
               "name": "onnxruntime-linux-aarch64-1.21.0.tgz",
-              "download_count": 27495
+              "download_count": 27504
             },
             {
               "id": 235667457,
@@ -3238,7 +3238,7 @@
             {
               "id": 235667484,
               "name": "onnxruntime-osx-universal2-1.21.0.tgz",
-              "download_count": 3196
+              "download_count": 3201
             },
             {
               "id": 235667571,
@@ -3253,7 +3253,7 @@
             {
               "id": 235667880,
               "name": "onnxruntime-win-x64-1.21.0.zip",
-              "download_count": 13208
+              "download_count": 13215
             },
             {
               "id": 235667944,
@@ -3283,12 +3283,12 @@
             {
               "id": 236224243,
               "name": "onnxruntime-win-x64-gpu-1.21.0.zip",
-              "download_count": 6817
+              "download_count": 6818
             },
             {
               "id": 236224852,
               "name": "onnxruntime-linux-x64-gpu-1.21.0.tgz",
-              "download_count": 7638661
+              "download_count": 7641002
             }
           ]
         },
@@ -3297,12 +3297,12 @@
           "tag": "v1.21.1",
           "published_at": "2025-04-21T17:38:36Z",
           "prerelease": false,
-          "total": 942916,
+          "total": 943328,
           "assets": [
             {
               "id": 248850407,
               "name": "onnxruntime-linux-x64-gpu-1.21.1.tgz",
-              "download_count": 942916
+              "download_count": 943328
             }
           ]
         },
@@ -3311,7 +3311,7 @@
           "tag": "v1.22.0",
           "published_at": "2025-05-10T01:14:00Z",
           "prerelease": false,
-          "total": 953687,
+          "total": 954049,
           "assets": [
             {
               "id": 253300361,
@@ -3326,47 +3326,47 @@
             {
               "id": 253300381,
               "name": "Microsoft.ML.OnnxRuntime.DirectML.1.22.0.nupkg",
-              "download_count": 1799
+              "download_count": 1800
             },
             {
               "id": 253300383,
               "name": "onnxruntime-linux-aarch64-1.22.0.tgz",
-              "download_count": 97189
+              "download_count": 97214
             },
             {
               "id": 253300385,
               "name": "onnxruntime-linux-x64-1.22.0.tgz",
-              "download_count": 538881
+              "download_count": 539111
             },
             {
               "id": 253300386,
               "name": "onnxruntime-linux-x64-gpu-1.22.0.tgz",
-              "download_count": 68121
+              "download_count": 68127
             },
             {
               "id": 253300410,
               "name": "onnxruntime-osx-arm64-1.22.0.tgz",
-              "download_count": 63931
+              "download_count": 63941
             },
             {
               "id": 253300416,
               "name": "onnxruntime-osx-universal2-1.22.0.tgz",
-              "download_count": 12907
+              "download_count": 12916
             },
             {
               "id": 253300427,
               "name": "onnxruntime-osx-x86_64-1.22.0.tgz",
-              "download_count": 6720
+              "download_count": 6723
             },
             {
               "id": 253300429,
               "name": "onnxruntime-win-arm64-1.22.0.zip",
-              "download_count": 11424
+              "download_count": 11425
             },
             {
               "id": 253300435,
               "name": "onnxruntime-win-x64-1.22.0.zip",
-              "download_count": 138201
+              "download_count": 138277
             },
             {
               "id": 253300438,
@@ -3376,7 +3376,7 @@
             {
               "id": 253300478,
               "name": "onnxruntime-win-x86-1.22.0.zip",
-              "download_count": 2045
+              "download_count": 2046
             }
           ]
         },
@@ -3385,7 +3385,7 @@
           "tag": "v1.22.1",
           "published_at": "2025-07-08T22:08:08Z",
           "prerelease": false,
-          "total": 32069,
+          "total": 32079,
           "assets": [
             {
               "id": 268720181,
@@ -3395,22 +3395,22 @@
             {
               "id": 268720186,
               "name": "onnxruntime-win-x64-1.22.1.zip",
-              "download_count": 17486
+              "download_count": 17493
             },
             {
               "id": 268720192,
               "name": "onnxruntime-win-x64-gpu-1.22.1.zip",
-              "download_count": 4795
+              "download_count": 4796
             },
             {
               "id": 268720211,
               "name": "onnxruntime-win-x86-1.22.1.zip",
-              "download_count": 2854
+              "download_count": 2855
             },
             {
               "id": 268751641,
               "name": "Microsoft.ML.OnnxRuntime.1.22.1.nupkg",
-              "download_count": 3846
+              "download_count": 3847
             },
             {
               "id": 268774275,
@@ -3458,17 +3458,17 @@
           "tag": "v1.23.0",
           "published_at": "2025-09-26T04:33:48Z",
           "prerelease": false,
-          "total": 122660,
+          "total": 122689,
           "assets": [
             {
               "id": 297419832,
               "name": "onnxruntime-win-x64-gpu-1.23.0.zip",
-              "download_count": 2446
+              "download_count": 2447
             },
             {
               "id": 297419870,
               "name": "onnxruntime-win-x64-1.23.0.zip",
-              "download_count": 6869
+              "download_count": 6870
             },
             {
               "id": 297419876,
@@ -3478,7 +3478,7 @@
             {
               "id": 297419889,
               "name": "onnxruntime-linux-x64-gpu-1.23.0.tgz",
-              "download_count": 9348
+              "download_count": 9349
             },
             {
               "id": 297419903,
@@ -3488,22 +3488,22 @@
             {
               "id": 297419931,
               "name": "onnxruntime-osx-universal2-1.23.0.tgz",
-              "download_count": 2441
+              "download_count": 2444
             },
             {
               "id": 297419964,
               "name": "onnxruntime-osx-arm64-1.23.0.tgz",
-              "download_count": 6333
+              "download_count": 6344
             },
             {
               "id": 297419976,
               "name": "onnxruntime-linux-x64-1.23.0.tgz",
-              "download_count": 81005
+              "download_count": 81015
             },
             {
               "id": 297419984,
               "name": "onnxruntime-linux-aarch64-1.23.0.tgz",
-              "download_count": 11997
+              "download_count": 11999
             }
           ]
         },
@@ -3512,7 +3512,7 @@
           "tag": "v1.23.1",
           "published_at": "2025-10-08T04:12:55Z",
           "prerelease": false,
-          "total": 43185,
+          "total": 43201,
           "assets": [
             {
               "id": 301788887,
@@ -3522,7 +3522,7 @@
             {
               "id": 301788896,
               "name": "onnxruntime-osx-arm64-1.23.1.tgz",
-              "download_count": 3270
+              "download_count": 3272
             },
             {
               "id": 301788899,
@@ -3532,17 +3532,17 @@
             {
               "id": 301788909,
               "name": "onnxruntime-linux-aarch64-1.23.1.tgz",
-              "download_count": 3965
+              "download_count": 3972
             },
             {
               "id": 301788918,
               "name": "onnxruntime-linux-x64-gpu-1.23.1.tgz",
-              "download_count": 5923
+              "download_count": 5925
             },
             {
               "id": 301788961,
               "name": "onnxruntime-linux-x64-1.23.1.tgz",
-              "download_count": 22249
+              "download_count": 22254
             },
             {
               "id": 301788965,
@@ -3566,17 +3566,17 @@
           "tag": "v1.23.2",
           "published_at": "2025-10-25T04:15:21Z",
           "prerelease": false,
-          "total": 746908,
+          "total": 747171,
           "assets": [
             {
               "id": 308474603,
               "name": "onnxruntime-win-x64-gpu-1.23.2.zip",
-              "download_count": 17424
+              "download_count": 17431
             },
             {
               "id": 308474632,
               "name": "onnxruntime-win-x64-1.23.2.zip",
-              "download_count": 66279
+              "download_count": 66298
             },
             {
               "id": 308474643,
@@ -3586,32 +3586,32 @@
             {
               "id": 308474652,
               "name": "onnxruntime-osx-x86_64-1.23.2.tgz",
-              "download_count": 14904
+              "download_count": 14922
             },
             {
               "id": 308474657,
               "name": "onnxruntime-linux-x64-gpu-1.23.2.tgz",
-              "download_count": 48846
+              "download_count": 48869
             },
             {
               "id": 308474678,
               "name": "onnxruntime-osx-universal2-1.23.2.tgz",
-              "download_count": 257943
+              "download_count": 258031
             },
             {
               "id": 308474683,
               "name": "onnxruntime-osx-arm64-1.23.2.tgz",
-              "download_count": 36560
+              "download_count": 36577
             },
             {
               "id": 308474688,
               "name": "onnxruntime-linux-x64-1.23.2.tgz",
-              "download_count": 279270
+              "download_count": 279348
             },
             {
               "id": 308474693,
               "name": "onnxruntime-linux-aarch64-1.23.2.tgz",
-              "download_count": 23104
+              "download_count": 23117
             }
           ]
         },
@@ -3620,7 +3620,7 @@
           "tag": "v1.24.1",
           "published_at": "2026-02-06T00:00:13Z",
           "prerelease": false,
-          "total": 143806,
+          "total": 143818,
           "assets": [
             {
               "id": 351357523,
@@ -3640,7 +3640,7 @@
             {
               "id": 351357869,
               "name": "onnxruntime-linux-x64-gpu-1.24.1.tgz",
-              "download_count": 15699
+              "download_count": 15700
             },
             {
               "id": 351357934,
@@ -3650,12 +3650,12 @@
             {
               "id": 351357977,
               "name": "onnxruntime-linux-aarch64-1.24.1.tgz",
-              "download_count": 16952
+              "download_count": 16955
             },
             {
               "id": 351360918,
               "name": "onnxruntime-linux-x64-1.24.1.tgz",
-              "download_count": 73913
+              "download_count": 73921
             },
             {
               "id": 351803020,
@@ -3674,27 +3674,27 @@
           "tag": "v1.24.2",
           "published_at": "2026-02-19T21:28:03Z",
           "prerelease": false,
-          "total": 373125,
+          "total": 373324,
           "assets": [
             {
               "id": 358441208,
               "name": "onnxruntime-linux-aarch64-1.24.2.tgz",
-              "download_count": 34287
+              "download_count": 34293
             },
             {
               "id": 358441215,
               "name": "onnxruntime-linux-x64-1.24.2.tgz",
-              "download_count": 114013
+              "download_count": 114063
             },
             {
               "id": 358441219,
               "name": "onnxruntime-linux-x64-gpu-1.24.2.tgz",
-              "download_count": 8198
+              "download_count": 8201
             },
             {
               "id": 358441256,
               "name": "onnxruntime-osx-arm64-1.24.2.tgz",
-              "download_count": 55881
+              "download_count": 55926
             },
             {
               "id": 358441270,
@@ -3704,12 +3704,12 @@
             {
               "id": 358441296,
               "name": "onnxruntime-win-x64-1.24.2.zip",
-              "download_count": 119205
+              "download_count": 119297
             },
             {
               "id": 358781187,
               "name": "onnxruntime-win-x64-gpu-1.24.2.zip",
-              "download_count": 8107
+              "download_count": 8110
             },
             {
               "id": 358787838,
@@ -3728,17 +3728,17 @@
           "tag": "v1.24.3",
           "published_at": "2026-03-05T19:00:05Z",
           "prerelease": false,
-          "total": 58249,
+          "total": 58288,
           "assets": [
             {
               "id": 367674269,
               "name": "onnxruntime-linux-aarch64-1.24.3.tgz",
-              "download_count": 6776
+              "download_count": 6777
             },
             {
               "id": 367674329,
               "name": "onnxruntime-linux-x64-1.24.3.tgz",
-              "download_count": 33097
+              "download_count": 33133
             },
             {
               "id": 367674486,
@@ -3753,12 +3753,12 @@
             {
               "id": 367707852,
               "name": "onnxruntime-osx-arm64-1.24.3.tgz",
-              "download_count": 6068
+              "download_count": 6069
             },
             {
               "id": 367707923,
               "name": "onnxruntime-win-x64-1.24.3.zip",
-              "download_count": 8167
+              "download_count": 8168
             },
             {
               "id": 367708093,
@@ -3787,27 +3787,27 @@
           "tag": "v1.24.4",
           "published_at": "2026-03-17T23:08:09Z",
           "prerelease": false,
-          "total": 288553,
+          "total": 288645,
           "assets": [
             {
               "id": 376015298,
               "name": "onnxruntime-linux-aarch64-1.24.4.tgz",
-              "download_count": 26110
+              "download_count": 26120
             },
             {
               "id": 376015310,
               "name": "onnxruntime-linux-x64-1.24.4.tgz",
-              "download_count": 146191
+              "download_count": 146243
             },
             {
               "id": 376015314,
               "name": "onnxruntime-linux-x64-gpu-1.24.4.tgz",
-              "download_count": 39396
+              "download_count": 39409
             },
             {
               "id": 376015406,
               "name": "onnxruntime-osx-arm64-1.24.4.tgz",
-              "download_count": 32812
+              "download_count": 32821
             },
             {
               "id": 376015421,
@@ -3822,7 +3822,7 @@
             {
               "id": 376015528,
               "name": "onnxruntime-win-x64-1.24.4.zip",
-              "download_count": 29223
+              "download_count": 29231
             },
             {
               "id": 376015626,
@@ -3846,17 +3846,17 @@
           "tag": "v1.25.0",
           "published_at": "2026-04-20T18:25:24Z",
           "prerelease": false,
-          "total": 44835,
+          "total": 44859,
           "assets": [
             {
               "id": 400891653,
               "name": "onnxruntime-linux-aarch64-1.25.0.tgz",
-              "download_count": 4392
+              "download_count": 4395
             },
             {
               "id": 400891814,
               "name": "onnxruntime-linux-x64-1.25.0.tgz",
-              "download_count": 31641
+              "download_count": 31660
             },
             {
               "id": 400892179,
@@ -3871,7 +3871,7 @@
             {
               "id": 400901895,
               "name": "onnxruntime-osx-arm64-1.25.0.tgz",
-              "download_count": 2393
+              "download_count": 2395
             },
             {
               "id": 400902082,
@@ -3905,17 +3905,17 @@
           "tag": "v1.25.1",
           "published_at": "2026-04-27T21:46:20Z",
           "prerelease": false,
-          "total": 50403,
+          "total": 50416,
           "assets": [
             {
               "id": 406830243,
               "name": "onnxruntime-linux-aarch64-1.25.1.tgz",
-              "download_count": 5247
+              "download_count": 5249
             },
             {
               "id": 406830267,
               "name": "onnxruntime-linux-x64-1.25.1.tgz",
-              "download_count": 28199
+              "download_count": 28204
             },
             {
               "id": 406830296,
@@ -3930,7 +3930,7 @@
             {
               "id": 406831314,
               "name": "onnxruntime-osx-arm64-1.25.1.tgz",
-              "download_count": 4074
+              "download_count": 4075
             },
             {
               "id": 406831388,
@@ -3945,7 +3945,7 @@
             {
               "id": 406831931,
               "name": "onnxruntime-win-x64-1.25.1.zip",
-              "download_count": 6231
+              "download_count": 6236
             },
             {
               "id": 406832101,
@@ -3964,32 +3964,32 @@
           "tag": "v1.26.0",
           "published_at": "2026-05-08T19:24:39Z",
           "prerelease": false,
-          "total": 162467,
+          "total": 162562,
           "assets": [
             {
               "id": 415501303,
               "name": "onnxruntime-linux-aarch64-1.26.0.tgz",
-              "download_count": 10595
+              "download_count": 10602
             },
             {
               "id": 415501317,
               "name": "onnxruntime-linux-x64-1.26.0.tgz",
-              "download_count": 95729
+              "download_count": 95800
             },
             {
               "id": 415501323,
               "name": "onnxruntime-linux-x64-gpu_cuda13-1.26.0.tgz",
-              "download_count": 2285
+              "download_count": 2286
             },
             {
               "id": 415501742,
               "name": "onnxruntime-linux-x64-gpu-1.26.0.tgz",
-              "download_count": 5493
+              "download_count": 5494
             },
             {
               "id": 415502464,
               "name": "onnxruntime-osx-arm64-1.26.0.tgz",
-              "download_count": 16611
+              "download_count": 16618
             },
             {
               "id": 415502634,
@@ -4004,7 +4004,7 @@
             {
               "id": 415503188,
               "name": "onnxruntime-win-x64-1.26.0.zip",
-              "download_count": 23585
+              "download_count": 23593
             },
             {
               "id": 415503428,
@@ -4031,22 +4031,22 @@
           "tag": "v1.27.0",
           "published_at": "2026-06-19T21:11:07Z",
           "prerelease": false,
-          "total": 156117,
+          "total": 156176,
           "assets": [
             {
               "id": 448652755,
               "name": "onnxruntime-linux-aarch64-1.27.0.tgz",
-              "download_count": 10887
+              "download_count": 10895
             },
             {
               "id": 448652775,
               "name": "onnxruntime-linux-x64-1.27.0.tgz",
-              "download_count": 95357
+              "download_count": 95389
             },
             {
               "id": 448652794,
               "name": "onnxruntime-linux-x64-gpu_cuda12-1.27.0.tgz",
-              "download_count": 1972
+              "download_count": 1974
             },
             {
               "id": 448653697,
@@ -4056,7 +4056,7 @@
             {
               "id": 448654532,
               "name": "onnxruntime-osx-arm64-1.27.0.tgz",
-              "download_count": 13683
+              "download_count": 13688
             },
             {
               "id": 448654638,
@@ -4076,12 +4076,12 @@
             {
               "id": 448656771,
               "name": "onnxruntime-win-x64-gpu_cuda13-1.27.0.zip",
-              "download_count": 2212
+              "download_count": 2217
             },
             {
               "id": 454598864,
               "name": "onnxruntime-win-x64-1.27.0.zip",
-              "download_count": 23429
+              "download_count": 23436
             }
           ]
         },
@@ -4090,12 +4090,12 @@
           "tag": "v1.27.1",
           "published_at": "2026-07-11T01:11:02Z",
           "prerelease": false,
-          "total": 71106,
+          "total": 71141,
           "assets": [
             {
               "id": 472953350,
               "name": "onnxruntime-linux-x64-gpu_cuda13-1.27.1.tgz",
-              "download_count": 10249
+              "download_count": 10250
             },
             {
               "id": 472953478,
@@ -4105,7 +4105,7 @@
             {
               "id": 472953782,
               "name": "onnxruntime-win-x64-1.27.1.zip",
-              "download_count": 4775
+              "download_count": 4776
             },
             {
               "id": 472953957,
@@ -4120,7 +4120,7 @@
             {
               "id": 472954635,
               "name": "onnxruntime-osx-arm64-1.27.1.tgz",
-              "download_count": 8124
+              "download_count": 8125
             },
             {
               "id": 472954763,
@@ -4130,7 +4130,7 @@
             {
               "id": 472954982,
               "name": "onnxruntime-linux-x64-1.27.1.tgz",
-              "download_count": 26368
+              "download_count": 26399
             },
             {
               "id": 472955013,
@@ -4140,7 +4140,7 @@
             {
               "id": 473075059,
               "name": "onnxruntime-win-x64-gpu_cuda13-1.27.1.zip",
-              "download_count": 5236
+              "download_count": 5237
             }
           ]
         },
@@ -4149,7 +4149,7 @@
           "tag": "v1.28.0",
           "published_at": "2026-07-25T05:27:07Z",
           "prerelease": false,
-          "total": 102556,
+          "total": 102731,
           "assets": [
             {
               "id": 489173035,
@@ -4169,17 +4169,17 @@
             {
               "id": 489173573,
               "name": "onnxruntime-win-x64-1.28.0.zip",
-              "download_count": 22765
+              "download_count": 22840
             },
             {
               "id": 489173635,
               "name": "onnxruntime-win-x64-gpu_cuda12-1.28.0.zip",
-              "download_count": 1357
+              "download_count": 1361
             },
             {
               "id": 489174067,
               "name": "onnxruntime-linux-x64-gpu_cuda13-1.28.0.tgz",
-              "download_count": 1390
+              "download_count": 1392
             },
             {
               "id": 489174273,
@@ -4189,17 +4189,17 @@
             {
               "id": 489174677,
               "name": "onnxruntime-linux-x64-1.28.0.tgz",
-              "download_count": 54530
+              "download_count": 54599
             },
             {
               "id": 489174685,
               "name": "onnxruntime-osx-arm64-1.28.0.tgz",
-              "download_count": 10209
+              "download_count": 10222
             },
             {
               "id": 490655264,
               "name": "onnxruntime-linux-aarch64-1.28.0.tgz",
-              "download_count": 7470
+              "download_count": 7482
             }
           ]
         },
@@ -4216,12 +4216,12 @@
           "tag": "v1.29.0",
           "published_at": "2026-08-12T06:15:37Z",
           "prerelease": false,
-          "total": 118976,
+          "total": 119119,
           "assets": [
             {
               "id": 511115910,
               "name": "onnxruntime-win-x64-1.29.0.zip",
-              "download_count": 18969
+              "download_count": 18983
             },
             {
               "id": 511115959,
@@ -4236,7 +4236,7 @@
             {
               "id": 511118041,
               "name": "onnxruntime-win-arm64-1.29.0.zip",
-              "download_count": 5066
+              "download_count": 5068
             },
             {
               "id": 511118571,
@@ -4251,17 +4251,17 @@
             {
               "id": 511120261,
               "name": "onnxruntime-linux-aarch64-1.29.0.tgz",
-              "download_count": 6279
+              "download_count": 6283
             },
             {
               "id": 511120291,
               "name": "onnxruntime-linux-x64-1.29.0.tgz",
-              "download_count": 72738
+              "download_count": 72852
             },
             {
               "id": 511120373,
               "name": "onnxruntime-osx-arm64-1.29.0.tgz",
-              "download_count": 10044
+              "download_count": 10053
             },
             {
               "id": 511140963,
@@ -4314,7 +4314,7 @@
           "tag": "v1.28.1",
           "published_at": "2026-08-18T23:19:52Z",
           "prerelease": false,
-          "total": 19935,
+          "total": 19949,
           "assets": [
             {
               "id": 520090858,
@@ -4339,7 +4339,7 @@
             {
               "id": 520096692,
               "name": "onnxruntime-win-x64-1.28.1.zip",
-              "download_count": 3052
+              "download_count": 3055
             },
             {
               "id": 520097048,
@@ -4364,7 +4364,7 @@
             {
               "id": 520103401,
               "name": "onnxruntime-linux-x64-1.28.1.tgz",
-              "download_count": 11436
+              "download_count": 11447
             }
           ]
         },
@@ -4381,7 +4381,7 @@
           "tag": "v1.28.2",
           "published_at": "2026-09-03T01:17:16Z",
           "prerelease": false,
-          "total": 18817,
+          "total": 18854,
           "assets": [
             {
               "id": 542003860,
@@ -4401,7 +4401,7 @@
             {
               "id": 542003864,
               "name": "onnxruntime-linux-x64-1.28.2.tgz",
-              "download_count": 6618
+              "download_count": 6619
             },
             {
               "id": 542003867,
@@ -4421,7 +4421,7 @@
             {
               "id": 542003886,
               "name": "onnxruntime-win-x64-1.28.2.zip",
-              "download_count": 5256
+              "download_count": 5275
             },
             {
               "id": 542003967,
@@ -4431,7 +4431,7 @@
             {
               "id": 542003969,
               "name": "onnxruntime-win-x64-gpu_cuda13-1.28.2.zip",
-              "download_count": 3654
+              "download_count": 3671
             }
           ]
         },
@@ -4440,12 +4440,12 @@
           "tag": "v1.29.1",
           "published_at": "2026-09-10T05:26:07Z",
           "prerelease": false,
-          "total": 4082,
+          "total": 4098,
           "assets": [
             {
               "id": 554304376,
               "name": "onnxruntime-linux-x64-1.29.1.tgz",
-              "download_count": 2465
+              "download_count": 2475
             },
             {
               "id": 554304377,
@@ -4455,7 +4455,7 @@
             {
               "id": 554304378,
               "name": "onnxruntime-linux-aarch64-1.29.1.tgz",
-              "download_count": 256
+              "download_count": 258
             },
             {
               "id": 554304379,
@@ -4480,12 +4480,12 @@
             {
               "id": 554304432,
               "name": "onnxruntime-win-x64-1.29.1.zip",
-              "download_count": 467
+              "download_count": 469
             },
             {
               "id": 554304510,
               "name": "onnxruntime-win-x64-gpu_cuda12-1.29.1.zip",
-              "download_count": 97
+              "download_count": 99
             },
             {
               "id": 554304528,
@@ -4499,27 +4499,27 @@
           "tag": "v1.30.0",
           "published_at": "2026-09-10T16:55:55Z",
           "prerelease": false,
-          "total": 239731,
+          "total": 240587,
           "assets": [
             {
               "id": 555411806,
               "name": "onnxruntime-linux-x64-gpu_cuda12-1.30.0.tgz",
-              "download_count": 6125
+              "download_count": 6145
             },
             {
               "id": 555412256,
               "name": "onnxruntime-linux-x64-1.30.0.tgz",
-              "download_count": 40644
+              "download_count": 40729
             },
             {
               "id": 555412302,
               "name": "onnxruntime-linux-aarch64-1.30.0.tgz",
-              "download_count": 6242
+              "download_count": 6247
             },
             {
               "id": 555412327,
               "name": "onnxruntime-linux-x64-gpu_cuda13-1.30.0.tgz",
-              "download_count": 2529
+              "download_count": 2533
             },
             {
               "id": 555412559,
@@ -4529,12 +4529,12 @@
             {
               "id": 555412859,
               "name": "onnxruntime-win-x64-gpu_cuda12-1.30.0.zip",
-              "download_count": 77956
+              "download_count": 78296
             },
             {
               "id": 555413217,
               "name": "onnxruntime-win-x64-1.30.0.zip",
-              "download_count": 94171
+              "download_count": 94548
             },
             {
               "id": 555413301,
@@ -4549,7 +4549,7 @@
             {
               "id": 555413457,
               "name": "onnxruntime-osx-arm64-1.30.0.tgz",
-              "download_count": 8897
+              "download_count": 8922
             }
           ]
         },
@@ -4566,12 +4566,12 @@
           "tag": "v1.28.3",
           "published_at": "2026-10-02T20:48:43Z",
           "prerelease": false,
-          "total": 8708,
+          "total": 8735,
           "assets": [
             {
               "id": 604067196,
               "name": "onnxruntime-linux-aarch64-1.28.3.tgz",
-              "download_count": 546
+              "download_count": 547
             },
             {
               "id": 604067198,
@@ -4581,12 +4581,12 @@
             {
               "id": 604067270,
               "name": "onnxruntime-linux-x64-1.28.3.tgz",
-              "download_count": 4644
+              "download_count": 4657
             },
             {
               "id": 604067326,
               "name": "onnxruntime-osx-arm64-1.28.3.tgz",
-              "download_count": 1035
+              "download_count": 1038
             },
             {
               "id": 604067437,
@@ -4606,7 +4606,7 @@
             {
               "id": 604067913,
               "name": "onnxruntime-win-x64-1.28.3.zip",
-              "download_count": 2081
+              "download_count": 2091
             },
             {
               "id": 604068109,
@@ -4625,7 +4625,7 @@
           "tag": "plugin-ep-cuda/v0.2.0",
           "published_at": "2026-10-08T22:11:44Z",
           "prerelease": false,
-          "total": 45,
+          "total": 46,
           "assets": [
             {
               "id": 623142856,
@@ -4650,7 +4650,7 @@
             {
               "id": 623143658,
               "name": "cuda_ep_cuda12_0.2.0_win-x64.zip",
-              "download_count": 14
+              "download_count": 15
             },
             {
               "id": 623143984,
@@ -4703,52 +4703,52 @@
           "tag": "v1.31.0",
           "published_at": "2026-10-09T04:51:32Z",
           "prerelease": false,
-          "total": 24824,
+          "total": 24990,
           "assets": [
             {
               "id": 623887024,
               "name": "onnxruntime-linux-x64-gpu_cuda13-1.31.0.tgz",
-              "download_count": 589
+              "download_count": 591
             },
             {
               "id": 623887335,
               "name": "onnxruntime-win-x64-gpu_cuda13-1.31.0.zip",
-              "download_count": 539
+              "download_count": 540
             },
             {
               "id": 623887596,
               "name": "onnxruntime-linux-x64-1.31.0.tgz",
-              "download_count": 10704
+              "download_count": 10781
             },
             {
               "id": 623887681,
               "name": "onnxruntime-osx-arm64-1.31.0.tgz",
-              "download_count": 3147
+              "download_count": 3190
             },
             {
               "id": 623887752,
               "name": "onnxruntime-win-arm64-1.31.0.zip",
-              "download_count": 371
+              "download_count": 372
             },
             {
               "id": 623887843,
               "name": "onnxruntime-win-x64-1.31.0.zip",
-              "download_count": 6346
+              "download_count": 6376
             },
             {
               "id": 623887939,
               "name": "onnxruntime-linux-aarch64-1.31.0.tgz",
-              "download_count": 2158
+              "download_count": 2168
             },
             {
               "id": 623887975,
               "name": "onnxruntime-linux-x64-gpu_cuda12-1.31.0.tgz",
-              "download_count": 334
+              "download_count": 335
             },
             {
               "id": 623888392,
               "name": "onnxruntime-win-x64-gpu_cuda12-1.31.0.zip",
-              "download_count": 576
+              "download_count": 577
             },
             {
               "id": 623891787,
@@ -4887,7 +4887,7 @@
     },
     {
       "repository": "microsoft/onnxruntime-genai",
-      "total": 30447,
+      "total": 30472,
       "releases": [
         {
           "id": 158220095,
@@ -5242,7 +5242,7 @@
           "tag": "v0.7.0",
           "published_at": "2025-03-28T16:58:37Z",
           "prerelease": false,
-          "total": 4105,
+          "total": 4117,
           "assets": [
             {
               "id": 241635488,
@@ -5287,7 +5287,7 @@
             {
               "id": 241635526,
               "name": "onnxruntime-genai-0.7.0-linux-x64.tar.gz",
-              "download_count": 2069
+              "download_count": 2081
             },
             {
               "id": 241635530,
@@ -6172,7 +6172,7 @@
           "tag": "v0.12.0",
           "published_at": "2026-02-13T17:38:22Z",
           "prerelease": false,
-          "total": 1250,
+          "total": 1251,
           "assets": [
             {
               "id": 355460991,
@@ -6222,7 +6222,7 @@
             {
               "id": 355461126,
               "name": "onnxruntime-genai-android-0.12.0.aar",
-              "download_count": 419
+              "download_count": 420
             },
             {
               "id": 355462455,
@@ -6581,7 +6581,7 @@
           "tag": "v0.14.0",
           "published_at": "2026-05-29T18:06:43Z",
           "prerelease": false,
-          "total": 6686,
+          "total": 6688,
           "assets": [
             {
               "id": 433227606,
@@ -6621,7 +6621,7 @@
             {
               "id": 433227762,
               "name": "onnxruntime-genai-0.14.0-win-x64.zip",
-              "download_count": 677
+              "download_count": 679
             },
             {
               "id": 433227783,
@@ -6996,7 +6996,7 @@
           "tag": "v0.17.0",
           "published_at": "2026-09-28T06:15:36Z",
           "prerelease": false,
-          "total": 624,
+          "total": 634,
           "assets": [
             {
               "id": 594664994,
@@ -7006,12 +7006,12 @@
             {
               "id": 594665033,
               "name": "onnxruntime-genai-0.17.0-linux-x64.tar.gz",
-              "download_count": 112
+              "download_count": 116
             },
             {
               "id": 594665062,
               "name": "onnxruntime-genai-0.17.0-linux-x64-cuda.tar.gz",
-              "download_count": 29
+              "download_count": 30
             },
             {
               "id": 594665103,
@@ -7051,12 +7051,12 @@
             {
               "id": 594665198,
               "name": "onnxruntime-genai-android-0.17.0.aar",
-              "download_count": 196
+              "download_count": 197
             },
             {
               "id": 594665219,
               "name": "pod-archive-onnxruntime-genai-objc-0.17.0.zip",
-              "download_count": 7
+              "download_count": 9
             },
             {
               "id": 594665229,
@@ -7066,7 +7066,7 @@
             {
               "id": 594665277,
               "name": "onnxruntime-genai-ios-0.17.0.zip",
-              "download_count": 13
+              "download_count": 15
             },
             {
               "id": 594665354,
@@ -7448,7 +7448,7 @@
     },
     {
       "repository": "xadupre/onnx-light",
-      "total": 11067,
+      "total": 11087,
       "releases": [
         {
           "id": 342897027,
@@ -11838,7 +11838,7 @@
           "tag": "0.1.33",
           "published_at": "2026-10-18T11:15:14Z",
           "prerelease": false,
-          "total": 164,
+          "total": 170,
           "assets": [
             {
               "id": 653330557,
@@ -11923,7 +11923,7 @@
             {
               "id": 653440836,
               "name": "onnx_light-0.1.33-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
-              "download_count": 82
+              "download_count": 88
             },
             {
               "id": 653577199,
@@ -11977,7 +11977,7 @@
           "tag": "0.1.35",
           "published_at": "2026-10-18T21:35:48Z",
           "prerelease": false,
-          "total": 58,
+          "total": 72,
           "assets": [
             {
               "id": 654570386,
@@ -11987,7 +11987,7 @@
             {
               "id": 654573236,
               "name": "onnx-light-cpp-linux-x86_64.tar.gz",
-              "download_count": 27
+              "download_count": 41
             },
             {
               "id": 654579152,
@@ -12666,11 +12666,11 @@
     {
       "date": "2026-10-22",
       "totals": {
-        "microsoft/onnxruntime": 25277971,
+        "microsoft/onnxruntime": 25285191,
         "microsoft/onnxruntime-extensions": 0,
-        "microsoft/onnxruntime-genai": 30447,
+        "microsoft/onnxruntime-genai": 30472,
         "onnx/onnx": 35634,
-        "xadupre/onnx-light": 11067,
+        "xadupre/onnx-light": 11087,
         "xadupre/onnx-light-com-microsoft": 0,
         "xadupre/onnx-light-cpu": 2932,
         "xadupre/onnx-light-kernel-images": 0,
@@ -12707,7 +12707,7 @@
           "14083703": 701,
           "14083704": 262,
           "14083705": 146,
-          "14083706": 1945,
+          "14083706": 1949,
           "14083707": 417,
           "15830415": 1159,
           "15830426": 4198,
@@ -12789,7 +12789,7 @@
           "32843746": 1938,
           "32843767": 1929,
           "32843782": 2906,
-          "32843828": 3081,
+          "32843828": 3082,
           "32843848": 230,
           "32843876": 112,
           "32843932": 33956,
@@ -12843,7 +12843,7 @@
           "51255181": 193,
           "51255195": 14446,
           "51255196": 1812,
-          "51255206": 42799,
+          "51255206": 42802,
           "51255208": 34511,
           "57729732": 6526,
           "60598830": 201,
@@ -12893,20 +12893,20 @@
           "73710049": 842,
           "73710053": 5317,
           "73710055": 50152,
-          "73710056": 25955,
+          "73710056": 25959,
           "73710079": 2923,
-          "73710082": 3114,
+          "73710082": 3115,
           "73710083": 2642,
           "73710085": 259,
           "73710087": 217,
           "73710091": 10009,
-          "73710092": 19463,
+          "73710092": 19467,
           "73710103": 1300,
           "82016220": 555,
           "82016301": 621,
           "82016303": 4070,
           "82016305": 7677,
-          "82016308": 94109,
+          "82016308": 94110,
           "82016345": 12320,
           "82016398": 5078,
           "82016401": 2263,
@@ -12917,7 +12917,7 @@
           "82016486": 5912,
           "82016615": 3069,
           "95120074": 5500,
-          "95120086": 50772,
+          "95120086": 50774,
           "95120242": 17145,
           "95120740": 4292,
           "95120745": 3419,
@@ -12933,11 +12933,11 @@
           "97361057": 30417,
           "97361096": 278,
           "97361134": 675,
-          "97361202": 27032,
+          "97361202": 27033,
           "97361218": 1900,
-          "97361228": 47749,
+          "97361228": 47755,
           "97361232": 106959,
-          "97361362": 439228,
+          "97361362": 439236,
           "97361366": 57441,
           "97361713": 1303,
           "97361746": 6520,
@@ -12962,7 +12962,7 @@
           "109664089": 1328,
           "109664092": 1158,
           "109664094": 1164,
-          "109664096": 15274,
+          "109664096": 15277,
           "109664098": 2183,
           "113117922": 657,
           "113117948": 905,
@@ -12972,21 +12972,21 @@
           "113118287": 9414,
           "113118288": 16014,
           "113118290": 8531,
-          "113118291": 112780,
-          "113118297": 138561,
+          "113118291": 112781,
+          "113118297": 138581,
           "113118303": 17239,
           "113118308": 80,
           "113118315": 11490,
           "113118322": 3044,
-          "113118336": 29534,
+          "113118336": 29536,
           "113118337": 1784,
           "113118338": 241,
           "113118343": 124,
           "113118352": 1844,
           "113118359": 98,
-          "126978903": 36833,
-          "126978911": 38313,
-          "126978914": 103677,
+          "126978903": 36840,
+          "126978911": 38321,
+          "126978914": 103679,
           "126978915": 25605,
           "126978916": 947,
           "126978920": 4298,
@@ -13022,7 +13022,7 @@
           "130118899": 4552,
           "130118906": 13326,
           "130118922": 4866,
-          "130118923": 45837,
+          "130118923": 45840,
           "130118925": 4094,
           "134720932": 232,
           "134720941": 3977,
@@ -13040,12 +13040,12 @@
           "134721033": 3455,
           "134721039": 3958,
           "134721054": 209,
-          "134721056": 50600,
-          "134721057": 1047,
+          "134721056": 50606,
+          "134721057": 1054,
           "134721059": 179,
           "134721075": 151,
-          "136583126": 252327,
-          "136583131": 26299,
+          "136583126": 252342,
+          "136583131": 26371,
           "136583132": 179,
           "136583133": 1524,
           "136583134": 91,
@@ -13058,14 +13058,14 @@
           "136583176": 1469,
           "136583182": 9222,
           "136583196": 31012,
-          "136583199": 3539,
+          "136583199": 3542,
           "136583201": 7585,
-          "136583204": 25080,
+          "136583204": 25083,
           "136583728": 715,
           "136583732": 590,
           "136583773": 1236,
           "148967673": 4635,
-          "148967695": 47218,
+          "148967695": 47226,
           "148967711": 5184,
           "148967906": 2983,
           "148967909": 1899,
@@ -13078,7 +13078,7 @@
           "148968045": 157,
           "148968057": 668,
           "148968161": 8235,
-          "148968171": 4375,
+          "148968171": 4376,
           "148968204": 561,
           "148969725": 317,
           "148969753": 437,
@@ -13094,11 +13094,11 @@
           "153441965": 1473,
           "153441969": 78,
           "153441978": 5127,
-          "153441982": 79248,
+          "153441982": 79249,
           "153441985": 6598,
           "153441988": 13829,
-          "153442001": 194869,
-          "153442002": 319076,
+          "153442001": 194881,
+          "153442002": 319116,
           "153442003": 113240,
           "153442005": 29558,
           "153442276": 166,
@@ -13108,8 +13108,8 @@
           "153444132": 1864,
           "161202434": 142,
           "161202499": 97,
-          "161202502": 3674,
-          "161202523": 15624,
+          "161202502": 3676,
+          "161202523": 15635,
           "161202533": 1397,
           "161202540": 139,
           "161202548": 235,
@@ -13117,12 +13117,12 @@
           "161202606": 65,
           "161202611": 104,
           "161202612": 4698,
-          "161202614": 1895,
-          "161202621": 5086,
+          "161202614": 1897,
+          "161202621": 5088,
           "161202625": 303,
-          "161202641": 1470130,
-          "161202662": 64010,
-          "161202666": 8733,
+          "161202641": 1470672,
+          "161202662": 64014,
+          "161202666": 8734,
           "161206028": 2289,
           "161221008": 189,
           "161221029": 112,
@@ -13133,8 +13133,8 @@
           "169083708": 1617,
           "169083787": 168,
           "169083789": 6939,
-          "169083792": 83852,
-          "169083820": 290937,
+          "169083792": 83857,
+          "169083820": 290953,
           "169083982": 36062,
           "169084126": 382,
           "169084287": 5722,
@@ -13146,24 +13146,24 @@
           "169084467": 371,
           "169084534": 166,
           "169084663": 633,
-          "169084710": 14236,
+          "169084710": 14247,
           "169084824": 4662,
           "169085026": 4741,
           "169085286": 842,
           "176364363": 4322,
-          "176364657": 15875,
+          "176364657": 15879,
           "176382956": 159,
           "176382965": 376,
           "176383616": 948,
-          "176383621": 4586,
-          "176383719": 12066,
+          "176383621": 4588,
+          "176383719": 12071,
           "176383797": 1416,
-          "176383988": 7054,
+          "176383988": 7055,
           "176383990": 2411,
-          "176383991": 2055,
-          "176384629": 15908,
-          "176384640": 56747,
-          "176384642": 100629,
+          "176383991": 2056,
+          "176384629": 15910,
+          "176384640": 56749,
+          "176384642": 100670,
           "186059042": 959,
           "186059057": 276,
           "186059065": 226,
@@ -13171,7 +13171,7 @@
           "186059166": 2442,
           "186059365": 414,
           "186059397": 4158,
-          "186059401": 49856,
+          "186059401": 49860,
           "186059786": 865,
           "186060725": 99,
           "186060726": 729,
@@ -13182,21 +13182,21 @@
           "186198225": 132,
           "186198235": 93,
           "186198273": 260,
-          "187222734": 98680,
-          "190204577": 41253,
-          "190204584": 242805,
-          "190204588": 921787,
-          "190204605": 11715,
-          "190204611": 15257,
-          "190204615": 2817,
+          "187222734": 98682,
+          "190204577": 41273,
+          "190204584": 242850,
+          "190204588": 922078,
+          "190204605": 11722,
+          "190204611": 15258,
+          "190204615": 2822,
           "190204618": 296,
           "190204619": 1749,
           "190204621": 194,
           "190204627": 634,
           "190204629": 203,
           "190204633": 5054,
-          "190204639": 57860,
-          "190204640": 59416,
+          "190204639": 57865,
+          "190204640": 59419,
           "190204643": 2192,
           "190205079": 373,
           "190205118": 257,
@@ -13207,198 +13207,198 @@
           "202998893": 124,
           "202999021": 195,
           "202999047": 561,
-          "202999099": 15339,
+          "202999099": 15342,
           "202999121": 430,
-          "202999144": 18427,
+          "202999144": 18428,
           "202999145": 2319,
           "202999152": 49300,
-          "202999196": 270751,
+          "202999196": 270772,
           "202999199": 22777,
           "204131429": 3818,
-          "204131584": 104751,
-          "208183212": 53527,
-          "208183214": 264860,
+          "204131584": 104755,
+          "208183212": 53543,
+          "208183214": 264955,
           "208183216": 36309,
-          "208183218": 7878,
-          "208183222": 10087,
+          "208183218": 7883,
+          "208183222": 10088,
           "208183223": 2695,
           "208183250": 1544,
-          "208183685": 3657744,
+          "208183685": 3658027,
           "208183749": 24454,
-          "208987137": 43345,
-          "235667053": 74056,
-          "235667158": 27495,
+          "208987137": 43355,
+          "235667053": 74093,
+          "235667158": 27504,
           "235667457": 1260,
-          "235667484": 3196,
+          "235667484": 3201,
           "235667571": 6336,
           "235667599": 949,
-          "235667880": 13208,
+          "235667880": 13215,
           "235667944": 611,
           "235671015": 162,
           "235671363": 385,
           "235671416": 1666,
           "235671448": 197,
-          "236224243": 6817,
-          "236224852": 7638661,
-          "248850407": 942916,
+          "236224243": 6818,
+          "236224852": 7641002,
+          "248850407": 943328,
           "253300361": 391,
           "253300364": 198,
-          "253300381": 1799,
-          "253300383": 97189,
-          "253300385": 538881,
-          "253300386": 68121,
-          "253300410": 63931,
-          "253300416": 12907,
-          "253300427": 6720,
-          "253300429": 11424,
-          "253300435": 138201,
+          "253300381": 1800,
+          "253300383": 97214,
+          "253300385": 539111,
+          "253300386": 68127,
+          "253300410": 63941,
+          "253300416": 12916,
+          "253300427": 6723,
+          "253300429": 11425,
+          "253300435": 138277,
           "253300438": 11880,
-          "253300478": 2045,
+          "253300478": 2046,
           "268720181": 814,
-          "268720186": 17486,
-          "268720192": 4795,
-          "268720211": 2854,
-          "268751641": 3846,
+          "268720186": 17493,
+          "268720192": 4796,
+          "268720211": 2855,
+          "268751641": 3847,
           "268774275": 1322,
           "268774281": 243,
           "268774282": 577,
           "269432996": 132,
           "282208205": 1152,
           "282208225": 901,
-          "297419832": 2446,
-          "297419870": 6869,
+          "297419832": 2447,
+          "297419870": 6870,
           "297419876": 235,
-          "297419889": 9348,
+          "297419889": 9349,
           "297419903": 1986,
-          "297419931": 2441,
-          "297419964": 6333,
-          "297419976": 81005,
-          "297419984": 11997,
+          "297419931": 2444,
+          "297419964": 6344,
+          "297419976": 81015,
+          "297419984": 11999,
           "301788887": 882,
-          "301788896": 3270,
+          "301788896": 3272,
           "301788899": 791,
-          "301788909": 3965,
-          "301788918": 5923,
-          "301788961": 22249,
+          "301788909": 3972,
+          "301788918": 5925,
+          "301788961": 22254,
           "301788965": 1780,
           "301789148": 3786,
           "301789181": 539,
-          "308474603": 17424,
-          "308474632": 66279,
+          "308474603": 17431,
+          "308474632": 66298,
           "308474643": 2578,
-          "308474652": 14904,
-          "308474657": 48846,
-          "308474678": 257943,
-          "308474683": 36560,
-          "308474688": 279270,
-          "308474693": 23104,
+          "308474652": 14922,
+          "308474657": 48869,
+          "308474678": 258031,
+          "308474683": 36577,
+          "308474688": 279348,
+          "308474693": 23117,
           "351357523": 2808,
           "351357758": 8402,
           "351357808": 219,
-          "351357869": 15699,
+          "351357869": 15700,
           "351357934": 12372,
-          "351357977": 16952,
-          "351360918": 73913,
+          "351357977": 16955,
+          "351360918": 73921,
           "351803020": 10099,
           "351803488": 3342,
-          "358441208": 34287,
-          "358441215": 114013,
-          "358441219": 8198,
-          "358441256": 55881,
+          "358441208": 34293,
+          "358441215": 114063,
+          "358441219": 8201,
+          "358441256": 55926,
           "358441270": 28492,
-          "358441296": 119205,
-          "358781187": 8107,
+          "358441296": 119297,
+          "358781187": 8110,
           "358787838": 3826,
           "358788176": 1116,
-          "367674269": 6776,
-          "367674329": 33097,
+          "367674269": 6777,
+          "367674329": 33133,
           "367674486": 198,
           "367674630": 34,
-          "367707852": 6068,
-          "367707923": 8167,
+          "367707852": 6069,
+          "367707923": 8168,
           "367708093": 2302,
           "367708288": 716,
           "367709641": 668,
           "367709913": 223,
-          "376015298": 26110,
-          "376015310": 146191,
-          "376015314": 39396,
-          "376015406": 32812,
+          "376015298": 26120,
+          "376015310": 146243,
+          "376015314": 39409,
+          "376015406": 32821,
           "376015421": 959,
           "376015448": 118,
-          "376015528": 29223,
+          "376015528": 29231,
           "376015626": 6403,
           "376017161": 1904,
           "376017277": 5437,
-          "400891653": 4392,
-          "400891814": 31641,
+          "400891653": 4395,
+          "400891814": 31660,
           "400892179": 1779,
           "400899916": 307,
-          "400901895": 2393,
+          "400901895": 2395,
           "400902082": 189,
           "400902498": 49,
           "400903373": 2793,
           "400907501": 945,
           "400909216": 347,
-          "406830243": 5247,
-          "406830267": 28199,
+          "406830243": 5249,
+          "406830267": 28204,
           "406830296": 522,
           "406830766": 3708,
-          "406831314": 4074,
+          "406831314": 4075,
           "406831388": 286,
           "406831547": 53,
-          "406831931": 6231,
+          "406831931": 6236,
           "406832101": 528,
           "408245961": 1555,
-          "415501303": 10595,
-          "415501317": 95729,
-          "415501323": 2285,
-          "415501742": 5493,
-          "415502464": 16611,
+          "415501303": 10602,
+          "415501317": 95800,
+          "415501323": 2286,
+          "415501742": 5494,
+          "415502464": 16618,
           "415502634": 1383,
           "415502895": 144,
-          "415503188": 23585,
+          "415503188": 23593,
           "415503428": 2146,
           "415504301": 4496,
-          "448652755": 10887,
-          "448652775": 95357,
-          "448652794": 1972,
+          "448652755": 10895,
+          "448652775": 95389,
+          "448652794": 1974,
           "448653697": 1792,
-          "448654532": 13683,
+          "448654532": 13688,
           "448654638": 5112,
           "448654962": 154,
           "448655506": 1519,
-          "448656771": 2212,
-          "454598864": 23429,
-          "472953350": 10249,
+          "448656771": 2217,
+          "454598864": 23436,
+          "472953350": 10250,
           "472953478": 2768,
-          "472953782": 4775,
+          "472953782": 4776,
           "472953957": 91,
           "472954332": 502,
-          "472954635": 8124,
+          "472954635": 8125,
           "472954763": 9914,
-          "472954982": 26368,
+          "472954982": 26399,
           "472955013": 3079,
-          "473075059": 5236,
+          "473075059": 5237,
           "489173035": 1959,
           "489173146": 1756,
           "489173437": 116,
-          "489173573": 22765,
-          "489173635": 1357,
-          "489174067": 1390,
+          "489173573": 22840,
+          "489173635": 1361,
+          "489174067": 1392,
           "489174273": 1004,
-          "489174677": 54530,
-          "489174685": 10209,
-          "490655264": 7470,
-          "511115910": 18969,
+          "489174677": 54599,
+          "489174685": 10222,
+          "490655264": 7482,
+          "511115910": 18983,
           "511115959": 943,
           "511117815": 70,
-          "511118041": 5066,
+          "511118041": 5068,
           "511118571": 739,
           "511119584": 1637,
-          "511120261": 6279,
-          "511120291": 72738,
-          "511120373": 10044,
+          "511120261": 6283,
+          "511120291": 72852,
+          "511120373": 10053,
           "511140963": 2491,
           "518338516": 101,
           "518338774": 160,
@@ -13410,57 +13410,57 @@
           "520094993": 1201,
           "520095393": 729,
           "520095828": 37,
-          "520096692": 3052,
+          "520096692": 3055,
           "520097048": 332,
           "520099826": 486,
           "520101554": 363,
           "520103360": 1676,
-          "520103401": 11436,
+          "520103401": 11447,
           "542003860": 274,
           "542003861": 938,
           "542003862": 341,
-          "542003864": 6618,
+          "542003864": 6619,
           "542003867": 849,
           "542003878": 423,
           "542003883": 25,
-          "542003886": 5256,
+          "542003886": 5275,
           "542003967": 439,
-          "542003969": 3654,
-          "554304376": 2465,
+          "542003969": 3671,
+          "554304376": 2475,
           "554304377": 170,
-          "554304378": 256,
+          "554304378": 258,
           "554304379": 234,
           "554304383": 280,
           "554304416": 31,
           "554304417": 13,
-          "554304432": 467,
-          "554304510": 97,
+          "554304432": 469,
+          "554304510": 99,
           "554304528": 69,
-          "555411806": 6125,
-          "555412256": 40644,
-          "555412302": 6242,
-          "555412327": 2529,
+          "555411806": 6145,
+          "555412256": 40729,
+          "555412302": 6247,
+          "555412327": 2533,
           "555412559": 1245,
-          "555412859": 77956,
-          "555413217": 94171,
+          "555412859": 78296,
+          "555413217": 94548,
           "555413301": 146,
           "555413383": 1776,
-          "555413457": 8897,
-          "604067196": 546,
+          "555413457": 8922,
+          "604067196": 547,
           "604067198": 76,
-          "604067270": 4644,
-          "604067326": 1035,
+          "604067270": 4657,
+          "604067326": 1038,
           "604067437": 40,
           "604067543": 75,
           "604067658": 10,
-          "604067913": 2081,
+          "604067913": 2091,
           "604068109": 76,
           "604068630": 125,
           "623142856": 8,
           "623143111": 5,
           "623143275": 8,
           "623143523": 6,
-          "623143658": 14,
+          "623143658": 15,
           "623143984": 4,
           "623440075": 15,
           "623440187": 92,
@@ -13468,15 +13468,15 @@
           "623440576": 29,
           "623440764": 7,
           "623441117": 21,
-          "623887024": 589,
-          "623887335": 539,
-          "623887596": 10704,
-          "623887681": 3147,
-          "623887752": 371,
-          "623887843": 6346,
-          "623887939": 2158,
-          "623887975": 334,
-          "623888392": 576,
+          "623887024": 591,
+          "623887335": 540,
+          "623887596": 10781,
+          "623887681": 3190,
+          "623887752": 372,
+          "623887843": 6376,
+          "623887939": 2168,
+          "623887975": 335,
+          "623888392": 577,
           "623891787": 60
         },
         "microsoft/onnxruntime-extensions": {},
@@ -13546,7 +13546,7 @@
           "241635518": 16,
           "241635520": 11,
           "241635523": 1831,
-          "241635526": 2069,
+          "241635526": 2081,
           "241635530": 12,
           "241635537": 56,
           "248272658": 12,
@@ -13706,7 +13706,7 @@
           "355461071": 149,
           "355461075": 213,
           "355461106": 22,
-          "355461126": 419,
+          "355461126": 420,
           "355462455": 66,
           "355462468": 39,
           "365645745": 212,
@@ -13775,7 +13775,7 @@
           "433227691": 39,
           "433227711": 18,
           "433227731": 13,
-          "433227762": 677,
+          "433227762": 679,
           "433227783": 53,
           "433227923": 128,
           "433228010": 116,
@@ -13843,8 +13843,8 @@
           "582121058": 8,
           "582121102": 7,
           "594664994": 15,
-          "594665033": 112,
-          "594665062": 29,
+          "594665033": 116,
+          "594665062": 30,
           "594665103": 31,
           "594665122": 13,
           "594665132": 8,
@@ -13852,10 +13852,10 @@
           "594665162": 58,
           "594665169": 32,
           "594665180": 62,
-          "594665198": 196,
-          "594665219": 7,
+          "594665198": 197,
+          "594665219": 9,
           "594665229": 8,
-          "594665277": 13,
+          "594665277": 15,
           "594665354": 24
         },
         "onnx/onnx": {
@@ -14702,7 +14702,7 @@
           "653408344": 0,
           "653440822": 69,
           "653440823": 4,
-          "653440836": 82,
+          "653440836": 88,
           "653577199": 0,
           "653577200": 0,
           "653577201": 0,
@@ -14713,7 +14713,7 @@
           "653609469": 0,
           "653609470": 0,
           "654570386": 0,
-          "654573236": 27,
+          "654573236": 41,
           "654579152": 0,
           "654579154": 0,
           "654582533": 0,
