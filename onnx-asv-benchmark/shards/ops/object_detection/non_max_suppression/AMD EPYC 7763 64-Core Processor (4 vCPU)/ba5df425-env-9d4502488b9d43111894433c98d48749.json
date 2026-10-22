@@ -1,0 +1,109 @@
+{
+  "commit_hash": "ba5df4259887d884acaef9e02a36efceec5a658b",
+  "date": 1792399373000,
+  "durations": {},
+  "env_name": "virtualenv-py3.12-numpy2.5.3-onnx1.23.1-onnx-ir1.0.0-onnxruntime1.30.0-onnxscript0.7.2-ONNX_LIGHT_CPU_VERSION0.1.21-ONNX_LIGHT_VERSION0.1.31",
+  "env_vars": {
+    "ONNX_LIGHT_CPU_VERSION": "0.1.21",
+    "ONNX_LIGHT_VERSION": "0.1.31"
+  },
+  "params": {
+    "arch": "x86_64",
+    "cpu": "AMD EPYC 7763 64-Core Processor",
+    "instruction_sets": "SSE2, SSE3, SSSE3, SSE4.1, SSE4.2, AVX, AVX2",
+    "machine": "AMD EPYC 7763 64-Core Processor (4 vCPU)",
+    "num_cpu": "4",
+    "numpy": "2.5.3",
+    "onnx": "1.23.1",
+    "onnx-ir": "1.0.0",
+    "onnxruntime": "1.30.0",
+    "onnxscript": "0.7.2",
+    "os": "anonymous",
+    "python": "3.12",
+    "ram": "anonymous"
+  },
+  "python": "3.12",
+  "requirements": {
+    "numpy": "2.5.3",
+    "onnx": "1.23.1",
+    "onnx-ir": "1.0.0",
+    "onnxruntime": "1.30.0",
+    "onnxscript": "0.7.2"
+  },
+  "result_columns": [
+    "result",
+    "params",
+    "version",
+    "started_at",
+    "duration",
+    "stats_ci_99_a",
+    "stats_ci_99_b",
+    "stats_q_25",
+    "stats_q_75",
+    "stats_number",
+    "stats_repeat",
+    "samples",
+    "profile"
+  ],
+  "results": {
+    "ops.object_detection.non_max_suppression.NonMaxSuppression.time_run": [
+      [
+        0.0013104745000021012,
+        0.2843111435000054,
+        0.0014552549999962139,
+        0.0014454014999927267
+      ],
+      [
+        [
+          "'boxes=1x2000x4, scores=1x10x2000, max_output_boxes_per_class=1, iou_threshold=1, score_threshold=1'"
+        ],
+        [
+          "'onnxruntime'",
+          "'onnx-reference'",
+          "'onnx-light'",
+          "'onnx-light-cpu'"
+        ]
+      ],
+      "862874b6d501be674f68e019bfd43f212b9d44f86a58f42d0553b43386a75e0c",
+      1792692530465,
+      18.853,
+      [
+        0.001293,
+        0.2819,
+        0.0014067,
+        0.0014201
+      ],
+      [
+        0.0013594,
+        0.29129,
+        0.0014805,
+        0.001487
+      ],
+      [
+        0.0013073,
+        0.28383,
+        0.0014156,
+        0.0014309
+      ],
+      [
+        0.0013243,
+        0.28515,
+        0.0014664,
+        0.0014616
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        10,
+        10,
+        10,
+        10
+      ]
+    ]
+  },
+  "version": 2
+}
