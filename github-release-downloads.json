@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-10-22T13:55:43Z",
+  "updated_at": "2026-10-22T14:27:22Z",
   "repositories": [
     {
       "repository": "microsoft/onnxruntime",
-      "total": 25275307,
+      "total": 25277971,
       "releases": [
         {
           "id": 14260845,
@@ -166,7 +166,7 @@
           "tag": "v0.5.0",
           "published_at": "2019-08-01T19:48:28Z",
           "prerelease": false,
-          "total": 3905,
+          "total": 3906,
           "assets": [
             {
               "id": 14083701,
@@ -196,7 +196,7 @@
             {
               "id": 14083706,
               "name": "onnxruntime-linux-x64-0.5.0.tgz",
-              "download_count": 1944
+              "download_count": 1945
             },
             {
               "id": 14083707,
@@ -374,7 +374,7 @@
           "tag": "v1.2.0",
           "published_at": "2020-03-10T22:22:23Z",
           "prerelease": false,
-          "total": 19627,
+          "total": 19632,
           "assets": [
             {
               "id": 18611701,
@@ -389,7 +389,7 @@
             {
               "id": 18611708,
               "name": "onnxruntime-linux-x64-1.2.0.tgz",
-              "download_count": 12269
+              "download_count": 12274
             },
             {
               "id": 18640915,
@@ -804,7 +804,7 @@
           "tag": "v1.8.0",
           "published_at": "2021-06-03T06:14:48Z",
           "prerelease": false,
-          "total": 15829,
+          "total": 15830,
           "assets": [
             {
               "id": 37977362,
@@ -854,7 +854,7 @@
             {
               "id": 37977438,
               "name": "onnxruntime-linux-x64-1.8.0.tgz",
-              "download_count": 8329
+              "download_count": 8330
             },
             {
               "id": 37977495,
@@ -1033,7 +1033,7 @@
           "tag": "v1.10.0",
           "published_at": "2021-12-08T00:22:39Z",
           "prerelease": false,
-          "total": 153027,
+          "total": 153029,
           "assets": [
             {
               "id": 51255143,
@@ -1093,7 +1093,7 @@
             {
               "id": 51255206,
               "name": "onnxruntime-linux-x64-1.10.0.tgz",
-              "download_count": 42797
+              "download_count": 42799
             },
             {
               "id": 51255208,
@@ -1349,7 +1349,7 @@
           "tag": "v1.12.1",
           "published_at": "2022-08-04T22:07:11Z",
           "prerelease": false,
-          "total": 123287,
+          "total": 123288,
           "assets": [
             {
               "id": 73710016,
@@ -1389,7 +1389,7 @@
             {
               "id": 73710082,
               "name": "onnxruntime-osx-universal2-1.12.1.tgz",
-              "download_count": 3113
+              "download_count": 3114
             },
             {
               "id": 73710083,
@@ -1507,7 +1507,7 @@
           "tag": "v1.14.0",
           "published_at": "2023-02-11T01:03:57Z",
           "prerelease": false,
-          "total": 121983,
+          "total": 121984,
           "assets": [
             {
               "id": 95120074,
@@ -1517,7 +1517,7 @@
             {
               "id": 95120086,
               "name": "onnxruntime-linux-x64-1.14.0.tgz",
-              "download_count": 50771
+              "download_count": 50772
             },
             {
               "id": 95120242,
@@ -1586,7 +1586,7 @@
           "tag": "v1.14.1",
           "published_at": "2023-03-02T19:43:13Z",
           "prerelease": false,
-          "total": 721749,
+          "total": 721751,
           "assets": [
             {
               "id": 97361057,
@@ -1621,7 +1621,7 @@
             {
               "id": 97361232,
               "name": "onnxruntime-linux-x64-gpu-1.14.1.tgz",
-              "download_count": 106958
+              "download_count": 106959
             },
             {
               "id": 97361362,
@@ -1631,7 +1631,7 @@
             {
               "id": 97361366,
               "name": "onnxruntime-linux-aarch64-1.14.1.tgz",
-              "download_count": 57440
+              "download_count": 57441
             },
             {
               "id": 97361713,
@@ -1665,7 +1665,7 @@
           "tag": "v1.15.0",
           "published_at": "2023-05-25T01:44:38Z",
           "prerelease": false,
-          "total": 40175,
+          "total": 40176,
           "assets": [
             {
               "id": 109663705,
@@ -1760,7 +1760,7 @@
             {
               "id": 109664096,
               "name": "onnxruntime-linux-x64-1.15.0.tgz",
-              "download_count": 15273
+              "download_count": 15274
             },
             {
               "id": 109664098,
@@ -1774,7 +1774,7 @@
           "tag": "v1.15.1",
           "published_at": "2023-06-16T21:12:02Z",
           "prerelease": false,
-          "total": 355594,
+          "total": 355595,
           "assets": [
             {
               "id": 113117922,
@@ -1824,7 +1824,7 @@
             {
               "id": 113118297,
               "name": "onnxruntime-linux-x64-1.15.1.tgz",
-              "download_count": 138560
+              "download_count": 138561
             },
             {
               "id": 113118303,
@@ -1883,7 +1883,7 @@
           "tag": "v1.16.0",
           "published_at": "2023-09-20T21:27:50Z",
           "prerelease": false,
-          "total": 243407,
+          "total": 243409,
           "assets": [
             {
               "id": 126978903,
@@ -1898,7 +1898,7 @@
             {
               "id": 126978914,
               "name": "onnxruntime-linux-x64-1.16.0.tgz",
-              "download_count": 103675
+              "download_count": 103677
             },
             {
               "id": 126978915,
@@ -1992,7 +1992,7 @@
           "tag": "v1.16.1",
           "published_at": "2023-10-11T18:28:30Z",
           "prerelease": false,
-          "total": 89001,
+          "total": 89003,
           "assets": [
             {
               "id": 130118664,
@@ -2087,7 +2087,7 @@
             {
               "id": 130118923,
               "name": "onnxruntime-linux-x64-1.16.1.tgz",
-              "download_count": 45835
+              "download_count": 45837
             },
             {
               "id": 130118925,
@@ -2101,7 +2101,7 @@
           "tag": "v1.16.2",
           "published_at": "2023-11-09T12:08:24Z",
           "prerelease": false,
-          "total": 68517,
+          "total": 68519,
           "assets": [
             {
               "id": 134720932,
@@ -2186,7 +2186,7 @@
             {
               "id": 134721056,
               "name": "onnxruntime-linux-x64-1.16.2.tgz",
-              "download_count": 50598
+              "download_count": 50600
             },
             {
               "id": 134721057,
@@ -2210,17 +2210,17 @@
           "tag": "v1.16.3",
           "published_at": "2023-11-20T20:51:56Z",
           "prerelease": false,
-          "total": 391417,
+          "total": 391449,
           "assets": [
             {
               "id": 136583126,
               "name": "onnxruntime-linux-x64-1.16.3.tgz",
-              "download_count": 252324
+              "download_count": 252327
             },
             {
               "id": 136583131,
               "name": "onnxruntime-linux-aarch64-1.16.3.tgz",
-              "download_count": 26271
+              "download_count": 26299
             },
             {
               "id": 136583132,
@@ -2285,7 +2285,7 @@
             {
               "id": 136583199,
               "name": "onnxruntime-osx-universal2-1.16.3.tgz",
-              "download_count": 3538
+              "download_count": 3539
             },
             {
               "id": 136583201,
@@ -2433,7 +2433,7 @@
           "tag": "v1.17.1",
           "published_at": "2024-02-27T18:34:20Z",
           "prerelease": false,
-          "total": 997209,
+          "total": 997224,
           "assets": [
             {
               "id": 153441953,
@@ -2498,12 +2498,12 @@
             {
               "id": 153442001,
               "name": "onnxruntime-linux-aarch64-1.17.1.tgz",
-              "download_count": 194863
+              "download_count": 194869
             },
             {
               "id": 153442002,
               "name": "onnxruntime-linux-x64-1.17.1.tgz",
-              "download_count": 319067
+              "download_count": 319076
             },
             {
               "id": 153442003,
@@ -2547,7 +2547,7 @@
           "tag": "v1.17.3",
           "published_at": "2024-04-18T15:46:48Z",
           "prerelease": false,
-          "total": 1586917,
+          "total": 1587120,
           "assets": [
             {
               "id": 161202434,
@@ -2622,7 +2622,7 @@
             {
               "id": 161202641,
               "name": "onnxruntime-linux-x64-gpu-1.17.3.tgz",
-              "download_count": 1469927
+              "download_count": 1470130
             },
             {
               "id": 161202662,
@@ -2666,7 +2666,7 @@
           "tag": "v1.18.0",
           "published_at": "2024-05-21T00:28:41Z",
           "prerelease": false,
-          "total": 455206,
+          "total": 455220,
           "assets": [
             {
               "id": 169083358,
@@ -2696,12 +2696,12 @@
             {
               "id": 169083792,
               "name": "onnxruntime-linux-x64-1.18.0.tgz",
-              "download_count": 83850
+              "download_count": 83852
             },
             {
               "id": 169083820,
               "name": "onnxruntime-linux-x64-gpu-1.18.0.tgz",
-              "download_count": 290925
+              "download_count": 290937
             },
             {
               "id": 169083982,
@@ -2785,7 +2785,7 @@
           "tag": "v1.18.1",
           "published_at": "2024-06-28T00:29:13Z",
           "prerelease": false,
-          "total": 224534,
+          "total": 224552,
           "assets": [
             {
               "id": 176364363,
@@ -2815,7 +2815,7 @@
             {
               "id": 176383621,
               "name": "onnxruntime-win-x64-gpu-1.18.1.zip",
-              "download_count": 4584
+              "download_count": 4586
             },
             {
               "id": 176383719,
@@ -2845,7 +2845,7 @@
             {
               "id": 176384629,
               "name": "onnxruntime-linux-x64-gpu-1.18.1.tgz",
-              "download_count": 15907
+              "download_count": 15908
             },
             {
               "id": 176384640,
@@ -2855,7 +2855,7 @@
             {
               "id": 176384642,
               "name": "onnxruntime-linux-x64-1.18.1.tgz",
-              "download_count": 100614
+              "download_count": 100629
             }
           ]
         },
@@ -2864,7 +2864,7 @@
           "tag": "v1.19.0",
           "published_at": "2024-08-19T18:44:22Z",
           "prerelease": false,
-          "total": 163299,
+          "total": 163315,
           "assets": [
             {
               "id": 186059042,
@@ -2899,12 +2899,12 @@
             {
               "id": 186059397,
               "name": "onnxruntime-linux-aarch64-1.19.0.tgz",
-              "download_count": 4155
+              "download_count": 4158
             },
             {
               "id": 186059401,
               "name": "onnxruntime-linux-x64-1.19.0.tgz",
-              "download_count": 49845
+              "download_count": 49856
             },
             {
               "id": 186059786,
@@ -2959,7 +2959,7 @@
             {
               "id": 187222734,
               "name": "onnxruntime-linux-x64-gpu-1.19.0.tgz",
-              "download_count": 98678
+              "download_count": 98680
             }
           ]
         },
@@ -2968,32 +2968,32 @@
           "tag": "v1.19.2",
           "published_at": "2024-09-04T19:33:14Z",
           "prerelease": false,
-          "total": 1365088,
+          "total": 1365212,
           "assets": [
             {
               "id": 190204577,
               "name": "onnxruntime-linux-aarch64-1.19.2.tgz",
-              "download_count": 41246
+              "download_count": 41253
             },
             {
               "id": 190204584,
               "name": "onnxruntime-linux-x64-1.19.2.tgz",
-              "download_count": 242795
+              "download_count": 242805
             },
             {
               "id": 190204588,
               "name": "onnxruntime-linux-x64-gpu-1.19.2.tgz",
-              "download_count": 921693
+              "download_count": 921787
             },
             {
               "id": 190204605,
               "name": "onnxruntime-osx-arm64-1.19.2.tgz",
-              "download_count": 11712
+              "download_count": 11715
             },
             {
               "id": 190204611,
               "name": "onnxruntime-osx-universal2-1.19.2.tgz",
-              "download_count": 15255
+              "download_count": 15257
             },
             {
               "id": 190204615,
@@ -3033,12 +3033,12 @@
             {
               "id": 190204639,
               "name": "onnxruntime-win-x64-1.19.2.zip",
-              "download_count": 57855
+              "download_count": 57860
             },
             {
               "id": 190204640,
               "name": "onnxruntime-win-x64-gpu-1.19.2.zip",
-              "download_count": 59415
+              "download_count": 59416
             },
             {
               "id": 190204643,
@@ -3063,7 +3063,7 @@
             {
               "id": 190206459,
               "name": "Microsoft.ML.OnnxRuntime.DirectML.1.19.2.nupkg",
-              "download_count": 1146
+              "download_count": 1148
             }
           ]
         },
@@ -3072,7 +3072,7 @@
           "tag": "v1.20.0",
           "published_at": "2024-11-01T18:02:18Z",
           "prerelease": false,
-          "total": 489662,
+          "total": 489674,
           "assets": [
             {
               "id": 202998880,
@@ -3082,7 +3082,7 @@
             {
               "id": 202998884,
               "name": "Microsoft.ML.OnnxRuntime.DirectML.1.20.0.nupkg",
-              "download_count": 746
+              "download_count": 747
             },
             {
               "id": 202998893,
@@ -3122,12 +3122,12 @@
             {
               "id": 202999152,
               "name": "onnxruntime-osx-arm64-1.20.0.tgz",
-              "download_count": 49298
+              "download_count": 49300
             },
             {
               "id": 202999196,
               "name": "onnxruntime-linux-x64-1.20.0.tgz",
-              "download_count": 270744
+              "download_count": 270751
             },
             {
               "id": 202999199,
@@ -3142,7 +3142,7 @@
             {
               "id": 204131584,
               "name": "onnxruntime-linux-x64-gpu-1.20.0.tgz",
-              "download_count": 104749
+              "download_count": 104751
             }
           ]
         },
@@ -3151,17 +3151,17 @@
           "tag": "v1.20.1",
           "published_at": "2024-11-21T22:20:31Z",
           "prerelease": false,
-          "total": 4102273,
+          "total": 4102443,
           "assets": [
             {
               "id": 208183212,
               "name": "onnxruntime-linux-aarch64-1.20.1.tgz",
-              "download_count": 53524
+              "download_count": 53527
             },
             {
               "id": 208183214,
               "name": "onnxruntime-linux-x64-1.20.1.tgz",
-              "download_count": 264796
+              "download_count": 264860
             },
             {
               "id": 208183216,
@@ -3171,7 +3171,7 @@
             {
               "id": 208183218,
               "name": "onnxruntime-osx-universal2-1.20.1.tgz",
-              "download_count": 7876
+              "download_count": 7878
             },
             {
               "id": 208183222,
@@ -3191,7 +3191,7 @@
             {
               "id": 208183685,
               "name": "onnxruntime-linux-x64-gpu-1.20.1.tgz",
-              "download_count": 3657648
+              "download_count": 3657744
             },
             {
               "id": 208183749,
@@ -3201,7 +3201,7 @@
             {
               "id": 208987137,
               "name": "onnxruntime-win-x64-1.20.1.zip",
-              "download_count": 43340
+              "download_count": 43345
             }
           ]
         },
@@ -3218,17 +3218,17 @@
           "tag": "v1.21.0",
           "published_at": "2025-03-08T05:33:03Z",
           "prerelease": false,
-          "total": 7774157,
+          "total": 7774999,
           "assets": [
             {
               "id": 235667053,
               "name": "onnxruntime-linux-x64-1.21.0.tgz",
-              "download_count": 74047
+              "download_count": 74056
             },
             {
               "id": 235667158,
               "name": "onnxruntime-linux-aarch64-1.21.0.tgz",
-              "download_count": 27492
+              "download_count": 27495
             },
             {
               "id": 235667457,
@@ -3238,7 +3238,7 @@
             {
               "id": 235667484,
               "name": "onnxruntime-osx-universal2-1.21.0.tgz",
-              "download_count": 3195
+              "download_count": 3196
             },
             {
               "id": 235667571,
@@ -3253,7 +3253,7 @@
             {
               "id": 235667880,
               "name": "onnxruntime-win-x64-1.21.0.zip",
-              "download_count": 13207
+              "download_count": 13208
             },
             {
               "id": 235667944,
@@ -3273,7 +3273,7 @@
             {
               "id": 235671416,
               "name": "Microsoft.ML.OnnxRuntime.DirectML.1.21.0.nupkg",
-              "download_count": 1665
+              "download_count": 1666
             },
             {
               "id": 235671448,
@@ -3288,7 +3288,7 @@
             {
               "id": 236224852,
               "name": "onnxruntime-linux-x64-gpu-1.21.0.tgz",
-              "download_count": 7637834
+              "download_count": 7638661
             }
           ]
         },
@@ -3297,12 +3297,12 @@
           "tag": "v1.21.1",
           "published_at": "2025-04-21T17:38:36Z",
           "prerelease": false,
-          "total": 942770,
+          "total": 942916,
           "assets": [
             {
               "id": 248850407,
               "name": "onnxruntime-linux-x64-gpu-1.21.1.tgz",
-              "download_count": 942770
+              "download_count": 942916
             }
           ]
         },
@@ -3311,7 +3311,7 @@
           "tag": "v1.22.0",
           "published_at": "2025-05-10T01:14:00Z",
           "prerelease": false,
-          "total": 953565,
+          "total": 953687,
           "assets": [
             {
               "id": 253300361,
@@ -3326,27 +3326,27 @@
             {
               "id": 253300381,
               "name": "Microsoft.ML.OnnxRuntime.DirectML.1.22.0.nupkg",
-              "download_count": 1797
+              "download_count": 1799
             },
             {
               "id": 253300383,
               "name": "onnxruntime-linux-aarch64-1.22.0.tgz",
-              "download_count": 97184
+              "download_count": 97189
             },
             {
               "id": 253300385,
               "name": "onnxruntime-linux-x64-1.22.0.tgz",
-              "download_count": 538800
+              "download_count": 538881
             },
             {
               "id": 253300386,
               "name": "onnxruntime-linux-x64-gpu-1.22.0.tgz",
-              "download_count": 68120
+              "download_count": 68121
             },
             {
               "id": 253300410,
               "name": "onnxruntime-osx-arm64-1.22.0.tgz",
-              "download_count": 63927
+              "download_count": 63931
             },
             {
               "id": 253300416,
@@ -3366,7 +3366,7 @@
             {
               "id": 253300435,
               "name": "onnxruntime-win-x64-1.22.0.zip",
-              "download_count": 138172
+              "download_count": 138201
             },
             {
               "id": 253300438,
@@ -3385,7 +3385,7 @@
           "tag": "v1.22.1",
           "published_at": "2025-07-08T22:08:08Z",
           "prerelease": false,
-          "total": 32064,
+          "total": 32069,
           "assets": [
             {
               "id": 268720181,
@@ -3395,7 +3395,7 @@
             {
               "id": 268720186,
               "name": "onnxruntime-win-x64-1.22.1.zip",
-              "download_count": 17485
+              "download_count": 17486
             },
             {
               "id": 268720192,
@@ -3405,17 +3405,17 @@
             {
               "id": 268720211,
               "name": "onnxruntime-win-x86-1.22.1.zip",
-              "download_count": 2853
+              "download_count": 2854
             },
             {
               "id": 268751641,
               "name": "Microsoft.ML.OnnxRuntime.1.22.1.nupkg",
-              "download_count": 3844
+              "download_count": 3846
             },
             {
               "id": 268774275,
               "name": "Microsoft.ML.OnnxRuntime.DirectML.1.22.1.nupkg",
-              "download_count": 1321
+              "download_count": 1322
             },
             {
               "id": 268774281,
@@ -3458,12 +3458,12 @@
           "tag": "v1.23.0",
           "published_at": "2025-09-26T04:33:48Z",
           "prerelease": false,
-          "total": 122646,
+          "total": 122660,
           "assets": [
             {
               "id": 297419832,
               "name": "onnxruntime-win-x64-gpu-1.23.0.zip",
-              "download_count": 2445
+              "download_count": 2446
             },
             {
               "id": 297419870,
@@ -3488,22 +3488,22 @@
             {
               "id": 297419931,
               "name": "onnxruntime-osx-universal2-1.23.0.tgz",
-              "download_count": 2440
+              "download_count": 2441
             },
             {
               "id": 297419964,
               "name": "onnxruntime-osx-arm64-1.23.0.tgz",
-              "download_count": 6331
+              "download_count": 6333
             },
             {
               "id": 297419976,
               "name": "onnxruntime-linux-x64-1.23.0.tgz",
-              "download_count": 80997
+              "download_count": 81005
             },
             {
               "id": 297419984,
               "name": "onnxruntime-linux-aarch64-1.23.0.tgz",
-              "download_count": 11995
+              "download_count": 11997
             }
           ]
         },
@@ -3512,7 +3512,7 @@
           "tag": "v1.23.1",
           "published_at": "2025-10-08T04:12:55Z",
           "prerelease": false,
-          "total": 43184,
+          "total": 43185,
           "assets": [
             {
               "id": 301788887,
@@ -3537,7 +3537,7 @@
             {
               "id": 301788918,
               "name": "onnxruntime-linux-x64-gpu-1.23.1.tgz",
-              "download_count": 5922
+              "download_count": 5923
             },
             {
               "id": 301788961,
@@ -3566,7 +3566,7 @@
           "tag": "v1.23.2",
           "published_at": "2025-10-25T04:15:21Z",
           "prerelease": false,
-          "total": 746828,
+          "total": 746908,
           "assets": [
             {
               "id": 308474603,
@@ -3576,7 +3576,7 @@
             {
               "id": 308474632,
               "name": "onnxruntime-win-x64-1.23.2.zip",
-              "download_count": 66271
+              "download_count": 66279
             },
             {
               "id": 308474643,
@@ -3586,32 +3586,32 @@
             {
               "id": 308474652,
               "name": "onnxruntime-osx-x86_64-1.23.2.tgz",
-              "download_count": 14898
+              "download_count": 14904
             },
             {
               "id": 308474657,
               "name": "onnxruntime-linux-x64-gpu-1.23.2.tgz",
-              "download_count": 48845
+              "download_count": 48846
             },
             {
               "id": 308474678,
               "name": "onnxruntime-osx-universal2-1.23.2.tgz",
-              "download_count": 257910
+              "download_count": 257943
             },
             {
               "id": 308474683,
               "name": "onnxruntime-osx-arm64-1.23.2.tgz",
-              "download_count": 36548
+              "download_count": 36560
             },
             {
               "id": 308474688,
               "name": "onnxruntime-linux-x64-1.23.2.tgz",
-              "download_count": 279251
+              "download_count": 279270
             },
             {
               "id": 308474693,
               "name": "onnxruntime-linux-aarch64-1.23.2.tgz",
-              "download_count": 23103
+              "download_count": 23104
             }
           ]
         },
@@ -3620,7 +3620,7 @@
           "tag": "v1.24.1",
           "published_at": "2026-02-06T00:00:13Z",
           "prerelease": false,
-          "total": 143788,
+          "total": 143806,
           "assets": [
             {
               "id": 351357523,
@@ -3640,7 +3640,7 @@
             {
               "id": 351357869,
               "name": "onnxruntime-linux-x64-gpu-1.24.1.tgz",
-              "download_count": 15694
+              "download_count": 15699
             },
             {
               "id": 351357934,
@@ -3650,17 +3650,17 @@
             {
               "id": 351357977,
               "name": "onnxruntime-linux-aarch64-1.24.1.tgz",
-              "download_count": 16947
+              "download_count": 16952
             },
             {
               "id": 351360918,
               "name": "onnxruntime-linux-x64-1.24.1.tgz",
-              "download_count": 73907
+              "download_count": 73913
             },
             {
               "id": 351803020,
               "name": "onnxruntime-linux-x64-gpu_cuda13-1.24.1.tgz",
-              "download_count": 10097
+              "download_count": 10099
             },
             {
               "id": 351803488,
@@ -3674,27 +3674,27 @@
           "tag": "v1.24.2",
           "published_at": "2026-02-19T21:28:03Z",
           "prerelease": false,
-          "total": 373085,
+          "total": 373125,
           "assets": [
             {
               "id": 358441208,
               "name": "onnxruntime-linux-aarch64-1.24.2.tgz",
-              "download_count": 34285
+              "download_count": 34287
             },
             {
               "id": 358441215,
               "name": "onnxruntime-linux-x64-1.24.2.tgz",
-              "download_count": 113994
+              "download_count": 114013
             },
             {
               "id": 358441219,
               "name": "onnxruntime-linux-x64-gpu-1.24.2.tgz",
-              "download_count": 8197
+              "download_count": 8198
             },
             {
               "id": 358441256,
               "name": "onnxruntime-osx-arm64-1.24.2.tgz",
-              "download_count": 55870
+              "download_count": 55881
             },
             {
               "id": 358441270,
@@ -3704,12 +3704,12 @@
             {
               "id": 358441296,
               "name": "onnxruntime-win-x64-1.24.2.zip",
-              "download_count": 119199
+              "download_count": 119205
             },
             {
               "id": 358781187,
               "name": "onnxruntime-win-x64-gpu-1.24.2.zip",
-              "download_count": 8106
+              "download_count": 8107
             },
             {
               "id": 358787838,
@@ -3728,7 +3728,7 @@
           "tag": "v1.24.3",
           "published_at": "2026-03-05T19:00:05Z",
           "prerelease": false,
-          "total": 58239,
+          "total": 58249,
           "assets": [
             {
               "id": 367674269,
@@ -3738,7 +3738,7 @@
             {
               "id": 367674329,
               "name": "onnxruntime-linux-x64-1.24.3.tgz",
-              "download_count": 33090
+              "download_count": 33097
             },
             {
               "id": 367674486,
@@ -3753,7 +3753,7 @@
             {
               "id": 367707852,
               "name": "onnxruntime-osx-arm64-1.24.3.tgz",
-              "download_count": 6065
+              "download_count": 6068
             },
             {
               "id": 367707923,
@@ -3787,27 +3787,27 @@
           "tag": "v1.24.4",
           "published_at": "2026-03-17T23:08:09Z",
           "prerelease": false,
-          "total": 288433,
+          "total": 288553,
           "assets": [
             {
               "id": 376015298,
               "name": "onnxruntime-linux-aarch64-1.24.4.tgz",
-              "download_count": 26062
+              "download_count": 26110
             },
             {
               "id": 376015310,
               "name": "onnxruntime-linux-x64-1.24.4.tgz",
-              "download_count": 146133
+              "download_count": 146191
             },
             {
               "id": 376015314,
               "name": "onnxruntime-linux-x64-gpu-1.24.4.tgz",
-              "download_count": 39395
+              "download_count": 39396
             },
             {
               "id": 376015406,
               "name": "onnxruntime-osx-arm64-1.24.4.tgz",
-              "download_count": 32803
+              "download_count": 32812
             },
             {
               "id": 376015421,
@@ -3822,7 +3822,7 @@
             {
               "id": 376015528,
               "name": "onnxruntime-win-x64-1.24.4.zip",
-              "download_count": 29219
+              "download_count": 29223
             },
             {
               "id": 376015626,
@@ -3846,7 +3846,7 @@
           "tag": "v1.25.0",
           "published_at": "2026-04-20T18:25:24Z",
           "prerelease": false,
-          "total": 44828,
+          "total": 44835,
           "assets": [
             {
               "id": 400891653,
@@ -3856,7 +3856,7 @@
             {
               "id": 400891814,
               "name": "onnxruntime-linux-x64-1.25.0.tgz",
-              "download_count": 31634
+              "download_count": 31641
             },
             {
               "id": 400892179,
@@ -3905,7 +3905,7 @@
           "tag": "v1.25.1",
           "published_at": "2026-04-27T21:46:20Z",
           "prerelease": false,
-          "total": 50400,
+          "total": 50403,
           "assets": [
             {
               "id": 406830243,
@@ -3925,7 +3925,7 @@
             {
               "id": 406830766,
               "name": "onnxruntime-linux-x64-gpu-1.25.1.tgz",
-              "download_count": 3707
+              "download_count": 3708
             },
             {
               "id": 406831314,
@@ -3945,7 +3945,7 @@
             {
               "id": 406831931,
               "name": "onnxruntime-win-x64-1.25.1.zip",
-              "download_count": 6229
+              "download_count": 6231
             },
             {
               "id": 406832101,
@@ -3964,17 +3964,17 @@
           "tag": "v1.26.0",
           "published_at": "2026-05-08T19:24:39Z",
           "prerelease": false,
-          "total": 162411,
+          "total": 162467,
           "assets": [
             {
               "id": 415501303,
               "name": "onnxruntime-linux-aarch64-1.26.0.tgz",
-              "download_count": 10591
+              "download_count": 10595
             },
             {
               "id": 415501317,
               "name": "onnxruntime-linux-x64-1.26.0.tgz",
-              "download_count": 95685
+              "download_count": 95729
             },
             {
               "id": 415501323,
@@ -3989,7 +3989,7 @@
             {
               "id": 415502464,
               "name": "onnxruntime-osx-arm64-1.26.0.tgz",
-              "download_count": 16607
+              "download_count": 16611
             },
             {
               "id": 415502634,
@@ -4004,7 +4004,7 @@
             {
               "id": 415503188,
               "name": "onnxruntime-win-x64-1.26.0.zip",
-              "download_count": 23581
+              "download_count": 23585
             },
             {
               "id": 415503428,
@@ -4031,22 +4031,22 @@
           "tag": "v1.27.0",
           "published_at": "2026-06-19T21:11:07Z",
           "prerelease": false,
-          "total": 156079,
+          "total": 156117,
           "assets": [
             {
               "id": 448652755,
               "name": "onnxruntime-linux-aarch64-1.27.0.tgz",
-              "download_count": 10885
+              "download_count": 10887
             },
             {
               "id": 448652775,
               "name": "onnxruntime-linux-x64-1.27.0.tgz",
-              "download_count": 95324
+              "download_count": 95357
             },
             {
               "id": 448652794,
               "name": "onnxruntime-linux-x64-gpu_cuda12-1.27.0.tgz",
-              "download_count": 1971
+              "download_count": 1972
             },
             {
               "id": 448653697,
@@ -4056,7 +4056,7 @@
             {
               "id": 448654532,
               "name": "onnxruntime-osx-arm64-1.27.0.tgz",
-              "download_count": 13682
+              "download_count": 13683
             },
             {
               "id": 448654638,
@@ -4081,7 +4081,7 @@
             {
               "id": 454598864,
               "name": "onnxruntime-win-x64-1.27.0.zip",
-              "download_count": 23428
+              "download_count": 23429
             }
           ]
         },
@@ -4090,7 +4090,7 @@
           "tag": "v1.27.1",
           "published_at": "2026-07-11T01:11:02Z",
           "prerelease": false,
-          "total": 71103,
+          "total": 71106,
           "assets": [
             {
               "id": 472953350,
@@ -4105,7 +4105,7 @@
             {
               "id": 472953782,
               "name": "onnxruntime-win-x64-1.27.1.zip",
-              "download_count": 4774
+              "download_count": 4775
             },
             {
               "id": 472953957,
@@ -4125,12 +4125,12 @@
             {
               "id": 472954763,
               "name": "onnxruntime-linux-x64-gpu_cuda12-1.27.1.tgz",
-              "download_count": 9913
+              "download_count": 9914
             },
             {
               "id": 472954982,
               "name": "onnxruntime-linux-x64-1.27.1.tgz",
-              "download_count": 26367
+              "download_count": 26368
             },
             {
               "id": 472955013,
@@ -4149,7 +4149,7 @@
           "tag": "v1.28.0",
           "published_at": "2026-07-25T05:27:07Z",
           "prerelease": false,
-          "total": 102500,
+          "total": 102556,
           "assets": [
             {
               "id": 489173035,
@@ -4159,7 +4159,7 @@
             {
               "id": 489173146,
               "name": "onnxruntime-linux-x64-gpu_cuda12-1.28.0.tgz",
-              "download_count": 1754
+              "download_count": 1756
             },
             {
               "id": 489173437,
@@ -4169,17 +4169,17 @@
             {
               "id": 489173573,
               "name": "onnxruntime-win-x64-1.28.0.zip",
-              "download_count": 22745
+              "download_count": 22765
             },
             {
               "id": 489173635,
               "name": "onnxruntime-win-x64-gpu_cuda12-1.28.0.zip",
-              "download_count": 1356
+              "download_count": 1357
             },
             {
               "id": 489174067,
               "name": "onnxruntime-linux-x64-gpu_cuda13-1.28.0.tgz",
-              "download_count": 1389
+              "download_count": 1390
             },
             {
               "id": 489174273,
@@ -4189,17 +4189,17 @@
             {
               "id": 489174677,
               "name": "onnxruntime-linux-x64-1.28.0.tgz",
-              "download_count": 54501
+              "download_count": 54530
             },
             {
               "id": 489174685,
               "name": "onnxruntime-osx-arm64-1.28.0.tgz",
-              "download_count": 10208
+              "download_count": 10209
             },
             {
               "id": 490655264,
               "name": "onnxruntime-linux-aarch64-1.28.0.tgz",
-              "download_count": 7468
+              "download_count": 7470
             }
           ]
         },
@@ -4216,12 +4216,12 @@
           "tag": "v1.29.0",
           "published_at": "2026-08-12T06:15:37Z",
           "prerelease": false,
-          "total": 118937,
+          "total": 118976,
           "assets": [
             {
               "id": 511115910,
               "name": "onnxruntime-win-x64-1.29.0.zip",
-              "download_count": 18964
+              "download_count": 18969
             },
             {
               "id": 511115959,
@@ -4246,7 +4246,7 @@
             {
               "id": 511119584,
               "name": "onnxruntime-linux-x64-gpu_cuda13-1.29.0.tgz",
-              "download_count": 1635
+              "download_count": 1637
             },
             {
               "id": 511120261,
@@ -4256,17 +4256,17 @@
             {
               "id": 511120291,
               "name": "onnxruntime-linux-x64-1.29.0.tgz",
-              "download_count": 72709
+              "download_count": 72738
             },
             {
               "id": 511120373,
               "name": "onnxruntime-osx-arm64-1.29.0.tgz",
-              "download_count": 10042
+              "download_count": 10044
             },
             {
               "id": 511140963,
               "name": "onnxruntime-linux-x64-gpu_cuda12-1.29.0.tgz",
-              "download_count": 2490
+              "download_count": 2491
             }
           ]
         },
@@ -4314,12 +4314,12 @@
           "tag": "v1.28.1",
           "published_at": "2026-08-18T23:19:52Z",
           "prerelease": false,
-          "total": 19928,
+          "total": 19935,
           "assets": [
             {
               "id": 520090858,
               "name": "onnxruntime-linux-x64-gpu_cuda12-1.28.1.tgz",
-              "download_count": 622
+              "download_count": 623
             },
             {
               "id": 520094993,
@@ -4339,7 +4339,7 @@
             {
               "id": 520096692,
               "name": "onnxruntime-win-x64-1.28.1.zip",
-              "download_count": 3051
+              "download_count": 3052
             },
             {
               "id": 520097048,
@@ -4364,7 +4364,7 @@
             {
               "id": 520103401,
               "name": "onnxruntime-linux-x64-1.28.1.tgz",
-              "download_count": 11431
+              "download_count": 11436
             }
           ]
         },
@@ -4381,7 +4381,7 @@
           "tag": "v1.28.2",
           "published_at": "2026-09-03T01:17:16Z",
           "prerelease": false,
-          "total": 18778,
+          "total": 18817,
           "assets": [
             {
               "id": 542003860,
@@ -4401,12 +4401,12 @@
             {
               "id": 542003864,
               "name": "onnxruntime-linux-x64-1.28.2.tgz",
-              "download_count": 6615
+              "download_count": 6618
             },
             {
               "id": 542003867,
               "name": "onnxruntime-linux-aarch64-1.28.2.tgz",
-              "download_count": 848
+              "download_count": 849
             },
             {
               "id": 542003878,
@@ -4421,7 +4421,7 @@
             {
               "id": 542003886,
               "name": "onnxruntime-win-x64-1.28.2.zip",
-              "download_count": 5235
+              "download_count": 5256
             },
             {
               "id": 542003967,
@@ -4431,7 +4431,7 @@
             {
               "id": 542003969,
               "name": "onnxruntime-win-x64-gpu_cuda13-1.28.2.zip",
-              "download_count": 3640
+              "download_count": 3654
             }
           ]
         },
@@ -4499,27 +4499,27 @@
           "tag": "v1.30.0",
           "published_at": "2026-09-10T16:55:55Z",
           "prerelease": false,
-          "total": 239429,
+          "total": 239731,
           "assets": [
             {
               "id": 555411806,
               "name": "onnxruntime-linux-x64-gpu_cuda12-1.30.0.tgz",
-              "download_count": 6120
+              "download_count": 6125
             },
             {
               "id": 555412256,
               "name": "onnxruntime-linux-x64-1.30.0.tgz",
-              "download_count": 40605
+              "download_count": 40644
             },
             {
               "id": 555412302,
               "name": "onnxruntime-linux-aarch64-1.30.0.tgz",
-              "download_count": 6238
+              "download_count": 6242
             },
             {
               "id": 555412327,
               "name": "onnxruntime-linux-x64-gpu_cuda13-1.30.0.tgz",
-              "download_count": 2528
+              "download_count": 2529
             },
             {
               "id": 555412559,
@@ -4529,12 +4529,12 @@
             {
               "id": 555412859,
               "name": "onnxruntime-win-x64-gpu_cuda12-1.30.0.zip",
-              "download_count": 77845
+              "download_count": 77956
             },
             {
               "id": 555413217,
               "name": "onnxruntime-win-x64-1.30.0.zip",
-              "download_count": 94043
+              "download_count": 94171
             },
             {
               "id": 555413301,
@@ -4549,7 +4549,7 @@
             {
               "id": 555413457,
               "name": "onnxruntime-osx-arm64-1.30.0.tgz",
-              "download_count": 8883
+              "download_count": 8897
             }
           ]
         },
@@ -4566,12 +4566,12 @@
           "tag": "v1.28.3",
           "published_at": "2026-10-02T20:48:43Z",
           "prerelease": false,
-          "total": 8696,
+          "total": 8708,
           "assets": [
             {
               "id": 604067196,
               "name": "onnxruntime-linux-aarch64-1.28.3.tgz",
-              "download_count": 545
+              "download_count": 546
             },
             {
               "id": 604067198,
@@ -4581,7 +4581,7 @@
             {
               "id": 604067270,
               "name": "onnxruntime-linux-x64-1.28.3.tgz",
-              "download_count": 4638
+              "download_count": 4644
             },
             {
               "id": 604067326,
@@ -4606,7 +4606,7 @@
             {
               "id": 604067913,
               "name": "onnxruntime-win-x64-1.28.3.zip",
-              "download_count": 2076
+              "download_count": 2081
             },
             {
               "id": 604068109,
@@ -4703,27 +4703,27 @@
           "tag": "v1.31.0",
           "published_at": "2026-10-09T04:51:32Z",
           "prerelease": false,
-          "total": 24745,
+          "total": 24824,
           "assets": [
             {
               "id": 623887024,
               "name": "onnxruntime-linux-x64-gpu_cuda13-1.31.0.tgz",
-              "download_count": 585
+              "download_count": 589
             },
             {
               "id": 623887335,
               "name": "onnxruntime-win-x64-gpu_cuda13-1.31.0.zip",
-              "download_count": 536
+              "download_count": 539
             },
             {
               "id": 623887596,
               "name": "onnxruntime-linux-x64-1.31.0.tgz",
-              "download_count": 10679
+              "download_count": 10704
             },
             {
               "id": 623887681,
               "name": "onnxruntime-osx-arm64-1.31.0.tgz",
-              "download_count": 3130
+              "download_count": 3147
             },
             {
               "id": 623887752,
@@ -4733,12 +4733,12 @@
             {
               "id": 623887843,
               "name": "onnxruntime-win-x64-1.31.0.zip",
-              "download_count": 6322
+              "download_count": 6346
             },
             {
               "id": 623887939,
               "name": "onnxruntime-linux-aarch64-1.31.0.tgz",
-              "download_count": 2152
+              "download_count": 2158
             },
             {
               "id": 623887975,
@@ -4754,6 +4754,2324 @@
               "id": 623891787,
               "name": "onnxruntime-win-arm64x-1.31.0.zip",
               "download_count": 60
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "repository": "microsoft/onnxruntime-extensions",
+      "total": 0,
+      "releases": [
+        {
+          "id": 43993515,
+          "tag": "v0.3.0",
+          "published_at": "2021-06-02T17:58:56Z",
+          "prerelease": false,
+          "total": 0,
+          "assets": []
+        },
+        {
+          "id": 44122014,
+          "tag": "v0.3.1",
+          "published_at": "2021-06-04T17:19:50Z",
+          "prerelease": false,
+          "total": 0,
+          "assets": []
+        },
+        {
+          "id": 50363558,
+          "tag": "v0.4.0",
+          "published_at": "2021-09-28T08:48:14Z",
+          "prerelease": false,
+          "total": 0,
+          "assets": []
+        },
+        {
+          "id": 50778989,
+          "tag": "v0.4.1",
+          "published_at": "2021-10-04T23:46:54Z",
+          "prerelease": false,
+          "total": 0,
+          "assets": []
+        },
+        {
+          "id": 50985979,
+          "tag": "v0.4.2",
+          "published_at": "2021-10-07T18:27:16Z",
+          "prerelease": false,
+          "total": 0,
+          "assets": []
+        },
+        {
+          "id": 73710371,
+          "tag": "v0.5.0",
+          "published_at": "2022-08-04T23:04:48Z",
+          "prerelease": false,
+          "total": 0,
+          "assets": []
+        },
+        {
+          "id": 94132820,
+          "tag": "v0.7.0",
+          "published_at": "2023-03-02T00:32:13Z",
+          "prerelease": false,
+          "total": 0,
+          "assets": []
+        },
+        {
+          "id": 104326548,
+          "tag": "v0.8.0",
+          "published_at": "2023-05-26T23:44:23Z",
+          "prerelease": false,
+          "total": 0,
+          "assets": []
+        },
+        {
+          "id": 122100014,
+          "tag": "v0.9.0",
+          "published_at": "2023-09-21T18:28:13Z",
+          "prerelease": false,
+          "total": 0,
+          "assets": []
+        },
+        {
+          "id": 140153361,
+          "tag": "v0.10.0",
+          "published_at": "2024-02-06T19:16:23Z",
+          "prerelease": false,
+          "total": 0,
+          "assets": []
+        },
+        {
+          "id": 152858346,
+          "tag": "v0.10.1",
+          "published_at": "2024-04-25T17:53:04Z",
+          "prerelease": false,
+          "total": 0,
+          "assets": []
+        },
+        {
+          "id": 157204981,
+          "tag": "v0.11.0",
+          "published_at": "2024-06-01T00:00:19Z",
+          "prerelease": false,
+          "total": 0,
+          "assets": []
+        },
+        {
+          "id": 172409348,
+          "tag": "v0.12.0",
+          "published_at": "2024-08-28T17:16:45Z",
+          "prerelease": false,
+          "total": 0,
+          "assets": []
+        },
+        {
+          "id": 188765137,
+          "tag": "v0.13.0",
+          "published_at": "2024-12-03T17:57:43Z",
+          "prerelease": false,
+          "total": 0,
+          "assets": []
+        },
+        {
+          "id": 202273940,
+          "tag": "v0.14.0",
+          "published_at": "2025-03-14T00:57:14Z",
+          "prerelease": false,
+          "total": 0,
+          "assets": []
+        }
+      ]
+    },
+    {
+      "repository": "microsoft/onnxruntime-genai",
+      "total": 30447,
+      "releases": [
+        {
+          "id": 158220095,
+          "tag": "v0.3.0-rc2",
+          "published_at": "2024-05-30T17:24:54Z",
+          "prerelease": true,
+          "total": 123,
+          "assets": [
+            {
+              "id": 170984163,
+              "name": "onnxruntime-genai-0.3.0-rc2-win-x64-cuda.zip",
+              "download_count": 20
+            },
+            {
+              "id": 170984173,
+              "name": "onnxruntime-genai-0.3.0-rc2-win-x64-dml.zip",
+              "download_count": 26
+            },
+            {
+              "id": 170984177,
+              "name": "onnxruntime-genai-0.3.0-rc2-win-x64.zip",
+              "download_count": 25
+            },
+            {
+              "id": 170984178,
+              "name": "onnxruntime-genai-0.3.0-rc2-linux-x64.tar.gz",
+              "download_count": 32
+            },
+            {
+              "id": 170984179,
+              "name": "onnxruntime-genai-0.3.0-rc2-linux-x64-cuda.tar.gz",
+              "download_count": 20
+            }
+          ]
+        },
+        {
+          "id": 161743503,
+          "tag": "v0.3.0",
+          "published_at": "2024-06-21T21:23:16Z",
+          "prerelease": false,
+          "total": 475,
+          "assets": [
+            {
+              "id": 175202130,
+              "name": "onnxruntime-genai-0.3.0-linux-x64.tar.gz",
+              "download_count": 112
+            },
+            {
+              "id": 175202134,
+              "name": "onnxruntime-genai-0.3.0-win-x64.zip",
+              "download_count": 139
+            },
+            {
+              "id": 175202141,
+              "name": "onnxruntime-genai-0.3.0-linux-x64-cuda.tar.gz",
+              "download_count": 33
+            },
+            {
+              "id": 175202153,
+              "name": "onnxruntime-genai-0.3.0-win-x64-dml.zip",
+              "download_count": 111
+            },
+            {
+              "id": 175202156,
+              "name": "onnxruntime-genai-0.3.0-win-x64-cuda.zip",
+              "download_count": 28
+            },
+            {
+              "id": 175934787,
+              "name": "onnxruntime-genai-0.3.0-linux-x64-cuda12.tar.gz",
+              "download_count": 27
+            },
+            {
+              "id": 175934802,
+              "name": "onnxruntime-genai-0.3.0-win-x64-cuda12.zip",
+              "download_count": 25
+            }
+          ]
+        },
+        {
+          "id": 171556338,
+          "tag": "v0.4.0",
+          "published_at": "2024-08-22T20:26:17Z",
+          "prerelease": false,
+          "total": 594,
+          "assets": [
+            {
+              "id": 187719124,
+              "name": "onnxruntime-genai-win-cuda-x64-capi.zip",
+              "download_count": 36
+            },
+            {
+              "id": 187719136,
+              "name": "onnxruntime-genai-win-directml-x64-capi.zip",
+              "download_count": 107
+            },
+            {
+              "id": 187719139,
+              "name": "onnxruntime-genai-win-directml-arm64-capi.zip",
+              "download_count": 37
+            },
+            {
+              "id": 187719140,
+              "name": "onnxruntime-genai-linux-cuda-x64-capi.zip",
+              "download_count": 133
+            },
+            {
+              "id": 187719150,
+              "name": "onnxruntime-genai-win-cpu-x64-capi.zip",
+              "download_count": 160
+            },
+            {
+              "id": 187719151,
+              "name": "onnxruntime-genai-win-cpu-arm64-capi.zip",
+              "download_count": 35
+            },
+            {
+              "id": 187719152,
+              "name": "onnxruntime-genai-linux-cpu-x64-capi.zip",
+              "download_count": 86
+            }
+          ]
+        },
+        {
+          "id": 184255362,
+          "tag": "v0.5.0",
+          "published_at": "2024-11-08T19:43:59Z",
+          "prerelease": false,
+          "total": 130,
+          "assets": [
+            {
+              "id": 204907740,
+              "name": "onnxruntime-genai-win-directml-x64-capi.zip",
+              "download_count": 22
+            },
+            {
+              "id": 204907770,
+              "name": "onnxruntime-genai-win-cuda-x64-capi.zip",
+              "download_count": 15
+            },
+            {
+              "id": 204907808,
+              "name": "onnxruntime-genai-win-directml-arm64-capi.zip",
+              "download_count": 11
+            },
+            {
+              "id": 204907814,
+              "name": "onnxruntime-genai-win-cpu-x64-capi.zip",
+              "download_count": 21
+            },
+            {
+              "id": 204907818,
+              "name": "onnxruntime-genai-win-cpu-arm64-capi.zip",
+              "download_count": 9
+            },
+            {
+              "id": 204907821,
+              "name": "onnxruntime-genai-osx-cpu-x64-capi.zip",
+              "download_count": 9
+            },
+            {
+              "id": 204907830,
+              "name": "onnxruntime-genai-osx-cpu-arm64-capi.zip",
+              "download_count": 15
+            },
+            {
+              "id": 204907843,
+              "name": "onnxruntime-genai-linux-cuda-x64-capi.zip",
+              "download_count": 12
+            },
+            {
+              "id": 204907960,
+              "name": "onnxruntime-genai-linux-cpu-x64-capi.zip",
+              "download_count": 16
+            }
+          ]
+        },
+        {
+          "id": 185281472,
+          "tag": "v0.5.1",
+          "published_at": "2024-11-13T21:26:40Z",
+          "prerelease": false,
+          "total": 155,
+          "assets": [
+            {
+              "id": 206285036,
+              "name": "onnxruntime-genai-0.5.1-win-x64-dml.zip",
+              "download_count": 25
+            },
+            {
+              "id": 206285038,
+              "name": "onnxruntime-genai-0.5.1-win-arm64-dml.zip",
+              "download_count": 9
+            },
+            {
+              "id": 206285040,
+              "name": "onnxruntime-genai-0.5.1-win-x64-cuda.zip",
+              "download_count": 15
+            },
+            {
+              "id": 206285045,
+              "name": "onnxruntime-genai-0.5.1-win-x64.zip",
+              "download_count": 23
+            },
+            {
+              "id": 206285046,
+              "name": "onnxruntime-genai-0.5.1-win-arm64.zip",
+              "download_count": 14
+            },
+            {
+              "id": 206285047,
+              "name": "onnxruntime-genai-0.5.1-osx-x64.tar.gz",
+              "download_count": 8
+            },
+            {
+              "id": 206285049,
+              "name": "onnxruntime-genai-0.5.1-osx-arm64.tar.gz",
+              "download_count": 18
+            },
+            {
+              "id": 206285052,
+              "name": "onnxruntime-genai-0.5.1-linux-x64-cuda.tar.gz",
+              "download_count": 15
+            },
+            {
+              "id": 206285053,
+              "name": "onnxruntime-genai-0.5.1-linux-x64.tar.gz",
+              "download_count": 28
+            }
+          ]
+        },
+        {
+          "id": 187423635,
+          "tag": "v0.5.2",
+          "published_at": "2024-11-26T18:05:26Z",
+          "prerelease": false,
+          "total": 2168,
+          "assets": [
+            {
+              "id": 209077899,
+              "name": "onnxruntime-genai-0.5.2-linux-x64.tar.gz",
+              "download_count": 1004
+            },
+            {
+              "id": 209077938,
+              "name": "onnxruntime-genai-0.5.2-linux-x64-cuda.tar.gz",
+              "download_count": 63
+            },
+            {
+              "id": 209077977,
+              "name": "onnxruntime-genai-0.5.2-osx-arm64.tar.gz",
+              "download_count": 788
+            },
+            {
+              "id": 209077990,
+              "name": "onnxruntime-genai-0.5.2-osx-x64.tar.gz",
+              "download_count": 21
+            },
+            {
+              "id": 209078000,
+              "name": "onnxruntime-genai-0.5.2-win-arm64.zip",
+              "download_count": 32
+            },
+            {
+              "id": 209078005,
+              "name": "onnxruntime-genai-0.5.2-win-x64.zip",
+              "download_count": 116
+            },
+            {
+              "id": 209078014,
+              "name": "onnxruntime-genai-0.5.2-win-x64-cuda.zip",
+              "download_count": 42
+            },
+            {
+              "id": 209078050,
+              "name": "onnxruntime-genai-0.5.2-win-arm64-dml.zip",
+              "download_count": 24
+            },
+            {
+              "id": 209078058,
+              "name": "onnxruntime-genai-0.5.2-win-x64-dml.zip",
+              "download_count": 78
+            }
+          ]
+        },
+        {
+          "id": 200441661,
+          "tag": "v0.6.0",
+          "published_at": "2025-02-14T18:07:51Z",
+          "prerelease": false,
+          "total": 707,
+          "assets": [
+            {
+              "id": 229203617,
+              "name": "onnxruntime-genai-0.6.0-win-x64-cuda.zip",
+              "download_count": 55
+            },
+            {
+              "id": 229203630,
+              "name": "onnxruntime-genai-0.6.0-win-x64.zip",
+              "download_count": 100
+            },
+            {
+              "id": 229203631,
+              "name": "onnxruntime-genai-0.6.0-win-arm64.zip",
+              "download_count": 83
+            },
+            {
+              "id": 229203633,
+              "name": "onnxruntime-genai-0.6.0-osx-x64.tar.gz",
+              "download_count": 19
+            },
+            {
+              "id": 229203635,
+              "name": "onnxruntime-genai-0.6.0-osx-arm64.tar.gz",
+              "download_count": 31
+            },
+            {
+              "id": 229203637,
+              "name": "onnxruntime-genai-0.6.0-linux-x64-cuda.tar.gz",
+              "download_count": 29
+            },
+            {
+              "id": 229203640,
+              "name": "onnxruntime-genai-0.6.0-linux-x64.tar.gz",
+              "download_count": 71
+            },
+            {
+              "id": 229203643,
+              "name": "onnxruntime-genai-ios-0.6.0.zip",
+              "download_count": 26
+            },
+            {
+              "id": 229203647,
+              "name": "onnxruntime-genai-android-0.6.0.aar",
+              "download_count": 180
+            },
+            {
+              "id": 229203649,
+              "name": "onnxruntime-genai-0.6.0-win-x64-dml.zip",
+              "download_count": 90
+            },
+            {
+              "id": 229204904,
+              "name": "onnxruntime-genai-0.6.0-win-arm64-dml.zip",
+              "download_count": 23
+            }
+          ]
+        },
+        {
+          "id": 209010160,
+          "tag": "v0.7.0",
+          "published_at": "2025-03-28T16:58:37Z",
+          "prerelease": false,
+          "total": 4105,
+          "assets": [
+            {
+              "id": 241635488,
+              "name": "onnxruntime-genai-0.7.0-win-x64-cuda.zip",
+              "download_count": 22
+            },
+            {
+              "id": 241635497,
+              "name": "onnxruntime-genai-0.7.0-linux-x64-cuda.tar.gz",
+              "download_count": 12
+            },
+            {
+              "id": 241635510,
+              "name": "onnxruntime-genai-0.7.0-win-x64.zip",
+              "download_count": 29
+            },
+            {
+              "id": 241635513,
+              "name": "onnxruntime-genai-0.7.0-win-x64-dml.zip",
+              "download_count": 35
+            },
+            {
+              "id": 241635516,
+              "name": "onnxruntime-genai-0.7.0-win-arm64-dml.zip",
+              "download_count": 12
+            },
+            {
+              "id": 241635518,
+              "name": "onnxruntime-genai-0.7.0-win-arm64.zip",
+              "download_count": 16
+            },
+            {
+              "id": 241635520,
+              "name": "onnxruntime-genai-0.7.0-osx-x64.tar.gz",
+              "download_count": 11
+            },
+            {
+              "id": 241635523,
+              "name": "onnxruntime-genai-0.7.0-osx-arm64.tar.gz",
+              "download_count": 1831
+            },
+            {
+              "id": 241635526,
+              "name": "onnxruntime-genai-0.7.0-linux-x64.tar.gz",
+              "download_count": 2069
+            },
+            {
+              "id": 241635530,
+              "name": "onnxruntime-genai-ios-0.7.0.zip",
+              "download_count": 12
+            },
+            {
+              "id": 241635537,
+              "name": "onnxruntime-genai-android-0.7.0.aar",
+              "download_count": 56
+            }
+          ]
+        },
+        {
+          "id": 213785478,
+          "tag": "v0.7.1",
+          "published_at": "2025-04-22T02:20:02Z",
+          "prerelease": false,
+          "total": 308,
+          "assets": [
+            {
+              "id": 248272658,
+              "name": "onnxruntime-genai-0.7.1-osx-x64.tar.gz",
+              "download_count": 12
+            },
+            {
+              "id": 248272679,
+              "name": "onnxruntime-genai-0.7.1-osx-arm64.tar.gz",
+              "download_count": 15
+            },
+            {
+              "id": 248272680,
+              "name": "onnxruntime-genai-0.7.1-linux-x64-cuda.tar.gz",
+              "download_count": 30
+            },
+            {
+              "id": 248272682,
+              "name": "onnxruntime-genai-0.7.1-linux-x64.tar.gz",
+              "download_count": 44
+            },
+            {
+              "id": 248272684,
+              "name": "onnxruntime-genai-0.7.1-win-arm64.zip",
+              "download_count": 17
+            },
+            {
+              "id": 248272685,
+              "name": "onnxruntime-genai-0.7.1-win-x64.zip",
+              "download_count": 53
+            },
+            {
+              "id": 248272686,
+              "name": "onnxruntime-genai-0.7.1-win-x64-cuda.zip",
+              "download_count": 28
+            },
+            {
+              "id": 248272690,
+              "name": "onnxruntime-genai-0.7.1-win-arm64-dml.zip",
+              "download_count": 12
+            },
+            {
+              "id": 248272691,
+              "name": "onnxruntime-genai-0.7.1-win-x64-dml.zip",
+              "download_count": 39
+            },
+            {
+              "id": 248493286,
+              "name": "onnxruntime-genai-android-0.7.1.aar",
+              "download_count": 46
+            },
+            {
+              "id": 248493375,
+              "name": "onnxruntime-genai-ios-0.7.1.zip",
+              "download_count": 12
+            }
+          ]
+        },
+        {
+          "id": 222173875,
+          "tag": "v0.8.0",
+          "published_at": "2025-05-30T22:12:02Z",
+          "prerelease": false,
+          "total": 162,
+          "assets": [
+            {
+              "id": 259568189,
+              "name": "onnxruntime-genai-0.8.0-win-x64-dml.zip",
+              "download_count": 14
+            },
+            {
+              "id": 259568221,
+              "name": "onnxruntime-genai-0.8.0-win-arm64-dml.zip",
+              "download_count": 8
+            },
+            {
+              "id": 259568223,
+              "name": "onnxruntime-genai-0.8.0-win-x64-cuda.zip",
+              "download_count": 7
+            },
+            {
+              "id": 259568229,
+              "name": "onnxruntime-genai-0.8.0-win-x64.zip",
+              "download_count": 8
+            },
+            {
+              "id": 259568231,
+              "name": "onnxruntime-genai-0.8.0-win-arm64.zip",
+              "download_count": 7
+            },
+            {
+              "id": 259568234,
+              "name": "onnxruntime-genai-0.8.0-osx-x64.tar.gz",
+              "download_count": 8
+            },
+            {
+              "id": 259568239,
+              "name": "onnxruntime-genai-0.8.0-osx-arm64.tar.gz",
+              "download_count": 8
+            },
+            {
+              "id": 259568240,
+              "name": "onnxruntime-genai-0.8.0-linux-x64-cuda.tar.gz",
+              "download_count": 7
+            },
+            {
+              "id": 259568243,
+              "name": "onnxruntime-genai-0.8.0-linux-x64.tar.gz",
+              "download_count": 12
+            },
+            {
+              "id": 259568246,
+              "name": "onnxruntime-genai-ios-0.8.0.zip",
+              "download_count": 12
+            },
+            {
+              "id": 259568249,
+              "name": "onnxruntime-genai-android-0.8.0.aar",
+              "download_count": 71
+            }
+          ]
+        },
+        {
+          "id": 222173974,
+          "tag": "v0.8.1",
+          "published_at": "2025-05-30T22:14:29Z",
+          "prerelease": false,
+          "total": 166,
+          "assets": [
+            {
+              "id": 259568394,
+              "name": "onnxruntime-genai-0.8.1-win-x64-dml.zip",
+              "download_count": 17
+            },
+            {
+              "id": 259568397,
+              "name": "onnxruntime-genai-0.8.1-win-arm64-dml.zip",
+              "download_count": 8
+            },
+            {
+              "id": 259568398,
+              "name": "onnxruntime-genai-0.8.1-win-x64-cuda.zip",
+              "download_count": 9
+            },
+            {
+              "id": 259568408,
+              "name": "onnxruntime-genai-0.8.1-win-x64.zip",
+              "download_count": 18
+            },
+            {
+              "id": 259568411,
+              "name": "onnxruntime-genai-0.8.1-win-arm64.zip",
+              "download_count": 9
+            },
+            {
+              "id": 259568413,
+              "name": "onnxruntime-genai-0.8.1-osx-x64.tar.gz",
+              "download_count": 8
+            },
+            {
+              "id": 259568417,
+              "name": "onnxruntime-genai-0.8.1-osx-arm64.tar.gz",
+              "download_count": 11
+            },
+            {
+              "id": 259568422,
+              "name": "onnxruntime-genai-0.8.1-linux-x64-cuda.tar.gz",
+              "download_count": 9
+            },
+            {
+              "id": 259568434,
+              "name": "onnxruntime-genai-0.8.1-linux-x64.tar.gz",
+              "download_count": 14
+            },
+            {
+              "id": 259568438,
+              "name": "onnxruntime-genai-android-0.8.1.aar",
+              "download_count": 34
+            },
+            {
+              "id": 259568442,
+              "name": "onnxruntime-genai-ios-0.8.1.zip",
+              "download_count": 29
+            }
+          ]
+        },
+        {
+          "id": 223507133,
+          "tag": "v0.8.2",
+          "published_at": "2025-06-05T23:03:26Z",
+          "prerelease": false,
+          "total": 278,
+          "assets": [
+            {
+              "id": 261356275,
+              "name": "onnxruntime-genai-0.8.2-win-x64-dml.zip",
+              "download_count": 42
+            },
+            {
+              "id": 261356278,
+              "name": "onnxruntime-genai-0.8.2-win-arm64-dml.zip",
+              "download_count": 7
+            },
+            {
+              "id": 261356280,
+              "name": "onnxruntime-genai-0.8.2-win-x64-cuda.zip",
+              "download_count": 17
+            },
+            {
+              "id": 261356284,
+              "name": "onnxruntime-genai-0.8.2-win-x64.zip",
+              "download_count": 58
+            },
+            {
+              "id": 261356287,
+              "name": "onnxruntime-genai-0.8.2-win-arm64.zip",
+              "download_count": 10
+            },
+            {
+              "id": 261356291,
+              "name": "onnxruntime-genai-0.8.2-osx-x64.tar.gz",
+              "download_count": 12
+            },
+            {
+              "id": 261356294,
+              "name": "onnxruntime-genai-0.8.2-osx-arm64.tar.gz",
+              "download_count": 13
+            },
+            {
+              "id": 261356300,
+              "name": "onnxruntime-genai-0.8.2-linux-x64-cuda.tar.gz",
+              "download_count": 71
+            },
+            {
+              "id": 261356305,
+              "name": "onnxruntime-genai-0.8.2-linux-x64.tar.gz",
+              "download_count": 16
+            },
+            {
+              "id": 261630434,
+              "name": "onnxruntime-genai-android-0.8.2.aar",
+              "download_count": 25
+            },
+            {
+              "id": 261630926,
+              "name": "onnxruntime-genai-ios-0.8.2.zip",
+              "download_count": 7
+            }
+          ]
+        },
+        {
+          "id": 229851261,
+          "tag": "v0.8.3",
+          "published_at": "2025-07-03T20:37:56Z",
+          "prerelease": false,
+          "total": 313,
+          "assets": [
+            {
+              "id": 269750167,
+              "name": "onnxruntime-genai-ios-0.8.3.zip",
+              "download_count": 11
+            },
+            {
+              "id": 269750176,
+              "name": "onnxruntime-genai-0.8.3-win-arm64.zip",
+              "download_count": 23
+            },
+            {
+              "id": 269750179,
+              "name": "onnxruntime-genai-0.8.3-win-arm64-dml.zip",
+              "download_count": 12
+            },
+            {
+              "id": 269750183,
+              "name": "onnxruntime-genai-0.8.3-win-x64.zip",
+              "download_count": 54
+            },
+            {
+              "id": 269750187,
+              "name": "onnxruntime-genai-0.8.3-win-x64-cuda.zip",
+              "download_count": 29
+            },
+            {
+              "id": 269750191,
+              "name": "onnxruntime-genai-0.8.3-win-x64-dml.zip",
+              "download_count": 32
+            },
+            {
+              "id": 269750195,
+              "name": "onnxruntime-genai-0.8.3-osx-x64.tar.gz",
+              "download_count": 13
+            },
+            {
+              "id": 269750196,
+              "name": "onnxruntime-genai-0.8.3-linux-x64-cuda.tar.gz",
+              "download_count": 27
+            },
+            {
+              "id": 269750204,
+              "name": "onnxruntime-genai-0.8.3-osx-arm64.tar.gz",
+              "download_count": 17
+            },
+            {
+              "id": 269750206,
+              "name": "onnxruntime-genai-0.8.3-linux-x64.tar.gz",
+              "download_count": 24
+            },
+            {
+              "id": 269750214,
+              "name": "onnxruntime-genai-android-0.8.3.aar",
+              "download_count": 71
+            }
+          ]
+        },
+        {
+          "id": 237515513,
+          "tag": "v0.9.0",
+          "published_at": "2025-08-06T17:30:57Z",
+          "prerelease": false,
+          "total": 218,
+          "assets": [
+            {
+              "id": 282893285,
+              "name": "onnxruntime-genai-0.9.0-win-x64-dml.zip",
+              "download_count": 35
+            },
+            {
+              "id": 282893289,
+              "name": "onnxruntime-genai-0.9.0-win-arm64-dml.zip",
+              "download_count": 12
+            },
+            {
+              "id": 282893293,
+              "name": "onnxruntime-genai-0.9.0-win-x64-cuda.zip",
+              "download_count": 26
+            },
+            {
+              "id": 282893303,
+              "name": "onnxruntime-genai-0.9.0-win-x64.zip",
+              "download_count": 57
+            },
+            {
+              "id": 282893305,
+              "name": "onnxruntime-genai-0.9.0-win-arm64.zip",
+              "download_count": 17
+            },
+            {
+              "id": 282893307,
+              "name": "onnxruntime-genai-0.9.0-osx-x64.tar.gz",
+              "download_count": 8
+            },
+            {
+              "id": 282893317,
+              "name": "onnxruntime-genai-0.9.0-osx-arm64.tar.gz",
+              "download_count": 12
+            },
+            {
+              "id": 282893322,
+              "name": "onnxruntime-genai-0.9.0-linux-x64-cuda.tar.gz",
+              "download_count": 18
+            },
+            {
+              "id": 282893369,
+              "name": "onnxruntime-genai-0.9.0-linux-x64.tar.gz",
+              "download_count": 33
+            }
+          ]
+        },
+        {
+          "id": 245995399,
+          "tag": "v0.9.1",
+          "published_at": "2025-09-09T22:53:00Z",
+          "prerelease": false,
+          "total": 128,
+          "assets": [
+            {
+              "id": 291488626,
+              "name": "onnxruntime-genai-0.9.1-win-x64-dml.zip",
+              "download_count": 29
+            },
+            {
+              "id": 291488631,
+              "name": "onnxruntime-genai-0.9.1-win-arm64-dml.zip",
+              "download_count": 13
+            },
+            {
+              "id": 291488632,
+              "name": "onnxruntime-genai-0.9.1-win-x64-cuda.zip",
+              "download_count": 12
+            },
+            {
+              "id": 291488646,
+              "name": "onnxruntime-genai-0.9.1-win-x64.zip",
+              "download_count": 18
+            },
+            {
+              "id": 291488648,
+              "name": "onnxruntime-genai-0.9.1-win-arm64.zip",
+              "download_count": 16
+            },
+            {
+              "id": 291488650,
+              "name": "onnxruntime-genai-0.9.1-osx-x64.tar.gz",
+              "download_count": 9
+            },
+            {
+              "id": 291488656,
+              "name": "onnxruntime-genai-0.9.1-osx-arm64.tar.gz",
+              "download_count": 11
+            },
+            {
+              "id": 291488664,
+              "name": "onnxruntime-genai-0.9.1-linux-x64-cuda.tar.gz",
+              "download_count": 9
+            },
+            {
+              "id": 291488678,
+              "name": "onnxruntime-genai-0.9.1-linux-x64.tar.gz",
+              "download_count": 11
+            }
+          ]
+        },
+        {
+          "id": 247527457,
+          "tag": "v0.9.2",
+          "published_at": "2025-09-16T07:27:58Z",
+          "prerelease": false,
+          "total": 208,
+          "assets": [
+            {
+              "id": 293739145,
+              "name": "onnxruntime-genai-0.9.2-win-x64-dml.zip",
+              "download_count": 30
+            },
+            {
+              "id": 293739150,
+              "name": "onnxruntime-genai-0.9.2-win-arm64-dml.zip",
+              "download_count": 12
+            },
+            {
+              "id": 293739152,
+              "name": "onnxruntime-genai-0.9.2-win-x64.zip",
+              "download_count": 38
+            },
+            {
+              "id": 293739153,
+              "name": "onnxruntime-genai-0.9.2-win-x64-cuda.zip",
+              "download_count": 30
+            },
+            {
+              "id": 293739163,
+              "name": "onnxruntime-genai-0.9.2-win-arm64.zip",
+              "download_count": 15
+            },
+            {
+              "id": 293739167,
+              "name": "onnxruntime-genai-0.9.2-osx-x64.tar.gz",
+              "download_count": 9
+            },
+            {
+              "id": 293739172,
+              "name": "onnxruntime-genai-0.9.2-osx-arm64.tar.gz",
+              "download_count": 18
+            },
+            {
+              "id": 293739175,
+              "name": "onnxruntime-genai-0.9.2-linux-x64-cuda.tar.gz",
+              "download_count": 15
+            },
+            {
+              "id": 293739180,
+              "name": "onnxruntime-genai-0.9.2-linux-x64.tar.gz",
+              "download_count": 41
+            }
+          ]
+        },
+        {
+          "id": 253706552,
+          "tag": "v0.10.0",
+          "published_at": "2025-10-10T17:26:47Z",
+          "prerelease": false,
+          "total": 364,
+          "assets": [
+            {
+              "id": 302797481,
+              "name": "onnxruntime-genai-0.10.0-win-x64-dml.zip",
+              "download_count": 42
+            },
+            {
+              "id": 302797489,
+              "name": "onnxruntime-genai-0.10.0-win-arm64-dml.zip",
+              "download_count": 13
+            },
+            {
+              "id": 302797492,
+              "name": "onnxruntime-genai-0.10.0-win-x64-cuda.zip",
+              "download_count": 31
+            },
+            {
+              "id": 302797499,
+              "name": "onnxruntime-genai-0.10.0-win-x64.zip",
+              "download_count": 68
+            },
+            {
+              "id": 302797502,
+              "name": "onnxruntime-genai-0.10.0-win-arm64.zip",
+              "download_count": 27
+            },
+            {
+              "id": 302797506,
+              "name": "onnxruntime-genai-0.10.0-osx-x64.tar.gz",
+              "download_count": 12
+            },
+            {
+              "id": 302797508,
+              "name": "onnxruntime-genai-0.10.0-linux-x64-cuda.tar.gz",
+              "download_count": 16
+            },
+            {
+              "id": 302797517,
+              "name": "onnxruntime-genai-0.10.0-osx-arm64.tar.gz",
+              "download_count": 23
+            },
+            {
+              "id": 302797519,
+              "name": "onnxruntime-genai-0.10.0-linux-x64.tar.gz",
+              "download_count": 19
+            },
+            {
+              "id": 302797528,
+              "name": "onnxruntime-genai-ios-0.10.0.zip",
+              "download_count": 15
+            },
+            {
+              "id": 302797533,
+              "name": "onnxruntime-genai-android-0.10.0.aar",
+              "download_count": 98
+            }
+          ]
+        },
+        {
+          "id": 262301987,
+          "tag": "v0.11.0",
+          "published_at": "2025-11-14T02:51:44Z",
+          "prerelease": false,
+          "total": 228,
+          "assets": [
+            {
+              "id": 316223167,
+              "name": "onnxruntime-genai-android-0.11.0.aar",
+              "download_count": 36
+            },
+            {
+              "id": 316223319,
+              "name": "onnxruntime-genai-ios-0.11.0.zip",
+              "download_count": 9
+            },
+            {
+              "id": 316223591,
+              "name": "onnxruntime-genai-0.11.0-win-x64-dml.zip",
+              "download_count": 9
+            },
+            {
+              "id": 316223653,
+              "name": "onnxruntime-genai-0.11.0-win-arm64-dml.zip",
+              "download_count": 10
+            },
+            {
+              "id": 316223707,
+              "name": "onnxruntime-genai-0.11.0-win-x64-cuda.zip",
+              "download_count": 10
+            },
+            {
+              "id": 316223835,
+              "name": "onnxruntime-genai-0.11.0-win-x64.zip",
+              "download_count": 22
+            },
+            {
+              "id": 316223875,
+              "name": "onnxruntime-genai-0.11.0-win-arm64.zip",
+              "download_count": 11
+            },
+            {
+              "id": 316223934,
+              "name": "onnxruntime-genai-0.11.0-osx-x64.tar.gz",
+              "download_count": 11
+            },
+            {
+              "id": 316223955,
+              "name": "onnxruntime-genai-0.11.0-osx-arm64.tar.gz",
+              "download_count": 29
+            },
+            {
+              "id": 316223975,
+              "name": "onnxruntime-genai-0.11.0-linux-x64-cuda.tar.gz",
+              "download_count": 8
+            },
+            {
+              "id": 316224203,
+              "name": "onnxruntime-genai-0.11.0-linux-x64.tar.gz",
+              "download_count": 73
+            }
+          ]
+        },
+        {
+          "id": 262834132,
+          "tag": "v0.11.1",
+          "published_at": "2025-11-17T03:39:36Z",
+          "prerelease": false,
+          "total": 142,
+          "assets": [
+            {
+              "id": 317286723,
+              "name": "onnxruntime-genai-ios-0.11.1.zip",
+              "download_count": 8
+            },
+            {
+              "id": 317286731,
+              "name": "onnxruntime-genai-android-0.11.1.aar",
+              "download_count": 21
+            },
+            {
+              "id": 317286736,
+              "name": "onnxruntime-genai-0.11.1-win-x64-dml.zip",
+              "download_count": 12
+            },
+            {
+              "id": 317286741,
+              "name": "onnxruntime-genai-0.11.1-win-arm64-dml.zip",
+              "download_count": 13
+            },
+            {
+              "id": 317286744,
+              "name": "onnxruntime-genai-0.11.1-win-x64-cuda.zip",
+              "download_count": 10
+            },
+            {
+              "id": 317286752,
+              "name": "onnxruntime-genai-0.11.1-win-x64.zip",
+              "download_count": 13
+            },
+            {
+              "id": 317286756,
+              "name": "onnxruntime-genai-0.11.1-win-arm64.zip",
+              "download_count": 10
+            },
+            {
+              "id": 317286757,
+              "name": "onnxruntime-genai-0.11.1-osx-x64.tar.gz",
+              "download_count": 10
+            },
+            {
+              "id": 317286763,
+              "name": "onnxruntime-genai-0.11.1-linux-x64-cuda.tar.gz",
+              "download_count": 11
+            },
+            {
+              "id": 317286784,
+              "name": "onnxruntime-genai-0.11.1-osx-arm64.tar.gz",
+              "download_count": 21
+            },
+            {
+              "id": 317286787,
+              "name": "onnxruntime-genai-0.11.1-linux-x64.tar.gz",
+              "download_count": 13
+            }
+          ]
+        },
+        {
+          "id": 263284989,
+          "tag": "v0.11.2",
+          "published_at": "2025-11-18T12:53:55Z",
+          "prerelease": false,
+          "total": 420,
+          "assets": [
+            {
+              "id": 317914533,
+              "name": "onnxruntime-genai-0.11.2-linux-x64.tar.gz",
+              "download_count": 59
+            },
+            {
+              "id": 317914562,
+              "name": "onnxruntime-genai-0.11.2-linux-x64-cuda.tar.gz",
+              "download_count": 22
+            },
+            {
+              "id": 317914630,
+              "name": "onnxruntime-genai-0.11.2-osx-x64.tar.gz",
+              "download_count": 14
+            },
+            {
+              "id": 317914633,
+              "name": "onnxruntime-genai-0.11.2-osx-arm64.tar.gz",
+              "download_count": 24
+            },
+            {
+              "id": 317914656,
+              "name": "onnxruntime-genai-ios-0.11.2.zip",
+              "download_count": 10
+            },
+            {
+              "id": 317914753,
+              "name": "onnxruntime-genai-android-0.11.2.aar",
+              "download_count": 82
+            },
+            {
+              "id": 317914833,
+              "name": "onnxruntime-genai-0.11.2-win-x64-dml.zip",
+              "download_count": 31
+            },
+            {
+              "id": 317914848,
+              "name": "onnxruntime-genai-0.11.2-win-x64-cuda.zip",
+              "download_count": 20
+            },
+            {
+              "id": 317914921,
+              "name": "onnxruntime-genai-0.11.2-win-arm64-dml.zip",
+              "download_count": 16
+            },
+            {
+              "id": 317914935,
+              "name": "onnxruntime-genai-0.11.2-win-x64.zip",
+              "download_count": 114
+            },
+            {
+              "id": 317914949,
+              "name": "onnxruntime-genai-0.11.2-win-arm64.zip",
+              "download_count": 28
+            }
+          ]
+        },
+        {
+          "id": 268451353,
+          "tag": "v0.11.3",
+          "published_at": "2025-12-08T20:23:11Z",
+          "prerelease": false,
+          "total": 136,
+          "assets": [
+            {
+              "id": 326041402,
+              "name": "onnxruntime-genai-0.11.3-win-x64-dml.zip",
+              "download_count": 12
+            },
+            {
+              "id": 326041410,
+              "name": "onnxruntime-genai-0.11.3-win-arm64-dml.zip",
+              "download_count": 10
+            },
+            {
+              "id": 326041417,
+              "name": "onnxruntime-genai-0.11.3-win-x64-cuda.zip",
+              "download_count": 9
+            },
+            {
+              "id": 326041437,
+              "name": "onnxruntime-genai-0.11.3-win-x64.zip",
+              "download_count": 14
+            },
+            {
+              "id": 326041444,
+              "name": "onnxruntime-genai-0.11.3-win-arm64.zip",
+              "download_count": 11
+            },
+            {
+              "id": 326041452,
+              "name": "onnxruntime-genai-0.11.3-osx-x64.tar.gz",
+              "download_count": 11
+            },
+            {
+              "id": 326041454,
+              "name": "onnxruntime-genai-0.11.3-linux-x64-cuda.tar.gz",
+              "download_count": 11
+            },
+            {
+              "id": 326041470,
+              "name": "onnxruntime-genai-0.11.3-osx-arm64.tar.gz",
+              "download_count": 15
+            },
+            {
+              "id": 326041474,
+              "name": "onnxruntime-genai-0.11.3-linux-x64.tar.gz",
+              "download_count": 14
+            },
+            {
+              "id": 326041488,
+              "name": "onnxruntime-genai-ios-0.11.3.zip",
+              "download_count": 9
+            },
+            {
+              "id": 326041509,
+              "name": "onnxruntime-genai-android-0.11.3.aar",
+              "download_count": 20
+            }
+          ]
+        },
+        {
+          "id": 269765900,
+          "tag": "v0.11.4",
+          "published_at": "2025-12-12T05:23:01Z",
+          "prerelease": false,
+          "total": 1486,
+          "assets": [
+            {
+              "id": 327716835,
+              "name": "onnxruntime-genai-ios-0.11.4.zip",
+              "download_count": 28
+            },
+            {
+              "id": 327716922,
+              "name": "onnxruntime-genai-android-0.11.4.aar",
+              "download_count": 120
+            },
+            {
+              "id": 327717063,
+              "name": "onnxruntime-genai-0.11.4-linux-x64-cuda.tar.gz",
+              "download_count": 55
+            },
+            {
+              "id": 327717205,
+              "name": "onnxruntime-genai-0.11.4-linux-x64.tar.gz",
+              "download_count": 727
+            },
+            {
+              "id": 327717327,
+              "name": "onnxruntime-genai-0.11.4-osx-x64.tar.gz",
+              "download_count": 113
+            },
+            {
+              "id": 327717336,
+              "name": "onnxruntime-genai-0.11.4-osx-arm64.tar.gz",
+              "download_count": 137
+            },
+            {
+              "id": 327717386,
+              "name": "onnxruntime-genai-0.11.4-win-arm64.zip",
+              "download_count": 37
+            },
+            {
+              "id": 327717440,
+              "name": "onnxruntime-genai-0.11.4-win-x64-cuda.zip",
+              "download_count": 85
+            },
+            {
+              "id": 327717499,
+              "name": "onnxruntime-genai-0.11.4-win-x64.zip",
+              "download_count": 91
+            },
+            {
+              "id": 327717568,
+              "name": "onnxruntime-genai-0.11.4-win-x64-dml.zip",
+              "download_count": 65
+            },
+            {
+              "id": 327717607,
+              "name": "onnxruntime-genai-0.11.4-win-arm64-dml.zip",
+              "download_count": 28
+            }
+          ]
+        },
+        {
+          "id": 286180787,
+          "tag": "v0.12.0",
+          "published_at": "2026-02-13T17:38:22Z",
+          "prerelease": false,
+          "total": 1250,
+          "assets": [
+            {
+              "id": 355460991,
+              "name": "onnxruntime-genai-0.12.0-win-x64-dml.zip",
+              "download_count": 173
+            },
+            {
+              "id": 355461006,
+              "name": "onnxruntime-genai-0.12.0-win-arm64-dml.zip",
+              "download_count": 12
+            },
+            {
+              "id": 355461019,
+              "name": "onnxruntime-genai-0.12.0-win-x64-cuda.zip",
+              "download_count": 27
+            },
+            {
+              "id": 355461040,
+              "name": "onnxruntime-genai-0.12.0-win-x64.zip",
+              "download_count": 55
+            },
+            {
+              "id": 355461052,
+              "name": "onnxruntime-genai-0.12.0-win-arm64.zip",
+              "download_count": 21
+            },
+            {
+              "id": 355461056,
+              "name": "onnxruntime-genai-0.12.0-linux-x64-cuda.tar.gz",
+              "download_count": 54
+            },
+            {
+              "id": 355461071,
+              "name": "onnxruntime-genai-0.12.0-osx-arm64.tar.gz",
+              "download_count": 149
+            },
+            {
+              "id": 355461075,
+              "name": "onnxruntime-genai-0.12.0-linux-x64.tar.gz",
+              "download_count": 213
+            },
+            {
+              "id": 355461106,
+              "name": "onnxruntime-genai-ios-0.12.0.zip",
+              "download_count": 22
+            },
+            {
+              "id": 355461126,
+              "name": "onnxruntime-genai-android-0.12.0.aar",
+              "download_count": 419
+            },
+            {
+              "id": 355462455,
+              "name": "onnxruntime-genai-0.12.0-win-x64-cuda-winml.zip",
+              "download_count": 66
+            },
+            {
+              "id": 355462468,
+              "name": "onnxruntime-genai-0.12.0-win-arm64-dml-winml.zip",
+              "download_count": 39
+            }
+          ]
+        },
+        {
+          "id": 292309456,
+          "tag": "v0.12.1",
+          "published_at": "2026-03-02T23:22:46Z",
+          "prerelease": false,
+          "total": 3109,
+          "assets": [
+            {
+              "id": 365645745,
+              "name": "onnxruntime-genai-android-0.12.1.aar",
+              "download_count": 212
+            },
+            {
+              "id": 365645770,
+              "name": "onnxruntime-genai-ios-0.12.1.zip",
+              "download_count": 8
+            },
+            {
+              "id": 365645901,
+              "name": "onnxruntime-genai-0.12.1-linux-x64.tar.gz",
+              "download_count": 1811
+            },
+            {
+              "id": 365646413,
+              "name": "onnxruntime-genai-0.12.1-linux-x64-cuda.tar.gz",
+              "download_count": 57
+            },
+            {
+              "id": 365646679,
+              "name": "onnxruntime-genai-0.12.1-osx-arm64.tar.gz",
+              "download_count": 897
+            },
+            {
+              "id": 365646688,
+              "name": "onnxruntime-genai-0.12.1-win-arm64.zip",
+              "download_count": 18
+            },
+            {
+              "id": 365646766,
+              "name": "onnxruntime-genai-0.12.1-win-x64.zip",
+              "download_count": 32
+            },
+            {
+              "id": 365646773,
+              "name": "onnxruntime-genai-0.12.1-win-x64-cuda.zip",
+              "download_count": 16
+            },
+            {
+              "id": 365646812,
+              "name": "onnxruntime-genai-0.12.1-win-arm64-dml.zip",
+              "download_count": 13
+            },
+            {
+              "id": 365646826,
+              "name": "onnxruntime-genai-0.12.1-win-x64-dml.zip",
+              "download_count": 23
+            },
+            {
+              "id": 365648155,
+              "name": "onnxruntime-genai-0.12.1-win-arm64-dml-winml.zip",
+              "download_count": 13
+            },
+            {
+              "id": 365648232,
+              "name": "onnxruntime-genai-0.12.1-win-x64-cuda-winml.zip",
+              "download_count": 9
+            }
+          ]
+        },
+        {
+          "id": 302484431,
+          "tag": "v0.12.2",
+          "published_at": "2026-03-27T17:49:15Z",
+          "prerelease": false,
+          "total": 620,
+          "assets": [
+            {
+              "id": 383036893,
+              "name": "onnxruntime-genai-android-0.12.2.aar",
+              "download_count": 160
+            },
+            {
+              "id": 383036907,
+              "name": "onnxruntime-genai-0.12.2-linux-x64-cuda.tar.gz",
+              "download_count": 36
+            },
+            {
+              "id": 383036944,
+              "name": "onnxruntime-genai-0.12.2-osx-arm64.tar.gz",
+              "download_count": 22
+            },
+            {
+              "id": 383036947,
+              "name": "onnxruntime-genai-0.12.2-linux-x64.tar.gz",
+              "download_count": 175
+            },
+            {
+              "id": 383036962,
+              "name": "onnxruntime-genai-ios-0.12.2.zip",
+              "download_count": 11
+            },
+            {
+              "id": 383036977,
+              "name": "onnxruntime-genai-0.12.2-win-arm64.zip",
+              "download_count": 20
+            },
+            {
+              "id": 383036992,
+              "name": "onnxruntime-genai-0.12.2-win-x64.zip",
+              "download_count": 62
+            },
+            {
+              "id": 383036993,
+              "name": "onnxruntime-genai-0.12.2-win-x64-cuda.zip",
+              "download_count": 39
+            },
+            {
+              "id": 383037005,
+              "name": "onnxruntime-genai-0.12.2-win-arm64-dml.zip",
+              "download_count": 10
+            },
+            {
+              "id": 383037016,
+              "name": "onnxruntime-genai-0.12.2-win-x64-dml.zip",
+              "download_count": 47
+            },
+            {
+              "id": 383037020,
+              "name": "onnxruntime-genai-0.12.2-win-arm64-dml-winml.zip",
+              "download_count": 14
+            },
+            {
+              "id": 383037026,
+              "name": "onnxruntime-genai-0.12.2-win-x64-cuda-winml.zip",
+              "download_count": 24
+            }
+          ]
+        },
+        {
+          "id": 309537694,
+          "tag": "v0.13.0",
+          "published_at": "2026-04-15T19:56:04Z",
+          "prerelease": false,
+          "total": 123,
+          "assets": [
+            {
+              "id": 397232872,
+              "name": "onnxruntime-genai-0.13.0-linux-x64.tar.gz",
+              "download_count": 9
+            },
+            {
+              "id": 397232912,
+              "name": "onnxruntime-genai-0.13.0-linux-x64-cuda.tar.gz",
+              "download_count": 7
+            },
+            {
+              "id": 397232965,
+              "name": "onnxruntime-genai-0.13.0-osx-arm64.tar.gz",
+              "download_count": 10
+            },
+            {
+              "id": 397232970,
+              "name": "onnxruntime-genai-0.13.0-win-arm64.zip",
+              "download_count": 8
+            },
+            {
+              "id": 397232980,
+              "name": "onnxruntime-genai-0.13.0-win-arm64-dml-winml.zip",
+              "download_count": 7
+            },
+            {
+              "id": 397232995,
+              "name": "onnxruntime-genai-0.13.0-win-arm64-dml.zip",
+              "download_count": 8
+            },
+            {
+              "id": 397233011,
+              "name": "onnxruntime-genai-0.13.0-win-x64.zip",
+              "download_count": 14
+            },
+            {
+              "id": 397233044,
+              "name": "onnxruntime-genai-0.13.0-win-x64-cuda-winml.zip",
+              "download_count": 7
+            },
+            {
+              "id": 397233104,
+              "name": "onnxruntime-genai-0.13.0-win-x64-cuda.zip",
+              "download_count": 11
+            },
+            {
+              "id": 397233163,
+              "name": "onnxruntime-genai-0.13.0-win-x64-dml.zip",
+              "download_count": 15
+            },
+            {
+              "id": 397233187,
+              "name": "onnxruntime-genai-android-0.13.0.aar",
+              "download_count": 20
+            },
+            {
+              "id": 397233219,
+              "name": "onnxruntime-genai-ios-0.13.0.zip",
+              "download_count": 7
+            }
+          ]
+        },
+        {
+          "id": 309541072,
+          "tag": "v0.13.1",
+          "published_at": "2026-04-15T20:04:48Z",
+          "prerelease": false,
+          "total": 907,
+          "assets": [
+            {
+              "id": 397238445,
+              "name": "onnxruntime-genai-0.13.1-linux-x64.tar.gz",
+              "download_count": 228
+            },
+            {
+              "id": 397238468,
+              "name": "onnxruntime-genai-0.13.1-linux-x64-cuda.tar.gz",
+              "download_count": 98
+            },
+            {
+              "id": 397238529,
+              "name": "onnxruntime-genai-0.13.1-osx-arm64.tar.gz",
+              "download_count": 74
+            },
+            {
+              "id": 397238537,
+              "name": "onnxruntime-genai-0.13.1-win-arm64.zip",
+              "download_count": 31
+            },
+            {
+              "id": 397238545,
+              "name": "onnxruntime-genai-0.13.1-win-arm64-dml-winml.zip",
+              "download_count": 17
+            },
+            {
+              "id": 397238563,
+              "name": "onnxruntime-genai-0.13.1-win-arm64-dml.zip",
+              "download_count": 27
+            },
+            {
+              "id": 397238575,
+              "name": "onnxruntime-genai-0.13.1-win-x64.zip",
+              "download_count": 104
+            },
+            {
+              "id": 397238596,
+              "name": "onnxruntime-genai-0.13.1-win-x64-cuda-winml.zip",
+              "download_count": 31
+            },
+            {
+              "id": 397238639,
+              "name": "onnxruntime-genai-0.13.1-win-x64-cuda.zip",
+              "download_count": 68
+            },
+            {
+              "id": 397238678,
+              "name": "onnxruntime-genai-0.13.1-win-x64-dml.zip",
+              "download_count": 53
+            },
+            {
+              "id": 397238702,
+              "name": "onnxruntime-genai-android-0.13.1.aar",
+              "download_count": 150
+            },
+            {
+              "id": 397238721,
+              "name": "onnxruntime-genai-ios-0.13.1.zip",
+              "download_count": 26
+            }
+          ]
+        },
+        {
+          "id": 331687215,
+          "tag": "v0.13.2",
+          "published_at": "2026-05-29T18:01:34Z",
+          "prerelease": false,
+          "total": 99,
+          "assets": [
+            {
+              "id": 433224936,
+              "name": "onnxruntime-genai-0.13.2-linux-x64.tar.gz",
+              "download_count": 10
+            },
+            {
+              "id": 433224994,
+              "name": "onnxruntime-genai-0.13.2-linux-x64-cuda.tar.gz",
+              "download_count": 6
+            },
+            {
+              "id": 433225230,
+              "name": "onnxruntime-genai-0.13.2-osx-arm64.tar.gz",
+              "download_count": 8
+            },
+            {
+              "id": 433225244,
+              "name": "onnxruntime-genai-0.13.2-win-arm64.zip",
+              "download_count": 6
+            },
+            {
+              "id": 433225318,
+              "name": "onnxruntime-genai-0.13.2-win-arm64-winml.zip",
+              "download_count": 7
+            },
+            {
+              "id": 433225387,
+              "name": "onnxruntime-genai-0.13.2-win-arm64-dml.zip",
+              "download_count": 7
+            },
+            {
+              "id": 433225415,
+              "name": "onnxruntime-genai-0.13.2-win-x64.zip",
+              "download_count": 9
+            },
+            {
+              "id": 433225598,
+              "name": "onnxruntime-genai-0.13.2-win-x64-winml.zip",
+              "download_count": 6
+            },
+            {
+              "id": 433225846,
+              "name": "onnxruntime-genai-0.13.2-win-x64-cuda.zip",
+              "download_count": 6
+            },
+            {
+              "id": 433226003,
+              "name": "onnxruntime-genai-0.13.2-win-x64-dml.zip",
+              "download_count": 6
+            },
+            {
+              "id": 433226048,
+              "name": "onnxruntime-genai-android-0.13.2.aar",
+              "download_count": 28
+            }
+          ]
+        },
+        {
+          "id": 331689453,
+          "tag": "v0.14.0",
+          "published_at": "2026-05-29T18:06:43Z",
+          "prerelease": false,
+          "total": 6686,
+          "assets": [
+            {
+              "id": 433227606,
+              "name": "onnxruntime-genai-0.14.0-linux-arm64.tar.gz",
+              "download_count": 92
+            },
+            {
+              "id": 433227627,
+              "name": "onnxruntime-genai-0.14.0-linux-x64.tar.gz",
+              "download_count": 1566
+            },
+            {
+              "id": 433227654,
+              "name": "onnxruntime-genai-0.14.0-linux-x64-cuda.tar.gz",
+              "download_count": 69
+            },
+            {
+              "id": 433227687,
+              "name": "onnxruntime-genai-0.14.0-osx-arm64.tar.gz",
+              "download_count": 1044
+            },
+            {
+              "id": 433227691,
+              "name": "onnxruntime-genai-0.14.0-win-arm64.zip",
+              "download_count": 39
+            },
+            {
+              "id": 433227711,
+              "name": "onnxruntime-genai-0.14.0-win-arm64-dml-winml.zip",
+              "download_count": 18
+            },
+            {
+              "id": 433227731,
+              "name": "onnxruntime-genai-0.14.0-win-arm64-dml.zip",
+              "download_count": 13
+            },
+            {
+              "id": 433227762,
+              "name": "onnxruntime-genai-0.14.0-win-x64.zip",
+              "download_count": 677
+            },
+            {
+              "id": 433227783,
+              "name": "onnxruntime-genai-0.14.0-win-x64-winml.zip",
+              "download_count": 53
+            },
+            {
+              "id": 433227923,
+              "name": "onnxruntime-genai-0.14.0-win-x64-cuda.zip",
+              "download_count": 128
+            },
+            {
+              "id": 433228010,
+              "name": "onnxruntime-genai-0.14.0-win-x64-dml.zip",
+              "download_count": 116
+            },
+            {
+              "id": 433228031,
+              "name": "onnxruntime-genai-android-0.14.0.aar",
+              "download_count": 1726
+            },
+            {
+              "id": 433228097,
+              "name": "onnxruntime-genai-ios-0.14.0.zip",
+              "download_count": 1145
+            }
+          ]
+        },
+        {
+          "id": 362567618,
+          "tag": "v0.15.0",
+          "published_at": "2026-07-30T16:21:34Z",
+          "prerelease": false,
+          "total": 734,
+          "assets": [
+            {
+              "id": 495585297,
+              "name": "onnxruntime-genai-0.15.0.jar",
+              "download_count": 20
+            },
+            {
+              "id": 495585329,
+              "name": "onnxruntime-genai-ios-0.15.0.zip",
+              "download_count": 11
+            },
+            {
+              "id": 495585360,
+              "name": "pod-archive-onnxruntime-genai-objc-0.15.0.zip",
+              "download_count": 9
+            },
+            {
+              "id": 495585362,
+              "name": "pod-archive-onnxruntime-genai-c-0.15.0.zip",
+              "download_count": 10
+            },
+            {
+              "id": 495585413,
+              "name": "onnxruntime-genai-android-0.15.0.aar",
+              "download_count": 497
+            },
+            {
+              "id": 495585439,
+              "name": "onnxruntime-genai-0.15.0-win-x64-winml.zip",
+              "download_count": 17
+            },
+            {
+              "id": 495585456,
+              "name": "onnxruntime-genai-0.15.0-win-x64-cuda.zip",
+              "download_count": 12
+            },
+            {
+              "id": 495585506,
+              "name": "onnxruntime-genai-0.15.0-win-x64.zip",
+              "download_count": 20
+            },
+            {
+              "id": 495585522,
+              "name": "onnxruntime-genai-0.15.0-win-arm64-winml.zip",
+              "download_count": 12
+            },
+            {
+              "id": 495585537,
+              "name": "onnxruntime-genai-0.15.0-win-arm64-cuda.zip",
+              "download_count": 12
+            },
+            {
+              "id": 495585547,
+              "name": "onnxruntime-genai-0.15.0-win-arm64.zip",
+              "download_count": 11
+            },
+            {
+              "id": 495585551,
+              "name": "onnxruntime-genai-0.15.0-osx-arm64.tar.gz",
+              "download_count": 12
+            },
+            {
+              "id": 495585558,
+              "name": "onnxruntime-genai-0.15.0-linux-x64-cuda.tar.gz",
+              "download_count": 33
+            },
+            {
+              "id": 495585582,
+              "name": "onnxruntime-genai-0.15.0-linux-x64.tar.gz",
+              "download_count": 33
+            },
+            {
+              "id": 495585595,
+              "name": "onnxruntime-genai-0.15.0-linux-arm64.tar.gz",
+              "download_count": 15
+            },
+            {
+              "id": 495585604,
+              "name": "onnxruntime_genai_cuda-0.15.0-cp312-cp312-win_arm64.zip",
+              "download_count": 10
+            }
+          ]
+        },
+        {
+          "id": 366548379,
+          "tag": "v0.15.1",
+          "published_at": "2026-08-07T05:58:22Z",
+          "prerelease": false,
+          "total": 520,
+          "assets": [
+            {
+              "id": 504733070,
+              "name": "onnxruntime-genai-0.15.1.jar",
+              "download_count": 6
+            },
+            {
+              "id": 504733108,
+              "name": "onnxruntime-genai-ios-0.15.1.zip",
+              "download_count": 6
+            },
+            {
+              "id": 504733148,
+              "name": "pod-archive-onnxruntime-genai-objc-0.15.1.zip",
+              "download_count": 7
+            },
+            {
+              "id": 504733160,
+              "name": "pod-archive-onnxruntime-genai-c-0.15.1.zip",
+              "download_count": 6
+            },
+            {
+              "id": 504733198,
+              "name": "onnxruntime-genai-android-0.15.1.aar",
+              "download_count": 421
+            },
+            {
+              "id": 504733247,
+              "name": "onnxruntime-genai-0.15.1-win-x64-winml.zip",
+              "download_count": 10
+            },
+            {
+              "id": 504733299,
+              "name": "onnxruntime-genai-0.15.1-win-x64-cuda.zip",
+              "download_count": 8
+            },
+            {
+              "id": 504733343,
+              "name": "onnxruntime-genai-0.15.1-win-x64.zip",
+              "download_count": 7
+            },
+            {
+              "id": 504733360,
+              "name": "onnxruntime-genai-0.15.1-win-arm64-winml.zip",
+              "download_count": 8
+            },
+            {
+              "id": 504733400,
+              "name": "onnxruntime-genai-0.15.1-win-arm64-cuda.zip",
+              "download_count": 8
+            },
+            {
+              "id": 504733424,
+              "name": "onnxruntime-genai-0.15.1-osx-arm64.tar.gz",
+              "download_count": 7
+            },
+            {
+              "id": 504733439,
+              "name": "onnxruntime-genai-0.15.1-win-arm64.zip",
+              "download_count": 8
+            },
+            {
+              "id": 504733475,
+              "name": "onnxruntime-genai-0.15.1-linux-x64-cuda.tar.gz",
+              "download_count": 4
+            },
+            {
+              "id": 504733579,
+              "name": "onnxruntime-genai-0.15.1-linux-x64.tar.gz",
+              "download_count": 5
+            },
+            {
+              "id": 504733621,
+              "name": "onnxruntime-genai-0.15.1-linux-arm64.tar.gz",
+              "download_count": 9
+            }
+          ]
+        },
+        {
+          "id": 366549812,
+          "tag": "v0.15.2",
+          "published_at": "2026-08-07T06:06:50Z",
+          "prerelease": false,
+          "total": 2546,
+          "assets": [
+            {
+              "id": 504737449,
+              "name": "pod-archive-onnxruntime-genai-objc-0.15.2.zip",
+              "download_count": 13
+            },
+            {
+              "id": 504737481,
+              "name": "onnxruntime-genai-android-0.15.2.aar",
+              "download_count": 1058
+            },
+            {
+              "id": 504737527,
+              "name": "onnxruntime-genai-0.15.2-win-x64-winml.zip",
+              "download_count": 60
+            },
+            {
+              "id": 504737576,
+              "name": "onnxruntime-genai-0.15.2-win-x64-cuda.zip",
+              "download_count": 45
+            },
+            {
+              "id": 504737606,
+              "name": "onnxruntime-genai-0.15.2-win-x64.zip",
+              "download_count": 290
+            },
+            {
+              "id": 504737628,
+              "name": "onnxruntime-genai-0.15.2-win-arm64-winml.zip",
+              "download_count": 21
+            },
+            {
+              "id": 504737655,
+              "name": "onnxruntime-genai-0.15.2-win-arm64-cuda.zip",
+              "download_count": 14
+            },
+            {
+              "id": 504737679,
+              "name": "onnxruntime-genai-0.15.2-win-arm64.zip",
+              "download_count": 108
+            },
+            {
+              "id": 504737702,
+              "name": "onnxruntime-genai-0.15.2-osx-arm64.tar.gz",
+              "download_count": 159
+            },
+            {
+              "id": 504737720,
+              "name": "onnxruntime-genai-0.15.2-linux-x64-cuda.tar.gz",
+              "download_count": 77
+            },
+            {
+              "id": 504737777,
+              "name": "onnxruntime-genai-0.15.2-linux-x64.tar.gz",
+              "download_count": 292
+            },
+            {
+              "id": 504737841,
+              "name": "onnxruntime-genai-0.15.2-linux-arm64.tar.gz",
+              "download_count": 116
+            },
+            {
+              "id": 504737927,
+              "name": "onnxruntime-genai-0.15.2.jar",
+              "download_count": 48
+            },
+            {
+              "id": 504738343,
+              "name": "onnxruntime-genai-ios-0.15.2.zip",
+              "download_count": 227
+            },
+            {
+              "id": 504739124,
+              "name": "pod-archive-onnxruntime-genai-c-0.15.2.zip",
+              "download_count": 18
+            }
+          ]
+        },
+        {
+          "id": 388139536,
+          "tag": "v0.16.0",
+          "published_at": "2026-09-22T19:46:34Z",
+          "prerelease": false,
+          "total": 215,
+          "assets": [
+            {
+              "id": 582120726,
+              "name": "onnxruntime-genai-0.16.0-linux-arm64.tar.gz",
+              "download_count": 28
+            },
+            {
+              "id": 582120773,
+              "name": "onnxruntime-genai-0.16.0-linux-x64.tar.gz",
+              "download_count": 13
+            },
+            {
+              "id": 582120790,
+              "name": "onnxruntime-genai-0.16.0-linux-x64-cuda.tar.gz",
+              "download_count": 9
+            },
+            {
+              "id": 582120815,
+              "name": "onnxruntime-genai-0.16.0-osx-arm64.tar.gz",
+              "download_count": 15
+            },
+            {
+              "id": 582120838,
+              "name": "onnxruntime-genai-0.16.0-win-arm64.zip",
+              "download_count": 7
+            },
+            {
+              "id": 582120852,
+              "name": "onnxruntime-genai-0.16.0-win-arm64-winml.zip",
+              "download_count": 4
+            },
+            {
+              "id": 582120872,
+              "name": "onnxruntime-genai-0.16.0-win-x64.zip",
+              "download_count": 22
+            },
+            {
+              "id": 582120896,
+              "name": "onnxruntime-genai-0.16.0-win-arm64.1.zip",
+              "download_count": 5
+            },
+            {
+              "id": 582120921,
+              "name": "onnxruntime-genai-0.16.0-win-x64-cuda.zip",
+              "download_count": 23
+            },
+            {
+              "id": 582120941,
+              "name": "onnxruntime-genai-0.16.0-win-x64-winml.zip",
+              "download_count": 10
+            },
+            {
+              "id": 582120969,
+              "name": "onnxruntime-genai-android-0.16.0.aar",
+              "download_count": 53
+            },
+            {
+              "id": 582120998,
+              "name": "pod-archive-onnxruntime-genai-c-0.16.0.zip",
+              "download_count": 5
+            },
+            {
+              "id": 582121041,
+              "name": "pod-archive-onnxruntime-genai-objc-0.16.0.zip",
+              "download_count": 6
+            },
+            {
+              "id": 582121058,
+              "name": "onnxruntime-genai-ios-0.16.0.zip",
+              "download_count": 8
+            },
+            {
+              "id": 582121102,
+              "name": "onnxruntime-genai-0.16.0.jar",
+              "download_count": 7
+            }
+          ]
+        },
+        {
+          "id": 397989760,
+          "tag": "v0.17.0",
+          "published_at": "2026-09-28T06:15:36Z",
+          "prerelease": false,
+          "total": 624,
+          "assets": [
+            {
+              "id": 594664994,
+              "name": "onnxruntime-genai-0.17.0-linux-arm64.tar.gz",
+              "download_count": 15
+            },
+            {
+              "id": 594665033,
+              "name": "onnxruntime-genai-0.17.0-linux-x64.tar.gz",
+              "download_count": 112
+            },
+            {
+              "id": 594665062,
+              "name": "onnxruntime-genai-0.17.0-linux-x64-cuda.tar.gz",
+              "download_count": 29
+            },
+            {
+              "id": 594665103,
+              "name": "onnxruntime-genai-0.17.0-osx-arm64.tar.gz",
+              "download_count": 31
+            },
+            {
+              "id": 594665122,
+              "name": "onnxruntime-genai-0.17.0-win-arm64.zip",
+              "download_count": 13
+            },
+            {
+              "id": 594665132,
+              "name": "onnxruntime-genai-0.17.0-win-arm64.1.zip",
+              "download_count": 8
+            },
+            {
+              "id": 594665143,
+              "name": "onnxruntime-genai-0.17.0-win-arm64-winml.zip",
+              "download_count": 16
+            },
+            {
+              "id": 594665162,
+              "name": "onnxruntime-genai-0.17.0-win-x64.zip",
+              "download_count": 58
+            },
+            {
+              "id": 594665169,
+              "name": "onnxruntime-genai-0.17.0-win-x64-cuda.zip",
+              "download_count": 32
+            },
+            {
+              "id": 594665180,
+              "name": "onnxruntime-genai-0.17.0-win-x64-winml.zip",
+              "download_count": 62
+            },
+            {
+              "id": 594665198,
+              "name": "onnxruntime-genai-android-0.17.0.aar",
+              "download_count": 196
+            },
+            {
+              "id": 594665219,
+              "name": "pod-archive-onnxruntime-genai-objc-0.17.0.zip",
+              "download_count": 7
+            },
+            {
+              "id": 594665229,
+              "name": "pod-archive-onnxruntime-genai-c-0.17.0.zip",
+              "download_count": 8
+            },
+            {
+              "id": 594665277,
+              "name": "onnxruntime-genai-ios-0.17.0.zip",
+              "download_count": 13
+            },
+            {
+              "id": 594665354,
+              "name": "onnxruntime-genai-0.17.0.jar",
+              "download_count": 24
             }
           ]
         }
@@ -5129,18 +7447,8 @@
       ]
     },
     {
-      "repository": "xadupre/onnx-asv-benchmark",
-      "total": 0,
-      "releases": []
-    },
-    {
-      "repository": "xadupre/onnx-diagnostic",
-      "total": 0,
-      "releases": []
-    },
-    {
       "repository": "xadupre/onnx-light",
-      "total": 11064,
+      "total": 11067,
       "releases": [
         {
           "id": 342897027,
@@ -9530,7 +11838,7 @@
           "tag": "0.1.33",
           "published_at": "2026-10-18T11:15:14Z",
           "prerelease": false,
-          "total": 161,
+          "total": 164,
           "assets": [
             {
               "id": 653330557,
@@ -9615,7 +11923,7 @@
             {
               "id": 653440836,
               "name": "onnx_light-0.1.33-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
-              "download_count": 79
+              "download_count": 82
             },
             {
               "id": 653577199,
@@ -10344,36 +12652,6 @@
       "releases": []
     },
     {
-      "repository": "xadupre/onnx_pipeline",
-      "total": 0,
-      "releases": []
-    },
-    {
-      "repository": "xadupre/onnxrt-backend-dev",
-      "total": 0,
-      "releases": []
-    },
-    {
-      "repository": "xadupre/onnxruntime",
-      "total": 0,
-      "releases": []
-    },
-    {
-      "repository": "xadupre/onnxruntime-inference-examples",
-      "total": 0,
-      "releases": []
-    },
-    {
-      "repository": "xadupre/scikit-onnxruntime",
-      "total": 0,
-      "releases": []
-    },
-    {
-      "repository": "xadupre/tensorflow-onnx",
-      "total": 0,
-      "releases": []
-    },
-    {
       "repository": "xadupre/yet-another-onnx-builder",
       "total": 0,
       "releases": []
@@ -10388,24 +12666,2175 @@
     {
       "date": "2026-10-22",
       "totals": {
-        "microsoft/onnxruntime": 25275307,
+        "microsoft/onnxruntime": 25277971,
+        "microsoft/onnxruntime-extensions": 0,
+        "microsoft/onnxruntime-genai": 30447,
         "onnx/onnx": 35634,
-        "xadupre/onnx-asv-benchmark": 0,
-        "xadupre/onnx-diagnostic": 0,
-        "xadupre/onnx-light": 11064,
+        "xadupre/onnx-light": 11067,
         "xadupre/onnx-light-com-microsoft": 0,
         "xadupre/onnx-light-cpu": 2932,
         "xadupre/onnx-light-kernel-images": 0,
         "xadupre/onnx-light-ort": 0,
         "xadupre/onnx-light-viewer": 0,
-        "xadupre/onnx_pipeline": 0,
-        "xadupre/onnxrt-backend-dev": 0,
-        "xadupre/onnxruntime": 0,
-        "xadupre/onnxruntime-inference-examples": 0,
-        "xadupre/scikit-onnxruntime": 0,
-        "xadupre/tensorflow-onnx": 0,
         "xadupre/yet-another-onnx-builder": 0,
         "xadupre/yet-another-onnxruntime-extensions": 0
+      },
+      "assets": {
+        "microsoft/onnxruntime": {
+          "11535365": 316,
+          "11535367": 66,
+          "11535376": 66,
+          "11535377": 64,
+          "11535380": 325,
+          "11535381": 80,
+          "11535384": 114,
+          "11959437": 83,
+          "11959438": 50,
+          "11959439": 52,
+          "11959440": 61,
+          "11959441": 82,
+          "11959442": 66,
+          "11959443": 64,
+          "12343397": 958,
+          "12343398": 100,
+          "12343399": 212,
+          "12343402": 106,
+          "12343405": 212,
+          "12343406": 132,
+          "12343407": 353,
+          "14083701": 133,
+          "14083702": 302,
+          "14083703": 701,
+          "14083704": 262,
+          "14083705": 146,
+          "14083706": 1945,
+          "14083707": 417,
+          "15830415": 1159,
+          "15830426": 4198,
+          "15830437": 1776,
+          "15830438": 2506,
+          "15830439": 472,
+          "15830441": 385,
+          "16912753": 141,
+          "16912754": 602,
+          "16912755": 538,
+          "16912756": 262,
+          "17012677": 1933,
+          "17012678": 452,
+          "17536318": 249,
+          "17536319": 147,
+          "17536321": 160,
+          "17536322": 253,
+          "17536323": 199,
+          "17536324": 89,
+          "18205560": 338,
+          "18205567": 98,
+          "18205570": 268,
+          "18205576": 353,
+          "18205581": 255,
+          "18205592": 106,
+          "18611701": 565,
+          "18611705": 3322,
+          "18611708": 12274,
+          "18640915": 1175,
+          "18640947": 215,
+          "18640948": 2081,
+          "20797898": 779,
+          "20797900": 360,
+          "20797901": 1312,
+          "20797902": 1421,
+          "20797904": 306,
+          "20797905": 2004,
+          "20856156": 164,
+          "20856165": 189,
+          "22950509": 187,
+          "22950532": 197,
+          "22950553": 1468,
+          "22950555": 15806,
+          "22950557": 2433,
+          "22950619": 1889,
+          "22950621": 4379,
+          "22950622": 1236,
+          "26334500": 1444,
+          "26334504": 1185,
+          "26334510": 119,
+          "26334512": 748,
+          "26334519": 1490,
+          "26334528": 226,
+          "26339160": 92,
+          "26339948": 75,
+          "26340290": 153,
+          "27013893": 84,
+          "27013909": 106,
+          "27013910": 167,
+          "27013913": 14063,
+          "27013914": 632,
+          "27013918": 1139,
+          "27013921": 1249,
+          "27013923": 605,
+          "27013928": 291,
+          "29424890": 377,
+          "29424891": 225,
+          "29424898": 170,
+          "29424899": 2654,
+          "29424900": 550,
+          "29424901": 4298,
+          "29424903": 2846,
+          "29424905": 3488,
+          "29424907": 97466,
+          "32814153": 102,
+          "32814282": 124,
+          "32814456": 214,
+          "32843592": 2602,
+          "32843746": 1938,
+          "32843767": 1929,
+          "32843782": 2906,
+          "32843828": 3081,
+          "32843848": 230,
+          "32843876": 112,
+          "32843932": 33956,
+          "34607135": 560,
+          "34607361": 260,
+          "37977362": 185,
+          "37977371": 123,
+          "37977376": 134,
+          "37977380": 208,
+          "37977393": 1193,
+          "37977397": 2860,
+          "37977399": 726,
+          "37977400": 102,
+          "37977422": 1557,
+          "37977438": 8330,
+          "37977495": 412,
+          "39877260": 199,
+          "39877282": 210,
+          "39877284": 295,
+          "39877290": 160340,
+          "39877291": 11827,
+          "39877294": 4337,
+          "39877295": 139,
+          "39877298": 347,
+          "39877300": 3945,
+          "39877325": 20449,
+          "39877328": 1366,
+          "45387917": 361,
+          "45387928": 107,
+          "45387935": 175,
+          "45388161": 20720,
+          "45388162": 6022,
+          "45388210": 1408,
+          "45388214": 242,
+          "45388249": 309,
+          "45388266": 3752,
+          "45388281": 3700,
+          "45388390": 632,
+          "45415701": 108,
+          "45415713": 154,
+          "46239416": 935,
+          "46239475": 395,
+          "51255143": 1549,
+          "51255144": 5486,
+          "51255146": 2763,
+          "51255148": 309,
+          "51255151": 905,
+          "51255157": 21183,
+          "51255159": 14747,
+          "51255175": 5800,
+          "51255181": 193,
+          "51255195": 14446,
+          "51255196": 1812,
+          "51255206": 42799,
+          "51255208": 34511,
+          "57729732": 6526,
+          "60598830": 201,
+          "60599122": 134,
+          "60599201": 289,
+          "60599219": 1281,
+          "60599229": 8089,
+          "60599239": 2005,
+          "60599439": 369,
+          "60599444": 579,
+          "60599459": 1253,
+          "60599470": 84,
+          "60599531": 2753,
+          "60599602": 1407,
+          "60600705": 418,
+          "60627581": 165,
+          "63597317": 185,
+          "63597376": 244,
+          "63597383": 4957,
+          "63597389": 2576,
+          "63597390": 110767,
+          "63597392": 7712,
+          "63597412": 1810,
+          "63597414": 6222,
+          "63597419": 8803,
+          "63597422": 132,
+          "63597427": 224,
+          "63597429": 98046,
+          "63597436": 6707,
+          "63597474": 2722,
+          "72316808": 150,
+          "72316815": 167,
+          "72316816": 268,
+          "72316819": 2843,
+          "72316820": 18267,
+          "72316821": 9841,
+          "72316828": 899,
+          "72316832": 2865,
+          "72316836": 526,
+          "72316841": 103,
+          "72316850": 163,
+          "72316859": 9092,
+          "72316867": 2040,
+          "72316891": 468,
+          "73710016": 314,
+          "73710046": 781,
+          "73710049": 842,
+          "73710053": 5317,
+          "73710055": 50152,
+          "73710056": 25955,
+          "73710079": 2923,
+          "73710082": 3114,
+          "73710083": 2642,
+          "73710085": 259,
+          "73710087": 217,
+          "73710091": 10009,
+          "73710092": 19463,
+          "73710103": 1300,
+          "82016220": 555,
+          "82016301": 621,
+          "82016303": 4070,
+          "82016305": 7677,
+          "82016308": 94109,
+          "82016345": 12320,
+          "82016398": 5078,
+          "82016401": 2263,
+          "82016409": 6943,
+          "82016413": 147,
+          "82016415": 361,
+          "82016422": 13934,
+          "82016486": 5912,
+          "82016615": 3069,
+          "95120074": 5500,
+          "95120086": 50772,
+          "95120242": 17145,
+          "95120740": 4292,
+          "95120745": 3419,
+          "95120759": 10365,
+          "95120771": 162,
+          "95120804": 391,
+          "95120853": 15747,
+          "95121166": 6443,
+          "95121630": 2889,
+          "95121677": 4505,
+          "95139494": 154,
+          "95139733": 200,
+          "97361057": 30417,
+          "97361096": 278,
+          "97361134": 675,
+          "97361202": 27032,
+          "97361218": 1900,
+          "97361228": 47749,
+          "97361232": 106959,
+          "97361362": 439228,
+          "97361366": 57441,
+          "97361713": 1303,
+          "97361746": 6520,
+          "97362275": 1027,
+          "97804710": 591,
+          "97805410": 631,
+          "109663705": 165,
+          "109663715": 241,
+          "109663718": 81,
+          "109663722": 926,
+          "109663726": 65,
+          "109663728": 58,
+          "109663731": 833,
+          "109663733": 94,
+          "109663740": 385,
+          "109663747": 2836,
+          "109664081": 493,
+          "109664083": 81,
+          "109664084": 3940,
+          "109664085": 300,
+          "109664086": 8571,
+          "109664089": 1328,
+          "109664092": 1158,
+          "109664094": 1164,
+          "109664096": 15274,
+          "109664098": 2183,
+          "113117922": 657,
+          "113117948": 905,
+          "113117951": 1546,
+          "113118285": 1545,
+          "113118286": 164,
+          "113118287": 9414,
+          "113118288": 16014,
+          "113118290": 8531,
+          "113118291": 112780,
+          "113118297": 138561,
+          "113118303": 17239,
+          "113118308": 80,
+          "113118315": 11490,
+          "113118322": 3044,
+          "113118336": 29534,
+          "113118337": 1784,
+          "113118338": 241,
+          "113118343": 124,
+          "113118352": 1844,
+          "113118359": 98,
+          "126978903": 36833,
+          "126978911": 38313,
+          "126978914": 103677,
+          "126978915": 25605,
+          "126978916": 947,
+          "126978920": 4298,
+          "126978924": 114,
+          "126978927": 64,
+          "126978937": 114,
+          "126978941": 81,
+          "126978947": 195,
+          "126978951": 77,
+          "126978957": 5889,
+          "126978973": 82,
+          "126978976": 427,
+          "126978983": 25242,
+          "126978990": 675,
+          "126979216": 155,
+          "126979219": 235,
+          "126979221": 386,
+          "130118664": 678,
+          "130118669": 73,
+          "130118674": 3689,
+          "130118677": 48,
+          "130118682": 47,
+          "130118699": 164,
+          "130118715": 72,
+          "130118728": 124,
+          "130118744": 261,
+          "130118759": 5299,
+          "130118770": 463,
+          "130118776": 2025,
+          "130118820": 462,
+          "130118831": 437,
+          "130118897": 2486,
+          "130118899": 4552,
+          "130118906": 13326,
+          "130118922": 4866,
+          "130118923": 45837,
+          "130118925": 4094,
+          "134720932": 232,
+          "134720941": 3977,
+          "134720948": 237,
+          "134720954": 2424,
+          "134720959": 94,
+          "134720967": 52,
+          "134720973": 59,
+          "134720994": 108,
+          "134721003": 46,
+          "134721013": 45,
+          "134721023": 153,
+          "134721027": 57,
+          "134721030": 1436,
+          "134721033": 3455,
+          "134721039": 3958,
+          "134721054": 209,
+          "134721056": 50600,
+          "134721057": 1047,
+          "134721059": 179,
+          "134721075": 151,
+          "136583126": 252327,
+          "136583131": 26299,
+          "136583132": 179,
+          "136583133": 1524,
+          "136583134": 91,
+          "136583144": 119,
+          "136583147": 2933,
+          "136583152": 131,
+          "136583162": 103,
+          "136583167": 474,
+          "136583172": 26821,
+          "136583176": 1469,
+          "136583182": 9222,
+          "136583196": 31012,
+          "136583199": 3539,
+          "136583201": 7585,
+          "136583204": 25080,
+          "136583728": 715,
+          "136583732": 590,
+          "136583773": 1236,
+          "148967673": 4635,
+          "148967695": 47218,
+          "148967711": 5184,
+          "148967906": 2983,
+          "148967909": 1899,
+          "148967911": 2911,
+          "148967914": 187,
+          "148967915": 195,
+          "148967919": 137,
+          "148967930": 152,
+          "148967950": 331,
+          "148968045": 157,
+          "148968057": 668,
+          "148968161": 8235,
+          "148968171": 4375,
+          "148968204": 561,
+          "148969725": 317,
+          "148969753": 437,
+          "148970165": 1155,
+          "152643218": 1046,
+          "152643457": 1107,
+          "153441953": 21628,
+          "153441955": 30313,
+          "153441956": 104,
+          "153441957": 1318,
+          "153441958": 63,
+          "153441960": 76,
+          "153441965": 1473,
+          "153441969": 78,
+          "153441978": 5127,
+          "153441982": 79248,
+          "153441985": 6598,
+          "153441988": 13829,
+          "153442001": 194869,
+          "153442002": 319076,
+          "153442003": 113240,
+          "153442005": 29558,
+          "153442276": 166,
+          "153442337": 246,
+          "153442668": 1146,
+          "153444124": 177204,
+          "153444132": 1864,
+          "161202434": 142,
+          "161202499": 97,
+          "161202502": 3674,
+          "161202523": 15624,
+          "161202533": 1397,
+          "161202540": 139,
+          "161202548": 235,
+          "161202587": 86,
+          "161202606": 65,
+          "161202611": 104,
+          "161202612": 4698,
+          "161202614": 1895,
+          "161202621": 5086,
+          "161202625": 303,
+          "161202641": 1470130,
+          "161202662": 64010,
+          "161202666": 8733,
+          "161206028": 2289,
+          "161221008": 189,
+          "161221029": 112,
+          "161832627": 2457,
+          "161832765": 5655,
+          "169083358": 241,
+          "169083542": 152,
+          "169083708": 1617,
+          "169083787": 168,
+          "169083789": 6939,
+          "169083792": 83852,
+          "169083820": 290937,
+          "169083982": 36062,
+          "169084126": 382,
+          "169084287": 5722,
+          "169084296": 1301,
+          "169084335": 1495,
+          "169084366": 229,
+          "169084378": 302,
+          "169084395": 170,
+          "169084467": 371,
+          "169084534": 166,
+          "169084663": 633,
+          "169084710": 14236,
+          "169084824": 4662,
+          "169085026": 4741,
+          "169085286": 842,
+          "176364363": 4322,
+          "176364657": 15875,
+          "176382956": 159,
+          "176382965": 376,
+          "176383616": 948,
+          "176383621": 4586,
+          "176383719": 12066,
+          "176383797": 1416,
+          "176383988": 7054,
+          "176383990": 2411,
+          "176383991": 2055,
+          "176384629": 15908,
+          "176384640": 56747,
+          "176384642": 100629,
+          "186059042": 959,
+          "186059057": 276,
+          "186059065": 226,
+          "186059089": 3712,
+          "186059166": 2442,
+          "186059365": 414,
+          "186059397": 4158,
+          "186059401": 49856,
+          "186059786": 865,
+          "186060725": 99,
+          "186060726": 729,
+          "186068324": 85,
+          "186068502": 144,
+          "186198068": 105,
+          "186198218": 80,
+          "186198225": 132,
+          "186198235": 93,
+          "186198273": 260,
+          "187222734": 98680,
+          "190204577": 41253,
+          "190204584": 242805,
+          "190204588": 921787,
+          "190204605": 11715,
+          "190204611": 15257,
+          "190204615": 2817,
+          "190204618": 296,
+          "190204619": 1749,
+          "190204621": 194,
+          "190204627": 634,
+          "190204629": 203,
+          "190204633": 5054,
+          "190204639": 57860,
+          "190204640": 59416,
+          "190204643": 2192,
+          "190205079": 373,
+          "190205118": 257,
+          "190206011": 202,
+          "190206459": 1148,
+          "202998880": 135,
+          "202998884": 747,
+          "202998893": 124,
+          "202999021": 195,
+          "202999047": 561,
+          "202999099": 15339,
+          "202999121": 430,
+          "202999144": 18427,
+          "202999145": 2319,
+          "202999152": 49300,
+          "202999196": 270751,
+          "202999199": 22777,
+          "204131429": 3818,
+          "204131584": 104751,
+          "208183212": 53527,
+          "208183214": 264860,
+          "208183216": 36309,
+          "208183218": 7878,
+          "208183222": 10087,
+          "208183223": 2695,
+          "208183250": 1544,
+          "208183685": 3657744,
+          "208183749": 24454,
+          "208987137": 43345,
+          "235667053": 74056,
+          "235667158": 27495,
+          "235667457": 1260,
+          "235667484": 3196,
+          "235667571": 6336,
+          "235667599": 949,
+          "235667880": 13208,
+          "235667944": 611,
+          "235671015": 162,
+          "235671363": 385,
+          "235671416": 1666,
+          "235671448": 197,
+          "236224243": 6817,
+          "236224852": 7638661,
+          "248850407": 942916,
+          "253300361": 391,
+          "253300364": 198,
+          "253300381": 1799,
+          "253300383": 97189,
+          "253300385": 538881,
+          "253300386": 68121,
+          "253300410": 63931,
+          "253300416": 12907,
+          "253300427": 6720,
+          "253300429": 11424,
+          "253300435": 138201,
+          "253300438": 11880,
+          "253300478": 2045,
+          "268720181": 814,
+          "268720186": 17486,
+          "268720192": 4795,
+          "268720211": 2854,
+          "268751641": 3846,
+          "268774275": 1322,
+          "268774281": 243,
+          "268774282": 577,
+          "269432996": 132,
+          "282208205": 1152,
+          "282208225": 901,
+          "297419832": 2446,
+          "297419870": 6869,
+          "297419876": 235,
+          "297419889": 9348,
+          "297419903": 1986,
+          "297419931": 2441,
+          "297419964": 6333,
+          "297419976": 81005,
+          "297419984": 11997,
+          "301788887": 882,
+          "301788896": 3270,
+          "301788899": 791,
+          "301788909": 3965,
+          "301788918": 5923,
+          "301788961": 22249,
+          "301788965": 1780,
+          "301789148": 3786,
+          "301789181": 539,
+          "308474603": 17424,
+          "308474632": 66279,
+          "308474643": 2578,
+          "308474652": 14904,
+          "308474657": 48846,
+          "308474678": 257943,
+          "308474683": 36560,
+          "308474688": 279270,
+          "308474693": 23104,
+          "351357523": 2808,
+          "351357758": 8402,
+          "351357808": 219,
+          "351357869": 15699,
+          "351357934": 12372,
+          "351357977": 16952,
+          "351360918": 73913,
+          "351803020": 10099,
+          "351803488": 3342,
+          "358441208": 34287,
+          "358441215": 114013,
+          "358441219": 8198,
+          "358441256": 55881,
+          "358441270": 28492,
+          "358441296": 119205,
+          "358781187": 8107,
+          "358787838": 3826,
+          "358788176": 1116,
+          "367674269": 6776,
+          "367674329": 33097,
+          "367674486": 198,
+          "367674630": 34,
+          "367707852": 6068,
+          "367707923": 8167,
+          "367708093": 2302,
+          "367708288": 716,
+          "367709641": 668,
+          "367709913": 223,
+          "376015298": 26110,
+          "376015310": 146191,
+          "376015314": 39396,
+          "376015406": 32812,
+          "376015421": 959,
+          "376015448": 118,
+          "376015528": 29223,
+          "376015626": 6403,
+          "376017161": 1904,
+          "376017277": 5437,
+          "400891653": 4392,
+          "400891814": 31641,
+          "400892179": 1779,
+          "400899916": 307,
+          "400901895": 2393,
+          "400902082": 189,
+          "400902498": 49,
+          "400903373": 2793,
+          "400907501": 945,
+          "400909216": 347,
+          "406830243": 5247,
+          "406830267": 28199,
+          "406830296": 522,
+          "406830766": 3708,
+          "406831314": 4074,
+          "406831388": 286,
+          "406831547": 53,
+          "406831931": 6231,
+          "406832101": 528,
+          "408245961": 1555,
+          "415501303": 10595,
+          "415501317": 95729,
+          "415501323": 2285,
+          "415501742": 5493,
+          "415502464": 16611,
+          "415502634": 1383,
+          "415502895": 144,
+          "415503188": 23585,
+          "415503428": 2146,
+          "415504301": 4496,
+          "448652755": 10887,
+          "448652775": 95357,
+          "448652794": 1972,
+          "448653697": 1792,
+          "448654532": 13683,
+          "448654638": 5112,
+          "448654962": 154,
+          "448655506": 1519,
+          "448656771": 2212,
+          "454598864": 23429,
+          "472953350": 10249,
+          "472953478": 2768,
+          "472953782": 4775,
+          "472953957": 91,
+          "472954332": 502,
+          "472954635": 8124,
+          "472954763": 9914,
+          "472954982": 26368,
+          "472955013": 3079,
+          "473075059": 5236,
+          "489173035": 1959,
+          "489173146": 1756,
+          "489173437": 116,
+          "489173573": 22765,
+          "489173635": 1357,
+          "489174067": 1390,
+          "489174273": 1004,
+          "489174677": 54530,
+          "489174685": 10209,
+          "490655264": 7470,
+          "511115910": 18969,
+          "511115959": 943,
+          "511117815": 70,
+          "511118041": 5066,
+          "511118571": 739,
+          "511119584": 1637,
+          "511120261": 6279,
+          "511120291": 72738,
+          "511120373": 10044,
+          "511140963": 2491,
+          "518338516": 101,
+          "518338774": 160,
+          "518338927": 184,
+          "518339075": 140,
+          "518339256": 94,
+          "518339300": 115,
+          "520090858": 623,
+          "520094993": 1201,
+          "520095393": 729,
+          "520095828": 37,
+          "520096692": 3052,
+          "520097048": 332,
+          "520099826": 486,
+          "520101554": 363,
+          "520103360": 1676,
+          "520103401": 11436,
+          "542003860": 274,
+          "542003861": 938,
+          "542003862": 341,
+          "542003864": 6618,
+          "542003867": 849,
+          "542003878": 423,
+          "542003883": 25,
+          "542003886": 5256,
+          "542003967": 439,
+          "542003969": 3654,
+          "554304376": 2465,
+          "554304377": 170,
+          "554304378": 256,
+          "554304379": 234,
+          "554304383": 280,
+          "554304416": 31,
+          "554304417": 13,
+          "554304432": 467,
+          "554304510": 97,
+          "554304528": 69,
+          "555411806": 6125,
+          "555412256": 40644,
+          "555412302": 6242,
+          "555412327": 2529,
+          "555412559": 1245,
+          "555412859": 77956,
+          "555413217": 94171,
+          "555413301": 146,
+          "555413383": 1776,
+          "555413457": 8897,
+          "604067196": 546,
+          "604067198": 76,
+          "604067270": 4644,
+          "604067326": 1035,
+          "604067437": 40,
+          "604067543": 75,
+          "604067658": 10,
+          "604067913": 2081,
+          "604068109": 76,
+          "604068630": 125,
+          "623142856": 8,
+          "623143111": 5,
+          "623143275": 8,
+          "623143523": 6,
+          "623143658": 14,
+          "623143984": 4,
+          "623440075": 15,
+          "623440187": 92,
+          "623440366": 34,
+          "623440576": 29,
+          "623440764": 7,
+          "623441117": 21,
+          "623887024": 589,
+          "623887335": 539,
+          "623887596": 10704,
+          "623887681": 3147,
+          "623887752": 371,
+          "623887843": 6346,
+          "623887939": 2158,
+          "623887975": 334,
+          "623888392": 576,
+          "623891787": 60
+        },
+        "microsoft/onnxruntime-extensions": {},
+        "microsoft/onnxruntime-genai": {
+          "170984163": 20,
+          "170984173": 26,
+          "170984177": 25,
+          "170984178": 32,
+          "170984179": 20,
+          "175202130": 112,
+          "175202134": 139,
+          "175202141": 33,
+          "175202153": 111,
+          "175202156": 28,
+          "175934787": 27,
+          "175934802": 25,
+          "187719124": 36,
+          "187719136": 107,
+          "187719139": 37,
+          "187719140": 133,
+          "187719150": 160,
+          "187719151": 35,
+          "187719152": 86,
+          "204907740": 22,
+          "204907770": 15,
+          "204907808": 11,
+          "204907814": 21,
+          "204907818": 9,
+          "204907821": 9,
+          "204907830": 15,
+          "204907843": 12,
+          "204907960": 16,
+          "206285036": 25,
+          "206285038": 9,
+          "206285040": 15,
+          "206285045": 23,
+          "206285046": 14,
+          "206285047": 8,
+          "206285049": 18,
+          "206285052": 15,
+          "206285053": 28,
+          "209077899": 1004,
+          "209077938": 63,
+          "209077977": 788,
+          "209077990": 21,
+          "209078000": 32,
+          "209078005": 116,
+          "209078014": 42,
+          "209078050": 24,
+          "209078058": 78,
+          "229203617": 55,
+          "229203630": 100,
+          "229203631": 83,
+          "229203633": 19,
+          "229203635": 31,
+          "229203637": 29,
+          "229203640": 71,
+          "229203643": 26,
+          "229203647": 180,
+          "229203649": 90,
+          "229204904": 23,
+          "241635488": 22,
+          "241635497": 12,
+          "241635510": 29,
+          "241635513": 35,
+          "241635516": 12,
+          "241635518": 16,
+          "241635520": 11,
+          "241635523": 1831,
+          "241635526": 2069,
+          "241635530": 12,
+          "241635537": 56,
+          "248272658": 12,
+          "248272679": 15,
+          "248272680": 30,
+          "248272682": 44,
+          "248272684": 17,
+          "248272685": 53,
+          "248272686": 28,
+          "248272690": 12,
+          "248272691": 39,
+          "248493286": 46,
+          "248493375": 12,
+          "259568189": 14,
+          "259568221": 8,
+          "259568223": 7,
+          "259568229": 8,
+          "259568231": 7,
+          "259568234": 8,
+          "259568239": 8,
+          "259568240": 7,
+          "259568243": 12,
+          "259568246": 12,
+          "259568249": 71,
+          "259568394": 17,
+          "259568397": 8,
+          "259568398": 9,
+          "259568408": 18,
+          "259568411": 9,
+          "259568413": 8,
+          "259568417": 11,
+          "259568422": 9,
+          "259568434": 14,
+          "259568438": 34,
+          "259568442": 29,
+          "261356275": 42,
+          "261356278": 7,
+          "261356280": 17,
+          "261356284": 58,
+          "261356287": 10,
+          "261356291": 12,
+          "261356294": 13,
+          "261356300": 71,
+          "261356305": 16,
+          "261630434": 25,
+          "261630926": 7,
+          "269750167": 11,
+          "269750176": 23,
+          "269750179": 12,
+          "269750183": 54,
+          "269750187": 29,
+          "269750191": 32,
+          "269750195": 13,
+          "269750196": 27,
+          "269750204": 17,
+          "269750206": 24,
+          "269750214": 71,
+          "282893285": 35,
+          "282893289": 12,
+          "282893293": 26,
+          "282893303": 57,
+          "282893305": 17,
+          "282893307": 8,
+          "282893317": 12,
+          "282893322": 18,
+          "282893369": 33,
+          "291488626": 29,
+          "291488631": 13,
+          "291488632": 12,
+          "291488646": 18,
+          "291488648": 16,
+          "291488650": 9,
+          "291488656": 11,
+          "291488664": 9,
+          "291488678": 11,
+          "293739145": 30,
+          "293739150": 12,
+          "293739152": 38,
+          "293739153": 30,
+          "293739163": 15,
+          "293739167": 9,
+          "293739172": 18,
+          "293739175": 15,
+          "293739180": 41,
+          "302797481": 42,
+          "302797489": 13,
+          "302797492": 31,
+          "302797499": 68,
+          "302797502": 27,
+          "302797506": 12,
+          "302797508": 16,
+          "302797517": 23,
+          "302797519": 19,
+          "302797528": 15,
+          "302797533": 98,
+          "316223167": 36,
+          "316223319": 9,
+          "316223591": 9,
+          "316223653": 10,
+          "316223707": 10,
+          "316223835": 22,
+          "316223875": 11,
+          "316223934": 11,
+          "316223955": 29,
+          "316223975": 8,
+          "316224203": 73,
+          "317286723": 8,
+          "317286731": 21,
+          "317286736": 12,
+          "317286741": 13,
+          "317286744": 10,
+          "317286752": 13,
+          "317286756": 10,
+          "317286757": 10,
+          "317286763": 11,
+          "317286784": 21,
+          "317286787": 13,
+          "317914533": 59,
+          "317914562": 22,
+          "317914630": 14,
+          "317914633": 24,
+          "317914656": 10,
+          "317914753": 82,
+          "317914833": 31,
+          "317914848": 20,
+          "317914921": 16,
+          "317914935": 114,
+          "317914949": 28,
+          "326041402": 12,
+          "326041410": 10,
+          "326041417": 9,
+          "326041437": 14,
+          "326041444": 11,
+          "326041452": 11,
+          "326041454": 11,
+          "326041470": 15,
+          "326041474": 14,
+          "326041488": 9,
+          "326041509": 20,
+          "327716835": 28,
+          "327716922": 120,
+          "327717063": 55,
+          "327717205": 727,
+          "327717327": 113,
+          "327717336": 137,
+          "327717386": 37,
+          "327717440": 85,
+          "327717499": 91,
+          "327717568": 65,
+          "327717607": 28,
+          "355460991": 173,
+          "355461006": 12,
+          "355461019": 27,
+          "355461040": 55,
+          "355461052": 21,
+          "355461056": 54,
+          "355461071": 149,
+          "355461075": 213,
+          "355461106": 22,
+          "355461126": 419,
+          "355462455": 66,
+          "355462468": 39,
+          "365645745": 212,
+          "365645770": 8,
+          "365645901": 1811,
+          "365646413": 57,
+          "365646679": 897,
+          "365646688": 18,
+          "365646766": 32,
+          "365646773": 16,
+          "365646812": 13,
+          "365646826": 23,
+          "365648155": 13,
+          "365648232": 9,
+          "383036893": 160,
+          "383036907": 36,
+          "383036944": 22,
+          "383036947": 175,
+          "383036962": 11,
+          "383036977": 20,
+          "383036992": 62,
+          "383036993": 39,
+          "383037005": 10,
+          "383037016": 47,
+          "383037020": 14,
+          "383037026": 24,
+          "397232872": 9,
+          "397232912": 7,
+          "397232965": 10,
+          "397232970": 8,
+          "397232980": 7,
+          "397232995": 8,
+          "397233011": 14,
+          "397233044": 7,
+          "397233104": 11,
+          "397233163": 15,
+          "397233187": 20,
+          "397233219": 7,
+          "397238445": 228,
+          "397238468": 98,
+          "397238529": 74,
+          "397238537": 31,
+          "397238545": 17,
+          "397238563": 27,
+          "397238575": 104,
+          "397238596": 31,
+          "397238639": 68,
+          "397238678": 53,
+          "397238702": 150,
+          "397238721": 26,
+          "433224936": 10,
+          "433224994": 6,
+          "433225230": 8,
+          "433225244": 6,
+          "433225318": 7,
+          "433225387": 7,
+          "433225415": 9,
+          "433225598": 6,
+          "433225846": 6,
+          "433226003": 6,
+          "433226048": 28,
+          "433227606": 92,
+          "433227627": 1566,
+          "433227654": 69,
+          "433227687": 1044,
+          "433227691": 39,
+          "433227711": 18,
+          "433227731": 13,
+          "433227762": 677,
+          "433227783": 53,
+          "433227923": 128,
+          "433228010": 116,
+          "433228031": 1726,
+          "433228097": 1145,
+          "495585297": 20,
+          "495585329": 11,
+          "495585360": 9,
+          "495585362": 10,
+          "495585413": 497,
+          "495585439": 17,
+          "495585456": 12,
+          "495585506": 20,
+          "495585522": 12,
+          "495585537": 12,
+          "495585547": 11,
+          "495585551": 12,
+          "495585558": 33,
+          "495585582": 33,
+          "495585595": 15,
+          "495585604": 10,
+          "504733070": 6,
+          "504733108": 6,
+          "504733148": 7,
+          "504733160": 6,
+          "504733198": 421,
+          "504733247": 10,
+          "504733299": 8,
+          "504733343": 7,
+          "504733360": 8,
+          "504733400": 8,
+          "504733424": 7,
+          "504733439": 8,
+          "504733475": 4,
+          "504733579": 5,
+          "504733621": 9,
+          "504737449": 13,
+          "504737481": 1058,
+          "504737527": 60,
+          "504737576": 45,
+          "504737606": 290,
+          "504737628": 21,
+          "504737655": 14,
+          "504737679": 108,
+          "504737702": 159,
+          "504737720": 77,
+          "504737777": 292,
+          "504737841": 116,
+          "504737927": 48,
+          "504738343": 227,
+          "504739124": 18,
+          "582120726": 28,
+          "582120773": 13,
+          "582120790": 9,
+          "582120815": 15,
+          "582120838": 7,
+          "582120852": 4,
+          "582120872": 22,
+          "582120896": 5,
+          "582120921": 23,
+          "582120941": 10,
+          "582120969": 53,
+          "582120998": 5,
+          "582121041": 6,
+          "582121058": 8,
+          "582121102": 7,
+          "594664994": 15,
+          "594665033": 112,
+          "594665062": 29,
+          "594665103": 31,
+          "594665122": 13,
+          "594665132": 8,
+          "594665143": 16,
+          "594665162": 58,
+          "594665169": 32,
+          "594665180": 62,
+          "594665198": 196,
+          "594665219": 7,
+          "594665229": 8,
+          "594665277": 13,
+          "594665354": 24
+        },
+        "onnx/onnx": {
+          "8460273": 1173,
+          "10733886": 180,
+          "10752993": 396,
+          "15176642": 33243,
+          "28030649": 298,
+          "28030866": 344
+        },
+        "xadupre/onnx-light": {
+          "454580243": 0,
+          "454582505": 0,
+          "454582949": 0,
+          "454584410": 0,
+          "454590237": 0,
+          "454595427": 0,
+          "454595446": 0,
+          "454595751": 1,
+          "454595770": 0,
+          "454638049": 0,
+          "454638050": 0,
+          "454638051": 0,
+          "454638052": 0,
+          "454638053": 0,
+          "454638073": 0,
+          "454638075": 0,
+          "454638078": 0,
+          "454665451": 0,
+          "454665452": 9,
+          "454665453": 0,
+          "454665454": 0,
+          "454665455": 0,
+          "454665469": 0,
+          "454665470": 3,
+          "454665471": 0,
+          "454707434": 0,
+          "454707435": 0,
+          "454707436": 0,
+          "454707437": 0,
+          "454712580": 0,
+          "454712581": 0,
+          "454712582": 0,
+          "454712583": 0,
+          "454718595": 0,
+          "454718599": 0,
+          "454718601": 0,
+          "454718603": 0,
+          "454722734": 0,
+          "454722735": 0,
+          "454722736": 0,
+          "454722737": 0,
+          "465445065": 0,
+          "465447498": 0,
+          "465449972": 0,
+          "465486065": 0,
+          "465486066": 0,
+          "465486067": 0,
+          "465486068": 0,
+          "465486070": 0,
+          "465486081": 0,
+          "465502149": 0,
+          "465502150": 0,
+          "465502151": 0,
+          "465502152": 0,
+          "465502153": 0,
+          "465502162": 0,
+          "465545608": 0,
+          "465545609": 0,
+          "465545610": 0,
+          "468042927": 0,
+          "468044267": 0,
+          "468045466": 0,
+          "468046466": 0,
+          "468048766": 0,
+          "468048891": 0,
+          "468048892": 0,
+          "468049417": 0,
+          "468049418": 0,
+          "468085408": 0,
+          "468085409": 0,
+          "468085410": 0,
+          "468085411": 0,
+          "468085412": 0,
+          "468085438": 0,
+          "468090330": 0,
+          "468090331": 0,
+          "468090332": 0,
+          "468090333": 0,
+          "468090334": 0,
+          "468090355": 0,
+          "468125916": 0,
+          "468125918": 0,
+          "468125922": 0,
+          "468134535": 0,
+          "468134536": 0,
+          "468134537": 0,
+          "468138243": 0,
+          "468138246": 0,
+          "468138247": 0,
+          "468993427": 0,
+          "468994888": 0,
+          "468995542": 1,
+          "468996298": 0,
+          "468998178": 0,
+          "468999759": 0,
+          "468999761": 0,
+          "469000662": 0,
+          "469000663": 0,
+          "469206103": 0,
+          "469206106": 0,
+          "469206108": 0,
+          "469206110": 0,
+          "469206120": 0,
+          "469206134": 0,
+          "469229969": 0,
+          "469229971": 0,
+          "469229972": 0,
+          "469229973": 0,
+          "469229974": 0,
+          "469229997": 0,
+          "469263548": 0,
+          "469263551": 0,
+          "469263552": 0,
+          "469271425": 0,
+          "469271429": 0,
+          "469271431": 0,
+          "469276458": 0,
+          "469276462": 0,
+          "469276463": 0,
+          "469277554": 0,
+          "469277555": 0,
+          "469277556": 0,
+          "477676630": 0,
+          "477678805": 0,
+          "477679581": 3,
+          "477681592": 0,
+          "477682961": 0,
+          "477682962": 0,
+          "477683639": 0,
+          "477683643": 0,
+          "477684832": 0,
+          "477723817": 0,
+          "477723819": 0,
+          "477723820": 0,
+          "477723821": 0,
+          "477723822": 0,
+          "477723839": 0,
+          "477751544": 0,
+          "477751545": 0,
+          "477751546": 0,
+          "477751547": 0,
+          "477751548": 0,
+          "477751562": 0,
+          "477776655": 0,
+          "477776656": 0,
+          "477776657": 0,
+          "477792271": 0,
+          "477792272": 0,
+          "477792273": 0,
+          "477794522": 0,
+          "477794523": 0,
+          "477794525": 0,
+          "477801474": 0,
+          "477801479": 0,
+          "477801480": 0,
+          "482688351": 20,
+          "482689345": 0,
+          "482691075": 0,
+          "482693889": 0,
+          "482695043": 0,
+          "482695044": 0,
+          "482695622": 0,
+          "482695623": 0,
+          "482729851": 0,
+          "482729853": 0,
+          "482729854": 0,
+          "482729855": 0,
+          "482729856": 0,
+          "482729869": 0,
+          "482748863": 0,
+          "482748864": 0,
+          "482748865": 0,
+          "482748866": 0,
+          "482748867": 0,
+          "482748874": 0,
+          "482778400": 0,
+          "482778401": 0,
+          "482778402": 0,
+          "482788182": 0,
+          "482788183": 0,
+          "482788184": 0,
+          "484941039": 0,
+          "484943154": 0,
+          "484944037": 0,
+          "484947002": 0,
+          "486454384": 0,
+          "486457397": 0,
+          "486460268": 0,
+          "486461597": 0,
+          "493800365": 0,
+          "493802447": 0,
+          "493802796": 192,
+          "493806496": 72,
+          "493808192": 0,
+          "493808193": 2,
+          "493809456": 0,
+          "493809459": 0,
+          "493810485": 0,
+          "493810486": 0,
+          "495156392": 0,
+          "495158033": 1,
+          "495158035": 0,
+          "495159278": 0,
+          "495159814": 3,
+          "495163942": 0,
+          "495165718": 0,
+          "495165719": 0,
+          "495166372": 0,
+          "495166374": 0,
+          "495168443": 1,
+          "495291919": 0,
+          "495291920": 0,
+          "495291921": 0,
+          "495291922": 0,
+          "495291923": 0,
+          "495291932": 0,
+          "495291933": 0,
+          "495291934": 0,
+          "495291936": 0,
+          "495291937": 0,
+          "495291948": 0,
+          "495291949": 0,
+          "495345092": 0,
+          "495345093": 0,
+          "495345094": 0,
+          "495345095": 0,
+          "495345096": 0,
+          "495345109": 0,
+          "495345110": 0,
+          "495345111": 0,
+          "495345116": 0,
+          "495345118": 0,
+          "495345125": 0,
+          "495345126": 0,
+          "495465985": 0,
+          "495465986": 0,
+          "495465987": 0,
+          "495465990": 0,
+          "495465995": 0,
+          "495466051": 0,
+          "500535208": 0,
+          "500539544": 11,
+          "500543187": 0,
+          "500543195": 0,
+          "500543311": 0,
+          "500543451": 0,
+          "500543452": 0,
+          "500543938": 0,
+          "500543939": 0,
+          "500633215": 0,
+          "500633217": 0,
+          "500633218": 0,
+          "500633219": 0,
+          "500633221": 0,
+          "500633242": 0,
+          "500633251": 0,
+          "500633252": 0,
+          "500633255": 0,
+          "500633287": 0,
+          "500641394": 0,
+          "500641396": 38,
+          "500641397": 1,
+          "500641399": 0,
+          "500641400": 0,
+          "500641410": 0,
+          "500641411": 0,
+          "500641412": 0,
+          "500641415": 0,
+          "500641418": 0,
+          "500721276": 0,
+          "500721277": 0,
+          "500721278": 0,
+          "500721279": 0,
+          "500721280": 0,
+          "502260817": 0,
+          "502263549": 11,
+          "502266886": 0,
+          "502266887": 0,
+          "502267582": 0,
+          "502267583": 0,
+          "502268344": 0,
+          "502268390": 0,
+          "502268391": 0,
+          "502369106": 0,
+          "502369108": 0,
+          "502369109": 0,
+          "502369110": 0,
+          "502369111": 0,
+          "502369146": 0,
+          "502369147": 0,
+          "502369148": 0,
+          "502369160": 0,
+          "502369164": 0,
+          "502420885": 0,
+          "502420886": 0,
+          "502420887": 0,
+          "502420888": 0,
+          "502420889": 0,
+          "502420912": 0,
+          "502420913": 0,
+          "502420914": 0,
+          "502420916": 0,
+          "502420917": 0,
+          "502504275": 0,
+          "502504276": 0,
+          "502504277": 0,
+          "502504278": 0,
+          "502504279": 0,
+          "504848447": 0,
+          "504852848": 3,
+          "504853930": 0,
+          "504853931": 0,
+          "504857680": 0,
+          "504857878": 0,
+          "504857879": 0,
+          "504858402": 0,
+          "504858403": 0,
+          "504977451": 0,
+          "504977452": 0,
+          "504977453": 0,
+          "504977454": 0,
+          "504977456": 0,
+          "504977576": 0,
+          "504977578": 0,
+          "504977579": 0,
+          "504977581": 0,
+          "504977591": 0,
+          "505030103": 0,
+          "505030104": 0,
+          "505030105": 0,
+          "505030108": 0,
+          "505030110": 0,
+          "505030125": 0,
+          "505030127": 0,
+          "505030128": 0,
+          "505030130": 0,
+          "505030131": 0,
+          "505121220": 0,
+          "505121222": 0,
+          "505121223": 0,
+          "505121224": 0,
+          "505121225": 0,
+          "505171598": 0,
+          "505176046": 0,
+          "505176047": 0,
+          "505176381": 15,
+          "505176791": 0,
+          "505176792": 0,
+          "505177144": 0,
+          "505177145": 0,
+          "505187794": 0,
+          "505298475": 0,
+          "505298476": 0,
+          "505298477": 0,
+          "505298478": 0,
+          "505298479": 0,
+          "505298500": 0,
+          "505298503": 0,
+          "505298505": 0,
+          "505298506": 0,
+          "505298507": 0,
+          "505366267": 0,
+          "505366269": 0,
+          "505366271": 0,
+          "505366273": 0,
+          "505366274": 0,
+          "505366296": 0,
+          "505366299": 0,
+          "505366301": 0,
+          "505366302": 0,
+          "505366306": 0,
+          "505486061": 0,
+          "505486062": 0,
+          "505486064": 0,
+          "505486065": 0,
+          "505486067": 0,
+          "506434406": 0,
+          "506437589": 0,
+          "506439161": 0,
+          "506439162": 0,
+          "506442547": 0,
+          "506442548": 0,
+          "506442725": 0,
+          "506442755": 0,
+          "506443793": 0,
+          "506532231": 0,
+          "506532232": 0,
+          "506532233": 0,
+          "506532234": 0,
+          "506532235": 0,
+          "506532244": 0,
+          "506532245": 0,
+          "506532246": 0,
+          "506532247": 0,
+          "506532250": 0,
+          "506571157": 0,
+          "506571158": 0,
+          "506571159": 0,
+          "506571160": 0,
+          "506571161": 0,
+          "506571171": 0,
+          "506571179": 0,
+          "506571180": 0,
+          "506571182": 0,
+          "506571184": 0,
+          "506638323": 0,
+          "506638327": 0,
+          "506638328": 0,
+          "506638330": 0,
+          "506638331": 0,
+          "508758198": 0,
+          "508762241": 1,
+          "508763539": 0,
+          "508767141": 0,
+          "508767633": 0,
+          "508767634": 0,
+          "508768736": 0,
+          "508768740": 0,
+          "508769238": 0,
+          "508769667": 0,
+          "508769668": 0,
+          "508876023": 0,
+          "508876024": 0,
+          "508876026": 0,
+          "508876027": 0,
+          "508876029": 0,
+          "508876083": 0,
+          "508876087": 0,
+          "508876088": 0,
+          "508876089": 0,
+          "508876090": 0,
+          "508898841": 0,
+          "508898842": 0,
+          "508898844": 0,
+          "508898845": 0,
+          "508898846": 1,
+          "508898889": 0,
+          "508898894": 0,
+          "508898897": 0,
+          "508898900": 0,
+          "508898901": 0,
+          "508986572": 0,
+          "508986573": 0,
+          "508986576": 0,
+          "508986589": 0,
+          "508986591": 0,
+          "509042375": 0,
+          "509042376": 0,
+          "509042377": 0,
+          "509042378": 0,
+          "509042379": 0,
+          "509051038": 0,
+          "509051039": 0,
+          "509051040": 0,
+          "509051041": 0,
+          "509051042": 0,
+          "518334517": 0,
+          "518337269": 0,
+          "518338337": 0,
+          "518339130": 0,
+          "518339566": 0,
+          "518343830": 0,
+          "518343831": 0,
+          "518346500": 0,
+          "518346504": 0,
+          "518350439": 0,
+          "518350440": 0,
+          "519119610": 0,
+          "519122637": 0,
+          "519122827": 0,
+          "519124844": 0,
+          "519124851": 0,
+          "519126316": 0,
+          "519126317": 0,
+          "519126990": 0,
+          "519130218": 0,
+          "519130231": 0,
+          "519131248": 0,
+          "519254606": 0,
+          "519254607": 0,
+          "519254609": 0,
+          "519254610": 0,
+          "519254611": 0,
+          "519254623": 0,
+          "519254625": 0,
+          "519254630": 0,
+          "519254631": 0,
+          "519254632": 0,
+          "519341086": 0,
+          "519341089": 45,
+          "519341090": 1,
+          "519341091": 0,
+          "519341092": 0,
+          "519341114": 0,
+          "519341116": 0,
+          "519341124": 0,
+          "519341126": 0,
+          "519341128": 0,
+          "519442844": 0,
+          "519442845": 0,
+          "519442846": 0,
+          "519442847": 0,
+          "519442849": 0,
+          "519450514": 0,
+          "519450515": 0,
+          "519450516": 0,
+          "519450517": 0,
+          "519450518": 0,
+          "519475447": 0,
+          "519475448": 0,
+          "519475449": 0,
+          "519475450": 0,
+          "519475451": 0,
+          "519670661": 0,
+          "519672785": 0,
+          "519673013": 0,
+          "519676465": 0,
+          "519676466": 0,
+          "519680820": 0,
+          "519687185": 0,
+          "519689451": 0,
+          "519689453": 0,
+          "519694040": 0,
+          "519694044": 0,
+          "519805635": 0,
+          "519805636": 0,
+          "519805638": 0,
+          "519805639": 0,
+          "519805640": 0,
+          "519805662": 0,
+          "519805663": 0,
+          "519805664": 0,
+          "519805665": 0,
+          "519805666": 0,
+          "519837506": 0,
+          "519837508": 1,
+          "519837509": 0,
+          "519837510": 692,
+          "519837512": 0,
+          "519837552": 0,
+          "519837567": 0,
+          "519837568": 0,
+          "519837573": 0,
+          "519837579": 0,
+          "519947198": 0,
+          "519947199": 563,
+          "519947200": 0,
+          "519947203": 0,
+          "519947205": 0,
+          "519962952": 573,
+          "519962953": 0,
+          "519962954": 0,
+          "519962955": 0,
+          "519962956": 0,
+          "519967034": 0,
+          "519967035": 0,
+          "519967036": 0,
+          "519967037": 0,
+          "519967038": 0,
+          "521907885": 0,
+          "521910761": 0,
+          "521911821": 2,
+          "521915718": 0,
+          "536925771": 0,
+          "536930483": 0,
+          "536930793": 0,
+          "536934415": 0,
+          "536934416": 0,
+          "536936102": 0,
+          "536937476": 0,
+          "536937477": 0,
+          "536937498": 0,
+          "536937500": 0,
+          "538153386": 0,
+          "538158066": 0,
+          "538158659": 0,
+          "538161518": 0,
+          "538161521": 0,
+          "538166878": 0,
+          "538167272": 0,
+          "538167274": 0,
+          "538169609": 0,
+          "538169610": 0,
+          "539946988": 0,
+          "539952389": 0,
+          "539953334": 0,
+          "539961552": 0,
+          "539961916": 0,
+          "539961917": 0,
+          "539962786": 0,
+          "539962789": 0,
+          "539965960": 0,
+          "539965963": 0,
+          "542837957": 0,
+          "542844063": 0,
+          "542845633": 0,
+          "542851214": 0,
+          "542851217": 0,
+          "542852487": 0,
+          "542852749": 0,
+          "542852752": 0,
+          "542854783": 0,
+          "542858531": 0,
+          "542858532": 0,
+          "542872181": 0,
+          "542872182": 0,
+          "542872184": 0,
+          "542895031": 293,
+          "542895032": 166,
+          "542895033": 159,
+          "542966566": 144,
+          "542966573": 11,
+          "542966574": 11,
+          "542979511": 0,
+          "542979512": 0,
+          "542979513": 0,
+          "542982356": 144,
+          "542982357": 11,
+          "542982359": 11,
+          "550497271": 0,
+          "550507557": 1,
+          "550514923": 0,
+          "550516926": 0,
+          "550516928": 0,
+          "550517155": 0,
+          "550517161": 0,
+          "550519206": 0,
+          "550519208": 0,
+          "550549948": 0,
+          "550549949": 0,
+          "550549951": 0,
+          "550577289": 12,
+          "550577291": 10,
+          "550577292": 1,
+          "550737465": 0,
+          "550737468": 0,
+          "550737470": 1,
+          "552743219": 0,
+          "552752881": 0,
+          "552753049": 0,
+          "552753050": 0,
+          "552753285": 0,
+          "552753550": 0,
+          "552767714": 0,
+          "552767715": 0,
+          "552770296": 0,
+          "552770297": 0,
+          "552774276": 0,
+          "552799381": 0,
+          "552799383": 0,
+          "552799386": 0,
+          "552832818": 188,
+          "552832820": 92,
+          "552832821": 9,
+          "552963956": 0,
+          "552963958": 0,
+          "552963963": 0,
+          "552979458": 69,
+          "552979459": 0,
+          "552979462": 0,
+          "552988252": 0,
+          "552988254": 71,
+          "552988256": 0,
+          "568387482": 0,
+          "568395642": 0,
+          "568395715": 0,
+          "568403117": 0,
+          "568403119": 0,
+          "568412184": 0,
+          "568413327": 0,
+          "568413331": 0,
+          "568413859": 0,
+          "568413860": 0,
+          "568414122": 0,
+          "568444203": 0,
+          "568444205": 0,
+          "568444206": 0,
+          "568473087": 465,
+          "568473088": 104,
+          "568473089": 267,
+          "568586278": 0,
+          "568586279": 0,
+          "568586282": 0,
+          "568596757": 33,
+          "568596758": 212,
+          "568596760": 33,
+          "568614807": 33,
+          "568614811": 211,
+          "568614813": 32,
+          "599453801": 0,
+          "599454622": 0,
+          "599463038": 0,
+          "599470734": 0,
+          "599470743": 0,
+          "599479053": 0,
+          "599481115": 0,
+          "599481117": 0,
+          "599483270": 0,
+          "599484913": 0,
+          "599484914": 0,
+          "599513646": 0,
+          "599513652": 0,
+          "599513655": 0,
+          "599542679": 253,
+          "599542680": 117,
+          "599542681": 8,
+          "599724357": 0,
+          "599724366": 0,
+          "599724368": 26,
+          "599724785": 0,
+          "599724788": 0,
+          "599724790": 26,
+          "599774815": 0,
+          "599774816": 0,
+          "599774818": 0,
+          "605511639": 0,
+          "605522868": 0,
+          "605526000": 0,
+          "605526533": 1,
+          "605526536": 0,
+          "605529425": 0,
+          "605529426": 0,
+          "605532762": 0,
+          "605540388": 0,
+          "605540625": 0,
+          "605540627": 0,
+          "605575117": 0,
+          "605575119": 0,
+          "605575120": 0,
+          "605582389": 116,
+          "605582390": 61,
+          "605582392": 3,
+          "605726948": 0,
+          "605726949": 0,
+          "605726950": 0,
+          "605748397": 0,
+          "605748399": 0,
+          "605748400": 36,
+          "605749534": 0,
+          "605749535": 0,
+          "605749536": 37,
+          "610692449": 0,
+          "610701860": 1,
+          "610702913": 1,
+          "610707904": 0,
+          "610717418": 0,
+          "610717422": 0,
+          "610722630": 3,
+          "610722632": 0,
+          "610727782": 0,
+          "610728253": 0,
+          "610728255": 0,
+          "610754644": 6,
+          "610754645": 9,
+          "610754651": 6,
+          "610767608": 640,
+          "610767610": 218,
+          "610767611": 2301,
+          "610873108": 15,
+          "610873109": 11,
+          "610873110": 130,
+          "610898655": 0,
+          "610898656": 0,
+          "610898657": 3,
+          "610925545": 132,
+          "610925547": 13,
+          "610925548": 15,
+          "639908902": 0,
+          "639921721": 0,
+          "639921724": 0,
+          "639921828": 0,
+          "639936007": 0,
+          "639945681": 0,
+          "639945685": 0,
+          "639969282": 0,
+          "639969286": 0,
+          "639974549": 0,
+          "639974550": 1,
+          "639996182": 2,
+          "639996184": 2,
+          "639996186": 2,
+          "640048295": 51,
+          "640048297": 604,
+          "640048298": 352,
+          "640142177": 27,
+          "640142180": 27,
+          "640142189": 30,
+          "640196817": 28,
+          "640196818": 27,
+          "640196822": 26,
+          "640225749": 0,
+          "640225751": 0,
+          "640225752": 1,
+          "645369479": 0,
+          "645379797": 0,
+          "645379798": 0,
+          "645390069": 0,
+          "645395109": 0,
+          "645401155": 0,
+          "645410834": 2,
+          "645410842": 0,
+          "645412862": 0,
+          "645412863": 0,
+          "645425178": 0,
+          "645442450": 151,
+          "645442453": 21,
+          "645442454": 177,
+          "645456238": 4,
+          "645456239": 4,
+          "645456240": 4,
+          "645625518": 2,
+          "645625519": 2,
+          "645625523": 3,
+          "645632826": 5,
+          "645632827": 5,
+          "645632830": 16,
+          "645666556": 4,
+          "645666558": 3,
+          "645666560": 14,
+          "653330557": 0,
+          "653332802": 0,
+          "653345162": 0,
+          "653348819": 0,
+          "653375554": 0,
+          "653377682": 1,
+          "653377683": 0,
+          "653381514": 0,
+          "653381515": 0,
+          "653403196": 0,
+          "653403198": 0,
+          "653403199": 0,
+          "653408343": 0,
+          "653408344": 0,
+          "653440822": 69,
+          "653440823": 4,
+          "653440836": 82,
+          "653577199": 0,
+          "653577200": 0,
+          "653577201": 0,
+          "653605436": 0,
+          "653605437": 0,
+          "653605445": 4,
+          "653609468": 4,
+          "653609469": 0,
+          "653609470": 0,
+          "654570386": 0,
+          "654573236": 27,
+          "654579152": 0,
+          "654579154": 0,
+          "654582533": 0,
+          "654592089": 0,
+          "654592090": 0,
+          "654593598": 0,
+          "654593599": 3,
+          "654593664": 0,
+          "654604308": 0,
+          "654627505": 0,
+          "654627506": 0,
+          "654627508": 0,
+          "654636573": 14,
+          "654636574": 1,
+          "654636575": 11,
+          "654762612": 0,
+          "654762614": 0,
+          "654762615": 0,
+          "654786151": 0,
+          "654786152": 0,
+          "654786155": 1,
+          "654795869": 0,
+          "654795870": 0,
+          "654795871": 1
+        },
+        "xadupre/onnx-light-com-microsoft": {},
+        "xadupre/onnx-light-cpu": {
+          "603148086": 0,
+          "603148602": 0,
+          "603151989": 0,
+          "603154580": 0,
+          "603157095": 0,
+          "603160130": 0,
+          "603160134": 0,
+          "603160135": 0,
+          "603171920": 0,
+          "603171922": 0,
+          "603171923": 98,
+          "603180953": 0,
+          "603180962": 0,
+          "603180963": 0,
+          "603183371": 0,
+          "603183372": 0,
+          "603183373": 0,
+          "603189772": 0,
+          "603189773": 0,
+          "603189774": 0,
+          "605987854": 0,
+          "605988108": 0,
+          "605990054": 0,
+          "605991802": 0,
+          "605993704": 0,
+          "606183011": 0,
+          "606183012": 0,
+          "606183013": 0,
+          "606280448": 91,
+          "606280449": 0,
+          "606280450": 0,
+          "611808045": 0,
+          "611808523": 0,
+          "611808960": 0,
+          "611810721": 0,
+          "611810844": 0,
+          "612163345": 2,
+          "612163413": 2,
+          "612168288": 3,
+          "612170277": 3,
+          "612171831": 0,
+          "613021874": 0,
+          "613021936": 0,
+          "613023929": 0,
+          "613025529": 0,
+          "613027363": 0,
+          "613043258": 0,
+          "613043259": 0,
+          "613043262": 0,
+          "613049251": 1699,
+          "613049253": 0,
+          "613049254": 162,
+          "613089006": 0,
+          "613089008": 0,
+          "613089011": 0,
+          "640370570": 0,
+          "640377911": 0,
+          "640379535": 0,
+          "640388847": 0,
+          "640388855": 0,
+          "640388856": 0,
+          "640390737": 0,
+          "640390783": 0,
+          "640407901": 0,
+          "640407904": 544,
+          "640407906": 328,
+          "640456284": 0,
+          "640456285": 0,
+          "640456286": 0,
+          "647163441": 0,
+          "647164634": 0,
+          "647165848": 0,
+          "647165896": 0,
+          "647166131": 0,
+          "647185680": 0,
+          "647185684": 0,
+          "647185693": 0,
+          "647191085": 0,
+          "647191090": 0,
+          "647191091": 0,
+          "647234065": 0,
+          "647234066": 0,
+          "647234067": 0,
+          "655758045": 0,
+          "655760041": 0,
+          "655761721": 0,
+          "655762095": 0,
+          "655777265": 0
+        },
+        "xadupre/onnx-light-kernel-images": {},
+        "xadupre/onnx-light-ort": {},
+        "xadupre/onnx-light-viewer": {},
+        "xadupre/yet-another-onnx-builder": {},
+        "xadupre/yet-another-onnxruntime-extensions": {}
       }
     }
   ]
