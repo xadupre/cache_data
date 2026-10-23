@@ -1,0 +1,170 @@
+{
+  "commit_hash": "417cc82773a97e64aa183b9067b083b59cdfc089",
+  "date": 1792778260000,
+  "durations": {},
+  "env_name": "virtualenv-py3.12-numpy2.5.3-onnx1.23.1-onnx-ir1.0.0-onnxruntime1.30.0-onnxscript0.7.2-ONNX_LIGHT_CPU_VERSION0.2.0-ONNX_LIGHT_VERSION0.2.0",
+  "env_vars": {
+    "ONNX_LIGHT_CPU_VERSION": "0.2.0",
+    "ONNX_LIGHT_VERSION": "0.2.0"
+  },
+  "params": {
+    "arch": "x86_64",
+    "cpu": "AMD EPYC 7763 64-Core Processor",
+    "instruction_sets": "SSE2, SSE3, SSSE3, SSE4.1, SSE4.2, AVX, AVX2",
+    "machine": "AMD EPYC 7763 64-Core Processor (4 vCPU)",
+    "num_cpu": "4",
+    "numpy": "2.5.3",
+    "onnx": "1.23.1",
+    "onnx-ir": "1.0.0",
+    "onnxruntime": "1.30.0",
+    "onnxscript": "0.7.2",
+    "os": "anonymous",
+    "python": "3.12",
+    "ram": "anonymous"
+  },
+  "python": "3.12",
+  "requirements": {
+    "numpy": "2.5.3",
+    "onnx": "1.23.1",
+    "onnx-ir": "1.0.0",
+    "onnxruntime": "1.30.0",
+    "onnxscript": "0.7.2"
+  },
+  "result_columns": [
+    "result",
+    "params",
+    "version",
+    "started_at",
+    "duration",
+    "stats_ci_99_a",
+    "stats_ci_99_b",
+    "stats_q_25",
+    "stats_q_75",
+    "stats_number",
+    "stats_repeat",
+    "samples",
+    "profile"
+  ],
+  "results": {
+    "ops.nn.linear_attention.LinearAttention.time_run": [
+      [
+        null,
+        0.021140923999993788,
+        0.01984342149998497,
+        0.0022421985000136146,
+        null,
+        0.023868574499999795,
+        0.024116666499992334,
+        0.0026641474999991033,
+        null,
+        0.0216435014999945,
+        0.022371382000002882,
+        0.0025067469999981995
+      ],
+      [
+        [
+          "'query=1x512x512, key=1x512x512, value=1x512x512'"
+        ],
+        [
+          "'float32'",
+          "'float16'",
+          "'bfloat16'"
+        ],
+        [
+          "'onnxruntime'",
+          "'onnx-reference'",
+          "'onnx-light'",
+          "'onnx-light-cpu'"
+        ]
+      ],
+      "862874b6d501be674f68e019bfd43f212b9d44f86a58f42d0553b43386a75e0c",
+      1792787398406,
+      38.918,
+      [
+        null,
+        0.020732,
+        0.019574,
+        0.0021973,
+        null,
+        0.023584,
+        0.023891,
+        0.0025588,
+        null,
+        0.021335,
+        0.021934,
+        0.0024192
+      ],
+      [
+        null,
+        0.021958,
+        0.019993,
+        0.0024699,
+        null,
+        0.026564,
+        0.024382,
+        0.002717,
+        null,
+        0.022786,
+        0.022543,
+        0.0028197
+      ],
+      [
+        null,
+        0.020967,
+        0.019717,
+        0.0022301,
+        null,
+        0.023771,
+        0.024018,
+        0.0026048,
+        null,
+        0.021485,
+        0.022163,
+        0.0024565
+      ],
+      [
+        null,
+        0.021293,
+        0.019966,
+        0.0024038,
+        null,
+        0.024623,
+        0.024175,
+        0.0027027,
+        null,
+        0.021988,
+        0.022401,
+        0.0026197
+      ],
+      [
+        null,
+        1,
+        1,
+        1,
+        null,
+        1,
+        1,
+        1,
+        null,
+        1,
+        1,
+        1
+      ],
+      [
+        null,
+        10,
+        10,
+        10,
+        null,
+        10,
+        10,
+        10,
+        null,
+        10,
+        10,
+        10
+      ]
+    ]
+  },
+  "version": 2
+}
