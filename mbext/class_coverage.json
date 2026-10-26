@@ -38,6 +38,30 @@
     {
       "in_mbext": false,
       "in_ort_genai": true,
+      "name": "ComponentBinding",
+      "ort_genai_files": [
+        "src/python/py/models/builder_config.py"
+      ]
+    },
+    {
+      "in_mbext": false,
+      "in_ort_genai": true,
+      "name": "ComponentOptions",
+      "ort_genai_files": [
+        "src/python/py/models/builder_config.py"
+      ]
+    },
+    {
+      "in_mbext": false,
+      "in_ort_genai": true,
+      "name": "ComponentPackagePlan",
+      "ort_genai_files": [
+        "src/python/py/models/builder_config.py"
+      ]
+    },
+    {
+      "in_mbext": false,
+      "in_ort_genai": true,
       "name": "CudaQuantizer",
       "ort_genai_files": [
         "src/python/py/models/quantization/cuda_quantizer.py"
@@ -265,6 +289,14 @@
       ]
     },
     {
+      "in_mbext": false,
+      "in_ort_genai": true,
+      "name": "HeadComponent",
+      "ort_genai_files": [
+        "src/python/py/models/builder_config.py"
+      ]
+    },
+    {
       "in_mbext": true,
       "in_ort_genai": true,
       "mbext_files": [
@@ -339,6 +371,14 @@
         "modelbuilder/builders/local_functions.py"
       ],
       "name": "LocalFunctionsMixin"
+    },
+    {
+      "in_mbext": true,
+      "in_ort_genai": false,
+      "mbext_files": [
+        "modelbuilder/helpers/mlx.py"
+      ],
+      "name": "MLXCheckpoint"
     },
     {
       "in_mbext": false,
@@ -718,6 +758,14 @@
     {
       "in_mbext": false,
       "in_ort_genai": true,
+      "name": "QuantizedLinearAttention",
+      "ort_genai_files": [
+        "src/python/py/models/loaders/base.py"
+      ]
+    },
+    {
+      "in_mbext": false,
+      "in_ort_genai": true,
       "name": "QuantizedMLP",
       "ort_genai_files": [
         "src/python/py/models/loaders/base.py"
@@ -1033,6 +1081,14 @@
       ]
     },
     {
+      "in_mbext": true,
+      "in_ort_genai": false,
+      "mbext_files": [
+        "modelbuilder/helpers/weight_reuse.py"
+      ],
+      "name": "WeightReuse"
+    },
+    {
       "in_mbext": false,
       "in_ort_genai": true,
       "name": "WeightsConfig",
@@ -1104,17 +1160,17 @@
       "name": "_Branch"
     }
   ],
-  "date": "2026-10-19T15:05:30Z",
+  "date": "2026-10-26T14:24:02Z",
   "projects": {
     "mbext": {
-      "commit": "9e43fab7efb561f29352081daab0988e2298c03c",
+      "commit": "095caaf52f9a13c4a7852c4c423b120f26997a46",
       "owner": "xadupre",
       "path": "modelbuilder",
       "ref": "main",
       "repo": "mbext"
     },
     "ort_genai": {
-      "commit": "f1f002edccf97c10dc3496fa9b07b2851de980b6",
+      "commit": "fd0c5c50c733fee689e6a9e29785042e00a967d5",
       "owner": "microsoft",
       "path": "src/python/py/models",
       "ref": "main",
@@ -1122,7 +1178,7 @@
     }
   },
   "totals": {
-    "mbext": 75,
-    "ort_genai": 86
+    "mbext": 77,
+    "ort_genai": 91
   }
 }
