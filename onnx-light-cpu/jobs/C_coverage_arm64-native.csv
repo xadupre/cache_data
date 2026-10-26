@@ -1,0 +1,2 @@
+job_id,run_id,workflow,job_name,status,conclusion,started_at,completed_at,duration_seconds,head_sha
+121526354374,40309338375,cpp-coverage-weekly,C++ coverage (arm64-native),completed,success,2026-10-26T10:41:27Z,2026-10-26T10:43:16Z,109,7e2eba0f41d37fd0851ad1b037d19e8898a12de7

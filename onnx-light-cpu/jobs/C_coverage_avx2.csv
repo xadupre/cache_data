@@ -1,0 +1,2 @@
+job_id,run_id,workflow,job_name,status,conclusion,started_at,completed_at,duration_seconds,head_sha
+121526354214,40309338375,cpp-coverage-weekly,C++ coverage (avx2),completed,failure,2026-10-26T10:41:25Z,2026-10-26T10:55:22Z,837,7e2eba0f41d37fd0851ad1b037d19e8898a12de7
