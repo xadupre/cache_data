@@ -1,6 +1,6 @@
 {
-  "commit": "4069684e0c7bc9c9773de2488281e6242098fdbb",
-  "date": "2026-10-19T11:30:13Z",
+  "commit": "846a0b636d4dc4d2a8a905c12c8e058d7c7d81d0",
+  "date": "2026-10-26T11:40:28Z",
   "onnx_available": true,
   "rows": [
     {
@@ -850,7 +850,7 @@
       "name": "GreaterOrEqual",
       "onnx_backend_tests": 0,
       "onnx_backend_tests_expanded": 0,
-      "onnx_light_backend_tests": 4,
+      "onnx_light_backend_tests": 6,
       "onnx_light_backend_tests_expanded": 0,
       "onnx_light_shape_inference": true,
       "onnx_shape_inference": true
@@ -877,6 +877,18 @@
       "onnx_light_backend_tests": 2,
       "onnx_light_backend_tests_expanded": 0,
       "onnx_light_shape_inference": true,
+      "onnx_shape_inference": true
+    },
+    {
+      "domain": "ai.onnx",
+      "in_onnx": true,
+      "in_onnx_light": false,
+      "name": "GroupedMatMul",
+      "onnx_backend_tests": 11,
+      "onnx_backend_tests_expanded": 11,
+      "onnx_light_backend_tests": 0,
+      "onnx_light_backend_tests_expanded": 0,
+      "onnx_light_shape_inference": false,
       "onnx_shape_inference": true
     },
     {
@@ -1078,7 +1090,7 @@
       "name": "LessOrEqual",
       "onnx_backend_tests": 0,
       "onnx_backend_tests_expanded": 0,
-      "onnx_light_backend_tests": 4,
+      "onnx_light_backend_tests": 6,
       "onnx_light_backend_tests_expanded": 0,
       "onnx_light_shape_inference": true,
       "onnx_shape_inference": true
@@ -1988,9 +2000,9 @@
       "in_onnx": true,
       "in_onnx_light": true,
       "name": "Shape",
-      "onnx_backend_tests": 11,
+      "onnx_backend_tests": 12,
       "onnx_backend_tests_expanded": 0,
-      "onnx_light_backend_tests": 77,
+      "onnx_light_backend_tests": 82,
       "onnx_light_backend_tests_expanded": 0,
       "onnx_light_shape_inference": true,
       "onnx_shape_inference": true
@@ -2422,7 +2434,7 @@
       "name": "Where",
       "onnx_backend_tests": 2,
       "onnx_backend_tests_expanded": 0,
-      "onnx_light_backend_tests": 22,
+      "onnx_light_backend_tests": 26,
       "onnx_light_backend_tests_expanded": 0,
       "onnx_light_shape_inference": true,
       "onnx_shape_inference": true
@@ -2789,14 +2801,14 @@
     }
   ],
   "totals": {
-    "onnx": 227,
-    "onnx_backend_tests": 1425,
-    "onnx_backend_tests_expanded": 482,
+    "onnx": 228,
+    "onnx_backend_tests": 1437,
+    "onnx_backend_tests_expanded": 493,
     "onnx_light": 232,
-    "onnx_light_backend_tests": 2398,
+    "onnx_light_backend_tests": 2411,
     "onnx_light_backend_tests_expanded": 0,
     "onnx_light_shape_inference": 227,
-    "onnx_shape_inference": 217
+    "onnx_shape_inference": 218
   },
   "versions": {
     "onnx_ir_version": 14,
