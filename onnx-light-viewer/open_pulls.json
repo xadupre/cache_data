@@ -1,0 +1,21 @@
+{
+  "latest": [
+    {
+      "number": 189,
+      "title": "Add model statistics before application status",
+      "user": "Copilot",
+      "created_at": "2026-10-26T06:33:42Z"
+    }
+  ],
+  "oldest": [
+    {
+      "number": 189,
+      "title": "Add model statistics before application status",
+      "user": "Copilot",
+      "created_at": "2026-10-26T06:33:42Z"
+    }
+  ],
+  "ages_days": [
+    0.16680927047453703
+  ]
+}

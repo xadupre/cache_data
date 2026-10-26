@@ -1,0 +1,95 @@
+pr_number,title,author,merged_at,commits,comments,copilot_comments,copilot_commits,review_agent_comments,review_agent_high,review_agent_medium,review_agent_low,review_agent_unclassified,review_agent_security,review_agent_resolved_threads,review_agent_unresolved_threads,additions,deletions,changed_files
+187,Add Convert sidebar and independent optimization timing,xadupre,2026-10-26T10:00:19Z,4,7,6,1,6,0,0,0,6,0,3,0,2390,59,23
+186,Improve ONNX model inspection and encoded field tables,xadupre,2026-10-25T20:35:42Z,3,2,2,0,2,0,0,0,2,0,2,0,1701,52,17
+185,Add native optimization reports and failed-match diagnostics,xadupre,2026-10-25T18:13:40Z,1,0,0,0,0,0,0,0,0,0,0,0,1462,12,14
+182,Restyle action buttons with rounded corners and neutral colors,Copilot,2026-10-25T12:49:57Z,3,2,1,3,0,0,0,0,0,0,0,0,64,10,3
+177,Add native iterative optimization and global cleanup passes,xadupre,2026-10-25T11:47:45Z,3,8,4,0,4,0,4,0,0,0,4,0,2298,113,17
+181,Add a reusable compact ONNX usage badge,xadupre,2026-10-25T11:23:58Z,1,0,0,0,0,0,0,0,0,0,0,0,63,0,3
+180,Add CI badges to README and documentation index,Copilot,2026-10-25T11:08:09Z,2,0,0,2,0,0,0,0,0,0,0,0,5,0,2
+176,Keep operator types visible in zoomed-out graph overviews,Copilot,2026-10-25T10:59:08Z,2,0,0,2,0,0,0,0,0,0,0,0,82,3,4
+173,Add saved rewriting scenarios and streamline fusion controls,xadupre,2026-10-25T09:19:14Z,3,7,4,0,4,0,0,0,4,0,4,0,1468,79,17
+171,Add fusion undo history and optional rewriting exports,xadupre,2026-10-24T21:33:20Z,2,4,2,0,2,1,1,0,0,0,2,0,1487,89,19
+170,"Improve model inspection, verification and viewer usability",xadupre,2026-10-24T20:11:53Z,2,1,1,0,1,0,0,0,1,0,1,0,903,124,21
+165,"Add Settings tab for paths, versions, and viewer preferences",Copilot,2026-10-24T18:55:26Z,7,10,4,2,4,0,0,0,4,0,4,0,953,12,11
+168,Display metadata as key/value tables,Copilot,2026-10-24T18:45:23Z,2,0,0,2,0,0,0,0,0,0,0,0,123,23,4
+167,Support PipelineProto containers with .pipe-onnx files,xadupre,2026-10-24T18:15:03Z,3,4,2,0,2,0,0,0,2,0,2,0,1642,56,29
+162,Index model-scoped struct declarations during graph extraction,Copilot,2026-10-24T15:47:50Z,4,4,2,2,2,0,0,0,2,0,2,0,132,11,2
+161,Reuse encoded initializer metadata without sharing parameter objects,Copilot,2026-10-24T15:26:14Z,2,0,0,2,0,0,0,0,0,0,0,0,29,11,2
+160,Deduplicate tensor visits by pointer identity in ModelSaveTensors,Copilot,2026-10-24T15:25:58Z,2,0,0,2,0,0,0,0,0,0,0,0,306,124,6
+159,Clarify encoded initializer payload omission behavior,Copilot,2026-10-24T15:25:39Z,2,0,0,2,0,0,0,0,0,0,0,0,46,1,2
+157,Decouple Hugging Face task constants from the webview shell,Copilot,2026-10-24T12:47:58Z,2,0,0,2,0,0,0,0,0,0,0,0,77,20,5
+153,"Improve model discovery, file workflows, and operator labels",xadupre,2026-10-24T12:19:56Z,5,18,8,0,8,0,0,0,8,0,8,0,2677,134,16
+155,Update design documentation after native and sidebar refactoring,xadupre,2026-10-24T12:16:54Z,1,0,0,0,0,0,0,0,0,0,0,0,192,11,4
+154,Improve navigation performance from 250 graph nodes,xadupre,2026-10-24T11:47:11Z,2,4,4,0,4,0,0,0,4,0,0,4,136,14,3
+152,Improve graph selection contrast and clarify modifier selection,xadupre,2026-10-24T09:38:02Z,1,0,0,0,0,0,0,0,0,0,0,0,79,6,3
+151,Add exporter cards and package specializations to the ONNX tab,xadupre,2026-10-24T09:37:49Z,4,0,0,0,0,0,0,0,0,0,0,0,537,11,10
+150,Split native addon into focused translation units,xadupre,2026-10-24T09:37:26Z,2,0,0,0,0,0,0,0,0,0,0,0,2980,2666,21
+148,Split sidebar behavior into focused modules,xadupre,2026-10-24T09:37:05Z,1,0,0,0,0,0,0,0,0,0,0,0,1128,890,10
+130,Separate documentation workflow and expand CI to macOS and Windows,Copilot,2026-10-24T08:57:05Z,8,6,3,5,0,0,0,0,0,0,0,0,85,23,8
+133,Add model top/bottom navigation buttons and keyboard shortcuts,Copilot,2026-10-24T08:35:31Z,3,4,2,2,2,0,0,0,2,0,2,0,190,4,3
+132,"Add opaque, structured, and encoded value inspection",Copilot,2026-10-24T08:35:14Z,4,12,6,3,6,0,0,0,6,0,2,4,594,24,12
+134,Make the side panel horizontally resizable,Copilot,2026-10-24T08:20:27Z,3,12,6,2,6,0,0,0,6,0,6,0,300,4,4
+138,Move documentation to weekly CI with failure issue reporting,Copilot,2026-10-24T08:02:09Z,2,0,0,2,0,0,0,0,0,0,0,0,84,13,3
+121,Add selective fusion-pattern previews and external weight reuse,xadupre,2026-10-23T23:30:25Z,7,6,3,0,3,0,0,0,3,0,3,0,3380,273,21
+123,Dismiss node search suggestions after selection,Copilot,2026-10-23T18:03:16Z,2,0,0,2,0,0,0,0,0,0,0,0,17,0,2
+116,"Document implemented features, visual design and practical examples",xadupre,2026-10-23T16:25:36Z,3,2,1,1,0,0,0,0,0,0,0,0,586,467,9
+120,Use oh for ONNX helper imports and add a reusable skill,Copilot,2026-10-23T15:56:10Z,2,0,0,2,0,0,0,0,0,0,0,0,209,162,4
+118,docs: add onnx-light-kernel-images to related projects,Copilot,2026-10-23T15:55:52Z,3,2,1,3,0,0,0,0,0,0,0,0,15,6,2
+115,Load and save plain or encrypted ONNX ModelProto files,xadupre,2026-10-23T15:13:17Z,7,12,6,0,6,0,0,0,6,0,6,0,2326,61,14
+111,Move node search to sidebar and add live suggestions,Copilot,2026-10-23T13:59:57Z,4,6,3,2,3,0,0,0,3,0,3,0,233,29,5
+114,Settle pending refreshes when shared recovery and navigation fail,Copilot,2026-10-23T13:46:14Z,2,0,0,2,0,0,0,0,0,0,0,0,99,7,2
+113,Keep graph outlines visible when zoomed out,Copilot,2026-10-23T13:39:16Z,2,0,0,2,0,0,0,0,0,0,0,0,56,0,2
+108,Reuse exponent-aware numeric parsing in SVG translation assertions,Copilot,2026-10-23T12:41:50Z,2,0,0,2,0,0,0,0,0,0,0,0,22,8,1
+110,Support navigation into model-local ONNX functions,xadupre,2026-10-23T12:37:09Z,2,0,0,0,0,0,0,0,0,0,0,0,388,25,12
+109,Include initializer name and data type in unsupported-type errors,Copilot,2026-10-23T12:34:12Z,2,0,0,2,0,0,0,0,0,0,0,0,3,1,1
+107,Make initializer previews independent of the C++ locale,Copilot,2026-10-23T12:31:25Z,2,0,0,2,0,0,0,0,0,0,0,0,63,1,4
+112,Render operator documentation as Markdown,xadupre,2026-10-23T12:27:05Z,3,0,0,0,0,0,0,0,0,0,0,0,301,22,14
+102,Add official logos to repository cards,Copilot,2026-10-23T12:09:08Z,4,2,1,4,0,0,0,0,0,0,0,0,219,12,9
+103,"Improve toolbar feedback, model sources and attribute previews",xadupre,2026-10-23T11:59:07Z,2,1,0,0,0,0,0,0,0,0,0,0,190,119,14
+93,Show values for tiny embedded initializers,xadupre,2026-10-23T11:40:40Z,4,10,6,0,6,0,0,0,6,0,3,3,427,23,9
+92,Update Sphinx and consolidate CI action dependencies,dependabot[bot],2026-10-23T11:37:41Z,6,2,1,1,0,0,0,0,0,0,0,0,21,15,5
+87,Bump typescript from 5.9.3 to 7.0.2,dependabot[bot],2026-10-23T11:02:00Z,2,1,0,0,0,0,0,0,0,0,0,0,377,15,5
+90,Add Repositories tab for ONNX and onnx-light projects,Copilot,2026-10-23T10:21:49Z,3,0,0,2,0,0,0,0,0,0,0,0,167,7,5
+73,Add graph area magnification and zoom shortcuts,Copilot,2026-10-23T10:07:56Z,6,6,3,3,2,0,0,0,2,0,2,0,425,21,5
+82,Keep metadata refresh status visible while the panel is open,Copilot,2026-10-23T09:43:25Z,2,0,0,2,0,0,0,0,0,0,0,0,31,25,2
+86,Bump jsdom from 27.4.0 to 30.1.3,dependabot[bot],2026-10-23T09:27:17Z,1,0,0,0,0,0,0,0,0,0,0,0,93,171,2
+85,Make Controls readable with two-column reference tables,xadupre,2026-10-23T09:26:59Z,1,0,0,0,0,0,0,0,0,0,0,0,101,26,4
+88,Bump @types/node from 22.20.5 to 26.6.5,dependabot[bot],2026-10-23T09:10:51Z,1,0,0,0,0,0,0,0,0,0,0,0,9,9,2
+83,Show coverage badge in README and documentation homepage,xadupre,2026-10-23T08:59:59Z,1,0,0,0,0,0,0,0,0,0,0,0,6,0,2
+52,Show model-loading progress and skip large embedded weights,Copilot,2026-10-23T08:51:47Z,11,32,23,8,22,0,0,0,22,0,8,1,1898,256,12
+80,Add weekly Dependabot updates,Copilot,2026-10-23T08:41:15Z,2,0,0,2,0,0,0,0,0,0,0,0,14,0,1
+67,Show latest shape and metadata refresh status through button colors,Copilot,2026-10-23T08:30:37Z,6,11,9,4,8,0,0,0,8,0,5,0,151,7,4
+78,"Add nightly Codecov reports for TypeScript, C++, and Python",Copilot,2026-10-23T08:29:53Z,2,0,0,2,0,0,0,0,0,0,0,0,96,0,2
+76,Show connected initializers inside operator rectangles,Copilot,2026-10-23T07:27:45Z,2,0,0,2,0,0,0,0,0,0,0,0,127,3,2
+71,Add Controls tab for keyboard and mouse reference,Copilot,2026-10-23T07:27:07Z,2,0,0,2,0,0,0,0,0,0,0,0,105,4,5
+69,Prevent stale editor sessions from displaying the wrong ONNX model,Copilot,2026-10-23T07:12:12Z,4,2,2,2,2,0,0,0,2,0,2,0,139,23,2
+65,Keep Metadata button highlighted while its panel is open,Copilot,2026-10-23T07:11:27Z,4,2,2,2,2,0,0,0,2,0,2,0,49,0,2
+59,Download and cache Hugging Face ONNX models,xadupre,2026-10-22T22:20:24Z,5,1,0,0,0,0,0,0,0,0,0,0,975,60,13
+58,Upgrade onnx-light to 0.2.0,Copilot,2026-10-22T21:50:53Z,2,0,0,2,0,0,0,0,0,0,0,0,18,15,2
+57,Add SVG project relationship diagrams to the Links page,Copilot,2026-10-22T21:24:04Z,3,2,1,3,0,0,0,0,0,0,0,0,119,0,3
+54,Show update counts after refreshing shapes or metadata,Copilot,2026-10-22T20:12:59Z,2,0,0,2,0,0,0,0,0,0,0,0,183,7,3
+51,Expand TypeScript API and lifecycle documentation,Copilot,2026-10-22T20:12:38Z,2,0,0,2,0,0,0,0,0,0,0,0,141,8,4
+53,Scroll restored logs to the latest event,Copilot,2026-10-22T20:12:20Z,2,0,0,2,0,0,0,0,0,0,0,0,65,1,2
+39,Add algorithm action logs and native failure recovery,xadupre,2026-10-22T20:01:32Z,5,0,0,0,0,0,0,0,0,0,0,0,1261,116,15
+47,Create GitHub releases automatically on tag pushes,Copilot,2026-10-22T19:47:27Z,3,2,1,3,0,0,0,0,0,0,0,0,103,1,5
+45,Add project summaries to the main page and README,Copilot,2026-10-22T19:22:25Z,3,2,1,3,0,0,0,0,0,0,0,0,30,3,2
+41,Split feature documentation into individual illustrated pages,Copilot,2026-10-22T19:17:13Z,2,0,0,2,0,0,0,0,0,0,0,0,128,100,13
+43,Add a Links page for related ONNX repositories,Copilot,2026-10-22T19:14:59Z,2,0,0,2,0,0,0,0,0,0,0,0,26,0,2
+38,Display the onnx-light release in the viewer,xadupre,2026-10-22T18:46:18Z,1,0,0,0,0,0,0,0,0,0,0,0,50,6,8
+37,Document application design and TypeScript/C++ sources,xadupre,2026-10-22T16:01:07Z,1,0,0,0,0,0,0,0,0,0,0,0,321,2,8
+31,Add interactive ONNX subgraph navigation,xadupre,2026-10-22T15:44:53Z,3,0,0,0,0,0,0,0,0,0,0,0,938,93,13
+35,Simplify getting started and consolidate viewer features,xadupre,2026-10-22T15:35:23Z,3,0,0,0,0,0,0,0,0,0,0,0,120,362,8
+22,Add a viewer snapshot to the README and documentation,xadupre,2026-10-22T14:59:31Z,1,0,0,0,0,0,0,0,0,0,0,0,8,0,3
+15,"Inspect metadata, constants, tags and result lifetimes",xadupre,2026-10-22T14:51:04Z,3,0,0,0,0,0,0,0,0,0,0,0,882,10,14
+14,Align documentation design with onnx-light,Copilot,2026-10-22T14:31:34Z,2,0,0,2,0,0,0,0,0,0,0,0,10,1,3
+12,"Improve graph labels, Qwen cases, zoom and dragging",xadupre,2026-10-22T13:43:53Z,2,0,0,0,0,0,0,0,0,0,0,0,315,59,7
+10,Add a searchable onnx-light backend test selector,xadupre,2026-10-22T13:13:41Z,1,0,0,0,0,0,0,0,0,0,0,0,318,29,11
+9,Add a symbolic transformer example and metadata-only initializers,xadupre,2026-10-22T12:48:23Z,1,0,0,0,0,0,0,0,0,0,0,0,454,36,20
+8,Add native shape/type refresh and link the viewer logo to GitHub,xadupre,2026-10-22T12:26:15Z,2,0,0,0,0,0,0,0,0,0,0,0,1319,147,21
+7,Show operator parameters and LightOpSchema docs; add Apache-2.0 license,xadupre,2026-10-22T11:37:53Z,1,0,0,0,0,0,0,0,0,0,0,0,748,17,18
+6,Render portrait graphs with draggable multi-selection,xadupre,2026-10-22T11:20:21Z,4,0,0,0,0,0,0,0,0,0,0,0,978,73,4
+5,Simplify README and add Sphinx documentation,xadupre,2026-10-22T10:41:54Z,1,0,0,0,0,0,0,0,0,0,0,0,221,104,9
+4,Use the full editor window for the ONNX graph,xadupre,2026-10-22T10:37:18Z,1,0,0,0,0,0,0,0,0,0,0,0,88,233,6
+3,Load ONNX models natively using the published onnx-light release,xadupre,2026-10-22T10:02:04Z,3,0,0,0,0,0,0,0,0,0,0,0,788,143,23
+2,"Random node positions, wheel zoom, and test CI",xadupre,2026-10-22T09:45:28Z,1,0,0,0,0,0,0,0,0,0,0,0,142,24,4
+1,Add logo and initial VS Code ONNX graph viewer,xadupre,2026-10-22T09:14:00Z,6,0,0,0,0,0,0,0,0,0,0,0,2208,2,22

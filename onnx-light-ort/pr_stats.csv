@@ -1,0 +1,45 @@
+pr_number,title,author,merged_at,commits,comments,copilot_comments,copilot_commits,review_agent_comments,review_agent_high,review_agent_medium,review_agent_low,review_agent_unclassified,review_agent_security,review_agent_resolved_threads,review_agent_unresolved_threads,additions,deletions,changed_files
+73,Document examples and C ABI contracts for both custom-op bridges,Copilot,2026-10-24T11:12:09Z,3,2,1,3,0,0,0,0,0,0,0,0,195,1,3
+71,Schedule weekly documentation runs and report failures as issues,Copilot,2026-10-24T09:26:24Z,3,2,1,3,0,0,0,0,0,0,0,0,22,6,1
+67,"Update ml-dtypes requirement from <1,>=0.5 to >=0.6.0,<1 in /requirements",dependabot[bot],2026-10-24T09:26:05Z,3,3,1,1,0,0,0,0,0,0,0,0,19,4,4
+63,"Update ml-dtypes requirement from <1,>=0.5 to >=0.6.0,<1 in /docs",dependabot[bot],2026-10-24T09:25:52Z,4,3,1,2,0,0,0,0,0,0,0,0,19,4,4
+69,Increase gallery benchmark timeout for coverage builds,Copilot,2026-10-24T07:43:27Z,2,0,0,2,0,0,0,0,0,0,0,0,4,0,1
+66,"Update numpy requirement from <3,>=1.26 to >=2.5.4,<3 in /requirements",dependabot[bot],2026-10-23T23:38:52Z,1,0,0,0,0,0,0,0,0,0,0,0,1,1,1
+65,"Update onnxruntime requirement from <2,>=1.18 to >=1.31.0,<2 in /requirements",dependabot[bot],2026-10-23T23:38:35Z,1,0,0,0,0,0,0,0,0,0,0,0,1,1,1
+64,Update cmake requirement from >=3.28 to >=4.4.4 in /docs,dependabot[bot],2026-10-23T23:38:18Z,1,0,0,0,0,0,0,0,0,0,0,0,1,1,1
+62,"Update numpy requirement from <3,>=1.26 to >=2.5.4,<3 in /docs",dependabot[bot],2026-10-23T23:37:46Z,1,0,0,0,0,0,0,0,0,0,0,0,1,1,1
+61,"Update onnxruntime requirement from <2,>=1.18 to >=1.31.0,<2 in /docs",dependabot[bot],2026-10-23T23:37:27Z,1,0,0,0,0,0,0,0,0,0,0,0,1,1,1
+60,Update cmake requirement from >=3.28 to >=4.4.4,dependabot[bot],2026-10-23T23:37:12Z,1,0,0,0,0,0,0,0,0,0,0,0,1,1,1
+59,Add ORT-free onnx-light + onnx-light-cpu benchmarking,Copilot,2026-10-23T22:48:31Z,3,0,0,3,0,0,0,0,0,0,0,0,235,32,8
+57,Link SVG diagram to four consolidated project pages,Copilot,2026-10-23T16:05:59Z,3,0,0,3,0,0,0,0,0,0,0,0,284,40,15
+55,Remove source-build --dry-run option,Copilot,2026-10-23T12:12:46Z,2,0,0,2,0,0,0,0,0,0,0,0,55,30,3
+34,Simplify Python API and add inplace builds and reusable releases,xadupre,2026-10-23T11:27:18Z,9,44,23,1,23,0,0,0,23,0,20,2,1084,154,28
+42,"Update sphinx-gallery requirement from <1,>=0.19 to >=0.22.1,<1",dependabot[bot],2026-10-23T11:02:46Z,2,0,0,0,0,0,0,0,0,0,0,0,1,1,1
+40,"Update sphinx requirement from <10,>=7 to >=9.1.1,<10",dependabot[bot],2026-10-23T10:21:21Z,2,0,0,0,0,0,0,0,0,0,0,0,1,1,1
+43,"Update matplotlib requirement from <4,>=3.8 to >=3.11.2,<4",dependabot[bot],2026-10-23T10:01:57Z,1,0,0,0,0,0,0,0,0,0,0,0,1,1,1
+44,"Update pydata-sphinx-theme requirement from <1,>=0.15 to >=0.23.0,<1",dependabot[bot],2026-10-23T09:47:27Z,1,0,0,0,0,0,0,0,0,0,0,0,1,1,1
+47,"Update matplotlib requirement from <4,>=3.8 to >=3.11.2,<4 in /docs",dependabot[bot],2026-10-23T09:41:24Z,1,0,0,0,0,0,0,0,0,0,0,0,1,1,1
+41,Bump clang-format from 22.1.8 to 23.1.3,dependabot[bot],2026-10-23T09:37:59Z,1,0,0,0,0,0,0,0,0,0,0,0,1,1,1
+39,Simplify README and reuse the documentation homepage diagram,xadupre,2026-10-23T09:36:50Z,1,0,0,0,0,0,0,0,0,0,0,0,42,146,1
+38,Add Python coverage to nightly C++ coverage uploads,Copilot,2026-10-23T09:28:22Z,3,0,0,3,0,0,0,0,0,0,0,0,48,11,5
+36,Add weekly Dependabot updates for GitHub Actions and Python,Copilot,2026-10-23T09:01:38Z,2,0,0,2,0,0,0,0,0,0,0,0,13,0,1
+33,Clarify Log custom-op benchmarks with ORT-relative speedups,Copilot,2026-10-22T22:46:19Z,3,3,1,3,0,0,0,0,0,0,0,0,291,186,5
+31,Clarify runtime direction and integration mechanism in documentation titles,Copilot,2026-10-22T21:01:38Z,2,0,0,2,0,0,0,0,0,0,0,0,12,12,6
+29,Show internal bridges and respect dark mode in homepage graph,Copilot,2026-10-22T21:01:11Z,2,0,0,2,0,0,0,0,0,0,0,0,64,37,4
+27,Use the latest stable ONNX Runtime in CI,Copilot,2026-10-22T20:16:32Z,2,0,0,2,0,0,0,0,0,0,0,0,27,7,2
+25,Show gallery plots and improve documentation navigation,Copilot,2026-10-22T19:26:05Z,4,2,1,4,0,0,0,0,0,0,0,0,126,4,10
+23,"Expose float16, bfloat16 and float64 custom-op overloads",xadupre,2026-10-22T16:51:04Z,3,1,1,0,1,0,0,0,1,0,1,0,590,175,30
+22,Release 0.2.0: automatic wheels and native archives on tags,xadupre,2026-10-22T16:01:47Z,1,0,0,0,0,0,0,0,0,0,0,0,766,66,20
+21,Prepare native gallery dependencies automatically during Sphinx builds,Copilot,2026-10-22T15:07:39Z,4,1,1,2,1,0,0,0,1,0,1,0,87,15,5
+19,Add gallery benchmark for single and chained Log operators,Copilot,2026-10-22T14:52:16Z,5,4,2,5,0,0,0,0,0,0,0,0,539,177,7
+17,Expose optimized onnx-light-cpu Log through both custom-op bridges,xadupre,2026-10-22T13:40:14Z,1,0,0,0,0,0,0,0,0,0,0,0,777,98,30
+16,Add bidirectional custom-op Python tests and executable gallery,xadupre,2026-10-22T12:54:25Z,9,10,5,0,5,0,0,0,5,0,5,0,1981,283,71
+15,Organize next steps documentation by year,Copilot,2026-10-22T09:08:01Z,3,2,1,3,0,0,0,0,0,0,0,0,8,8,7
+8,Add ASan and UBSan CI coverage,Copilot,2026-10-22T09:03:04Z,3,0,0,2,0,0,0,0,0,0,0,0,31,0,1
+13,"Add daily coverage reports, Codecov uploads, and badges",xadupre,2026-10-22T08:52:03Z,2,0,0,0,0,0,0,0,0,0,0,0,136,2,5
+14,Reduce README logo width by half,xadupre,2026-10-22T08:46:23Z,1,0,0,0,0,0,0,0,0,0,0,0,1,1,1
+6,Add opt-in fuzzing and CI smoke campaigns,Copilot,2026-10-22T08:36:40Z,3,4,2,2,0,0,0,0,0,0,0,0,101,1,4
+4,Add combined onnx-light and ONNX Runtime icon,Copilot,2026-10-22T08:28:38Z,5,4,2,4,0,0,0,0,0,0,0,0,34,0,3
+12,Publish platform binaries from tag-triggered releases,Copilot,2026-10-22T08:28:10Z,3,2,1,3,0,0,0,0,0,0,0,0,39,0,1
+10,Add documentation status badges,Copilot,2026-10-22T08:03:55Z,2,0,0,2,0,0,0,0,0,0,0,0,8,0,2
+1,Add the first native onnx-light CPU custom op for ORT,xadupre,2026-10-22T07:39:43Z,4,0,0,0,0,0,0,0,0,0,0,0,1871,87,48
