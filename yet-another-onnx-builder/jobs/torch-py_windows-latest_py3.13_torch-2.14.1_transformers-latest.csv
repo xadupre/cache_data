@@ -1,0 +1,16 @@
+job_id,run_id,workflow,job_name,status,conclusion,started_at,completed_at,duration_seconds,head_sha
+121121667112,40177632697,ci-4-torch,"torch-py (windows-latest, py3.13, torch-2.14.1, transformers-latest)",completed,success,2026-10-25T08:42:29Z,2026-10-25T08:48:32Z,363,3c5e2e11219b3961a243f1a791c41deaff893c07
+121117273153,40176060127,ci-4-torch,"torch-py (windows-latest, py3.13, torch-2.14.1, transformers-latest)",completed,success,2026-10-25T08:20:28Z,2026-10-25T08:26:53Z,385,83a428e54f958a77e9ce2887cf3692e0ae42a54a
+120957815638,40122805411,ci-4-torch,"torch-py (windows-latest, py3.13, torch-2.14.1, transformers-latest)",completed,success,2026-10-24T18:57:48Z,2026-10-24T19:04:24Z,396,407a3fa78a2acc3ebff70dd084d07a09a7169683
+120949526907,40117973733,ci-4-torch,"torch-py (windows-latest, py3.13, torch-2.14.1, transformers-latest)",completed,success,2026-10-24T18:19:11Z,2026-10-24T18:28:03Z,532,e3d5477b2e27dc8e4d260082f49b61d7fd231aa3
+120942431687,40117725683,ci-4-torch,"torch-py (windows-latest, py3.13, torch-2.14.1, transformers-latest)",completed,success,2026-10-24T17:47:46Z,2026-10-24T17:57:25Z,579,c5697acfd84b10d44c24da6b0d02710f1069a0f4
+120925983307,40112166783,ci-4-torch,"torch-py (windows-latest, py3.13, torch-2.14.1, transformers-latest)",completed,success,2026-10-24T16:35:10Z,2026-10-24T16:43:57Z,527,463132b6fe23314862b571088673766c17788dcb
+120916442270,40107781587,ci-4-torch,"torch-py (windows-latest, py3.13, torch-2.14.1, transformers-latest)",completed,success,2026-10-24T15:54:02Z,2026-10-24T16:01:37Z,455,39008449965c1b3f135231510f8b01bd97e11904
+120919694511,40107005323,ci-4-torch,"torch-py (windows-latest, py3.13, torch-2.14.1, transformers-latest)",completed,success,2026-10-24T16:16:49Z,2026-10-24T16:25:41Z,532,f4f948ab7cff599c504d5eb35298a4acfd451b64
+120883178801,40094623323,ci-4-torch,"torch-py (windows-latest, py3.13, torch-2.14.1, transformers-latest)",completed,success,2026-10-24T13:21:06Z,2026-10-24T13:29:55Z,529,0675b89dbc966b44bbb073881983cdcecda5955e
+120870186308,40091408038,ci-4-torch,"torch-py (windows-latest, py3.13, torch-2.14.1, transformers-latest)",completed,success,2026-10-24T12:21:16Z,2026-10-24T12:27:27Z,371,d3f5eed01c8263639c9c72ade0c52a2ad8c2d19d
+120848591135,40084755246,ci-4-torch,"torch-py (windows-latest, py3.13, torch-2.14.1, transformers-latest)",completed,success,2026-10-24T10:25:58Z,2026-10-24T10:34:57Z,539,cc2ce8317c766bec2b43668e0be9a23199183dfc
+120845106720,40082071580,ci-4-torch,"torch-py (windows-latest, py3.13, torch-2.14.1, transformers-latest)",completed,success,2026-10-24T10:15:02Z,2026-10-24T10:23:31Z,509,fe806687fb16a4b21632160f8604603b1367cc5b
+120837444228,40082050718,ci-4-torch,"torch-py (windows-latest, py3.13, torch-2.14.1, transformers-latest)",completed,success,2026-10-24T09:44:20Z,2026-10-24T09:53:10Z,530,06687d82bc0693d252133febbad60f6059200f06
+120822198252,40073877406,ci-4-torch,"torch-py (windows-latest, py3.13, torch-2.14.1, transformers-latest)",completed,success,2026-10-24T08:13:55Z,2026-10-24T08:21:31Z,456,cffd828fe2a0fb45bf560cbd6c7697736b4c0bd0
+120726617959,40040864040,ci-4-torch,"torch-py (windows-latest, py3.13, torch-2.14.1, transformers-latest)",completed,success,2026-10-24T00:37:39Z,2026-10-24T00:44:54Z,435,e4d933ac15b2e14bc6e188f3874e2c19132941fb

@@ -1,0 +1,20 @@
+{
+  "jobs": [
+    "Adjust_Configuration.csv",
+    "Analyze_actions.csv",
+    "Analyze_c-cpp.csv",
+    "Analyze_javascript-typescript.csv",
+    "Analyze_python.csv",
+    "Dependabot.csv",
+    "Sphinx_documentation.csv",
+    "Unit_tests_and_formatting.csv",
+    "Unit_tests_and_formatting_macos-latest.csv",
+    "Unit_tests_and_formatting_ubuntu-latest.csv",
+    "Unit_tests_and_formatting_windows-latest.csv",
+    "copilot-pull-request-reviewer.csv",
+    "copilot.csv",
+    "coverage.csv",
+    "report-failure.csv",
+    "update-pip-graph.csv"
+  ]
+}

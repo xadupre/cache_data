@@ -1,0 +1,22 @@
+{
+  "jobs": [
+    "AddressSanitizer_and_UndefinedBehaviorSanitizer.csv",
+    "Bidirectional_custom_ops_ORT_1.18.csv",
+    "Bidirectional_custom_ops_latest_ORT.csv",
+    "Custom_ops_in_ORT_1.18.csv",
+    "Dependabot.csv",
+    "build.csv",
+    "copilot-pull-request-reviewer.csv",
+    "copilot.csv",
+    "coverage.csv",
+    "deploy.csv",
+    "fuzz_smoke_ubuntu-latest_clang_libFuzzer.csv",
+    "macos-latest_host_OFF_plugin_ON.csv",
+    "release.csv",
+    "report-failure.csv",
+    "style.csv",
+    "ubuntu-latest_host_ON_plugin_ON.csv",
+    "update-pip-graph.csv",
+    "windows-latest_host_ON_plugin_OFF.csv"
+  ]
+}

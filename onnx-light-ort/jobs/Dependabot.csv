@@ -1,0 +1,16 @@
+job_id,run_id,workflow,job_name,status,conclusion,started_at,completed_at,duration_seconds,head_sha
+120711226458,40040819303,pip in /requirements for ml-dtypes - Update #1649083913,Dependabot,completed,success,2026-10-24T00:29:15Z,2026-10-24T00:30:01Z,46,b33155f3ff99df93ae87031e0b12795967d2f8a4
+120711229477,40040820019,pip in /requirements for numpy - Update #1649083918,Dependabot,completed,success,2026-10-24T00:34:29Z,2026-10-24T00:35:21Z,52,b33155f3ff99df93ae87031e0b12795967d2f8a4
+120711224031,40040818113,pip in /requirements for onnxruntime - Update #1649083896,Dependabot,completed,success,2026-10-24T00:27:27Z,2026-10-24T00:28:22Z,55,b33155f3ff99df93ae87031e0b12795967d2f8a4
+120711137138,40040791924,pip in /docs for ml-dtypes - Update #1649083578,Dependabot,completed,success,2026-10-24T00:09:11Z,2026-10-24T00:10:10Z,59,becbb266fbec3df32bdb91cf9e44992e2632f2ca
+120679760637,40031249177,"pip in /., /docs, /requirements - Update #1648920070",Dependabot,completed,success,2026-10-23T22:31:38Z,2026-10-23T22:33:36Z,118,7db835615930f60550916f879285f2329a305934
+120679759484,40031249261,github_actions in /. - Update #1648920073,Dependabot,completed,success,2026-10-23T22:24:31Z,2026-10-23T22:25:28Z,57,7db835615930f60550916f879285f2329a305934
+120350780588,39934550189,pip in / for sphinx-gallery - Update #1647495849,Dependabot,completed,success,2026-10-23T10:39:25Z,2026-10-23T10:40:18Z,53,292142ad764dc98c6b825bbeb66152f8f6342be3
+120350777206,39934549311,pip in / for sphinx - Update #1647495839,Dependabot,completed,success,2026-10-23T10:36:57Z,2026-10-23T10:37:41Z,44,292142ad764dc98c6b825bbeb66152f8f6342be3
+120348479996,39933858413,pip in /requirements for matplotlib - Update #1647487892,Dependabot,completed,success,2026-10-23T10:35:53Z,2026-10-23T10:36:34Z,41,dceb8f994e72eecb297beb1dfa08d2cbc4810144
+120348448962,39933848715,pip in / for matplotlib - Update #1647487672,Dependabot,completed,success,2026-10-23T10:34:20Z,2026-10-23T10:35:06Z,46,dceb8f994e72eecb297beb1dfa08d2cbc4810144
+120347127574,39933450300,pip in /requirements for clang-format - Update #1647482191,Dependabot,completed,success,2026-10-23T10:22:50Z,2026-10-23T10:23:29Z,39,f8d1d205281f589573e8b9ce300cea7100e4be4d
+120331933792,39928881853,github_actions in /. - Update #1647406627,Dependabot,completed,success,2026-10-23T09:35:06Z,2026-10-23T09:35:58Z,52,b664fecf45e840365d5ef273f04b4f6c7cf7142f
+120331914141,39928876072,"pip in /., /docs, /requirements - Update #1647406842",Dependabot,completed,success,2026-10-23T09:16:23Z,2026-10-23T09:18:08Z,105,b664fecf45e840365d5ef273f04b4f6c7cf7142f
+120331915519,39928876387,github_actions in /. - Update #1647406827,Dependabot,completed,success,2026-10-23T09:26:14Z,2026-10-23T09:27:11Z,57,b664fecf45e840365d5ef273f04b4f6c7cf7142f
+120331902658,39928872304,"pip in /., /docs, /requirements - Update #1647406637",Dependabot,completed,success,2026-10-23T09:12:09Z,2026-10-23T09:14:37Z,148,b664fecf45e840365d5ef273f04b4f6c7cf7142f

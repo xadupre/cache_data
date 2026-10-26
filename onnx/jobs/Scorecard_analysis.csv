@@ -411,3 +411,16 @@ job_id,run_id,workflow,job_name,status,conclusion,started_at,completed_at,durati
 115407168229,38429363762,Scorecard supply-chain security,Scorecard analysis,completed,success,2026-10-13T16:18:08Z,2026-10-13T16:19:22Z,74,db5bc99bc777f883d9ea409997fb95e4cb8b5d6a
 115151216337,38353569084,Scorecard supply-chain security,Scorecard analysis,completed,success,2026-10-13T05:51:40Z,2026-10-13T05:52:27Z,47,3649e57e47a1fd8ff82c1e222949604db564ab2a
 114931159823,38285008840,Scorecard supply-chain security,Scorecard analysis,completed,success,2026-10-12T17:33:34Z,2026-10-12T17:34:32Z,58,2aa4765fa3f7fb2626773683b797540e5ff171b0
+121078652728,40163125247,Scorecard supply-chain security,Scorecard analysis,completed,success,2026-10-25T04:46:50Z,2026-10-25T04:47:39Z,49,48ace3d46387558f6dbd858ea3ed8758d7607b90
+121074455255,40161704671,Scorecard supply-chain security,Scorecard analysis,completed,success,2026-10-25T04:23:29Z,2026-10-25T04:24:22Z,53,b3dd6d65e66b37b713464229bfa3553be810c635
+120937577340,40116100397,Scorecard supply-chain security,Scorecard analysis,completed,success,2026-10-24T17:26:11Z,2026-10-24T17:27:03Z,52,50a2346d150a4824ed88227fb2f01edfcded08b0
+120927950243,40112834593,Scorecard supply-chain security,Scorecard analysis,completed,success,2026-10-24T16:42:55Z,2026-10-24T16:43:54Z,59,7ce6d38676f1ec9392f91dcb3d10c29a697ff7b8
+120849674871,40086248540,Scorecard supply-chain security,Scorecard analysis,completed,success,2026-10-24T10:31:25Z,2026-10-24T10:32:24Z,59,0834d5e3a5c41e6e3c36a6853e7540e81c704d07
+120788218751,40065649317,Scorecard supply-chain security,Scorecard analysis,completed,success,2026-10-24T05:17:10Z,2026-10-24T05:17:56Z,46,0834d5e3a5c41e6e3c36a6853e7540e81c704d07
+120510304398,39981682801,Scorecard supply-chain security,Scorecard analysis,completed,success,2026-10-23T15:50:20Z,2026-10-23T15:51:31Z,71,0c8af0659f0a6d7f8923e40494be466090cdfd2b
+120474521886,39971341308,Scorecard supply-chain security,Scorecard analysis,completed,success,2026-10-23T14:38:24Z,2026-10-23T14:39:26Z,62,a4815ae68e4da23b4ceef7d90000d2f286060fe3
+120148014625,39871884123,Scorecard supply-chain security,Scorecard analysis,completed,success,2026-10-22T23:27:21Z,2026-10-22T23:28:23Z,62,b51fbf661b3fce7f3b3982325d4191ace80c9bff
+119655013693,39727603199,Scorecard supply-chain security,Scorecard analysis,completed,success,2026-10-22T05:22:00Z,2026-10-22T05:23:04Z,64,6a8f4dce7ca7ac26966ae74d52dcf323002905fe
+119522811519,39686798503,Scorecard supply-chain security,Scorecard analysis,completed,success,2026-10-21T22:29:00Z,2026-10-21T22:29:58Z,58,8238571c1211fcab303874f6c0dcb2a7354ca9f6
+119518696288,39685588223,Scorecard supply-chain security,Scorecard analysis,completed,success,2026-10-21T22:19:03Z,2026-10-21T22:20:12Z,69,af0d0372d92a45f53272351e5a7d9235a31f833b
+119517190282,39685148201,Scorecard supply-chain security,Scorecard analysis,completed,success,2026-10-21T22:15:25Z,2026-10-21T22:16:31Z,66,ae9a1dfc54b7d84eaeb5beaba9bfeb0392e0a5d8

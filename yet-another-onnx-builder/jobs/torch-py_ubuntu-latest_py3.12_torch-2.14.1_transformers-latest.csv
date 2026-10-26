@@ -1,0 +1,16 @@
+job_id,run_id,workflow,job_name,status,conclusion,started_at,completed_at,duration_seconds,head_sha
+121121666940,40177632697,ci-4-torch,"torch-py (ubuntu-latest, py3.12, torch-2.14.1, transformers-latest)",completed,success,2026-10-25T08:41:56Z,2026-10-25T08:49:11Z,435,3c5e2e11219b3961a243f1a791c41deaff893c07
+121117273187,40176060127,ci-4-torch,"torch-py (ubuntu-latest, py3.12, torch-2.14.1, transformers-latest)",completed,success,2026-10-25T08:21:09Z,2026-10-25T08:32:28Z,679,83a428e54f958a77e9ce2887cf3692e0ae42a54a
+120957815577,40122805411,ci-4-torch,"torch-py (ubuntu-latest, py3.12, torch-2.14.1, transformers-latest)",completed,success,2026-10-24T18:54:19Z,2026-10-24T19:06:36Z,737,407a3fa78a2acc3ebff70dd084d07a09a7169683
+120949526892,40117973733,ci-4-torch,"torch-py (ubuntu-latest, py3.12, torch-2.14.1, transformers-latest)",completed,success,2026-10-24T18:21:54Z,2026-10-24T18:30:40Z,526,e3d5477b2e27dc8e4d260082f49b61d7fd231aa3
+120942431852,40117725683,ci-4-torch,"torch-py (ubuntu-latest, py3.12, torch-2.14.1, transformers-latest)",completed,failure,2026-10-24T17:49:05Z,2026-10-24T18:00:11Z,666,c5697acfd84b10d44c24da6b0d02710f1069a0f4
+120925983470,40112166783,ci-4-torch,"torch-py (ubuntu-latest, py3.12, torch-2.14.1, transformers-latest)",completed,success,2026-10-24T16:44:14Z,2026-10-24T16:55:37Z,683,463132b6fe23314862b571088673766c17788dcb
+120916442287,40107781587,ci-4-torch,"torch-py (ubuntu-latest, py3.12, torch-2.14.1, transformers-latest)",completed,success,2026-10-24T16:15:04Z,2026-10-24T16:26:18Z,674,39008449965c1b3f135231510f8b01bd97e11904
+120919694445,40107005323,ci-4-torch,"torch-py (ubuntu-latest, py3.12, torch-2.14.1, transformers-latest)",completed,success,2026-10-24T16:16:55Z,2026-10-24T16:23:23Z,388,f4f948ab7cff599c504d5eb35298a4acfd451b64
+120883178759,40094623323,ci-4-torch,"torch-py (ubuntu-latest, py3.12, torch-2.14.1, transformers-latest)",completed,success,2026-10-24T13:21:04Z,2026-10-24T13:32:44Z,700,0675b89dbc966b44bbb073881983cdcecda5955e
+120870186326,40091408038,ci-4-torch,"torch-py (ubuntu-latest, py3.12, torch-2.14.1, transformers-latest)",completed,success,2026-10-24T12:39:08Z,2026-10-24T12:47:57Z,529,d3f5eed01c8263639c9c72ade0c52a2ad8c2d19d
+120848591120,40084755246,ci-4-torch,"torch-py (ubuntu-latest, py3.12, torch-2.14.1, transformers-latest)",completed,success,2026-10-24T10:38:49Z,2026-10-24T10:49:57Z,668,cc2ce8317c766bec2b43668e0be9a23199183dfc
+120845106737,40082071580,ci-4-torch,"torch-py (ubuntu-latest, py3.12, torch-2.14.1, transformers-latest)",completed,success,2026-10-24T10:15:06Z,2026-10-24T10:25:52Z,646,fe806687fb16a4b21632160f8604603b1367cc5b
+120837443945,40082050718,ci-4-torch,"torch-py (ubuntu-latest, py3.12, torch-2.14.1, transformers-latest)",completed,success,2026-10-24T09:50:22Z,2026-10-24T09:59:06Z,524,06687d82bc0693d252133febbad60f6059200f06
+120822198186,40073877406,ci-4-torch,"torch-py (ubuntu-latest, py3.12, torch-2.14.1, transformers-latest)",completed,success,2026-10-24T08:53:03Z,2026-10-24T09:04:05Z,662,cffd828fe2a0fb45bf560cbd6c7697736b4c0bd0
+120726618000,40040864040,ci-4-torch,"torch-py (ubuntu-latest, py3.12, torch-2.14.1, transformers-latest)",completed,success,2026-10-24T00:40:09Z,2026-10-24T00:47:34Z,445,e4d933ac15b2e14bc6e188f3874e2c19132941fb

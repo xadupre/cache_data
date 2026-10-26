@@ -1,0 +1,20 @@
+job_id,run_id,workflow,job_name,status,conclusion,started_at,completed_at,duration_seconds,head_sha
+121495214597,40299983966,ci-3-tensorflow,"tensorflow targeted (py3.13, tf-2.21, jax-0.12.0.1)",completed,skipped,2026-10-26T09:29:48Z,2026-10-26T09:29:47Z,-1,3c5e2e11219b3961a243f1a791c41deaff893c07
+121124588248,40178126719,ci-3-tensorflow,"tensorflow targeted (py3.13, tf-2.21, jax-0.12.0.1)",completed,skipped,2026-10-25T08:56:16Z,2026-10-25T08:56:15Z,-1,3c5e2e11219b3961a243f1a791c41deaff893c07
+121121667857,40177632639,ci-3-tensorflow,"tensorflow targeted (py3.13, tf-2.21, jax-0.12.0.1)",completed,skipped,2026-10-25T08:41:41Z,2026-10-25T08:41:40Z,-1,3c5e2e11219b3961a243f1a791c41deaff893c07
+121117050586,40176060101,ci-3-tensorflow,"tensorflow targeted (py3.13, tf-2.21, jax-0.12.0.1)",completed,skipped,2026-10-25T08:18:51Z,2026-10-25T08:18:51Z,0,83a428e54f958a77e9ce2887cf3692e0ae42a54a
+120957841697,40122805424,ci-3-tensorflow,"tensorflow targeted (py3.13, tf-2.21, jax-0.12.0.1)",completed,skipped,2026-10-24T18:53:56Z,2026-10-24T18:53:48Z,-8,407a3fa78a2acc3ebff70dd084d07a09a7169683
+120949454911,40117973732,ci-3-tensorflow,"tensorflow targeted (py3.13, tf-2.21, jax-0.12.0.1)",completed,skipped,2026-10-24T18:18:01Z,2026-10-24T18:18:01Z,0,e3d5477b2e27dc8e4d260082f49b61d7fd231aa3
+120942431904,40117725508,ci-3-tensorflow,"tensorflow targeted (py3.13, tf-2.21, jax-0.12.0.1)",completed,skipped,2026-10-24T17:47:28Z,2026-10-24T17:47:27Z,-1,c5697acfd84b10d44c24da6b0d02710f1069a0f4
+120925984889,40112166842,ci-3-tensorflow,"tensorflow targeted (py3.13, tf-2.21, jax-0.12.0.1)",completed,skipped,2026-10-24T16:34:14Z,2026-10-24T16:34:14Z,0,463132b6fe23314862b571088673766c17788dcb
+120919670118,40107781644,ci-3-tensorflow,"tensorflow targeted (py3.13, tf-2.21, jax-0.12.0.1)",completed,skipped,2026-10-24T16:06:50Z,2026-10-24T16:06:49Z,-1,39008449965c1b3f135231510f8b01bd97e11904
+120919256358,40107005326,ci-3-tensorflow,"tensorflow targeted (py3.13, tf-2.21, jax-0.12.0.1)",completed,skipped,2026-10-24T16:05:00Z,2026-10-24T16:05:00Z,0,f4f948ab7cff599c504d5eb35298a4acfd451b64
+120877487545,40094623263,ci-3-tensorflow,"tensorflow targeted (py3.13, tf-2.21, jax-0.12.0.1)",completed,skipped,2026-10-24T12:52:25Z,2026-10-24T12:52:25Z,0,0675b89dbc966b44bbb073881983cdcecda5955e
+120874173667,40094609905,ci-3-tensorflow,"tensorflow targeted (py3.13, tf-2.21, jax-0.12.0.1)",completed,cancelled,2026-10-24T12:36:25Z,2026-10-24T12:36:24Z,-1,e54a6cfaed15670d8e9ea18cfa78398c238ee8d1
+120874134565,40094597023,ci-3-tensorflow,"tensorflow targeted (py3.13, tf-2.21, jax-0.12.0.1)",completed,cancelled,2026-10-24T12:36:13Z,2026-10-24T12:36:13Z,0,38e7c38cf77fc79cac49ac87e0e861e77b63346c
+120874099129,40094585542,ci-3-tensorflow,"tensorflow targeted (py3.13, tf-2.21, jax-0.12.0.1)",completed,cancelled,2026-10-24T12:36:02Z,2026-10-24T12:36:02Z,0,44446eca332cf5150e1f5c6ed220bada5906411f
+120872522965,40091407954,ci-3-tensorflow,"tensorflow targeted (py3.13, tf-2.21, jax-0.12.0.1)",completed,skipped,2026-10-24T12:28:22Z,2026-10-24T12:28:22Z,0,d3f5eed01c8263639c9c72ade0c52a2ad8c2d19d
+120864672910,40085282155,ci-3-tensorflow,"tensorflow targeted (py3.13, tf-2.21, jax-0.12.0.1)",completed,cancelled,2026-10-24T11:49:03Z,2026-10-24T11:49:03Z,0,98614cbe2da9fccab04e88d2df992df8eca4c000
+120847534783,40084755273,ci-3-tensorflow,"tensorflow targeted (py3.13, tf-2.21, jax-0.12.0.1)",completed,skipped,2026-10-24T10:20:29Z,2026-10-24T10:20:28Z,-1,cc2ce8317c766bec2b43668e0be9a23199183dfc
+120834143293,40076594483,ci-3-tensorflow,"tensorflow targeted (py3.13, tf-2.21, jax-0.12.0.1)",completed,skipped,2026-10-24T09:10:49Z,2026-10-24T09:10:48Z,-1,72a61d54f3f2119ba76414ba7a700ef7da738f35
+120719560621,40037262389,ci-3-tensorflow,"tensorflow targeted (py3.13, tf-2.21, jax-0.12.0.1)",completed,skipped,2026-10-24T00:08:10Z,2026-10-24T00:08:10Z,0,44e09aa04209f1d5932e50b4888c9842b66f6ad0

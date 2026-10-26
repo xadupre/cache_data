@@ -3,3 +3,4 @@ job_id,run_id,workflow,job_name,status,conclusion,started_at,completed_at,durati
 109682205178,36650166395,Test with numpy nightly wheels,"test_numpy_nightly (macos-14, 3.13)",completed,success,2026-09-30T00:24:29Z,2026-09-30T00:31:11Z,402,2d6071a588d62e4da1d947e05ed9b67de054a940
 112568790620,37551803753,Test with numpy nightly wheels,"test_numpy_nightly (macos-14, 3.13)",completed,success,2026-10-07T00:24:39Z,2026-10-07T00:30:12Z,333,2c4eb821e2cf9feae72fa933fe6d901a97242b63
 115611308109,38489569593,Test with numpy nightly wheels,"test_numpy_nightly (macos-14, 3.13)",completed,success,2026-10-14T00:20:11Z,2026-10-14T00:25:42Z,331,db5bc99bc777f883d9ea409997fb95e4cb8b5d6a
+118963492563,39520679856,Test with numpy nightly wheels,"test_numpy_nightly (macos-14, 3.13)",completed,success,2026-10-21T00:20:09Z,2026-10-21T00:28:31Z,502,18fb3cfb3b7b2c3f3b05ba9bd3829333432c095d
