@@ -93,3 +93,12 @@ pr_number,title,author,merged_at,commits,comments,copilot_comments,copilot_commi
 3,Load ONNX models natively using the published onnx-light release,xadupre,2026-10-22T10:02:04Z,3,0,0,0,0,0,0,0,0,0,0,0,788,143,23
 2,"Random node positions, wheel zoom, and test CI",xadupre,2026-10-22T09:45:28Z,1,0,0,0,0,0,0,0,0,0,0,0,142,24,4
 1,Add logo and initial VS Code ONNX graph viewer,xadupre,2026-10-22T09:14:00Z,6,0,0,0,0,0,0,0,0,0,0,0,2208,2,22
+204,Add exporter-specific advanced Convert options,xadupre,2026-10-27T10:05:25Z,5,20,13,1,13,0,0,0,13,0,9,0,942,34,9
+202,Add local memory peaks with click-to-node navigation,Copilot,2026-10-26T19:55:14Z,2,0,0,2,0,0,0,0,0,0,0,0,265,9,7
+203,Keep SDK fixes upstream and illustrate each viewer feature,xadupre,2026-10-26T16:32:28Z,2,0,0,0,0,0,0,0,0,0,0,0,200,641,18
+200,Separate cached downloads and show live download/conversion times,xadupre,2026-10-26T16:30:02Z,5,5,3,1,1,0,0,0,1,0,1,0,725,63,16
+195,Add on-demand memory profiling estimates,xadupre,2026-10-26T15:43:17Z,7,16,9,0,9,0,0,0,9,0,6,3,1736,2,16
+198,Refresh external model files and sizes in Statistics,xadupre,2026-10-26T14:51:34Z,1,0,0,0,0,0,0,0,0,0,0,0,172,46,5
+194,Show conversion time in the final completion message,Copilot,2026-10-26T12:59:18Z,2,1,0,2,0,0,0,0,0,0,0,0,45,3,4
+192,Replace random node placement with bounded Sugiyama layout,xadupre,2026-10-26T12:19:30Z,1,0,0,0,0,0,0,0,0,0,0,0,306,64,6
+189,Add model statistics before application status,Copilot,2026-10-26T12:05:42Z,8,21,15,4,15,0,0,0,15,0,8,0,979,6,10

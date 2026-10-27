@@ -1,99 +1,99 @@
 {
   "latest": [
     {
-      "number": 5613,
-      "title": "Port ONNX opset 29 GroupedMatMul",
+      "number": 5648,
+      "title": "Preserve context-local shape inference callbacks across resets and local functions",
       "user": "Copilot",
-      "created_at": "2026-10-26T09:11:46Z"
+      "created_at": "2026-10-26T22:13:40Z"
     },
     {
-      "number": 5612,
-      "title": "Port ONNX BitCast sub-byte regression coverage to C++",
+      "number": 5647,
+      "title": "Validate int64 arithmetic in native memory analysis",
       "user": "Copilot",
-      "created_at": "2026-10-26T09:11:38Z"
+      "created_at": "2026-10-26T22:13:34Z"
     },
     {
-      "number": 5609,
-      "title": "Add C++ backend coverage for 91 supported operator/dtype combinations",
-      "user": "xadupre",
-      "created_at": "2026-10-26T08:29:32Z"
+      "number": 5646,
+      "title": "Include nested layout tensors in external-data offset planning",
+      "user": "Copilot",
+      "created_at": "2026-10-26T22:10:30Z"
     },
     {
-      "number": 5606,
-      "title": "Prevent finite-range overflow in native ReduceMean",
+      "number": 5645,
+      "title": "Expose ComputeContext memory boundaries after node releases",
       "user": "Copilot",
-      "created_at": "2026-10-26T08:13:45Z"
+      "created_at": "2026-10-26T22:10:19Z"
     },
     {
-      "number": 5602,
-      "title": "[WIP] Propagate changes from ONNX pull request 8629",
+      "number": 5644,
+      "title": "Emit producer-time releases for unused node outputs",
       "user": "Copilot",
-      "created_at": "2026-10-26T08:12:15Z"
+      "created_at": "2026-10-26T22:10:06Z"
     },
     {
-      "number": 5594,
-      "title": "Add opt-in parallel matching to pattern optimization",
+      "number": 5643,
+      "title": "Preserve semicolon-containing tensor names in execution plans",
       "user": "Copilot",
-      "created_at": "2026-10-25T23:18:50Z"
+      "created_at": "2026-10-26T21:53:30Z"
     },
     {
-      "number": 5573,
-      "title": "Optimize patterns inside local functions",
+      "number": 5635,
+      "title": "Preserve zero-copy buffers during external-data export",
       "user": "Copilot",
-      "created_at": "2026-10-25T08:11:03Z"
+      "created_at": "2026-10-26T15:45:01Z"
     }
   ],
   "oldest": [
     {
-      "number": 5573,
-      "title": "Optimize patterns inside local functions",
+      "number": 5635,
+      "title": "Preserve zero-copy buffers during external-data export",
       "user": "Copilot",
-      "created_at": "2026-10-25T08:11:03Z"
+      "created_at": "2026-10-26T15:45:01Z"
     },
     {
-      "number": 5594,
-      "title": "Add opt-in parallel matching to pattern optimization",
+      "number": 5643,
+      "title": "Preserve semicolon-containing tensor names in execution plans",
       "user": "Copilot",
-      "created_at": "2026-10-25T23:18:50Z"
+      "created_at": "2026-10-26T21:53:30Z"
     },
     {
-      "number": 5602,
-      "title": "[WIP] Propagate changes from ONNX pull request 8629",
+      "number": 5644,
+      "title": "Emit producer-time releases for unused node outputs",
       "user": "Copilot",
-      "created_at": "2026-10-26T08:12:15Z"
+      "created_at": "2026-10-26T22:10:06Z"
     },
     {
-      "number": 5606,
-      "title": "Prevent finite-range overflow in native ReduceMean",
+      "number": 5645,
+      "title": "Expose ComputeContext memory boundaries after node releases",
       "user": "Copilot",
-      "created_at": "2026-10-26T08:13:45Z"
+      "created_at": "2026-10-26T22:10:19Z"
     },
     {
-      "number": 5609,
-      "title": "Add C++ backend coverage for 91 supported operator/dtype combinations",
-      "user": "xadupre",
-      "created_at": "2026-10-26T08:29:32Z"
+      "number": 5646,
+      "title": "Include nested layout tensors in external-data offset planning",
+      "user": "Copilot",
+      "created_at": "2026-10-26T22:10:30Z"
     },
     {
-      "number": 5612,
-      "title": "Port ONNX BitCast sub-byte regression coverage to C++",
+      "number": 5647,
+      "title": "Validate int64 arithmetic in native memory analysis",
       "user": "Copilot",
-      "created_at": "2026-10-26T09:11:38Z"
+      "created_at": "2026-10-26T22:13:34Z"
     },
     {
-      "number": 5613,
-      "title": "Port ONNX opset 29 GroupedMatMul",
+      "number": 5648,
+      "title": "Preserve context-local shape inference callbacks across resets and local functions",
       "user": "Copilot",
-      "created_at": "2026-10-26T09:11:46Z"
+      "created_at": "2026-10-26T22:13:40Z"
     }
   ],
   "ages_days": [
-    1.0989124248842592,
-    0.4685073322916667,
-    0.09807909155092592,
-    0.09703742488425925,
-    0.08607677673611111,
-    0.056840665625,
-    0.05674807303240741
+    0.7725141785069445,
+    0.5166229748032407,
+    0.5050951970254629,
+    0.5049447340625,
+    0.5048174192476852,
+    0.5026877896180555,
+    0.5026183451736111
   ]
 }

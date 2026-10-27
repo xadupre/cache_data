@@ -1,21 +1,21 @@
 {
   "latest": [
     {
-      "number": 189,
-      "title": "Add model statistics before application status",
-      "user": "Copilot",
-      "created_at": "2026-10-26T06:33:42Z"
+      "number": 201,
+      "title": "Reduce graph crossings and route long connections around nodes",
+      "user": "xadupre",
+      "created_at": "2026-10-26T15:43:43Z"
     }
   ],
   "oldest": [
     {
-      "number": 189,
-      "title": "Add model statistics before application status",
-      "user": "Copilot",
-      "created_at": "2026-10-26T06:33:42Z"
+      "number": 201,
+      "title": "Reduce graph crossings and route long connections around nodes",
+      "user": "xadupre",
+      "created_at": "2026-10-26T15:43:43Z"
     }
   ],
   "ages_days": [
-    0.16680927047453703
+    0.7737957274768518
   ]
 }
