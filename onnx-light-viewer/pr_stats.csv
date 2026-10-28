@@ -102,3 +102,10 @@ pr_number,title,author,merged_at,commits,comments,copilot_comments,copilot_commi
 194,Show conversion time in the final completion message,Copilot,2026-10-26T12:59:18Z,2,1,0,2,0,0,0,0,0,0,0,0,45,3,4
 192,Replace random node placement with bounded Sugiyama layout,xadupre,2026-10-26T12:19:30Z,1,0,0,0,0,0,0,0,0,0,0,0,306,64,6
 189,Add model statistics before application status,Copilot,2026-10-26T12:05:42Z,8,21,15,4,15,0,0,0,15,0,8,0,979,6,10
+213,Support onnx-light 0.2.1 pattern groups in Fuse and Optimize,Copilot,2026-10-27T23:15:54Z,4,0,0,3,0,0,0,0,0,0,0,0,332,11,10
+212,Upgrade onnx-light to 0.2.1,Copilot,2026-10-27T22:19:33Z,2,0,0,2,0,0,0,0,0,0,0,0,34,15,9
+209,Allow choosing the benchmark model ID with --model,xadupre,2026-10-27T16:15:47Z,5,3,0,0,0,0,0,0,0,0,0,0,325,51,3
+205,Add Olive quantization and commit-pinned Olive recipes,xadupre,2026-10-27T14:25:44Z,7,14,9,0,9,0,0,0,9,0,4,5,2143,127,26
+208,Use PNG README badge to unblock VSIX packaging,Copilot,2026-10-27T14:15:08Z,2,0,0,2,0,0,0,0,0,0,0,0,30,5,3
+201,Reduce graph crossings and route long connections around nodes,xadupre,2026-10-27T12:59:48Z,10,29,18,3,15,0,0,0,15,0,10,0,2475,138,16
+206,Add standalone Qwen3.5 exporter benchmark,xadupre,2026-10-27T12:54:38Z,5,10,5,0,5,0,0,0,5,0,5,0,656,0,1

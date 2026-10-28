@@ -629,3 +629,13 @@ pr_number,title,author,merged_at,commits,comments,copilot_comments,copilot_commi
 952,Align with onnx-light 0.2.0 and standalone proto headers,xadupre,2026-10-19T11:36:53Z,2,1,0,0,0,0,0,0,0,0,0,0,88,17,11
 1039,Reduce AVX2 Gemm register spills and document 36-case performance comparison,Copilot,2026-10-26T16:33:41Z,4,2,0,4,0,0,0,0,0,0,0,0,258,7,7
 1037,Reduce AVX2 MatMul latency through register and streaming optimizations,Copilot,2026-10-26T13:36:07Z,10,13,8,6,8,0,0,0,8,0,6,0,486,36,7
+1055,Update project version to 0.2.2,Copilot,2026-10-28T10:21:23Z,3,1,0,2,0,0,0,0,0,0,0,0,11,11,8
+1057,Update project version to 0.2.1.1,Copilot,2026-10-28T09:33:55Z,4,1,0,2,0,0,0,0,0,0,0,0,79,28,10
+1053,Use onnx-light 0.2.1 across release and CI builds,Copilot,2026-10-27T23:29:32Z,3,3,1,3,0,0,0,0,0,0,0,0,39,41,10
+1051,Update unreleased changelog with recent merged changes,xadupre,2026-10-27T21:57:48Z,1,1,0,0,0,0,0,0,0,0,0,0,19,1,1
+1046,Preserve LinearAttention graph types after CPU registration,xadupre,2026-10-27T17:11:48Z,3,17,5,0,4,0,0,0,4,0,4,0,195,13,7
+1048,Bump ruff from 0.17.1 to 0.17.2,dependabot[bot],2026-10-27T17:10:56Z,1,0,0,0,0,0,0,0,0,0,0,0,1,1,1
+1049,Bump pypa/cibuildwheel from 4.3.1 to 4.3.4,dependabot[bot],2026-10-27T17:10:38Z,1,0,0,0,0,0,0,0,0,0,0,0,3,3,1
+1044,Add precision-safe Microsoft normalization cast elimination,Copilot,2026-10-27T14:52:50Z,6,11,5,4,5,0,2,0,3,0,5,0,862,11,15
+1042,Optimize AVX2 Attention and correct AUTO benchmark analysis,xadupre,2026-10-27T13:15:15Z,2,10,4,0,4,0,0,0,4,0,4,0,419,47,8
+1040,Fix short heading underlines breaking documentation builds,Copilot,2026-10-27T10:39:53Z,5,7,3,5,0,0,0,0,0,0,0,0,37,13,8

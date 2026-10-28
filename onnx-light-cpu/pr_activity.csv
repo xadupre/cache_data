@@ -1,3 +1,4 @@
 date,open_prs,opened_prs_7d,closed_prs_7d,merged_prs_7d,opened_prs_1d,closed_prs_1d,merged_prs_1d,avg_open_age_days,avg_merged_age_days_365d
 2026-10-26T10:33:48Z,1,42,41,38,4,5,5,0.67,0.18
 2026-10-27T10:17:51Z,2,41,39,36,3,2,2,0.80,0.18
+2026-10-28T10:51:03Z,2,48,46,42,10,9,9,0.02,0.18

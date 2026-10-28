@@ -2855,3 +2855,12 @@ pr_number,title,author,merged_at,commits,comments,copilot_comments,copilot_commi
 5602,[WIP] Propagate changes from ONNX pull request 8629,Copilot,2026-10-26T11:29:35Z,2,2,1,2,0,0,0,0,0,0,0,0,35,0,2
 5606,Prevent finite-range overflow in native ReduceMean,Copilot,2026-10-26T11:28:49Z,2,0,0,2,0,0,0,0,0,0,0,0,206,0,3
 5612,Port ONNX BitCast sub-byte regression coverage to C++,Copilot,2026-10-26T11:28:19Z,2,0,0,2,0,0,0,0,0,0,0,0,47,0,2
+5658,Update package version to 0.2.2,Copilot,2026-10-28T09:05:45Z,2,0,0,2,0,0,0,0,0,0,0,0,14,10,8
+5654,Remove per-pattern local-function support hooks,xadupre,2026-10-27T18:03:12Z,8,4,2,0,2,1,1,0,0,0,2,0,831,342,34
+5652,Preserve rounding when eliminating casts around standard ONNX normalization,Copilot,2026-10-27T15:12:37Z,6,6,3,3,3,0,0,0,3,0,3,0,558,92,4
+5647,Validate int64 arithmetic in native memory analysis,Copilot,2026-10-27T12:59:05Z,7,37,19,3,18,0,0,0,18,0,18,0,983,58,15
+5646,Include nested layout tensors in external-data offset planning,Copilot,2026-10-27T12:33:48Z,5,14,7,3,6,0,0,0,6,0,6,0,375,22,6
+5645,Expose ComputeContext memory boundaries after node releases,Copilot,2026-10-27T10:28:14Z,4,0,0,3,0,0,0,0,0,0,0,0,242,6,8
+5648,Preserve context-local shape inference callbacks across resets and local functions,Copilot,2026-10-27T10:22:01Z,3,2,1,2,1,0,0,0,1,0,1,0,159,13,4
+5643,Preserve semicolon-containing tensor names in execution plans,Copilot,2026-10-27T10:21:45Z,4,4,4,3,4,0,2,0,2,0,2,0,342,19,9
+5644,Emit producer-time releases for unused node outputs,Copilot,2026-10-27T10:21:07Z,4,10,10,3,10,0,0,0,10,0,5,0,205,26,5

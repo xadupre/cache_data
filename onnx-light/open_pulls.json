@@ -1,99 +1,47 @@
 {
   "latest": [
     {
-      "number": 5648,
-      "title": "Preserve context-local shape inference callbacks across resets and local functions",
-      "user": "Copilot",
-      "created_at": "2026-10-26T22:13:40Z"
+      "number": 5664,
+      "title": "Optimize exact statistics for large tensors",
+      "user": "xadupre",
+      "created_at": "2026-10-28T09:58:28Z"
     },
     {
-      "number": 5647,
-      "title": "Validate int64 arithmetic in native memory analysis",
+      "number": 5663,
+      "title": "Extract shared shape-inference test harness",
       "user": "Copilot",
-      "created_at": "2026-10-26T22:13:34Z"
+      "created_at": "2026-10-28T09:37:07Z"
     },
     {
-      "number": 5646,
-      "title": "Include nested layout tensors in external-data offset planning",
+      "number": 5661,
+      "title": "Port ONNX low-precision window handling to native kernels",
       "user": "Copilot",
-      "created_at": "2026-10-26T22:10:30Z"
-    },
-    {
-      "number": 5645,
-      "title": "Expose ComputeContext memory boundaries after node releases",
-      "user": "Copilot",
-      "created_at": "2026-10-26T22:10:19Z"
-    },
-    {
-      "number": 5644,
-      "title": "Emit producer-time releases for unused node outputs",
-      "user": "Copilot",
-      "created_at": "2026-10-26T22:10:06Z"
-    },
-    {
-      "number": 5643,
-      "title": "Preserve semicolon-containing tensor names in execution plans",
-      "user": "Copilot",
-      "created_at": "2026-10-26T21:53:30Z"
-    },
-    {
-      "number": 5635,
-      "title": "Preserve zero-copy buffers during external-data export",
-      "user": "Copilot",
-      "created_at": "2026-10-26T15:45:01Z"
+      "created_at": "2026-10-28T09:35:58Z"
     }
   ],
   "oldest": [
     {
-      "number": 5635,
-      "title": "Preserve zero-copy buffers during external-data export",
+      "number": 5661,
+      "title": "Port ONNX low-precision window handling to native kernels",
       "user": "Copilot",
-      "created_at": "2026-10-26T15:45:01Z"
+      "created_at": "2026-10-28T09:35:58Z"
     },
     {
-      "number": 5643,
-      "title": "Preserve semicolon-containing tensor names in execution plans",
+      "number": 5663,
+      "title": "Extract shared shape-inference test harness",
       "user": "Copilot",
-      "created_at": "2026-10-26T21:53:30Z"
+      "created_at": "2026-10-28T09:37:07Z"
     },
     {
-      "number": 5644,
-      "title": "Emit producer-time releases for unused node outputs",
-      "user": "Copilot",
-      "created_at": "2026-10-26T22:10:06Z"
-    },
-    {
-      "number": 5645,
-      "title": "Expose ComputeContext memory boundaries after node releases",
-      "user": "Copilot",
-      "created_at": "2026-10-26T22:10:19Z"
-    },
-    {
-      "number": 5646,
-      "title": "Include nested layout tensors in external-data offset planning",
-      "user": "Copilot",
-      "created_at": "2026-10-26T22:10:30Z"
-    },
-    {
-      "number": 5647,
-      "title": "Validate int64 arithmetic in native memory analysis",
-      "user": "Copilot",
-      "created_at": "2026-10-26T22:13:34Z"
-    },
-    {
-      "number": 5648,
-      "title": "Preserve context-local shape inference callbacks across resets and local functions",
-      "user": "Copilot",
-      "created_at": "2026-10-26T22:13:40Z"
+      "number": 5664,
+      "title": "Optimize exact statistics for large tensors",
+      "user": "xadupre",
+      "created_at": "2026-10-28T09:58:28Z"
     }
   ],
   "ages_days": [
-    0.7725141785069445,
-    0.5166229748032407,
-    0.5050951970254629,
-    0.5049447340625,
-    0.5048174192476852,
-    0.5026877896180555,
-    0.5026183451736111
+    0.0518452734375,
+    0.05104666232638889,
+    0.0362202734375
   ]
 }
