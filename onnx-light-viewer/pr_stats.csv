@@ -109,3 +109,17 @@ pr_number,title,author,merged_at,commits,comments,copilot_comments,copilot_commi
 208,Use PNG README badge to unblock VSIX packaging,Copilot,2026-10-27T14:15:08Z,2,0,0,2,0,0,0,0,0,0,0,0,30,5,3
 201,Reduce graph crossings and route long connections around nodes,xadupre,2026-10-27T12:59:48Z,10,29,18,3,15,0,0,0,15,0,10,0,2475,138,16
 206,Add standalone Qwen3.5 exporter benchmark,xadupre,2026-10-27T12:54:38Z,5,10,5,0,5,0,0,0,5,0,5,0,656,0,1
+233,docs: document Unfuse in the feature overview,xadupre,2026-10-29T07:48:04Z,1,0,0,0,0,0,0,0,0,0,0,0,28,8,2
+232,Group viewer features by theme,Copilot,2026-10-29T07:31:46Z,2,0,0,2,0,0,0,0,0,0,0,0,257,34,9
+229,Refresh optimizer and fusion documentation screenshots,xadupre,2026-10-28T21:52:07Z,1,0,0,0,0,0,0,0,0,0,0,0,44,6,7
+228,Simplify optimizer UI and expose ONNX Script output,xadupre,2026-10-28T21:24:36Z,1,0,0,0,0,0,0,0,0,0,0,0,188,107,8
+226,Add native optimizer restore controls and persistent matched patterns,Copilot,2026-10-28T20:19:08Z,3,1,1,3,1,0,0,0,1,0,0,1,245,13,9
+224,[WIP] Add buttons to choose between onnx-light and onnxscript,Copilot,2026-10-28T19:53:36Z,5,4,4,4,4,0,0,0,4,0,2,2,1081,33,13
+222,Simplify Open with compact path buttons and a folder dialog,xadupre,2026-10-28T17:08:15Z,3,1,1,0,1,0,0,0,1,0,1,0,428,74,11
+221,Add stored tensor distributions by type and shape,xadupre,2026-10-28T15:26:50Z,1,0,0,0,0,0,0,0,0,0,0,0,637,7,10
+220,[WIP] Run onnx-light's complete native optimization algorithm,Copilot,2026-10-28T14:34:59Z,2,0,0,2,0,0,0,0,0,0,0,0,18,1,2
+216,Expose onnx-light-cpu fusion patterns as a selectable group,Copilot,2026-10-28T13:51:19Z,2,0,0,2,0,0,0,0,0,0,0,0,87,6,6
+218,Fix Windows export cancellation exit race,xadupre,2026-10-28T13:51:03Z,1,0,0,0,0,0,0,0,0,0,0,0,105,10,2
+217,Add Open with ONNX Light Viewer to Explorer context menu,xadupre,2026-10-28T13:26:56Z,1,0,0,0,0,0,0,0,0,0,0,0,79,0,3
+214,Add on-demand tensor statistics with quantized support,Copilot,2026-10-28T12:35:28Z,9,18,14,5,13,0,0,0,13,0,8,0,4356,169,28
+215,Use onnx-light 0.2.1 and onnx-light-cpu 0.2.1.1,xadupre,2026-10-28T12:20:55Z,2,1,0,0,0,0,0,0,0,0,0,0,106,0,6

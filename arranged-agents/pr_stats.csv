@@ -1,0 +1,25 @@
+pr_number,title,author,merged_at,commits,comments,copilot_comments,copilot_commits,review_agent_comments,review_agent_high,review_agent_medium,review_agent_low,review_agent_unclassified,review_agent_security,review_agent_resolved_threads,review_agent_unresolved_threads,additions,deletions,changed_files
+42,Shorten documentation titles and show only the version in the navbar,Copilot,2026-10-29T07:32:28Z,3,2,1,3,0,0,0,0,0,0,0,0,1,0,1
+37,Simplify development documentation,Copilot,2026-10-29T07:32:13Z,3,2,1,3,0,0,0,0,0,0,0,0,26,112,2
+41,Group the feature guide by topic,Copilot,2026-10-29T07:01:55Z,2,0,0,2,0,0,0,0,0,0,0,0,21,9,1
+35,Shorten documentation titles and align styling with onnx-light-viewer,Copilot,2026-10-29T06:59:08Z,2,0,0,2,0,0,0,0,0,0,0,0,21,18,10
+33,Clarify one-command startup and add start.sh help,Copilot,2026-10-29T06:58:51Z,2,0,0,2,0,0,0,0,0,0,0,0,75,8,4
+39,docs: add screenshots to the homepage and README,xadupre,2026-10-29T06:55:37Z,1,0,0,0,0,0,0,0,0,0,0,0,26,0,2
+31,docs: add screenshots to the feature guide,xadupre,2026-10-28T23:20:14Z,1,0,0,0,0,0,0,0,0,0,0,0,459,0,19
+29,Fix documentation build failure from short heading underline,Copilot,2026-10-28T22:37:36Z,2,0,0,2,0,0,0,0,0,0,0,0,1,1,1
+30,Allow routine commands and streamline image attachments,xadupre,2026-10-28T22:30:10Z,1,0,0,0,0,0,0,0,0,0,0,0,476,38,7
+27,Split feature documentation into focused pages,xadupre,2026-10-28T22:13:03Z,1,0,0,0,0,0,0,0,0,0,0,0,426,191,9
+25,Track generated tokens per session with an inline status counter,Copilot,2026-10-28T21:21:12Z,3,2,2,3,2,0,0,0,2,0,1,0,317,6,10
+23,Auto-approve read-only operations and remember URL-root consent,Copilot,2026-10-28T19:53:06Z,3,0,0,3,0,0,0,0,0,0,0,0,616,23,9
+22,Add image attachments and rendering to dialog and output views,Copilot,2026-10-28T19:48:41Z,3,0,0,3,0,0,0,0,0,0,0,0,875,42,16
+16,Reduce resize lag in long sessions,Copilot,2026-10-28T19:23:02Z,4,4,2,4,0,0,0,0,0,0,0,0,221,0,3
+19,Add Mentions view for unanswered GitHub pings,Copilot,2026-10-28T19:20:57Z,2,0,0,2,0,0,0,0,0,0,0,0,319,23,8
+17,Document prototype packaging validation and remaining host checks,Copilot,2026-10-28T19:20:39Z,2,0,0,2,0,0,0,0,0,0,0,0,32,2,1
+14,Preserve text selections for native copy/paste,Copilot,2026-10-28T19:06:46Z,2,0,0,2,0,0,0,0,0,0,0,0,143,0,4
+12,Add Settings access and a configurable one-hour request timeout,xadupre,2026-10-28T18:26:26Z,4,2,1,1,0,0,0,0,0,0,0,0,460,108,15
+11,Compact conversation header and recover from Copilot crashes,xadupre,2026-10-28T17:09:36Z,1,0,0,0,0,0,0,0,0,0,0,0,535,57,8
+13,Reduce streaming transcript rendering overhead,xadupre,2026-10-28T17:09:16Z,1,0,0,0,0,0,0,0,0,0,0,0,319,96,8
+9,Add conversation PostMortem reports and JSON export,xadupre,2026-10-28T16:04:13Z,1,0,0,0,0,0,0,0,0,0,0,0,1290,16,18
+8,Allow parallel questions and queued follow-ups while tools run,xadupre,2026-10-28T15:22:45Z,2,0,0,0,0,0,0,0,0,0,0,0,712,55,11
+7,Add newest-first GitHub activity sidebar,xadupre,2026-10-28T15:12:53Z,4,0,0,0,0,0,0,0,0,0,0,0,1927,16,15
+6,Improve chat readability and repository session management,xadupre,2026-10-28T14:28:38Z,1,0,0,0,0,0,0,0,0,0,0,0,1949,133,19

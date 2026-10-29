@@ -1,34 +1,5 @@
 {
-  "latest": [
-    {
-      "number": 1059,
-      "title": "[WIP] Implement pattern to fuse nodes into MoE",
-      "user": "Copilot",
-      "created_at": "2026-10-28T10:22:04Z"
-    },
-    {
-      "number": 1058,
-      "title": "Profile dense FP32 Attention AVX2 gaps and document rejected optimizations",
-      "user": "Copilot",
-      "created_at": "2026-10-28T10:21:56Z"
-    }
-  ],
-  "oldest": [
-    {
-      "number": 1058,
-      "title": "Profile dense FP32 Attention AVX2 gaps and document rejected optimizations",
-      "user": "Copilot",
-      "created_at": "2026-10-28T10:21:56Z"
-    },
-    {
-      "number": 1059,
-      "title": "[WIP] Implement pattern to fuse nodes into MoE",
-      "user": "Copilot",
-      "created_at": "2026-10-28T10:22:04Z"
-    }
-  ],
-  "ages_days": [
-    0.020226382199074074,
-    0.020133789606481482
-  ]
+  "latest": [],
+  "oldest": [],
+  "ages_days": []
 }

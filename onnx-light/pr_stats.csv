@@ -2864,3 +2864,22 @@ pr_number,title,author,merged_at,commits,comments,copilot_comments,copilot_commi
 5648,Preserve context-local shape inference callbacks across resets and local functions,Copilot,2026-10-27T10:22:01Z,3,2,1,2,1,0,0,0,1,0,1,0,159,13,4
 5643,Preserve semicolon-containing tensor names in execution plans,Copilot,2026-10-27T10:21:45Z,4,4,4,3,4,0,2,0,2,0,2,0,342,19,9
 5644,Emit producer-time releases for unused node outputs,Copilot,2026-10-27T10:21:07Z,4,10,10,3,10,0,0,0,10,0,5,0,205,26,5
+5695,Expose per-token native generation timings and raw logits,xadupre,2026-10-29T10:38:17Z,1,0,0,0,0,0,0,0,0,0,0,0,393,4,4
+5693,Prevent FunctionPattern local-call rewrites inside functions,xadupre,2026-10-29T10:17:53Z,1,0,0,0,0,0,0,0,0,0,0,0,116,5,5
+5691,Normalize explicit runtime-context opset domains before compatibility checks,Copilot,2026-10-29T10:00:53Z,2,0,0,2,0,0,0,0,0,0,0,0,22,4,2
+5690,Preserve repeated formal outputs in local-function calls,Copilot,2026-10-29T10:00:39Z,2,0,0,2,0,0,0,0,0,0,0,0,147,5,2
+5688,Add FunctionPattern replacement by a shared local function,xadupre,2026-10-29T09:15:51Z,1,3,2,0,2,0,0,0,2,0,1,1,440,18,6
+5682,Prefer registered operators over colliding model-local functions,Copilot,2026-10-29T08:01:12Z,6,30,14,2,14,0,0,0,14,0,13,1,1186,319,30
+5684,Index optimizer candidates and expose FunctionPattern anchors,xadupre,2026-10-29T00:25:04Z,1,0,0,0,0,0,0,0,0,0,0,0,387,44,9
+5685,docs: update 0.2.2 changelog including pending PRs,xadupre,2026-10-29T00:24:44Z,1,0,0,0,0,0,0,0,0,0,0,0,26,0,1
+5679,Reuse equivalent local functions in RepeatedLayer extraction,Copilot,2026-10-28T23:15:24Z,6,9,7,4,6,0,0,0,6,0,3,0,565,22,4
+5681,Absorb one or both input Transposes into Gemm transpose flags,Copilot,2026-10-28T23:03:24Z,5,6,3,4,2,0,0,0,2,0,2,0,320,104,4
+5676,Add function-defined graph rewriting patterns with reference attributes,Copilot,2026-10-28T22:39:17Z,9,8,5,3,4,0,0,0,4,0,4,0,1249,10,12
+5678,Defer GraphBuilder memory profiling until export,xadupre,2026-10-28T22:04:50Z,5,1,1,0,1,0,0,0,1,0,1,0,537,103,13
+5674,Version quantization reconstruction precision independently of output dtype,Copilot,2026-10-28T19:34:08Z,2,0,0,2,0,0,0,0,0,0,0,0,523,44,7
+5672,Require CMake ≥4 and remove CMake 3 build coverage,Copilot,2026-10-28T19:33:37Z,5,6,3,5,0,0,0,0,0,0,0,0,182,57,48
+5669,Make RepeatedLayer generic with builder-local operator registries,xadupre,2026-10-28T17:30:33Z,6,6,3,0,3,0,0,0,3,0,3,0,1111,142,21
+5661,Port ONNX low-precision window handling to native kernels,Copilot,2026-10-28T14:13:50Z,4,0,0,3,0,0,0,0,0,0,0,0,208,7,6
+5667,Normalize built-in pattern priorities to 2,Copilot,2026-10-28T14:13:03Z,4,0,0,4,0,0,0,0,0,0,0,0,62,11,5
+5664,Optimize exact statistics for large tensors,xadupre,2026-10-28T11:05:20Z,4,0,0,0,0,0,0,0,0,0,0,0,738,64,4
+5663,Extract shared shape-inference test harness,Copilot,2026-10-28T10:51:57Z,2,0,0,2,0,0,0,0,0,0,0,0,198,144,5
