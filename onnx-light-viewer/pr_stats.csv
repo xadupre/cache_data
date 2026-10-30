@@ -123,3 +123,14 @@ pr_number,title,author,merged_at,commits,comments,copilot_comments,copilot_commi
 217,Add Open with ONNX Light Viewer to Explorer context menu,xadupre,2026-10-28T13:26:56Z,1,0,0,0,0,0,0,0,0,0,0,0,79,0,3
 214,Add on-demand tensor statistics with quantized support,Copilot,2026-10-28T12:35:28Z,9,18,14,5,13,0,0,0,13,0,8,0,4356,169,28
 215,Use onnx-light 0.2.1 and onnx-light-cpu 0.2.1.1,xadupre,2026-10-28T12:20:55Z,2,1,0,0,0,0,0,0,0,0,0,0,106,0,6
+255,"Update sphinx requirement from <10,>=9.1.1 to >=9.2.0,<10 in /docs",dependabot[bot],2026-10-30T07:40:48Z,1,0,0,0,0,0,0,0,0,0,0,0,1,1,1
+254,Bump actions/setup-python from 6 to 7,dependabot[bot],2026-10-30T07:40:10Z,1,0,0,0,0,0,0,0,0,0,0,0,3,3,3
+250,Require complete GenAI tokenizer packages for prompt discovery,Copilot,2026-10-30T00:19:06Z,3,2,1,2,1,0,0,0,1,0,1,0,206,47,3
+251,Correct ONNX Script snapshot/undo rewrite assumptions,Copilot,2026-10-30T00:18:42Z,2,0,0,2,0,0,0,0,0,0,0,0,22,2,1
+252,"Improve graph readability, Status versions and Prompt formatting",xadupre,2026-10-30T00:05:47Z,2,2,0,0,0,0,0,0,0,0,0,0,1073,114,19
+249,Enable Previous/Next navigation from initializer statistics,Copilot,2026-10-29T23:34:33Z,2,0,0,2,0,0,0,0,0,0,0,0,140,13,7
+235,Add Run Prompt with token-aligned Hugging Face validation,Copilot,2026-10-29T20:52:01Z,11,26,12,2,12,0,0,0,12,0,12,0,7377,182,38
+243,"Add memory-chart hover inspection, zoom, and adaptive operator labels",Copilot,2026-10-29T18:21:37Z,4,12,6,2,6,0,0,0,6,0,6,0,706,51,10
+245,Pan the model view by dragging the graph background,Copilot,2026-10-29T16:07:23Z,2,0,0,2,0,0,0,0,0,0,0,0,172,16,4
+240,Display package version on the documentation landing page,Copilot,2026-10-29T14:40:02Z,3,2,1,3,0,0,0,0,0,0,0,0,41,1,6
+238,Upgrade native onnx-light SDK to 0.2.2,Copilot,2026-10-29T13:13:56Z,2,0,0,2,0,0,0,0,0,0,0,0,94,27,7

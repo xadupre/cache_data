@@ -2883,3 +2883,20 @@ pr_number,title,author,merged_at,commits,comments,copilot_comments,copilot_commi
 5667,Normalize built-in pattern priorities to 2,Copilot,2026-10-28T14:13:03Z,4,0,0,4,0,0,0,0,0,0,0,0,62,11,5
 5664,Optimize exact statistics for large tensors,xadupre,2026-10-28T11:05:20Z,4,0,0,0,0,0,0,0,0,0,0,0,738,64,4
 5663,Extract shared shape-inference test harness,Copilot,2026-10-28T10:51:57Z,2,0,0,2,0,0,0,0,0,0,0,0,198,144,5
+5726,Bump ruff from 0.17.1 to 0.17.3,dependabot[bot],2026-10-30T08:50:16Z,1,0,0,0,0,0,0,0,0,0,0,0,1,1,1
+5718,Add optimize CLI with comma-separated pattern groups and names,xadupre,2026-10-30T08:48:37Z,4,29,14,1,13,0,1,0,12,0,13,0,1227,5,13
+5724,Discriminate external initializer metadata in deduplication hashes,Copilot,2026-10-30T08:48:22Z,3,2,1,3,0,0,0,0,0,0,0,0,92,7,4
+5715,Add metadata-only layers CLI,xadupre,2026-10-30T07:37:44Z,13,18,8,0,8,0,0,0,8,0,8,0,1560,100,17
+5721,Default omitted external-data offsets to zero during model loading,Copilot,2026-10-30T00:12:28Z,2,0,0,2,0,0,0,0,0,0,0,0,100,1,2
+5722,Expose missing window attributes and defaults in LightOpSchema,Copilot,2026-10-30T00:12:01Z,2,0,0,2,0,0,0,0,0,0,0,0,55,3,2
+5706,Expose owning pipeline loading with bounded preparation,xadupre,2026-10-29T21:58:30Z,8,17,10,0,10,0,0,0,10,0,10,0,770,147,6
+5710,[WIP] Propagate changes from PR 8659,Copilot,2026-10-29T21:12:16Z,4,6,2,3,2,0,0,0,2,0,2,0,425,5,4
+5713,Port upstream NonMaxSuppression scalar-input compatibility,Copilot,2026-10-29T20:53:40Z,4,2,1,3,1,0,0,0,1,0,1,0,132,16,5
+5708,Port upstream schema registry checks from ONNX PR #8635,Copilot,2026-10-29T17:15:40Z,5,8,4,3,4,0,0,0,4,0,4,0,237,70,3
+5699,Support multiple EOS token IDs in native generation,xadupre,2026-10-29T17:15:12Z,6,12,6,0,6,0,0,0,6,0,6,0,272,49,19
+5714,Preserve graph and node metadata during version conversion,Copilot,2026-10-29T16:55:02Z,3,8,4,2,4,0,0,0,4,0,4,0,256,0,4
+5716,Fix nanobind shutdown leaks when importing optimization,xadupre,2026-10-29T16:46:21Z,1,0,0,0,0,0,0,0,0,0,0,0,70,36,2
+5701,Absorb output Transpose into unbiased Gemm,xadupre,2026-10-29T15:04:12Z,3,17,9,0,9,0,0,0,9,0,9,0,538,0,9
+5705,Display the package version on the documentation homepage,Copilot,2026-10-29T14:38:58Z,2,0,0,2,0,0,0,0,0,0,0,0,10,0,2
+5700,Support optional external tensor lengths in LoadedRuntimeSession,xadupre,2026-10-29T12:57:21Z,1,0,0,0,0,0,0,0,0,0,0,0,200,28,4
+5703,Bump release version to 0.2.3,Copilot,2026-10-29T12:57:07Z,2,0,0,2,0,0,0,0,0,0,0,0,21,7,8

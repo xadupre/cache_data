@@ -44,3 +44,5 @@ pr_number,title,author,merged_at,commits,comments,copilot_comments,copilot_commi
 10,Add documentation status badges,Copilot,2026-10-22T08:03:55Z,2,0,0,2,0,0,0,0,0,0,0,0,8,0,2
 1,Add the first native onnx-light CPU custom op for ORT,xadupre,2026-10-22T07:39:43Z,4,0,0,0,0,0,0,0,0,0,0,0,1871,87,48
 75,Pin onnx-light 0.2.1 and onnx-light-cpu 0.2.1.1,Copilot,2026-10-28T12:27:55Z,2,0,0,2,0,0,0,0,0,0,0,0,46,31,12
+79,Upgrade onnx-light to 0.2.2,Copilot,2026-10-29T21:48:44Z,4,2,1,4,0,0,0,0,0,0,0,0,72,32,15
+77,Display the project version on the documentation homepage,Copilot,2026-10-29T14:52:45Z,2,0,0,2,0,0,0,0,0,0,0,0,15,0,3

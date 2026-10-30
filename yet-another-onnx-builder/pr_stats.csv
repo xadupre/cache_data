@@ -293,3 +293,4 @@ pr_number,title,author,merged_at,commits,comments,copilot_comments,copilot_commi
 2409,Fix documentation example’s ONNX Runtime compatibility,Copilot,2026-10-27T22:18:33Z,3,5,3,3,2,0,0,0,2,0,0,2,20,2,3
 2408,Align documentation with the onnx-light backend,Copilot,2026-10-27T17:04:17Z,3,2,1,2,1,0,0,0,1,0,1,0,88,50,12
 2406,Relax onnx-light dependency to >=0.2.0,Copilot,2026-10-27T12:11:38Z,2,1,0,2,0,0,0,0,0,0,0,0,19,3,2
+2412,Bump ruff from 0.17.1 to 0.17.2,dependabot[bot],2026-10-29T12:34:18Z,1,0,0,0,0,0,0,0,0,0,0,0,1,1,1
