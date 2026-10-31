@@ -1,47 +1,21 @@
 {
   "latest": [
     {
-      "number": 258,
-      "title": "Hide mbext when unavailable in Converters and Status",
+      "number": 272,
+      "title": "Connect graph edges to ordered input and output ports",
       "user": "Copilot",
-      "created_at": "2026-10-30T10:30:03Z"
-    },
-    {
-      "number": 256,
-      "title": "Upgrade onnx-light to 0.2.3",
-      "user": "xadupre",
-      "created_at": "2026-10-30T10:21:59Z"
-    },
-    {
-      "number": 253,
-      "title": "Create reusable FunctionPatterns from selected graph nodes",
-      "user": "Copilot",
-      "created_at": "2026-10-30T00:36:45Z"
+      "created_at": "2026-10-31T09:14:06Z"
     }
   ],
   "oldest": [
     {
-      "number": 253,
-      "title": "Create reusable FunctionPatterns from selected graph nodes",
+      "number": 272,
+      "title": "Connect graph edges to ordered input and output ports",
       "user": "Copilot",
-      "created_at": "2026-10-30T00:36:45Z"
-    },
-    {
-      "number": 256,
-      "title": "Upgrade onnx-light to 0.2.3",
-      "user": "xadupre",
-      "created_at": "2026-10-30T10:21:59Z"
-    },
-    {
-      "number": 258,
-      "title": "Hide mbext when unavailable in Converters and Status",
-      "user": "Copilot",
-      "created_at": "2026-10-30T10:30:03Z"
+      "created_at": "2026-10-31T09:14:06Z"
     }
   ],
   "ages_days": [
-    0.43455902682870373,
-    0.028146989791666667,
-    0.022545137939814816
+    0.05814830177083333
   ]
 }

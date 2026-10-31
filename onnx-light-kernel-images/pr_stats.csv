@@ -42,3 +42,4 @@ pr_number,title,author,merged_at,commits,comments,copilot_comments,copilot_commi
 83,Fix Pixi CI runtime discovery and setup,Copilot,2026-10-28T15:30:05Z,2,1,0,2,0,0,0,0,0,0,0,0,33,3,2
 89,Require onnx-light 0.2.2 and CMake ≥4.0,Copilot,2026-10-30T00:25:50Z,4,1,0,4,0,0,0,0,0,0,0,0,86,37,15
 87,Display package version on documentation landing page,Copilot,2026-10-29T14:52:59Z,2,1,0,2,0,0,0,0,0,0,0,0,14,0,3
+91,Upgrade onnx-light to 0.2.3,Copilot,2026-10-30T17:21:20Z,2,1,0,2,0,0,0,0,0,0,0,0,31,31,11

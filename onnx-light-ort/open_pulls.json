@@ -1,5 +1,139 @@
 {
-  "latest": [],
-  "oldest": [],
-  "ages_days": []
+  "latest": [
+    {
+      "number": 90,
+      "title": "Bump pypa/cibuildwheel from 4.3.1 to 4.3.5",
+      "user": "dependabot[bot]",
+      "created_at": "2026-10-30T22:24:25Z"
+    },
+    {
+      "number": 89,
+      "title": "Update onnxruntime requirement from <2,>=1.31.0 to >=1.31.1,<2 in /requirements",
+      "user": "dependabot[bot]",
+      "created_at": "2026-10-30T22:17:59Z"
+    },
+    {
+      "number": 88,
+      "title": "Bump gcovr from 8.7 to 8.8 in /requirements",
+      "user": "dependabot[bot]",
+      "created_at": "2026-10-30T22:17:55Z"
+    },
+    {
+      "number": 87,
+      "title": "Bump ruff from 0.17.1 to 0.17.3 in /requirements",
+      "user": "dependabot[bot]",
+      "created_at": "2026-10-30T22:17:52Z"
+    },
+    {
+      "number": 86,
+      "title": "Update nanobind requirement from <4,>=3.0.1 to >=3.1.0,<4 in /requirements",
+      "user": "dependabot[bot]",
+      "created_at": "2026-10-30T22:17:45Z"
+    },
+    {
+      "number": 85,
+      "title": "Update cmake requirement from >=4.0 to >=4.4.4 in /docs",
+      "user": "dependabot[bot]",
+      "created_at": "2026-10-30T22:17:34Z"
+    },
+    {
+      "number": 84,
+      "title": "Update nanobind requirement from <4,>=3.0.1 to >=3.1.0,<4 in /docs",
+      "user": "dependabot[bot]",
+      "created_at": "2026-10-30T22:17:30Z"
+    },
+    {
+      "number": 83,
+      "title": "Update onnxruntime requirement from <2,>=1.31.0 to >=1.31.1,<2 in /docs",
+      "user": "dependabot[bot]",
+      "created_at": "2026-10-30T22:17:26Z"
+    },
+    {
+      "number": 82,
+      "title": "Bump ruff from 0.17.1 to 0.17.3",
+      "user": "dependabot[bot]",
+      "created_at": "2026-10-30T22:17:17Z"
+    },
+    {
+      "number": 81,
+      "title": "Bump gcovr from 8.7 to 8.8",
+      "user": "dependabot[bot]",
+      "created_at": "2026-10-30T22:17:06Z"
+    }
+  ],
+  "oldest": [
+    {
+      "number": 80,
+      "title": "Update cmake requirement from >=4.0 to >=4.4.4",
+      "user": "dependabot[bot]",
+      "created_at": "2026-10-30T22:16:57Z"
+    },
+    {
+      "number": 81,
+      "title": "Bump gcovr from 8.7 to 8.8",
+      "user": "dependabot[bot]",
+      "created_at": "2026-10-30T22:17:06Z"
+    },
+    {
+      "number": 82,
+      "title": "Bump ruff from 0.17.1 to 0.17.3",
+      "user": "dependabot[bot]",
+      "created_at": "2026-10-30T22:17:17Z"
+    },
+    {
+      "number": 83,
+      "title": "Update onnxruntime requirement from <2,>=1.31.0 to >=1.31.1,<2 in /docs",
+      "user": "dependabot[bot]",
+      "created_at": "2026-10-30T22:17:26Z"
+    },
+    {
+      "number": 84,
+      "title": "Update nanobind requirement from <4,>=3.0.1 to >=3.1.0,<4 in /docs",
+      "user": "dependabot[bot]",
+      "created_at": "2026-10-30T22:17:30Z"
+    },
+    {
+      "number": 85,
+      "title": "Update cmake requirement from >=4.0 to >=4.4.4 in /docs",
+      "user": "dependabot[bot]",
+      "created_at": "2026-10-30T22:17:34Z"
+    },
+    {
+      "number": 86,
+      "title": "Update nanobind requirement from <4,>=3.0.1 to >=3.1.0,<4 in /requirements",
+      "user": "dependabot[bot]",
+      "created_at": "2026-10-30T22:17:45Z"
+    },
+    {
+      "number": 87,
+      "title": "Bump ruff from 0.17.1 to 0.17.3 in /requirements",
+      "user": "dependabot[bot]",
+      "created_at": "2026-10-30T22:17:52Z"
+    },
+    {
+      "number": 88,
+      "title": "Bump gcovr from 8.7 to 8.8 in /requirements",
+      "user": "dependabot[bot]",
+      "created_at": "2026-10-30T22:17:55Z"
+    },
+    {
+      "number": 89,
+      "title": "Update onnxruntime requirement from <2,>=1.31.0 to >=1.31.1,<2 in /requirements",
+      "user": "dependabot[bot]",
+      "created_at": "2026-10-30T22:17:59Z"
+    }
+  ],
+  "ages_days": [
+    0.514494799224537,
+    0.5143906325578704,
+    0.5142633177430556,
+    0.5141591510763889,
+    0.5141128547800926,
+    0.5140665584837963,
+    0.5139392436689815,
+    0.513858225150463,
+    0.5138235029282407,
+    0.5137772066319445,
+    0.5093096140393518
+  ]
 }
