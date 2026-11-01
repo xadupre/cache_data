@@ -145,3 +145,14 @@ pr_number,title,author,merged_at,commits,comments,copilot_comments,copilot_commi
 260,Set GenAI prompt temperature to zero for first-token comparison,Copilot,2026-10-30T14:01:45Z,2,2,1,2,0,0,0,0,0,0,0,0,25,0,2
 256,Upgrade onnx-light to 0.2.3,xadupre,2026-10-30T12:43:17Z,6,4,2,0,2,0,0,0,2,0,2,0,149,86,18
 258,Hide mbext when unavailable in Converters and Status,Copilot,2026-10-30T12:19:32Z,4,3,1,2,1,0,0,0,1,0,1,0,276,17,5
+290,Separate device settings and streamline engine configuration,Copilot,2026-11-01T10:52:26Z,5,8,3,2,3,0,0,0,3,0,3,0,1171,206,21
+287,Add editable portable FunctionPattern management,xadupre,2026-11-01T10:51:26Z,7,10,5,0,5,0,0,0,5,0,5,0,3024,302,27
+284,Split Run into Prompt generation and regular model execution,Copilot,2026-10-31T22:16:04Z,3,1,0,2,0,0,0,0,0,0,0,0,822,13,19
+286,Expose all ONNX Runtime session options in Settings,Copilot,2026-10-31T22:07:30Z,4,2,2,2,2,0,0,0,2,0,2,0,286,4,11
+281,Align edge labels with graph paths to reduce overlap,Copilot,2026-10-31T18:14:33Z,3,1,1,2,1,0,0,0,1,0,1,0,192,49,2
+279,Add Generation settings tab for temperature and token limits,Copilot,2026-10-31T18:14:15Z,2,0,0,2,0,0,0,0,0,0,0,0,239,18,9
+282,Keep external weights unloaded during native optimization,xadupre,2026-10-31T18:13:55Z,1,0,0,0,0,0,0,0,0,0,0,0,110,18,2
+275,"Improve operator headers, edge labels, and in-place visualization",Copilot,2026-10-31T16:44:59Z,4,6,3,2,3,0,0,0,3,0,3,0,627,23,9
+277,"Add Engine settings with ONNX Runtime, PyTorch and onnx-light subtabs",Copilot,2026-10-31T13:34:27Z,3,2,1,2,1,0,0,0,1,0,1,0,275,38,7
+273,Add static Hugging Face model ID suggestions,xadupre,2026-10-31T13:11:40Z,3,0,0,0,0,0,0,0,0,0,0,0,311,10,5
+272,Connect graph edges to ordered input and output ports,Copilot,2026-10-31T11:48:29Z,4,4,2,2,2,0,0,0,2,0,2,0,458,19,8

@@ -2914,3 +2914,6 @@ pr_number,title,author,merged_at,commits,comments,copilot_comments,copilot_commi
 5727,Bump pypa/cibuildwheel from 4.3.2 to 4.3.5,dependabot[bot],2026-10-30T12:09:17Z,1,0,0,0,0,0,0,0,0,0,0,0,7,7,3
 5731,Fix debug CI CTest discovery using temporary CMake paths,xadupre,2026-10-30T12:08:52Z,1,0,0,0,0,0,0,0,0,0,0,0,19,13,2
 5730,Fix shared test helper imports in reduced wheel CI,xadupre,2026-10-30T11:09:34Z,1,0,0,0,0,0,0,0,0,0,0,0,4,0,1
+5753,Add optimization report export to the CLI,Copilot,2026-10-31T22:05:46Z,4,2,2,3,2,0,0,0,2,0,1,0,345,35,4
+5755,Support text-defined FunctionPattern rewrites in optimize CLI,xadupre,2026-10-31T19:01:19Z,1,0,0,0,0,0,0,0,0,0,0,0,255,6,3
+5751,Reuse equivalent functions in mincut partitions,xadupre,2026-10-31T17:09:23Z,3,2,1,0,1,0,0,0,1,0,1,0,247,43,9
