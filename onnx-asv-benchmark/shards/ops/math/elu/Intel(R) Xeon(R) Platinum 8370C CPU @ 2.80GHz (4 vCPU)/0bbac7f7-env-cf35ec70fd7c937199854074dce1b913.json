@@ -1,0 +1,170 @@
+{
+  "commit_hash": "0bbac7f7f9ddb4a5711cd8aa30400f985da950d6",
+  "date": 1793536609000,
+  "durations": {},
+  "env_name": "virtualenv-py3.12-numpy2.5.3-onnx1.23.1-onnx-ir1.0.0-onnxruntime1.30.0-onnxscript0.7.2-ONNX_LIGHT_CPU_VERSION0.2.3-ONNX_LIGHT_VERSION0.2.3",
+  "env_vars": {
+    "ONNX_LIGHT_CPU_VERSION": "0.2.3",
+    "ONNX_LIGHT_VERSION": "0.2.3"
+  },
+  "params": {
+    "arch": "x86_64",
+    "cpu": "Intel(R) Xeon(R) Platinum 8370C CPU @ 2.80GHz",
+    "instruction_sets": "SSE2, SSE3, SSSE3, SSE4.1, SSE4.2, AVX, AVX2, AVX-512F, AVX-512BW, AVX-512CD, AVX-512DQ, AVX-512VL, AVX-512VNNI",
+    "machine": "Intel(R) Xeon(R) Platinum 8370C CPU @ 2.80GHz (4 vCPU)",
+    "num_cpu": "4",
+    "numpy": "2.5.3",
+    "onnx": "1.23.1",
+    "onnx-ir": "1.0.0",
+    "onnxruntime": "1.30.0",
+    "onnxscript": "0.7.2",
+    "os": "anonymous",
+    "python": "3.12",
+    "ram": "anonymous"
+  },
+  "python": "3.12",
+  "requirements": {
+    "numpy": "2.5.3",
+    "onnx": "1.23.1",
+    "onnx-ir": "1.0.0",
+    "onnxruntime": "1.30.0",
+    "onnxscript": "0.7.2"
+  },
+  "result_columns": [
+    "result",
+    "params",
+    "version",
+    "started_at",
+    "duration",
+    "stats_ci_99_a",
+    "stats_ci_99_b",
+    "stats_q_25",
+    "stats_q_75",
+    "stats_number",
+    "stats_repeat",
+    "samples",
+    "profile"
+  ],
+  "results": {
+    "ops.math.elu.Elu.time_run": [
+      [
+        0.005287254000009511,
+        0.035948523500010765,
+        0.025429302999995684,
+        0.025409593500000938,
+        0.007347933999994893,
+        0.0773214720000226,
+        0.06398752849999312,
+        0.06397170849999156,
+        null,
+        0.054445515499992325,
+        0.030021658000009666,
+        0.030017333999992957
+      ],
+      [
+        [
+          "'x=4194304'"
+        ],
+        [
+          "'float32'",
+          "'float16'",
+          "'float64'"
+        ],
+        [
+          "'onnxruntime'",
+          "'onnx-reference'",
+          "'onnx-light'",
+          "'onnx-light-cpu'"
+        ]
+      ],
+      "862874b6d501be674f68e019bfd43f212b9d44f86a58f42d0553b43386a75e0c",
+      1793587117139,
+      68.058,
+      [
+        0.005244,
+        0.035573,
+        0.025313,
+        0.025188,
+        0.0071348,
+        0.072701,
+        0.063892,
+        0.06394,
+        null,
+        0.053046,
+        0.029971,
+        0.029916
+      ],
+      [
+        0.0055717,
+        0.03656,
+        0.025648,
+        0.025534,
+        0.0087061,
+        0.07816,
+        0.064268,
+        0.064134,
+        null,
+        0.056348,
+        0.030752,
+        0.030158
+      ],
+      [
+        0.0052684,
+        0.035896,
+        0.025379,
+        0.025351,
+        0.007316,
+        0.073234,
+        0.063918,
+        0.063949,
+        null,
+        0.054267,
+        0.029987,
+        0.029995
+      ],
+      [
+        0.0053177,
+        0.036042,
+        0.025473,
+        0.025464,
+        0.007976,
+        0.077805,
+        0.064058,
+        0.063994,
+        null,
+        0.055082,
+        0.030091,
+        0.030082
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        1,
+        1,
+        1
+      ],
+      [
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        null,
+        10,
+        10,
+        10
+      ]
+    ]
+  },
+  "version": 2
+}
