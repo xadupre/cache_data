@@ -1,6 +1,6 @@
 {
-  "commit": "846a0b636d4dc4d2a8a905c12c8e058d7c7d81d0",
-  "date": "2026-10-26T11:40:28Z",
+  "commit": "76f9cbcb80cb7ccf145384339a704fe1d0727d7c",
+  "date": "2026-11-02T14:05:47Z",
   "onnx_available": true,
   "rows": [
     {
@@ -22,7 +22,7 @@
       "name": "Acos",
       "onnx_backend_tests": 2,
       "onnx_backend_tests_expanded": 0,
-      "onnx_light_backend_tests": 3,
+      "onnx_light_backend_tests": 5,
       "onnx_light_backend_tests_expanded": 0,
       "onnx_light_shape_inference": true,
       "onnx_shape_inference": true
@@ -34,7 +34,7 @@
       "name": "Acosh",
       "onnx_backend_tests": 2,
       "onnx_backend_tests_expanded": 0,
-      "onnx_light_backend_tests": 3,
+      "onnx_light_backend_tests": 5,
       "onnx_light_backend_tests_expanded": 0,
       "onnx_light_shape_inference": true,
       "onnx_shape_inference": true
@@ -106,7 +106,7 @@
       "name": "Asin",
       "onnx_backend_tests": 2,
       "onnx_backend_tests_expanded": 0,
-      "onnx_light_backend_tests": 3,
+      "onnx_light_backend_tests": 5,
       "onnx_light_backend_tests_expanded": 0,
       "onnx_light_shape_inference": true,
       "onnx_shape_inference": true
@@ -118,7 +118,7 @@
       "name": "Asinh",
       "onnx_backend_tests": 2,
       "onnx_backend_tests_expanded": 0,
-      "onnx_light_backend_tests": 3,
+      "onnx_light_backend_tests": 5,
       "onnx_light_backend_tests_expanded": 0,
       "onnx_light_shape_inference": true,
       "onnx_shape_inference": true
@@ -130,7 +130,7 @@
       "name": "Atan",
       "onnx_backend_tests": 2,
       "onnx_backend_tests_expanded": 0,
-      "onnx_light_backend_tests": 3,
+      "onnx_light_backend_tests": 5,
       "onnx_light_backend_tests_expanded": 0,
       "onnx_light_shape_inference": true,
       "onnx_shape_inference": true
@@ -142,7 +142,7 @@
       "name": "Atanh",
       "onnx_backend_tests": 2,
       "onnx_backend_tests_expanded": 0,
-      "onnx_light_backend_tests": 3,
+      "onnx_light_backend_tests": 5,
       "onnx_light_backend_tests_expanded": 0,
       "onnx_light_shape_inference": true,
       "onnx_shape_inference": true
@@ -202,7 +202,7 @@
       "name": "BitCast",
       "onnx_backend_tests": 10,
       "onnx_backend_tests_expanded": 0,
-      "onnx_light_backend_tests": 14,
+      "onnx_light_backend_tests": 17,
       "onnx_light_backend_tests_expanded": 0,
       "onnx_light_shape_inference": true,
       "onnx_shape_inference": true
@@ -226,7 +226,7 @@
       "name": "BitwiseAnd",
       "onnx_backend_tests": 4,
       "onnx_backend_tests_expanded": 0,
-      "onnx_light_backend_tests": 8,
+      "onnx_light_backend_tests": 9,
       "onnx_light_backend_tests_expanded": 0,
       "onnx_light_shape_inference": true,
       "onnx_shape_inference": true
@@ -250,7 +250,7 @@
       "name": "BitwiseOr",
       "onnx_backend_tests": 4,
       "onnx_backend_tests_expanded": 0,
-      "onnx_light_backend_tests": 8,
+      "onnx_light_backend_tests": 9,
       "onnx_light_backend_tests_expanded": 0,
       "onnx_light_shape_inference": true,
       "onnx_shape_inference": true
@@ -262,7 +262,7 @@
       "name": "BitwiseXor",
       "onnx_backend_tests": 4,
       "onnx_backend_tests_expanded": 0,
-      "onnx_light_backend_tests": 8,
+      "onnx_light_backend_tests": 9,
       "onnx_light_backend_tests_expanded": 0,
       "onnx_light_shape_inference": true,
       "onnx_shape_inference": true
@@ -322,7 +322,7 @@
       "name": "Ceil",
       "onnx_backend_tests": 2,
       "onnx_backend_tests_expanded": 0,
-      "onnx_light_backend_tests": 5,
+      "onnx_light_backend_tests": 6,
       "onnx_light_backend_tests_expanded": 0,
       "onnx_light_shape_inference": true,
       "onnx_shape_inference": true
@@ -442,7 +442,7 @@
       "name": "Conv",
       "onnx_backend_tests": 6,
       "onnx_backend_tests_expanded": 0,
-      "onnx_light_backend_tests": 8,
+      "onnx_light_backend_tests": 9,
       "onnx_light_backend_tests_expanded": 0,
       "onnx_light_shape_inference": true,
       "onnx_shape_inference": true
@@ -478,7 +478,7 @@
       "name": "Cos",
       "onnx_backend_tests": 2,
       "onnx_backend_tests_expanded": 0,
-      "onnx_light_backend_tests": 3,
+      "onnx_light_backend_tests": 5,
       "onnx_light_backend_tests_expanded": 0,
       "onnx_light_shape_inference": true,
       "onnx_shape_inference": true
@@ -490,7 +490,7 @@
       "name": "Cosh",
       "onnx_backend_tests": 2,
       "onnx_backend_tests_expanded": 0,
-      "onnx_light_backend_tests": 3,
+      "onnx_light_backend_tests": 5,
       "onnx_light_backend_tests_expanded": 0,
       "onnx_light_shape_inference": true,
       "onnx_shape_inference": true
@@ -658,7 +658,7 @@
       "name": "Erf",
       "onnx_backend_tests": 1,
       "onnx_backend_tests_expanded": 0,
-      "onnx_light_backend_tests": 5,
+      "onnx_light_backend_tests": 6,
       "onnx_light_backend_tests_expanded": 0,
       "onnx_light_shape_inference": true,
       "onnx_shape_inference": true
@@ -670,7 +670,7 @@
       "name": "Exp",
       "onnx_backend_tests": 2,
       "onnx_backend_tests_expanded": 0,
-      "onnx_light_backend_tests": 5,
+      "onnx_light_backend_tests": 6,
       "onnx_light_backend_tests_expanded": 0,
       "onnx_light_shape_inference": true,
       "onnx_shape_inference": true
@@ -718,7 +718,7 @@
       "name": "Floor",
       "onnx_backend_tests": 2,
       "onnx_backend_tests_expanded": 0,
-      "onnx_light_backend_tests": 5,
+      "onnx_light_backend_tests": 6,
       "onnx_light_backend_tests_expanded": 0,
       "onnx_light_shape_inference": true,
       "onnx_shape_inference": true
@@ -790,7 +790,7 @@
       "name": "Gemm",
       "onnx_backend_tests": 11,
       "onnx_backend_tests_expanded": 0,
-      "onnx_light_backend_tests": 12,
+      "onnx_light_backend_tests": 15,
       "onnx_light_backend_tests_expanded": 0,
       "onnx_light_shape_inference": true,
       "onnx_shape_inference": true
@@ -814,7 +814,7 @@
       "name": "GlobalLpPool",
       "onnx_backend_tests": 3,
       "onnx_backend_tests_expanded": 0,
-      "onnx_light_backend_tests": 12,
+      "onnx_light_backend_tests": 15,
       "onnx_light_backend_tests_expanded": 0,
       "onnx_light_shape_inference": true,
       "onnx_shape_inference": true
@@ -882,11 +882,11 @@
     {
       "domain": "ai.onnx",
       "in_onnx": true,
-      "in_onnx_light": false,
+      "in_onnx_light": true,
       "name": "GroupedMatMul",
       "onnx_backend_tests": 11,
       "onnx_backend_tests_expanded": 11,
-      "onnx_light_backend_tests": 0,
+      "onnx_light_backend_tests": 20,
       "onnx_light_backend_tests_expanded": 0,
       "onnx_light_shape_inference": false,
       "onnx_shape_inference": true
@@ -898,7 +898,7 @@
       "name": "HammingWindow",
       "onnx_backend_tests": 2,
       "onnx_backend_tests_expanded": 2,
-      "onnx_light_backend_tests": 2,
+      "onnx_light_backend_tests": 8,
       "onnx_light_backend_tests_expanded": 0,
       "onnx_light_shape_inference": true,
       "onnx_shape_inference": true
@@ -910,7 +910,7 @@
       "name": "HannWindow",
       "onnx_backend_tests": 2,
       "onnx_backend_tests_expanded": 2,
-      "onnx_light_backend_tests": 2,
+      "onnx_light_backend_tests": 8,
       "onnx_light_backend_tests_expanded": 0,
       "onnx_light_shape_inference": true,
       "onnx_shape_inference": true
@@ -934,7 +934,7 @@
       "name": "HardSwish",
       "onnx_backend_tests": 1,
       "onnx_backend_tests_expanded": 1,
-      "onnx_light_backend_tests": 1,
+      "onnx_light_backend_tests": 3,
       "onnx_light_backend_tests_expanded": 0,
       "onnx_light_shape_inference": true,
       "onnx_shape_inference": true
@@ -1114,7 +1114,7 @@
       "name": "Log",
       "onnx_backend_tests": 2,
       "onnx_backend_tests_expanded": 0,
-      "onnx_light_backend_tests": 5,
+      "onnx_light_backend_tests": 6,
       "onnx_light_backend_tests_expanded": 0,
       "onnx_light_shape_inference": true,
       "onnx_shape_inference": true
@@ -1126,7 +1126,7 @@
       "name": "LogSoftmax",
       "onnx_backend_tests": 7,
       "onnx_backend_tests_expanded": 14,
-      "onnx_light_backend_tests": 8,
+      "onnx_light_backend_tests": 10,
       "onnx_light_backend_tests_expanded": 0,
       "onnx_light_shape_inference": true,
       "onnx_shape_inference": true
@@ -1174,7 +1174,7 @@
       "name": "MatMul",
       "onnx_backend_tests": 7,
       "onnx_backend_tests_expanded": 0,
-      "onnx_light_backend_tests": 9,
+      "onnx_light_backend_tests": 16,
       "onnx_light_backend_tests_expanded": 0,
       "onnx_light_shape_inference": true,
       "onnx_shape_inference": true
@@ -1258,7 +1258,7 @@
       "name": "MeanVarianceNormalization",
       "onnx_backend_tests": 1,
       "onnx_backend_tests_expanded": 0,
-      "onnx_light_backend_tests": 3,
+      "onnx_light_backend_tests": 4,
       "onnx_light_backend_tests_expanded": 0,
       "onnx_light_shape_inference": true,
       "onnx_shape_inference": false
@@ -1294,7 +1294,7 @@
       "name": "Mish",
       "onnx_backend_tests": 1,
       "onnx_backend_tests_expanded": 1,
-      "onnx_light_backend_tests": 1,
+      "onnx_light_backend_tests": 4,
       "onnx_light_backend_tests_expanded": 0,
       "onnx_light_shape_inference": true,
       "onnx_shape_inference": true
@@ -1364,9 +1364,9 @@
       "in_onnx": true,
       "in_onnx_light": true,
       "name": "NonMaxSuppression",
-      "onnx_backend_tests": 10,
+      "onnx_backend_tests": 11,
       "onnx_backend_tests_expanded": 0,
-      "onnx_light_backend_tests": 10,
+      "onnx_light_backend_tests": 11,
       "onnx_light_backend_tests_expanded": 0,
       "onnx_light_shape_inference": true,
       "onnx_shape_inference": true
@@ -1462,7 +1462,7 @@
       "name": "PRelu",
       "onnx_backend_tests": 2,
       "onnx_backend_tests_expanded": 2,
-      "onnx_light_backend_tests": 8,
+      "onnx_light_backend_tests": 15,
       "onnx_light_backend_tests_expanded": 0,
       "onnx_light_shape_inference": true,
       "onnx_shape_inference": true
@@ -1510,7 +1510,7 @@
       "name": "QLinearMatMul",
       "onnx_backend_tests": 8,
       "onnx_backend_tests_expanded": 0,
-      "onnx_light_backend_tests": 12,
+      "onnx_light_backend_tests": 14,
       "onnx_light_backend_tests_expanded": 0,
       "onnx_light_shape_inference": true,
       "onnx_shape_inference": true
@@ -1618,7 +1618,7 @@
       "name": "Reciprocal",
       "onnx_backend_tests": 2,
       "onnx_backend_tests_expanded": 0,
-      "onnx_light_backend_tests": 5,
+      "onnx_light_backend_tests": 6,
       "onnx_light_backend_tests_expanded": 0,
       "onnx_light_shape_inference": true,
       "onnx_shape_inference": true
@@ -1690,7 +1690,7 @@
       "name": "ReduceMean",
       "onnx_backend_tests": 8,
       "onnx_backend_tests_expanded": 0,
-      "onnx_light_backend_tests": 14,
+      "onnx_light_backend_tests": 21,
       "onnx_light_backend_tests_expanded": 0,
       "onnx_light_shape_inference": true,
       "onnx_shape_inference": true
@@ -1726,7 +1726,7 @@
       "name": "ReduceSum",
       "onnx_backend_tests": 12,
       "onnx_backend_tests_expanded": 0,
-      "onnx_light_backend_tests": 22,
+      "onnx_light_backend_tests": 23,
       "onnx_light_backend_tests_expanded": 0,
       "onnx_light_shape_inference": true,
       "onnx_shape_inference": true
@@ -1834,7 +1834,7 @@
       "name": "Round",
       "onnx_backend_tests": 1,
       "onnx_backend_tests_expanded": 0,
-      "onnx_light_backend_tests": 2,
+      "onnx_light_backend_tests": 4,
       "onnx_light_backend_tests_expanded": 0,
       "onnx_light_shape_inference": true,
       "onnx_shape_inference": true
@@ -2002,7 +2002,7 @@
       "name": "Shape",
       "onnx_backend_tests": 12,
       "onnx_backend_tests_expanded": 0,
-      "onnx_light_backend_tests": 82,
+      "onnx_light_backend_tests": 83,
       "onnx_light_backend_tests_expanded": 0,
       "onnx_light_shape_inference": true,
       "onnx_shape_inference": true
@@ -2038,7 +2038,7 @@
       "name": "Sign",
       "onnx_backend_tests": 1,
       "onnx_backend_tests_expanded": 0,
-      "onnx_light_backend_tests": 12,
+      "onnx_light_backend_tests": 13,
       "onnx_light_backend_tests_expanded": 0,
       "onnx_light_shape_inference": true,
       "onnx_shape_inference": true
@@ -2050,7 +2050,7 @@
       "name": "Sin",
       "onnx_backend_tests": 2,
       "onnx_backend_tests_expanded": 0,
-      "onnx_light_backend_tests": 3,
+      "onnx_light_backend_tests": 5,
       "onnx_light_backend_tests_expanded": 0,
       "onnx_light_shape_inference": true,
       "onnx_shape_inference": true
@@ -2062,7 +2062,7 @@
       "name": "Sinh",
       "onnx_backend_tests": 2,
       "onnx_backend_tests_expanded": 0,
-      "onnx_light_backend_tests": 3,
+      "onnx_light_backend_tests": 5,
       "onnx_light_backend_tests_expanded": 0,
       "onnx_light_shape_inference": true,
       "onnx_shape_inference": true
@@ -2098,7 +2098,7 @@
       "name": "Softmax",
       "onnx_backend_tests": 7,
       "onnx_backend_tests_expanded": 14,
-      "onnx_light_backend_tests": 8,
+      "onnx_light_backend_tests": 11,
       "onnx_light_backend_tests_expanded": 0,
       "onnx_light_shape_inference": true,
       "onnx_shape_inference": true
@@ -2122,7 +2122,7 @@
       "name": "Softplus",
       "onnx_backend_tests": 2,
       "onnx_backend_tests_expanded": 2,
-      "onnx_light_backend_tests": 4,
+      "onnx_light_backend_tests": 5,
       "onnx_light_backend_tests_expanded": 0,
       "onnx_light_shape_inference": true,
       "onnx_shape_inference": true
@@ -2134,7 +2134,7 @@
       "name": "Softsign",
       "onnx_backend_tests": 2,
       "onnx_backend_tests_expanded": 2,
-      "onnx_light_backend_tests": 4,
+      "onnx_light_backend_tests": 5,
       "onnx_light_backend_tests_expanded": 0,
       "onnx_light_shape_inference": true,
       "onnx_shape_inference": true
@@ -2182,7 +2182,7 @@
       "name": "Sqrt",
       "onnx_backend_tests": 2,
       "onnx_backend_tests_expanded": 0,
-      "onnx_light_backend_tests": 5,
+      "onnx_light_backend_tests": 6,
       "onnx_light_backend_tests_expanded": 0,
       "onnx_light_shape_inference": true,
       "onnx_shape_inference": true
@@ -2266,7 +2266,7 @@
       "name": "SwiGLU",
       "onnx_backend_tests": 3,
       "onnx_backend_tests_expanded": 3,
-      "onnx_light_backend_tests": 4,
+      "onnx_light_backend_tests": 5,
       "onnx_light_backend_tests_expanded": 0,
       "onnx_light_shape_inference": true,
       "onnx_shape_inference": true
@@ -2290,7 +2290,7 @@
       "name": "Tan",
       "onnx_backend_tests": 2,
       "onnx_backend_tests_expanded": 0,
-      "onnx_light_backend_tests": 3,
+      "onnx_light_backend_tests": 5,
       "onnx_light_backend_tests_expanded": 0,
       "onnx_light_shape_inference": true,
       "onnx_shape_inference": true
@@ -2374,7 +2374,7 @@
       "name": "Transpose",
       "onnx_backend_tests": 7,
       "onnx_backend_tests_expanded": 0,
-      "onnx_light_backend_tests": 9,
+      "onnx_light_backend_tests": 26,
       "onnx_light_backend_tests_expanded": 0,
       "onnx_light_shape_inference": true,
       "onnx_shape_inference": true
@@ -2802,10 +2802,10 @@
   ],
   "totals": {
     "onnx": 228,
-    "onnx_backend_tests": 1437,
+    "onnx_backend_tests": 1438,
     "onnx_backend_tests_expanded": 493,
-    "onnx_light": 232,
-    "onnx_light_backend_tests": 2411,
+    "onnx_light": 233,
+    "onnx_light_backend_tests": 2545,
     "onnx_light_backend_tests_expanded": 0,
     "onnx_light_shape_inference": 227,
     "onnx_shape_inference": 218
