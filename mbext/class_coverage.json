@@ -25,6 +25,14 @@
       ]
     },
     {
+      "in_mbext": false,
+      "in_ort_genai": true,
+      "name": "CLMModel",
+      "ort_genai_files": [
+        "src/python/py/models/builders/clm.py"
+      ]
+    },
+    {
       "in_mbext": true,
       "in_ort_genai": true,
       "mbext_files": [
@@ -36,11 +44,27 @@
       ]
     },
     {
+      "in_mbext": true,
+      "in_ort_genai": false,
+      "mbext_files": [
+        "modelbuilder/helpers/checkpoint.py"
+      ],
+      "name": "CheckpointTensor"
+    },
+    {
       "in_mbext": false,
       "in_ort_genai": true,
       "name": "ComponentBinding",
       "ort_genai_files": [
         "src/python/py/models/builder_config.py"
+      ]
+    },
+    {
+      "in_mbext": false,
+      "in_ort_genai": true,
+      "name": "ComponentModelLoader",
+      "ort_genai_files": [
+        "src/python/py/models/loaders/component.py"
       ]
     },
     {
@@ -100,6 +124,14 @@
       "name": "DeepSeekV3Model"
     },
     {
+      "in_mbext": true,
+      "in_ort_genai": false,
+      "mbext_files": [
+        "modelbuilder/helpers/checkpoint.py"
+      ],
+      "name": "DenseCheckpoint"
+    },
+    {
       "in_mbext": false,
       "in_ort_genai": true,
       "name": "DtypeDescriptor",
@@ -122,6 +154,14 @@
         "modelbuilder/builders/base_embedding.py"
       ],
       "name": "EmbeddingModel"
+    },
+    {
+      "in_mbext": false,
+      "in_ort_genai": true,
+      "name": "EngramWeights",
+      "ort_genai_files": [
+        "src/python/py/models/loaders/engram.py"
+      ]
     },
     {
       "in_mbext": true,
@@ -321,9 +361,9 @@
     {
       "in_mbext": false,
       "in_ort_genai": true,
-      "name": "KVCacheVariant",
+      "name": "KEVModel",
       "ort_genai_files": [
-        "src/python/py/models/kv_cache_variant.py"
+        "src/python/py/models/builders/kev.py"
       ]
     },
     {
@@ -351,6 +391,46 @@
       "name": "LFM2Model",
       "ort_genai_files": [
         "src/python/py/models/builders/lfm2.py"
+      ]
+    },
+    {
+      "in_mbext": false,
+      "in_ort_genai": true,
+      "name": "LFM2VLEmbedding",
+      "ort_genai_files": [
+        "src/python/py/models/builders/lfm2_vl.py"
+      ]
+    },
+    {
+      "in_mbext": false,
+      "in_ort_genai": true,
+      "name": "LFM2VLModel",
+      "ort_genai_files": [
+        "src/python/py/models/builders/lfm2_vl.py"
+      ]
+    },
+    {
+      "in_mbext": false,
+      "in_ort_genai": true,
+      "name": "LFM2VLVisionEncoder",
+      "ort_genai_files": [
+        "src/python/py/models/builders/lfm2_vl.py"
+      ]
+    },
+    {
+      "in_mbext": false,
+      "in_ort_genai": true,
+      "name": "LFM3Model",
+      "ort_genai_files": [
+        "src/python/py/models/builders/lfm2.py"
+      ]
+    },
+    {
+      "in_mbext": false,
+      "in_ort_genai": true,
+      "name": "LiLiCorrBuilder",
+      "ort_genai_files": [
+        "src/python/py/models/builders/lilicorr.py"
       ]
     },
     {
@@ -510,6 +590,30 @@
       ]
     },
     {
+      "in_mbext": false,
+      "in_ort_genai": true,
+      "name": "NemotronParseDecoderComponent",
+      "ort_genai_files": [
+        "src/python/py/models/builders/nemotron_parse_decoder.py"
+      ]
+    },
+    {
+      "in_mbext": false,
+      "in_ort_genai": true,
+      "name": "NemotronParseEncoderComponent",
+      "ort_genai_files": [
+        "src/python/py/models/builders/nemotron_parse_encoder.py"
+      ]
+    },
+    {
+      "in_mbext": false,
+      "in_ort_genai": true,
+      "name": "NemotronParseModel",
+      "ort_genai_files": [
+        "src/python/py/models/builders/nemotron_parse.py"
+      ]
+    },
+    {
       "in_mbext": true,
       "in_ort_genai": false,
       "mbext_files": [
@@ -553,6 +657,14 @@
       ]
     },
     {
+      "in_mbext": false,
+      "in_ort_genai": true,
+      "name": "PackedDownInject",
+      "ort_genai_files": [
+        "src/python/py/models/builders/qwen3_8/text.py"
+      ]
+    },
+    {
       "in_mbext": true,
       "in_ort_genai": true,
       "mbext_files": [
@@ -562,6 +674,14 @@
       "ort_genai_files": [
         "src/python/py/models/builders/base.py"
       ]
+    },
+    {
+      "in_mbext": true,
+      "in_ort_genai": false,
+      "mbext_files": [
+        "modelbuilder/builders/base.py"
+      ],
+      "name": "PendingNode"
     },
     {
       "in_mbext": true,
@@ -867,7 +987,7 @@
       "in_ort_genai": true,
       "name": "Qwen35DenseMTPModel",
       "ort_genai_files": [
-        "src/python/py/models/builders/qwen.py"
+        "src/python/py/models/builders/qwen3_5/mtp.py"
       ]
     },
     {
@@ -883,7 +1003,7 @@
       "in_ort_genai": true,
       "name": "Qwen35MTPModel",
       "ort_genai_files": [
-        "src/python/py/models/builders/qwen.py"
+        "src/python/py/models/builders/qwen3_5/mtp.py"
       ]
     },
     {
@@ -891,7 +1011,7 @@
       "in_ort_genai": true,
       "name": "Qwen35MoEModel",
       "ort_genai_files": [
-        "src/python/py/models/builders/qwen.py"
+        "src/python/py/models/builders/qwen3_5/model.py"
       ]
     },
     {
@@ -899,7 +1019,7 @@
       "in_ort_genai": true,
       "name": "Qwen35MoETextModel",
       "ort_genai_files": [
-        "src/python/py/models/builders/qwen.py"
+        "src/python/py/models/builders/qwen3_5/text.py"
       ]
     },
     {
@@ -907,7 +1027,7 @@
       "in_ort_genai": true,
       "name": "Qwen35Model",
       "ort_genai_files": [
-        "src/python/py/models/builders/qwen.py"
+        "src/python/py/models/builders/qwen3_5/model.py"
       ]
     },
     {
@@ -934,7 +1054,7 @@
       ],
       "name": "Qwen35TextModel",
       "ort_genai_files": [
-        "src/python/py/models/builders/qwen.py"
+        "src/python/py/models/builders/qwen3_5/text.py"
       ]
     },
     {
@@ -944,6 +1064,38 @@
         "modelbuilder/builders/qwen.py"
       ],
       "name": "Qwen35VisionEncoderModel"
+    },
+    {
+      "in_mbext": false,
+      "in_ort_genai": true,
+      "name": "Qwen38EngramLoader",
+      "ort_genai_files": [
+        "src/python/py/models/loaders/engram.py"
+      ]
+    },
+    {
+      "in_mbext": false,
+      "in_ort_genai": true,
+      "name": "Qwen38MTPLoader",
+      "ort_genai_files": [
+        "src/python/py/models/loaders/mtp.py"
+      ]
+    },
+    {
+      "in_mbext": false,
+      "in_ort_genai": true,
+      "name": "Qwen38ModeloptModel",
+      "ort_genai_files": [
+        "src/python/py/models/loaders/qwen3_8.py"
+      ]
+    },
+    {
+      "in_mbext": false,
+      "in_ort_genai": true,
+      "name": "Qwen38VisionLoader",
+      "ort_genai_files": [
+        "src/python/py/models/loaders/vision.py"
+      ]
     },
     {
       "in_mbext": true,
@@ -968,6 +1120,70 @@
       ]
     },
     {
+      "in_mbext": false,
+      "in_ort_genai": true,
+      "name": "Qwen4ExpEmbeddingModel",
+      "ort_genai_files": [
+        "src/python/py/models/builders/qwen3_8/embedding.py"
+      ]
+    },
+    {
+      "in_mbext": false,
+      "in_ort_genai": true,
+      "name": "Qwen4ExpEngramModel",
+      "ort_genai_files": [
+        "src/python/py/models/builders/qwen3_8/engram.py"
+      ]
+    },
+    {
+      "in_mbext": false,
+      "in_ort_genai": true,
+      "name": "Qwen4ExpGraphModel",
+      "ort_genai_files": [
+        "src/python/py/models/builders/qwen3_8/graph.py"
+      ]
+    },
+    {
+      "in_mbext": false,
+      "in_ort_genai": true,
+      "name": "Qwen4ExpMTPModel",
+      "ort_genai_files": [
+        "src/python/py/models/loaders/mtp.py"
+      ]
+    },
+    {
+      "in_mbext": false,
+      "in_ort_genai": true,
+      "name": "Qwen4ExpMTPTextModel",
+      "ort_genai_files": [
+        "src/python/py/models/builders/qwen3_8/mtp.py"
+      ]
+    },
+    {
+      "in_mbext": false,
+      "in_ort_genai": true,
+      "name": "Qwen4ExpModel",
+      "ort_genai_files": [
+        "src/python/py/models/builders/qwen3_8/model.py"
+      ]
+    },
+    {
+      "in_mbext": false,
+      "in_ort_genai": true,
+      "name": "Qwen4ExpTextModel",
+      "ort_genai_files": [
+        "src/python/py/models/builders/qwen3_8/text.py"
+      ]
+    },
+    {
+      "in_mbext": false,
+      "in_ort_genai": true,
+      "name": "Qwen4ExpVisionModel",
+      "ort_genai_files": [
+        "src/python/py/models/builders/qwen3_8/vision.py"
+      ]
+    },
+    {
       "in_mbext": true,
       "in_ort_genai": false,
       "mbext_files": [
@@ -980,7 +1196,7 @@
       "in_ort_genai": true,
       "name": "QwenMTPModel",
       "ort_genai_files": [
-        "src/python/py/models/loaders/qwen.py"
+        "src/python/py/models/loaders/mtp.py"
       ]
     },
     {
@@ -1004,6 +1220,14 @@
     },
     {
       "in_mbext": true,
+      "in_ort_genai": false,
+      "mbext_files": [
+        "modelbuilder/helpers/checkpoint.py"
+      ],
+      "name": "SafetensorsCheckpoint"
+    },
+    {
+      "in_mbext": true,
       "in_ort_genai": true,
       "mbext_files": [
         "modelbuilder/builders/smollm.py"
@@ -1017,9 +1241,49 @@
       "in_mbext": true,
       "in_ort_genai": false,
       "mbext_files": [
-        "modelbuilder/builders/base.py"
+        "modelbuilder/builders/smollm.py"
+      ],
+      "name": "SmolVLMConditionalGenerationModel"
+    },
+    {
+      "in_mbext": true,
+      "in_ort_genai": false,
+      "mbext_files": [
+        "modelbuilder/builders/smollm.py"
+      ],
+      "name": "SmolVLMEmbeddingModel"
+    },
+    {
+      "in_mbext": true,
+      "in_ort_genai": false,
+      "mbext_files": [
+        "modelbuilder/builders/smollm.py"
+      ],
+      "name": "SmolVLMTextModel"
+    },
+    {
+      "in_mbext": true,
+      "in_ort_genai": false,
+      "mbext_files": [
+        "modelbuilder/builders/smollm.py"
+      ],
+      "name": "SmolVLMVisionEncoderModel"
+    },
+    {
+      "in_mbext": true,
+      "in_ort_genai": false,
+      "mbext_files": [
+        "modelbuilder/helpers/checkpoint.py"
       ],
       "name": "SourceTensor"
+    },
+    {
+      "in_mbext": false,
+      "in_ort_genai": true,
+      "name": "Standard",
+      "ort_genai_files": [
+        "src/python/py/models/builders/expansions/standard.py"
+      ]
     },
     {
       "in_mbext": true,
@@ -1160,17 +1424,17 @@
       "name": "_Branch"
     }
   ],
-  "date": "2026-10-26T14:24:02Z",
+  "date": "2026-11-02T18:00:19Z",
   "projects": {
     "mbext": {
-      "commit": "095caaf52f9a13c4a7852c4c423b120f26997a46",
+      "commit": "45dc58c8b672a948e0277e2442cbf3b5cb3cba85",
       "owner": "xadupre",
       "path": "modelbuilder",
       "ref": "main",
       "repo": "mbext"
     },
     "ort_genai": {
-      "commit": "fd0c5c50c733fee689e6a9e29785042e00a967d5",
+      "commit": "26d2dd9f616a7292d2cb51a17c6563970976600c",
       "owner": "microsoft",
       "path": "src/python/py/models",
       "ref": "main",
@@ -1178,7 +1442,7 @@
     }
   },
   "totals": {
-    "mbext": 77,
-    "ort_genai": 91
+    "mbext": 85,
+    "ort_genai": 116
   }
 }
