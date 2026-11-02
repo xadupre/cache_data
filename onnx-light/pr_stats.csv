@@ -2917,3 +2917,7 @@ pr_number,title,author,merged_at,commits,comments,copilot_comments,copilot_commi
 5753,Add optimization report export to the CLI,Copilot,2026-10-31T22:05:46Z,4,2,2,3,2,0,0,0,2,0,1,0,345,35,4
 5755,Support text-defined FunctionPattern rewrites in optimize CLI,xadupre,2026-10-31T19:01:19Z,1,0,0,0,0,0,0,0,0,0,0,0,255,6,3
 5751,Reuse equivalent functions in mincut partitions,xadupre,2026-10-31T17:09:23Z,3,2,1,0,1,0,0,0,1,0,1,0,247,43,9
+5763,Prevent disk exhaustion during Linux release wheel builds,Copilot,2026-11-02T10:40:55Z,3,2,1,3,0,0,0,0,0,0,0,0,90,9,10
+5759,Update 0.2.4 changelog with recent merged changes,xadupre,2026-11-01T22:50:33Z,1,0,0,0,0,0,0,0,0,0,0,0,25,0,1
+5757,Make optimizer plans replayable against the original graph,Copilot,2026-11-01T22:10:26Z,9,10,5,2,5,0,0,0,5,0,5,0,1807,537,33
+5758,Seek past regular-file prefixes in FdReadStream skip APIs,Copilot,2026-11-01T20:51:21Z,5,7,5,3,4,0,0,0,4,0,2,0,451,36,3

@@ -1,5 +1,21 @@
 {
-  "latest": [],
-  "oldest": [],
-  "ages_days": []
+  "latest": [
+    {
+      "number": 2416,
+      "title": "[yobx/torch] Require onnx-light 0.2.4 or newer",
+      "user": "Copilot",
+      "created_at": "2026-11-02T09:03:30Z"
+    }
+  ],
+  "oldest": [
+    {
+      "number": 2416,
+      "title": "[yobx/torch] Require onnx-light 0.2.4 or newer",
+      "user": "Copilot",
+      "created_at": "2026-11-02T09:03:30Z"
+    }
+  ],
+  "ages_days": [
+    0.1600044551736111
+  ]
 }

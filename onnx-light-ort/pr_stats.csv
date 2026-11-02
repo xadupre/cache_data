@@ -46,3 +46,11 @@ pr_number,title,author,merged_at,commits,comments,copilot_comments,copilot_commi
 75,Pin onnx-light 0.2.1 and onnx-light-cpu 0.2.1.1,Copilot,2026-10-28T12:27:55Z,2,0,0,2,0,0,0,0,0,0,0,0,46,31,12
 79,Upgrade onnx-light to 0.2.2,Copilot,2026-10-29T21:48:44Z,4,2,1,4,0,0,0,0,0,0,0,0,72,32,15
 77,Display the project version on the documentation homepage,Copilot,2026-10-29T14:52:45Z,2,0,0,2,0,0,0,0,0,0,0,0,15,0,3
+92,Fix short title underline in development documentation,Copilot,2026-11-02T10:45:13Z,2,0,0,2,0,0,0,0,0,0,0,0,1,1,1
+82,Bump ruff from 0.17.1 to 0.17.3,dependabot[bot],2026-11-02T09:21:52Z,1,0,0,0,0,0,0,0,0,0,0,0,1,1,1
+85,Update cmake requirement from >=4.0 to >=4.4.4 in /docs,dependabot[bot],2026-11-02T09:21:15Z,1,0,0,0,0,0,0,0,0,0,0,0,1,1,1
+86,"Update nanobind requirement from <4,>=3.0.1 to >=3.1.0,<4 in /requirements",dependabot[bot],2026-11-02T09:20:41Z,1,0,0,0,0,0,0,0,0,0,0,0,1,1,1
+87,Bump ruff from 0.17.1 to 0.17.3 in /requirements,dependabot[bot],2026-11-02T09:20:25Z,1,0,0,0,0,0,0,0,0,0,0,0,1,1,1
+88,Bump gcovr from 8.7 to 8.8 in /requirements,dependabot[bot],2026-11-02T09:20:13Z,1,0,0,0,0,0,0,0,0,0,0,0,1,1,1
+89,"Update onnxruntime requirement from <2,>=1.31.0 to >=1.31.1,<2 in /requirements",dependabot[bot],2026-11-02T09:19:58Z,1,0,0,0,0,0,0,0,0,0,0,0,1,1,1
+90,Bump pypa/cibuildwheel from 4.3.1 to 4.3.5,dependabot[bot],2026-11-02T09:19:47Z,1,0,0,0,0,0,0,0,0,0,0,0,1,1,1

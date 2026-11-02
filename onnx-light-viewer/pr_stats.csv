@@ -156,3 +156,13 @@ pr_number,title,author,merged_at,commits,comments,copilot_comments,copilot_commi
 277,"Add Engine settings with ONNX Runtime, PyTorch and onnx-light subtabs",Copilot,2026-10-31T13:34:27Z,3,2,1,2,1,0,0,0,1,0,1,0,275,38,7
 273,Add static Hugging Face model ID suggestions,xadupre,2026-10-31T13:11:40Z,3,0,0,0,0,0,0,0,0,0,0,0,311,10,5
 272,Connect graph edges to ordered input and output ports,Copilot,2026-10-31T11:48:29Z,4,4,2,2,2,0,0,0,2,0,2,0,458,19,8
+308,Use Python 3.13 for Sphinx 9.2 documentation builds,Copilot,2026-11-02T11:51:42Z,2,0,0,2,0,0,0,0,0,0,0,0,5,1,2
+307,Add statistics icons to Run input and output headings,Copilot,2026-11-02T11:51:24Z,3,10,5,2,5,0,0,0,5,0,5,0,63,11,3
+305,"Add ONNX Runtime profiling, kernel timings, and trace export",Copilot,2026-11-02T10:58:21Z,3,2,1,2,1,0,0,0,1,0,1,0,550,25,13
+301,Show onnx-light SDK logs in the Run tab,Copilot,2026-11-02T10:40:09Z,5,4,2,3,2,0,0,0,2,0,2,0,466,16,7
+303,Compare memory configurations on a shared plot,Copilot,2026-11-02T10:27:26Z,5,2,2,2,2,0,0,0,2,0,2,0,533,79,10
+300,Add reusable Run sessions and fix macOS exporter cancellation,xadupre,2026-11-02T09:25:44Z,4,14,7,0,7,0,0,0,7,0,7,0,2510,561,26
+297,Add predefined ONNX Runtime options and reusable Run sessions,xadupre,2026-11-01T21:11:36Z,7,12,5,0,5,0,0,0,5,0,5,0,2025,534,24
+296,Inspect and save Run input/output tensors and statistics,Copilot,2026-11-01T14:45:41Z,6,14,13,4,12,0,0,0,12,0,7,0,1089,47,20
+293,"Add engine selection, dynamic dimensions and input sources to Run",Copilot,2026-11-01T13:11:20Z,6,6,3,4,3,0,0,0,3,0,2,0,1395,71,18
+292,Wait for POSIX exporter workers to stop before cancellation returns,Copilot,2026-11-01T11:33:57Z,2,0,0,2,0,0,0,0,0,0,0,0,157,1,2
