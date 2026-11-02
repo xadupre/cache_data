@@ -53,3 +53,9 @@ job_id,run_id,workflow,job_name,status,conclusion,started_at,completed_at,durati
 114838089328,38257165820,Build Reduced Wheels,"reduced wheel (ubuntu-latest, py3.12)",completed,success,2026-10-12T14:14:18Z,2026-10-12T14:43:45Z,1767,2a6907269b3a7f658d950e40de911300dbfa80ff
 120071129042,39849372607,Build Reduced Wheels,"reduced wheel (ubuntu-latest, py3.12)",completed,failure,2026-10-22T20:30:39Z,2026-10-22T20:58:00Z,1641,6400f0f812b13bc32469e405bd2f762ba3cba7f0
 118031743892,39244113179,Build Reduced Wheels,"reduced wheel (ubuntu-latest, py3.12)",completed,success,2026-10-19T11:22:36Z,2026-10-19T11:54:30Z,1914,274a1949bc3b09ee515b638b6c739530ca71d69b
+125228800042,41430865453,Build Reduced Wheels,"reduced wheel (ubuntu-latest, py3.12)",completed,success,2026-11-02T10:42:42Z,2026-11-02T11:07:48Z,1506,76f9cbcb80cb7ccf145384339a704fe1d0727d7c
+125026739029,41366191191,Build Reduced Wheels,"reduced wheel (ubuntu-latest, py3.12)",completed,success,2026-11-02T00:15:47Z,2026-11-02T00:56:03Z,2416,72e3b066fd84e591bdffc322b5271d8444c7d8e3
+123974299387,41029115545,Build Reduced Wheels,"reduced wheel (ubuntu-latest, py3.12)",completed,failure,2026-10-30T08:53:31Z,2026-10-30T09:15:26Z,1315,eb701e2f2715b4f6378252e6caeb24455ecb9620
+123405584411,40861496687,Build Reduced Wheels,"reduced wheel (ubuntu-latest, py3.12)",completed,success,2026-10-29T11:31:15Z,2026-10-29T12:10:03Z,2328,4a0c013fe9f51e5ceb7b28170c616dbc531f611d
+122373819493,40556491439,Build Reduced Wheels,"reduced wheel (ubuntu-latest, py3.12)",completed,success,2026-10-27T18:04:20Z,2026-10-27T18:22:24Z,1084,30c19cceae7e1cb0b8300ec2550a3aeb5de87dc9
+121550807881,40316648008,Build Reduced Wheels,"reduced wheel (ubuntu-latest, py3.12)",completed,success,2026-10-26T11:47:31Z,2026-10-26T12:16:16Z,1725,a90f8334207dc5862e69104b6b8ca964506be7e4

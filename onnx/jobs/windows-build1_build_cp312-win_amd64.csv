@@ -15,3 +15,4 @@ job_id,run_id,workflow,job_name,status,conclusion,started_at,completed_at,durati
 91074467419,30604696839,ReproducibleBuild,windows-build1 / build (cp312-win_amd64),completed,success,2026-07-31T04:39:05Z,2026-07-31T04:50:07Z,662,0e4703b020a87561df8d9fb06df0d225a84d831f
 91624274735,30794294535,ReproducibleBuild,windows-build1 / build (cp312-win_amd64),completed,success,2026-08-03T07:36:55Z,2026-08-03T07:49:24Z,749,9c1f8549105ef0381640ca6c658567464016c77f
 93101673214,31256954063,ReproducibleBuild,windows-build1 / build (cp312-win_amd64),completed,success,2026-08-08T12:18:59Z,2026-08-08T12:29:02Z,603,8c2aa9b326ae291eb05a61654211183b93e9ac4c
+124296898938,41123771828,ReproducibleBuild,windows-build1 / build (cp312-win_amd64),completed,success,2026-10-30T20:30:39Z,2026-10-30T20:36:59Z,380,11b9e96b97a71edfd0b2836cc58bdaf27557aa68

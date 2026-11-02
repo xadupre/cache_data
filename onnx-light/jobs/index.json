@@ -71,6 +71,7 @@
     "reduced_wheel_ubuntu-latest_py3.13.csv",
     "reduced_wheel_ubuntu-latest_py3.14.csv",
     "report.csv",
+    "report_failure.csv",
     "spelling.csv",
     "spelling_spelling.csv",
     "standalone_C_protos.csv",

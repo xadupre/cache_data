@@ -14,3 +14,7 @@ job_id,run_id,workflow,job_name,status,conclusion,started_at,completed_at,durati
 120331914141,39928876072,"pip in /., /docs, /requirements - Update #1647406842",Dependabot,completed,success,2026-10-23T09:16:23Z,2026-10-23T09:18:08Z,105,b664fecf45e840365d5ef273f04b4f6c7cf7142f
 120331915519,39928876387,github_actions in /. - Update #1647406827,Dependabot,completed,success,2026-10-23T09:26:14Z,2026-10-23T09:27:11Z,57,b664fecf45e840365d5ef273f04b4f6c7cf7142f
 120331902658,39928872304,"pip in /., /docs, /requirements - Update #1647406637",Dependabot,completed,success,2026-10-23T09:12:09Z,2026-10-23T09:14:37Z,148,b664fecf45e840365d5ef273f04b4f6c7cf7142f
+125192985224,41419998755,pip in / for ruff - Update #1673355071,Dependabot,completed,success,2026-11-02T09:23:58Z,2026-11-02T09:25:01Z,63,b66d8d3908f863038be180093024377548ec4068
+125192973240,41419994822,pip in / for gcovr - Update #1673355005,Dependabot,completed,success,2026-11-02T09:22:33Z,2026-11-02T09:23:18Z,45,b66d8d3908f863038be180093024377548ec4068
+124337527689,41135714897,github_actions in /. - Update #1666643540,Dependabot,completed,success,2026-10-30T22:23:48Z,2026-10-30T22:24:38Z,50,88ad55c058d1ee96707478d4aa529cc0628c7afd
+124337526648,41135714636,"pip in /., /docs, /requirements - Update #1666643543",Dependabot,completed,success,2026-10-30T22:15:59Z,2026-10-30T22:18:00Z,121,88ad55c058d1ee96707478d4aa529cc0628c7afd

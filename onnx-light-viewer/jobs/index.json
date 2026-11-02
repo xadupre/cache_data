@@ -8,6 +8,7 @@
     "Dependabot.csv",
     "Sphinx_documentation.csv",
     "Unit_tests_and_formatting.csv",
+    "Unit_tests_and_formatting_macos-15.csv",
     "Unit_tests_and_formatting_macos-latest.csv",
     "Unit_tests_and_formatting_ubuntu-latest.csv",
     "Unit_tests_and_formatting_windows-latest.csv",

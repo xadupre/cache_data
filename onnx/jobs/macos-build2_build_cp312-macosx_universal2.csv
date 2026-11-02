@@ -15,3 +15,4 @@ job_id,run_id,workflow,job_name,status,conclusion,started_at,completed_at,durati
 91074467348,30604696839,ReproducibleBuild,macos-build2 / build (cp312-macosx_universal2),completed,success,2026-07-31T04:39:05Z,2026-07-31T04:45:10Z,365,0e4703b020a87561df8d9fb06df0d225a84d831f
 91624274809,30794294535,ReproducibleBuild,macos-build2 / build (cp312-macosx_universal2),completed,success,2026-08-03T07:36:55Z,2026-08-03T07:43:39Z,404,9c1f8549105ef0381640ca6c658567464016c77f
 93101673165,31256954063,ReproducibleBuild,macos-build2 / build (cp312-macosx_universal2),completed,success,2026-08-08T12:19:00Z,2026-08-08T12:24:59Z,359,8c2aa9b326ae291eb05a61654211183b93e9ac4c
+124296898632,41123771828,ReproducibleBuild,macos-build2 / build (cp312-macosx_universal2),completed,cancelled,2026-10-30T20:30:37Z,2026-10-30T20:30:38Z,1,11b9e96b97a71edfd0b2836cc58bdaf27557aa68

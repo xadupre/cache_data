@@ -1,0 +1,2 @@
+job_id,run_id,workflow,job_name,status,conclusion,started_at,completed_at,duration_seconds,head_sha
+122623773836,40629956828,Semgrep,All public community rules (advisory),completed,success,2026-10-28T04:01:34Z,2026-10-28T04:03:17Z,103,9d372b55691a0652535c4e5d33673f63a7c604af

@@ -15,3 +15,4 @@ job_id,run_id,workflow,job_name,status,conclusion,started_at,completed_at,durati
 91074467438,30604696839,ReproducibleBuild,linux-build2 / build (cp312-manylinux_x86_64),completed,success,2026-07-31T04:39:11Z,2026-07-31T04:45:41Z,390,0e4703b020a87561df8d9fb06df0d225a84d831f
 91624274776,30794294535,ReproducibleBuild,linux-build2 / build (cp312-manylinux_x86_64),completed,success,2026-08-03T07:36:55Z,2026-08-03T07:42:28Z,333,9c1f8549105ef0381640ca6c658567464016c77f
 93101673215,31256954063,ReproducibleBuild,linux-build2 / build (cp312-manylinux_x86_64),completed,success,2026-08-08T12:19:06Z,2026-08-08T12:24:44Z,338,8c2aa9b326ae291eb05a61654211183b93e9ac4c
+124296898647,41123771828,ReproducibleBuild,linux-build2 / build (cp312-manylinux_x86_64),completed,success,2026-10-30T20:30:39Z,2026-10-30T20:36:23Z,344,11b9e96b97a71edfd0b2836cc58bdaf27557aa68

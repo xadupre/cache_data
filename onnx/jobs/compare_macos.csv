@@ -1,0 +1,2 @@
+job_id,run_id,workflow,job_name,status,conclusion,started_at,completed_at,duration_seconds,head_sha
+124300790623,41123771828,ReproducibleBuild,compare (macos),completed,failure,2026-10-30T20:39:59Z,2026-10-30T20:40:05Z,6,11b9e96b97a71edfd0b2836cc58bdaf27557aa68

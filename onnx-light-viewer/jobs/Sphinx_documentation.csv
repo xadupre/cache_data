@@ -185,3 +185,4 @@ job_id,run_id,workflow,job_name,status,conclusion,started_at,completed_at,durati
 119779998536,39765557796,Tests,Sphinx documentation,completed,success,2026-10-22T10:46:07Z,2026-10-22T10:46:17Z,10,c2f6b34843fb3886193e1a19ebdc232b0f76006a
 119778297111,39765047284,Tests,Sphinx documentation,completed,success,2026-10-22T10:41:59Z,2026-10-22T10:42:10Z,11,390db128424ee55e02e4caf6bbb10f1e5d47fcd3
 119777614386,39764842038,Tests,Sphinx documentation,completed,success,2026-10-22T10:40:22Z,2026-10-22T10:40:34Z,12,24c90b4ac965294e6581594827f2c1c85695ff1c
+125225289178,41429817319,Weekly documentation,Sphinx documentation,completed,failure,2026-11-02T10:33:59Z,2026-11-02T10:34:08Z,9,832090790a23ba98631068289bfbfb0756fb5af1

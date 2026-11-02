@@ -144,3 +144,10 @@ job_id,run_id,workflow,job_name,status,conclusion,started_at,completed_at,durati
 119726562871,39749282453,coverage,"coverage (ubuntu-latest, py3.13)",completed,cancelled,2026-10-22T08:42:23Z,2026-10-22T09:15:11Z,1968,e757f0f3a12d9416c8bf0c9c4a590ced91bee2c5
 119124235746,39570539792,coverage,"coverage (ubuntu-latest, py3.13)",completed,cancelled,2026-10-21T08:53:53Z,2026-10-21T09:26:39Z,1966,c5cec4bac4ee4eda8e335f2fd68271646ce880f1
 118533460555,39394397792,coverage,"coverage (ubuntu-latest, py3.13)",completed,cancelled,2026-10-20T08:34:48Z,2026-10-20T09:07:33Z,1965,fc19e54b1e70aba91570f38a8ca43d16bc08172f
+125246062394,41434888769,coverage,"coverage (ubuntu-latest, py3.13)",completed,failure,2026-11-02T11:23:16Z,2026-11-02T11:51:22Z,1686,76f9cbcb80cb7ccf145384339a704fe1d0727d7c
+124822013103,41297713921,coverage,"coverage (ubuntu-latest, py3.13)",completed,cancelled,2026-11-01T10:29:46Z,2026-11-01T11:02:03Z,1937,2e21f6321bbd85317c765f263c7ce18599be51bf
+124503720210,41189676593,coverage,"coverage (ubuntu-latest, py3.13)",completed,failure,2026-10-31T09:41:07Z,2026-10-31T10:06:50Z,1543,b4600809b15586ce1f39c2bff8d0c90297b388d0
+124004496341,41037960349,coverage,"coverage (ubuntu-latest, py3.13)",completed,failure,2026-10-30T10:08:41Z,2026-10-30T10:31:19Z,1358,f132c04c82afeab4b8fffaca6fcfcac9dad3b142
+123380668579,40854088682,coverage,"coverage (ubuntu-latest, py3.13)",completed,failure,2026-10-29T10:01:03Z,2026-10-29T10:23:45Z,1362,37ab225daf3ee5e5278ac35639d125d87ee68224
+122742637958,40666306082,coverage,"coverage (ubuntu-latest, py3.13)",completed,cancelled,2026-10-28T09:45:49Z,2026-10-28T10:18:36Z,1967,13de2216306ff228a1594869f1b64e7a3a8fe1da
+122100067629,40477734675,coverage,"coverage (ubuntu-latest, py3.13)",completed,cancelled,2026-10-27T09:02:12Z,2026-10-27T09:34:29Z,1937,13357f3f7bf84f86727baec41441125c530dc251
