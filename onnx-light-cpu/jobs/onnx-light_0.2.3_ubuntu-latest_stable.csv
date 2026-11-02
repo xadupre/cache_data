@@ -1,0 +1,7 @@
+job_id,run_id,workflow,job_name,status,conclusion,started_at,completed_at,duration_seconds,head_sha
+125262667530,41441035198,ci-core,"onnx-light 0.2.3 (ubuntu-latest, stable)",completed,success,2026-11-02T12:13:59Z,2026-11-02T12:24:11Z,612,cb364aebe445e0eb09be7f77aec12159445a11f4
+124136543526,41077233388,ci-core,"onnx-light 0.2.3 (ubuntu-latest, stable)",completed,success,2026-10-30T15:03:58Z,2026-10-30T15:10:48Z,410,1964fba14c320c0ffeb91b7a372b11befe07dfde
+124106122064,41066414876,ci-core,"onnx-light 0.2.3 (ubuntu-latest, stable)",completed,success,2026-10-30T14:09:50Z,2026-10-30T14:23:17Z,807,16ed253277ddd5e1533988b971ee3396d0957082
+124095926617,41065357479,ci-core,"onnx-light 0.2.3 (ubuntu-latest, stable)",completed,success,2026-10-30T13:43:27Z,2026-10-30T14:23:17Z,2390,a35785eb63d2eb7ba1361ed4a0dc6125205132f7
+124094927324,41065322664,ci-core,"onnx-light 0.2.3 (ubuntu-latest, stable)",completed,cancelled,2026-10-30T13:41:39Z,2026-10-30T13:43:11Z,92,feccd186dc968f7125356c5bee50f4a645317182
+124055604508,41052252025,ci-core,"onnx-light 0.2.3 (ubuntu-latest, stable)",completed,success,2026-10-30T12:31:11Z,2026-10-30T12:48:47Z,1056,06e7541dac1a35b75201f5750db980aebea6a120

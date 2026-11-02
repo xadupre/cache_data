@@ -1,0 +1,7 @@
+job_id,run_id,workflow,job_name,status,conclusion,started_at,completed_at,duration_seconds,head_sha
+125262667591,41441035198,ci-core,"onnx-light 0.2.3 (windows-latest, stable)",completed,success,2026-11-02T12:02:05Z,2026-11-02T12:18:40Z,995,cb364aebe445e0eb09be7f77aec12159445a11f4
+124136543459,41077233388,ci-core,"onnx-light 0.2.3 (windows-latest, stable)",completed,success,2026-10-30T15:03:58Z,2026-10-30T15:27:16Z,1398,1964fba14c320c0ffeb91b7a372b11befe07dfde
+124106122295,41066414876,ci-core,"onnx-light 0.2.3 (windows-latest, stable)",completed,success,2026-10-30T14:07:15Z,2026-10-30T14:56:00Z,2925,16ed253277ddd5e1533988b971ee3396d0957082
+124095926514,41065357479,ci-core,"onnx-light 0.2.3 (windows-latest, stable)",completed,cancelled,2026-10-30T13:43:27Z,2026-10-30T14:43:46Z,3619,a35785eb63d2eb7ba1361ed4a0dc6125205132f7
+124094927305,41065322664,ci-core,"onnx-light 0.2.3 (windows-latest, stable)",completed,cancelled,2026-10-30T13:41:39Z,2026-10-30T13:43:08Z,89,feccd186dc968f7125356c5bee50f4a645317182
+124055604220,41052252025,ci-core,"onnx-light 0.2.3 (windows-latest, stable)",completed,cancelled,2026-10-30T12:13:29Z,2026-10-30T13:13:41Z,3612,06e7541dac1a35b75201f5750db980aebea6a120

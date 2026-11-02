@@ -1,0 +1,7 @@
+job_id,run_id,workflow,job_name,status,conclusion,started_at,completed_at,duration_seconds,head_sha
+125262667656,41441035198,ci-core,"onnx-light 0.2.3 (macos-latest, stable)",completed,success,2026-11-02T12:05:40Z,2026-11-02T12:12:02Z,382,cb364aebe445e0eb09be7f77aec12159445a11f4
+124136543422,41077233388,ci-core,"onnx-light 0.2.3 (macos-latest, stable)",completed,success,2026-10-30T15:03:58Z,2026-10-30T15:13:09Z,551,1964fba14c320c0ffeb91b7a372b11befe07dfde
+124106122094,41066414876,ci-core,"onnx-light 0.2.3 (macos-latest, stable)",completed,success,2026-10-30T14:11:33Z,2026-10-30T14:22:45Z,672,16ed253277ddd5e1533988b971ee3396d0957082
+124095926384,41065357479,ci-core,"onnx-light 0.2.3 (macos-latest, stable)",completed,success,2026-10-30T13:43:31Z,2026-10-30T14:22:07Z,2316,a35785eb63d2eb7ba1361ed4a0dc6125205132f7
+124094927550,41065322664,ci-core,"onnx-light 0.2.3 (macos-latest, stable)",completed,cancelled,2026-10-30T13:41:37Z,2026-10-30T13:41:52Z,15,feccd186dc968f7125356c5bee50f4a645317182
+124055604277,41052252025,ci-core,"onnx-light 0.2.3 (macos-latest, stable)",completed,success,2026-10-30T12:18:59Z,2026-10-30T13:00:42Z,2503,06e7541dac1a35b75201f5750db980aebea6a120
