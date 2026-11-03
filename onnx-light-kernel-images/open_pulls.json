@@ -1,21 +1,21 @@
 {
   "latest": [
     {
-      "number": 93,
-      "title": "Align package and onnx-light dependency versions at 0.2.4",
+      "number": 95,
+      "title": "Update onnx-light dependency to 0.2.5",
       "user": "Copilot",
-      "created_at": "2026-11-02T09:02:11Z"
+      "created_at": "2026-11-03T11:58:27Z"
     }
   ],
   "oldest": [
     {
-      "number": 93,
-      "title": "Align package and onnx-light dependency versions at 0.2.4",
+      "number": 95,
+      "title": "Update onnx-light dependency to 0.2.5",
       "user": "Copilot",
-      "created_at": "2026-11-02T09:02:11Z"
+      "created_at": "2026-11-03T11:58:27Z"
     }
   ],
   "ages_days": [
-    0.16087821726851853
+    0.01724241584490741
   ]
 }

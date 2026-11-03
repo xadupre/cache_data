@@ -1,21 +1,21 @@
 {
   "latest": [
     {
-      "number": 309,
-      "title": "Improve memory profiling dimensions and table readability",
-      "user": "xadupre",
-      "created_at": "2026-11-02T11:48:58Z"
+      "number": 315,
+      "title": "Add ONNX Runtime profiling plots and repeat controls to Run and Prompt",
+      "user": "Copilot",
+      "created_at": "2026-11-03T08:20:56Z"
     }
   ],
   "oldest": [
     {
-      "number": 309,
-      "title": "Improve memory profiling dimensions and table readability",
-      "user": "xadupre",
-      "created_at": "2026-11-02T11:48:58Z"
+      "number": 315,
+      "title": "Add ONNX Runtime profiling plots and repeat controls to Run and Prompt",
+      "user": "Copilot",
+      "created_at": "2026-11-03T08:20:56Z"
     }
   ],
   "ages_days": [
-    0.045077697303240745
+    0.16832885630787037
   ]
 }

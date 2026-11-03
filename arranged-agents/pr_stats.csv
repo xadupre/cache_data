@@ -24,3 +24,6 @@ pr_number,title,author,merged_at,commits,comments,copilot_comments,copilot_commi
 7,Add newest-first GitHub activity sidebar,xadupre,2026-10-28T15:12:53Z,4,0,0,0,0,0,0,0,0,0,0,0,1927,16,15
 6,Improve chat readability and repository session management,xadupre,2026-10-28T14:28:38Z,1,0,0,0,0,0,0,0,0,0,0,0,1949,133,19
 44,Display package version on documentation homepage and app header,Copilot,2026-10-29T14:40:15Z,2,0,0,2,0,0,0,0,0,0,0,0,28,2,6
+47,Bump actions/setup-python from 6.3.0 to 7.1.0,dependabot[bot],2026-11-03T11:56:44Z,1,0,0,0,0,0,0,0,0,0,0,0,1,1,1
+52,Bump jsdom and @types/jsdom,dependabot[bot],2026-11-03T11:56:01Z,1,0,0,0,0,0,0,0,0,0,0,0,123,181,2
+51,Bump @vscode/vsce from 4.0.0 to 4.1.0,dependabot[bot],2026-11-03T11:55:48Z,1,0,0,0,0,0,0,0,0,0,0,0,6,5,2

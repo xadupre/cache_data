@@ -649,3 +649,6 @@ pr_number,title,author,merged_at,commits,comments,copilot_comments,copilot_commi
 1075,Bump version to 0.2.3 and refresh changelog,Copilot,2026-10-30T15:03:52Z,2,1,0,2,0,0,0,0,0,0,0,0,23,11,8
 1071,Improve cache locality for large parallel TreeEnsemble workloads,Copilot,2026-10-30T13:41:48Z,2,2,0,2,0,0,0,0,0,0,0,0,125,32,3
 1073,Use onnx-light 0.2.3 in CI and release builds,Copilot,2026-10-30T13:41:33Z,2,1,0,2,0,0,0,0,0,0,0,0,25,21,10
+1086,Add macOS-only recovery for missing 0.2.4 release wheels,Copilot,2026-11-03T09:38:20Z,2,1,0,2,0,0,0,0,0,0,0,0,51,6,3
+1084,Bump project version to 0.2.5,Copilot,2026-11-02T16:50:27Z,2,1,0,2,0,0,0,0,0,0,0,0,17,9,8
+1077,Update onnx-light dependency to 0.2.4,Copilot,2026-11-02T15:16:13Z,5,7,3,5,0,0,0,0,0,0,0,0,46,30,17
