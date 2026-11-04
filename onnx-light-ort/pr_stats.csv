@@ -55,3 +55,4 @@ pr_number,title,author,merged_at,commits,comments,copilot_comments,copilot_commi
 89,"Update onnxruntime requirement from <2,>=1.31.0 to >=1.31.1,<2 in /requirements",dependabot[bot],2026-11-02T09:19:58Z,1,0,0,0,0,0,0,0,0,0,0,0,1,1,1
 90,Bump pypa/cibuildwheel from 4.3.1 to 4.3.5,dependabot[bot],2026-11-02T09:19:47Z,1,0,0,0,0,0,0,0,0,0,0,0,1,1,1
 94,Upgrade onnx-light to 0.2.4.1 and onnx-light-cpu to 0.2.4,Copilot,2026-11-02T16:51:20Z,3,0,0,3,0,0,0,0,0,0,0,0,33,33,11
+96,Upgrade native dependencies to 0.2.5 and centralize version defaults,Copilot,2026-11-03T19:30:12Z,3,0,0,3,0,0,0,0,0,0,0,0,205,55,13

@@ -1,21 +1,21 @@
 {
   "latest": [
     {
-      "number": 5776,
-      "title": "Bump release version to 0.2.6",
+      "number": 5800,
+      "title": "[WIP] Add complete MXFP4 contract with E8M0 block scales",
       "user": "Copilot",
-      "created_at": "2026-11-03T08:18:48Z"
+      "created_at": "2026-11-04T09:59:15Z"
     }
   ],
   "oldest": [
     {
-      "number": 5776,
-      "title": "Bump release version to 0.2.6",
+      "number": 5800,
+      "title": "[WIP] Add complete MXFP4 contract with E8M0 block scales",
       "user": "Copilot",
-      "created_at": "2026-11-03T08:18:48Z"
+      "created_at": "2026-11-04T09:59:15Z"
     }
   ],
   "ages_days": [
-    0.16932054163194446
+    0.10684879208333332
   ]
 }

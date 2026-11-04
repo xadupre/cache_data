@@ -1,21 +1,5 @@
 {
-  "latest": [
-    {
-      "number": 2419,
-      "title": "Pin onnx-light to 0.2.5",
-      "user": "Copilot",
-      "created_at": "2026-11-03T11:44:59Z"
-    }
-  ],
-  "oldest": [
-    {
-      "number": 2419,
-      "title": "Pin onnx-light to 0.2.5",
-      "user": "Copilot",
-      "created_at": "2026-11-03T11:44:59Z"
-    }
-  ],
-  "ages_days": [
-    0.026650858634259263
-  ]
+  "latest": [],
+  "oldest": [],
+  "ages_days": []
 }

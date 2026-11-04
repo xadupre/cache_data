@@ -1,34 +1,34 @@
 {
   "latest": [
     {
-      "number": 1087,
-      "title": "Migrate peak-memory estimators to the onnx-light 0.2.5 API",
-      "user": "xadupre",
-      "created_at": "2026-11-03T09:36:30Z"
+      "number": 1110,
+      "title": "Correct MatMulNBits peak-memory estimates",
+      "user": "Copilot",
+      "created_at": "2026-11-04T12:01:19Z"
     },
     {
-      "number": 1078,
-      "title": "Reuse immutable FP32 LM-head packing on AVX2 and AVX-512",
-      "user": "xadupre",
-      "created_at": "2026-11-02T11:59:04Z"
+      "number": 1108,
+      "title": "Include head-sink buffer in Attention peak-memory estimates",
+      "user": "Copilot",
+      "created_at": "2026-11-04T10:21:28Z"
     }
   ],
   "oldest": [
     {
-      "number": 1078,
-      "title": "Reuse immutable FP32 LM-head packing on AVX2 and AVX-512",
-      "user": "xadupre",
-      "created_at": "2026-11-02T11:59:04Z"
+      "number": 1108,
+      "title": "Include head-sink buffer in Attention peak-memory estimates",
+      "user": "Copilot",
+      "created_at": "2026-11-04T10:21:28Z"
     },
     {
-      "number": 1087,
-      "title": "Migrate peak-memory estimators to the onnx-light 0.2.5 API",
-      "user": "xadupre",
-      "created_at": "2026-11-03T09:36:30Z"
+      "number": 1110,
+      "title": "Correct MatMulNBits peak-memory estimates",
+      "user": "Copilot",
+      "created_at": "2026-11-04T12:01:19Z"
     }
   ],
   "ages_days": [
-    1.0167269743518519,
-    0.11573160398148148
+    0.09173518057870371,
+    0.022394902800925924
   ]
 }

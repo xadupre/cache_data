@@ -44,3 +44,4 @@ pr_number,title,author,merged_at,commits,comments,copilot_comments,copilot_commi
 87,Display package version on documentation landing page,Copilot,2026-10-29T14:52:59Z,2,1,0,2,0,0,0,0,0,0,0,0,14,0,3
 91,Upgrade onnx-light to 0.2.3,Copilot,2026-10-30T17:21:20Z,2,1,0,2,0,0,0,0,0,0,0,0,31,31,11
 93,Align package and onnx-light dependency versions at 0.2.4,Copilot,2026-11-02T16:51:36Z,4,7,3,4,0,0,0,0,0,0,0,0,88,37,14
+95,Update onnx-light dependency to 0.2.5,Copilot,2026-11-03T19:15:02Z,4,5,2,4,0,0,0,0,0,0,0,0,248,57,16

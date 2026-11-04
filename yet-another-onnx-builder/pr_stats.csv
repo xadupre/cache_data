@@ -296,3 +296,5 @@ pr_number,title,author,merged_at,commits,comments,copilot_comments,copilot_commi
 2412,Bump ruff from 0.17.1 to 0.17.2,dependabot[bot],2026-10-29T12:34:18Z,1,0,0,0,0,0,0,0,0,0,0,0,1,1,1
 2414,[yobx/torch] Pin onnx-light to 0.2.3,Copilot,2026-11-01T10:10:54Z,3,7,2,3,0,0,0,0,0,0,0,0,56,25,14
 2416,[yobx/torch] Require onnx-light 0.2.4 or newer,Copilot,2026-11-03T08:58:51Z,6,10,4,6,0,0,0,0,0,0,0,0,303,56,22
+2420,Fix documentation runtime compatibility and strict Sphinx warnings,Copilot,2026-11-04T08:45:52Z,4,3,1,4,0,0,0,0,0,0,0,0,74,6,11
+2419,[yobx/torch] Pin onnx-light to 0.2.5,Copilot,2026-11-03T13:48:01Z,4,6,2,4,0,0,0,0,0,0,0,0,149,37,11

@@ -171,3 +171,10 @@ pr_number,title,author,merged_at,commits,comments,copilot_comments,copilot_commi
 312,Fix remaining rewriting review findings from #311,xadupre,2026-11-02T21:21:56Z,1,1,0,0,0,0,0,0,0,0,0,0,111,15,3
 311,Upgrade onnx-light to 0.2.4.1 and onnx-light-cpu to 0.2.4,Copilot,2026-11-02T18:10:08Z,5,19,9,3,9,0,0,0,9,0,9,0,683,107,14
 309,Improve memory profiling dimensions and table readability,xadupre,2026-11-02T15:40:40Z,9,2,1,0,1,0,0,0,1,0,1,0,598,94,8
+327,Upgrade onnx-light and onnx-light-cpu to 0.2.6,xadupre,2026-11-04T12:32:15Z,2,1,0,0,0,0,0,0,0,0,0,0,79,61,5
+325,Add symbolic equivalence editor and heatmap pixel shapes,xadupre,2026-11-03T23:22:02Z,2,4,2,0,2,0,0,0,2,0,2,0,704,135,12
+324,List symbolic dimensions and merge equivalent labels,Copilot,2026-11-03T21:12:22Z,3,2,1,2,1,0,0,0,1,0,1,0,750,24,13
+322,Align multiline edge labels and preserve whole words,Copilot,2026-11-03T19:31:20Z,2,0,0,2,0,0,0,0,0,0,0,0,60,18,2
+320,"Keep arc labels horizontal, centered and multiline",xadupre,2026-11-03T17:20:35Z,1,0,0,0,0,0,0,0,0,0,0,0,138,94,2
+315,Add ONNX Runtime profiling plots and repeat controls to Run and Prompt,Copilot,2026-11-03T16:57:32Z,7,8,4,4,4,0,0,0,4,0,4,0,983,28,22
+319,Upgrade onnx-light and onnx-light-cpu to 0.2.5,Copilot,2026-11-03T16:17:22Z,3,0,0,2,0,0,0,0,0,0,0,0,379,121,11
