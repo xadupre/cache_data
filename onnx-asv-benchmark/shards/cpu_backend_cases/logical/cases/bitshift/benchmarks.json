@@ -71,6 +71,42 @@
     "version": "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
     "warmup_time": -1
   },
+  "cpu_backend_cases.logical.cases.BitShiftUint16Inputs2Shard1.time_bitshift_v28_contiguous_uint16xuint16_to_uint16_left_swapped_n1048576": {
+    "code": "class <locals>:\n    def time_case(self, *parameters):\n        for feed in state[\"feeds\"]:\n            state[\"session\"].run(None, feed)\n\ndef setup(*parameters):\n    *inputs, backend = parameters\n    case_name = lookup[tuple(inputs)]\n    state[\"case\"], state[\"feeds\"], state[\"session\"] = _prepare_case(\n        case_name, backend\n    )",
+    "min_run_count": 2,
+    "name": "cpu_backend_cases.logical.cases.BitShiftUint16Inputs2Shard1.time_bitshift_v28_contiguous_uint16xuint16_to_uint16_left_swapped_n1048576",
+    "number": 1,
+    "param_names": [
+      "dtype1",
+      "dtype2",
+      "input_shapes",
+      "backend"
+    ],
+    "params": [
+      [
+        "'uint16'"
+      ],
+      [
+        "'uint16'"
+      ],
+      [
+        "'(1048576,) x (1048576,)'"
+      ],
+      [
+        "'onnx-light-cpu'",
+        "'onnxruntime'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "skip_params": [],
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+    "warmup_time": -1
+  },
   "cpu_backend_cases.logical.cases.BitShiftUint16Inputs2Shard1.time_bitshift_v28_general_left": {
     "code": "class <locals>:\n    def time_case(self, *parameters):\n        for feed in state[\"feeds\"]:\n            state[\"session\"].run(None, feed)\n\ndef setup(*parameters):\n    *inputs, backend = parameters\n    case_name = lookup[tuple(inputs)]\n    state[\"case\"], state[\"feeds\"], state[\"session\"] = _prepare_case(\n        case_name, backend\n    )",
     "min_run_count": 2,
@@ -549,6 +585,42 @@
     "code": "class <locals>:\n    def time_case(self, *parameters):\n        for feed in state[\"feeds\"]:\n            state[\"session\"].run(None, feed)\n\ndef setup(*parameters):\n    *inputs, backend = parameters\n    case_name = lookup[tuple(inputs)]\n    state[\"case\"], state[\"feeds\"], state[\"session\"] = _prepare_case(\n        case_name, backend\n    )",
     "min_run_count": 2,
     "name": "cpu_backend_cases.logical.cases.BitShiftUint16Inputs2Shard2.time_bitshift_v28_contiguous_right",
+    "number": 1,
+    "param_names": [
+      "dtype1",
+      "dtype2",
+      "input_shapes",
+      "backend"
+    ],
+    "params": [
+      [
+        "'uint16'"
+      ],
+      [
+        "'uint16'"
+      ],
+      [
+        "'(4096,) x (4096,)'"
+      ],
+      [
+        "'onnx-light-cpu'",
+        "'onnxruntime'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "skip_params": [],
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+    "warmup_time": -1
+  },
+  "cpu_backend_cases.logical.cases.BitShiftUint16Inputs2Shard2.time_bitshift_v28_contiguous_uint16xuint16_to_uint16_left_swapped_n4096": {
+    "code": "class <locals>:\n    def time_case(self, *parameters):\n        for feed in state[\"feeds\"]:\n            state[\"session\"].run(None, feed)\n\ndef setup(*parameters):\n    *inputs, backend = parameters\n    case_name = lookup[tuple(inputs)]\n    state[\"case\"], state[\"feeds\"], state[\"session\"] = _prepare_case(\n        case_name, backend\n    )",
+    "min_run_count": 2,
+    "name": "cpu_backend_cases.logical.cases.BitShiftUint16Inputs2Shard2.time_bitshift_v28_contiguous_uint16xuint16_to_uint16_left_swapped_n4096",
     "number": 1,
     "param_names": [
       "dtype1",
@@ -1091,6 +1163,42 @@
     "version": "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
     "warmup_time": -1
   },
+  "cpu_backend_cases.logical.cases.BitShiftUint16Inputs2Shard3.time_bitshift_v28_contiguous_uint16xuint16_to_uint16_left_swapped_n4194304": {
+    "code": "class <locals>:\n    def time_case(self, *parameters):\n        for feed in state[\"feeds\"]:\n            state[\"session\"].run(None, feed)\n\ndef setup(*parameters):\n    *inputs, backend = parameters\n    case_name = lookup[tuple(inputs)]\n    state[\"case\"], state[\"feeds\"], state[\"session\"] = _prepare_case(\n        case_name, backend\n    )",
+    "min_run_count": 2,
+    "name": "cpu_backend_cases.logical.cases.BitShiftUint16Inputs2Shard3.time_bitshift_v28_contiguous_uint16xuint16_to_uint16_left_swapped_n4194304",
+    "number": 1,
+    "param_names": [
+      "dtype1",
+      "dtype2",
+      "input_shapes",
+      "backend"
+    ],
+    "params": [
+      [
+        "'uint16'"
+      ],
+      [
+        "'uint16'"
+      ],
+      [
+        "'(4194304,) x (4194304,)'"
+      ],
+      [
+        "'onnx-light-cpu'",
+        "'onnxruntime'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "skip_params": [],
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+    "warmup_time": -1
+  },
   "cpu_backend_cases.logical.cases.BitShiftUint16Inputs2Shard3.time_bitshift_v28_general_left": {
     "code": "class <locals>:\n    def time_case(self, *parameters):\n        for feed in state[\"feeds\"]:\n            state[\"session\"].run(None, feed)\n\ndef setup(*parameters):\n    *inputs, backend = parameters\n    case_name = lookup[tuple(inputs)]\n    state[\"case\"], state[\"feeds\"], state[\"session\"] = _prepare_case(\n        case_name, backend\n    )",
     "min_run_count": 2,
@@ -1569,6 +1677,42 @@
     "code": "class <locals>:\n    def time_case(self, *parameters):\n        for feed in state[\"feeds\"]:\n            state[\"session\"].run(None, feed)\n\ndef setup(*parameters):\n    *inputs, backend = parameters\n    case_name = lookup[tuple(inputs)]\n    state[\"case\"], state[\"feeds\"], state[\"session\"] = _prepare_case(\n        case_name, backend\n    )",
     "min_run_count": 2,
     "name": "cpu_backend_cases.logical.cases.BitShiftUint16Inputs2Shard4.time_bitshift_v28_contiguous_right",
+    "number": 1,
+    "param_names": [
+      "dtype1",
+      "dtype2",
+      "input_shapes",
+      "backend"
+    ],
+    "params": [
+      [
+        "'uint16'"
+      ],
+      [
+        "'uint16'"
+      ],
+      [
+        "'(65536,) x (65536,)'"
+      ],
+      [
+        "'onnx-light-cpu'",
+        "'onnxruntime'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "skip_params": [],
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+    "warmup_time": -1
+  },
+  "cpu_backend_cases.logical.cases.BitShiftUint16Inputs2Shard4.time_bitshift_v28_contiguous_uint16xuint16_to_uint16_left_swapped_n65536": {
+    "code": "class <locals>:\n    def time_case(self, *parameters):\n        for feed in state[\"feeds\"]:\n            state[\"session\"].run(None, feed)\n\ndef setup(*parameters):\n    *inputs, backend = parameters\n    case_name = lookup[tuple(inputs)]\n    state[\"case\"], state[\"feeds\"], state[\"session\"] = _prepare_case(\n        case_name, backend\n    )",
+    "min_run_count": 2,
+    "name": "cpu_backend_cases.logical.cases.BitShiftUint16Inputs2Shard4.time_bitshift_v28_contiguous_uint16xuint16_to_uint16_left_swapped_n65536",
     "number": 1,
     "param_names": [
       "dtype1",
@@ -2111,6 +2255,42 @@
     "version": "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
     "warmup_time": -1
   },
+  "cpu_backend_cases.logical.cases.BitShiftUint32Inputs2Shard1.time_bitshift_v28_contiguous_uint32xuint32_to_uint32_left_swapped_n1048576": {
+    "code": "class <locals>:\n    def time_case(self, *parameters):\n        for feed in state[\"feeds\"]:\n            state[\"session\"].run(None, feed)\n\ndef setup(*parameters):\n    *inputs, backend = parameters\n    case_name = lookup[tuple(inputs)]\n    state[\"case\"], state[\"feeds\"], state[\"session\"] = _prepare_case(\n        case_name, backend\n    )",
+    "min_run_count": 2,
+    "name": "cpu_backend_cases.logical.cases.BitShiftUint32Inputs2Shard1.time_bitshift_v28_contiguous_uint32xuint32_to_uint32_left_swapped_n1048576",
+    "number": 1,
+    "param_names": [
+      "dtype1",
+      "dtype2",
+      "input_shapes",
+      "backend"
+    ],
+    "params": [
+      [
+        "'uint32'"
+      ],
+      [
+        "'uint32'"
+      ],
+      [
+        "'(1048576,) x (1048576,)'"
+      ],
+      [
+        "'onnx-light-cpu'",
+        "'onnxruntime'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "skip_params": [],
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+    "warmup_time": -1
+  },
   "cpu_backend_cases.logical.cases.BitShiftUint32Inputs2Shard1.time_bitshift_v28_general_left": {
     "code": "class <locals>:\n    def time_case(self, *parameters):\n        for feed in state[\"feeds\"]:\n            state[\"session\"].run(None, feed)\n\ndef setup(*parameters):\n    *inputs, backend = parameters\n    case_name = lookup[tuple(inputs)]\n    state[\"case\"], state[\"feeds\"], state[\"session\"] = _prepare_case(\n        case_name, backend\n    )",
     "min_run_count": 2,
@@ -2589,6 +2769,42 @@
     "code": "class <locals>:\n    def time_case(self, *parameters):\n        for feed in state[\"feeds\"]:\n            state[\"session\"].run(None, feed)\n\ndef setup(*parameters):\n    *inputs, backend = parameters\n    case_name = lookup[tuple(inputs)]\n    state[\"case\"], state[\"feeds\"], state[\"session\"] = _prepare_case(\n        case_name, backend\n    )",
     "min_run_count": 2,
     "name": "cpu_backend_cases.logical.cases.BitShiftUint32Inputs2Shard2.time_bitshift_v28_contiguous_right",
+    "number": 1,
+    "param_names": [
+      "dtype1",
+      "dtype2",
+      "input_shapes",
+      "backend"
+    ],
+    "params": [
+      [
+        "'uint32'"
+      ],
+      [
+        "'uint32'"
+      ],
+      [
+        "'(4096,) x (4096,)'"
+      ],
+      [
+        "'onnx-light-cpu'",
+        "'onnxruntime'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "skip_params": [],
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+    "warmup_time": -1
+  },
+  "cpu_backend_cases.logical.cases.BitShiftUint32Inputs2Shard2.time_bitshift_v28_contiguous_uint32xuint32_to_uint32_left_swapped_n4096": {
+    "code": "class <locals>:\n    def time_case(self, *parameters):\n        for feed in state[\"feeds\"]:\n            state[\"session\"].run(None, feed)\n\ndef setup(*parameters):\n    *inputs, backend = parameters\n    case_name = lookup[tuple(inputs)]\n    state[\"case\"], state[\"feeds\"], state[\"session\"] = _prepare_case(\n        case_name, backend\n    )",
+    "min_run_count": 2,
+    "name": "cpu_backend_cases.logical.cases.BitShiftUint32Inputs2Shard2.time_bitshift_v28_contiguous_uint32xuint32_to_uint32_left_swapped_n4096",
     "number": 1,
     "param_names": [
       "dtype1",
