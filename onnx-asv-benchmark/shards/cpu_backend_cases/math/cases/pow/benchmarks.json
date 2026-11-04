@@ -2975,6 +2975,42 @@
     "version": "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
     "warmup_time": -1
   },
+  "cpu_backend_cases.math.cases.PowBfloat16Inputs2Shard3.time_pow_v15_contiguous_bfloat16xbfloat16_to_bfloat16_swapped_n4194304": {
+    "code": "class <locals>:\n    def time_case(self, *parameters):\n        for feed in state[\"feeds\"]:\n            state[\"session\"].run(None, feed)\n\ndef setup(*parameters):\n    *inputs, backend = parameters\n    case_name = lookup[tuple(inputs)]\n    state[\"case\"], state[\"feeds\"], state[\"session\"] = _prepare_case(\n        case_name, backend\n    )",
+    "min_run_count": 2,
+    "name": "cpu_backend_cases.math.cases.PowBfloat16Inputs2Shard3.time_pow_v15_contiguous_bfloat16xbfloat16_to_bfloat16_swapped_n4194304",
+    "number": 1,
+    "param_names": [
+      "dtype1",
+      "dtype2",
+      "input_shapes",
+      "backend"
+    ],
+    "params": [
+      [
+        "'bfloat16'"
+      ],
+      [
+        "'bfloat16'"
+      ],
+      [
+        "'(4194304,) x (4194304,)'"
+      ],
+      [
+        "'onnx-light-cpu'",
+        "'onnxruntime'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "skip_params": [],
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+    "warmup_time": -1
+  },
   "cpu_backend_cases.math.cases.PowBfloat16Inputs2Shard3.time_pow_v15_general": {
     "code": "class <locals>:\n    def time_case(self, *parameters):\n        for feed in state[\"feeds\"]:\n            state[\"session\"].run(None, feed)\n\ndef setup(*parameters):\n    *inputs, backend = parameters\n    case_name = lookup[tuple(inputs)]\n    state[\"case\"], state[\"feeds\"], state[\"session\"] = _prepare_case(\n        case_name, backend\n    )",
     "min_run_count": 2,
@@ -3201,6 +3237,42 @@
     "code": "class <locals>:\n    def time_case(self, *parameters):\n        for feed in state[\"feeds\"]:\n            state[\"session\"].run(None, feed)\n\ndef setup(*parameters):\n    *inputs, backend = parameters\n    case_name = lookup[tuple(inputs)]\n    state[\"case\"], state[\"feeds\"], state[\"session\"] = _prepare_case(\n        case_name, backend\n    )",
     "min_run_count": 2,
     "name": "cpu_backend_cases.math.cases.PowBfloat16Inputs2Shard4.time_pow_v15_contiguous",
+    "number": 1,
+    "param_names": [
+      "dtype1",
+      "dtype2",
+      "input_shapes",
+      "backend"
+    ],
+    "params": [
+      [
+        "'bfloat16'"
+      ],
+      [
+        "'bfloat16'"
+      ],
+      [
+        "'(65536,) x (65536,)'"
+      ],
+      [
+        "'onnx-light-cpu'",
+        "'onnxruntime'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "skip_params": [],
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+    "warmup_time": -1
+  },
+  "cpu_backend_cases.math.cases.PowBfloat16Inputs2Shard4.time_pow_v15_contiguous_bfloat16xbfloat16_to_bfloat16_swapped_n65536": {
+    "code": "class <locals>:\n    def time_case(self, *parameters):\n        for feed in state[\"feeds\"]:\n            state[\"session\"].run(None, feed)\n\ndef setup(*parameters):\n    *inputs, backend = parameters\n    case_name = lookup[tuple(inputs)]\n    state[\"case\"], state[\"feeds\"], state[\"session\"] = _prepare_case(\n        case_name, backend\n    )",
+    "min_run_count": 2,
+    "name": "cpu_backend_cases.math.cases.PowBfloat16Inputs2Shard4.time_pow_v15_contiguous_bfloat16xbfloat16_to_bfloat16_swapped_n65536",
     "number": 1,
     "param_names": [
       "dtype1",
@@ -3491,6 +3563,42 @@
     "version": "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
     "warmup_time": -1
   },
+  "cpu_backend_cases.math.cases.PowBfloat16Int32Shard1.time_pow_v15_contiguous_bfloat16xint32_to_bfloat16_swapped_n1048576": {
+    "code": "class <locals>:\n    def time_case(self, *parameters):\n        for feed in state[\"feeds\"]:\n            state[\"session\"].run(None, feed)\n\ndef setup(*parameters):\n    *inputs, backend = parameters\n    case_name = lookup[tuple(inputs)]\n    state[\"case\"], state[\"feeds\"], state[\"session\"] = _prepare_case(\n        case_name, backend\n    )",
+    "min_run_count": 2,
+    "name": "cpu_backend_cases.math.cases.PowBfloat16Int32Shard1.time_pow_v15_contiguous_bfloat16xint32_to_bfloat16_swapped_n1048576",
+    "number": 1,
+    "param_names": [
+      "dtype1",
+      "dtype2",
+      "input_shapes",
+      "backend"
+    ],
+    "params": [
+      [
+        "'bfloat16'"
+      ],
+      [
+        "'int32'"
+      ],
+      [
+        "'(1048576,) x (1048576,)'"
+      ],
+      [
+        "'onnx-light-cpu'",
+        "'onnxruntime'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "skip_params": [],
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+    "warmup_time": -1
+  },
   "cpu_backend_cases.math.cases.PowBfloat16Int32Shard1.time_pow_v15_general": {
     "code": "class <locals>:\n    def time_case(self, *parameters):\n        for feed in state[\"feeds\"]:\n            state[\"session\"].run(None, feed)\n\ndef setup(*parameters):\n    *inputs, backend = parameters\n    case_name = lookup[tuple(inputs)]\n    state[\"case\"], state[\"feeds\"], state[\"session\"] = _prepare_case(\n        case_name, backend\n    )",
     "min_run_count": 2,
@@ -3717,6 +3825,42 @@
     "code": "class <locals>:\n    def time_case(self, *parameters):\n        for feed in state[\"feeds\"]:\n            state[\"session\"].run(None, feed)\n\ndef setup(*parameters):\n    *inputs, backend = parameters\n    case_name = lookup[tuple(inputs)]\n    state[\"case\"], state[\"feeds\"], state[\"session\"] = _prepare_case(\n        case_name, backend\n    )",
     "min_run_count": 2,
     "name": "cpu_backend_cases.math.cases.PowBfloat16Int32Shard2.time_pow_v15_contiguous",
+    "number": 1,
+    "param_names": [
+      "dtype1",
+      "dtype2",
+      "input_shapes",
+      "backend"
+    ],
+    "params": [
+      [
+        "'bfloat16'"
+      ],
+      [
+        "'int32'"
+      ],
+      [
+        "'(4096,) x (4096,)'"
+      ],
+      [
+        "'onnx-light-cpu'",
+        "'onnxruntime'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "skip_params": [],
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+    "warmup_time": -1
+  },
+  "cpu_backend_cases.math.cases.PowBfloat16Int32Shard2.time_pow_v15_contiguous_bfloat16xint32_to_bfloat16_swapped_n4096": {
+    "code": "class <locals>:\n    def time_case(self, *parameters):\n        for feed in state[\"feeds\"]:\n            state[\"session\"].run(None, feed)\n\ndef setup(*parameters):\n    *inputs, backend = parameters\n    case_name = lookup[tuple(inputs)]\n    state[\"case\"], state[\"feeds\"], state[\"session\"] = _prepare_case(\n        case_name, backend\n    )",
+    "min_run_count": 2,
+    "name": "cpu_backend_cases.math.cases.PowBfloat16Int32Shard2.time_pow_v15_contiguous_bfloat16xint32_to_bfloat16_swapped_n4096",
     "number": 1,
     "param_names": [
       "dtype1",
@@ -4007,6 +4151,42 @@
     "version": "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
     "warmup_time": -1
   },
+  "cpu_backend_cases.math.cases.PowBfloat16Int32Shard3.time_pow_v15_contiguous_bfloat16xint32_to_bfloat16_swapped_n4194304": {
+    "code": "class <locals>:\n    def time_case(self, *parameters):\n        for feed in state[\"feeds\"]:\n            state[\"session\"].run(None, feed)\n\ndef setup(*parameters):\n    *inputs, backend = parameters\n    case_name = lookup[tuple(inputs)]\n    state[\"case\"], state[\"feeds\"], state[\"session\"] = _prepare_case(\n        case_name, backend\n    )",
+    "min_run_count": 2,
+    "name": "cpu_backend_cases.math.cases.PowBfloat16Int32Shard3.time_pow_v15_contiguous_bfloat16xint32_to_bfloat16_swapped_n4194304",
+    "number": 1,
+    "param_names": [
+      "dtype1",
+      "dtype2",
+      "input_shapes",
+      "backend"
+    ],
+    "params": [
+      [
+        "'bfloat16'"
+      ],
+      [
+        "'int32'"
+      ],
+      [
+        "'(4194304,) x (4194304,)'"
+      ],
+      [
+        "'onnx-light-cpu'",
+        "'onnxruntime'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "skip_params": [],
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+    "warmup_time": -1
+  },
   "cpu_backend_cases.math.cases.PowBfloat16Int32Shard3.time_pow_v15_general": {
     "code": "class <locals>:\n    def time_case(self, *parameters):\n        for feed in state[\"feeds\"]:\n            state[\"session\"].run(None, feed)\n\ndef setup(*parameters):\n    *inputs, backend = parameters\n    case_name = lookup[tuple(inputs)]\n    state[\"case\"], state[\"feeds\"], state[\"session\"] = _prepare_case(\n        case_name, backend\n    )",
     "min_run_count": 2,
@@ -4233,6 +4413,42 @@
     "code": "class <locals>:\n    def time_case(self, *parameters):\n        for feed in state[\"feeds\"]:\n            state[\"session\"].run(None, feed)\n\ndef setup(*parameters):\n    *inputs, backend = parameters\n    case_name = lookup[tuple(inputs)]\n    state[\"case\"], state[\"feeds\"], state[\"session\"] = _prepare_case(\n        case_name, backend\n    )",
     "min_run_count": 2,
     "name": "cpu_backend_cases.math.cases.PowBfloat16Int32Shard4.time_pow_v15_contiguous",
+    "number": 1,
+    "param_names": [
+      "dtype1",
+      "dtype2",
+      "input_shapes",
+      "backend"
+    ],
+    "params": [
+      [
+        "'bfloat16'"
+      ],
+      [
+        "'int32'"
+      ],
+      [
+        "'(65536,) x (65536,)'"
+      ],
+      [
+        "'onnx-light-cpu'",
+        "'onnxruntime'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "skip_params": [],
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+    "warmup_time": -1
+  },
+  "cpu_backend_cases.math.cases.PowBfloat16Int32Shard4.time_pow_v15_contiguous_bfloat16xint32_to_bfloat16_swapped_n65536": {
+    "code": "class <locals>:\n    def time_case(self, *parameters):\n        for feed in state[\"feeds\"]:\n            state[\"session\"].run(None, feed)\n\ndef setup(*parameters):\n    *inputs, backend = parameters\n    case_name = lookup[tuple(inputs)]\n    state[\"case\"], state[\"feeds\"], state[\"session\"] = _prepare_case(\n        case_name, backend\n    )",
+    "min_run_count": 2,
+    "name": "cpu_backend_cases.math.cases.PowBfloat16Int32Shard4.time_pow_v15_contiguous_bfloat16xint32_to_bfloat16_swapped_n65536",
     "number": 1,
     "param_names": [
       "dtype1",
@@ -4523,6 +4739,42 @@
     "version": "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
     "warmup_time": -1
   },
+  "cpu_backend_cases.math.cases.PowBfloat16Int64Shard1.time_pow_v15_contiguous_bfloat16xint64_to_bfloat16_swapped_n1048576": {
+    "code": "class <locals>:\n    def time_case(self, *parameters):\n        for feed in state[\"feeds\"]:\n            state[\"session\"].run(None, feed)\n\ndef setup(*parameters):\n    *inputs, backend = parameters\n    case_name = lookup[tuple(inputs)]\n    state[\"case\"], state[\"feeds\"], state[\"session\"] = _prepare_case(\n        case_name, backend\n    )",
+    "min_run_count": 2,
+    "name": "cpu_backend_cases.math.cases.PowBfloat16Int64Shard1.time_pow_v15_contiguous_bfloat16xint64_to_bfloat16_swapped_n1048576",
+    "number": 1,
+    "param_names": [
+      "dtype1",
+      "dtype2",
+      "input_shapes",
+      "backend"
+    ],
+    "params": [
+      [
+        "'bfloat16'"
+      ],
+      [
+        "'int64'"
+      ],
+      [
+        "'(1048576,) x (1048576,)'"
+      ],
+      [
+        "'onnx-light-cpu'",
+        "'onnxruntime'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "skip_params": [],
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+    "warmup_time": -1
+  },
   "cpu_backend_cases.math.cases.PowBfloat16Int64Shard1.time_pow_v15_general": {
     "code": "class <locals>:\n    def time_case(self, *parameters):\n        for feed in state[\"feeds\"]:\n            state[\"session\"].run(None, feed)\n\ndef setup(*parameters):\n    *inputs, backend = parameters\n    case_name = lookup[tuple(inputs)]\n    state[\"case\"], state[\"feeds\"], state[\"session\"] = _prepare_case(\n        case_name, backend\n    )",
     "min_run_count": 2,
@@ -4749,6 +5001,42 @@
     "code": "class <locals>:\n    def time_case(self, *parameters):\n        for feed in state[\"feeds\"]:\n            state[\"session\"].run(None, feed)\n\ndef setup(*parameters):\n    *inputs, backend = parameters\n    case_name = lookup[tuple(inputs)]\n    state[\"case\"], state[\"feeds\"], state[\"session\"] = _prepare_case(\n        case_name, backend\n    )",
     "min_run_count": 2,
     "name": "cpu_backend_cases.math.cases.PowBfloat16Int64Shard2.time_pow_v15_contiguous",
+    "number": 1,
+    "param_names": [
+      "dtype1",
+      "dtype2",
+      "input_shapes",
+      "backend"
+    ],
+    "params": [
+      [
+        "'bfloat16'"
+      ],
+      [
+        "'int64'"
+      ],
+      [
+        "'(4096,) x (4096,)'"
+      ],
+      [
+        "'onnx-light-cpu'",
+        "'onnxruntime'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "skip_params": [],
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+    "warmup_time": -1
+  },
+  "cpu_backend_cases.math.cases.PowBfloat16Int64Shard2.time_pow_v15_contiguous_bfloat16xint64_to_bfloat16_swapped_n4096": {
+    "code": "class <locals>:\n    def time_case(self, *parameters):\n        for feed in state[\"feeds\"]:\n            state[\"session\"].run(None, feed)\n\ndef setup(*parameters):\n    *inputs, backend = parameters\n    case_name = lookup[tuple(inputs)]\n    state[\"case\"], state[\"feeds\"], state[\"session\"] = _prepare_case(\n        case_name, backend\n    )",
+    "min_run_count": 2,
+    "name": "cpu_backend_cases.math.cases.PowBfloat16Int64Shard2.time_pow_v15_contiguous_bfloat16xint64_to_bfloat16_swapped_n4096",
     "number": 1,
     "param_names": [
       "dtype1",
@@ -5039,6 +5327,42 @@
     "version": "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
     "warmup_time": -1
   },
+  "cpu_backend_cases.math.cases.PowBfloat16Int64Shard3.time_pow_v15_contiguous_bfloat16xint64_to_bfloat16_swapped_n4194304": {
+    "code": "class <locals>:\n    def time_case(self, *parameters):\n        for feed in state[\"feeds\"]:\n            state[\"session\"].run(None, feed)\n\ndef setup(*parameters):\n    *inputs, backend = parameters\n    case_name = lookup[tuple(inputs)]\n    state[\"case\"], state[\"feeds\"], state[\"session\"] = _prepare_case(\n        case_name, backend\n    )",
+    "min_run_count": 2,
+    "name": "cpu_backend_cases.math.cases.PowBfloat16Int64Shard3.time_pow_v15_contiguous_bfloat16xint64_to_bfloat16_swapped_n4194304",
+    "number": 1,
+    "param_names": [
+      "dtype1",
+      "dtype2",
+      "input_shapes",
+      "backend"
+    ],
+    "params": [
+      [
+        "'bfloat16'"
+      ],
+      [
+        "'int64'"
+      ],
+      [
+        "'(4194304,) x (4194304,)'"
+      ],
+      [
+        "'onnx-light-cpu'",
+        "'onnxruntime'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "skip_params": [],
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+    "warmup_time": -1
+  },
   "cpu_backend_cases.math.cases.PowBfloat16Int64Shard3.time_pow_v15_general": {
     "code": "class <locals>:\n    def time_case(self, *parameters):\n        for feed in state[\"feeds\"]:\n            state[\"session\"].run(None, feed)\n\ndef setup(*parameters):\n    *inputs, backend = parameters\n    case_name = lookup[tuple(inputs)]\n    state[\"case\"], state[\"feeds\"], state[\"session\"] = _prepare_case(\n        case_name, backend\n    )",
     "min_run_count": 2,
@@ -5265,6 +5589,42 @@
     "code": "class <locals>:\n    def time_case(self, *parameters):\n        for feed in state[\"feeds\"]:\n            state[\"session\"].run(None, feed)\n\ndef setup(*parameters):\n    *inputs, backend = parameters\n    case_name = lookup[tuple(inputs)]\n    state[\"case\"], state[\"feeds\"], state[\"session\"] = _prepare_case(\n        case_name, backend\n    )",
     "min_run_count": 2,
     "name": "cpu_backend_cases.math.cases.PowBfloat16Int64Shard4.time_pow_v15_contiguous",
+    "number": 1,
+    "param_names": [
+      "dtype1",
+      "dtype2",
+      "input_shapes",
+      "backend"
+    ],
+    "params": [
+      [
+        "'bfloat16'"
+      ],
+      [
+        "'int64'"
+      ],
+      [
+        "'(65536,) x (65536,)'"
+      ],
+      [
+        "'onnx-light-cpu'",
+        "'onnxruntime'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "skip_params": [],
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+    "warmup_time": -1
+  },
+  "cpu_backend_cases.math.cases.PowBfloat16Int64Shard4.time_pow_v15_contiguous_bfloat16xint64_to_bfloat16_swapped_n65536": {
+    "code": "class <locals>:\n    def time_case(self, *parameters):\n        for feed in state[\"feeds\"]:\n            state[\"session\"].run(None, feed)\n\ndef setup(*parameters):\n    *inputs, backend = parameters\n    case_name = lookup[tuple(inputs)]\n    state[\"case\"], state[\"feeds\"], state[\"session\"] = _prepare_case(\n        case_name, backend\n    )",
+    "min_run_count": 2,
+    "name": "cpu_backend_cases.math.cases.PowBfloat16Int64Shard4.time_pow_v15_contiguous_bfloat16xint64_to_bfloat16_swapped_n65536",
     "number": 1,
     "param_names": [
       "dtype1",
