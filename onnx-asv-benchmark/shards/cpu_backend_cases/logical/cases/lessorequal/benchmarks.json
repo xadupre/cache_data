@@ -2579,6 +2579,42 @@
     "version": "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
     "warmup_time": -1
   },
+  "cpu_backend_cases.logical.cases.LessOrEqualFloat32Inputs2Shard3.time_lessorequal_v16_contiguous_float32xfloat32_to_bool_swapped_n4194304": {
+    "code": "class <locals>:\n    def time_case(self, *parameters):\n        for feed in state[\"feeds\"]:\n            state[\"session\"].run(None, feed)\n\ndef setup(*parameters):\n    *inputs, backend = parameters\n    case_name = lookup[tuple(inputs)]\n    state[\"case\"], state[\"feeds\"], state[\"session\"] = _prepare_case(\n        case_name, backend\n    )",
+    "min_run_count": 2,
+    "name": "cpu_backend_cases.logical.cases.LessOrEqualFloat32Inputs2Shard3.time_lessorequal_v16_contiguous_float32xfloat32_to_bool_swapped_n4194304",
+    "number": 1,
+    "param_names": [
+      "dtype1",
+      "dtype2",
+      "input_shapes",
+      "backend"
+    ],
+    "params": [
+      [
+        "'float32'"
+      ],
+      [
+        "'float32'"
+      ],
+      [
+        "'(4194304,) x (4194304,)'"
+      ],
+      [
+        "'onnx-light-cpu'",
+        "'onnxruntime'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "skip_params": [],
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+    "warmup_time": -1
+  },
   "cpu_backend_cases.logical.cases.LessOrEqualFloat32Inputs2Shard3.time_lessorequal_v16_contiguous_to_bool": {
     "code": "class <locals>:\n    def time_case(self, *parameters):\n        for feed in state[\"feeds\"]:\n            state[\"session\"].run(None, feed)\n\ndef setup(*parameters):\n    *inputs, backend = parameters\n    case_name = lookup[tuple(inputs)]\n    state[\"case\"], state[\"feeds\"], state[\"session\"] = _prepare_case(\n        case_name, backend\n    )",
     "min_run_count": 2,
@@ -2821,6 +2857,42 @@
       [
         "'(16384, 256) x (256,)'",
         "'(256,) x (16384, 256)'"
+      ],
+      [
+        "'onnx-light-cpu'",
+        "'onnxruntime'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "skip_params": [],
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+    "warmup_time": -1
+  },
+  "cpu_backend_cases.logical.cases.LessOrEqualFloat32Inputs2Shard4.time_lessorequal_v16_contiguous_float32xfloat32_to_bool_swapped_n65536": {
+    "code": "class <locals>:\n    def time_case(self, *parameters):\n        for feed in state[\"feeds\"]:\n            state[\"session\"].run(None, feed)\n\ndef setup(*parameters):\n    *inputs, backend = parameters\n    case_name = lookup[tuple(inputs)]\n    state[\"case\"], state[\"feeds\"], state[\"session\"] = _prepare_case(\n        case_name, backend\n    )",
+    "min_run_count": 2,
+    "name": "cpu_backend_cases.logical.cases.LessOrEqualFloat32Inputs2Shard4.time_lessorequal_v16_contiguous_float32xfloat32_to_bool_swapped_n65536",
+    "number": 1,
+    "param_names": [
+      "dtype1",
+      "dtype2",
+      "input_shapes",
+      "backend"
+    ],
+    "params": [
+      [
+        "'float32'"
+      ],
+      [
+        "'float32'"
+      ],
+      [
+        "'(65536,) x (65536,)'"
       ],
       [
         "'onnx-light-cpu'",
@@ -3095,6 +3167,42 @@
     "version": "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
     "warmup_time": -1
   },
+  "cpu_backend_cases.logical.cases.LessOrEqualInt16Inputs2Shard1.time_lessorequal_v16_contiguous_int16xint16_to_bool_swapped_n1048576": {
+    "code": "class <locals>:\n    def time_case(self, *parameters):\n        for feed in state[\"feeds\"]:\n            state[\"session\"].run(None, feed)\n\ndef setup(*parameters):\n    *inputs, backend = parameters\n    case_name = lookup[tuple(inputs)]\n    state[\"case\"], state[\"feeds\"], state[\"session\"] = _prepare_case(\n        case_name, backend\n    )",
+    "min_run_count": 2,
+    "name": "cpu_backend_cases.logical.cases.LessOrEqualInt16Inputs2Shard1.time_lessorequal_v16_contiguous_int16xint16_to_bool_swapped_n1048576",
+    "number": 1,
+    "param_names": [
+      "dtype1",
+      "dtype2",
+      "input_shapes",
+      "backend"
+    ],
+    "params": [
+      [
+        "'int16'"
+      ],
+      [
+        "'int16'"
+      ],
+      [
+        "'(1048576,) x (1048576,)'"
+      ],
+      [
+        "'onnx-light-cpu'",
+        "'onnxruntime'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "skip_params": [],
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+    "warmup_time": -1
+  },
   "cpu_backend_cases.logical.cases.LessOrEqualInt16Inputs2Shard1.time_lessorequal_v16_contiguous_to_bool": {
     "code": "class <locals>:\n    def time_case(self, *parameters):\n        for feed in state[\"feeds\"]:\n            state[\"session\"].run(None, feed)\n\ndef setup(*parameters):\n    *inputs, backend = parameters\n    case_name = lookup[tuple(inputs)]\n    state[\"case\"], state[\"feeds\"], state[\"session\"] = _prepare_case(\n        case_name, backend\n    )",
     "min_run_count": 2,
@@ -3337,6 +3445,42 @@
       [
         "'(256,) x (4096, 256)'",
         "'(4096, 256) x (256,)'"
+      ],
+      [
+        "'onnx-light-cpu'",
+        "'onnxruntime'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "skip_params": [],
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+    "warmup_time": -1
+  },
+  "cpu_backend_cases.logical.cases.LessOrEqualInt16Inputs2Shard2.time_lessorequal_v16_contiguous_int16xint16_to_bool_swapped_n4096": {
+    "code": "class <locals>:\n    def time_case(self, *parameters):\n        for feed in state[\"feeds\"]:\n            state[\"session\"].run(None, feed)\n\ndef setup(*parameters):\n    *inputs, backend = parameters\n    case_name = lookup[tuple(inputs)]\n    state[\"case\"], state[\"feeds\"], state[\"session\"] = _prepare_case(\n        case_name, backend\n    )",
+    "min_run_count": 2,
+    "name": "cpu_backend_cases.logical.cases.LessOrEqualInt16Inputs2Shard2.time_lessorequal_v16_contiguous_int16xint16_to_bool_swapped_n4096",
+    "number": 1,
+    "param_names": [
+      "dtype1",
+      "dtype2",
+      "input_shapes",
+      "backend"
+    ],
+    "params": [
+      [
+        "'int16'"
+      ],
+      [
+        "'int16'"
+      ],
+      [
+        "'(4096,) x (4096,)'"
       ],
       [
         "'onnx-light-cpu'",
@@ -3611,6 +3755,42 @@
     "version": "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
     "warmup_time": -1
   },
+  "cpu_backend_cases.logical.cases.LessOrEqualInt16Inputs2Shard3.time_lessorequal_v16_contiguous_int16xint16_to_bool_swapped_n4194304": {
+    "code": "class <locals>:\n    def time_case(self, *parameters):\n        for feed in state[\"feeds\"]:\n            state[\"session\"].run(None, feed)\n\ndef setup(*parameters):\n    *inputs, backend = parameters\n    case_name = lookup[tuple(inputs)]\n    state[\"case\"], state[\"feeds\"], state[\"session\"] = _prepare_case(\n        case_name, backend\n    )",
+    "min_run_count": 2,
+    "name": "cpu_backend_cases.logical.cases.LessOrEqualInt16Inputs2Shard3.time_lessorequal_v16_contiguous_int16xint16_to_bool_swapped_n4194304",
+    "number": 1,
+    "param_names": [
+      "dtype1",
+      "dtype2",
+      "input_shapes",
+      "backend"
+    ],
+    "params": [
+      [
+        "'int16'"
+      ],
+      [
+        "'int16'"
+      ],
+      [
+        "'(4194304,) x (4194304,)'"
+      ],
+      [
+        "'onnx-light-cpu'",
+        "'onnxruntime'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "skip_params": [],
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+    "warmup_time": -1
+  },
   "cpu_backend_cases.logical.cases.LessOrEqualInt16Inputs2Shard3.time_lessorequal_v16_contiguous_to_bool": {
     "code": "class <locals>:\n    def time_case(self, *parameters):\n        for feed in state[\"feeds\"]:\n            state[\"session\"].run(None, feed)\n\ndef setup(*parameters):\n    *inputs, backend = parameters\n    case_name = lookup[tuple(inputs)]\n    state[\"case\"], state[\"feeds\"], state[\"session\"] = _prepare_case(\n        case_name, backend\n    )",
     "min_run_count": 2,
@@ -3853,6 +4033,42 @@
       [
         "'(16384, 256) x (256,)'",
         "'(256,) x (16384, 256)'"
+      ],
+      [
+        "'onnx-light-cpu'",
+        "'onnxruntime'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "skip_params": [],
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+    "warmup_time": -1
+  },
+  "cpu_backend_cases.logical.cases.LessOrEqualInt16Inputs2Shard4.time_lessorequal_v16_contiguous_int16xint16_to_bool_swapped_n65536": {
+    "code": "class <locals>:\n    def time_case(self, *parameters):\n        for feed in state[\"feeds\"]:\n            state[\"session\"].run(None, feed)\n\ndef setup(*parameters):\n    *inputs, backend = parameters\n    case_name = lookup[tuple(inputs)]\n    state[\"case\"], state[\"feeds\"], state[\"session\"] = _prepare_case(\n        case_name, backend\n    )",
+    "min_run_count": 2,
+    "name": "cpu_backend_cases.logical.cases.LessOrEqualInt16Inputs2Shard4.time_lessorequal_v16_contiguous_int16xint16_to_bool_swapped_n65536",
+    "number": 1,
+    "param_names": [
+      "dtype1",
+      "dtype2",
+      "input_shapes",
+      "backend"
+    ],
+    "params": [
+      [
+        "'int16'"
+      ],
+      [
+        "'int16'"
+      ],
+      [
+        "'(65536,) x (65536,)'"
       ],
       [
         "'onnx-light-cpu'",
@@ -4127,6 +4343,42 @@
     "version": "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
     "warmup_time": -1
   },
+  "cpu_backend_cases.logical.cases.LessOrEqualInt32Inputs2Shard1.time_lessorequal_v16_contiguous_int32xint32_to_bool_swapped_n1048576": {
+    "code": "class <locals>:\n    def time_case(self, *parameters):\n        for feed in state[\"feeds\"]:\n            state[\"session\"].run(None, feed)\n\ndef setup(*parameters):\n    *inputs, backend = parameters\n    case_name = lookup[tuple(inputs)]\n    state[\"case\"], state[\"feeds\"], state[\"session\"] = _prepare_case(\n        case_name, backend\n    )",
+    "min_run_count": 2,
+    "name": "cpu_backend_cases.logical.cases.LessOrEqualInt32Inputs2Shard1.time_lessorequal_v16_contiguous_int32xint32_to_bool_swapped_n1048576",
+    "number": 1,
+    "param_names": [
+      "dtype1",
+      "dtype2",
+      "input_shapes",
+      "backend"
+    ],
+    "params": [
+      [
+        "'int32'"
+      ],
+      [
+        "'int32'"
+      ],
+      [
+        "'(1048576,) x (1048576,)'"
+      ],
+      [
+        "'onnx-light-cpu'",
+        "'onnxruntime'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "skip_params": [],
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+    "warmup_time": -1
+  },
   "cpu_backend_cases.logical.cases.LessOrEqualInt32Inputs2Shard1.time_lessorequal_v16_contiguous_to_bool": {
     "code": "class <locals>:\n    def time_case(self, *parameters):\n        for feed in state[\"feeds\"]:\n            state[\"session\"].run(None, feed)\n\ndef setup(*parameters):\n    *inputs, backend = parameters\n    case_name = lookup[tuple(inputs)]\n    state[\"case\"], state[\"feeds\"], state[\"session\"] = _prepare_case(\n        case_name, backend\n    )",
     "min_run_count": 2,
@@ -4369,6 +4621,42 @@
       [
         "'(256,) x (4096, 256)'",
         "'(4096, 256) x (256,)'"
+      ],
+      [
+        "'onnx-light-cpu'",
+        "'onnxruntime'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "skip_params": [],
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+    "warmup_time": -1
+  },
+  "cpu_backend_cases.logical.cases.LessOrEqualInt32Inputs2Shard2.time_lessorequal_v16_contiguous_int32xint32_to_bool_swapped_n4096": {
+    "code": "class <locals>:\n    def time_case(self, *parameters):\n        for feed in state[\"feeds\"]:\n            state[\"session\"].run(None, feed)\n\ndef setup(*parameters):\n    *inputs, backend = parameters\n    case_name = lookup[tuple(inputs)]\n    state[\"case\"], state[\"feeds\"], state[\"session\"] = _prepare_case(\n        case_name, backend\n    )",
+    "min_run_count": 2,
+    "name": "cpu_backend_cases.logical.cases.LessOrEqualInt32Inputs2Shard2.time_lessorequal_v16_contiguous_int32xint32_to_bool_swapped_n4096",
+    "number": 1,
+    "param_names": [
+      "dtype1",
+      "dtype2",
+      "input_shapes",
+      "backend"
+    ],
+    "params": [
+      [
+        "'int32'"
+      ],
+      [
+        "'int32'"
+      ],
+      [
+        "'(4096,) x (4096,)'"
       ],
       [
         "'onnx-light-cpu'",
@@ -4643,6 +4931,42 @@
     "version": "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
     "warmup_time": -1
   },
+  "cpu_backend_cases.logical.cases.LessOrEqualInt32Inputs2Shard3.time_lessorequal_v16_contiguous_int32xint32_to_bool_swapped_n4194304": {
+    "code": "class <locals>:\n    def time_case(self, *parameters):\n        for feed in state[\"feeds\"]:\n            state[\"session\"].run(None, feed)\n\ndef setup(*parameters):\n    *inputs, backend = parameters\n    case_name = lookup[tuple(inputs)]\n    state[\"case\"], state[\"feeds\"], state[\"session\"] = _prepare_case(\n        case_name, backend\n    )",
+    "min_run_count": 2,
+    "name": "cpu_backend_cases.logical.cases.LessOrEqualInt32Inputs2Shard3.time_lessorequal_v16_contiguous_int32xint32_to_bool_swapped_n4194304",
+    "number": 1,
+    "param_names": [
+      "dtype1",
+      "dtype2",
+      "input_shapes",
+      "backend"
+    ],
+    "params": [
+      [
+        "'int32'"
+      ],
+      [
+        "'int32'"
+      ],
+      [
+        "'(4194304,) x (4194304,)'"
+      ],
+      [
+        "'onnx-light-cpu'",
+        "'onnxruntime'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "skip_params": [],
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+    "warmup_time": -1
+  },
   "cpu_backend_cases.logical.cases.LessOrEqualInt32Inputs2Shard3.time_lessorequal_v16_contiguous_to_bool": {
     "code": "class <locals>:\n    def time_case(self, *parameters):\n        for feed in state[\"feeds\"]:\n            state[\"session\"].run(None, feed)\n\ndef setup(*parameters):\n    *inputs, backend = parameters\n    case_name = lookup[tuple(inputs)]\n    state[\"case\"], state[\"feeds\"], state[\"session\"] = _prepare_case(\n        case_name, backend\n    )",
     "min_run_count": 2,
@@ -4885,6 +5209,42 @@
       [
         "'(16384, 256) x (256,)'",
         "'(256,) x (16384, 256)'"
+      ],
+      [
+        "'onnx-light-cpu'",
+        "'onnxruntime'"
+      ]
+    ],
+    "repeat": 0,
+    "rounds": 2,
+    "sample_time": 0.01,
+    "skip_params": [],
+    "timeout": 60,
+    "type": "time",
+    "unit": "seconds",
+    "version": "78acb80d438378d90e70c4024e6fc80113a10bfe04ee07e3f89aa362afca3ca8",
+    "warmup_time": -1
+  },
+  "cpu_backend_cases.logical.cases.LessOrEqualInt32Inputs2Shard4.time_lessorequal_v16_contiguous_int32xint32_to_bool_swapped_n65536": {
+    "code": "class <locals>:\n    def time_case(self, *parameters):\n        for feed in state[\"feeds\"]:\n            state[\"session\"].run(None, feed)\n\ndef setup(*parameters):\n    *inputs, backend = parameters\n    case_name = lookup[tuple(inputs)]\n    state[\"case\"], state[\"feeds\"], state[\"session\"] = _prepare_case(\n        case_name, backend\n    )",
+    "min_run_count": 2,
+    "name": "cpu_backend_cases.logical.cases.LessOrEqualInt32Inputs2Shard4.time_lessorequal_v16_contiguous_int32xint32_to_bool_swapped_n65536",
+    "number": 1,
+    "param_names": [
+      "dtype1",
+      "dtype2",
+      "input_shapes",
+      "backend"
+    ],
+    "params": [
+      [
+        "'int32'"
+      ],
+      [
+        "'int32'"
+      ],
+      [
+        "'(65536,) x (65536,)'"
       ],
       [
         "'onnx-light-cpu'",
