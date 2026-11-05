@@ -178,3 +178,4 @@ pr_number,title,author,merged_at,commits,comments,copilot_comments,copilot_commi
 320,"Keep arc labels horizontal, centered and multiline",xadupre,2026-11-03T17:20:35Z,1,0,0,0,0,0,0,0,0,0,0,0,138,94,2
 315,Add ONNX Runtime profiling plots and repeat controls to Run and Prompt,Copilot,2026-11-03T16:57:32Z,7,8,4,4,4,0,0,0,4,0,4,0,983,28,22
 319,Upgrade onnx-light and onnx-light-cpu to 0.2.5,Copilot,2026-11-03T16:17:22Z,3,0,0,2,0,0,0,0,0,0,0,0,379,121,11
+328,Preserve configured Python in source-PYTHONPATH integration test,Copilot,2026-11-04T22:04:06Z,2,0,0,2,0,0,0,0,0,0,0,0,2,1,1

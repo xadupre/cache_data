@@ -2934,3 +2934,4 @@ pr_number,title,author,merged_at,commits,comments,copilot_comments,copilot_commi
 5797,Support qualified symbolic names in expression extraction and renaming,Copilot,2026-11-03T23:14:28Z,2,0,0,2,0,0,0,0,0,0,0,0,42,2,3
 5793,Add complete NVFP4 weight contract with FP8 local and global scales,Copilot,2026-11-03T16:56:38Z,3,6,3,2,3,0,0,0,3,0,3,0,1063,0,9
 5776,Bump release version to 0.2.6,Copilot,2026-11-03T13:06:25Z,2,0,0,2,0,0,0,0,0,0,0,0,13,7,7
+5800,Add complete MXFP4 contract with E8M0 block scales,Copilot,2026-11-05T10:34:12Z,5,11,7,3,5,0,0,0,5,0,5,0,664,1,8
