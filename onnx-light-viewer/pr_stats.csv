@@ -179,3 +179,7 @@ pr_number,title,author,merged_at,commits,comments,copilot_comments,copilot_commi
 315,Add ONNX Runtime profiling plots and repeat controls to Run and Prompt,Copilot,2026-11-03T16:57:32Z,7,8,4,4,4,0,0,0,4,0,4,0,983,28,22
 319,Upgrade onnx-light and onnx-light-cpu to 0.2.5,Copilot,2026-11-03T16:17:22Z,3,0,0,2,0,0,0,0,0,0,0,0,379,121,11
 328,Preserve configured Python in source-PYTHONPATH integration test,Copilot,2026-11-04T22:04:06Z,2,0,0,2,0,0,0,0,0,0,0,0,2,1,1
+335,Add CHANGELOGS.md to the documentation,Copilot,2026-11-06T10:29:51Z,2,0,0,2,0,0,0,0,0,0,0,0,17,0,3
+332,Bump @types/vscode from 1.140.0 to 1.144.0,dependabot[bot],2026-11-06T09:18:26Z,1,2,1,0,0,0,0,0,0,0,0,0,5,5,2
+333,"Update pydata-sphinx-theme requirement from <0.24,>=0.23 to >=0.24.0,<0.25 in /docs",dependabot[bot],2026-11-06T08:42:25Z,1,0,0,0,0,0,0,0,0,0,0,0,1,1,1
+331,Bump @types/node from 26.6.5 to 26.6.6,dependabot[bot],2026-11-06T08:41:48Z,1,0,0,0,0,0,0,0,0,0,0,0,5,5,2

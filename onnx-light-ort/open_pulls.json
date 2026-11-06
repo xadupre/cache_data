@@ -1,5 +1,21 @@
 {
-  "latest": [],
-  "oldest": [],
-  "ages_days": []
+  "latest": [
+    {
+      "number": 98,
+      "title": "Fix documentation heading underline warning",
+      "user": "Copilot",
+      "created_at": "2026-11-06T10:10:10Z"
+    }
+  ],
+  "oldest": [
+    {
+      "number": 98,
+      "title": "Fix documentation heading underline warning",
+      "user": "Copilot",
+      "created_at": "2026-11-06T10:10:10Z"
+    }
+  ],
+  "ages_days": [
+    0.09748647239583333
+  ]
 }

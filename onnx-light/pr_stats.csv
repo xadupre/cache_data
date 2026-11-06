@@ -2935,3 +2935,9 @@ pr_number,title,author,merged_at,commits,comments,copilot_comments,copilot_commi
 5793,Add complete NVFP4 weight contract with FP8 local and global scales,Copilot,2026-11-03T16:56:38Z,3,6,3,2,3,0,0,0,3,0,3,0,1063,0,9
 5776,Bump release version to 0.2.6,Copilot,2026-11-03T13:06:25Z,2,0,0,2,0,0,0,0,0,0,0,0,13,7,7
 5800,Add complete MXFP4 contract with E8M0 block scales,Copilot,2026-11-05T10:34:12Z,5,11,7,3,5,0,0,0,5,0,5,0,664,1,8
+5809,Recognize exact Erf-based GELU decompositions (5552 A1),xadupre,2026-11-06T12:27:12Z,2,5,3,0,3,0,0,0,3,0,2,0,719,5,4
+5807,Bump prefix-dev/setup-pixi from 0.11.2 to 0.11.3,dependabot[bot],2026-11-06T09:17:53Z,1,0,0,0,0,0,0,0,0,0,0,0,1,1,1
+5808,Bump mypy from 2.4.0 to 2.4.1,dependabot[bot],2026-11-06T09:04:49Z,1,0,0,0,0,0,0,0,0,0,0,0,1,1,1
+5805,Add compressed-tensors-compatible MXFP6 E2M3 while preserving E3M2 payloads,Copilot,2026-11-05T22:06:35Z,3,3,2,3,1,0,0,0,1,0,0,1,745,46,11
+5802,Support prefill-only embedding features in cached generation,Copilot,2026-11-05T18:26:43Z,3,1,1,2,1,0,0,0,1,0,1,0,224,3,7
+5803,Add complete MXFP8 quantization with E4M3FN values and E8M0 scales,Copilot,2026-11-05T17:25:05Z,4,2,2,4,2,0,0,0,2,0,0,1,892,21,11
