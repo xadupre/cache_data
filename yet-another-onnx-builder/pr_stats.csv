@@ -299,3 +299,9 @@ pr_number,title,author,merged_at,commits,comments,copilot_comments,copilot_commi
 2420,Fix documentation runtime compatibility and strict Sphinx warnings,Copilot,2026-11-04T08:45:52Z,4,3,1,4,0,0,0,0,0,0,0,0,74,6,11
 2419,[yobx/torch] Pin onnx-light to 0.2.5,Copilot,2026-11-03T13:48:01Z,4,6,2,4,0,0,0,0,0,0,0,0,149,37,11
 2421,Bump ruff from 0.17.2 to 0.17.3,dependabot[bot],2026-11-05T09:21:22Z,1,0,0,0,0,0,0,0,0,0,0,0,1,1,1
+2457,Update pytest requirement from >=7 to >=9.2.0,dependabot[bot],2026-11-07T08:46:40Z,1,0,0,0,0,0,0,0,0,0,0,0,1,1,1
+2456,Update scikit-survival requirement from >=0.22 to >=0.28.0,dependabot[bot],2026-11-07T08:46:24Z,1,0,0,0,0,0,0,0,0,0,0,0,1,1,1
+2455,Update category-encoders requirement from >=2.6 to >=2.11.2,dependabot[bot],2026-11-07T08:46:06Z,1,0,0,0,0,0,0,0,0,0,0,0,1,1,1
+2454,Update sphinx requirement from >=7 to >=9.1.1,dependabot[bot],2026-11-07T08:45:48Z,1,0,0,0,0,0,0,0,0,0,0,0,1,1,1
+2453,[yobx/reference] Make Dependabot raise minimum versions for model dependencies,Copilot,2026-11-06T17:22:08Z,4,6,2,4,0,0,0,0,0,0,0,0,43,0,3
+2451,[yobx/reference] Use ONNX Runtime-compatible opset in Tiny-LLM documentation example,Copilot,2026-11-06T13:38:34Z,4,6,2,4,0,0,0,0,0,0,0,0,82,33,6

@@ -2941,3 +2941,8 @@ pr_number,title,author,merged_at,commits,comments,copilot_comments,copilot_commi
 5805,Add compressed-tensors-compatible MXFP6 E2M3 while preserving E3M2 payloads,Copilot,2026-11-05T22:06:35Z,3,3,2,3,1,0,0,0,1,0,0,1,745,46,11
 5802,Support prefill-only embedding features in cached generation,Copilot,2026-11-05T18:26:43Z,3,1,1,2,1,0,0,0,1,0,1,0,224,3,7
 5803,Add complete MXFP8 quantization with E4M3FN values and E8M0 scales,Copilot,2026-11-05T17:25:05Z,4,2,2,4,2,0,0,0,2,0,0,1,892,21,11
+5816,Record only removed nodes in cleanup rewrites,xadupre,2026-11-07T09:14:21Z,3,14,6,1,5,0,0,0,5,0,5,0,82,28,4
+5814,Record only actual deletions in GraphGraph cleanup provenance,Copilot,2026-11-06T21:20:50Z,4,0,0,4,0,0,0,0,0,0,0,0,94,13,2
+5811,Fuse Pad into safe pooling operators (A3 of #5552),xadupre,2026-11-06T16:42:32Z,3,8,4,0,4,0,0,0,4,0,4,0,956,8,8
+5806,Associate peak-memory estimators with kernel registration,Copilot,2026-11-06T16:42:09Z,11,13,7,5,6,0,0,0,6,0,6,0,2555,1346,55
+5812,Audit ONNX Runtime DLPack compatibility and guard bool/uint8 contracts,Copilot,2026-11-06T14:02:53Z,2,0,0,2,0,0,0,0,0,0,0,0,221,0,2

@@ -1,34 +1,21 @@
 {
   "latest": [
     {
-      "number": 2453,
-      "title": "Make Dependabot raise minimum versions for model dependencies",
-      "user": "Copilot",
-      "created_at": "2026-11-06T12:21:39Z"
-    },
-    {
-      "number": 2451,
-      "title": "Use ONNX Runtime-compatible opset in Tiny-LLM documentation example",
-      "user": "Copilot",
-      "created_at": "2026-11-06T10:11:20Z"
+      "number": 2458,
+      "title": "Update lightgbm requirement from >=3.0 to >=4.7.0",
+      "user": "dependabot[bot]",
+      "created_at": "2026-11-06T17:25:35Z"
     }
   ],
   "oldest": [
     {
-      "number": 2451,
-      "title": "Use ONNX Runtime-compatible opset in Tiny-LLM documentation example",
-      "user": "Copilot",
-      "created_at": "2026-11-06T10:11:20Z"
-    },
-    {
-      "number": 2453,
-      "title": "Make Dependabot raise minimum versions for model dependencies",
-      "user": "Copilot",
-      "created_at": "2026-11-06T12:21:39Z"
+      "number": 2458,
+      "title": "Update lightgbm requirement from >=3.0 to >=4.7.0",
+      "user": "dependabot[bot]",
+      "created_at": "2026-11-06T17:25:35Z"
     }
   ],
   "ages_days": [
-    0.09671556946759259,
-    0.006217884282407407
+    0.7472390477893519
   ]
 }

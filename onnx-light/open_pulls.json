@@ -1,21 +1,34 @@
 {
   "latest": [
     {
-      "number": 5806,
-      "title": "Associate peak-memory estimators with kernel registration",
+      "number": 5818,
+      "title": "[WIP] Fix inverse transpose pair survival during fusion cleanup",
       "user": "Copilot",
-      "created_at": "2026-11-05T17:28:28Z"
+      "created_at": "2026-11-07T09:17:47Z"
+    },
+    {
+      "number": 5815,
+      "title": "Add explicit compressed-tensors weight checkpoint adapters",
+      "user": "Copilot",
+      "created_at": "2026-11-06T16:55:46Z"
     }
   ],
   "oldest": [
     {
-      "number": 5806,
-      "title": "Associate peak-memory estimators with kernel registration",
+      "number": 5815,
+      "title": "Add explicit compressed-tensors weight checkpoint adapters",
       "user": "Copilot",
-      "created_at": "2026-11-05T17:28:28Z"
+      "created_at": "2026-11-06T16:55:46Z"
+    },
+    {
+      "number": 5818,
+      "title": "[WIP] Fix inverse transpose pair survival during fusion cleanup",
+      "user": "Copilot",
+      "created_at": "2026-11-07T09:17:47Z"
     }
   ],
   "ages_days": [
-    0.7926749820601852
+    0.7676008036226851,
+    0.08564478510416666
   ]
 }
