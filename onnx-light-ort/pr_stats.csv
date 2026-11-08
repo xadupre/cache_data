@@ -57,3 +57,7 @@ pr_number,title,author,merged_at,commits,comments,copilot_comments,copilot_commi
 94,Upgrade onnx-light to 0.2.4.1 and onnx-light-cpu to 0.2.4,Copilot,2026-11-02T16:51:20Z,3,0,0,3,0,0,0,0,0,0,0,0,33,33,11
 96,Upgrade native dependencies to 0.2.5 and centralize version defaults,Copilot,2026-11-03T19:30:12Z,3,0,0,3,0,0,0,0,0,0,0,0,205,55,13
 98,Fix documentation heading underline warning,Copilot,2026-11-06T13:20:59Z,2,0,0,2,0,0,0,0,0,0,0,0,10,1,2
+103,Bump coverage from 7.17.0 to 7.17.1 in /requirements,dependabot[bot],2026-11-07T21:30:20Z,1,0,0,0,0,0,0,0,0,0,0,0,1,1,1
+102,"Update pydata-sphinx-theme requirement from <1,>=0.23.0 to >=0.24.0,<1 in /docs",dependabot[bot],2026-11-07T21:29:54Z,1,0,0,0,0,0,0,0,0,0,0,0,1,1,1
+100,"Update pydata-sphinx-theme requirement from <1,>=0.23.0 to >=0.24.0,<1",dependabot[bot],2026-11-07T21:29:00Z,1,0,0,0,0,0,0,0,0,0,0,0,1,1,1
+99,Bump coverage from 7.17.0 to 7.17.1,dependabot[bot],2026-11-07T21:28:40Z,1,0,0,0,0,0,0,0,0,0,0,0,1,1,1

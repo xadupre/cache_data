@@ -189,3 +189,6 @@ pr_number,title,author,merged_at,commits,comments,copilot_comments,copilot_commi
 329,Support ORT models and runtime package ZIP loading and saving,Copilot,2026-11-06T14:21:02Z,10,39,22,5,19,0,0,0,19,0,15,0,3823,137,24
 337,Prepare version 0.2.4 and update changelog,xadupre,2026-11-06T13:39:47Z,2,0,0,0,0,0,0,0,0,0,0,0,26,6,3
 336,Simplify model header and add graph-name navigation,xadupre,2026-11-06T13:06:55Z,4,2,0,0,0,0,0,0,0,0,0,0,589,92,12
+347,Improve Optimize and Rewritings editing workflows,xadupre,2026-11-08T10:06:28Z,8,33,17,0,17,0,0,0,17,0,16,1,2985,423,15
+346,Add column sorting and navigation to global optimization reports,Copilot,2026-11-07T19:09:05Z,2,0,0,2,0,0,0,0,0,0,0,0,198,4,4
+344,"Preserve rewriting selection through Unfuse, Fuse and Optimize",xadupre,2026-11-07T19:08:48Z,1,0,0,0,0,0,0,0,0,0,0,0,176,18,5

@@ -1,21 +1,21 @@
 {
   "latest": [
     {
-      "number": 1113,
-      "title": "perf: Reserve runtime-owned generic GEMM scratch before dispatch",
+      "number": 1125,
+      "title": "[WIP] Implement com.microsoft Attention for Whisper encoder generation",
       "user": "Copilot",
-      "created_at": "2026-11-05T18:36:34Z"
+      "created_at": "2026-11-07T18:32:47Z"
     }
   ],
   "oldest": [
     {
-      "number": 1113,
-      "title": "perf: Reserve runtime-owned generic GEMM scratch before dispatch",
+      "number": 1125,
+      "title": "[WIP] Implement com.microsoft Attention for Whisper encoder generation",
       "user": "Copilot",
-      "created_at": "2026-11-05T18:36:34Z"
+      "created_at": "2026-11-07T18:32:47Z"
     }
   ],
   "ages_days": [
-    1.6978623299768518
+    0.7090695223148148
   ]
 }

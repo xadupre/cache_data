@@ -673,3 +673,7 @@ pr_number,title,author,merged_at,commits,comments,copilot_comments,copilot_commi
 1119,Fix inplace build and target onnx-light main without compatibility fallbacks,xadupre,2026-11-07T10:45:55Z,4,1,0,0,0,0,0,0,0,0,0,0,86,69,14
 1118,Set all Microsoft fusion patterns to priority 3,Copilot,2026-11-07T09:42:31Z,2,1,0,2,0,0,0,0,0,0,0,0,19,7,2
 1115,Register com.microsoft::Gelu for Qwen3.5 vision graphs,Copilot,2026-11-06T18:02:57Z,7,5,3,3,3,0,0,0,3,0,2,1,733,26,21
+1124,Preserve CUDA QMoE shape inference after global CPU registration,Copilot,2026-11-07T22:22:33Z,3,3,1,3,0,0,0,0,0,0,0,0,73,6,4
+1123,Diagnose native installation conflicts overriding PYTHONPATH,Copilot,2026-11-07T22:22:06Z,4,5,2,4,0,0,0,0,0,0,0,0,148,3,4
+1122,Fix benchmark regex test compatibility with Python 3.12,Copilot,2026-11-07T21:26:08Z,2,1,0,2,0,0,0,0,0,0,0,0,1,1,1
+1113,perf: Reserve runtime-owned generic GEMM scratch before dispatch,Copilot,2026-11-07T18:29:56Z,12,17,10,7,8,0,0,0,8,0,5,0,1487,276,17

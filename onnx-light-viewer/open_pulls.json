@@ -1,34 +1,5 @@
 {
-  "latest": [
-    {
-      "number": 346,
-      "title": "Add column sorting and navigation to global optimization reports",
-      "user": "Copilot",
-      "created_at": "2026-11-07T09:26:03Z"
-    },
-    {
-      "number": 344,
-      "title": "Preserve rewriting selection through Unfuse, Fuse and Optimize",
-      "user": "xadupre",
-      "created_at": "2026-11-06T22:25:34Z"
-    }
-  ],
-  "oldest": [
-    {
-      "number": 344,
-      "title": "Preserve rewriting selection through Unfuse, Fuse and Optimize",
-      "user": "xadupre",
-      "created_at": "2026-11-06T22:25:34Z"
-    },
-    {
-      "number": 346,
-      "title": "Add column sorting and navigation to global optimization reports",
-      "user": "Copilot",
-      "created_at": "2026-11-07T09:26:03Z"
-    }
-  ],
-  "ages_days": [
-    0.5389026364120371,
-    0.08023365493055556
-  ]
+  "latest": [],
+  "oldest": [],
+  "ages_days": []
 }

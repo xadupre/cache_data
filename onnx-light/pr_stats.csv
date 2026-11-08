@@ -2946,3 +2946,10 @@ pr_number,title,author,merged_at,commits,comments,copilot_comments,copilot_commi
 5811,Fuse Pad into safe pooling operators (A3 of #5552),xadupre,2026-11-06T16:42:32Z,3,8,4,0,4,0,0,0,4,0,4,0,956,8,8
 5806,Associate peak-memory estimators with kernel registration,Copilot,2026-11-06T16:42:09Z,11,13,7,5,6,0,0,0,6,0,6,0,2555,1346,55
 5812,Audit ONNX Runtime DLPack compatibility and guard bool/uint8 contracts,Copilot,2026-11-06T14:02:53Z,2,0,0,2,0,0,0,0,0,0,0,0,221,0,2
+5825,Use native GGML block storage for GGUF quantized weights,Copilot,2026-11-08T11:20:06Z,8,16,9,3,9,0,0,0,9,0,9,0,2510,267,27
+5833,Preserve reduction semantics when downgrading axes inputs,Copilot,2026-11-08T11:11:48Z,2,0,0,2,0,0,0,0,0,0,0,0,99,3,2
+5824,Avoid GCC 13 array-bounds diagnostic in GroupedMatMul case names,Copilot,2026-11-08T08:53:10Z,2,0,0,2,0,0,0,0,0,0,0,0,18,3,2
+5823,Fix strict Sphinx source diagnostics,Copilot,2026-11-08T08:51:50Z,2,0,0,2,0,0,0,0,0,0,0,0,103,7,7
+5818,[WIP] Fix inverse transpose pair survival during fusion cleanup,Copilot,2026-11-07T22:21:04Z,4,4,2,3,1,0,0,0,1,0,1,0,342,37,4
+5815,Add explicit compressed-tensors weight checkpoint adapters,Copilot,2026-11-07T21:44:39Z,7,23,10,5,6,0,0,0,6,0,6,0,1894,0,14
+5821,Automate OpenSSL and CMake updates in Pixi lockfile,Copilot,2026-11-07T21:10:52Z,5,2,2,3,2,0,0,0,2,0,2,0,83,0,2
