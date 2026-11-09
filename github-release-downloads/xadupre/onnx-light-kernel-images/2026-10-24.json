@@ -1,9 +1,16 @@
 {
   "date": "2026-10-24",
-  "totals": {
-    "xadupre/onnx-light-kernel-images": 0
+  "repository": "xadupre/onnx-light-kernel-images",
+  "observed": true,
+  "releases": {
+    "422889392": {
+      "tag": "0.2.0",
+      "published_at": "2026-10-24T17:52:07Z",
+      "prerelease": false
+    }
   },
-  "assets": {
-    "xadupre/onnx-light-kernel-images": {}
-  }
+  "assets": {},
+  "removed_assets": [],
+  "removed_releases": [],
+  "total": 0
 }

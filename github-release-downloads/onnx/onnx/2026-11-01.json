@@ -1,16 +1,14 @@
 {
   "date": "2026-11-01",
-  "totals": {
-    "onnx/onnx": 35934
-  },
+  "repository": "onnx/onnx",
+  "observed": true,
+  "releases": {},
   "assets": {
-    "onnx/onnx": {
-      "8460273": 1173,
-      "10733886": 180,
-      "10752993": 396,
-      "15176642": 33543,
-      "28030649": 298,
-      "28030866": 344
+    "15176642": {
+      "downloads": 2
     }
-  }
+  },
+  "removed_assets": [],
+  "removed_releases": [],
+  "total": 35934
 }

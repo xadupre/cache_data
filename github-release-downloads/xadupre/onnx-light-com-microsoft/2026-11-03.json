@@ -1,9 +1,10 @@
 {
   "date": "2026-11-03",
-  "totals": {
-    "xadupre/onnx-light-com-microsoft": 0
-  },
-  "assets": {
-    "xadupre/onnx-light-com-microsoft": {}
-  }
+  "repository": "xadupre/onnx-light-com-microsoft",
+  "observed": true,
+  "releases": {},
+  "assets": {},
+  "removed_assets": [],
+  "removed_releases": [],
+  "total": 0
 }

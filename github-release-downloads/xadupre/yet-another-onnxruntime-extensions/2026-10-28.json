@@ -1,9 +1,10 @@
 {
   "date": "2026-10-28",
-  "totals": {
-    "xadupre/yet-another-onnxruntime-extensions": 0
-  },
-  "assets": {
-    "xadupre/yet-another-onnxruntime-extensions": {}
-  }
+  "repository": "xadupre/yet-another-onnxruntime-extensions",
+  "observed": true,
+  "releases": {},
+  "assets": {},
+  "removed_assets": [],
+  "removed_releases": [],
+  "total": 0
 }

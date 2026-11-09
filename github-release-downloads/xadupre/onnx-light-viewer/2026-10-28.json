@@ -1,9 +1,10 @@
 {
   "date": "2026-10-28",
-  "totals": {
-    "xadupre/onnx-light-viewer": 0
-  },
-  "assets": {
-    "xadupre/onnx-light-viewer": {}
-  }
+  "repository": "xadupre/onnx-light-viewer",
+  "observed": true,
+  "releases": {},
+  "assets": {},
+  "removed_assets": [],
+  "removed_releases": [],
+  "total": 0
 }

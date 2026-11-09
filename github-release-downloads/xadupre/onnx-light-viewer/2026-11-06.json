@@ -1,14 +1,16 @@
 {
   "date": "2026-11-06",
-  "totals": {
-    "xadupre/onnx-light-viewer": 0
-  },
-  "assets": {
-    "xadupre/onnx-light-viewer": {
-      "709475888": 0,
-      "709475890": 0,
-      "709475892": 0,
-      "709475894": 0
+  "repository": "xadupre/onnx-light-viewer",
+  "observed": true,
+  "releases": {
+    "436753740": {
+      "tag": "0.2.4",
+      "published_at": "2026-11-06T16:48:36Z",
+      "prerelease": false
     }
-  }
+  },
+  "assets": {},
+  "removed_assets": [],
+  "removed_releases": [],
+  "total": 0
 }

@@ -1,9 +1,10 @@
 {
   "date": "2026-10-23",
-  "totals": {
-    "xadupre/yet-another-onnx-builder": 0
-  },
-  "assets": {
-    "xadupre/yet-another-onnx-builder": {}
-  }
+  "repository": "xadupre/yet-another-onnx-builder",
+  "observed": true,
+  "releases": {},
+  "assets": {},
+  "removed_assets": [],
+  "removed_releases": [],
+  "total": 0
 }

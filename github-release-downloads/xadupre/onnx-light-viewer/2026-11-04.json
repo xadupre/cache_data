@@ -1,14 +1,29 @@
 {
   "date": "2026-11-04",
-  "totals": {
-    "xadupre/onnx-light-viewer": 0
+  "repository": "xadupre/onnx-light-viewer",
+  "observed": true,
+  "releases": {
+    "433896250": {
+      "tag": "0.2.3",
+      "published_at": "2026-11-04T12:33:34Z",
+      "prerelease": false
+    }
   },
   "assets": {
-    "xadupre/onnx-light-viewer": {
-      "709475888": 0,
-      "709475890": 0,
-      "709475892": 0,
-      "709475894": 0
+    "709475888": {
+      "release_id": "433896250"
+    },
+    "709475890": {
+      "release_id": "433896250"
+    },
+    "709475892": {
+      "release_id": "433896250"
+    },
+    "709475894": {
+      "release_id": "433896250"
     }
-  }
+  },
+  "removed_assets": [],
+  "removed_releases": [],
+  "total": 0
 }

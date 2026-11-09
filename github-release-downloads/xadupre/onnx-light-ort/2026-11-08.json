@@ -1,9 +1,10 @@
 {
   "date": "2026-11-08",
-  "totals": {
-    "xadupre/onnx-light-ort": 0
-  },
-  "assets": {
-    "xadupre/onnx-light-ort": {}
-  }
+  "repository": "xadupre/onnx-light-ort",
+  "observed": true,
+  "releases": {},
+  "assets": {},
+  "removed_assets": [],
+  "removed_releases": [],
+  "total": 0
 }

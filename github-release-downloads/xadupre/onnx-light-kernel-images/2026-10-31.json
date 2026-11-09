@@ -1,22 +1,10 @@
 {
   "date": "2026-10-31",
-  "totals": {
-    "xadupre/onnx-light-kernel-images": 0
-  },
-  "assets": {
-    "xadupre/onnx-light-kernel-images": {
-      "672921160": 0,
-      "672921500": 0,
-      "672922678": 0,
-      "672923564": 0,
-      "672924945": 0,
-      "672926983": 0,
-      "672927377": 0,
-      "672928454": 0,
-      "672928629": 0,
-      "672930181": 0,
-      "672933022": 0,
-      "672937127": 0
-    }
-  }
+  "repository": "xadupre/onnx-light-kernel-images",
+  "observed": true,
+  "releases": {},
+  "assets": {},
+  "removed_assets": [],
+  "removed_releases": [],
+  "total": 0
 }

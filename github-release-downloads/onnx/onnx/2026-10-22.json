@@ -1,16 +1,241 @@
 {
   "date": "2026-10-22",
-  "totals": {
-    "onnx/onnx": 35634
+  "repository": "onnx/onnx",
+  "observed": true,
+  "releases": {
+    "10178472": {
+      "tag": "v1.1.0",
+      "published_at": "2018-03-21T06:08:42Z",
+      "prerelease": false
+    },
+    "10725080": {
+      "tag": "v1.1.2",
+      "published_at": "2018-04-25T23:46:59Z",
+      "prerelease": false
+    },
+    "11170214": {
+      "tag": "v1.2.1",
+      "published_at": "2018-05-25T02:05:10Z",
+      "prerelease": false
+    },
+    "11533255": {
+      "tag": "v1.2.2",
+      "published_at": "2018-06-18T23:18:07Z",
+      "prerelease": false
+    },
+    "118767560": {
+      "tag": "v1.14.1",
+      "published_at": "2023-08-25T21:00:03Z",
+      "prerelease": false
+    },
+    "12659433": {
+      "tag": "v1.3.0",
+      "published_at": "2018-08-30T18:56:03Z",
+      "prerelease": false
+    },
+    "127401707": {
+      "tag": "v1.15.0",
+      "published_at": "2023-10-31T17:04:56Z",
+      "prerelease": false
+    },
+    "12821901": {
+      "tag": "v1.2.3",
+      "published_at": "2018-09-10T17:59:40Z",
+      "prerelease": false
+    },
+    "143882180": {
+      "tag": "v1.16.0",
+      "published_at": "2024-03-25T15:40:18Z",
+      "prerelease": false
+    },
+    "15124459": {
+      "tag": "v1.4.0",
+      "published_at": "2019-01-23T01:55:55Z",
+      "prerelease": false
+    },
+    "15146858": {
+      "tag": "v1.4.1",
+      "published_at": "2019-01-23T23:12:43Z",
+      "prerelease": false
+    },
+    "155710168": {
+      "tag": "v1.16.1",
+      "published_at": "2024-05-23T17:50:05Z",
+      "prerelease": false
+    },
+    "167885947": {
+      "tag": "v1.16.2",
+      "published_at": "2024-08-01T13:15:32Z",
+      "prerelease": false
+    },
+    "16938647": {
+      "tag": "v1.5.0",
+      "published_at": "2019-04-24T05:33:22Z",
+      "prerelease": false
+    },
+    "177856226": {
+      "tag": "v1.17.0",
+      "published_at": "2024-10-01T17:57:22Z",
+      "prerelease": false
+    },
+    "20094351": {
+      "tag": "v1.6.0",
+      "published_at": "2019-09-28T01:28:46Z",
+      "prerelease": false
+    },
+    "218118544": {
+      "tag": "v1.18.0",
+      "published_at": "2025-05-12T23:07:37Z",
+      "prerelease": false
+    },
+    "242712157": {
+      "tag": "v1.19.0",
+      "published_at": "2025-08-26T21:48:02Z",
+      "prerelease": false
+    },
+    "253038226": {
+      "tag": "v1.19.1",
+      "published_at": "2025-10-10T02:06:42Z",
+      "prerelease": false
+    },
+    "26335614": {
+      "tag": "v1.7.0",
+      "published_at": "2020-05-09T02:44:51Z",
+      "prerelease": false
+    },
+    "266465331": {
+      "tag": "v1.20.0",
+      "published_at": "2025-12-01T17:14:38Z",
+      "prerelease": false
+    },
+    "275637466": {
+      "tag": "v1.20.1",
+      "published_at": "2026-01-09T23:21:12Z",
+      "prerelease": false
+    },
+    "302507883": {
+      "tag": "v1.21.0",
+      "published_at": "2026-03-27T20:35:27Z",
+      "prerelease": false
+    },
+    "333229354": {
+      "tag": "v1.22.0",
+      "published_at": "2026-06-15T15:04:00Z",
+      "prerelease": false
+    },
+    "33379674": {
+      "tag": "v1.8.0",
+      "published_at": "2020-11-07T00:55:30Z",
+      "prerelease": false
+    },
+    "37111410": {
+      "tag": "v1.8.1",
+      "published_at": "2021-01-30T01:25:24Z",
+      "prerelease": false
+    },
+    "391644232": {
+      "tag": "v1.23.0",
+      "published_at": "2026-09-18T18:39:37Z",
+      "prerelease": false
+    },
+    "399347626": {
+      "tag": "v1.23.1",
+      "published_at": "2026-09-29T16:51:57Z",
+      "prerelease": false
+    },
+    "404217040": {
+      "tag": "v1.23.2",
+      "published_at": "2026-10-06T01:30:11Z",
+      "prerelease": false
+    },
+    "41635052": {
+      "tag": "v1.9.0",
+      "published_at": "2021-04-19T10:24:37Z",
+      "prerelease": false
+    },
+    "47079750": {
+      "tag": "v1.10.0",
+      "published_at": "2021-07-31T00:56:50Z",
+      "prerelease": false
+    },
+    "47182511": {
+      "tag": "v1.10.1",
+      "published_at": "2021-08-02T20:22:19Z",
+      "prerelease": false
+    },
+    "52077857": {
+      "tag": "v1.10.2",
+      "published_at": "2021-10-26T17:29:47Z",
+      "prerelease": false
+    },
+    "58933299": {
+      "tag": "v1.11.0",
+      "published_at": "2022-02-17T21:58:59Z",
+      "prerelease": false
+    },
+    "67713499": {
+      "tag": "v1.12.0",
+      "published_at": "2022-06-18T02:58:18Z",
+      "prerelease": false
+    },
+    "8053804": {
+      "tag": "v0.2",
+      "published_at": "2017-10-10T04:53:12Z",
+      "prerelease": true
+    },
+    "84104176": {
+      "tag": "v1.13.0",
+      "published_at": "2022-12-12T14:38:36Z",
+      "prerelease": false
+    },
+    "8751398": {
+      "tag": "v1.0",
+      "published_at": "2017-12-06T21:56:28Z",
+      "prerelease": false
+    },
+    "92715885": {
+      "tag": "v1.13.1",
+      "published_at": "2023-02-22T18:47:36Z",
+      "prerelease": false
+    },
+    "9394991": {
+      "tag": "v1.0.1",
+      "published_at": "2018-01-26T22:14:50Z",
+      "prerelease": false
+    },
+    "98828656": {
+      "tag": "v1.14.0",
+      "published_at": "2023-05-05T16:35:02Z",
+      "prerelease": false
+    }
   },
   "assets": {
-    "onnx/onnx": {
-      "8460273": 1173,
-      "10733886": 180,
-      "10752993": 396,
-      "15176642": 33243,
-      "28030649": 298,
-      "28030866": 344
+    "10733886": {
+      "release_id": "15124459",
+      "downloads": 180
+    },
+    "10752993": {
+      "release_id": "15146858",
+      "downloads": 396
+    },
+    "15176642": {
+      "release_id": "20094351",
+      "downloads": 33243
+    },
+    "28030649": {
+      "release_id": "33379674",
+      "downloads": 298
+    },
+    "28030866": {
+      "release_id": "33379674",
+      "downloads": 344
+    },
+    "8460273": {
+      "release_id": "12659433",
+      "downloads": 1173
     }
-  }
+  },
+  "removed_assets": [],
+  "removed_releases": [],
+  "total": 35634
 }

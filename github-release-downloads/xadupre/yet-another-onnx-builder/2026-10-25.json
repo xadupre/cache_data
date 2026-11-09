@@ -1,12 +1,17 @@
 {
   "date": "2026-10-25",
-  "totals": {
-    "xadupre/yet-another-onnx-builder": 0
-  },
+  "repository": "xadupre/yet-another-onnx-builder",
+  "observed": true,
+  "releases": {},
   "assets": {
-    "xadupre/yet-another-onnx-builder": {
-      "672911238": 0,
-      "672911239": 0
+    "672911238": {
+      "release_id": "422887669"
+    },
+    "672911239": {
+      "release_id": "422887669"
     }
-  }
+  },
+  "removed_assets": [],
+  "removed_releases": [],
+  "total": 0
 }
