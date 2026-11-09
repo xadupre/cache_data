@@ -78,8 +78,8 @@
     "Vmap",
     "VmapPython"
   ],
-  "commit": "92a4a63083af7003cc1594b9e06cb54c56c489b3",
-  "date": "2026-10-05T16:07:39Z",
+  "commit": "40aa8da3d5a9f6957615fd85eaeb1a9629737ea9",
+  "date": "2026-11-09T17:47:43Z",
   "dynamic": [
     false,
     true
@@ -122,14 +122,14 @@
       "success": 1
     },
     {
-      "abs": 0.0,
+      "abs": null,
       "dynamic": 0,
-      "error": "",
-      "error_step": "",
+      "error": "No module named 'onnxscript'",
+      "error_step": "export",
       "exporter": "dynamo",
       "name": "AtenAsStrided",
-      "rel": 0.0,
-      "success": 1
+      "rel": null,
+      "success": 0
     },
     {
       "abs": 0.0,
@@ -162,14 +162,14 @@
       "success": 1
     },
     {
-      "abs": 0.0,
+      "abs": null,
       "dynamic": 1,
-      "error": "",
-      "error_step": "",
+      "error": "No module named 'onnxscript'",
+      "error_step": "export",
       "exporter": "dynamo",
       "name": "AtenAsStrided",
-      "rel": 0.0,
-      "success": 1
+      "rel": null,
+      "success": 0
     },
     {
       "abs": 1.1920928955078125e-07,
@@ -178,7 +178,7 @@
       "error_step": "",
       "exporter": "yobx",
       "name": "AtenCumprod",
-      "rel": 3.1220243491607624e-07,
+      "rel": 1.845251381282358e-07,
       "success": 1
     },
     {
@@ -188,7 +188,7 @@
       "error_step": "",
       "exporter": "yobx-tracing",
       "name": "AtenCumprod",
-      "rel": 3.1220243491607624e-07,
+      "rel": 1.845251381282358e-07,
       "success": 1
     },
     {
@@ -198,13 +198,13 @@
       "error_step": "",
       "exporter": "yobx-new-tracing",
       "name": "AtenCumprod",
-      "rel": 3.1220243491607624e-07,
+      "rel": 1.845251381282358e-07,
       "success": 1
     },
     {
       "abs": null,
       "dynamic": 0,
-      "error": "Failed to convert the exported program to an ONNX model. \u001b[96mThis is step 3/3\u001b[0m of exporting the model to ONNX. Next steps:",
+      "error": "No module named 'onnxscript'",
       "error_step": "export",
       "exporter": "dynamo",
       "name": "AtenCumprod",
@@ -218,7 +218,7 @@
       "error_step": "",
       "exporter": "yobx",
       "name": "AtenCumprod",
-      "rel": 3.1220243491607624e-07,
+      "rel": 1.845251381282358e-07,
       "success": 1
     },
     {
@@ -228,7 +228,7 @@
       "error_step": "",
       "exporter": "yobx-tracing",
       "name": "AtenCumprod",
-      "rel": 3.1220243491607624e-07,
+      "rel": 1.845251381282358e-07,
       "success": 1
     },
     {
@@ -238,13 +238,13 @@
       "error_step": "",
       "exporter": "yobx-new-tracing",
       "name": "AtenCumprod",
-      "rel": 3.1220243491607624e-07,
+      "rel": 1.845251381282358e-07,
       "success": 1
     },
     {
       "abs": null,
       "dynamic": 1,
-      "error": "Failed to convert the exported program to an ONNX model. \u001b[96mThis is step 3/3\u001b[0m of exporting the model to ONNX. Next steps:",
+      "error": "No module named 'onnxscript'",
       "error_step": "export",
       "exporter": "dynamo",
       "name": "AtenCumprod",
@@ -258,7 +258,7 @@
       "error_step": "",
       "exporter": "yobx",
       "name": "AtenInterpolate",
-      "rel": 5.957563181268201e-06,
+      "rel": 2.0549607978416532e-06,
       "success": 1
     },
     {
@@ -268,7 +268,7 @@
       "error_step": "",
       "exporter": "yobx-tracing",
       "name": "AtenInterpolate",
-      "rel": 5.957563181268201e-06,
+      "rel": 2.0549607978416532e-06,
       "success": 1
     },
     {
@@ -278,18 +278,18 @@
       "error_step": "",
       "exporter": "yobx-new-tracing",
       "name": "AtenInterpolate",
-      "rel": 5.957563181268201e-06,
+      "rel": 2.0549607978416532e-06,
       "success": 1
     },
     {
-      "abs": 1.1920928955078125e-07,
+      "abs": null,
       "dynamic": 0,
-      "error": "",
-      "error_step": "",
+      "error": "No module named 'onnxscript'",
+      "error_step": "export",
       "exporter": "dynamo",
       "name": "AtenInterpolate",
-      "rel": 5.957563181268201e-06,
-      "success": 1
+      "rel": null,
+      "success": 0
     },
     {
       "abs": 1.1920928955078125e-07,
@@ -298,7 +298,7 @@
       "error_step": "",
       "exporter": "yobx",
       "name": "AtenInterpolate",
-      "rel": 5.957563181268201e-06,
+      "rel": 2.0549607978416532e-06,
       "success": 1
     },
     {
@@ -308,7 +308,7 @@
       "error_step": "",
       "exporter": "yobx-tracing",
       "name": "AtenInterpolate",
-      "rel": 5.957563181268201e-06,
+      "rel": 2.0549607978416532e-06,
       "success": 1
     },
     {
@@ -318,47 +318,27 @@
       "error_step": "",
       "exporter": "yobx-new-tracing",
       "name": "AtenInterpolate",
-      "rel": 5.957563181268201e-06,
+      "rel": 2.0549607978416532e-06,
       "success": 1
     },
     {
-      "abs": 1.1920928955078125e-07,
+      "abs": null,
       "dynamic": 1,
-      "error": "",
-      "error_step": "",
+      "error": "No module named 'onnxscript'",
+      "error_step": "export",
       "exporter": "dynamo",
       "name": "AtenInterpolate",
-      "rel": 5.957563181268201e-06,
-      "success": 1
-    },
-    {
-      "abs": 4.76837158203125e-07,
-      "dynamic": 0,
-      "error": "",
-      "error_step": "",
-      "exporter": "yobx",
-      "name": "AtenNnFunctionalBilinear",
-      "rel": 2.794930414796338e-07,
-      "success": 1
-    },
-    {
-      "abs": 4.76837158203125e-07,
-      "dynamic": 0,
-      "error": "",
-      "error_step": "",
-      "exporter": "yobx-tracing",
-      "name": "AtenNnFunctionalBilinear",
-      "rel": 1.104753602738488e-06,
-      "success": 1
+      "rel": null,
+      "success": 0
     },
     {
       "abs": 2.384185791015625e-07,
       "dynamic": 0,
       "error": "",
       "error_step": "",
-      "exporter": "yobx-new-tracing",
+      "exporter": "yobx",
       "name": "AtenNnFunctionalBilinear",
-      "rel": 5.333178008434835e-07,
+      "rel": 9.594342892972847e-07,
       "success": 1
     },
     {
@@ -366,9 +346,49 @@
       "dynamic": 0,
       "error": "",
       "error_step": "",
+      "exporter": "yobx-tracing",
+      "name": "AtenNnFunctionalBilinear",
+      "rel": 4.2717765674674103e-07,
+      "success": 1
+    },
+    {
+      "abs": 4.76837158203125e-07,
+      "dynamic": 0,
+      "error": "",
+      "error_step": "",
+      "exporter": "yobx-new-tracing",
+      "name": "AtenNnFunctionalBilinear",
+      "rel": 1.280917734230815e-07,
+      "success": 1
+    },
+    {
+      "abs": null,
+      "dynamic": 0,
+      "error": "No module named 'onnxscript'",
+      "error_step": "export",
       "exporter": "dynamo",
       "name": "AtenNnFunctionalBilinear",
-      "rel": 9.052573784724432e-08,
+      "rel": null,
+      "success": 0
+    },
+    {
+      "abs": 9.5367431640625e-07,
+      "dynamic": 1,
+      "error": "",
+      "error_step": "",
+      "exporter": "yobx",
+      "name": "AtenNnFunctionalBilinear",
+      "rel": 1.6813119937099238e-07,
+      "success": 1
+    },
+    {
+      "abs": 4.76837158203125e-07,
+      "dynamic": 1,
+      "error": "",
+      "error_step": "",
+      "exporter": "yobx-tracing",
+      "name": "AtenNnFunctionalBilinear",
+      "rel": 2.0490021721685124e-07,
       "success": 1
     },
     {
@@ -376,120 +396,100 @@
       "dynamic": 1,
       "error": "",
       "error_step": "",
-      "exporter": "yobx",
-      "name": "AtenNnFunctionalBilinear",
-      "rel": 7.713018152298829e-08,
-      "success": 1
-    },
-    {
-      "abs": 4.76837158203125e-07,
-      "dynamic": 1,
-      "error": "",
-      "error_step": "",
-      "exporter": "yobx-tracing",
-      "name": "AtenNnFunctionalBilinear",
-      "rel": 1.440675406241262e-07,
-      "success": 1
-    },
-    {
-      "abs": 4.76837158203125e-07,
-      "dynamic": 1,
-      "error": "",
-      "error_step": "",
       "exporter": "yobx-new-tracing",
       "name": "AtenNnFunctionalBilinear",
-      "rel": 2.401467220008709e-07,
+      "rel": 9.915066745056506e-06,
       "success": 1
     },
     {
-      "abs": 5.960464477539063e-08,
+      "abs": null,
       "dynamic": 1,
-      "error": "",
-      "error_step": "",
+      "error": "No module named 'onnxscript'",
+      "error_step": "export",
       "exporter": "dynamo",
       "name": "AtenNnFunctionalBilinear",
-      "rel": 1.0954027657379261e-07,
-      "success": 1
+      "rel": null,
+      "success": 0
     },
     {
-      "abs": 5.960464477539063e-08,
+      "abs": 2.9802322387695312e-08,
       "dynamic": 0,
       "error": "",
       "error_step": "",
       "exporter": "yobx",
       "name": "AtenNnFunctionalSoftMarginLoss",
-      "rel": 7.055870747448291e-08,
+      "rel": 3.5873289169262116e-07,
       "success": 1
     },
     {
-      "abs": 5.960464477539063e-08,
+      "abs": 2.9802322387695312e-08,
       "dynamic": 0,
       "error": "",
       "error_step": "",
       "exporter": "yobx-tracing",
       "name": "AtenNnFunctionalSoftMarginLoss",
-      "rel": 7.055870747448291e-08,
+      "rel": 3.5873289169262116e-07,
       "success": 1
     },
     {
-      "abs": 5.960464477539063e-08,
+      "abs": 2.9802322387695312e-08,
       "dynamic": 0,
       "error": "",
       "error_step": "",
       "exporter": "yobx-new-tracing",
       "name": "AtenNnFunctionalSoftMarginLoss",
-      "rel": 7.055870747448291e-08,
+      "rel": 3.5873289169262116e-07,
       "success": 1
     },
     {
-      "abs": 5.960464477539063e-08,
+      "abs": null,
       "dynamic": 0,
-      "error": "",
-      "error_step": "",
+      "error": "No module named 'onnxscript'",
+      "error_step": "export",
       "exporter": "dynamo",
       "name": "AtenNnFunctionalSoftMarginLoss",
-      "rel": 7.055870747448291e-08,
-      "success": 1
+      "rel": null,
+      "success": 0
     },
     {
-      "abs": 5.960464477539063e-08,
+      "abs": 2.9802322387695312e-08,
       "dynamic": 1,
       "error": "",
       "error_step": "",
       "exporter": "yobx",
       "name": "AtenNnFunctionalSoftMarginLoss",
-      "rel": 7.055870747448291e-08,
+      "rel": 3.5873289169262116e-07,
       "success": 1
     },
     {
-      "abs": 5.960464477539063e-08,
+      "abs": 2.9802322387695312e-08,
       "dynamic": 1,
       "error": "",
       "error_step": "",
       "exporter": "yobx-tracing",
       "name": "AtenNnFunctionalSoftMarginLoss",
-      "rel": 7.055870747448291e-08,
+      "rel": 3.5873289169262116e-07,
       "success": 1
     },
     {
-      "abs": 5.960464477539063e-08,
+      "abs": 2.9802322387695312e-08,
       "dynamic": 1,
       "error": "",
       "error_step": "",
       "exporter": "yobx-new-tracing",
       "name": "AtenNnFunctionalSoftMarginLoss",
-      "rel": 7.055870747448291e-08,
+      "rel": 3.5873289169262116e-07,
       "success": 1
     },
     {
-      "abs": 5.960464477539063e-08,
+      "abs": null,
       "dynamic": 1,
-      "error": "",
-      "error_step": "",
+      "error": "No module named 'onnxscript'",
+      "error_step": "export",
       "exporter": "dynamo",
       "name": "AtenNnFunctionalSoftMarginLoss",
-      "rel": 7.055870747448291e-08,
-      "success": 1
+      "rel": null,
+      "success": 0
     },
     {
       "abs": 0.0,
@@ -522,11 +522,21 @@
       "success": 1
     },
     {
-      "abs": 0.0,
+      "abs": null,
       "dynamic": 0,
+      "error": "No module named 'onnxscript'",
+      "error_step": "export",
+      "exporter": "dynamo",
+      "name": "AtenNonZero",
+      "rel": null,
+      "success": 0
+    },
+    {
+      "abs": 0.0,
+      "dynamic": 1,
       "error": "",
       "error_step": "",
-      "exporter": "dynamo",
+      "exporter": "yobx",
       "name": "AtenNonZero",
       "rel": 0.0,
       "success": 1
@@ -536,16 +546,6 @@
       "dynamic": 1,
       "error": "",
       "error_step": "",
-      "exporter": "yobx",
-      "name": "AtenNonZero",
-      "rel": 0.0,
-      "success": 1
-    },
-    {
-      "abs": 0.0,
-      "dynamic": 1,
-      "error": "",
-      "error_step": "",
       "exporter": "yobx-tracing",
       "name": "AtenNonZero",
       "rel": 0.0,
@@ -562,14 +562,14 @@
       "success": 1
     },
     {
-      "abs": 0.0,
+      "abs": null,
       "dynamic": 1,
-      "error": "",
-      "error_step": "",
+      "error": "No module named 'onnxscript'",
+      "error_step": "export",
       "exporter": "dynamo",
       "name": "AtenNonZero",
-      "rel": 0.0,
-      "success": 1
+      "rel": null,
+      "success": 0
     },
     {
       "abs": 0.0,
@@ -602,11 +602,21 @@
       "success": 1
     },
     {
-      "abs": 0.0,
+      "abs": null,
       "dynamic": 0,
+      "error": "No module named 'onnxscript'",
+      "error_step": "export",
+      "exporter": "dynamo",
+      "name": "AtenNonZeroTuple",
+      "rel": null,
+      "success": 0
+    },
+    {
+      "abs": 0.0,
+      "dynamic": 1,
       "error": "",
       "error_step": "",
-      "exporter": "dynamo",
+      "exporter": "yobx",
       "name": "AtenNonZeroTuple",
       "rel": 0.0,
       "success": 1
@@ -616,16 +626,6 @@
       "dynamic": 1,
       "error": "",
       "error_step": "",
-      "exporter": "yobx",
-      "name": "AtenNonZeroTuple",
-      "rel": 0.0,
-      "success": 1
-    },
-    {
-      "abs": 0.0,
-      "dynamic": 1,
-      "error": "",
-      "error_step": "",
       "exporter": "yobx-tracing",
       "name": "AtenNonZeroTuple",
       "rel": 0.0,
@@ -642,14 +642,14 @@
       "success": 1
     },
     {
-      "abs": 0.0,
+      "abs": null,
       "dynamic": 1,
-      "error": "",
-      "error_step": "",
+      "error": "No module named 'onnxscript'",
+      "error_step": "export",
       "exporter": "dynamo",
       "name": "AtenNonZeroTuple",
-      "rel": 0.0,
-      "success": 1
+      "rel": null,
+      "success": 0
     },
     {
       "abs": 0.0,
@@ -682,14 +682,14 @@
       "success": 1
     },
     {
-      "abs": 0.0,
+      "abs": null,
       "dynamic": 0,
-      "error": "",
-      "error_step": "",
+      "error": "No module named 'onnxscript'",
+      "error_step": "export",
       "exporter": "dynamo",
       "name": "AtenRollPos",
-      "rel": 0.0,
-      "success": 1
+      "rel": null,
+      "success": 0
     },
     {
       "abs": 0.0,
@@ -722,14 +722,14 @@
       "success": 1
     },
     {
-      "abs": 0.0,
+      "abs": null,
       "dynamic": 1,
-      "error": "",
-      "error_step": "",
+      "error": "No module named 'onnxscript'",
+      "error_step": "export",
       "exporter": "dynamo",
       "name": "AtenRollPos",
-      "rel": 0.0,
-      "success": 1
+      "rel": null,
+      "success": 0
     },
     {
       "abs": 0.0,
@@ -762,14 +762,14 @@
       "success": 1
     },
     {
-      "abs": 0.0,
+      "abs": null,
       "dynamic": 0,
-      "error": "",
-      "error_step": "",
+      "error": "No module named 'onnxscript'",
+      "error_step": "export",
       "exporter": "dynamo",
       "name": "AtenRollRelu",
-      "rel": 0.0,
-      "success": 1
+      "rel": null,
+      "success": 0
     },
     {
       "abs": 0.0,
@@ -802,14 +802,14 @@
       "success": 1
     },
     {
-      "abs": 0.0,
+      "abs": null,
       "dynamic": 1,
-      "error": "",
-      "error_step": "",
+      "error": "No module named 'onnxscript'",
+      "error_step": "export",
       "exporter": "dynamo",
       "name": "AtenRollRelu",
-      "rel": 0.0,
-      "success": 1
+      "rel": null,
+      "success": 0
     },
     {
       "abs": 0.0,
@@ -842,14 +842,14 @@
       "success": 1
     },
     {
-      "abs": 0.0,
+      "abs": null,
       "dynamic": 0,
-      "error": "",
-      "error_step": "",
+      "error": "No module named 'onnxscript'",
+      "error_step": "export",
       "exporter": "dynamo",
       "name": "BuildInIsInstance",
-      "rel": 0.0,
-      "success": 1
+      "rel": null,
+      "success": 0
     },
     {
       "abs": 0.0,
@@ -882,14 +882,14 @@
       "success": 1
     },
     {
-      "abs": 0.0,
+      "abs": null,
       "dynamic": 1,
-      "error": "",
-      "error_step": "",
+      "error": "No module named 'onnxscript'",
+      "error_step": "export",
       "exporter": "dynamo",
       "name": "BuildInIsInstance",
-      "rel": 0.0,
-      "success": 1
+      "rel": null,
+      "success": 0
     },
     {
       "abs": 0.0,
@@ -922,14 +922,14 @@
       "success": 1
     },
     {
-      "abs": 0.0,
+      "abs": null,
       "dynamic": 0,
-      "error": "",
-      "error_step": "",
+      "error": "No module named 'onnxscript'",
+      "error_step": "export",
       "exporter": "dynamo",
       "name": "BuildInLen",
-      "rel": 0.0,
-      "success": 1
+      "rel": null,
+      "success": 0
     },
     {
       "abs": 96.0,
@@ -938,7 +938,7 @@
       "error_step": "diff.1",
       "exporter": "yobx",
       "name": "BuildInLen",
-      "rel": 0.13575679814008043,
+      "rel": 0.1355353470758967,
       "success": 0
     },
     {
@@ -948,7 +948,7 @@
       "error_step": "diff.1",
       "exporter": "yobx-tracing",
       "name": "BuildInLen",
-      "rel": 0.13587169192473803,
+      "rel": 0.1355241444412738,
       "success": 0
     },
     {
@@ -958,23 +958,23 @@
       "error_step": "diff.1",
       "exporter": "yobx-new-tracing",
       "name": "BuildInLen",
-      "rel": 0.13552407650069423,
+      "rel": 0.1360818017502377,
       "success": 0
     },
     {
-      "abs": 96.0,
+      "abs": null,
       "dynamic": 1,
-      "error": "diff.1",
-      "error_step": "diff.1",
+      "error": "No module named 'onnxscript'",
+      "error_step": "export",
       "exporter": "dynamo",
       "name": "BuildInLen",
-      "rel": 0.13552377076892913,
+      "rel": null,
       "success": 0
     },
     {
       "abs": null,
       "dynamic": 0,
-      "error": "[ONNXRuntimeError] : 10 : INVALID_GRAPH : This is an invalid model. Type Error: Type 'tensor(complex64)' of input parameter (_onx_sin_angle::C14) of operator (Mul) in node (polar5) is invalid.",
+      "error": "[ONNXRuntimeError] : 10 : INVALID_GRAPH : This is an invalid model. Type Error: Type 'tensor(complex64)' of input parameter (cast_2) of operator (Mul) in node (polar_5) is invalid.",
       "error_step": "ort-init",
       "exporter": "yobx",
       "name": "ComplexPolar",
@@ -984,7 +984,7 @@
     {
       "abs": null,
       "dynamic": 0,
-      "error": "[ONNXRuntimeError] : 10 : INVALID_GRAPH : This is an invalid model. Type Error: Type 'tensor(complex64)' of input parameter (_onx_sin_angle::C14) of operator (Mul) in node (polar5) is invalid.",
+      "error": "[ONNXRuntimeError] : 10 : INVALID_GRAPH : This is an invalid model. Type Error: Type 'tensor(complex64)' of input parameter (cast_2) of operator (Mul) in node (polar_5) is invalid.",
       "error_step": "ort-init",
       "exporter": "yobx-tracing",
       "name": "ComplexPolar",
@@ -994,7 +994,7 @@
     {
       "abs": null,
       "dynamic": 0,
-      "error": "[ONNXRuntimeError] : 10 : INVALID_GRAPH : This is an invalid model. Type Error: Type 'tensor(complex64)' of input parameter (_onx_sin_angle::C14) of operator (Mul) in node (polar5) is invalid.",
+      "error": "[ONNXRuntimeError] : 10 : INVALID_GRAPH : This is an invalid model. Type Error: Type 'tensor(complex64)' of input parameter (cast_2) of operator (Mul) in node (polar_5) is invalid.",
       "error_step": "ort-init",
       "exporter": "yobx-new-tracing",
       "name": "ComplexPolar",
@@ -1004,8 +1004,8 @@
     {
       "abs": null,
       "dynamic": 0,
-      "error": "diff.0",
-      "error_step": "diff.0",
+      "error": "No module named 'onnxscript'",
+      "error_step": "export",
       "exporter": "dynamo",
       "name": "ComplexPolar",
       "rel": null,
@@ -1014,7 +1014,7 @@
     {
       "abs": null,
       "dynamic": 1,
-      "error": "[ONNXRuntimeError] : 10 : INVALID_GRAPH : This is an invalid model. Type Error: Type 'tensor(complex64)' of input parameter (_onx_sin_angle::C14) of operator (Mul) in node (polar5) is invalid.",
+      "error": "[ONNXRuntimeError] : 10 : INVALID_GRAPH : This is an invalid model. Type Error: Type 'tensor(complex64)' of input parameter (cast_2) of operator (Mul) in node (polar_5) is invalid.",
       "error_step": "ort-init",
       "exporter": "yobx",
       "name": "ComplexPolar",
@@ -1024,7 +1024,7 @@
     {
       "abs": null,
       "dynamic": 1,
-      "error": "[ONNXRuntimeError] : 10 : INVALID_GRAPH : This is an invalid model. Type Error: Type 'tensor(complex64)' of input parameter (_onx_sin_angle::C14) of operator (Mul) in node (polar5) is invalid.",
+      "error": "[ONNXRuntimeError] : 10 : INVALID_GRAPH : This is an invalid model. Type Error: Type 'tensor(complex64)' of input parameter (cast_2) of operator (Mul) in node (polar_5) is invalid.",
       "error_step": "ort-init",
       "exporter": "yobx-tracing",
       "name": "ComplexPolar",
@@ -1044,181 +1044,21 @@
     {
       "abs": null,
       "dynamic": 1,
-      "error": "diff.0",
-      "error_step": "diff.0",
+      "error": "No module named 'onnxscript'",
+      "error_step": "export",
       "exporter": "dynamo",
       "name": "ComplexPolar",
       "rel": null,
       "success": 0
     },
     {
-      "abs": 2.9802322387695312e-08,
-      "dynamic": 0,
-      "error": "",
-      "error_step": "",
-      "exporter": "yobx",
-      "name": "ControlFlowCond",
-      "rel": 6.410053658615585e-08,
-      "success": 1
-    },
-    {
-      "abs": 2.9802322387695312e-08,
-      "dynamic": 0,
-      "error": "",
-      "error_step": "",
-      "exporter": "yobx-tracing",
-      "name": "ControlFlowCond",
-      "rel": 6.410053658615585e-08,
-      "success": 1
-    },
-    {
-      "abs": 2.9802322387695312e-08,
-      "dynamic": 0,
-      "error": "",
-      "error_step": "",
-      "exporter": "yobx-new-tracing",
-      "name": "ControlFlowCond",
-      "rel": 6.410053658615585e-08,
-      "success": 1
-    },
-    {
-      "abs": 2.9802322387695312e-08,
-      "dynamic": 0,
-      "error": "",
-      "error_step": "",
-      "exporter": "dynamo",
-      "name": "ControlFlowCond",
-      "rel": 6.410053658615585e-08,
-      "success": 1
-    },
-    {
-      "abs": 2.9802322387695312e-08,
-      "dynamic": 1,
-      "error": "",
-      "error_step": "",
-      "exporter": "yobx",
-      "name": "ControlFlowCond",
-      "rel": 6.410053658615585e-08,
-      "success": 1
-    },
-    {
-      "abs": 2.9802322387695312e-08,
-      "dynamic": 1,
-      "error": "",
-      "error_step": "",
-      "exporter": "yobx-tracing",
-      "name": "ControlFlowCond",
-      "rel": 6.410053658615585e-08,
-      "success": 1
-    },
-    {
-      "abs": 2.9802322387695312e-08,
-      "dynamic": 1,
-      "error": "",
-      "error_step": "",
-      "exporter": "yobx-new-tracing",
-      "name": "ControlFlowCond",
-      "rel": 6.410053658615585e-08,
-      "success": 1
-    },
-    {
-      "abs": 2.9802322387695312e-08,
-      "dynamic": 1,
-      "error": "",
-      "error_step": "",
-      "exporter": "dynamo",
-      "name": "ControlFlowCond",
-      "rel": 6.410053658615585e-08,
-      "success": 1
-    },
-    {
-      "abs": 1.1920928955078125e-07,
-      "dynamic": 0,
-      "error": "",
-      "error_step": "",
-      "exporter": "yobx",
-      "name": "ControlFlowCond2Inputs",
-      "rel": 1.1612009854404897e-07,
-      "success": 1
-    },
-    {
-      "abs": 1.1920928955078125e-07,
-      "dynamic": 0,
-      "error": "",
-      "error_step": "",
-      "exporter": "yobx-tracing",
-      "name": "ControlFlowCond2Inputs",
-      "rel": 1.1612009854404897e-07,
-      "success": 1
-    },
-    {
-      "abs": 1.1920928955078125e-07,
-      "dynamic": 0,
-      "error": "",
-      "error_step": "",
-      "exporter": "yobx-new-tracing",
-      "name": "ControlFlowCond2Inputs",
-      "rel": 1.1612009854404897e-07,
-      "success": 1
-    },
-    {
-      "abs": 1.1920928955078125e-07,
-      "dynamic": 0,
-      "error": "",
-      "error_step": "",
-      "exporter": "dynamo",
-      "name": "ControlFlowCond2Inputs",
-      "rel": 1.1612009854404897e-07,
-      "success": 1
-    },
-    {
-      "abs": 1.1920928955078125e-07,
-      "dynamic": 1,
-      "error": "",
-      "error_step": "",
-      "exporter": "yobx",
-      "name": "ControlFlowCond2Inputs",
-      "rel": 1.1612009854404897e-07,
-      "success": 1
-    },
-    {
-      "abs": 1.1920928955078125e-07,
-      "dynamic": 1,
-      "error": "",
-      "error_step": "",
-      "exporter": "yobx-tracing",
-      "name": "ControlFlowCond2Inputs",
-      "rel": 1.1612009854404897e-07,
-      "success": 1
-    },
-    {
-      "abs": 1.1920928955078125e-07,
-      "dynamic": 1,
-      "error": "",
-      "error_step": "",
-      "exporter": "yobx-new-tracing",
-      "name": "ControlFlowCond2Inputs",
-      "rel": 1.1612009854404897e-07,
-      "success": 1
-    },
-    {
-      "abs": 1.1920928955078125e-07,
-      "dynamic": 1,
-      "error": "",
-      "error_step": "",
-      "exporter": "dynamo",
-      "name": "ControlFlowCond2Inputs",
-      "rel": 1.1612009854404897e-07,
-      "success": 1
-    },
-    {
       "abs": 5.960464477539063e-08,
       "dynamic": 0,
       "error": "",
       "error_step": "",
       "exporter": "yobx",
-      "name": "ControlFlowCond2Outputs",
-      "rel": 8.78174441304472e-08,
+      "name": "ControlFlowCond",
+      "rel": 7.50649074093854e-08,
       "success": 1
     },
     {
@@ -1227,8 +1067,168 @@
       "error": "",
       "error_step": "",
       "exporter": "yobx-tracing",
+      "name": "ControlFlowCond",
+      "rel": 7.50649074093854e-08,
+      "success": 1
+    },
+    {
+      "abs": 5.960464477539063e-08,
+      "dynamic": 0,
+      "error": "",
+      "error_step": "",
+      "exporter": "yobx-new-tracing",
+      "name": "ControlFlowCond",
+      "rel": 7.50649074093854e-08,
+      "success": 1
+    },
+    {
+      "abs": null,
+      "dynamic": 0,
+      "error": "No module named 'onnxscript'",
+      "error_step": "export",
+      "exporter": "dynamo",
+      "name": "ControlFlowCond",
+      "rel": null,
+      "success": 0
+    },
+    {
+      "abs": 5.960464477539063e-08,
+      "dynamic": 1,
+      "error": "",
+      "error_step": "",
+      "exporter": "yobx",
+      "name": "ControlFlowCond",
+      "rel": 7.50649074093854e-08,
+      "success": 1
+    },
+    {
+      "abs": 5.960464477539063e-08,
+      "dynamic": 1,
+      "error": "",
+      "error_step": "",
+      "exporter": "yobx-tracing",
+      "name": "ControlFlowCond",
+      "rel": 7.50649074093854e-08,
+      "success": 1
+    },
+    {
+      "abs": 5.960464477539063e-08,
+      "dynamic": 1,
+      "error": "",
+      "error_step": "",
+      "exporter": "yobx-new-tracing",
+      "name": "ControlFlowCond",
+      "rel": 7.50649074093854e-08,
+      "success": 1
+    },
+    {
+      "abs": null,
+      "dynamic": 1,
+      "error": "No module named 'onnxscript'",
+      "error_step": "export",
+      "exporter": "dynamo",
+      "name": "ControlFlowCond",
+      "rel": null,
+      "success": 0
+    },
+    {
+      "abs": 5.960464477539063e-08,
+      "dynamic": 0,
+      "error": "",
+      "error_step": "",
+      "exporter": "yobx",
+      "name": "ControlFlowCond2Inputs",
+      "rel": 6.852892451083056e-08,
+      "success": 1
+    },
+    {
+      "abs": 5.960464477539063e-08,
+      "dynamic": 0,
+      "error": "",
+      "error_step": "",
+      "exporter": "yobx-tracing",
+      "name": "ControlFlowCond2Inputs",
+      "rel": 6.852892451083056e-08,
+      "success": 1
+    },
+    {
+      "abs": 5.960464477539063e-08,
+      "dynamic": 0,
+      "error": "",
+      "error_step": "",
+      "exporter": "yobx-new-tracing",
+      "name": "ControlFlowCond2Inputs",
+      "rel": 6.852892451083056e-08,
+      "success": 1
+    },
+    {
+      "abs": null,
+      "dynamic": 0,
+      "error": "No module named 'onnxscript'",
+      "error_step": "export",
+      "exporter": "dynamo",
+      "name": "ControlFlowCond2Inputs",
+      "rel": null,
+      "success": 0
+    },
+    {
+      "abs": 5.960464477539063e-08,
+      "dynamic": 1,
+      "error": "",
+      "error_step": "",
+      "exporter": "yobx",
+      "name": "ControlFlowCond2Inputs",
+      "rel": 6.852892451083056e-08,
+      "success": 1
+    },
+    {
+      "abs": 5.960464477539063e-08,
+      "dynamic": 1,
+      "error": "",
+      "error_step": "",
+      "exporter": "yobx-tracing",
+      "name": "ControlFlowCond2Inputs",
+      "rel": 6.852892451083056e-08,
+      "success": 1
+    },
+    {
+      "abs": 5.960464477539063e-08,
+      "dynamic": 1,
+      "error": "",
+      "error_step": "",
+      "exporter": "yobx-new-tracing",
+      "name": "ControlFlowCond2Inputs",
+      "rel": 6.852892451083056e-08,
+      "success": 1
+    },
+    {
+      "abs": null,
+      "dynamic": 1,
+      "error": "No module named 'onnxscript'",
+      "error_step": "export",
+      "exporter": "dynamo",
+      "name": "ControlFlowCond2Inputs",
+      "rel": null,
+      "success": 0
+    },
+    {
+      "abs": 5.960464477539063e-08,
+      "dynamic": 0,
+      "error": "",
+      "error_step": "",
+      "exporter": "yobx",
       "name": "ControlFlowCond2Outputs",
-      "rel": 8.78174441304472e-08,
+      "rel": 1.0582730413733996e-07,
+      "success": 1
+    },
+    {
+      "abs": 5.960464477539063e-08,
+      "dynamic": 0,
+      "error": "",
+      "error_step": "",
+      "exporter": "yobx-tracing",
+      "name": "ControlFlowCond2Outputs",
+      "rel": 1.0582730413733996e-07,
       "success": 1
     },
     {
@@ -1238,18 +1238,18 @@
       "error_step": "",
       "exporter": "yobx-new-tracing",
       "name": "ControlFlowCond2Outputs",
-      "rel": 8.78174441304472e-08,
+      "rel": 1.0582730413733996e-07,
       "success": 1
     },
     {
-      "abs": 5.960464477539063e-08,
+      "abs": null,
       "dynamic": 0,
-      "error": "",
-      "error_step": "",
+      "error": "No module named 'onnxscript'",
+      "error_step": "export",
       "exporter": "dynamo",
       "name": "ControlFlowCond2Outputs",
-      "rel": 8.78174441304472e-08,
-      "success": 1
+      "rel": null,
+      "success": 0
     },
     {
       "abs": 5.960464477539063e-08,
@@ -1258,7 +1258,7 @@
       "error_step": "",
       "exporter": "yobx",
       "name": "ControlFlowCond2Outputs",
-      "rel": 8.78174441304472e-08,
+      "rel": 1.0582730413733996e-07,
       "success": 1
     },
     {
@@ -1268,7 +1268,7 @@
       "error_step": "",
       "exporter": "yobx-tracing",
       "name": "ControlFlowCond2Outputs",
-      "rel": 8.78174441304472e-08,
+      "rel": 1.0582730413733996e-07,
       "success": 1
     },
     {
@@ -1278,18 +1278,18 @@
       "error_step": "",
       "exporter": "yobx-new-tracing",
       "name": "ControlFlowCond2Outputs",
-      "rel": 8.78174441304472e-08,
+      "rel": 1.0582730413733996e-07,
       "success": 1
     },
     {
-      "abs": 5.960464477539063e-08,
+      "abs": null,
       "dynamic": 1,
-      "error": "",
-      "error_step": "",
+      "error": "No module named 'onnxscript'",
+      "error_step": "export",
       "exporter": "dynamo",
       "name": "ControlFlowCond2Outputs",
-      "rel": 8.78174441304472e-08,
-      "success": 1
+      "rel": null,
+      "success": 0
     },
     {
       "abs": 5.960464477539063e-08,
@@ -1298,7 +1298,7 @@
       "error_step": "",
       "exporter": "yobx",
       "name": "ControlFlowCondConstant",
-      "rel": 3.736172124337883e-07,
+      "rel": 3.7361134975328513e-07,
       "success": 1
     },
     {
@@ -1308,7 +1308,7 @@
       "error_step": "",
       "exporter": "yobx-tracing",
       "name": "ControlFlowCondConstant",
-      "rel": 3.736172124337883e-07,
+      "rel": 3.7361134975328513e-07,
       "success": 1
     },
     {
@@ -1318,18 +1318,18 @@
       "error_step": "",
       "exporter": "yobx-new-tracing",
       "name": "ControlFlowCondConstant",
-      "rel": 3.736172124337883e-07,
+      "rel": 3.7361134975328513e-07,
       "success": 1
     },
     {
-      "abs": 5.960464477539063e-08,
+      "abs": null,
       "dynamic": 0,
-      "error": "",
-      "error_step": "",
+      "error": "No module named 'onnxscript'",
+      "error_step": "export",
       "exporter": "dynamo",
       "name": "ControlFlowCondConstant",
-      "rel": 3.736172124337883e-07,
-      "success": 1
+      "rel": null,
+      "success": 0
     },
     {
       "abs": null,
@@ -1348,7 +1348,7 @@
       "error_step": "",
       "exporter": "yobx-tracing",
       "name": "ControlFlowCondConstant",
-      "rel": 3.736172124337883e-07,
+      "rel": 3.7361134975328513e-07,
       "success": 1
     },
     {
@@ -1358,14 +1358,14 @@
       "error_step": "",
       "exporter": "yobx-new-tracing",
       "name": "ControlFlowCondConstant",
-      "rel": 3.736172124337883e-07,
+      "rel": 3.7361134975328513e-07,
       "success": 1
     },
     {
       "abs": null,
       "dynamic": 1,
-      "error": "no dynamic shape",
-      "error_step": "dynamic",
+      "error": "No module named 'onnxscript'",
+      "error_step": "export",
       "exporter": "dynamo",
       "name": "ControlFlowCondConstant",
       "rel": null,
@@ -1404,7 +1404,7 @@
     {
       "abs": null,
       "dynamic": 0,
-      "error": "Failed to export the model with torch.export. \u001b[96mThis is step 1/3\u001b[0m of exporting the model to ONNX. Next steps:",
+      "error": "No module named 'onnxscript'",
       "error_step": "export",
       "exporter": "dynamo",
       "name": "ControlFlowCondIdentity_153832",
@@ -1444,7 +1444,7 @@
     {
       "abs": null,
       "dynamic": 1,
-      "error": "Failed to export the model with torch.export. \u001b[96mThis is step 1/3\u001b[0m of exporting the model to ONNX. Next steps:",
+      "error": "No module named 'onnxscript'",
       "error_step": "export",
       "exporter": "dynamo",
       "name": "ControlFlowCondIdentity_153832",
@@ -1482,14 +1482,14 @@
       "success": 1
     },
     {
-      "abs": 0.0,
+      "abs": null,
       "dynamic": 0,
-      "error": "",
-      "error_step": "",
+      "error": "No module named 'onnxscript'",
+      "error_step": "export",
       "exporter": "dynamo",
       "name": "ControlFlowCondNestedModule",
-      "rel": 0.0,
-      "success": 1
+      "rel": null,
+      "success": 0
     },
     {
       "abs": 0.0,
@@ -1522,14 +1522,14 @@
       "success": 1
     },
     {
-      "abs": 0.0,
+      "abs": null,
       "dynamic": 1,
-      "error": "",
-      "error_step": "",
+      "error": "No module named 'onnxscript'",
+      "error_step": "export",
       "exporter": "dynamo",
       "name": "ControlFlowCondNestedModule",
-      "rel": 0.0,
-      "success": 1
+      "rel": null,
+      "success": 0
     },
     {
       "abs": 0.0,
@@ -1554,22 +1554,22 @@
     {
       "abs": null,
       "dynamic": 0,
-      "error": "Unexpected type <class 'bool'> in [True], op_type='If', name='cond', ",
-      "error_step": "export",
+      "error": "[ONNXRuntimeError] : 10 : INVALID_GRAPH : This is an invalid model. Type Error: Type 'tensor(int64)' of input parameter (init) of operator (If) in node (cond) is invalid.",
+      "error_step": "ort-init",
       "exporter": "yobx-new-tracing",
       "name": "ControlFlowCondNonZero",
       "rel": null,
       "success": 0
     },
     {
-      "abs": 0.0,
+      "abs": null,
       "dynamic": 0,
-      "error": "",
-      "error_step": "",
+      "error": "No module named 'onnxscript'",
+      "error_step": "export",
       "exporter": "dynamo",
       "name": "ControlFlowCondNonZero",
-      "rel": 0.0,
-      "success": 1
+      "rel": null,
+      "success": 0
     },
     {
       "abs": null,
@@ -1604,7 +1604,7 @@
     {
       "abs": null,
       "dynamic": 1,
-      "error": "Failed to export the model with torch.export. \u001b[96mThis is step 1/3\u001b[0m of exporting the model to ONNX. Next steps:",
+      "error": "No module named 'onnxscript'",
       "error_step": "export",
       "exporter": "dynamo",
       "name": "ControlFlowCondNonZero",
@@ -1642,11 +1642,21 @@
       "success": 1
     },
     {
-      "abs": 0.0,
+      "abs": null,
       "dynamic": 0,
+      "error": "No module named 'onnxscript'",
+      "error_step": "export",
+      "exporter": "dynamo",
+      "name": "ControlFlowIndirectRanks",
+      "rel": null,
+      "success": 0
+    },
+    {
+      "abs": 0.0,
+      "dynamic": 1,
       "error": "",
       "error_step": "",
-      "exporter": "dynamo",
+      "exporter": "yobx",
       "name": "ControlFlowIndirectRanks",
       "rel": 0.0,
       "success": 1
@@ -1656,16 +1666,6 @@
       "dynamic": 1,
       "error": "",
       "error_step": "",
-      "exporter": "yobx",
-      "name": "ControlFlowIndirectRanks",
-      "rel": 0.0,
-      "success": 1
-    },
-    {
-      "abs": 0.0,
-      "dynamic": 1,
-      "error": "",
-      "error_step": "",
       "exporter": "yobx-tracing",
       "name": "ControlFlowIndirectRanks",
       "rel": 0.0,
@@ -1682,14 +1682,14 @@
       "success": 1
     },
     {
-      "abs": 0.0,
+      "abs": null,
       "dynamic": 1,
-      "error": "",
-      "error_step": "",
+      "error": "No module named 'onnxscript'",
+      "error_step": "export",
       "exporter": "dynamo",
       "name": "ControlFlowIndirectRanks",
-      "rel": 0.0,
-      "success": 1
+      "rel": null,
+      "success": 0
     },
     {
       "abs": 0.0,
@@ -1722,11 +1722,21 @@
       "success": 1
     },
     {
-      "abs": 0.0,
+      "abs": null,
       "dynamic": 0,
+      "error": "No module named 'onnxscript'",
+      "error_step": "export",
+      "exporter": "dynamo",
+      "name": "ControlFlowIndirectRanksCat",
+      "rel": null,
+      "success": 0
+    },
+    {
+      "abs": 0.0,
+      "dynamic": 1,
       "error": "",
       "error_step": "",
-      "exporter": "dynamo",
+      "exporter": "yobx",
       "name": "ControlFlowIndirectRanksCat",
       "rel": 0.0,
       "success": 1
@@ -1736,16 +1746,6 @@
       "dynamic": 1,
       "error": "",
       "error_step": "",
-      "exporter": "yobx",
-      "name": "ControlFlowIndirectRanksCat",
-      "rel": 0.0,
-      "success": 1
-    },
-    {
-      "abs": 0.0,
-      "dynamic": 1,
-      "error": "",
-      "error_step": "",
       "exporter": "yobx-tracing",
       "name": "ControlFlowIndirectRanksCat",
       "rel": 0.0,
@@ -1762,14 +1762,14 @@
       "success": 1
     },
     {
-      "abs": 0.0,
+      "abs": null,
       "dynamic": 1,
-      "error": "",
-      "error_step": "",
+      "error": "No module named 'onnxscript'",
+      "error_step": "export",
       "exporter": "dynamo",
       "name": "ControlFlowIndirectRanksCat",
-      "rel": 0.0,
-      "success": 1
+      "rel": null,
+      "success": 0
     },
     {
       "abs": 5.960464477539063e-08,
@@ -1778,7 +1778,7 @@
       "error_step": "",
       "exporter": "yobx",
       "name": "ControlFlowNestCond",
-      "rel": 7.168212022214734e-08,
+      "rel": 6.504510005824518e-08,
       "success": 1
     },
     {
@@ -1788,7 +1788,7 @@
       "error_step": "",
       "exporter": "yobx-tracing",
       "name": "ControlFlowNestCond",
-      "rel": 7.168212022214734e-08,
+      "rel": 6.504510005824518e-08,
       "success": 1
     },
     {
@@ -1798,18 +1798,18 @@
       "error_step": "",
       "exporter": "yobx-new-tracing",
       "name": "ControlFlowNestCond",
-      "rel": 7.168212022214734e-08,
+      "rel": 6.504510005824518e-08,
       "success": 1
     },
     {
-      "abs": 5.960464477539063e-08,
+      "abs": null,
       "dynamic": 0,
-      "error": "",
-      "error_step": "",
+      "error": "No module named 'onnxscript'",
+      "error_step": "export",
       "exporter": "dynamo",
       "name": "ControlFlowNestCond",
-      "rel": 7.168212022214734e-08,
-      "success": 1
+      "rel": null,
+      "success": 0
     },
     {
       "abs": 5.960464477539063e-08,
@@ -1818,7 +1818,7 @@
       "error_step": "",
       "exporter": "yobx",
       "name": "ControlFlowNestCond",
-      "rel": 7.168212022214734e-08,
+      "rel": 6.504510005824518e-08,
       "success": 1
     },
     {
@@ -1828,7 +1828,7 @@
       "error_step": "",
       "exporter": "yobx-tracing",
       "name": "ControlFlowNestCond",
-      "rel": 7.168212022214734e-08,
+      "rel": 6.504510005824518e-08,
       "success": 1
     },
     {
@@ -1838,18 +1838,18 @@
       "error_step": "",
       "exporter": "yobx-new-tracing",
       "name": "ControlFlowNestCond",
-      "rel": 7.168212022214734e-08,
+      "rel": 6.504510005824518e-08,
       "success": 1
     },
     {
-      "abs": 5.960464477539063e-08,
+      "abs": null,
       "dynamic": 1,
-      "error": "",
-      "error_step": "",
+      "error": "No module named 'onnxscript'",
+      "error_step": "export",
       "exporter": "dynamo",
       "name": "ControlFlowNestCond",
-      "rel": 7.168212022214734e-08,
-      "success": 1
+      "rel": null,
+      "success": 0
     },
     {
       "abs": 0.0,
@@ -1882,11 +1882,21 @@
       "success": 1
     },
     {
-      "abs": 0.0,
+      "abs": null,
       "dynamic": 0,
+      "error": "No module named 'onnxscript'",
+      "error_step": "export",
+      "exporter": "dynamo",
+      "name": "ControlFlowNumelZero1",
+      "rel": null,
+      "success": 0
+    },
+    {
+      "abs": 0.0,
+      "dynamic": 1,
       "error": "",
       "error_step": "",
-      "exporter": "dynamo",
+      "exporter": "yobx",
       "name": "ControlFlowNumelZero1",
       "rel": 0.0,
       "success": 1
@@ -1896,16 +1906,6 @@
       "dynamic": 1,
       "error": "",
       "error_step": "",
-      "exporter": "yobx",
-      "name": "ControlFlowNumelZero1",
-      "rel": 0.0,
-      "success": 1
-    },
-    {
-      "abs": 0.0,
-      "dynamic": 1,
-      "error": "",
-      "error_step": "",
       "exporter": "yobx-tracing",
       "name": "ControlFlowNumelZero1",
       "rel": 0.0,
@@ -1922,14 +1922,14 @@
       "success": 1
     },
     {
-      "abs": 0.0,
+      "abs": null,
       "dynamic": 1,
-      "error": "",
-      "error_step": "",
+      "error": "No module named 'onnxscript'",
+      "error_step": "export",
       "exporter": "dynamo",
       "name": "ControlFlowNumelZero1",
-      "rel": 0.0,
-      "success": 1
+      "rel": null,
+      "success": 0
     },
     {
       "abs": 0.0,
@@ -1962,11 +1962,21 @@
       "success": 1
     },
     {
-      "abs": 0.0,
+      "abs": null,
       "dynamic": 0,
+      "error": "No module named 'onnxscript'",
+      "error_step": "export",
+      "exporter": "dynamo",
+      "name": "ControlFlowNumelZero2",
+      "rel": null,
+      "success": 0
+    },
+    {
+      "abs": 0.0,
+      "dynamic": 1,
       "error": "",
       "error_step": "",
-      "exporter": "dynamo",
+      "exporter": "yobx",
       "name": "ControlFlowNumelZero2",
       "rel": 0.0,
       "success": 1
@@ -1976,16 +1986,6 @@
       "dynamic": 1,
       "error": "",
       "error_step": "",
-      "exporter": "yobx",
-      "name": "ControlFlowNumelZero2",
-      "rel": 0.0,
-      "success": 1
-    },
-    {
-      "abs": 0.0,
-      "dynamic": 1,
-      "error": "",
-      "error_step": "",
       "exporter": "yobx-tracing",
       "name": "ControlFlowNumelZero2",
       "rel": 0.0,
@@ -2002,14 +2002,14 @@
       "success": 1
     },
     {
-      "abs": 0.0,
+      "abs": null,
       "dynamic": 1,
-      "error": "",
-      "error_step": "",
+      "error": "No module named 'onnxscript'",
+      "error_step": "export",
       "exporter": "dynamo",
       "name": "ControlFlowNumelZero2",
-      "rel": 0.0,
-      "success": 1
+      "rel": null,
+      "success": 0
     },
     {
       "abs": 0.0,
@@ -2042,11 +2042,21 @@
       "success": 1
     },
     {
-      "abs": 0.0,
+      "abs": null,
       "dynamic": 0,
+      "error": "No module named 'onnxscript'",
+      "error_step": "export",
+      "exporter": "dynamo",
+      "name": "ControlFlowNumelZero3",
+      "rel": null,
+      "success": 0
+    },
+    {
+      "abs": 0.0,
+      "dynamic": 1,
       "error": "",
       "error_step": "",
-      "exporter": "dynamo",
+      "exporter": "yobx",
       "name": "ControlFlowNumelZero3",
       "rel": 0.0,
       "success": 1
@@ -2056,16 +2066,6 @@
       "dynamic": 1,
       "error": "",
       "error_step": "",
-      "exporter": "yobx",
-      "name": "ControlFlowNumelZero3",
-      "rel": 0.0,
-      "success": 1
-    },
-    {
-      "abs": 0.0,
-      "dynamic": 1,
-      "error": "",
-      "error_step": "",
       "exporter": "yobx-tracing",
       "name": "ControlFlowNumelZero3",
       "rel": 0.0,
@@ -2082,14 +2082,14 @@
       "success": 1
     },
     {
-      "abs": 0.0,
+      "abs": null,
       "dynamic": 1,
-      "error": "",
-      "error_step": "",
+      "error": "No module named 'onnxscript'",
+      "error_step": "export",
       "exporter": "dynamo",
       "name": "ControlFlowNumelZero3",
-      "rel": 0.0,
-      "success": 1
+      "rel": null,
+      "success": 0
     },
     {
       "abs": 0.0,
@@ -2122,11 +2122,21 @@
       "success": 1
     },
     {
-      "abs": 0.0,
+      "abs": null,
       "dynamic": 0,
+      "error": "No module named 'onnxscript'",
+      "error_step": "export",
+      "exporter": "dynamo",
+      "name": "ControlFlowNumelZero4",
+      "rel": null,
+      "success": 0
+    },
+    {
+      "abs": 0.0,
+      "dynamic": 1,
       "error": "",
       "error_step": "",
-      "exporter": "dynamo",
+      "exporter": "yobx",
       "name": "ControlFlowNumelZero4",
       "rel": 0.0,
       "success": 1
@@ -2136,16 +2146,6 @@
       "dynamic": 1,
       "error": "",
       "error_step": "",
-      "exporter": "yobx",
-      "name": "ControlFlowNumelZero4",
-      "rel": 0.0,
-      "success": 1
-    },
-    {
-      "abs": 0.0,
-      "dynamic": 1,
-      "error": "",
-      "error_step": "",
       "exporter": "yobx-tracing",
       "name": "ControlFlowNumelZero4",
       "rel": 0.0,
@@ -2162,14 +2162,14 @@
       "success": 1
     },
     {
-      "abs": 0.0,
+      "abs": null,
       "dynamic": 1,
-      "error": "",
-      "error_step": "",
+      "error": "No module named 'onnxscript'",
+      "error_step": "export",
       "exporter": "dynamo",
       "name": "ControlFlowNumelZero4",
-      "rel": 0.0,
-      "success": 1
+      "rel": null,
+      "success": 0
     },
     {
       "abs": 0.0,
@@ -2202,14 +2202,14 @@
       "success": 1
     },
     {
-      "abs": 0.0,
+      "abs": null,
       "dynamic": 0,
-      "error": "",
-      "error_step": "",
+      "error": "No module named 'onnxscript'",
+      "error_step": "export",
       "exporter": "dynamo",
       "name": "ControlFlowNumelZero5",
-      "rel": 0.0,
-      "success": 1
+      "rel": null,
+      "success": 0
     },
     {
       "abs": 0.0,
@@ -2242,14 +2242,14 @@
       "success": 1
     },
     {
-      "abs": 0.0,
+      "abs": null,
       "dynamic": 1,
-      "error": "",
-      "error_step": "",
+      "error": "No module named 'onnxscript'",
+      "error_step": "export",
       "exporter": "dynamo",
       "name": "ControlFlowNumelZero5",
-      "rel": 0.0,
-      "success": 1
+      "rel": null,
+      "success": 0
     },
     {
       "abs": 0.0,
@@ -2282,14 +2282,14 @@
       "success": 1
     },
     {
-      "abs": 0.0,
+      "abs": null,
       "dynamic": 0,
-      "error": "",
-      "error_step": "",
+      "error": "No module named 'onnxscript'",
+      "error_step": "export",
       "exporter": "dynamo",
       "name": "ControlFlowRanks",
-      "rel": 0.0,
-      "success": 1
+      "rel": null,
+      "success": 0
     },
     {
       "abs": 0.0,
@@ -2322,14 +2322,14 @@
       "success": 1
     },
     {
-      "abs": 0.0,
+      "abs": null,
       "dynamic": 1,
-      "error": "",
-      "error_step": "",
+      "error": "No module named 'onnxscript'",
+      "error_step": "export",
       "exporter": "dynamo",
       "name": "ControlFlowRanks",
-      "rel": 0.0,
-      "success": 1
+      "rel": null,
+      "success": 0
     },
     {
       "abs": 0.0,
@@ -2362,14 +2362,14 @@
       "success": 1
     },
     {
-      "abs": 0.0,
+      "abs": null,
       "dynamic": 0,
-      "error": "",
-      "error_step": "",
+      "error": "No module named 'onnxscript'",
+      "error_step": "export",
       "exporter": "dynamo",
       "name": "ControlFlowRanksType",
-      "rel": 0.0,
-      "success": 1
+      "rel": null,
+      "success": 0
     },
     {
       "abs": 0.0,
@@ -2402,14 +2402,14 @@
       "success": 1
     },
     {
-      "abs": 0.0,
+      "abs": null,
       "dynamic": 1,
-      "error": "",
-      "error_step": "",
+      "error": "No module named 'onnxscript'",
+      "error_step": "export",
       "exporter": "dynamo",
       "name": "ControlFlowRanksType",
-      "rel": 0.0,
-      "success": 1
+      "rel": null,
+      "success": 0
     },
     {
       "abs": 0.0,
@@ -2444,7 +2444,7 @@
     {
       "abs": null,
       "dynamic": 0,
-      "error": "Failed to decompose the FX graph for ONNX compatibility. \u001b[96mThis is step 2/3\u001b[0m of exporting the model to ONNX. Next steps:",
+      "error": "No module named 'onnxscript'",
       "error_step": "export",
       "exporter": "dynamo",
       "name": "ControlFlowScan",
@@ -2484,7 +2484,7 @@
     {
       "abs": null,
       "dynamic": 1,
-      "error": "Failed to decompose the FX graph for ONNX compatibility. \u001b[96mThis is step 2/3\u001b[0m of exporting the model to ONNX. Next steps:",
+      "error": "No module named 'onnxscript'",
       "error_step": "export",
       "exporter": "dynamo",
       "name": "ControlFlowScan",
@@ -2524,7 +2524,7 @@
     {
       "abs": null,
       "dynamic": 0,
-      "error": "Failed to decompose the FX graph for ONNX compatibility. \u001b[96mThis is step 2/3\u001b[0m of exporting the model to ONNX. Next steps:",
+      "error": "No module named 'onnxscript'",
       "error_step": "export",
       "exporter": "dynamo",
       "name": "ControlFlowScan2Carried",
@@ -2564,7 +2564,7 @@
     {
       "abs": null,
       "dynamic": 1,
-      "error": "Failed to decompose the FX graph for ONNX compatibility. \u001b[96mThis is step 2/3\u001b[0m of exporting the model to ONNX. Next steps:",
+      "error": "No module named 'onnxscript'",
       "error_step": "export",
       "exporter": "dynamo",
       "name": "ControlFlowScan2Carried",
@@ -2602,11 +2602,21 @@
       "success": 1
     },
     {
-      "abs": 0.0,
+      "abs": null,
       "dynamic": 0,
+      "error": "No module named 'onnxscript'",
+      "error_step": "export",
+      "exporter": "dynamo",
+      "name": "ControlFlowScanCDist",
+      "rel": null,
+      "success": 0
+    },
+    {
+      "abs": 0.0,
+      "dynamic": 1,
       "error": "",
       "error_step": "",
-      "exporter": "dynamo",
+      "exporter": "yobx",
       "name": "ControlFlowScanCDist",
       "rel": 0.0,
       "success": 1
@@ -2616,16 +2626,6 @@
       "dynamic": 1,
       "error": "",
       "error_step": "",
-      "exporter": "yobx",
-      "name": "ControlFlowScanCDist",
-      "rel": 0.0,
-      "success": 1
-    },
-    {
-      "abs": 0.0,
-      "dynamic": 1,
-      "error": "",
-      "error_step": "",
       "exporter": "yobx-tracing",
       "name": "ControlFlowScanCDist",
       "rel": 0.0,
@@ -2642,14 +2642,14 @@
       "success": 1
     },
     {
-      "abs": 0.0,
+      "abs": null,
       "dynamic": 1,
-      "error": "",
-      "error_step": "",
+      "error": "No module named 'onnxscript'",
+      "error_step": "export",
       "exporter": "dynamo",
       "name": "ControlFlowScanCDist",
-      "rel": 0.0,
-      "success": 1
+      "rel": null,
+      "success": 0
     },
     {
       "abs": 0.0,
@@ -2682,14 +2682,14 @@
       "success": 1
     },
     {
-      "abs": 0.0,
+      "abs": null,
       "dynamic": 0,
-      "error": "",
-      "error_step": "",
+      "error": "No module named 'onnxscript'",
+      "error_step": "export",
       "exporter": "dynamo",
       "name": "ControlFlowScanCDist2",
-      "rel": 0.0,
-      "success": 1
+      "rel": null,
+      "success": 0
     },
     {
       "abs": 0.0,
@@ -2722,14 +2722,14 @@
       "success": 1
     },
     {
-      "abs": 0.0,
+      "abs": null,
       "dynamic": 1,
-      "error": "",
-      "error_step": "",
+      "error": "No module named 'onnxscript'",
+      "error_step": "export",
       "exporter": "dynamo",
       "name": "ControlFlowScanCDist2",
-      "rel": 0.0,
-      "success": 1
+      "rel": null,
+      "success": 0
     },
     {
       "abs": 2.384185791015625e-07,
@@ -2738,7 +2738,7 @@
       "error_step": "",
       "exporter": "yobx",
       "name": "ControlFlowScanCDistXY",
-      "rel": 9.01937291528334e-08,
+      "rel": 1.1732617025714362e-07,
       "success": 1
     },
     {
@@ -2748,7 +2748,7 @@
       "error_step": "",
       "exporter": "yobx-tracing",
       "name": "ControlFlowScanCDistXY",
-      "rel": 9.01937291528334e-08,
+      "rel": 1.1732617025714362e-07,
       "success": 1
     },
     {
@@ -2758,18 +2758,18 @@
       "error_step": "",
       "exporter": "yobx-new-tracing",
       "name": "ControlFlowScanCDistXY",
-      "rel": 9.01937291528334e-08,
+      "rel": 1.1732617025714362e-07,
       "success": 1
     },
     {
-      "abs": 2.384185791015625e-07,
+      "abs": null,
       "dynamic": 0,
-      "error": "",
-      "error_step": "",
+      "error": "No module named 'onnxscript'",
+      "error_step": "export",
       "exporter": "dynamo",
       "name": "ControlFlowScanCDistXY",
-      "rel": 9.01937291528334e-08,
-      "success": 1
+      "rel": null,
+      "success": 0
     },
     {
       "abs": 2.384185791015625e-07,
@@ -2778,7 +2778,7 @@
       "error_step": "",
       "exporter": "yobx",
       "name": "ControlFlowScanCDistXY",
-      "rel": 9.01937291528334e-08,
+      "rel": 1.1732617025714362e-07,
       "success": 1
     },
     {
@@ -2788,7 +2788,7 @@
       "error_step": "",
       "exporter": "yobx-tracing",
       "name": "ControlFlowScanCDistXY",
-      "rel": 9.01937291528334e-08,
+      "rel": 1.1732617025714362e-07,
       "success": 1
     },
     {
@@ -2798,18 +2798,18 @@
       "error_step": "",
       "exporter": "yobx-new-tracing",
       "name": "ControlFlowScanCDistXY",
-      "rel": 9.01937291528334e-08,
+      "rel": 1.1732617025714362e-07,
       "success": 1
     },
     {
-      "abs": 2.384185791015625e-07,
+      "abs": null,
       "dynamic": 1,
-      "error": "",
-      "error_step": "",
+      "error": "No module named 'onnxscript'",
+      "error_step": "export",
       "exporter": "dynamo",
       "name": "ControlFlowScanCDistXY",
-      "rel": 9.01937291528334e-08,
-      "success": 1
+      "rel": null,
+      "success": 0
     },
     {
       "abs": 0.0,
@@ -2842,14 +2842,14 @@
       "success": 1
     },
     {
-      "abs": 0.0,
+      "abs": null,
       "dynamic": 0,
-      "error": "",
-      "error_step": "",
+      "error": "No module named 'onnxscript'",
+      "error_step": "export",
       "exporter": "dynamo",
       "name": "ControlFlowScanDecomposition_151564",
-      "rel": 0.0,
-      "success": 1
+      "rel": null,
+      "success": 0
     },
     {
       "abs": 0.0,
@@ -2882,14 +2882,14 @@
       "success": 1
     },
     {
-      "abs": 0.0,
+      "abs": null,
       "dynamic": 1,
-      "error": "",
-      "error_step": "",
+      "error": "No module named 'onnxscript'",
+      "error_step": "export",
       "exporter": "dynamo",
       "name": "ControlFlowScanDecomposition_151564",
-      "rel": 0.0,
-      "success": 1
+      "rel": null,
+      "success": 0
     },
     {
       "abs": null,
@@ -2902,14 +2902,14 @@
       "success": 0
     },
     {
-      "abs": null,
+      "abs": 1.1920928955078125e-07,
       "dynamic": 0,
-      "error": "The optimization was not applied. There are two many nodes identity",
-      "error_step": "export",
+      "error": "",
+      "error_step": "",
       "exporter": "yobx-tracing",
       "name": "ControlFlowScanInplace_153705",
-      "rel": null,
-      "success": 0
+      "rel": 1.1580691946269675e-07,
+      "success": 1
     },
     {
       "abs": null,
@@ -2924,7 +2924,7 @@
     {
       "abs": null,
       "dynamic": 0,
-      "error": "Failed to export the model with torch.export. \u001b[96mThis is step 1/3\u001b[0m of exporting the model to ONNX. Next steps:",
+      "error": "No module named 'onnxscript'",
       "error_step": "export",
       "exporter": "dynamo",
       "name": "ControlFlowScanInplace_153705",
@@ -2944,7 +2944,7 @@
     {
       "abs": null,
       "dynamic": 1,
-      "error": "Unable to interpret function <class 'builtin_function_or_method'>: <built-in method empty of type object at 0x7f21e16a5640>, searched for ['transformers_empty', '_VariableFunctionsClass_empty', 'empty'] and attributes ['__qualname__', '__name__'], args=((getitem, getitem_2),), kwargs={}, dispatcher=None",
+      "error": "Unable to interpret function <class 'builtin_function_or_method'>: <built-in method empty of type object at 0x7f4e0b4cc2e0>, searched for ['transformers_empty', '_VariableFunctionsClass_empty', 'empty'] and attributes ['__qualname__', '__name__'], args=((getitem, getitem_2),), kwargs={}, dispatcher=None",
       "error_step": "export",
       "exporter": "yobx-tracing",
       "name": "ControlFlowScanInplace_153705",
@@ -2964,7 +2964,7 @@
     {
       "abs": null,
       "dynamic": 1,
-      "error": "Failed to export the model with torch.export. \u001b[96mThis is step 1/3\u001b[0m of exporting the model to ONNX. Next steps:",
+      "error": "No module named 'onnxscript'",
       "error_step": "export",
       "exporter": "dynamo",
       "name": "ControlFlowScanInplace_153705",
@@ -3002,14 +3002,14 @@
       "success": 1
     },
     {
-      "abs": 0.0,
+      "abs": null,
       "dynamic": 0,
-      "error": "",
-      "error_step": "",
+      "error": "No module named 'onnxscript'",
+      "error_step": "export",
       "exporter": "dynamo",
       "name": "ControlFlowShapeCheck",
-      "rel": 0.0,
-      "success": 1
+      "rel": null,
+      "success": 0
     },
     {
       "abs": null,
@@ -3042,14 +3042,14 @@
       "success": 1
     },
     {
-      "abs": 0.0,
+      "abs": null,
       "dynamic": 1,
-      "error": "",
-      "error_step": "",
+      "error": "No module named 'onnxscript'",
+      "error_step": "export",
       "exporter": "dynamo",
       "name": "ControlFlowShapeCheck",
-      "rel": 0.0,
-      "success": 1
+      "rel": null,
+      "success": 0
     },
     {
       "abs": 0.0,
@@ -3082,14 +3082,14 @@
       "success": 1
     },
     {
-      "abs": 0.0,
+      "abs": null,
       "dynamic": 0,
-      "error": "",
-      "error_step": "",
+      "error": "No module named 'onnxscript'",
+      "error_step": "export",
       "exporter": "dynamo",
       "name": "ControlFlowWhile",
-      "rel": 0.0,
-      "success": 1
+      "rel": null,
+      "success": 0
     },
     {
       "abs": null,
@@ -3124,7 +3124,7 @@
     {
       "abs": null,
       "dynamic": 1,
-      "error": "Failed to export the model with torch.export. \u001b[96mThis is step 1/3\u001b[0m of exporting the model to ONNX. Next steps:",
+      "error": "No module named 'onnxscript'",
       "error_step": "export",
       "exporter": "dynamo",
       "name": "ControlFlowWhile",
@@ -3162,14 +3162,14 @@
       "success": 1
     },
     {
-      "abs": 0.0,
+      "abs": null,
       "dynamic": 0,
-      "error": "",
-      "error_step": "",
+      "error": "No module named 'onnxscript'",
+      "error_step": "export",
       "exporter": "dynamo",
       "name": "ControlFlowWhileDec",
-      "rel": 0.0,
-      "success": 1
+      "rel": null,
+      "success": 0
     },
     {
       "abs": null,
@@ -3204,7 +3204,7 @@
     {
       "abs": null,
       "dynamic": 1,
-      "error": "Failed to export the model with torch.export. \u001b[96mThis is step 1/3\u001b[0m of exporting the model to ONNX. Next steps:",
+      "error": "No module named 'onnxscript'",
       "error_step": "export",
       "exporter": "dynamo",
       "name": "ControlFlowWhileDec",
@@ -3242,14 +3242,14 @@
       "success": 1
     },
     {
-      "abs": 0.0,
+      "abs": null,
       "dynamic": 0,
-      "error": "",
-      "error_step": "",
+      "error": "No module named 'onnxscript'",
+      "error_step": "export",
       "exporter": "dynamo",
       "name": "ControlFlowWhileInc",
-      "rel": 0.0,
-      "success": 1
+      "rel": null,
+      "success": 0
     },
     {
       "abs": null,
@@ -3284,7 +3284,7 @@
     {
       "abs": null,
       "dynamic": 1,
-      "error": "Failed to export the model with torch.export. \u001b[96mThis is step 1/3\u001b[0m of exporting the model to ONNX. Next steps:",
+      "error": "No module named 'onnxscript'",
       "error_step": "export",
       "exporter": "dynamo",
       "name": "ControlFlowWhileInc",
@@ -3322,11 +3322,21 @@
       "success": 1
     },
     {
-      "abs": 0.0,
+      "abs": null,
       "dynamic": 0,
+      "error": "No module named 'onnxscript'",
+      "error_step": "export",
+      "exporter": "dynamo",
+      "name": "CreateFromShape",
+      "rel": null,
+      "success": 0
+    },
+    {
+      "abs": 0.0,
+      "dynamic": 1,
       "error": "",
       "error_step": "",
-      "exporter": "dynamo",
+      "exporter": "yobx",
       "name": "CreateFromShape",
       "rel": 0.0,
       "success": 1
@@ -3336,16 +3346,6 @@
       "dynamic": 1,
       "error": "",
       "error_step": "",
-      "exporter": "yobx",
-      "name": "CreateFromShape",
-      "rel": 0.0,
-      "success": 1
-    },
-    {
-      "abs": 0.0,
-      "dynamic": 1,
-      "error": "",
-      "error_step": "",
       "exporter": "yobx-tracing",
       "name": "CreateFromShape",
       "rel": 0.0,
@@ -3362,14 +3362,14 @@
       "success": 1
     },
     {
-      "abs": 0.0,
+      "abs": null,
       "dynamic": 1,
-      "error": "",
-      "error_step": "",
+      "error": "No module named 'onnxscript'",
+      "error_step": "export",
       "exporter": "dynamo",
       "name": "CreateFromShape",
-      "rel": 0.0,
-      "success": 1
+      "rel": null,
+      "success": 0
     },
     {
       "abs": 0.0,
@@ -3402,11 +3402,21 @@
       "success": 1
     },
     {
-      "abs": 0.0,
+      "abs": null,
       "dynamic": 0,
+      "error": "No module named 'onnxscript'",
+      "error_step": "export",
+      "exporter": "dynamo",
+      "name": "CreateFromShapeThroughFunction",
+      "rel": null,
+      "success": 0
+    },
+    {
+      "abs": 0.0,
+      "dynamic": 1,
       "error": "",
       "error_step": "",
-      "exporter": "dynamo",
+      "exporter": "yobx",
       "name": "CreateFromShapeThroughFunction",
       "rel": 0.0,
       "success": 1
@@ -3416,16 +3426,6 @@
       "dynamic": 1,
       "error": "",
       "error_step": "",
-      "exporter": "yobx",
-      "name": "CreateFromShapeThroughFunction",
-      "rel": 0.0,
-      "success": 1
-    },
-    {
-      "abs": 0.0,
-      "dynamic": 1,
-      "error": "",
-      "error_step": "",
       "exporter": "yobx-tracing",
       "name": "CreateFromShapeThroughFunction",
       "rel": 0.0,
@@ -3442,14 +3442,14 @@
       "success": 1
     },
     {
-      "abs": 0.0,
+      "abs": null,
       "dynamic": 1,
-      "error": "",
-      "error_step": "",
+      "error": "No module named 'onnxscript'",
+      "error_step": "export",
       "exporter": "dynamo",
       "name": "CreateFromShapeThroughFunction",
-      "rel": 0.0,
-      "success": 1
+      "rel": null,
+      "success": 0
     },
     {
       "abs": 0.0,
@@ -3482,14 +3482,14 @@
       "success": 1
     },
     {
-      "abs": 0.0,
+      "abs": null,
       "dynamic": 0,
-      "error": "",
-      "error_step": "",
+      "error": "No module named 'onnxscript'",
+      "error_step": "export",
       "exporter": "dynamo",
       "name": "CropLastDimensionWithTensorContent",
-      "rel": 0.0,
-      "success": 1
+      "rel": null,
+      "success": 0
     },
     {
       "abs": 0.0,
@@ -3522,14 +3522,14 @@
       "success": 1
     },
     {
-      "abs": 0.0,
+      "abs": null,
       "dynamic": 1,
-      "error": "",
-      "error_step": "",
+      "error": "No module named 'onnxscript'",
+      "error_step": "export",
       "exporter": "dynamo",
       "name": "CropLastDimensionWithTensorContent",
-      "rel": 0.0,
-      "success": 1
+      "rel": null,
+      "success": 0
     },
     {
       "abs": 0.0,
@@ -3562,14 +3562,14 @@
       "success": 1
     },
     {
-      "abs": 0.0,
+      "abs": null,
       "dynamic": 0,
-      "error": "",
-      "error_step": "",
+      "error": "No module named 'onnxscript'",
+      "error_step": "export",
       "exporter": "dynamo",
       "name": "CropLastDimensionWithTensorShape",
-      "rel": 0.0,
-      "success": 1
+      "rel": null,
+      "success": 0
     },
     {
       "abs": 0.0,
@@ -3602,14 +3602,14 @@
       "success": 1
     },
     {
-      "abs": 0.0,
+      "abs": null,
       "dynamic": 1,
-      "error": "",
-      "error_step": "",
+      "error": "No module named 'onnxscript'",
+      "error_step": "export",
       "exporter": "dynamo",
       "name": "CropLastDimensionWithTensorShape",
-      "rel": 0.0,
-      "success": 1
+      "rel": null,
+      "success": 0
     },
     {
       "abs": 0.0,
@@ -3642,14 +3642,14 @@
       "success": 1
     },
     {
-      "abs": 0.0,
+      "abs": null,
       "dynamic": 0,
-      "error": "",
-      "error_step": "",
+      "error": "No module named 'onnxscript'",
+      "error_step": "export",
       "exporter": "dynamo",
       "name": "DynamicCacheInput",
-      "rel": 0.0,
-      "success": 1
+      "rel": null,
+      "success": 0
     },
     {
       "abs": 0.0,
@@ -3682,14 +3682,14 @@
       "success": 1
     },
     {
-      "abs": 0.0,
+      "abs": null,
       "dynamic": 1,
-      "error": "",
-      "error_step": "",
+      "error": "No module named 'onnxscript'",
+      "error_step": "export",
       "exporter": "dynamo",
       "name": "DynamicCacheInput",
-      "rel": 0.0,
-      "success": 1
+      "rel": null,
+      "success": 0
     },
     {
       "abs": 0.0,
@@ -3722,14 +3722,14 @@
       "success": 1
     },
     {
-      "abs": 0.0,
+      "abs": null,
       "dynamic": 0,
-      "error": "",
-      "error_step": "",
+      "error": "No module named 'onnxscript'",
+      "error_step": "export",
       "exporter": "dynamo",
       "name": "DynamicCacheInputMixedLayers",
-      "rel": 0.0,
-      "success": 1
+      "rel": null,
+      "success": 0
     },
     {
       "abs": 0.0,
@@ -3762,41 +3762,31 @@
       "success": 1
     },
     {
-      "abs": 0.0,
+      "abs": null,
       "dynamic": 1,
-      "error": "",
-      "error_step": "",
+      "error": "No module named 'onnxscript'",
+      "error_step": "export",
       "exporter": "dynamo",
       "name": "DynamicCacheInputMixedLayers",
+      "rel": null,
+      "success": 0
+    },
+    {
+      "abs": 0.0,
+      "dynamic": 0,
+      "error": "",
+      "error_step": "",
+      "exporter": "yobx",
+      "name": "ExportWithDimension0",
       "rel": 0.0,
       "success": 1
     },
     {
       "abs": null,
       "dynamic": 0,
-      "error": "Unexpected null shape (0, 3) (or (0, 3)) for name='x', this case usually happens before a concatenation, allow_zero=False",
-      "error_step": "export",
-      "exporter": "yobx",
-      "name": "ExportWithDimension0",
-      "rel": null,
-      "success": 0
-    },
-    {
-      "abs": null,
-      "dynamic": 0,
-      "error": "Unexpected null shape (0, 3) (or (0, 3)) for name='x', this case usually happens before a concatenation, allow_zero=False",
+      "error": "Invalid shape for 'matmul': (0, 1).",
       "error_step": "export",
       "exporter": "yobx-tracing",
-      "name": "ExportWithDimension0",
-      "rel": null,
-      "success": 0
-    },
-    {
-      "abs": null,
-      "dynamic": 0,
-      "error": "Unexpected null shape (0, 3) (or (0, 3)) for name='x', this case usually happens before a concatenation, allow_zero=False",
-      "error_step": "export",
-      "exporter": "yobx-new-tracing",
       "name": "ExportWithDimension0",
       "rel": null,
       "success": 0
@@ -3806,7 +3796,27 @@
       "dynamic": 0,
       "error": "",
       "error_step": "",
+      "exporter": "yobx-new-tracing",
+      "name": "ExportWithDimension0",
+      "rel": 0.0,
+      "success": 1
+    },
+    {
+      "abs": null,
+      "dynamic": 0,
+      "error": "No module named 'onnxscript'",
+      "error_step": "export",
       "exporter": "dynamo",
+      "name": "ExportWithDimension0",
+      "rel": null,
+      "success": 0
+    },
+    {
+      "abs": 0.0,
+      "dynamic": 1,
+      "error": "",
+      "error_step": "",
+      "exporter": "yobx",
       "name": "ExportWithDimension0",
       "rel": 0.0,
       "success": 1
@@ -3816,16 +3826,6 @@
       "dynamic": 1,
       "error": "",
       "error_step": "",
-      "exporter": "yobx",
-      "name": "ExportWithDimension0",
-      "rel": 0.0,
-      "success": 1
-    },
-    {
-      "abs": 0.0,
-      "dynamic": 1,
-      "error": "",
-      "error_step": "",
       "exporter": "yobx-tracing",
       "name": "ExportWithDimension0",
       "rel": 0.0,
@@ -3842,14 +3842,14 @@
       "success": 1
     },
     {
-      "abs": 0.0,
+      "abs": null,
       "dynamic": 1,
-      "error": "",
-      "error_step": "",
+      "error": "No module named 'onnxscript'",
+      "error_step": "export",
       "exporter": "dynamo",
       "name": "ExportWithDimension0",
-      "rel": 0.0,
-      "success": 1
+      "rel": null,
+      "success": 0
     },
     {
       "abs": 0.0,
@@ -3882,11 +3882,21 @@
       "success": 1
     },
     {
-      "abs": 0.0,
+      "abs": null,
       "dynamic": 0,
+      "error": "No module named 'onnxscript'",
+      "error_step": "export",
+      "exporter": "dynamo",
+      "name": "ExportWithDimension1",
+      "rel": null,
+      "success": 0
+    },
+    {
+      "abs": 0.0,
+      "dynamic": 1,
       "error": "",
       "error_step": "",
-      "exporter": "dynamo",
+      "exporter": "yobx",
       "name": "ExportWithDimension1",
       "rel": 0.0,
       "success": 1
@@ -3896,16 +3906,6 @@
       "dynamic": 1,
       "error": "",
       "error_step": "",
-      "exporter": "yobx",
-      "name": "ExportWithDimension1",
-      "rel": 0.0,
-      "success": 1
-    },
-    {
-      "abs": 0.0,
-      "dynamic": 1,
-      "error": "",
-      "error_step": "",
       "exporter": "yobx-tracing",
       "name": "ExportWithDimension1",
       "rel": 0.0,
@@ -3922,14 +3922,14 @@
       "success": 1
     },
     {
-      "abs": 0.0,
+      "abs": null,
       "dynamic": 1,
-      "error": "",
-      "error_step": "",
+      "error": "No module named 'onnxscript'",
+      "error_step": "export",
       "exporter": "dynamo",
       "name": "ExportWithDimension1",
-      "rel": 0.0,
-      "success": 1
+      "rel": null,
+      "success": 0
     },
     {
       "abs": 0.0,
@@ -3962,11 +3962,21 @@
       "success": 1
     },
     {
-      "abs": 0.0,
+      "abs": null,
       "dynamic": 0,
+      "error": "No module named 'onnxscript'",
+      "error_step": "export",
+      "exporter": "dynamo",
+      "name": "ExportWithNewConstant",
+      "rel": null,
+      "success": 0
+    },
+    {
+      "abs": 0.0,
+      "dynamic": 1,
       "error": "",
       "error_step": "",
-      "exporter": "dynamo",
+      "exporter": "yobx",
       "name": "ExportWithNewConstant",
       "rel": 0.0,
       "success": 1
@@ -3976,16 +3986,6 @@
       "dynamic": 1,
       "error": "",
       "error_step": "",
-      "exporter": "yobx",
-      "name": "ExportWithNewConstant",
-      "rel": 0.0,
-      "success": 1
-    },
-    {
-      "abs": 0.0,
-      "dynamic": 1,
-      "error": "",
-      "error_step": "",
       "exporter": "yobx-tracing",
       "name": "ExportWithNewConstant",
       "rel": 0.0,
@@ -4002,14 +4002,14 @@
       "success": 1
     },
     {
-      "abs": 0.0,
+      "abs": null,
       "dynamic": 1,
-      "error": "",
-      "error_step": "",
+      "error": "No module named 'onnxscript'",
+      "error_step": "export",
       "exporter": "dynamo",
       "name": "ExportWithNewConstant",
-      "rel": 0.0,
-      "success": 1
+      "rel": null,
+      "success": 0
     },
     {
       "abs": 0.0,
@@ -4042,11 +4042,21 @@
       "success": 1
     },
     {
-      "abs": 0.0,
+      "abs": null,
       "dynamic": 0,
+      "error": "No module named 'onnxscript'",
+      "error_step": "export",
+      "exporter": "dynamo",
+      "name": "ExportWithNewConstantTo",
+      "rel": null,
+      "success": 0
+    },
+    {
+      "abs": 0.0,
+      "dynamic": 1,
       "error": "",
       "error_step": "",
-      "exporter": "dynamo",
+      "exporter": "yobx",
       "name": "ExportWithNewConstantTo",
       "rel": 0.0,
       "success": 1
@@ -4056,16 +4066,6 @@
       "dynamic": 1,
       "error": "",
       "error_step": "",
-      "exporter": "yobx",
-      "name": "ExportWithNewConstantTo",
-      "rel": 0.0,
-      "success": 1
-    },
-    {
-      "abs": 0.0,
-      "dynamic": 1,
-      "error": "",
-      "error_step": "",
       "exporter": "yobx-tracing",
       "name": "ExportWithNewConstantTo",
       "rel": 0.0,
@@ -4082,14 +4082,14 @@
       "success": 1
     },
     {
-      "abs": 0.0,
+      "abs": null,
       "dynamic": 1,
-      "error": "",
-      "error_step": "",
+      "error": "No module named 'onnxscript'",
+      "error_step": "export",
       "exporter": "dynamo",
       "name": "ExportWithNewConstantTo",
-      "rel": 0.0,
-      "success": 1
+      "rel": null,
+      "success": 0
     },
     {
       "abs": 0.0,
@@ -4122,11 +4122,21 @@
       "success": 1
     },
     {
-      "abs": 0.0,
+      "abs": null,
       "dynamic": 0,
+      "error": "No module named 'onnxscript'",
+      "error_step": "export",
+      "exporter": "dynamo",
+      "name": "InplaceAdd",
+      "rel": null,
+      "success": 0
+    },
+    {
+      "abs": 0.0,
+      "dynamic": 1,
       "error": "",
       "error_step": "",
-      "exporter": "dynamo",
+      "exporter": "yobx",
       "name": "InplaceAdd",
       "rel": 0.0,
       "success": 1
@@ -4136,16 +4146,6 @@
       "dynamic": 1,
       "error": "",
       "error_step": "",
-      "exporter": "yobx",
-      "name": "InplaceAdd",
-      "rel": 0.0,
-      "success": 1
-    },
-    {
-      "abs": 0.0,
-      "dynamic": 1,
-      "error": "",
-      "error_step": "",
       "exporter": "yobx-tracing",
       "name": "InplaceAdd",
       "rel": 0.0,
@@ -4162,14 +4162,14 @@
       "success": 1
     },
     {
-      "abs": 0.0,
+      "abs": null,
       "dynamic": 1,
-      "error": "",
-      "error_step": "",
+      "error": "No module named 'onnxscript'",
+      "error_step": "export",
       "exporter": "dynamo",
       "name": "InplaceAdd",
-      "rel": 0.0,
-      "success": 1
+      "rel": null,
+      "success": 0
     },
     {
       "abs": 0.0,
@@ -4202,14 +4202,14 @@
       "success": 1
     },
     {
-      "abs": 0.0,
+      "abs": null,
       "dynamic": 0,
-      "error": "",
-      "error_step": "",
+      "error": "No module named 'onnxscript'",
+      "error_step": "export",
       "exporter": "dynamo",
       "name": "InplaceAdd2",
-      "rel": 0.0,
-      "success": 1
+      "rel": null,
+      "success": 0
     },
     {
       "abs": 0.0,
@@ -4242,14 +4242,14 @@
       "success": 1
     },
     {
-      "abs": 0.0,
+      "abs": null,
       "dynamic": 1,
-      "error": "",
-      "error_step": "",
+      "error": "No module named 'onnxscript'",
+      "error_step": "export",
       "exporter": "dynamo",
       "name": "InplaceAdd2",
-      "rel": 0.0,
-      "success": 1
+      "rel": null,
+      "success": 0
     },
     {
       "abs": 0.0,
@@ -4282,14 +4282,14 @@
       "success": 1
     },
     {
-      "abs": 0.0,
+      "abs": null,
       "dynamic": 0,
-      "error": "",
-      "error_step": "",
+      "error": "No module named 'onnxscript'",
+      "error_step": "export",
       "exporter": "dynamo",
       "name": "InplaceAdd_Mul",
-      "rel": 0.0,
-      "success": 1
+      "rel": null,
+      "success": 0
     },
     {
       "abs": 0.0,
@@ -4322,14 +4322,14 @@
       "success": 1
     },
     {
-      "abs": 0.0,
+      "abs": null,
       "dynamic": 1,
-      "error": "",
-      "error_step": "",
+      "error": "No module named 'onnxscript'",
+      "error_step": "export",
       "exporter": "dynamo",
       "name": "InplaceAdd_Mul",
-      "rel": 0.0,
-      "success": 1
+      "rel": null,
+      "success": 0
     },
     {
       "abs": 0.0,
@@ -4362,14 +4362,14 @@
       "success": 1
     },
     {
-      "abs": 0.0,
+      "abs": null,
       "dynamic": 0,
-      "error": "",
-      "error_step": "",
+      "error": "No module named 'onnxscript'",
+      "error_step": "export",
       "exporter": "dynamo",
       "name": "InplaceCloneAdd_",
-      "rel": 0.0,
-      "success": 1
+      "rel": null,
+      "success": 0
     },
     {
       "abs": 0.0,
@@ -4402,14 +4402,14 @@
       "success": 1
     },
     {
-      "abs": 0.0,
+      "abs": null,
       "dynamic": 1,
-      "error": "",
-      "error_step": "",
+      "error": "No module named 'onnxscript'",
+      "error_step": "export",
       "exporter": "dynamo",
       "name": "InplaceCloneAdd_",
-      "rel": 0.0,
-      "success": 1
+      "rel": null,
+      "success": 0
     },
     {
       "abs": 0.0,
@@ -4442,14 +4442,14 @@
       "success": 1
     },
     {
-      "abs": 0.0,
+      "abs": null,
       "dynamic": 0,
-      "error": "",
-      "error_step": "",
+      "error": "No module named 'onnxscript'",
+      "error_step": "export",
       "exporter": "dynamo",
       "name": "InplaceSetItemEllipsis_1",
-      "rel": 0.0,
-      "success": 1
+      "rel": null,
+      "success": 0
     },
     {
       "abs": null,
@@ -4484,7 +4484,7 @@
     {
       "abs": null,
       "dynamic": 1,
-      "error": "Failed to export the model with torch.export. \u001b[96mThis is step 1/3\u001b[0m of exporting the model to ONNX. Next steps:",
+      "error": "No module named 'onnxscript'",
       "error_step": "export",
       "exporter": "dynamo",
       "name": "InplaceSetItemEllipsis_1",
@@ -4522,14 +4522,14 @@
       "success": 1
     },
     {
-      "abs": 0.0,
+      "abs": null,
       "dynamic": 0,
-      "error": "",
-      "error_step": "",
+      "error": "No module named 'onnxscript'",
+      "error_step": "export",
       "exporter": "dynamo",
       "name": "InplaceSetItemEllipsis_2",
-      "rel": 0.0,
-      "success": 1
+      "rel": null,
+      "success": 0
     },
     {
       "abs": null,
@@ -4564,7 +4564,7 @@
     {
       "abs": null,
       "dynamic": 1,
-      "error": "Failed to export the model with torch.export. \u001b[96mThis is step 1/3\u001b[0m of exporting the model to ONNX. Next steps:",
+      "error": "No module named 'onnxscript'",
       "error_step": "export",
       "exporter": "dynamo",
       "name": "InplaceSetItemEllipsis_2",
@@ -4602,11 +4602,21 @@
       "success": 1
     },
     {
-      "abs": 0.0,
+      "abs": null,
       "dynamic": 0,
+      "error": "No module named 'onnxscript'",
+      "error_step": "export",
+      "exporter": "dynamo",
+      "name": "InplaceSetItemExp",
+      "rel": null,
+      "success": 0
+    },
+    {
+      "abs": 0.0,
+      "dynamic": 1,
       "error": "",
       "error_step": "",
-      "exporter": "dynamo",
+      "exporter": "yobx",
       "name": "InplaceSetItemExp",
       "rel": 0.0,
       "success": 1
@@ -4616,16 +4626,6 @@
       "dynamic": 1,
       "error": "",
       "error_step": "",
-      "exporter": "yobx",
-      "name": "InplaceSetItemExp",
-      "rel": 0.0,
-      "success": 1
-    },
-    {
-      "abs": 0.0,
-      "dynamic": 1,
-      "error": "",
-      "error_step": "",
       "exporter": "yobx-tracing",
       "name": "InplaceSetItemExp",
       "rel": 0.0,
@@ -4642,14 +4642,14 @@
       "success": 1
     },
     {
-      "abs": 0.0,
+      "abs": null,
       "dynamic": 1,
-      "error": "",
-      "error_step": "",
+      "error": "No module named 'onnxscript'",
+      "error_step": "export",
       "exporter": "dynamo",
       "name": "InplaceSetItemExp",
-      "rel": 0.0,
-      "success": 1
+      "rel": null,
+      "success": 0
     },
     {
       "abs": 0.0,
@@ -4682,11 +4682,21 @@
       "success": 1
     },
     {
-      "abs": 0.0,
+      "abs": null,
       "dynamic": 0,
+      "error": "No module named 'onnxscript'",
+      "error_step": "export",
+      "exporter": "dynamo",
+      "name": "InplaceSetItemMask",
+      "rel": null,
+      "success": 0
+    },
+    {
+      "abs": 0.0,
+      "dynamic": 1,
       "error": "",
       "error_step": "",
-      "exporter": "dynamo",
+      "exporter": "yobx",
       "name": "InplaceSetItemMask",
       "rel": 0.0,
       "success": 1
@@ -4696,16 +4706,6 @@
       "dynamic": 1,
       "error": "",
       "error_step": "",
-      "exporter": "yobx",
-      "name": "InplaceSetItemMask",
-      "rel": 0.0,
-      "success": 1
-    },
-    {
-      "abs": 0.0,
-      "dynamic": 1,
-      "error": "",
-      "error_step": "",
       "exporter": "yobx-tracing",
       "name": "InplaceSetItemMask",
       "rel": 0.0,
@@ -4722,24 +4722,24 @@
       "success": 1
     },
     {
-      "abs": 0.0,
+      "abs": null,
       "dynamic": 1,
-      "error": "",
-      "error_step": "",
+      "error": "No module named 'onnxscript'",
+      "error_step": "export",
       "exporter": "dynamo",
       "name": "InplaceSetItemMask",
-      "rel": 0.0,
-      "success": 1
+      "rel": null,
+      "success": 0
     },
     {
-      "abs": 0.0,
+      "abs": null,
       "dynamic": 0,
-      "error": "",
-      "error_step": "",
+      "error": "slice_scatter not implemented for start=0",
+      "error_step": "export",
       "exporter": "yobx",
       "name": "InplaceSetItemSquare",
-      "rel": 0.0,
-      "success": 1
+      "rel": null,
+      "success": 0
     },
     {
       "abs": 0.0,
@@ -4762,11 +4762,31 @@
       "success": 1
     },
     {
-      "abs": 0.0,
+      "abs": null,
       "dynamic": 0,
+      "error": "No module named 'onnxscript'",
+      "error_step": "export",
+      "exporter": "dynamo",
+      "name": "InplaceSetItemSquare",
+      "rel": null,
+      "success": 0
+    },
+    {
+      "abs": null,
+      "dynamic": 1,
+      "error": "slice_scatter not implemented for start=0",
+      "error_step": "export",
+      "exporter": "yobx",
+      "name": "InplaceSetItemSquare",
+      "rel": null,
+      "success": 0
+    },
+    {
+      "abs": 0.0,
+      "dynamic": 1,
       "error": "",
       "error_step": "",
-      "exporter": "dynamo",
+      "exporter": "yobx-tracing",
       "name": "InplaceSetItemSquare",
       "rel": 0.0,
       "success": 1
@@ -4776,50 +4796,30 @@
       "dynamic": 1,
       "error": "",
       "error_step": "",
-      "exporter": "yobx",
-      "name": "InplaceSetItemSquare",
-      "rel": 0.0,
-      "success": 1
-    },
-    {
-      "abs": 0.0,
-      "dynamic": 1,
-      "error": "",
-      "error_step": "",
-      "exporter": "yobx-tracing",
-      "name": "InplaceSetItemSquare",
-      "rel": 0.0,
-      "success": 1
-    },
-    {
-      "abs": 0.0,
-      "dynamic": 1,
-      "error": "",
-      "error_step": "",
       "exporter": "yobx-new-tracing",
       "name": "InplaceSetItemSquare",
       "rel": 0.0,
       "success": 1
     },
     {
-      "abs": 0.0,
+      "abs": null,
       "dynamic": 1,
-      "error": "",
-      "error_step": "",
+      "error": "No module named 'onnxscript'",
+      "error_step": "export",
       "exporter": "dynamo",
       "name": "InplaceSetItemSquare",
-      "rel": 0.0,
-      "success": 1
+      "rel": null,
+      "success": 0
     },
     {
-      "abs": 0.0,
+      "abs": null,
       "dynamic": 0,
-      "error": "",
-      "error_step": "",
+      "error": "slice_scatter not implemented for start=0",
+      "error_step": "export",
       "exporter": "yobx",
       "name": "InplaceSetItemSquareAdd",
-      "rel": 0.0,
-      "success": 1
+      "rel": null,
+      "success": 0
     },
     {
       "abs": 0.0,
@@ -4842,24 +4842,24 @@
       "success": 1
     },
     {
-      "abs": 0.0,
+      "abs": null,
       "dynamic": 0,
-      "error": "",
-      "error_step": "",
+      "error": "No module named 'onnxscript'",
+      "error_step": "export",
       "exporter": "dynamo",
       "name": "InplaceSetItemSquareAdd",
-      "rel": 0.0,
-      "success": 1
+      "rel": null,
+      "success": 0
     },
     {
-      "abs": 0.0,
+      "abs": null,
       "dynamic": 1,
-      "error": "",
-      "error_step": "",
+      "error": "slice_scatter not implemented for start=0",
+      "error_step": "export",
       "exporter": "yobx",
       "name": "InplaceSetItemSquareAdd",
-      "rel": 0.0,
-      "success": 1
+      "rel": null,
+      "success": 0
     },
     {
       "abs": 0.0,
@@ -4882,24 +4882,24 @@
       "success": 1
     },
     {
-      "abs": 0.0,
+      "abs": null,
       "dynamic": 1,
-      "error": "",
-      "error_step": "",
+      "error": "No module named 'onnxscript'",
+      "error_step": "export",
       "exporter": "dynamo",
       "name": "InplaceSetItemSquareAdd",
-      "rel": 0.0,
-      "success": 1
+      "rel": null,
+      "success": 0
     },
     {
-      "abs": 0.0,
+      "abs": null,
       "dynamic": 0,
-      "error": "",
-      "error_step": "",
+      "error": "slice_scatter not implemented for start=0",
+      "error_step": "export",
       "exporter": "yobx",
       "name": "InplaceSetItemSquareAdd2",
-      "rel": 0.0,
-      "success": 1
+      "rel": null,
+      "success": 0
     },
     {
       "abs": 0.0,
@@ -4922,24 +4922,24 @@
       "success": 1
     },
     {
-      "abs": 0.0,
+      "abs": null,
       "dynamic": 0,
-      "error": "",
-      "error_step": "",
+      "error": "No module named 'onnxscript'",
+      "error_step": "export",
       "exporter": "dynamo",
       "name": "InplaceSetItemSquareAdd2",
-      "rel": 0.0,
-      "success": 1
+      "rel": null,
+      "success": 0
     },
     {
-      "abs": 0.0,
+      "abs": null,
       "dynamic": 1,
-      "error": "",
-      "error_step": "",
+      "error": "slice_scatter not implemented for start=0",
+      "error_step": "export",
       "exporter": "yobx",
       "name": "InplaceSetItemSquareAdd2",
-      "rel": 0.0,
-      "success": 1
+      "rel": null,
+      "success": 0
     },
     {
       "abs": 0.0,
@@ -4962,14 +4962,14 @@
       "success": 1
     },
     {
-      "abs": 0.0,
+      "abs": null,
       "dynamic": 1,
-      "error": "",
-      "error_step": "",
+      "error": "No module named 'onnxscript'",
+      "error_step": "export",
       "exporter": "dynamo",
       "name": "InplaceSetItemSquareAdd2",
-      "rel": 0.0,
-      "success": 1
+      "rel": null,
+      "success": 0
     },
     {
       "abs": 1.1920928955078125e-07,
@@ -4978,7 +4978,7 @@
       "error_step": "",
       "exporter": "yobx",
       "name": "LayerNorm",
-      "rel": 1.1703142385764091e-07,
+      "rel": 9.782348030953347e-08,
       "success": 1
     },
     {
@@ -4988,7 +4988,7 @@
       "error_step": "",
       "exporter": "yobx-tracing",
       "name": "LayerNorm",
-      "rel": 1.1703142385764091e-07,
+      "rel": 9.782348030953347e-08,
       "success": 1
     },
     {
@@ -4998,18 +4998,18 @@
       "error_step": "",
       "exporter": "yobx-new-tracing",
       "name": "LayerNorm",
-      "rel": 1.1703142385764091e-07,
+      "rel": 9.782348030953347e-08,
       "success": 1
     },
     {
-      "abs": 1.1920928955078125e-07,
+      "abs": null,
       "dynamic": 0,
-      "error": "",
-      "error_step": "",
+      "error": "No module named 'onnxscript'",
+      "error_step": "export",
       "exporter": "dynamo",
       "name": "LayerNorm",
-      "rel": 1.1703142385764091e-07,
-      "success": 1
+      "rel": null,
+      "success": 0
     },
     {
       "abs": 1.1920928955078125e-07,
@@ -5018,7 +5018,7 @@
       "error_step": "",
       "exporter": "yobx",
       "name": "LayerNorm",
-      "rel": 1.1703142385764091e-07,
+      "rel": 9.782348030953347e-08,
       "success": 1
     },
     {
@@ -5028,7 +5028,7 @@
       "error_step": "",
       "exporter": "yobx-tracing",
       "name": "LayerNorm",
-      "rel": 1.1703142385764091e-07,
+      "rel": 9.782348030953347e-08,
       "success": 1
     },
     {
@@ -5038,18 +5038,18 @@
       "error_step": "",
       "exporter": "yobx-new-tracing",
       "name": "LayerNorm",
-      "rel": 1.1703142385764091e-07,
+      "rel": 9.782348030953347e-08,
       "success": 1
     },
     {
-      "abs": 1.1920928955078125e-07,
+      "abs": null,
       "dynamic": 1,
-      "error": "",
-      "error_step": "",
+      "error": "No module named 'onnxscript'",
+      "error_step": "export",
       "exporter": "dynamo",
       "name": "LayerNorm",
-      "rel": 1.1703142385764091e-07,
-      "success": 1
+      "rel": null,
+      "success": 0
     },
     {
       "abs": 0.0,
@@ -5082,14 +5082,14 @@
       "success": 1
     },
     {
-      "abs": 0.0,
+      "abs": null,
       "dynamic": 0,
-      "error": "",
-      "error_step": "",
+      "error": "No module named 'onnxscript'",
+      "error_step": "export",
       "exporter": "dynamo",
       "name": "ShapeAndTypeAndDeviceBased",
-      "rel": 0.0,
-      "success": 1
+      "rel": null,
+      "success": 0
     },
     {
       "abs": 0.0,
@@ -5122,14 +5122,14 @@
       "success": 1
     },
     {
-      "abs": 0.0,
+      "abs": null,
       "dynamic": 1,
-      "error": "",
-      "error_step": "",
+      "error": "No module named 'onnxscript'",
+      "error_step": "export",
       "exporter": "dynamo",
       "name": "ShapeAndTypeAndDeviceBased",
-      "rel": 0.0,
-      "success": 1
+      "rel": null,
+      "success": 0
     },
     {
       "abs": 0.0,
@@ -5162,14 +5162,14 @@
       "success": 1
     },
     {
-      "abs": 0.0,
+      "abs": null,
       "dynamic": 0,
-      "error": "",
-      "error_step": "",
+      "error": "No module named 'onnxscript'",
+      "error_step": "export",
       "exporter": "dynamo",
       "name": "ShapeAndTypeBased",
-      "rel": 0.0,
-      "success": 1
+      "rel": null,
+      "success": 0
     },
     {
       "abs": 0.0,
@@ -5202,14 +5202,14 @@
       "success": 1
     },
     {
-      "abs": 0.0,
+      "abs": null,
       "dynamic": 1,
-      "error": "",
-      "error_step": "",
+      "error": "No module named 'onnxscript'",
+      "error_step": "export",
       "exporter": "dynamo",
       "name": "ShapeAndTypeBased",
-      "rel": 0.0,
-      "success": 1
+      "rel": null,
+      "success": 0
     },
     {
       "abs": 0.0,
@@ -5242,14 +5242,14 @@
       "success": 1
     },
     {
-      "abs": 0.0,
+      "abs": null,
       "dynamic": 0,
-      "error": "",
-      "error_step": "",
+      "error": "No module named 'onnxscript'",
+      "error_step": "export",
       "exporter": "dynamo",
       "name": "ShapeBased",
-      "rel": 0.0,
-      "success": 1
+      "rel": null,
+      "success": 0
     },
     {
       "abs": 0.0,
@@ -5282,23 +5282,23 @@
       "success": 1
     },
     {
-      "abs": 0.0,
+      "abs": null,
       "dynamic": 1,
-      "error": "",
-      "error_step": "",
+      "error": "No module named 'onnxscript'",
+      "error_step": "export",
       "exporter": "dynamo",
       "name": "ShapeBased",
-      "rel": 0.0,
-      "success": 1
+      "rel": null,
+      "success": 0
     },
     {
-      "abs": 5.960464477539063e-08,
+      "abs": 0.0,
       "dynamic": 0,
       "error": "",
       "error_step": "",
       "exporter": "yobx",
       "name": "SignatureFloat1",
-      "rel": 7.93679881640513e-08,
+      "rel": 0.0,
       "success": 1
     },
     {
@@ -5312,53 +5312,23 @@
       "success": 0
     },
     {
-      "abs": 1.1920928955078125e-07,
-      "dynamic": 0,
-      "error": "",
-      "error_step": "",
-      "exporter": "yobx-new-tracing",
-      "name": "SignatureFloat1",
-      "rel": 4.7493876196595864e-07,
-      "success": 1
-    },
-    {
       "abs": 5.960464477539063e-08,
       "dynamic": 0,
       "error": "",
       "error_step": "",
-      "exporter": "dynamo",
+      "exporter": "yobx-new-tracing",
       "name": "SignatureFloat1",
-      "rel": 6.359469458869233e-07,
+      "rel": 7.980353508617836e-08,
       "success": 1
     },
     {
-      "abs": 0.5,
-      "dynamic": 1,
-      "error": "diff.1",
-      "error_step": "diff.1",
-      "exporter": "yobx",
-      "name": "SignatureFloat1",
-      "rel": 0.3996836644470291,
-      "success": 0
-    },
-    {
       "abs": null,
-      "dynamic": 1,
-      "error": "Unable to interpret method 'aten_meth_mul', args=(buff, alpha), kwargs={}, dispatcher=None",
+      "dynamic": 0,
+      "error": "No module named 'onnxscript'",
       "error_step": "export",
-      "exporter": "yobx-tracing",
+      "exporter": "dynamo",
       "name": "SignatureFloat1",
       "rel": null,
-      "success": 0
-    },
-    {
-      "abs": 0.5000001192092896,
-      "dynamic": 1,
-      "error": "diff.1",
-      "error_step": "diff.1",
-      "exporter": "yobx-new-tracing",
-      "name": "SignatureFloat1",
-      "rel": 1.6530471549256498,
       "success": 0
     },
     {
@@ -5366,9 +5336,39 @@
       "dynamic": 1,
       "error": "diff.1",
       "error_step": "diff.1",
+      "exporter": "yobx",
+      "name": "SignatureFloat1",
+      "rel": 1.9919145642020497,
+      "success": 0
+    },
+    {
+      "abs": null,
+      "dynamic": 1,
+      "error": "Unable to interpret method 'aten_meth_mul', args=(buff, alpha), kwargs={}, dispatcher=None",
+      "error_step": "export",
+      "exporter": "yobx-tracing",
+      "name": "SignatureFloat1",
+      "rel": null,
+      "success": 0
+    },
+    {
+      "abs": 0.5000000596046448,
+      "dynamic": 1,
+      "error": "diff.1",
+      "error_step": "diff.1",
+      "exporter": "yobx-new-tracing",
+      "name": "SignatureFloat1",
+      "rel": 0.413020796450303,
+      "success": 0
+    },
+    {
+      "abs": null,
+      "dynamic": 1,
+      "error": "No module named 'onnxscript'",
+      "error_step": "export",
       "exporter": "dynamo",
       "name": "SignatureFloat1",
-      "rel": 1.9920318725099602,
+      "rel": null,
       "success": 0
     },
     {
@@ -5402,14 +5402,14 @@
       "success": 1
     },
     {
-      "abs": 0.0,
+      "abs": null,
       "dynamic": 0,
-      "error": "",
-      "error_step": "",
+      "error": "No module named 'onnxscript'",
+      "error_step": "export",
       "exporter": "dynamo",
       "name": "SignatureInt1",
-      "rel": 0.0,
-      "success": 1
+      "rel": null,
+      "success": 0
     },
     {
       "abs": 1.0,
@@ -5418,7 +5418,7 @@
       "error_step": "diff.1",
       "exporter": "yobx",
       "name": "SignatureInt1",
-      "rel": 0.07999383851169516,
+      "rel": 0.08693351290218733,
       "success": 0
     },
     {
@@ -5429,16 +5429,6 @@
       "exporter": "yobx-tracing",
       "name": "SignatureInt1",
       "rel": null,
-      "success": 0
-    },
-    {
-      "abs": 1.0000019073486328,
-      "dynamic": 1,
-      "error": "diff.1",
-      "error_step": "diff.1",
-      "exporter": "yobx-new-tracing",
-      "name": "SignatureInt1",
-      "rel": 0.08667300129271467,
       "success": 0
     },
     {
@@ -5446,9 +5436,19 @@
       "dynamic": 1,
       "error": "diff.1",
       "error_step": "diff.1",
+      "exporter": "yobx-new-tracing",
+      "name": "SignatureInt1",
+      "rel": 0.08397796818219892,
+      "success": 0
+    },
+    {
+      "abs": null,
+      "dynamic": 1,
+      "error": "No module named 'onnxscript'",
+      "error_step": "export",
       "exporter": "dynamo",
       "name": "SignatureInt1",
-      "rel": 0.08195050366769425,
+      "rel": null,
       "success": 0
     },
     {
@@ -5472,24 +5472,24 @@
       "success": 0
     },
     {
-      "abs": 9.5367431640625e-07,
+      "abs": 0.0,
       "dynamic": 0,
       "error": "",
       "error_step": "",
       "exporter": "yobx-new-tracing",
       "name": "SignatureInt2",
-      "rel": 9.08174760885868e-08,
+      "rel": 0.0,
       "success": 1
     },
     {
-      "abs": 0.0,
+      "abs": null,
       "dynamic": 0,
-      "error": "",
-      "error_step": "",
+      "error": "No module named 'onnxscript'",
+      "error_step": "export",
       "exporter": "dynamo",
       "name": "SignatureInt2",
-      "rel": 0.0,
-      "success": 1
+      "rel": null,
+      "success": 0
     },
     {
       "abs": 0.0,
@@ -5522,14 +5522,14 @@
       "success": 1
     },
     {
-      "abs": 0.0,
+      "abs": null,
       "dynamic": 1,
-      "error": "",
-      "error_step": "",
+      "error": "No module named 'onnxscript'",
+      "error_step": "export",
       "exporter": "dynamo",
       "name": "SignatureInt2",
-      "rel": 0.0,
-      "success": 1
+      "rel": null,
+      "success": 0
     },
     {
       "abs": 0.0,
@@ -5562,14 +5562,14 @@
       "success": 1
     },
     {
-      "abs": 0.0,
+      "abs": null,
       "dynamic": 0,
-      "error": "",
-      "error_step": "",
+      "error": "No module named 'onnxscript'",
+      "error_step": "export",
       "exporter": "dynamo",
       "name": "SignatureListFixedLength",
-      "rel": 0.0,
-      "success": 1
+      "rel": null,
+      "success": 0
     },
     {
       "abs": 0.0,
@@ -5602,14 +5602,14 @@
       "success": 1
     },
     {
-      "abs": 0.0,
+      "abs": null,
       "dynamic": 1,
-      "error": "",
-      "error_step": "",
+      "error": "No module named 'onnxscript'",
+      "error_step": "export",
       "exporter": "dynamo",
       "name": "SignatureListFixedLength",
-      "rel": 0.0,
-      "success": 1
+      "rel": null,
+      "success": 0
     },
     {
       "abs": 0.0,
@@ -5624,7 +5624,7 @@
     {
       "abs": null,
       "dynamic": 0,
-      "error": "Type is unknown for result 'lx_2', known_types={'lx_0': 1, 'lx_1': 1, 'add': 1}",
+      "error": "\"No tensor type is known for 'lx_2'.\"",
       "error_step": "export",
       "exporter": "yobx-tracing",
       "name": "SignatureListFixedWithNone",
@@ -5642,14 +5642,14 @@
       "success": 0
     },
     {
-      "abs": 0.0,
+      "abs": null,
       "dynamic": 0,
-      "error": "",
-      "error_step": "",
+      "error": "No module named 'onnxscript'",
+      "error_step": "export",
       "exporter": "dynamo",
       "name": "SignatureListFixedWithNone",
-      "rel": 0.0,
-      "success": 1
+      "rel": null,
+      "success": 0
     },
     {
       "abs": null,
@@ -5684,7 +5684,7 @@
     {
       "abs": null,
       "dynamic": 1,
-      "error": "Failed to export the model with torch.export. \u001b[96mThis is step 1/3\u001b[0m of exporting the model to ONNX. Next steps:",
+      "error": "No module named 'onnxscript'",
       "error_step": "export",
       "exporter": "dynamo",
       "name": "SignatureListFixedWithNone",
@@ -5722,23 +5722,23 @@
       "success": 1
     },
     {
-      "abs": 0.0,
+      "abs": null,
       "dynamic": 0,
-      "error": "",
-      "error_step": "",
+      "error": "No module named 'onnxscript'",
+      "error_step": "export",
       "exporter": "dynamo",
       "name": "SignatureListVariableLength",
-      "rel": 0.0,
-      "success": 1
+      "rel": null,
+      "success": 0
     },
     {
-      "abs": 96.00000762939453,
+      "abs": 95.99999237060547,
       "dynamic": 1,
       "error": "diff.1",
       "error_step": "diff.1",
       "exporter": "yobx",
       "name": "SignatureListVariableLength",
-      "rel": 0.5943379767971676,
+      "rel": 0.5918495283954948,
       "success": 0
     },
     {
@@ -5748,7 +5748,7 @@
       "error_step": "diff.1",
       "exporter": "yobx-tracing",
       "name": "SignatureListVariableLength",
-      "rel": 0.5907659835977299,
+      "rel": 0.594423507779005,
       "success": 0
     },
     {
@@ -5758,27 +5758,27 @@
       "error_step": "diff.1",
       "exporter": "yobx-new-tracing",
       "name": "SignatureListVariableLength",
-      "rel": 0.5944235639407806,
+      "rel": 0.5941548390347988,
       "success": 0
     },
     {
-      "abs": 96.0,
+      "abs": null,
       "dynamic": 1,
-      "error": "diff.1",
-      "error_step": "diff.1",
+      "error": "No module named 'onnxscript'",
+      "error_step": "export",
       "exporter": "dynamo",
       "name": "SignatureListVariableLength",
-      "rel": 0.5907679806239472,
+      "rel": null,
       "success": 0
     },
     {
-      "abs": 1.9073486328125e-06,
+      "abs": 0.0,
       "dynamic": 0,
       "error": "",
       "error_step": "",
       "exporter": "yobx",
       "name": "SignatureShapeAsIndex",
-      "rel": 1.0038043897275007e-07,
+      "rel": 0.0,
       "success": 1
     },
     {
@@ -5788,7 +5788,7 @@
       "error_step": "",
       "exporter": "yobx-tracing",
       "name": "SignatureShapeAsIndex",
-      "rel": 8.668996460158855e-08,
+      "rel": 7.335289247329121e-08,
       "success": 1
     },
     {
@@ -5802,23 +5802,23 @@
       "success": 1
     },
     {
-      "abs": 0.0,
+      "abs": null,
       "dynamic": 0,
-      "error": "",
-      "error_step": "",
+      "error": "No module named 'onnxscript'",
+      "error_step": "export",
       "exporter": "dynamo",
       "name": "SignatureShapeAsIndex",
-      "rel": 0.0,
-      "success": 1
+      "rel": null,
+      "success": 0
     },
     {
-      "abs": 9.5367431640625e-07,
+      "abs": 0.0,
       "dynamic": 1,
       "error": "",
       "error_step": "",
       "exporter": "yobx",
       "name": "SignatureShapeAsIndex",
-      "rel": 8.669424093285412e-08,
+      "rel": 0.0,
       "success": 1
     },
     {
@@ -5842,14 +5842,14 @@
       "success": 1
     },
     {
-      "abs": 0.0,
+      "abs": null,
       "dynamic": 1,
-      "error": "",
-      "error_step": "",
+      "error": "No module named 'onnxscript'",
+      "error_step": "export",
       "exporter": "dynamo",
       "name": "SignatureShapeAsIndex",
-      "rel": 0.0,
-      "success": 1
+      "rel": null,
+      "success": 0
     },
     {
       "abs": 7.748603820800781e-07,
@@ -5858,7 +5858,7 @@
       "error_step": "",
       "exporter": "yobx",
       "name": "TinyLLM",
-      "rel": 0.00027955994873481827,
+      "rel": 0.000317807404395053,
       "success": 1
     },
     {
@@ -5872,33 +5872,33 @@
       "success": 0
     },
     {
-      "abs": 8.940696716308594e-07,
+      "abs": 7.748603820800781e-07,
       "dynamic": 0,
       "error": "",
       "error_step": "",
       "exporter": "yobx-new-tracing",
       "name": "TinyLLM",
-      "rel": 0.00033368300899613417,
+      "rel": 0.00029754736775722837,
       "success": 1
+    },
+    {
+      "abs": null,
+      "dynamic": 0,
+      "error": "No module named 'onnxscript'",
+      "error_step": "export",
+      "exporter": "dynamo",
+      "name": "TinyLLM",
+      "rel": null,
+      "success": 0
     },
     {
       "abs": 8.344650268554688e-07,
-      "dynamic": 0,
-      "error": "",
-      "error_step": "",
-      "exporter": "dynamo",
-      "name": "TinyLLM",
-      "rel": 0.0002693135559712927,
-      "success": 1
-    },
-    {
-      "abs": 9.5367431640625e-07,
       "dynamic": 1,
       "error": "",
       "error_step": "",
       "exporter": "yobx",
       "name": "TinyLLM",
-      "rel": 0.00029856768437430117,
+      "rel": 0.000423171563883219,
       "success": 1
     },
     {
@@ -5922,14 +5922,14 @@
       "success": 0
     },
     {
-      "abs": 7.748603820800781e-07,
+      "abs": null,
       "dynamic": 1,
-      "error": "",
-      "error_step": "",
+      "error": "No module named 'onnxscript'",
+      "error_step": "export",
       "exporter": "dynamo",
       "name": "TinyLLM",
-      "rel": 0.0002869586442102665,
-      "success": 1
+      "rel": null,
+      "success": 0
     },
     {
       "abs": 0.0009765625,
@@ -5938,7 +5938,7 @@
       "error_step": "",
       "exporter": "yobx",
       "name": "TinyLLMfp16",
-      "rel": 0.4442701811122864,
+      "rel": 0.6132944433570072,
       "success": 1
     },
     {
@@ -5952,24 +5952,24 @@
       "success": 0
     },
     {
-      "abs": null,
-      "dynamic": 0,
-      "error": "Type for name '_scaled_dot_product_flash_attention_for_cpu_default#1' already exists and it is different, known is 10 != 1 (new) - (mapping=0:UNDEFINED, 1:EXTERNAL, 1:FLOAT, 2:UINT8, 3:INT8, 4:UINT16, 5:INT16, 6:INT32, 7:INT64, 8:STRING, 9:BOOL, 10:FLOAT16, 11:DOUBLE, 12:UINT32, 13:UINT64, 14:COMPLEX64, 15:COMPLEX128, 16:BFLOAT16, 17:FLOAT8E4M3FN, 18:FLOAT8E4M3FNUZ, 19:FLOAT8E5M2, 20:FLOAT8E5M2...",
-      "error_step": "export",
-      "exporter": "yobx-new-tracing",
-      "name": "TinyLLMfp16",
-      "rel": null,
-      "success": 0
-    },
-    {
       "abs": 0.0009765625,
       "dynamic": 0,
       "error": "",
       "error_step": "",
+      "exporter": "yobx-new-tracing",
+      "name": "TinyLLMfp16",
+      "rel": 0.3481128360234635,
+      "success": 1
+    },
+    {
+      "abs": null,
+      "dynamic": 0,
+      "error": "No module named 'onnxscript'",
+      "error_step": "export",
       "exporter": "dynamo",
       "name": "TinyLLMfp16",
-      "rel": 0.4778329776337268,
-      "success": 1
+      "rel": null,
+      "success": 0
     },
     {
       "abs": 0.0009765625,
@@ -5978,7 +5978,7 @@
       "error_step": "",
       "exporter": "yobx",
       "name": "TinyLLMfp16",
-      "rel": 0.4056792697620408,
+      "rel": 0.4149499351429113,
       "success": 1
     },
     {
@@ -6002,91 +6002,21 @@
       "success": 0
     },
     {
-      "abs": 0.0009765625,
+      "abs": null,
       "dynamic": 1,
-      "error": "",
-      "error_step": "",
+      "error": "No module named 'onnxscript'",
+      "error_step": "export",
       "exporter": "dynamo",
       "name": "TinyLLMfp16",
-      "rel": 0.39834153872026196,
-      "success": 1
-    },
-    {
-      "abs": 0.0,
-      "dynamic": 0,
-      "error": "",
-      "error_step": "",
-      "exporter": "yobx",
-      "name": "TypeBFloat16",
-      "rel": 0.0,
-      "success": 1
-    },
-    {
-      "abs": 0.0,
-      "dynamic": 0,
-      "error": "",
-      "error_step": "",
-      "exporter": "yobx-tracing",
-      "name": "TypeBFloat16",
-      "rel": 0.0,
-      "success": 1
-    },
-    {
-      "abs": 0.0,
-      "dynamic": 0,
-      "error": "",
-      "error_step": "",
-      "exporter": "yobx-new-tracing",
-      "name": "TypeBFloat16",
-      "rel": 0.0,
-      "success": 1
-    },
-    {
-      "abs": null,
-      "dynamic": 0,
-      "error": "[ONNXRuntimeError] : 9 : NOT_IMPLEMENTED : Could not find an implementation for Add(14) node with name 'node_add'",
-      "error_step": "ort-init",
-      "exporter": "dynamo",
-      "name": "TypeBFloat16",
       "rel": null,
       "success": 0
     },
     {
-      "abs": 0.0,
-      "dynamic": 1,
-      "error": "",
-      "error_step": "",
-      "exporter": "yobx",
-      "name": "TypeBFloat16",
-      "rel": 0.0,
-      "success": 1
-    },
-    {
-      "abs": 0.0,
-      "dynamic": 1,
-      "error": "",
-      "error_step": "",
-      "exporter": "yobx-tracing",
-      "name": "TypeBFloat16",
-      "rel": 0.0,
-      "success": 1
-    },
-    {
-      "abs": 0.0,
-      "dynamic": 1,
-      "error": "",
-      "error_step": "",
-      "exporter": "yobx-new-tracing",
-      "name": "TypeBFloat16",
-      "rel": 0.0,
-      "success": 1
-    },
-    {
       "abs": null,
-      "dynamic": 1,
-      "error": "[ONNXRuntimeError] : 9 : NOT_IMPLEMENTED : Could not find an implementation for Add(14) node with name 'node_add_3'",
+      "dynamic": 0,
+      "error": "[ONNXRuntimeError] : 9 : NOT_IMPLEMENTED : Could not find an implementation for Add(14) node with name 'add_Tensor'",
       "error_step": "ort-init",
-      "exporter": "dynamo",
+      "exporter": "yobx",
       "name": "TypeBFloat16",
       "rel": null,
       "success": 0
@@ -6094,7 +6024,77 @@
     {
       "abs": null,
       "dynamic": 0,
-      "error": "Rank mismatch between previous shape (3,) and new shape () (name='squeeze_default')",
+      "error": "[ONNXRuntimeError] : 9 : NOT_IMPLEMENTED : Could not find an implementation for Add(14) node with name 'add'",
+      "error_step": "ort-init",
+      "exporter": "yobx-tracing",
+      "name": "TypeBFloat16",
+      "rel": null,
+      "success": 0
+    },
+    {
+      "abs": null,
+      "dynamic": 0,
+      "error": "[ONNXRuntimeError] : 9 : NOT_IMPLEMENTED : Could not find an implementation for Add(14) node with name 'add_Tensor'",
+      "error_step": "ort-init",
+      "exporter": "yobx-new-tracing",
+      "name": "TypeBFloat16",
+      "rel": null,
+      "success": 0
+    },
+    {
+      "abs": null,
+      "dynamic": 0,
+      "error": "No module named 'onnxscript'",
+      "error_step": "export",
+      "exporter": "dynamo",
+      "name": "TypeBFloat16",
+      "rel": null,
+      "success": 0
+    },
+    {
+      "abs": null,
+      "dynamic": 1,
+      "error": "[ONNXRuntimeError] : 9 : NOT_IMPLEMENTED : Could not find an implementation for Add(14) node with name 'add_Tensor'",
+      "error_step": "ort-init",
+      "exporter": "yobx",
+      "name": "TypeBFloat16",
+      "rel": null,
+      "success": 0
+    },
+    {
+      "abs": null,
+      "dynamic": 1,
+      "error": "[ONNXRuntimeError] : 9 : NOT_IMPLEMENTED : Could not find an implementation for Add(14) node with name 'add'",
+      "error_step": "ort-init",
+      "exporter": "yobx-tracing",
+      "name": "TypeBFloat16",
+      "rel": null,
+      "success": 0
+    },
+    {
+      "abs": null,
+      "dynamic": 1,
+      "error": "[ONNXRuntimeError] : 9 : NOT_IMPLEMENTED : Could not find an implementation for Add(14) node with name 'add_Tensor'",
+      "error_step": "ort-init",
+      "exporter": "yobx-new-tracing",
+      "name": "TypeBFloat16",
+      "rel": null,
+      "success": 0
+    },
+    {
+      "abs": null,
+      "dynamic": 1,
+      "error": "No module named 'onnxscript'",
+      "error_step": "export",
+      "exporter": "dynamo",
+      "name": "TypeBFloat16",
+      "rel": null,
+      "success": 0
+    },
+    {
+      "abs": null,
+      "dynamic": 0,
+      "error": "Rank already set for 'squeeze_default', but rank=1 differs for shape=()",
       "error_step": "export",
       "exporter": "yobx",
       "name": "Vmap",
@@ -6122,14 +6122,14 @@
       "success": 1
     },
     {
-      "abs": 0.0,
+      "abs": null,
       "dynamic": 0,
-      "error": "",
-      "error_step": "",
+      "error": "No module named 'onnxscript'",
+      "error_step": "export",
       "exporter": "dynamo",
       "name": "Vmap",
-      "rel": 0.0,
-      "success": 1
+      "rel": null,
+      "success": 0
     },
     {
       "abs": 0.0,
@@ -6162,14 +6162,14 @@
       "success": 1
     },
     {
-      "abs": 0.0,
+      "abs": null,
       "dynamic": 1,
-      "error": "",
-      "error_step": "",
+      "error": "No module named 'onnxscript'",
+      "error_step": "export",
       "exporter": "dynamo",
       "name": "Vmap",
-      "rel": 0.0,
-      "success": 1
+      "rel": null,
+      "success": 0
     },
     {
       "abs": 0.0,
@@ -6202,14 +6202,14 @@
       "success": 1
     },
     {
-      "abs": 0.0,
+      "abs": null,
       "dynamic": 0,
-      "error": "",
-      "error_step": "",
+      "error": "No module named 'onnxscript'",
+      "error_step": "export",
       "exporter": "dynamo",
       "name": "VmapPython",
-      "rel": 0.0,
-      "success": 1
+      "rel": null,
+      "success": 0
     },
     {
       "abs": 0.0,
@@ -6242,25 +6242,25 @@
       "success": 1
     },
     {
-      "abs": 0.0,
+      "abs": null,
       "dynamic": 1,
-      "error": "",
-      "error_step": "",
+      "error": "No module named 'onnxscript'",
+      "error_step": "export",
       "exporter": "dynamo",
       "name": "VmapPython",
-      "rel": 0.0,
-      "success": 1
+      "rel": null,
+      "success": 0
     }
   ],
   "totals": {
     "dynamo": {
-      "failure": 26,
-      "success": 128,
+      "failure": 154,
+      "success": 0,
       "total": 154
     },
     "yobx": {
-      "failure": 21,
-      "success": 133,
+      "failure": 28,
+      "success": 126,
       "total": 154
     },
     "yobx-new-tracing": {
@@ -6269,16 +6269,14 @@
       "total": 154
     },
     "yobx-tracing": {
-      "failure": 34,
-      "success": 120,
+      "failure": 35,
+      "success": 119,
       "total": 154
     }
   },
   "versions": {
-    "onnx": "1.23.1",
-    "onnxruntime": "1.30.0",
-    "onnxscript": "0.7.2",
-    "torch": "2.14.1+cu130",
-    "yobx": "0.1.0"
+    "onnxruntime": "1.31.1",
+    "torch": "2.15.0+cu132",
+    "yobx": "0.2.4"
   }
 }
