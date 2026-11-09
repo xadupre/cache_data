@@ -1,12 +1,12 @@
 {
   "backend_versions": {
     "onnx": "1.23.2",
-    "onnx-light": "0.2.5",
-    "onnx-light-optim": "0.2.5",
-    "onnx-shape-inference": "0.4.1",
+    "onnx-light": "0.2.7",
+    "onnx-light-optim": "0.2.7",
+    "onnx-shape-inference": "0.4.3",
     "ort-transformers": "1.31.1"
   },
-  "date": "2026-11-02T17:42:17Z",
+  "date": "2026-11-09T18:08:00Z",
   "tag": "shape, local_function, inference",
   "tests": [
     {
@@ -349,8 +349,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.2.5",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.2.7",
           "success": true,
           "total": 4
         },
@@ -438,8 +438,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.4.1",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.4.3",
           "success": true,
           "total": 4
         },
@@ -527,7 +527,7 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
+          "last_pass_date": "2026-11-09T18:08:00Z",
           "last_pass_version": "1.31.1",
           "success": true,
           "total": 4
@@ -30898,8 +30898,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.2.5",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.2.7",
           "success": true,
           "total": 401
         },
@@ -39311,8 +39311,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.4.1",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.4.3",
           "success": true,
           "total": 401
         },
@@ -54928,8 +54928,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.2.5",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.2.7",
           "success": true,
           "total": 209
         },
@@ -59245,8 +59245,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.4.1",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.4.3",
           "success": true,
           "total": 209
         },
@@ -74862,8 +74862,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.2.5",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.2.7",
           "success": true,
           "total": 209
         },
@@ -79179,8 +79179,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.4.1",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.4.3",
           "success": true,
           "total": 209
         },
@@ -92545,13 +92545,13 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.2.5",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.2.7",
           "success": true,
           "total": 177
         },
         "onnx-shape-inference": {
-          "correct": 161,
+          "correct": 45,
           "details": [
             {
               "elem_type": 7,
@@ -93573,11 +93573,11 @@
               "has_shape": true,
               "kind": "value_info",
               "name": "layer_0_resid_attn",
-              "ok": true,
-              "reason": "",
+              "ok": false,
+              "reason": "dim[0] mismatch: expected 'batch_size', got '_d2'",
               "shape": [
-                "batch_size",
-                "sequence_length",
+                "_d2",
+                "_d3",
                 1024
               ]
             },
@@ -93593,11 +93593,11 @@
               "has_shape": true,
               "kind": "value_info",
               "name": "layer_0_mlp_in",
-              "ok": true,
-              "reason": "",
+              "ok": false,
+              "reason": "dim[0] mismatch: expected 'batch_size', got '_d2'",
               "shape": [
-                "batch_size",
-                "sequence_length",
+                "_d2",
+                "_d3",
                 1024
               ]
             },
@@ -93613,11 +93613,11 @@
               "has_shape": true,
               "kind": "value_info",
               "name": "layer_0_gate",
-              "ok": true,
-              "reason": "",
+              "ok": false,
+              "reason": "dim[0] mismatch: expected 'batch_size', got '_d2'",
               "shape": [
-                "batch_size",
-                "sequence_length",
+                "_d2",
+                "_d3",
                 3072
               ]
             },
@@ -93633,11 +93633,11 @@
               "has_shape": true,
               "kind": "value_info",
               "name": "layer_0_gate_act",
-              "ok": true,
-              "reason": "",
+              "ok": false,
+              "reason": "dim[0] mismatch: expected 'batch_size', got '_d2'",
               "shape": [
-                "batch_size",
-                "sequence_length",
+                "_d2",
+                "_d3",
                 3072
               ]
             },
@@ -93653,11 +93653,11 @@
               "has_shape": true,
               "kind": "value_info",
               "name": "layer_0_silu",
-              "ok": true,
-              "reason": "",
+              "ok": false,
+              "reason": "dim[0] mismatch: expected 'batch_size', got '_d2'",
               "shape": [
-                "batch_size",
-                "sequence_length",
+                "_d2",
+                "_d3",
                 3072
               ]
             },
@@ -93673,11 +93673,11 @@
               "has_shape": true,
               "kind": "value_info",
               "name": "layer_0_up",
-              "ok": true,
-              "reason": "",
+              "ok": false,
+              "reason": "dim[0] mismatch: expected 'batch_size', got '_d2'",
               "shape": [
-                "batch_size",
-                "sequence_length",
+                "_d2",
+                "_d3",
                 3072
               ]
             },
@@ -93693,11 +93693,11 @@
               "has_shape": true,
               "kind": "value_info",
               "name": "layer_0_swiglu",
-              "ok": true,
-              "reason": "",
+              "ok": false,
+              "reason": "dim[0] mismatch: expected 'batch_size', got '_d2'",
               "shape": [
-                "batch_size",
-                "sequence_length",
+                "_d2",
+                "_d3",
                 3072
               ]
             },
@@ -93713,11 +93713,11 @@
               "has_shape": true,
               "kind": "value_info",
               "name": "layer_0_down",
-              "ok": true,
-              "reason": "",
+              "ok": false,
+              "reason": "dim[0] mismatch: expected 'batch_size', got '_d2'",
               "shape": [
-                "batch_size",
-                "sequence_length",
+                "_d2",
+                "_d3",
                 1024
               ]
             },
@@ -93733,11 +93733,11 @@
               "has_shape": true,
               "kind": "value_info",
               "name": "layer_0_out",
-              "ok": true,
-              "reason": "",
+              "ok": false,
+              "reason": "dim[0] mismatch: expected 'batch_size', got '_d2'",
               "shape": [
-                "batch_size",
-                "sequence_length",
+                "_d2",
+                "_d3",
                 1024
               ]
             },
@@ -93753,11 +93753,11 @@
               "has_shape": true,
               "kind": "value_info",
               "name": "layer_1_normed",
-              "ok": true,
-              "reason": "",
+              "ok": false,
+              "reason": "dim[0] mismatch: expected 'batch_size', got '_d2'",
               "shape": [
-                "batch_size",
-                "sequence_length",
+                "_d2",
+                "_d3",
                 1024
               ]
             },
@@ -93773,11 +93773,11 @@
               "has_shape": true,
               "kind": "value_info",
               "name": "layer_1_q_mm",
-              "ok": true,
-              "reason": "",
+              "ok": false,
+              "reason": "dim[0] mismatch: expected 'batch_size', got '_d2'",
               "shape": [
-                "batch_size",
-                "sequence_length",
+                "_d2",
+                "_d3",
                 2048
               ]
             },
@@ -93794,11 +93794,11 @@
               "has_shape": true,
               "kind": "value_info",
               "name": "layer_1_q_4d",
-              "ok": true,
-              "reason": "",
+              "ok": false,
+              "reason": "dim[0] mismatch: expected 'batch_size', got '_d2'",
               "shape": [
-                "batch_size",
-                "sequence_length",
+                "_d2",
+                "_d3",
                 16,
                 128
               ]
@@ -93816,11 +93816,11 @@
               "has_shape": true,
               "kind": "value_info",
               "name": "layer_1_q_normed",
-              "ok": true,
-              "reason": "",
+              "ok": false,
+              "reason": "dim[0] mismatch: expected 'batch_size', got '_d2'",
               "shape": [
-                "batch_size",
-                "sequence_length",
+                "_d2",
+                "_d3",
                 16,
                 128
               ]
@@ -93838,12 +93838,12 @@
               "has_shape": true,
               "kind": "value_info",
               "name": "layer_1_q_T",
-              "ok": true,
-              "reason": "",
+              "ok": false,
+              "reason": "dim[0] mismatch: expected 'batch_size', got '_d2'",
               "shape": [
-                "batch_size",
+                "_d2",
                 16,
-                "sequence_length",
+                "_d3",
                 128
               ]
             },
@@ -93859,11 +93859,11 @@
               "has_shape": true,
               "kind": "value_info",
               "name": "layer_1_k_mm",
-              "ok": true,
-              "reason": "",
+              "ok": false,
+              "reason": "dim[0] mismatch: expected 'batch_size', got '_d2'",
               "shape": [
-                "batch_size",
-                "sequence_length",
+                "_d2",
+                "_d3",
                 1024
               ]
             },
@@ -93880,11 +93880,11 @@
               "has_shape": true,
               "kind": "value_info",
               "name": "layer_1_k_4d",
-              "ok": true,
-              "reason": "",
+              "ok": false,
+              "reason": "dim[0] mismatch: expected 'batch_size', got '_d2'",
               "shape": [
-                "batch_size",
-                "sequence_length",
+                "_d2",
+                "_d3",
                 8,
                 128
               ]
@@ -93902,11 +93902,11 @@
               "has_shape": true,
               "kind": "value_info",
               "name": "layer_1_k_normed",
-              "ok": true,
-              "reason": "",
+              "ok": false,
+              "reason": "dim[0] mismatch: expected 'batch_size', got '_d2'",
               "shape": [
-                "batch_size",
-                "sequence_length",
+                "_d2",
+                "_d3",
                 8,
                 128
               ]
@@ -93924,12 +93924,12 @@
               "has_shape": true,
               "kind": "value_info",
               "name": "layer_1_k_T",
-              "ok": true,
-              "reason": "",
+              "ok": false,
+              "reason": "dim[0] mismatch: expected 'batch_size', got '_d2'",
               "shape": [
-                "batch_size",
+                "_d2",
                 8,
-                "sequence_length",
+                "_d3",
                 128
               ]
             },
@@ -93945,11 +93945,11 @@
               "has_shape": true,
               "kind": "value_info",
               "name": "layer_1_v_mm",
-              "ok": true,
-              "reason": "",
+              "ok": false,
+              "reason": "dim[0] mismatch: expected 'batch_size', got '_d2'",
               "shape": [
-                "batch_size",
-                "sequence_length",
+                "_d2",
+                "_d3",
                 1024
               ]
             },
@@ -93966,11 +93966,11 @@
               "has_shape": true,
               "kind": "value_info",
               "name": "layer_1_v_4d",
-              "ok": true,
-              "reason": "",
+              "ok": false,
+              "reason": "dim[0] mismatch: expected 'batch_size', got '_d2'",
               "shape": [
-                "batch_size",
-                "sequence_length",
+                "_d2",
+                "_d3",
                 8,
                 128
               ]
@@ -93988,12 +93988,12 @@
               "has_shape": true,
               "kind": "value_info",
               "name": "layer_1_v_T",
-              "ok": true,
-              "reason": "",
+              "ok": false,
+              "reason": "dim[0] mismatch: expected 'batch_size', got '_d2'",
               "shape": [
-                "batch_size",
+                "_d2",
                 8,
-                "sequence_length",
+                "_d3",
                 128
               ]
             },
@@ -94010,12 +94010,12 @@
               "has_shape": true,
               "kind": "value_info",
               "name": "layer_1_q_half0",
-              "ok": true,
-              "reason": "",
+              "ok": false,
+              "reason": "dim[0] mismatch: expected 'batch_size', got '_d2'",
               "shape": [
-                "batch_size",
+                "_d2",
                 16,
-                "sequence_length",
+                "_d3",
                 64
               ]
             },
@@ -94032,12 +94032,12 @@
               "has_shape": true,
               "kind": "value_info",
               "name": "layer_1_q_half1",
-              "ok": true,
-              "reason": "",
+              "ok": false,
+              "reason": "dim[0] mismatch: expected 'batch_size', got '_d2'",
               "shape": [
-                "batch_size",
+                "_d2",
                 16,
-                "sequence_length",
+                "_d3",
                 64
               ]
             },
@@ -94054,12 +94054,12 @@
               "has_shape": true,
               "kind": "value_info",
               "name": "layer_1_neg_q",
-              "ok": true,
-              "reason": "",
+              "ok": false,
+              "reason": "dim[0] mismatch: expected 'batch_size', got '_d2'",
               "shape": [
-                "batch_size",
+                "_d2",
                 16,
-                "sequence_length",
+                "_d3",
                 64
               ]
             },
@@ -94076,12 +94076,12 @@
               "has_shape": true,
               "kind": "value_info",
               "name": "layer_1_q_rot",
-              "ok": true,
-              "reason": "",
+              "ok": false,
+              "reason": "dim[0] mismatch: expected 'batch_size', got '_d2'",
               "shape": [
-                "batch_size",
+                "_d2",
                 16,
-                "sequence_length",
+                "_d3",
                 128
               ]
             },
@@ -94098,12 +94098,12 @@
               "has_shape": true,
               "kind": "value_info",
               "name": "layer_1_q_cos",
-              "ok": true,
-              "reason": "",
+              "ok": false,
+              "reason": "dim[0] mismatch: expected 'batch_size', got '_d2'",
               "shape": [
-                "batch_size",
+                "_d2",
                 16,
-                "sequence_length",
+                "_d4",
                 128
               ]
             },
@@ -94120,12 +94120,12 @@
               "has_shape": true,
               "kind": "value_info",
               "name": "layer_1_q_sin",
-              "ok": true,
-              "reason": "",
+              "ok": false,
+              "reason": "dim[0] mismatch: expected 'batch_size', got '_d2'",
               "shape": [
-                "batch_size",
+                "_d2",
                 16,
-                "sequence_length",
+                "_d5",
                 128
               ]
             },
@@ -94142,12 +94142,12 @@
               "has_shape": true,
               "kind": "value_info",
               "name": "layer_1_q_rope",
-              "ok": true,
-              "reason": "",
+              "ok": false,
+              "reason": "dim[0] mismatch: expected 'batch_size', got '_d2'",
               "shape": [
-                "batch_size",
+                "_d2",
                 16,
-                "sequence_length",
+                "_d6",
                 128
               ]
             },
@@ -94164,12 +94164,12 @@
               "has_shape": true,
               "kind": "value_info",
               "name": "layer_1_k_half0",
-              "ok": true,
-              "reason": "",
+              "ok": false,
+              "reason": "dim[0] mismatch: expected 'batch_size', got '_d2'",
               "shape": [
-                "batch_size",
+                "_d2",
                 8,
-                "sequence_length",
+                "_d3",
                 64
               ]
             },
@@ -94186,12 +94186,12 @@
               "has_shape": true,
               "kind": "value_info",
               "name": "layer_1_k_half1",
-              "ok": true,
-              "reason": "",
+              "ok": false,
+              "reason": "dim[0] mismatch: expected 'batch_size', got '_d2'",
               "shape": [
-                "batch_size",
+                "_d2",
                 8,
-                "sequence_length",
+                "_d3",
                 64
               ]
             },
@@ -94208,12 +94208,12 @@
               "has_shape": true,
               "kind": "value_info",
               "name": "layer_1_neg_k",
-              "ok": true,
-              "reason": "",
+              "ok": false,
+              "reason": "dim[0] mismatch: expected 'batch_size', got '_d2'",
               "shape": [
-                "batch_size",
+                "_d2",
                 8,
-                "sequence_length",
+                "_d3",
                 64
               ]
             },
@@ -94230,12 +94230,12 @@
               "has_shape": true,
               "kind": "value_info",
               "name": "layer_1_k_rot",
-              "ok": true,
-              "reason": "",
+              "ok": false,
+              "reason": "dim[0] mismatch: expected 'batch_size', got '_d2'",
               "shape": [
-                "batch_size",
+                "_d2",
                 8,
-                "sequence_length",
+                "_d3",
                 128
               ]
             },
@@ -94252,12 +94252,12 @@
               "has_shape": true,
               "kind": "value_info",
               "name": "layer_1_k_cos",
-              "ok": true,
-              "reason": "",
+              "ok": false,
+              "reason": "dim[0] mismatch: expected 'batch_size', got '_d2'",
               "shape": [
-                "batch_size",
+                "_d2",
                 8,
-                "sequence_length",
+                "_d7",
                 128
               ]
             },
@@ -94274,12 +94274,12 @@
               "has_shape": true,
               "kind": "value_info",
               "name": "layer_1_k_sin",
-              "ok": true,
-              "reason": "",
+              "ok": false,
+              "reason": "dim[0] mismatch: expected 'batch_size', got '_d2'",
               "shape": [
-                "batch_size",
+                "_d2",
                 8,
-                "sequence_length",
+                "_d8",
                 128
               ]
             },
@@ -94296,12 +94296,12 @@
               "has_shape": true,
               "kind": "value_info",
               "name": "layer_1_k_rope",
-              "ok": true,
-              "reason": "",
+              "ok": false,
+              "reason": "dim[0] mismatch: expected 'batch_size', got '_d2'",
               "shape": [
-                "batch_size",
+                "_d2",
                 8,
-                "sequence_length",
+                "_d9",
                 128
               ]
             },
@@ -94352,10 +94352,10 @@
               "kind": "value_info",
               "name": "layer_1_attn_2d",
               "ok": false,
-              "reason": "dim[0] mismatch: expected 'batch_size', got '_d2'",
+              "reason": "dim[0] mismatch: expected 'batch_size', got '_d10'",
               "shape": [
-                "_d2",
-                "_d3",
+                "_d10",
+                "_d11",
                 2048
               ]
             },
@@ -94372,10 +94372,10 @@
               "kind": "value_info",
               "name": "layer_1_attn_proj",
               "ok": false,
-              "reason": "dim[0] mismatch: expected 'batch_size', got '_d2'",
+              "reason": "dim[0] mismatch: expected 'batch_size', got '_d10'",
               "shape": [
-                "_d2",
-                "_d3",
+                "_d10",
+                "_d11",
                 1024
               ]
             },
@@ -94391,11 +94391,11 @@
               "has_shape": true,
               "kind": "value_info",
               "name": "layer_1_resid_attn",
-              "ok": true,
-              "reason": "",
+              "ok": false,
+              "reason": "dim[0] mismatch: expected 'batch_size', got '_d12'",
               "shape": [
-                "batch_size",
-                "sequence_length",
+                "_d12",
+                "_d13",
                 1024
               ]
             },
@@ -94411,11 +94411,11 @@
               "has_shape": true,
               "kind": "value_info",
               "name": "layer_1_mlp_in",
-              "ok": true,
-              "reason": "",
+              "ok": false,
+              "reason": "dim[0] mismatch: expected 'batch_size', got '_d12'",
               "shape": [
-                "batch_size",
-                "sequence_length",
+                "_d12",
+                "_d13",
                 1024
               ]
             },
@@ -94431,11 +94431,11 @@
               "has_shape": true,
               "kind": "value_info",
               "name": "layer_1_gate",
-              "ok": true,
-              "reason": "",
+              "ok": false,
+              "reason": "dim[0] mismatch: expected 'batch_size', got '_d12'",
               "shape": [
-                "batch_size",
-                "sequence_length",
+                "_d12",
+                "_d13",
                 3072
               ]
             },
@@ -94451,11 +94451,11 @@
               "has_shape": true,
               "kind": "value_info",
               "name": "layer_1_gate_act",
-              "ok": true,
-              "reason": "",
+              "ok": false,
+              "reason": "dim[0] mismatch: expected 'batch_size', got '_d12'",
               "shape": [
-                "batch_size",
-                "sequence_length",
+                "_d12",
+                "_d13",
                 3072
               ]
             },
@@ -94471,11 +94471,11 @@
               "has_shape": true,
               "kind": "value_info",
               "name": "layer_1_silu",
-              "ok": true,
-              "reason": "",
+              "ok": false,
+              "reason": "dim[0] mismatch: expected 'batch_size', got '_d12'",
               "shape": [
-                "batch_size",
-                "sequence_length",
+                "_d12",
+                "_d13",
                 3072
               ]
             },
@@ -94491,11 +94491,11 @@
               "has_shape": true,
               "kind": "value_info",
               "name": "layer_1_up",
-              "ok": true,
-              "reason": "",
+              "ok": false,
+              "reason": "dim[0] mismatch: expected 'batch_size', got '_d12'",
               "shape": [
-                "batch_size",
-                "sequence_length",
+                "_d12",
+                "_d13",
                 3072
               ]
             },
@@ -94511,11 +94511,11 @@
               "has_shape": true,
               "kind": "value_info",
               "name": "layer_1_swiglu",
-              "ok": true,
-              "reason": "",
+              "ok": false,
+              "reason": "dim[0] mismatch: expected 'batch_size', got '_d12'",
               "shape": [
-                "batch_size",
-                "sequence_length",
+                "_d12",
+                "_d13",
                 3072
               ]
             },
@@ -94531,11 +94531,11 @@
               "has_shape": true,
               "kind": "value_info",
               "name": "layer_1_down",
-              "ok": true,
-              "reason": "",
+              "ok": false,
+              "reason": "dim[0] mismatch: expected 'batch_size', got '_d12'",
               "shape": [
-                "batch_size",
-                "sequence_length",
+                "_d12",
+                "_d13",
                 1024
               ]
             },
@@ -94551,11 +94551,11 @@
               "has_shape": true,
               "kind": "value_info",
               "name": "layer_1_out",
-              "ok": true,
-              "reason": "",
+              "ok": false,
+              "reason": "dim[0] mismatch: expected 'batch_size', got '_d12'",
               "shape": [
-                "batch_size",
-                "sequence_length",
+                "_d12",
+                "_d13",
                 1024
               ]
             },
@@ -94571,11 +94571,11 @@
               "has_shape": true,
               "kind": "value_info",
               "name": "layer_2_normed",
-              "ok": true,
-              "reason": "",
+              "ok": false,
+              "reason": "dim[0] mismatch: expected 'batch_size', got '_d12'",
               "shape": [
-                "batch_size",
-                "sequence_length",
+                "_d12",
+                "_d13",
                 1024
               ]
             },
@@ -94591,11 +94591,11 @@
               "has_shape": true,
               "kind": "value_info",
               "name": "layer_2_q_mm",
-              "ok": true,
-              "reason": "",
+              "ok": false,
+              "reason": "dim[0] mismatch: expected 'batch_size', got '_d12'",
               "shape": [
-                "batch_size",
-                "sequence_length",
+                "_d12",
+                "_d13",
                 2048
               ]
             },
@@ -94612,11 +94612,11 @@
               "has_shape": true,
               "kind": "value_info",
               "name": "layer_2_q_4d",
-              "ok": true,
-              "reason": "",
+              "ok": false,
+              "reason": "dim[0] mismatch: expected 'batch_size', got '_d12'",
               "shape": [
-                "batch_size",
-                "sequence_length",
+                "_d12",
+                "_d13",
                 16,
                 128
               ]
@@ -94634,11 +94634,11 @@
               "has_shape": true,
               "kind": "value_info",
               "name": "layer_2_q_normed",
-              "ok": true,
-              "reason": "",
+              "ok": false,
+              "reason": "dim[0] mismatch: expected 'batch_size', got '_d12'",
               "shape": [
-                "batch_size",
-                "sequence_length",
+                "_d12",
+                "_d13",
                 16,
                 128
               ]
@@ -94656,12 +94656,12 @@
               "has_shape": true,
               "kind": "value_info",
               "name": "layer_2_q_T",
-              "ok": true,
-              "reason": "",
+              "ok": false,
+              "reason": "dim[0] mismatch: expected 'batch_size', got '_d12'",
               "shape": [
-                "batch_size",
+                "_d12",
                 16,
-                "sequence_length",
+                "_d13",
                 128
               ]
             },
@@ -94677,11 +94677,11 @@
               "has_shape": true,
               "kind": "value_info",
               "name": "layer_2_k_mm",
-              "ok": true,
-              "reason": "",
+              "ok": false,
+              "reason": "dim[0] mismatch: expected 'batch_size', got '_d12'",
               "shape": [
-                "batch_size",
-                "sequence_length",
+                "_d12",
+                "_d13",
                 1024
               ]
             },
@@ -94698,11 +94698,11 @@
               "has_shape": true,
               "kind": "value_info",
               "name": "layer_2_k_4d",
-              "ok": true,
-              "reason": "",
+              "ok": false,
+              "reason": "dim[0] mismatch: expected 'batch_size', got '_d12'",
               "shape": [
-                "batch_size",
-                "sequence_length",
+                "_d12",
+                "_d13",
                 8,
                 128
               ]
@@ -94720,11 +94720,11 @@
               "has_shape": true,
               "kind": "value_info",
               "name": "layer_2_k_normed",
-              "ok": true,
-              "reason": "",
+              "ok": false,
+              "reason": "dim[0] mismatch: expected 'batch_size', got '_d12'",
               "shape": [
-                "batch_size",
-                "sequence_length",
+                "_d12",
+                "_d13",
                 8,
                 128
               ]
@@ -94742,12 +94742,12 @@
               "has_shape": true,
               "kind": "value_info",
               "name": "layer_2_k_T",
-              "ok": true,
-              "reason": "",
+              "ok": false,
+              "reason": "dim[0] mismatch: expected 'batch_size', got '_d12'",
               "shape": [
-                "batch_size",
+                "_d12",
                 8,
-                "sequence_length",
+                "_d13",
                 128
               ]
             },
@@ -94763,11 +94763,11 @@
               "has_shape": true,
               "kind": "value_info",
               "name": "layer_2_v_mm",
-              "ok": true,
-              "reason": "",
+              "ok": false,
+              "reason": "dim[0] mismatch: expected 'batch_size', got '_d12'",
               "shape": [
-                "batch_size",
-                "sequence_length",
+                "_d12",
+                "_d13",
                 1024
               ]
             },
@@ -94784,11 +94784,11 @@
               "has_shape": true,
               "kind": "value_info",
               "name": "layer_2_v_4d",
-              "ok": true,
-              "reason": "",
+              "ok": false,
+              "reason": "dim[0] mismatch: expected 'batch_size', got '_d12'",
               "shape": [
-                "batch_size",
-                "sequence_length",
+                "_d12",
+                "_d13",
                 8,
                 128
               ]
@@ -94806,12 +94806,12 @@
               "has_shape": true,
               "kind": "value_info",
               "name": "layer_2_v_T",
-              "ok": true,
-              "reason": "",
+              "ok": false,
+              "reason": "dim[0] mismatch: expected 'batch_size', got '_d12'",
               "shape": [
-                "batch_size",
+                "_d12",
                 8,
-                "sequence_length",
+                "_d13",
                 128
               ]
             },
@@ -94828,12 +94828,12 @@
               "has_shape": true,
               "kind": "value_info",
               "name": "layer_2_q_half0",
-              "ok": true,
-              "reason": "",
+              "ok": false,
+              "reason": "dim[0] mismatch: expected 'batch_size', got '_d12'",
               "shape": [
-                "batch_size",
+                "_d12",
                 16,
-                "sequence_length",
+                "_d13",
                 64
               ]
             },
@@ -94850,12 +94850,12 @@
               "has_shape": true,
               "kind": "value_info",
               "name": "layer_2_q_half1",
-              "ok": true,
-              "reason": "",
+              "ok": false,
+              "reason": "dim[0] mismatch: expected 'batch_size', got '_d12'",
               "shape": [
-                "batch_size",
+                "_d12",
                 16,
-                "sequence_length",
+                "_d13",
                 64
               ]
             },
@@ -94872,12 +94872,12 @@
               "has_shape": true,
               "kind": "value_info",
               "name": "layer_2_neg_q",
-              "ok": true,
-              "reason": "",
+              "ok": false,
+              "reason": "dim[0] mismatch: expected 'batch_size', got '_d12'",
               "shape": [
-                "batch_size",
+                "_d12",
                 16,
-                "sequence_length",
+                "_d13",
                 64
               ]
             },
@@ -94894,12 +94894,12 @@
               "has_shape": true,
               "kind": "value_info",
               "name": "layer_2_q_rot",
-              "ok": true,
-              "reason": "",
+              "ok": false,
+              "reason": "dim[0] mismatch: expected 'batch_size', got '_d12'",
               "shape": [
-                "batch_size",
+                "_d12",
                 16,
-                "sequence_length",
+                "_d13",
                 128
               ]
             },
@@ -94916,12 +94916,12 @@
               "has_shape": true,
               "kind": "value_info",
               "name": "layer_2_q_cos",
-              "ok": true,
-              "reason": "",
+              "ok": false,
+              "reason": "dim[0] mismatch: expected 'batch_size', got '_d12'",
               "shape": [
-                "batch_size",
+                "_d12",
                 16,
-                "sequence_length",
+                "_d14",
                 128
               ]
             },
@@ -94938,12 +94938,12 @@
               "has_shape": true,
               "kind": "value_info",
               "name": "layer_2_q_sin",
-              "ok": true,
-              "reason": "",
+              "ok": false,
+              "reason": "dim[0] mismatch: expected 'batch_size', got '_d12'",
               "shape": [
-                "batch_size",
+                "_d12",
                 16,
-                "sequence_length",
+                "_d15",
                 128
               ]
             },
@@ -94960,12 +94960,12 @@
               "has_shape": true,
               "kind": "value_info",
               "name": "layer_2_q_rope",
-              "ok": true,
-              "reason": "",
+              "ok": false,
+              "reason": "dim[0] mismatch: expected 'batch_size', got '_d12'",
               "shape": [
-                "batch_size",
+                "_d12",
                 16,
-                "sequence_length",
+                "_d16",
                 128
               ]
             },
@@ -94982,12 +94982,12 @@
               "has_shape": true,
               "kind": "value_info",
               "name": "layer_2_k_half0",
-              "ok": true,
-              "reason": "",
+              "ok": false,
+              "reason": "dim[0] mismatch: expected 'batch_size', got '_d12'",
               "shape": [
-                "batch_size",
+                "_d12",
                 8,
-                "sequence_length",
+                "_d13",
                 64
               ]
             },
@@ -95004,12 +95004,12 @@
               "has_shape": true,
               "kind": "value_info",
               "name": "layer_2_k_half1",
-              "ok": true,
-              "reason": "",
+              "ok": false,
+              "reason": "dim[0] mismatch: expected 'batch_size', got '_d12'",
               "shape": [
-                "batch_size",
+                "_d12",
                 8,
-                "sequence_length",
+                "_d13",
                 64
               ]
             },
@@ -95026,12 +95026,12 @@
               "has_shape": true,
               "kind": "value_info",
               "name": "layer_2_neg_k",
-              "ok": true,
-              "reason": "",
+              "ok": false,
+              "reason": "dim[0] mismatch: expected 'batch_size', got '_d12'",
               "shape": [
-                "batch_size",
+                "_d12",
                 8,
-                "sequence_length",
+                "_d13",
                 64
               ]
             },
@@ -95048,12 +95048,12 @@
               "has_shape": true,
               "kind": "value_info",
               "name": "layer_2_k_rot",
-              "ok": true,
-              "reason": "",
+              "ok": false,
+              "reason": "dim[0] mismatch: expected 'batch_size', got '_d12'",
               "shape": [
-                "batch_size",
+                "_d12",
                 8,
-                "sequence_length",
+                "_d13",
                 128
               ]
             },
@@ -95070,12 +95070,12 @@
               "has_shape": true,
               "kind": "value_info",
               "name": "layer_2_k_cos",
-              "ok": true,
-              "reason": "",
+              "ok": false,
+              "reason": "dim[0] mismatch: expected 'batch_size', got '_d12'",
               "shape": [
-                "batch_size",
+                "_d12",
                 8,
-                "sequence_length",
+                "_d17",
                 128
               ]
             },
@@ -95092,12 +95092,12 @@
               "has_shape": true,
               "kind": "value_info",
               "name": "layer_2_k_sin",
-              "ok": true,
-              "reason": "",
+              "ok": false,
+              "reason": "dim[0] mismatch: expected 'batch_size', got '_d12'",
               "shape": [
-                "batch_size",
+                "_d12",
                 8,
-                "sequence_length",
+                "_d18",
                 128
               ]
             },
@@ -95114,12 +95114,12 @@
               "has_shape": true,
               "kind": "value_info",
               "name": "layer_2_k_rope",
-              "ok": true,
-              "reason": "",
+              "ok": false,
+              "reason": "dim[0] mismatch: expected 'batch_size', got '_d12'",
               "shape": [
-                "batch_size",
+                "_d12",
                 8,
-                "sequence_length",
+                "_d19",
                 128
               ]
             },
@@ -95170,10 +95170,10 @@
               "kind": "value_info",
               "name": "layer_2_attn_2d",
               "ok": false,
-              "reason": "dim[0] mismatch: expected 'batch_size', got '_d4'",
+              "reason": "dim[0] mismatch: expected 'batch_size', got '_d20'",
               "shape": [
-                "_d4",
-                "_d5",
+                "_d20",
+                "_d21",
                 2048
               ]
             },
@@ -95190,10 +95190,10 @@
               "kind": "value_info",
               "name": "layer_2_attn_proj",
               "ok": false,
-              "reason": "dim[0] mismatch: expected 'batch_size', got '_d4'",
+              "reason": "dim[0] mismatch: expected 'batch_size', got '_d20'",
               "shape": [
-                "_d4",
-                "_d5",
+                "_d20",
+                "_d21",
                 1024
               ]
             },
@@ -95209,11 +95209,11 @@
               "has_shape": true,
               "kind": "value_info",
               "name": "layer_2_resid_attn",
-              "ok": true,
-              "reason": "",
+              "ok": false,
+              "reason": "dim[0] mismatch: expected 'batch_size', got '_d22'",
               "shape": [
-                "batch_size",
-                "sequence_length",
+                "_d22",
+                "_d23",
                 1024
               ]
             },
@@ -95229,11 +95229,11 @@
               "has_shape": true,
               "kind": "value_info",
               "name": "layer_2_mlp_in",
-              "ok": true,
-              "reason": "",
+              "ok": false,
+              "reason": "dim[0] mismatch: expected 'batch_size', got '_d22'",
               "shape": [
-                "batch_size",
-                "sequence_length",
+                "_d22",
+                "_d23",
                 1024
               ]
             },
@@ -95249,11 +95249,11 @@
               "has_shape": true,
               "kind": "value_info",
               "name": "layer_2_gate",
-              "ok": true,
-              "reason": "",
+              "ok": false,
+              "reason": "dim[0] mismatch: expected 'batch_size', got '_d22'",
               "shape": [
-                "batch_size",
-                "sequence_length",
+                "_d22",
+                "_d23",
                 3072
               ]
             },
@@ -95269,11 +95269,11 @@
               "has_shape": true,
               "kind": "value_info",
               "name": "layer_2_gate_act",
-              "ok": true,
-              "reason": "",
+              "ok": false,
+              "reason": "dim[0] mismatch: expected 'batch_size', got '_d22'",
               "shape": [
-                "batch_size",
-                "sequence_length",
+                "_d22",
+                "_d23",
                 3072
               ]
             },
@@ -95289,11 +95289,11 @@
               "has_shape": true,
               "kind": "value_info",
               "name": "layer_2_silu",
-              "ok": true,
-              "reason": "",
+              "ok": false,
+              "reason": "dim[0] mismatch: expected 'batch_size', got '_d22'",
               "shape": [
-                "batch_size",
-                "sequence_length",
+                "_d22",
+                "_d23",
                 3072
               ]
             },
@@ -95309,11 +95309,11 @@
               "has_shape": true,
               "kind": "value_info",
               "name": "layer_2_up",
-              "ok": true,
-              "reason": "",
+              "ok": false,
+              "reason": "dim[0] mismatch: expected 'batch_size', got '_d22'",
               "shape": [
-                "batch_size",
-                "sequence_length",
+                "_d22",
+                "_d23",
                 3072
               ]
             },
@@ -95329,11 +95329,11 @@
               "has_shape": true,
               "kind": "value_info",
               "name": "layer_2_swiglu",
-              "ok": true,
-              "reason": "",
+              "ok": false,
+              "reason": "dim[0] mismatch: expected 'batch_size', got '_d22'",
               "shape": [
-                "batch_size",
-                "sequence_length",
+                "_d22",
+                "_d23",
                 3072
               ]
             },
@@ -95349,11 +95349,11 @@
               "has_shape": true,
               "kind": "value_info",
               "name": "layer_2_down",
-              "ok": true,
-              "reason": "",
+              "ok": false,
+              "reason": "dim[0] mismatch: expected 'batch_size', got '_d22'",
               "shape": [
-                "batch_size",
-                "sequence_length",
+                "_d22",
+                "_d23",
                 1024
               ]
             },
@@ -95369,11 +95369,11 @@
               "has_shape": true,
               "kind": "value_info",
               "name": "layer_2_out",
-              "ok": true,
-              "reason": "",
+              "ok": false,
+              "reason": "dim[0] mismatch: expected 'batch_size', got '_d22'",
               "shape": [
-                "batch_size",
-                "sequence_length",
+                "_d22",
+                "_d23",
                 1024
               ]
             },
@@ -95389,11 +95389,11 @@
               "has_shape": true,
               "kind": "value_info",
               "name": "layer_3_normed",
-              "ok": true,
-              "reason": "",
+              "ok": false,
+              "reason": "dim[0] mismatch: expected 'batch_size', got '_d22'",
               "shape": [
-                "batch_size",
-                "sequence_length",
+                "_d22",
+                "_d23",
                 1024
               ]
             },
@@ -95409,11 +95409,11 @@
               "has_shape": true,
               "kind": "value_info",
               "name": "layer_3_q_mm",
-              "ok": true,
-              "reason": "",
+              "ok": false,
+              "reason": "dim[0] mismatch: expected 'batch_size', got '_d22'",
               "shape": [
-                "batch_size",
-                "sequence_length",
+                "_d22",
+                "_d23",
                 2048
               ]
             },
@@ -95430,11 +95430,11 @@
               "has_shape": true,
               "kind": "value_info",
               "name": "layer_3_q_4d",
-              "ok": true,
-              "reason": "",
+              "ok": false,
+              "reason": "dim[0] mismatch: expected 'batch_size', got '_d22'",
               "shape": [
-                "batch_size",
-                "sequence_length",
+                "_d22",
+                "_d23",
                 16,
                 128
               ]
@@ -95452,11 +95452,11 @@
               "has_shape": true,
               "kind": "value_info",
               "name": "layer_3_q_normed",
-              "ok": true,
-              "reason": "",
+              "ok": false,
+              "reason": "dim[0] mismatch: expected 'batch_size', got '_d22'",
               "shape": [
-                "batch_size",
-                "sequence_length",
+                "_d22",
+                "_d23",
                 16,
                 128
               ]
@@ -95474,12 +95474,12 @@
               "has_shape": true,
               "kind": "value_info",
               "name": "layer_3_q_T",
-              "ok": true,
-              "reason": "",
+              "ok": false,
+              "reason": "dim[0] mismatch: expected 'batch_size', got '_d22'",
               "shape": [
-                "batch_size",
+                "_d22",
                 16,
-                "sequence_length",
+                "_d23",
                 128
               ]
             },
@@ -95495,11 +95495,11 @@
               "has_shape": true,
               "kind": "value_info",
               "name": "layer_3_k_mm",
-              "ok": true,
-              "reason": "",
+              "ok": false,
+              "reason": "dim[0] mismatch: expected 'batch_size', got '_d22'",
               "shape": [
-                "batch_size",
-                "sequence_length",
+                "_d22",
+                "_d23",
                 1024
               ]
             },
@@ -95516,11 +95516,11 @@
               "has_shape": true,
               "kind": "value_info",
               "name": "layer_3_k_4d",
-              "ok": true,
-              "reason": "",
+              "ok": false,
+              "reason": "dim[0] mismatch: expected 'batch_size', got '_d22'",
               "shape": [
-                "batch_size",
-                "sequence_length",
+                "_d22",
+                "_d23",
                 8,
                 128
               ]
@@ -95538,11 +95538,11 @@
               "has_shape": true,
               "kind": "value_info",
               "name": "layer_3_k_normed",
-              "ok": true,
-              "reason": "",
+              "ok": false,
+              "reason": "dim[0] mismatch: expected 'batch_size', got '_d22'",
               "shape": [
-                "batch_size",
-                "sequence_length",
+                "_d22",
+                "_d23",
                 8,
                 128
               ]
@@ -95560,12 +95560,12 @@
               "has_shape": true,
               "kind": "value_info",
               "name": "layer_3_k_T",
-              "ok": true,
-              "reason": "",
+              "ok": false,
+              "reason": "dim[0] mismatch: expected 'batch_size', got '_d22'",
               "shape": [
-                "batch_size",
+                "_d22",
                 8,
-                "sequence_length",
+                "_d23",
                 128
               ]
             },
@@ -95581,11 +95581,11 @@
               "has_shape": true,
               "kind": "value_info",
               "name": "layer_3_v_mm",
-              "ok": true,
-              "reason": "",
+              "ok": false,
+              "reason": "dim[0] mismatch: expected 'batch_size', got '_d22'",
               "shape": [
-                "batch_size",
-                "sequence_length",
+                "_d22",
+                "_d23",
                 1024
               ]
             },
@@ -95602,11 +95602,11 @@
               "has_shape": true,
               "kind": "value_info",
               "name": "layer_3_v_4d",
-              "ok": true,
-              "reason": "",
+              "ok": false,
+              "reason": "dim[0] mismatch: expected 'batch_size', got '_d22'",
               "shape": [
-                "batch_size",
-                "sequence_length",
+                "_d22",
+                "_d23",
                 8,
                 128
               ]
@@ -95624,12 +95624,12 @@
               "has_shape": true,
               "kind": "value_info",
               "name": "layer_3_v_T",
-              "ok": true,
-              "reason": "",
+              "ok": false,
+              "reason": "dim[0] mismatch: expected 'batch_size', got '_d22'",
               "shape": [
-                "batch_size",
+                "_d22",
                 8,
-                "sequence_length",
+                "_d23",
                 128
               ]
             },
@@ -95646,12 +95646,12 @@
               "has_shape": true,
               "kind": "value_info",
               "name": "layer_3_q_half0",
-              "ok": true,
-              "reason": "",
+              "ok": false,
+              "reason": "dim[0] mismatch: expected 'batch_size', got '_d22'",
               "shape": [
-                "batch_size",
+                "_d22",
                 16,
-                "sequence_length",
+                "_d23",
                 64
               ]
             },
@@ -95668,12 +95668,12 @@
               "has_shape": true,
               "kind": "value_info",
               "name": "layer_3_q_half1",
-              "ok": true,
-              "reason": "",
+              "ok": false,
+              "reason": "dim[0] mismatch: expected 'batch_size', got '_d22'",
               "shape": [
-                "batch_size",
+                "_d22",
                 16,
-                "sequence_length",
+                "_d23",
                 64
               ]
             },
@@ -95690,12 +95690,12 @@
               "has_shape": true,
               "kind": "value_info",
               "name": "layer_3_neg_q",
-              "ok": true,
-              "reason": "",
+              "ok": false,
+              "reason": "dim[0] mismatch: expected 'batch_size', got '_d22'",
               "shape": [
-                "batch_size",
+                "_d22",
                 16,
-                "sequence_length",
+                "_d23",
                 64
               ]
             },
@@ -95712,12 +95712,12 @@
               "has_shape": true,
               "kind": "value_info",
               "name": "layer_3_q_rot",
-              "ok": true,
-              "reason": "",
+              "ok": false,
+              "reason": "dim[0] mismatch: expected 'batch_size', got '_d22'",
               "shape": [
-                "batch_size",
+                "_d22",
                 16,
-                "sequence_length",
+                "_d23",
                 128
               ]
             },
@@ -95734,12 +95734,12 @@
               "has_shape": true,
               "kind": "value_info",
               "name": "layer_3_q_cos",
-              "ok": true,
-              "reason": "",
+              "ok": false,
+              "reason": "dim[0] mismatch: expected 'batch_size', got '_d22'",
               "shape": [
-                "batch_size",
+                "_d22",
                 16,
-                "sequence_length",
+                "_d24",
                 128
               ]
             },
@@ -95756,12 +95756,12 @@
               "has_shape": true,
               "kind": "value_info",
               "name": "layer_3_q_sin",
-              "ok": true,
-              "reason": "",
+              "ok": false,
+              "reason": "dim[0] mismatch: expected 'batch_size', got '_d22'",
               "shape": [
-                "batch_size",
+                "_d22",
                 16,
-                "sequence_length",
+                "_d25",
                 128
               ]
             },
@@ -95778,12 +95778,12 @@
               "has_shape": true,
               "kind": "value_info",
               "name": "layer_3_q_rope",
-              "ok": true,
-              "reason": "",
+              "ok": false,
+              "reason": "dim[0] mismatch: expected 'batch_size', got '_d22'",
               "shape": [
-                "batch_size",
+                "_d22",
                 16,
-                "sequence_length",
+                "_d26",
                 128
               ]
             },
@@ -95800,12 +95800,12 @@
               "has_shape": true,
               "kind": "value_info",
               "name": "layer_3_k_half0",
-              "ok": true,
-              "reason": "",
+              "ok": false,
+              "reason": "dim[0] mismatch: expected 'batch_size', got '_d22'",
               "shape": [
-                "batch_size",
+                "_d22",
                 8,
-                "sequence_length",
+                "_d23",
                 64
               ]
             },
@@ -95822,12 +95822,12 @@
               "has_shape": true,
               "kind": "value_info",
               "name": "layer_3_k_half1",
-              "ok": true,
-              "reason": "",
+              "ok": false,
+              "reason": "dim[0] mismatch: expected 'batch_size', got '_d22'",
               "shape": [
-                "batch_size",
+                "_d22",
                 8,
-                "sequence_length",
+                "_d23",
                 64
               ]
             },
@@ -95844,12 +95844,12 @@
               "has_shape": true,
               "kind": "value_info",
               "name": "layer_3_neg_k",
-              "ok": true,
-              "reason": "",
+              "ok": false,
+              "reason": "dim[0] mismatch: expected 'batch_size', got '_d22'",
               "shape": [
-                "batch_size",
+                "_d22",
                 8,
-                "sequence_length",
+                "_d23",
                 64
               ]
             },
@@ -95866,12 +95866,12 @@
               "has_shape": true,
               "kind": "value_info",
               "name": "layer_3_k_rot",
-              "ok": true,
-              "reason": "",
+              "ok": false,
+              "reason": "dim[0] mismatch: expected 'batch_size', got '_d22'",
               "shape": [
-                "batch_size",
+                "_d22",
                 8,
-                "sequence_length",
+                "_d23",
                 128
               ]
             },
@@ -95888,12 +95888,12 @@
               "has_shape": true,
               "kind": "value_info",
               "name": "layer_3_k_cos",
-              "ok": true,
-              "reason": "",
+              "ok": false,
+              "reason": "dim[0] mismatch: expected 'batch_size', got '_d22'",
               "shape": [
-                "batch_size",
+                "_d22",
                 8,
-                "sequence_length",
+                "_d27",
                 128
               ]
             },
@@ -95910,12 +95910,12 @@
               "has_shape": true,
               "kind": "value_info",
               "name": "layer_3_k_sin",
-              "ok": true,
-              "reason": "",
+              "ok": false,
+              "reason": "dim[0] mismatch: expected 'batch_size', got '_d22'",
               "shape": [
-                "batch_size",
+                "_d22",
                 8,
-                "sequence_length",
+                "_d28",
                 128
               ]
             },
@@ -95932,12 +95932,12 @@
               "has_shape": true,
               "kind": "value_info",
               "name": "layer_3_k_rope",
-              "ok": true,
-              "reason": "",
+              "ok": false,
+              "reason": "dim[0] mismatch: expected 'batch_size', got '_d22'",
               "shape": [
-                "batch_size",
+                "_d22",
                 8,
-                "sequence_length",
+                "_d29",
                 128
               ]
             },
@@ -95988,10 +95988,10 @@
               "kind": "value_info",
               "name": "layer_3_attn_2d",
               "ok": false,
-              "reason": "dim[0] mismatch: expected 'batch_size', got '_d6'",
+              "reason": "dim[0] mismatch: expected 'batch_size', got '_d30'",
               "shape": [
-                "_d6",
-                "_d7",
+                "_d30",
+                "_d31",
                 2048
               ]
             },
@@ -96008,10 +96008,10 @@
               "kind": "value_info",
               "name": "layer_3_attn_proj",
               "ok": false,
-              "reason": "dim[0] mismatch: expected 'batch_size', got '_d6'",
+              "reason": "dim[0] mismatch: expected 'batch_size', got '_d30'",
               "shape": [
-                "_d6",
-                "_d7",
+                "_d30",
+                "_d31",
                 1024
               ]
             },
@@ -96027,11 +96027,11 @@
               "has_shape": true,
               "kind": "value_info",
               "name": "layer_3_resid_attn",
-              "ok": true,
-              "reason": "",
+              "ok": false,
+              "reason": "dim[0] mismatch: expected 'batch_size', got '_d32'",
               "shape": [
-                "batch_size",
-                "sequence_length",
+                "_d32",
+                "_d33",
                 1024
               ]
             },
@@ -96047,11 +96047,11 @@
               "has_shape": true,
               "kind": "value_info",
               "name": "layer_3_mlp_in",
-              "ok": true,
-              "reason": "",
+              "ok": false,
+              "reason": "dim[0] mismatch: expected 'batch_size', got '_d32'",
               "shape": [
-                "batch_size",
-                "sequence_length",
+                "_d32",
+                "_d33",
                 1024
               ]
             },
@@ -96067,11 +96067,11 @@
               "has_shape": true,
               "kind": "value_info",
               "name": "layer_3_gate",
-              "ok": true,
-              "reason": "",
+              "ok": false,
+              "reason": "dim[0] mismatch: expected 'batch_size', got '_d32'",
               "shape": [
-                "batch_size",
-                "sequence_length",
+                "_d32",
+                "_d33",
                 3072
               ]
             },
@@ -96087,11 +96087,11 @@
               "has_shape": true,
               "kind": "value_info",
               "name": "layer_3_gate_act",
-              "ok": true,
-              "reason": "",
+              "ok": false,
+              "reason": "dim[0] mismatch: expected 'batch_size', got '_d32'",
               "shape": [
-                "batch_size",
-                "sequence_length",
+                "_d32",
+                "_d33",
                 3072
               ]
             },
@@ -96107,11 +96107,11 @@
               "has_shape": true,
               "kind": "value_info",
               "name": "layer_3_silu",
-              "ok": true,
-              "reason": "",
+              "ok": false,
+              "reason": "dim[0] mismatch: expected 'batch_size', got '_d32'",
               "shape": [
-                "batch_size",
-                "sequence_length",
+                "_d32",
+                "_d33",
                 3072
               ]
             },
@@ -96127,11 +96127,11 @@
               "has_shape": true,
               "kind": "value_info",
               "name": "layer_3_up",
-              "ok": true,
-              "reason": "",
+              "ok": false,
+              "reason": "dim[0] mismatch: expected 'batch_size', got '_d32'",
               "shape": [
-                "batch_size",
-                "sequence_length",
+                "_d32",
+                "_d33",
                 3072
               ]
             },
@@ -96147,11 +96147,11 @@
               "has_shape": true,
               "kind": "value_info",
               "name": "layer_3_swiglu",
-              "ok": true,
-              "reason": "",
+              "ok": false,
+              "reason": "dim[0] mismatch: expected 'batch_size', got '_d32'",
               "shape": [
-                "batch_size",
-                "sequence_length",
+                "_d32",
+                "_d33",
                 3072
               ]
             },
@@ -96167,11 +96167,11 @@
               "has_shape": true,
               "kind": "value_info",
               "name": "layer_3_down",
-              "ok": true,
-              "reason": "",
+              "ok": false,
+              "reason": "dim[0] mismatch: expected 'batch_size', got '_d32'",
               "shape": [
-                "batch_size",
-                "sequence_length",
+                "_d32",
+                "_d33",
                 1024
               ]
             },
@@ -96187,11 +96187,11 @@
               "has_shape": true,
               "kind": "value_info",
               "name": "layer_3_out",
-              "ok": true,
-              "reason": "",
+              "ok": false,
+              "reason": "dim[0] mismatch: expected 'batch_size', got '_d32'",
               "shape": [
-                "batch_size",
-                "sequence_length",
+                "_d32",
+                "_d33",
                 1024
               ]
             },
@@ -96207,11 +96207,11 @@
               "has_shape": true,
               "kind": "value_info",
               "name": "final_normed",
-              "ok": true,
-              "reason": "",
+              "ok": false,
+              "reason": "dim[0] mismatch: expected 'batch_size', got '_d32'",
               "shape": [
-                "batch_size",
-                "sequence_length",
+                "_d32",
+                "_d33",
                 1024
               ]
             },
@@ -96227,16 +96227,16 @@
               "has_shape": true,
               "kind": "output",
               "name": "output_0",
-              "ok": true,
-              "reason": "",
+              "ok": false,
+              "reason": "dim[0] mismatch: expected 'batch_size', got '_d32'",
               "shape": [
-                "batch_size",
-                "sequence_length",
+                "_d32",
+                "_d33",
                 32000
               ]
             }
           ],
-          "error": "16/177 intermediates mismatched",
+          "error": "132/177 intermediates mismatched",
           "error_step": "compare",
           "success": false,
           "total": 177
@@ -97231,8 +97231,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.2.5",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.2.7",
           "success": true,
           "total": 14
         },
@@ -97496,8 +97496,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.4.1",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.4.3",
           "success": true,
           "total": 14
         },
@@ -97761,7 +97761,7 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
+          "last_pass_date": "2026-11-09T18:08:00Z",
           "last_pass_version": "1.31.1",
           "success": true,
           "total": 14
@@ -98143,8 +98143,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.2.5",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.2.7",
           "success": true,
           "total": 5
         },
@@ -98242,8 +98242,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.4.1",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.4.3",
           "success": true,
           "total": 5
         },
@@ -98341,7 +98341,7 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
+          "last_pass_date": "2026-11-09T18:08:00Z",
           "last_pass_version": "1.31.1",
           "success": true,
           "total": 5
@@ -98723,8 +98723,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.2.5",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.2.7",
           "success": true,
           "total": 5
         },
@@ -98822,8 +98822,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.4.1",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.4.3",
           "success": true,
           "total": 5
         },
@@ -98993,7 +98993,7 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
+          "last_pass_date": "2026-11-09T18:08:00Z",
           "last_pass_version": "1.23.2",
           "success": true,
           "total": 1
@@ -99022,8 +99022,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.2.5",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.2.7",
           "success": true,
           "total": 1
         },
@@ -99051,8 +99051,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.2.5",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.2.7",
           "success": true,
           "total": 1
         },
@@ -99080,8 +99080,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.4.1",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.4.3",
           "success": true,
           "total": 1
         },
@@ -99182,7 +99182,7 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
+          "last_pass_date": "2026-11-09T18:08:00Z",
           "last_pass_version": "1.23.2",
           "success": true,
           "total": 1
@@ -99211,8 +99211,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.2.5",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.2.7",
           "success": true,
           "total": 1
         },
@@ -99240,8 +99240,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.2.5",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.2.7",
           "success": true,
           "total": 1
         },
@@ -99269,8 +99269,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.4.1",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.4.3",
           "success": true,
           "total": 1
         },
@@ -99356,7 +99356,7 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
+          "last_pass_date": "2026-11-09T18:08:00Z",
           "last_pass_version": "1.23.2",
           "success": true,
           "total": 1
@@ -99383,8 +99383,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.2.5",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.2.7",
           "success": true,
           "total": 1
         },
@@ -99410,8 +99410,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.2.5",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.2.7",
           "success": true,
           "total": 1
         },
@@ -99437,8 +99437,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.4.1",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.4.3",
           "success": true,
           "total": 1
         },
@@ -99534,7 +99534,7 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
+          "last_pass_date": "2026-11-09T18:08:00Z",
           "last_pass_version": "1.23.2",
           "success": true,
           "total": 1
@@ -99567,8 +99567,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.2.5",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.2.7",
           "success": true,
           "total": 1
         },
@@ -99600,8 +99600,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.2.5",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.2.7",
           "success": true,
           "total": 1
         },
@@ -99633,8 +99633,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.4.1",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.4.3",
           "success": true,
           "total": 1
         },
@@ -99746,8 +99746,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.2.5",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.2.7",
           "success": true,
           "total": 1
         },
@@ -99773,8 +99773,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.2.5",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.2.7",
           "success": true,
           "total": 1
         },
@@ -99918,8 +99918,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.2.5",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.2.7",
           "success": true,
           "total": 1
         },
@@ -99947,8 +99947,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.2.5",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.2.7",
           "success": true,
           "total": 1
         },
@@ -99976,8 +99976,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.4.1",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.4.3",
           "success": true,
           "total": 1
         },
@@ -100005,7 +100005,7 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
+          "last_pass_date": "2026-11-09T18:08:00Z",
           "last_pass_version": "1.31.1",
           "success": true,
           "total": 1
@@ -100077,7 +100077,7 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
+          "last_pass_date": "2026-11-09T18:08:00Z",
           "last_pass_version": "1.23.2",
           "success": true,
           "total": 1
@@ -100106,8 +100106,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.2.5",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.2.7",
           "success": true,
           "total": 1
         },
@@ -100135,8 +100135,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.2.5",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.2.7",
           "success": true,
           "total": 1
         },
@@ -100164,8 +100164,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.4.1",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.4.3",
           "success": true,
           "total": 1
         },
@@ -100193,7 +100193,7 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
+          "last_pass_date": "2026-11-09T18:08:00Z",
           "last_pass_version": "1.31.1",
           "success": true,
           "total": 1
@@ -100265,7 +100265,7 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
+          "last_pass_date": "2026-11-09T18:08:00Z",
           "last_pass_version": "1.23.2",
           "success": true,
           "total": 1
@@ -100294,8 +100294,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.2.5",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.2.7",
           "success": true,
           "total": 1
         },
@@ -100323,8 +100323,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.2.5",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.2.7",
           "success": true,
           "total": 1
         },
@@ -100352,8 +100352,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.4.1",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.4.3",
           "success": true,
           "total": 1
         },
@@ -100381,7 +100381,7 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
+          "last_pass_date": "2026-11-09T18:08:00Z",
           "last_pass_version": "1.31.1",
           "success": true,
           "total": 1
@@ -100450,7 +100450,7 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
+          "last_pass_date": "2026-11-09T18:08:00Z",
           "last_pass_version": "1.23.2",
           "success": true,
           "total": 1
@@ -100477,8 +100477,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.2.5",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.2.7",
           "success": true,
           "total": 1
         },
@@ -100504,8 +100504,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.2.5",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.2.7",
           "success": true,
           "total": 1
         },
@@ -100531,8 +100531,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.4.1",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.4.3",
           "success": true,
           "total": 1
         },
@@ -100631,7 +100631,7 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
+          "last_pass_date": "2026-11-09T18:08:00Z",
           "last_pass_version": "1.23.2",
           "success": true,
           "total": 1
@@ -100660,8 +100660,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.2.5",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.2.7",
           "success": true,
           "total": 1
         },
@@ -100689,8 +100689,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.2.5",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.2.7",
           "success": true,
           "total": 1
         },
@@ -100718,8 +100718,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.4.1",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.4.3",
           "success": true,
           "total": 1
         },
@@ -100747,7 +100747,7 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
+          "last_pass_date": "2026-11-09T18:08:00Z",
           "last_pass_version": "1.31.1",
           "success": true,
           "total": 1
@@ -100816,7 +100816,7 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
+          "last_pass_date": "2026-11-09T18:08:00Z",
           "last_pass_version": "1.23.2",
           "success": true,
           "total": 1
@@ -100843,8 +100843,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.2.5",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.2.7",
           "success": true,
           "total": 1
         },
@@ -100870,8 +100870,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.2.5",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.2.7",
           "success": true,
           "total": 1
         },
@@ -100897,8 +100897,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.4.1",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.4.3",
           "success": true,
           "total": 1
         },
@@ -101213,8 +101213,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.2.5",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.2.7",
           "success": true,
           "total": 4
         },
@@ -101286,8 +101286,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.4.1",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.4.3",
           "success": true,
           "total": 4
         },
@@ -101359,7 +101359,7 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
+          "last_pass_date": "2026-11-09T18:08:00Z",
           "last_pass_version": "1.31.1",
           "success": true,
           "total": 4
@@ -101698,8 +101698,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.2.5",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.2.7",
           "success": true,
           "total": 4
         },
@@ -101949,7 +101949,7 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
+          "last_pass_date": "2026-11-09T18:08:00Z",
           "last_pass_version": "1.23.2",
           "success": true,
           "total": 2
@@ -101994,8 +101994,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.2.5",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.2.7",
           "success": true,
           "total": 2
         },
@@ -102039,8 +102039,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.2.5",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.2.7",
           "success": true,
           "total": 2
         },
@@ -102084,8 +102084,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.4.1",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.4.3",
           "success": true,
           "total": 2
         },
@@ -102129,7 +102129,7 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
+          "last_pass_date": "2026-11-09T18:08:00Z",
           "last_pass_version": "1.31.1",
           "success": true,
           "total": 2
@@ -102199,7 +102199,7 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
+          "last_pass_date": "2026-11-09T18:08:00Z",
           "last_pass_version": "1.23.2",
           "success": true,
           "total": 2
@@ -102240,8 +102240,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.2.5",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.2.7",
           "success": true,
           "total": 2
         },
@@ -102281,8 +102281,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.2.5",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.2.7",
           "success": true,
           "total": 2
         },
@@ -102322,8 +102322,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.4.1",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.4.3",
           "success": true,
           "total": 2
         },
@@ -102649,8 +102649,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.2.5",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.2.7",
           "success": true,
           "total": 4
         },
@@ -102726,8 +102726,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.4.1",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.4.3",
           "success": true,
           "total": 4
         },
@@ -103210,8 +103210,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.2.5",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.2.7",
           "success": true,
           "total": 6
         },
@@ -103533,7 +103533,7 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
+          "last_pass_date": "2026-11-09T18:08:00Z",
           "last_pass_version": "1.23.2",
           "success": true,
           "total": 2
@@ -103578,8 +103578,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.2.5",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.2.7",
           "success": true,
           "total": 2
         },
@@ -103623,8 +103623,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.2.5",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.2.7",
           "success": true,
           "total": 2
         },
@@ -103668,8 +103668,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.4.1",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.4.3",
           "success": true,
           "total": 2
         },
@@ -103713,7 +103713,7 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
+          "last_pass_date": "2026-11-09T18:08:00Z",
           "last_pass_version": "1.31.1",
           "success": true,
           "total": 2
@@ -104347,8 +104347,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.2.5",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.2.7",
           "success": true,
           "total": 9
         },
@@ -105040,8 +105040,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.2.5",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.2.7",
           "success": true,
           "total": 5
         },
@@ -105591,8 +105591,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.2.5",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.2.7",
           "success": true,
           "total": 4
         },
@@ -105688,8 +105688,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.4.1",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.4.3",
           "success": true,
           "total": 4
         },
@@ -105785,7 +105785,7 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
+          "last_pass_date": "2026-11-09T18:08:00Z",
           "last_pass_version": "1.31.1",
           "success": true,
           "total": 4
@@ -106056,8 +106056,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.2.5",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.2.7",
           "success": true,
           "total": 3
         },
@@ -106440,8 +106440,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.2.5",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.2.7",
           "success": true,
           "total": 3
         },
@@ -106503,8 +106503,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.4.1",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.4.3",
           "success": true,
           "total": 3
         },
@@ -106566,7 +106566,7 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
+          "last_pass_date": "2026-11-09T18:08:00Z",
           "last_pass_version": "1.31.1",
           "success": true,
           "total": 3
@@ -106679,7 +106679,7 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
+          "last_pass_date": "2026-11-09T18:08:00Z",
           "last_pass_version": "1.23.2",
           "success": true,
           "total": 3
@@ -106740,8 +106740,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.2.5",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.2.7",
           "success": true,
           "total": 3
         },
@@ -106801,8 +106801,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.2.5",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.2.7",
           "success": true,
           "total": 3
         },
@@ -106862,8 +106862,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.4.1",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.4.3",
           "success": true,
           "total": 3
         },
@@ -106923,7 +106923,7 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
+          "last_pass_date": "2026-11-09T18:08:00Z",
           "last_pass_version": "1.31.1",
           "success": true,
           "total": 3
@@ -107336,8 +107336,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.2.5",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.2.7",
           "success": true,
           "total": 6
         },
@@ -107802,7 +107802,7 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
+          "last_pass_date": "2026-11-09T18:08:00Z",
           "last_pass_version": "1.23.2",
           "success": true,
           "total": 4
@@ -107935,8 +107935,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.2.5",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.2.7",
           "success": true,
           "total": 4
         },
@@ -108068,8 +108068,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.2.5",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.2.7",
           "success": true,
           "total": 4
         },
@@ -108201,8 +108201,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.4.1",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.4.3",
           "success": true,
           "total": 4
         },
@@ -108334,7 +108334,7 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
+          "last_pass_date": "2026-11-09T18:08:00Z",
           "last_pass_version": "1.31.1",
           "success": true,
           "total": 4
@@ -108539,8 +108539,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.2.5",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.2.7",
           "success": true,
           "total": 2
         },
@@ -108612,8 +108612,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.2.5",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.2.7",
           "success": true,
           "total": 2
         },
@@ -108752,7 +108752,7 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
+          "last_pass_date": "2026-11-09T18:08:00Z",
           "last_pass_version": "1.31.1",
           "success": true,
           "total": 2
@@ -108820,7 +108820,7 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
+          "last_pass_date": "2026-11-09T18:08:00Z",
           "last_pass_version": "1.23.2",
           "success": true,
           "total": 1
@@ -108847,8 +108847,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.2.5",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.2.7",
           "success": true,
           "total": 1
         },
@@ -108874,8 +108874,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.2.5",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.2.7",
           "success": true,
           "total": 1
         },
@@ -108977,7 +108977,7 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
+          "last_pass_date": "2026-11-09T18:08:00Z",
           "last_pass_version": "1.23.2",
           "success": true,
           "total": 1
@@ -109004,8 +109004,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.2.5",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.2.7",
           "success": true,
           "total": 1
         },
@@ -109031,8 +109031,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.2.5",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.2.7",
           "success": true,
           "total": 1
         },
@@ -109134,7 +109134,7 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
+          "last_pass_date": "2026-11-09T18:08:00Z",
           "last_pass_version": "1.23.2",
           "success": true,
           "total": 1
@@ -109161,8 +109161,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.2.5",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.2.7",
           "success": true,
           "total": 1
         },
@@ -109188,8 +109188,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.2.5",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.2.7",
           "success": true,
           "total": 1
         },
@@ -109291,7 +109291,7 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
+          "last_pass_date": "2026-11-09T18:08:00Z",
           "last_pass_version": "1.23.2",
           "success": true,
           "total": 1
@@ -109318,8 +109318,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.2.5",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.2.7",
           "success": true,
           "total": 1
         },
@@ -109345,8 +109345,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.2.5",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.2.7",
           "success": true,
           "total": 1
         },
@@ -109372,8 +109372,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.4.1",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.4.3",
           "success": true,
           "total": 1
         },
@@ -109467,7 +109467,7 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
+          "last_pass_date": "2026-11-09T18:08:00Z",
           "last_pass_version": "1.23.2",
           "success": true,
           "total": 1
@@ -109494,8 +109494,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.2.5",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.2.7",
           "success": true,
           "total": 1
         },
@@ -109521,8 +109521,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.2.5",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.2.7",
           "success": true,
           "total": 1
         },
@@ -109548,8 +109548,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.4.1",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.4.3",
           "success": true,
           "total": 1
         },
@@ -109643,7 +109643,7 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
+          "last_pass_date": "2026-11-09T18:08:00Z",
           "last_pass_version": "1.23.2",
           "success": true,
           "total": 1
@@ -109670,8 +109670,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.2.5",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.2.7",
           "success": true,
           "total": 1
         },
@@ -109697,8 +109697,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.2.5",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.2.7",
           "success": true,
           "total": 1
         },
@@ -109724,8 +109724,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.4.1",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.4.3",
           "success": true,
           "total": 1
         },
@@ -109809,7 +109809,7 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
+          "last_pass_date": "2026-11-09T18:08:00Z",
           "last_pass_version": "1.23.2",
           "success": true,
           "total": 1
@@ -109836,8 +109836,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.2.5",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.2.7",
           "success": true,
           "total": 1
         },
@@ -109863,8 +109863,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.2.5",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.2.7",
           "success": true,
           "total": 1
         },
@@ -109890,8 +109890,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.4.1",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.4.3",
           "success": true,
           "total": 1
         },
@@ -109975,7 +109975,7 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
+          "last_pass_date": "2026-11-09T18:08:00Z",
           "last_pass_version": "1.23.2",
           "success": true,
           "total": 1
@@ -110002,8 +110002,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.2.5",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.2.7",
           "success": true,
           "total": 1
         },
@@ -110029,8 +110029,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.2.5",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.2.7",
           "success": true,
           "total": 1
         },
@@ -110056,8 +110056,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.4.1",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.4.3",
           "success": true,
           "total": 1
         },
@@ -110141,7 +110141,7 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
+          "last_pass_date": "2026-11-09T18:08:00Z",
           "last_pass_version": "1.23.2",
           "success": true,
           "total": 1
@@ -110168,8 +110168,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.2.5",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.2.7",
           "success": true,
           "total": 1
         },
@@ -110195,8 +110195,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.2.5",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.2.7",
           "success": true,
           "total": 1
         },
@@ -110222,8 +110222,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.4.1",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.4.3",
           "success": true,
           "total": 1
         },
@@ -110307,7 +110307,7 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
+          "last_pass_date": "2026-11-09T18:08:00Z",
           "last_pass_version": "1.23.2",
           "success": true,
           "total": 1
@@ -110334,8 +110334,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.2.5",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.2.7",
           "success": true,
           "total": 1
         },
@@ -110361,8 +110361,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.2.5",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.2.7",
           "success": true,
           "total": 1
         },
@@ -110388,8 +110388,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.4.1",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.4.3",
           "success": true,
           "total": 1
         },
@@ -110473,7 +110473,7 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
+          "last_pass_date": "2026-11-09T18:08:00Z",
           "last_pass_version": "1.23.2",
           "success": true,
           "total": 1
@@ -110500,8 +110500,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.2.5",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.2.7",
           "success": true,
           "total": 1
         },
@@ -110527,8 +110527,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.2.5",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.2.7",
           "success": true,
           "total": 1
         },
@@ -110554,8 +110554,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.4.1",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.4.3",
           "success": true,
           "total": 1
         },
@@ -110639,7 +110639,7 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
+          "last_pass_date": "2026-11-09T18:08:00Z",
           "last_pass_version": "1.23.2",
           "success": true,
           "total": 1
@@ -110666,8 +110666,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.2.5",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.2.7",
           "success": true,
           "total": 1
         },
@@ -110693,8 +110693,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.2.5",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.2.7",
           "success": true,
           "total": 1
         },
@@ -110720,8 +110720,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.4.1",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.4.3",
           "success": true,
           "total": 1
         },
@@ -110805,7 +110805,7 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
+          "last_pass_date": "2026-11-09T18:08:00Z",
           "last_pass_version": "1.23.2",
           "success": true,
           "total": 1
@@ -110832,8 +110832,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.2.5",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.2.7",
           "success": true,
           "total": 1
         },
@@ -110859,8 +110859,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.2.5",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.2.7",
           "success": true,
           "total": 1
         },
@@ -110886,8 +110886,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.4.1",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.4.3",
           "success": true,
           "total": 1
         },
@@ -110971,7 +110971,7 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
+          "last_pass_date": "2026-11-09T18:08:00Z",
           "last_pass_version": "1.23.2",
           "success": true,
           "total": 1
@@ -110998,8 +110998,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.2.5",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.2.7",
           "success": true,
           "total": 1
         },
@@ -111025,8 +111025,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.2.5",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.2.7",
           "success": true,
           "total": 1
         },
@@ -111052,8 +111052,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.4.1",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.4.3",
           "success": true,
           "total": 1
         },
@@ -111271,8 +111271,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.2.5",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.2.7",
           "success": true,
           "total": 2
         },
@@ -111320,8 +111320,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.4.1",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.4.3",
           "success": true,
           "total": 2
         },
@@ -111369,7 +111369,7 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
+          "last_pass_date": "2026-11-09T18:08:00Z",
           "last_pass_version": "1.31.1",
           "success": true,
           "total": 2
@@ -111485,7 +111485,7 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
+          "last_pass_date": "2026-11-09T18:08:00Z",
           "last_pass_version": "1.23.2",
           "success": true,
           "total": 3
@@ -111548,8 +111548,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.2.5",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.2.7",
           "success": true,
           "total": 3
         },
@@ -111611,8 +111611,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.2.5",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.2.7",
           "success": true,
           "total": 3
         },
@@ -111674,8 +111674,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.4.1",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.4.3",
           "success": true,
           "total": 3
         },
@@ -111819,7 +111819,7 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
+          "last_pass_date": "2026-11-09T18:08:00Z",
           "last_pass_version": "1.23.2",
           "success": true,
           "total": 1
@@ -111860,8 +111860,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.2.5",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.2.7",
           "success": true,
           "total": 1
         },
@@ -111901,8 +111901,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.2.5",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.2.7",
           "success": true,
           "total": 1
         },
@@ -112028,7 +112028,7 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
+          "last_pass_date": "2026-11-09T18:08:00Z",
           "last_pass_version": "1.23.2",
           "success": true,
           "total": 1
@@ -112069,8 +112069,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.2.5",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.2.7",
           "success": true,
           "total": 1
         },
@@ -112110,8 +112110,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.2.5",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.2.7",
           "success": true,
           "total": 1
         },
@@ -112237,7 +112237,7 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
+          "last_pass_date": "2026-11-09T18:08:00Z",
           "last_pass_version": "1.23.2",
           "success": true,
           "total": 1
@@ -112278,8 +112278,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.2.5",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.2.7",
           "success": true,
           "total": 1
         },
@@ -112319,8 +112319,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.2.5",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.2.7",
           "success": true,
           "total": 1
         },
@@ -112487,8 +112487,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.2.5",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.2.7",
           "success": true,
           "total": 1
         },
@@ -112528,8 +112528,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.2.5",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.2.7",
           "success": true,
           "total": 1
         },
@@ -112652,7 +112652,7 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
+          "last_pass_date": "2026-11-09T18:08:00Z",
           "last_pass_version": "1.23.2",
           "success": true,
           "total": 1
@@ -112691,8 +112691,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.2.5",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.2.7",
           "success": true,
           "total": 1
         },
@@ -112730,8 +112730,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.2.5",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.2.7",
           "success": true,
           "total": 1
         },
@@ -112969,8 +112969,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.2.5",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.2.7",
           "success": true,
           "total": 1
         },
@@ -113038,8 +113038,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.2.5",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.2.7",
           "success": true,
           "total": 1
         },
@@ -113234,8 +113234,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.2.5",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.2.7",
           "success": true,
           "total": 1
         },
@@ -113275,8 +113275,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.2.5",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.2.7",
           "success": true,
           "total": 1
         },
@@ -114650,8 +114650,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.2.5",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.2.7",
           "success": true,
           "total": 24
         },
@@ -115147,8 +115147,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.2.5",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.2.7",
           "success": true,
           "total": 24
         },
@@ -118513,8 +118513,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.2.5",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.2.7",
           "success": true,
           "total": 52
         },
@@ -119596,8 +119596,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.2.5",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.2.7",
           "success": true,
           "total": 52
         },
@@ -120144,12 +120144,12 @@
               "kind": "value_info",
               "name": "scores_biased",
               "ok": false,
-              "reason": "dim[3] mismatch: expected 'total_seq', got 'past_seq + seq'",
+              "reason": "dim[3] mismatch: expected 'total_seq', got '_d0'",
               "shape": [
                 "batch",
                 4,
                 "seq",
-                "past_seq + seq"
+                "_d0"
               ]
             },
             {
@@ -120166,12 +120166,12 @@
               "kind": "value_info",
               "name": "attn_weights",
               "ok": false,
-              "reason": "dim[3] mismatch: expected 'total_seq', got 'past_seq + seq'",
+              "reason": "dim[3] mismatch: expected 'total_seq', got '_d0'",
               "shape": [
                 "batch",
                 4,
                 "seq",
-                "past_seq + seq"
+                "_d0"
               ]
             },
             {
@@ -121762,7 +121762,7 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
+          "last_pass_date": "2026-11-09T18:08:00Z",
           "last_pass_version": "1.31.1",
           "success": true,
           "total": 52
@@ -122424,8 +122424,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.2.5",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.2.7",
           "success": true,
           "total": 9
         },
@@ -123161,8 +123161,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.2.5",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.2.7",
           "success": true,
           "total": 5
         },
@@ -123729,8 +123729,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.2.5",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.2.7",
           "success": true,
           "total": 5
         },
@@ -124498,8 +124498,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.2.5",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.2.7",
           "success": true,
           "total": 9
         },
@@ -124647,8 +124647,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.4.1",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.4.3",
           "success": true,
           "total": 9
         },
@@ -124796,7 +124796,7 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
+          "last_pass_date": "2026-11-09T18:08:00Z",
           "last_pass_version": "1.31.1",
           "success": true,
           "total": 9
@@ -125618,8 +125618,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.2.5",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.2.7",
           "success": true,
           "total": 12
         },
@@ -125833,8 +125833,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.4.1",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.4.3",
           "success": true,
           "total": 12
         },
@@ -126048,7 +126048,7 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
+          "last_pass_date": "2026-11-09T18:08:00Z",
           "last_pass_version": "1.31.1",
           "success": true,
           "total": 12
@@ -126902,8 +126902,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.2.5",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.2.7",
           "success": true,
           "total": 11
         },
@@ -127135,8 +127135,8 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
-          "last_pass_version": "0.4.1",
+          "last_pass_date": "2026-11-09T18:08:00Z",
+          "last_pass_version": "0.4.3",
           "success": true,
           "total": 11
         },
@@ -127368,7 +127368,7 @@
               ]
             }
           ],
-          "last_pass_date": "2026-11-02T17:42:17Z",
+          "last_pass_date": "2026-11-09T18:08:00Z",
           "last_pass_version": "1.31.1",
           "success": true,
           "total": 11
@@ -127396,7 +127396,7 @@
       "total": 1251
     },
     "onnx-shape-inference": {
-      "correct": 1185,
+      "correct": 1069,
       "tests_fail": 24,
       "tests_pass": 42,
       "total": 1251
@@ -127412,8 +127412,8 @@
     "numpy": "2.5.4",
     "onnx": "1.23.2",
     "onnx_ir": "1.1.0",
-    "onnx_light": "0.2.5",
-    "onnx_shape_inference": "0.4.1",
+    "onnx_light": "0.2.7",
+    "onnx_shape_inference": "0.4.3",
     "onnxruntime": "1.31.1"
   }
 }
