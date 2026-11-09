@@ -192,3 +192,5 @@ pr_number,title,author,merged_at,commits,comments,copilot_comments,copilot_commi
 347,Improve Optimize and Rewritings editing workflows,xadupre,2026-11-08T10:06:28Z,8,33,17,0,17,0,0,0,17,0,16,1,2985,423,15
 346,Add column sorting and navigation to global optimization reports,Copilot,2026-11-07T19:09:05Z,2,0,0,2,0,0,0,0,0,0,0,0,198,4,4
 344,"Preserve rewriting selection through Unfuse, Fuse and Optimize",xadupre,2026-11-07T19:08:48Z,1,0,0,0,0,0,0,0,0,0,0,0,176,18,5
+350,Enable visual browser APIs in extension webview bridge tests,Copilot,2026-11-09T09:58:06Z,2,0,0,2,0,0,0,0,0,0,0,0,37,8,1
+348,Add Global Rewriting actions for partitioning and identity cleanup,xadupre,2026-11-08T20:35:33Z,4,0,0,0,0,0,0,0,0,0,0,0,422,49,5

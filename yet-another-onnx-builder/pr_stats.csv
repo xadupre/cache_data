@@ -305,3 +305,4 @@ pr_number,title,author,merged_at,commits,comments,copilot_comments,copilot_commi
 2454,Update sphinx requirement from >=7 to >=9.1.1,dependabot[bot],2026-11-07T08:45:48Z,1,0,0,0,0,0,0,0,0,0,0,0,1,1,1
 2453,[yobx/reference] Make Dependabot raise minimum versions for model dependencies,Copilot,2026-11-06T17:22:08Z,4,6,2,4,0,0,0,0,0,0,0,0,43,0,3
 2451,[yobx/reference] Use ONNX Runtime-compatible opset in Tiny-LLM documentation example,Copilot,2026-11-06T13:38:34Z,4,6,2,4,0,0,0,0,0,0,0,0,82,33,6
+2458,Update lightgbm requirement from >=3.0 to >=4.7.0,dependabot[bot],2026-11-09T12:32:48Z,2,3,1,1,0,0,0,0,0,0,0,0,3,3,2
