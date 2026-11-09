@@ -114,3 +114,14 @@ job_id,run_id,workflow,job_name,status,conclusion,started_at,completed_at,durati
 122410686584,40556493074,Build Release Wheels,"wheels (windows, ARM64)",completed,success,2026-10-27T19:12:17Z,2026-10-27T20:27:27Z,4510,30c19cceae7e1cb0b8300ec2550a3aeb5de87dc9
 121883316819,40402491731,Weekly Wheel Build Check,"wheels (windows, ARM64)",completed,success,2026-10-26T22:34:16Z,2026-10-26T23:41:13Z,4017,2f6e3a5b7b68f3a38b94857a8498a155091a2f52
 121683134406,40342329631,Weekly Wheel Build Check,"wheels (windows, ARM64)",completed,success,2026-10-26T16:02:22Z,2026-10-26T17:11:24Z,4142,a07457bdc9d0f64ff1229fd25b4d5faec369cb8b
+128723507702,42471723041,Weekly Wheel Build Check,"wheels (windows, ARM64)",completed,success,2026-11-08T12:00:20Z,2026-11-08T13:18:24Z,4684,bba411f91b14b1c1271a55a881e32fe8a2072a6a
+128529671519,42404755966,Weekly Wheel Build Check,"wheels (windows, ARM64)",completed,success,2026-11-07T21:10:04Z,2026-11-07T22:27:24Z,4640,064565db208c53cd08a70d914e7d9da1ef708e98
+127957054801,42225103301,Weekly Wheel Build Check,"wheels (windows, ARM64)",completed,success,2026-11-06T14:49:55Z,2026-11-06T16:04:05Z,4450,4cc468f3271480bc84b64879e43b6173c78dab14
+127881265580,42205292632,Weekly Wheel Build Check,"wheels (windows, ARM64)",completed,cancelled,2026-11-06T12:02:02Z,2026-11-06T12:24:41Z,1359,041e77fd3fdbd18c8868b12e0e8451ba1892fc5a
+127618579374,42125187700,Weekly Wheel Build Check,"wheels (windows, ARM64)",completed,success,2026-11-06T00:06:18Z,2026-11-06T01:17:40Z,4282,eec4cecd2cf4aded04bedd43513acc58d4cb01fa
+127509836905,42081223142,Weekly Wheel Build Check,"wheels (windows, ARM64)",completed,cancelled,2026-11-05T20:22:56Z,2026-11-05T21:32:08Z,4152,b225c58566af102dbfdff17472de691dba8e2539
+126493933439,41739065447,Weekly Wheel Build Check,"wheels (windows, ARM64)",completed,success,2026-11-04T09:17:36Z,2026-11-04T10:33:50Z,4574,c04b751fcf72c5c3ab30250986de83b76323d10c
+126310096091,41738725838,Build Release Wheels,"wheels (windows, ARM64)",completed,success,2026-11-04T00:46:20Z,2026-11-04T02:04:48Z,4708,0c0711671c2a56cd009fa4b271024e10a51b939f
+125869024212,41602546183,Weekly Wheel Build Check,"wheels (windows, ARM64)",completed,success,2026-11-03T10:44:37Z,2026-11-03T12:10:25Z,5148,641189f5548779520349ce0b31199227741fb381
+125840903460,41602271170,Build Release Wheels,"wheels (windows, ARM64)",completed,success,2026-11-03T09:44:37Z,2026-11-03T11:06:36Z,4919,5006e77f941eb2876162debaa28a4b63178027f9
+125508026386,41493124935,Weekly Wheel Build Check,"wheels (windows, ARM64)",completed,success,2026-11-02T19:43:46Z,2026-11-02T21:06:01Z,4935,a3c19a9e24d5491ec1e82a07c1110096cdb78969

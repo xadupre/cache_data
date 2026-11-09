@@ -1,0 +1,5 @@
+job_id,run_id,workflow,job_name,status,conclusion,started_at,completed_at,duration_seconds,head_sha
+128022580498,42255813162,Release,Build linux-arm64,completed,failure,2026-11-06T16:49:42Z,2026-11-06T16:49:56Z,14,fea91cb2098db3a3c695694c2929b38065836312
+128022580630,42255814155,Release,Build linux-arm64,completed,failure,2026-11-06T16:49:19Z,2026-11-06T16:49:35Z,16,fea91cb2098db3a3c695694c2929b38065836312
+126575519696,41830316454,Release,Build linux-arm64,completed,success,2026-11-04T12:33:41Z,2026-11-04T12:36:00Z,139,fea99a6b7be891cf8baf4e9e0a9f177b6f1a8230
+126575518036,41830316065,Release,Build linux-arm64,completed,success,2026-11-04T12:33:41Z,2026-11-04T12:35:59Z,138,fea99a6b7be891cf8baf4e9e0a9f177b6f1a8230

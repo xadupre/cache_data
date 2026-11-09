@@ -5,6 +5,10 @@
     "Analyze_c-cpp.csv",
     "Analyze_javascript-typescript.csv",
     "Analyze_python.csv",
+    "Build_linux-arm64.csv",
+    "Build_linux-x64.csv",
+    "Build_win32-arm64.csv",
+    "Build_win32-x64.csv",
     "Dependabot.csv",
     "Sphinx_documentation.csv",
     "Unit_tests_and_formatting.csv",
@@ -15,6 +19,7 @@
     "copilot-pull-request-reviewer.csv",
     "copilot.csv",
     "coverage.csv",
+    "release.csv",
     "report-failure.csv",
     "update-pip-graph.csv"
   ]

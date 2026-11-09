@@ -173,3 +173,23 @@ job_id,run_id,workflow,job_name,status,conclusion,started_at,completed_at,durati
 122410686636,40556493074,Build Release Wheels,"wheels (macos, universal2)",completed,success,2026-10-27T19:12:17Z,2026-10-27T20:48:32Z,5775,30c19cceae7e1cb0b8300ec2550a3aeb5de87dc9
 121883316594,40402491731,Weekly Wheel Build Check,"wheels (macos, universal2)",completed,success,2026-10-26T22:34:13Z,2026-10-27T00:08:06Z,5633,2f6e3a5b7b68f3a38b94857a8498a155091a2f52
 121683134410,40342329631,Weekly Wheel Build Check,"wheels (macos, universal2)",completed,success,2026-10-26T16:07:32Z,2026-10-26T17:19:08Z,4296,a07457bdc9d0f64ff1229fd25b4d5faec369cb8b
+128723507641,42471723041,Weekly Wheel Build Check,"wheels (macos, universal2)",completed,success,2026-11-08T11:58:18Z,2026-11-08T13:24:54Z,5196,bba411f91b14b1c1271a55a881e32fe8a2072a6a
+128703882312,42469991728,Weekly Wheel Build Check,"wheels (macos, universal2)",completed,cancelled,2026-11-08T10:30:58Z,2026-11-08T10:30:58Z,0,f9a1465c94f61ca444300078980dd79bcf3d3bbd
+128698341700,42468714119,Weekly Wheel Build Check,"wheels (macos, universal2)",completed,cancelled,2026-11-08T10:06:42Z,2026-11-08T10:06:42Z,0,5e2b388c3d8dd24bff6768748957ea6069f459cf
+128694245204,42467736778,Weekly Wheel Build Check,"wheels (macos, universal2)",completed,cancelled,2026-11-08T09:48:32Z,2026-11-08T09:48:32Z,0,ea1632e630262706146d1e44180151515d757e87
+128691113749,42466071944,Weekly Wheel Build Check,"wheels (macos, universal2)",completed,cancelled,2026-11-08T09:34:28Z,2026-11-08T09:34:27Z,-1,82188165cd9bb87eba72b89dd8abff1acaafaac5
+128529671421,42404755966,Weekly Wheel Build Check,"wheels (macos, universal2)",completed,success,2026-11-07T21:10:05Z,2026-11-07T22:53:30Z,6205,064565db208c53cd08a70d914e7d9da1ef708e98
+128500013161,42404174295,Weekly Wheel Build Check,"wheels (macos, universal2)",completed,cancelled,2026-11-07T19:08:54Z,2026-11-07T19:08:54Z,0,55f34092a342faad9d0cf28efe0a951e614d75d3
+127957054646,42225103301,Weekly Wheel Build Check,"wheels (macos, universal2)",completed,success,2026-11-06T15:10:43Z,2026-11-06T16:39:48Z,5345,4cc468f3271480bc84b64879e43b6173c78dab14
+127917114498,42221421789,Weekly Wheel Build Check,"wheels (macos, universal2)",completed,cancelled,2026-11-06T13:24:49Z,2026-11-06T13:24:49Z,0,7f32e1f29a8ff75cf47a904ac61fc03e68096bd0
+127904573010,42217345293,Weekly Wheel Build Check,"wheels (macos, universal2)",completed,cancelled,2026-11-06T12:56:51Z,2026-11-06T12:56:51Z,0,71ca661803f56aa9a0d335da7b2d8f5e85e7dd61
+127881265687,42205292632,Weekly Wheel Build Check,"wheels (macos, universal2)",completed,cancelled,2026-11-06T12:02:03Z,2026-11-06T12:24:54Z,1371,041e77fd3fdbd18c8868b12e0e8451ba1892fc5a
+127850589352,42196848789,Weekly Wheel Build Check,"wheels (macos, universal2)",completed,cancelled,2026-11-06T10:47:49Z,2026-11-06T10:47:49Z,0,5443b18e180b93954f05c293779618188640b4ea
+127618579467,42125187700,Weekly Wheel Build Check,"wheels (macos, universal2)",completed,success,2026-11-06T00:06:18Z,2026-11-06T01:50:23Z,6245,eec4cecd2cf4aded04bedd43513acc58d4cb01fa
+127587939151,42096802570,Weekly Wheel Build Check,"wheels (macos, universal2)",completed,cancelled,2026-11-05T22:54:06Z,2026-11-05T22:54:05Z,-1,51250eb787e3db6d23462866996f58a6a8125650
+127509838635,42081223142,Weekly Wheel Build Check,"wheels (macos, universal2)",completed,success,2026-11-05T20:22:57Z,2026-11-05T21:02:59Z,2402,b225c58566af102dbfdff17472de691dba8e2539
+126493933618,41739065447,Weekly Wheel Build Check,"wheels (macos, universal2)",completed,success,2026-11-04T09:17:36Z,2026-11-04T10:42:39Z,5103,c04b751fcf72c5c3ab30250986de83b76323d10c
+126310096138,41738725838,Build Release Wheels,"wheels (macos, universal2)",completed,success,2026-11-04T00:46:20Z,2026-11-04T01:23:04Z,2204,0c0711671c2a56cd009fa4b271024e10a51b939f
+125869024087,41602546183,Weekly Wheel Build Check,"wheels (macos, universal2)",completed,success,2026-11-03T10:44:49Z,2026-11-03T11:52:48Z,4079,641189f5548779520349ce0b31199227741fb381
+125840903374,41602271170,Build Release Wheels,"wheels (macos, universal2)",completed,success,2026-11-03T09:47:27Z,2026-11-03T11:32:00Z,6273,5006e77f941eb2876162debaa28a4b63178027f9
+125508026302,41493124935,Weekly Wheel Build Check,"wheels (macos, universal2)",completed,success,2026-11-02T19:48:47Z,2026-11-02T21:32:49Z,6242,a3c19a9e24d5491ec1e82a07c1110096cdb78969
