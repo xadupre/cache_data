@@ -1,0 +1,4910 @@
+{
+  "updated_at": "2026-11-09T22:14:17Z",
+  "repositories": [
+    {
+      "repository": "microsoft/onnxruntime",
+      "total": 27316074,
+      "releases": [
+        {
+          "id": 14260845,
+          "tag": "v0.1.4",
+          "published_at": "2018-11-29T16:17:36Z",
+          "prerelease": false,
+          "total": 0,
+          "assets": []
+        },
+        {
+          "id": 14293492,
+          "tag": "v0.1.5",
+          "published_at": "2018-12-01T02:35:40Z",
+          "prerelease": false,
+          "total": 0,
+          "assets": []
+        },
+        {
+          "id": 15304449,
+          "tag": "v0.2.1",
+          "published_at": "2019-02-11T21:54:43Z",
+          "prerelease": false,
+          "total": 0,
+          "assets": []
+        },
+        {
+          "id": 16122692,
+          "tag": "v0.3.0",
+          "published_at": "2019-03-14T18:17:00Z",
+          "prerelease": false,
+          "total": 1077,
+          "assets": [
+            {
+              "id": 11535365,
+              "name": "onnxruntime-linux-x64-0.3.0.tgz",
+              "download_count": 324
+            },
+            {
+              "id": 11535367,
+              "name": "onnxruntime-linux-x64-gpu-0.3.0.tgz",
+              "download_count": 73
+            },
+            {
+              "id": 11535376,
+              "name": "onnxruntime-linux-x86-0.3.0.tgz",
+              "download_count": 71
+            },
+            {
+              "id": 11535377,
+              "name": "onnxruntime-osx-x64-0.3.0.tgz",
+              "download_count": 70
+            },
+            {
+              "id": 11535380,
+              "name": "onnxruntime-win-x64-0.3.0.zip",
+              "download_count": 332
+            },
+            {
+              "id": 11535381,
+              "name": "onnxruntime-win-x64-gpu-0.3.0.zip",
+              "download_count": 86
+            },
+            {
+              "id": 11535384,
+              "name": "onnxruntime-win-x86-0.3.0.zip",
+              "download_count": 121
+            }
+          ]
+        },
+        {
+          "id": 16634911,
+          "tag": "v0.3.1",
+          "published_at": "2019-04-09T00:39:50Z",
+          "prerelease": false,
+          "total": 498,
+          "assets": [
+            {
+              "id": 11959437,
+              "name": "onnxruntime-linux-x64-0.3.1.tgz",
+              "download_count": 89
+            },
+            {
+              "id": 11959438,
+              "name": "onnxruntime-linux-x64-gpu-0.3.1.tgz",
+              "download_count": 57
+            },
+            {
+              "id": 11959439,
+              "name": "onnxruntime-linux-x86-0.3.1.tgz",
+              "download_count": 57
+            },
+            {
+              "id": 11959440,
+              "name": "onnxruntime-osx-x64-0.3.1.tgz",
+              "download_count": 66
+            },
+            {
+              "id": 11959441,
+              "name": "onnxruntime-win-x64-0.3.1.zip",
+              "download_count": 88
+            },
+            {
+              "id": 11959442,
+              "name": "onnxruntime-win-x64-gpu-0.3.1.zip",
+              "download_count": 71
+            },
+            {
+              "id": 11959443,
+              "name": "onnxruntime-win-x86-0.3.1.zip",
+              "download_count": 70
+            }
+          ]
+        },
+        {
+          "id": 17081600,
+          "tag": "v0.4.0",
+          "published_at": "2019-05-02T02:25:51Z",
+          "prerelease": false,
+          "total": 2121,
+          "assets": [
+            {
+              "id": 12343397,
+              "name": "onnxruntime-linux-x64-0.4.0.tgz",
+              "download_count": 968
+            },
+            {
+              "id": 12343398,
+              "name": "onnxruntime-linux-x86-0.4.0.tgz",
+              "download_count": 106
+            },
+            {
+              "id": 12343399,
+              "name": "onnxruntime-linux-x64-gpu-0.4.0.tgz",
+              "download_count": 218
+            },
+            {
+              "id": 12343402,
+              "name": "onnxruntime-osx-x64-0.4.0.tgz",
+              "download_count": 112
+            },
+            {
+              "id": 12343405,
+              "name": "onnxruntime-win-x64-gpu-0.4.0.zip",
+              "download_count": 217
+            },
+            {
+              "id": 12343406,
+              "name": "onnxruntime-win-x86-0.4.0.zip",
+              "download_count": 139
+            },
+            {
+              "id": 12343407,
+              "name": "onnxruntime-win-x64-0.4.0.zip",
+              "download_count": 361
+            }
+          ]
+        },
+        {
+          "id": 18944419,
+          "tag": "v0.5.0",
+          "published_at": "2019-08-01T19:48:28Z",
+          "prerelease": false,
+          "total": 4055,
+          "assets": [
+            {
+              "id": 14083701,
+              "name": "onnxruntime-linux-x86-0.5.0.tgz",
+              "download_count": 139
+            },
+            {
+              "id": 14083702,
+              "name": "onnxruntime-osx-x64-0.5.0.tgz",
+              "download_count": 307
+            },
+            {
+              "id": 14083703,
+              "name": "onnxruntime-win-x64-0.5.0.zip",
+              "download_count": 709
+            },
+            {
+              "id": 14083704,
+              "name": "onnxruntime-win-x64-gpu-0.5.0.zip",
+              "download_count": 271
+            },
+            {
+              "id": 14083705,
+              "name": "onnxruntime-win-x86-0.5.0.zip",
+              "download_count": 152
+            },
+            {
+              "id": 14083706,
+              "name": "onnxruntime-linux-x64-0.5.0.tgz",
+              "download_count": 2053
+            },
+            {
+              "id": 14083707,
+              "name": "onnxruntime-linux-x64-gpu-0.5.0.tgz",
+              "download_count": 424
+            }
+          ]
+        },
+        {
+          "id": 20662148,
+          "tag": "v0.5.1",
+          "published_at": "2019-10-12T23:52:23Z",
+          "prerelease": false,
+          "total": 0,
+          "assets": []
+        },
+        {
+          "id": 21070045,
+          "tag": "v1.0.0",
+          "published_at": "2019-10-30T06:27:47Z",
+          "prerelease": false,
+          "total": 10594,
+          "assets": [
+            {
+              "id": 15830415,
+              "name": "onnxruntime-linux-x64-gpu-1.0.0.tgz",
+              "download_count": 1165
+            },
+            {
+              "id": 15830426,
+              "name": "onnxruntime-linux-x64-1.0.0.tgz",
+              "download_count": 4259
+            },
+            {
+              "id": 15830437,
+              "name": "onnxruntime-osx-x64-1.0.0.tgz",
+              "download_count": 1782
+            },
+            {
+              "id": 15830438,
+              "name": "onnxruntime-win-x64-1.0.0.zip",
+              "download_count": 2516
+            },
+            {
+              "id": 15830439,
+              "name": "onnxruntime-win-x64-gpu-1.0.0.zip",
+              "download_count": 480
+            },
+            {
+              "id": 15830441,
+              "name": "onnxruntime-win-x86-1.0.0.zip",
+              "download_count": 392
+            }
+          ]
+        },
+        {
+          "id": 22371403,
+          "tag": "v1.1.0",
+          "published_at": "2019-12-19T22:07:52Z",
+          "prerelease": false,
+          "total": 3979,
+          "assets": [
+            {
+              "id": 16912753,
+              "name": "onnxruntime-osx-x64-1.1.0.zip",
+              "download_count": 147
+            },
+            {
+              "id": 16912754,
+              "name": "onnxruntime-win-x64-1.1.0.zip",
+              "download_count": 618
+            },
+            {
+              "id": 16912755,
+              "name": "onnxruntime-win-x64-gpu-1.1.0.zip",
+              "download_count": 546
+            },
+            {
+              "id": 16912756,
+              "name": "onnxruntime-win-x86-1.1.0.zip",
+              "download_count": 269
+            },
+            {
+              "id": 17012677,
+              "name": "onnxruntime-linux-x64-1.1.0.tgz",
+              "download_count": 1941
+            },
+            {
+              "id": 17012678,
+              "name": "onnxruntime-linux-x64-gpu-1.1.0.tgz",
+              "download_count": 458
+            }
+          ]
+        },
+        {
+          "id": 22941797,
+          "tag": "v1.1.1",
+          "published_at": "2020-01-24T01:25:04Z",
+          "prerelease": false,
+          "total": 1142,
+          "assets": [
+            {
+              "id": 17536318,
+              "name": "onnxruntime-linux-x64-1.1.1.tgz",
+              "download_count": 264
+            },
+            {
+              "id": 17536319,
+              "name": "onnxruntime-linux-x64-gpu-1.1.1.tgz",
+              "download_count": 153
+            },
+            {
+              "id": 17536321,
+              "name": "onnxruntime-osx-x64-1.1.1.tgz",
+              "download_count": 165
+            },
+            {
+              "id": 17536322,
+              "name": "onnxruntime-win-x64-1.1.1.zip",
+              "download_count": 259
+            },
+            {
+              "id": 17536323,
+              "name": "onnxruntime-win-x64-gpu-1.1.1.zip",
+              "download_count": 206
+            },
+            {
+              "id": 17536324,
+              "name": "onnxruntime-win-x86-1.1.1.zip",
+              "download_count": 95
+            }
+          ]
+        },
+        {
+          "id": 23822689,
+          "tag": "v1.1.2",
+          "published_at": "2020-02-21T17:41:51Z",
+          "prerelease": false,
+          "total": 1459,
+          "assets": [
+            {
+              "id": 18205560,
+              "name": "onnxruntime-win-x64-1.1.2.zip",
+              "download_count": 345
+            },
+            {
+              "id": 18205567,
+              "name": "onnxruntime-win-x86-1.1.2.zip",
+              "download_count": 104
+            },
+            {
+              "id": 18205570,
+              "name": "onnxruntime-win-x64-gpu-1.1.2.zip",
+              "download_count": 274
+            },
+            {
+              "id": 18205576,
+              "name": "onnxruntime-linux-x64-1.1.2.tgz",
+              "download_count": 361
+            },
+            {
+              "id": 18205581,
+              "name": "onnxruntime-linux-x64-gpu-1.1.2.tgz",
+              "download_count": 263
+            },
+            {
+              "id": 18205592,
+              "name": "onnxruntime-osx-x64-1.1.2.tgz",
+              "download_count": 112
+            }
+          ]
+        },
+        {
+          "id": 24397067,
+          "tag": "v1.2.0",
+          "published_at": "2020-03-10T22:22:23Z",
+          "prerelease": false,
+          "total": 19871,
+          "assets": [
+            {
+              "id": 18611701,
+              "name": "onnxruntime-osx-x64-1.2.0.tgz",
+              "download_count": 571
+            },
+            {
+              "id": 18611705,
+              "name": "onnxruntime-linux-x64-gpu-1.2.0.tgz",
+              "download_count": 3329
+            },
+            {
+              "id": 18611708,
+              "name": "onnxruntime-linux-x64-1.2.0.tgz",
+              "download_count": 12477
+            },
+            {
+              "id": 18640915,
+              "name": "onnxruntime-win-x64-gpu-1.2.0.zip",
+              "download_count": 1183
+            },
+            {
+              "id": 18640947,
+              "name": "onnxruntime-win-x86-1.2.0.zip",
+              "download_count": 221
+            },
+            {
+              "id": 18640948,
+              "name": "onnxruntime-win-x64-1.2.0.zip",
+              "download_count": 2090
+            }
+          ]
+        },
+        {
+          "id": 26330798,
+          "tag": "v1.3.0",
+          "published_at": "2020-05-19T03:15:13Z",
+          "prerelease": false,
+          "total": 6613,
+          "assets": [
+            {
+              "id": 20797898,
+              "name": "onnxruntime-linux-x64-gpu-1.3.0.tgz",
+              "download_count": 785
+            },
+            {
+              "id": 20797900,
+              "name": "onnxruntime-osx-x64-1.3.0.tgz",
+              "download_count": 365
+            },
+            {
+              "id": 20797901,
+              "name": "onnxruntime-win-x64-1.3.0.zip",
+              "download_count": 1320
+            },
+            {
+              "id": 20797902,
+              "name": "onnxruntime-win-x64-gpu-1.3.0.zip",
+              "download_count": 1429
+            },
+            {
+              "id": 20797904,
+              "name": "onnxruntime-win-x86-1.3.0.zip",
+              "download_count": 312
+            },
+            {
+              "id": 20797905,
+              "name": "onnxruntime-linux-x64-1.3.0.tgz",
+              "download_count": 2037
+            },
+            {
+              "id": 20856156,
+              "name": "Microsoft.AI.MachineLearning.1.3.0.zip",
+              "download_count": 170
+            },
+            {
+              "id": 20856165,
+              "name": "Microsoft.ML.OnnxRuntime.DirectML.1.3.0.zip",
+              "download_count": 195
+            }
+          ]
+        },
+        {
+          "id": 27350483,
+          "tag": "v1.3.1",
+          "published_at": "2020-06-16T22:31:02Z",
+          "prerelease": false,
+          "total": 0,
+          "assets": []
+        },
+        {
+          "id": 28643516,
+          "tag": "v1.4.0",
+          "published_at": "2020-07-17T20:24:43Z",
+          "prerelease": false,
+          "total": 27990,
+          "assets": [
+            {
+              "id": 22950509,
+              "name": "Microsoft.AI.MachineLearning.1.4.0.zip",
+              "download_count": 193
+            },
+            {
+              "id": 22950532,
+              "name": "Microsoft.ML.OnnxRuntime.DirectML.1.4.0.zip",
+              "download_count": 201
+            },
+            {
+              "id": 22950553,
+              "name": "onnxruntime-linux-x64-gpu-1.4.0.tgz",
+              "download_count": 1476
+            },
+            {
+              "id": 22950555,
+              "name": "onnxruntime-linux-x64-1.4.0.tgz",
+              "download_count": 16101
+            },
+            {
+              "id": 22950557,
+              "name": "onnxruntime-osx-x64-1.4.0.tgz",
+              "download_count": 2437
+            },
+            {
+              "id": 22950619,
+              "name": "onnxruntime-win-x86-1.4.0.zip",
+              "download_count": 1898
+            },
+            {
+              "id": 22950621,
+              "name": "onnxruntime-win-x64-1.4.0.zip",
+              "download_count": 4436
+            },
+            {
+              "id": 22950622,
+              "name": "onnxruntime-win-x64-gpu-1.4.0.zip",
+              "download_count": 1248
+            }
+          ]
+        },
+        {
+          "id": 29099182,
+          "tag": "orttraining_rc2",
+          "published_at": "2020-07-31T18:37:46Z",
+          "prerelease": true,
+          "total": 0,
+          "assets": []
+        },
+        {
+          "id": 31736314,
+          "tag": "v1.5.1",
+          "published_at": "2020-09-29T23:46:23Z",
+          "prerelease": false,
+          "total": 5605,
+          "assets": [
+            {
+              "id": 26334500,
+              "name": "onnxruntime-linux-x64-1.5.1.tgz",
+              "download_count": 1470
+            },
+            {
+              "id": 26334504,
+              "name": "onnxruntime-linux-x64-gpu-1.5.1.tgz",
+              "download_count": 1191
+            },
+            {
+              "id": 26334510,
+              "name": "onnxruntime-osx-x64-1.5.1.tgz",
+              "download_count": 126
+            },
+            {
+              "id": 26334512,
+              "name": "onnxruntime-win-x64-1.5.1.zip",
+              "download_count": 758
+            },
+            {
+              "id": 26334519,
+              "name": "onnxruntime-win-x64-gpu-1.5.1.zip",
+              "download_count": 1495
+            },
+            {
+              "id": 26334528,
+              "name": "onnxruntime-win-x86-1.5.1.zip",
+              "download_count": 231
+            },
+            {
+              "id": 26339160,
+              "name": "Microsoft.AI.MachineLearning.1.5.1.zip",
+              "download_count": 96
+            },
+            {
+              "id": 26339948,
+              "name": "Microsoft.AI.MachineLearning.1.5.1.symbols.zip",
+              "download_count": 81
+            },
+            {
+              "id": 26340290,
+              "name": "Microsoft.ML.OnnxRuntime.DirectML.1.5.1.zip",
+              "download_count": 157
+            }
+          ]
+        },
+        {
+          "id": 31967780,
+          "tag": "orttraining_rc3",
+          "published_at": "2020-09-30T02:16:15Z",
+          "prerelease": true,
+          "total": 0,
+          "assets": []
+        },
+        {
+          "id": 32345643,
+          "tag": "orttraining_rc3.1",
+          "published_at": "2020-10-08T22:12:24Z",
+          "prerelease": true,
+          "total": 0,
+          "assets": []
+        },
+        {
+          "id": 32519856,
+          "tag": "v1.5.2",
+          "published_at": "2020-10-15T07:04:22Z",
+          "prerelease": false,
+          "total": 18578,
+          "assets": [
+            {
+              "id": 27013893,
+              "name": "Microsoft.AI.MachineLearning.1.5.2.symbols.zip",
+              "download_count": 89
+            },
+            {
+              "id": 27013909,
+              "name": "Microsoft.AI.MachineLearning.1.5.2.zip",
+              "download_count": 110
+            },
+            {
+              "id": 27013910,
+              "name": "Microsoft.ML.OnnxRuntime.DirectML.1.5.2.zip",
+              "download_count": 174
+            },
+            {
+              "id": 27013913,
+              "name": "onnxruntime-linux-x64-1.5.2.tgz",
+              "download_count": 14237
+            },
+            {
+              "id": 27013914,
+              "name": "onnxruntime-linux-x64-gpu-1.5.2.tgz",
+              "download_count": 640
+            },
+            {
+              "id": 27013918,
+              "name": "onnxruntime-osx-x64-1.5.2.tgz",
+              "download_count": 1146
+            },
+            {
+              "id": 27013921,
+              "name": "onnxruntime-win-x64-1.5.2.zip",
+              "download_count": 1269
+            },
+            {
+              "id": 27013923,
+              "name": "onnxruntime-win-x64-gpu-1.5.2.zip",
+              "download_count": 613
+            },
+            {
+              "id": 27013928,
+              "name": "onnxruntime-win-x86-1.5.2.zip",
+              "download_count": 300
+            }
+          ]
+        },
+        {
+          "id": 33236739,
+          "tag": "v1.5.3",
+          "published_at": "2020-10-29T19:21:54Z",
+          "prerelease": false,
+          "total": 0,
+          "assets": []
+        },
+        {
+          "id": 34858191,
+          "tag": "v1.6.0",
+          "published_at": "2020-12-11T05:06:51Z",
+          "prerelease": false,
+          "total": 112250,
+          "assets": [
+            {
+              "id": 29424890,
+              "name": "Microsoft.ML.OnnxRuntime.DirectML.1.6.0.zip",
+              "download_count": 383
+            },
+            {
+              "id": 29424891,
+              "name": "Microsoft.AI.MachineLearning.1.6.0.symbols.zip",
+              "download_count": 230
+            },
+            {
+              "id": 29424898,
+              "name": "Microsoft.AI.MachineLearning.1.6.0.zip",
+              "download_count": 175
+            },
+            {
+              "id": 29424899,
+              "name": "onnxruntime-win-x64-gpu-1.6.0.zip",
+              "download_count": 2664
+            },
+            {
+              "id": 29424900,
+              "name": "onnxruntime-win-x86-1.6.0.zip",
+              "download_count": 563
+            },
+            {
+              "id": 29424901,
+              "name": "onnxruntime-win-x64-1.6.0.zip",
+              "download_count": 4313
+            },
+            {
+              "id": 29424903,
+              "name": "onnxruntime-linux-x64-gpu-1.6.0.tgz",
+              "download_count": 2876
+            },
+            {
+              "id": 29424905,
+              "name": "onnxruntime-osx-x64-1.6.0.tgz",
+              "download_count": 3494
+            },
+            {
+              "id": 29424907,
+              "name": "onnxruntime-linux-x64-1.6.0.tgz",
+              "download_count": 97552
+            }
+          ]
+        },
+        {
+          "id": 38443267,
+          "tag": "v1.7.0",
+          "published_at": "2021-03-03T04:45:30Z",
+          "prerelease": false,
+          "total": 47482,
+          "assets": [
+            {
+              "id": 32814153,
+              "name": "Microsoft.AI.MachineLearning.1.7.0.symbols.zip",
+              "download_count": 108
+            },
+            {
+              "id": 32814282,
+              "name": "Microsoft.AI.MachineLearning.1.7.0.zip",
+              "download_count": 130
+            },
+            {
+              "id": 32814456,
+              "name": "Microsoft.ML.OnnxRuntime.DirectML.1.7.0.zip",
+              "download_count": 220
+            },
+            {
+              "id": 32843592,
+              "name": "onnxruntime-linux-x64-gpu-1.7.0.tgz",
+              "download_count": 2612
+            },
+            {
+              "id": 32843746,
+              "name": "onnxruntime-osx-x64-1.7.0.tgz",
+              "download_count": 1943
+            },
+            {
+              "id": 32843767,
+              "name": "onnxruntime-win-x86-1.7.0.zip",
+              "download_count": 1939
+            },
+            {
+              "id": 32843782,
+              "name": "onnxruntime-win-gpu-x64-1.7.0.zip",
+              "download_count": 2911
+            },
+            {
+              "id": 32843828,
+              "name": "onnxruntime-win-x64-1.7.0.zip",
+              "download_count": 3092
+            },
+            {
+              "id": 32843848,
+              "name": "onnxruntime-win-arm64-1.7.0.zip",
+              "download_count": 236
+            },
+            {
+              "id": 32843876,
+              "name": "onnxruntime-win-arm-1.7.0.zip",
+              "download_count": 119
+            },
+            {
+              "id": 32843932,
+              "name": "onnxruntime-linux-x64-1.7.0.tgz",
+              "download_count": 34172
+            }
+          ]
+        },
+        {
+          "id": 39249313,
+          "tag": "v1.7.1",
+          "published_at": "2021-03-04T17:08:05Z",
+          "prerelease": false,
+          "total": 0,
+          "assets": []
+        },
+        {
+          "id": 41080385,
+          "tag": "v1.7.2",
+          "published_at": "2021-04-08T00:38:52Z",
+          "prerelease": false,
+          "total": 830,
+          "assets": [
+            {
+              "id": 34607135,
+              "name": "Microsoft.AI.MachineLearning.1.7.2.zip",
+              "download_count": 565
+            },
+            {
+              "id": 34607361,
+              "name": "Microsoft.AI.MachineLearning.1.7.2.symbols.zip",
+              "download_count": 265
+            }
+          ]
+        },
+        {
+          "id": 43729690,
+          "tag": "v1.8.0",
+          "published_at": "2021-06-03T06:14:48Z",
+          "prerelease": false,
+          "total": 15984,
+          "assets": [
+            {
+              "id": 37977362,
+              "name": "Microsoft.ML.OnnxRuntime.DirectML.1.8.0.zip",
+              "download_count": 191
+            },
+            {
+              "id": 37977371,
+              "name": "Microsoft.AI.MachineLearning.1.8.0.symbols.zip",
+              "download_count": 129
+            },
+            {
+              "id": 37977376,
+              "name": "Microsoft.AI.MachineLearning.1.8.0.zip",
+              "download_count": 140
+            },
+            {
+              "id": 37977380,
+              "name": "onnxruntime-win-arm64-1.8.0.zip",
+              "download_count": 214
+            },
+            {
+              "id": 37977393,
+              "name": "onnxruntime-win-gpu-x64-1.8.0.zip",
+              "download_count": 1200
+            },
+            {
+              "id": 37977397,
+              "name": "onnxruntime-win-x64-1.8.0.zip",
+              "download_count": 2869
+            },
+            {
+              "id": 37977399,
+              "name": "onnxruntime-win-x86-1.8.0.zip",
+              "download_count": 734
+            },
+            {
+              "id": 37977400,
+              "name": "onnxruntime-win-arm-1.8.0.zip",
+              "download_count": 108
+            },
+            {
+              "id": 37977422,
+              "name": "onnxruntime-linux-x64-gpu-1.8.0.tgz",
+              "download_count": 1568
+            },
+            {
+              "id": 37977438,
+              "name": "onnxruntime-linux-x64-1.8.0.tgz",
+              "download_count": 8414
+            },
+            {
+              "id": 37977495,
+              "name": "onnxruntime-osx-x64-1.8.0.tgz",
+              "download_count": 417
+            }
+          ]
+        },
+        {
+          "id": 45799728,
+          "tag": "v1.8.1",
+          "published_at": "2021-07-08T01:54:51Z",
+          "prerelease": false,
+          "total": 204113,
+          "assets": [
+            {
+              "id": 39877260,
+              "name": "Microsoft.AI.MachineLearning.1.8.1.symbols.zip",
+              "download_count": 205
+            },
+            {
+              "id": 39877282,
+              "name": "Microsoft.AI.MachineLearning.1.8.1.zip",
+              "download_count": 216
+            },
+            {
+              "id": 39877284,
+              "name": "Microsoft.ML.OnnxRuntime.DirectML.1.8.1.zip",
+              "download_count": 301
+            },
+            {
+              "id": 39877290,
+              "name": "onnxruntime-linux-x64-1.8.1.tgz",
+              "download_count": 160858
+            },
+            {
+              "id": 39877291,
+              "name": "onnxruntime-linux-x64-gpu-1.8.1.tgz",
+              "download_count": 11837
+            },
+            {
+              "id": 39877294,
+              "name": "onnxruntime-osx-x64-1.8.1.tgz",
+              "download_count": 4344
+            },
+            {
+              "id": 39877295,
+              "name": "onnxruntime-win-arm-1.8.1.zip",
+              "download_count": 145
+            },
+            {
+              "id": 39877298,
+              "name": "onnxruntime-win-arm64-1.8.1.zip",
+              "download_count": 352
+            },
+            {
+              "id": 39877300,
+              "name": "onnxruntime-win-gpu-x64-1.8.1.zip",
+              "download_count": 3958
+            },
+            {
+              "id": 39877325,
+              "name": "onnxruntime-win-x64-1.8.1.zip",
+              "download_count": 20520
+            },
+            {
+              "id": 39877328,
+              "name": "onnxruntime-win-x86-1.8.1.zip",
+              "download_count": 1377
+            }
+          ]
+        },
+        {
+          "id": 47402761,
+          "tag": "v1.8.2",
+          "published_at": "2021-08-06T22:53:55Z",
+          "prerelease": false,
+          "total": 0,
+          "assets": []
+        },
+        {
+          "id": 49626409,
+          "tag": "v1.9.0",
+          "published_at": "2021-09-23T02:05:03Z",
+          "prerelease": false,
+          "total": 37859,
+          "assets": [
+            {
+              "id": 45387917,
+              "name": "Microsoft.ML.OnnxRuntime.DirectML.1.9.0.zip",
+              "download_count": 367
+            },
+            {
+              "id": 45387928,
+              "name": "Microsoft.AI.MachineLearning.1.9.0.symbols.zip",
+              "download_count": 112
+            },
+            {
+              "id": 45387935,
+              "name": "Microsoft.AI.MachineLearning.1.9.0.zip",
+              "download_count": 180
+            },
+            {
+              "id": 45388161,
+              "name": "onnxruntime-linux-x64-1.9.0.tgz",
+              "download_count": 20780
+            },
+            {
+              "id": 45388162,
+              "name": "onnxruntime-linux-x64-gpu-1.9.0.tgz",
+              "download_count": 6056
+            },
+            {
+              "id": 45388210,
+              "name": "onnxruntime-osx-x64-1.9.0.tgz",
+              "download_count": 1415
+            },
+            {
+              "id": 45388214,
+              "name": "onnxruntime-win-arm-1.9.0.zip",
+              "download_count": 249
+            },
+            {
+              "id": 45388249,
+              "name": "onnxruntime-win-arm64-1.9.0.zip",
+              "download_count": 315
+            },
+            {
+              "id": 45388266,
+              "name": "onnxruntime-win-x64-1.9.0.zip",
+              "download_count": 3762
+            },
+            {
+              "id": 45388281,
+              "name": "onnxruntime-win-x64-gpu-1.9.0.zip",
+              "download_count": 3709
+            },
+            {
+              "id": 45388390,
+              "name": "onnxruntime-win-x86-1.9.0.zip",
+              "download_count": 641
+            },
+            {
+              "id": 45415701,
+              "name": "Microsoft.ML.OnnxRuntime.1.9.0.snupkg",
+              "download_count": 114
+            },
+            {
+              "id": 45415713,
+              "name": "Microsoft.ML.OnnxRuntime.Gpu.1.9.0.snupkg",
+              "download_count": 159
+            }
+          ]
+        },
+        {
+          "id": 50778119,
+          "tag": "v1.9.1",
+          "published_at": "2021-10-05T00:13:24Z",
+          "prerelease": false,
+          "total": 1342,
+          "assets": [
+            {
+              "id": 46239416,
+              "name": "Microsoft.AI.MachineLearning.1.9.1.zip",
+              "download_count": 941
+            },
+            {
+              "id": 46239475,
+              "name": "Microsoft.AI.MachineLearning.1.9.1.symbols.zip",
+              "download_count": 401
+            }
+          ]
+        },
+        {
+          "id": 54834451,
+          "tag": "v1.10.0",
+          "published_at": "2021-12-08T00:22:39Z",
+          "prerelease": false,
+          "total": 153975,
+          "assets": [
+            {
+              "id": 51255143,
+              "name": "onnxruntime-osx-arm64-1.10.0.tgz",
+              "download_count": 1559
+            },
+            {
+              "id": 51255144,
+              "name": "onnxruntime-osx-universal2-1.10.0.tgz",
+              "download_count": 5499
+            },
+            {
+              "id": 51255146,
+              "name": "onnxruntime-osx-x86_64-1.10.0.tgz",
+              "download_count": 2771
+            },
+            {
+              "id": 51255148,
+              "name": "onnxruntime-win-arm-1.10.0.zip",
+              "download_count": 316
+            },
+            {
+              "id": 51255151,
+              "name": "onnxruntime-win-arm64-1.10.0.zip",
+              "download_count": 911
+            },
+            {
+              "id": 51255157,
+              "name": "onnxruntime-win-x64-1.10.0.zip",
+              "download_count": 21249
+            },
+            {
+              "id": 51255159,
+              "name": "onnxruntime-win-x64-gpu-1.10.0.zip",
+              "download_count": 14766
+            },
+            {
+              "id": 51255175,
+              "name": "onnxruntime-win-x86-1.10.0.zip",
+              "download_count": 5839
+            },
+            {
+              "id": 51255181,
+              "name": "Microsoft.AI.MachineLearning.1.10.0.symbols.zip",
+              "download_count": 199
+            },
+            {
+              "id": 51255195,
+              "name": "Microsoft.AI.MachineLearning.1.10.0.zip",
+              "download_count": 14711
+            },
+            {
+              "id": 51255196,
+              "name": "Microsoft.ML.OnnxRuntime.DirectML.1.10.0.zip",
+              "download_count": 1818
+            },
+            {
+              "id": 51255206,
+              "name": "onnxruntime-linux-x64-1.10.0.tgz",
+              "download_count": 43216
+            },
+            {
+              "id": 51255208,
+              "name": "onnxruntime-linux-x64-gpu-1.10.0.tgz",
+              "download_count": 34555
+            },
+            {
+              "id": 57729732,
+              "name": "onnxruntime-linux-aarch64-1.10.0.tgz",
+              "download_count": 6566
+            }
+          ]
+        },
+        {
+          "id": 62042906,
+          "tag": "v1.11.0",
+          "published_at": "2022-03-26T16:06:31Z",
+          "prerelease": false,
+          "total": 19400,
+          "assets": [
+            {
+              "id": 60598830,
+              "name": "Microsoft.AI.MachineLearning.1.11.0.symbols.zip",
+              "download_count": 207
+            },
+            {
+              "id": 60599122,
+              "name": "Microsoft.AI.MachineLearning.1.11.0.zip",
+              "download_count": 140
+            },
+            {
+              "id": 60599201,
+              "name": "Microsoft.ML.OnnxRuntime.DirectML.1.11.0.zip",
+              "download_count": 294
+            },
+            {
+              "id": 60599219,
+              "name": "onnxruntime-linux-aarch64-1.11.0.tgz",
+              "download_count": 1319
+            },
+            {
+              "id": 60599229,
+              "name": "onnxruntime-linux-x64-1.11.0.tgz",
+              "download_count": 8329
+            },
+            {
+              "id": 60599239,
+              "name": "onnxruntime-linux-x64-gpu-1.11.0.tgz",
+              "download_count": 2014
+            },
+            {
+              "id": 60599439,
+              "name": "onnxruntime-osx-arm64-1.11.0.tgz",
+              "download_count": 377
+            },
+            {
+              "id": 60599444,
+              "name": "onnxruntime-osx-universal2-1.11.0.tgz",
+              "download_count": 585
+            },
+            {
+              "id": 60599459,
+              "name": "onnxruntime-osx-x86_64-1.11.0.tgz",
+              "download_count": 1257
+            },
+            {
+              "id": 60599470,
+              "name": "onnxruntime-win-arm-1.11.0.zip",
+              "download_count": 91
+            },
+            {
+              "id": 60599531,
+              "name": "onnxruntime-win-x64-1.11.0.zip",
+              "download_count": 2766
+            },
+            {
+              "id": 60599602,
+              "name": "onnxruntime-win-x64-gpu-1.11.0.zip",
+              "download_count": 1419
+            },
+            {
+              "id": 60600705,
+              "name": "onnxruntime-win-x86-1.11.0.zip",
+              "download_count": 431
+            },
+            {
+              "id": 60627581,
+              "name": "onnxruntime-win-arm64-1.11.0.zip",
+              "download_count": 171
+            }
+          ]
+        },
+        {
+          "id": 64675312,
+          "tag": "v1.11.1",
+          "published_at": "2022-04-27T17:16:55Z",
+          "prerelease": false,
+          "total": 251583,
+          "assets": [
+            {
+              "id": 63597317,
+              "name": "Microsoft.AI.MachineLearning.1.11.1.symbols.zip",
+              "download_count": 190
+            },
+            {
+              "id": 63597376,
+              "name": "Microsoft.AI.MachineLearning.1.11.1.zip",
+              "download_count": 250
+            },
+            {
+              "id": 63597383,
+              "name": "Microsoft.ML.OnnxRuntime.DirectML.1.11.1.zip",
+              "download_count": 4963
+            },
+            {
+              "id": 63597389,
+              "name": "onnxruntime-linux-aarch64-1.11.1.tgz",
+              "download_count": 2646
+            },
+            {
+              "id": 63597390,
+              "name": "onnxruntime-linux-x64-1.11.1.tgz",
+              "download_count": 111016
+            },
+            {
+              "id": 63597392,
+              "name": "onnxruntime-linux-x64-gpu-1.11.1.tgz",
+              "download_count": 7727
+            },
+            {
+              "id": 63597412,
+              "name": "onnxruntime-osx-arm64-1.11.1.tgz",
+              "download_count": 1818
+            },
+            {
+              "id": 63597414,
+              "name": "onnxruntime-osx-universal2-1.11.1.tgz",
+              "download_count": 6229
+            },
+            {
+              "id": 63597419,
+              "name": "onnxruntime-osx-x86_64-1.11.1.tgz",
+              "download_count": 8810
+            },
+            {
+              "id": 63597422,
+              "name": "onnxruntime-win-arm-1.11.1.zip",
+              "download_count": 139
+            },
+            {
+              "id": 63597427,
+              "name": "onnxruntime-win-arm64-1.11.1.zip",
+              "download_count": 230
+            },
+            {
+              "id": 63597429,
+              "name": "onnxruntime-win-x64-1.11.1.zip",
+              "download_count": 98101
+            },
+            {
+              "id": 63597436,
+              "name": "onnxruntime-win-x64-gpu-1.11.1.zip",
+              "download_count": 6714
+            },
+            {
+              "id": 63597474,
+              "name": "onnxruntime-win-x86-1.11.1.zip",
+              "download_count": 2750
+            }
+          ]
+        },
+        {
+          "id": 72117821,
+          "tag": "v1.12.0",
+          "published_at": "2022-07-22T04:43:39Z",
+          "prerelease": false,
+          "total": 48057,
+          "assets": [
+            {
+              "id": 72316808,
+              "name": "Microsoft.AI.MachineLearning.1.12.0.symbols.zip",
+              "download_count": 155
+            },
+            {
+              "id": 72316815,
+              "name": "Microsoft.AI.MachineLearning.1.12.0.zip",
+              "download_count": 173
+            },
+            {
+              "id": 72316816,
+              "name": "Microsoft.ML.OnnxRuntime.DirectML.1.12.0.zip",
+              "download_count": 273
+            },
+            {
+              "id": 72316819,
+              "name": "onnxruntime-linux-aarch64-1.12.0.tgz",
+              "download_count": 2886
+            },
+            {
+              "id": 72316820,
+              "name": "onnxruntime-linux-x64-1.12.0.tgz",
+              "download_count": 18481
+            },
+            {
+              "id": 72316821,
+              "name": "onnxruntime-linux-x64-gpu-1.12.0.tgz",
+              "download_count": 9852
+            },
+            {
+              "id": 72316828,
+              "name": "onnxruntime-osx-arm64-1.12.0.tgz",
+              "download_count": 910
+            },
+            {
+              "id": 72316832,
+              "name": "onnxruntime-osx-universal2-1.12.0.tgz",
+              "download_count": 2871
+            },
+            {
+              "id": 72316836,
+              "name": "onnxruntime-osx-x86_64-1.12.0.tgz",
+              "download_count": 537
+            },
+            {
+              "id": 72316841,
+              "name": "onnxruntime-win-arm-1.12.0.zip",
+              "download_count": 110
+            },
+            {
+              "id": 72316850,
+              "name": "onnxruntime-win-arm64-1.12.0.zip",
+              "download_count": 171
+            },
+            {
+              "id": 72316859,
+              "name": "onnxruntime-win-x64-1.12.0.zip",
+              "download_count": 9113
+            },
+            {
+              "id": 72316867,
+              "name": "onnxruntime-win-x64-gpu-1.12.0.zip",
+              "download_count": 2051
+            },
+            {
+              "id": 72316891,
+              "name": "onnxruntime-win-x86-1.12.0.zip",
+              "download_count": 474
+            }
+          ]
+        },
+        {
+          "id": 73563283,
+          "tag": "v1.12.1",
+          "published_at": "2022-08-04T22:07:11Z",
+          "prerelease": false,
+          "total": 124553,
+          "assets": [
+            {
+              "id": 73710016,
+              "name": "Microsoft.AI.MachineLearning.1.12.1.symbols.zip",
+              "download_count": 320
+            },
+            {
+              "id": 73710046,
+              "name": "Microsoft.AI.MachineLearning.1.12.1.zip",
+              "download_count": 792
+            },
+            {
+              "id": 73710049,
+              "name": "Microsoft.ML.OnnxRuntime.DirectML.1.12.1.zip",
+              "download_count": 848
+            },
+            {
+              "id": 73710053,
+              "name": "onnxruntime-linux-aarch64-1.12.1.tgz",
+              "download_count": 5339
+            },
+            {
+              "id": 73710055,
+              "name": "onnxruntime-linux-x64-1.12.1.tgz",
+              "download_count": 50529
+            },
+            {
+              "id": 73710056,
+              "name": "onnxruntime-linux-x64-gpu-1.12.1.tgz",
+              "download_count": 26300
+            },
+            {
+              "id": 73710079,
+              "name": "onnxruntime-osx-arm64-1.12.1.tgz",
+              "download_count": 2932
+            },
+            {
+              "id": 73710082,
+              "name": "onnxruntime-osx-universal2-1.12.1.tgz",
+              "download_count": 3132
+            },
+            {
+              "id": 73710083,
+              "name": "onnxruntime-osx-x86_64-1.12.1.tgz",
+              "download_count": 2650
+            },
+            {
+              "id": 73710085,
+              "name": "onnxruntime-win-arm-1.12.1.zip",
+              "download_count": 266
+            },
+            {
+              "id": 73710087,
+              "name": "onnxruntime-win-arm64-1.12.1.zip",
+              "download_count": 223
+            },
+            {
+              "id": 73710091,
+              "name": "onnxruntime-win-x64-1.12.1.zip",
+              "download_count": 10130
+            },
+            {
+              "id": 73710092,
+              "name": "onnxruntime-win-x64-gpu-1.12.1.zip",
+              "download_count": 19773
+            },
+            {
+              "id": 73710103,
+              "name": "onnxruntime-win-x86-1.12.1.zip",
+              "download_count": 1319
+            }
+          ]
+        },
+        {
+          "id": 78992513,
+          "tag": "v1.13.1",
+          "published_at": "2022-10-24T21:09:37Z",
+          "prerelease": false,
+          "total": 159349,
+          "assets": [
+            {
+              "id": 82016220,
+              "name": "Microsoft.AI.MachineLearning.1.13.1.symbols.zip",
+              "download_count": 561
+            },
+            {
+              "id": 82016301,
+              "name": "Microsoft.AI.MachineLearning.1.13.1.zip",
+              "download_count": 627
+            },
+            {
+              "id": 82016303,
+              "name": "Microsoft.ML.OnnxRuntime.DirectML.1.13.1.zip",
+              "download_count": 4083
+            },
+            {
+              "id": 82016305,
+              "name": "onnxruntime-linux-aarch64-1.13.1.tgz",
+              "download_count": 7753
+            },
+            {
+              "id": 82016308,
+              "name": "onnxruntime-linux-x64-1.13.1.tgz",
+              "download_count": 96085
+            },
+            {
+              "id": 82016345,
+              "name": "onnxruntime-linux-x64-gpu-1.13.1.tgz",
+              "download_count": 12363
+            },
+            {
+              "id": 82016398,
+              "name": "onnxruntime-osx-arm64-1.13.1.tgz",
+              "download_count": 5097
+            },
+            {
+              "id": 82016401,
+              "name": "onnxruntime-osx-universal2-1.13.1.tgz",
+              "download_count": 2270
+            },
+            {
+              "id": 82016409,
+              "name": "onnxruntime-osx-x86_64-1.13.1.tgz",
+              "download_count": 6965
+            },
+            {
+              "id": 82016413,
+              "name": "onnxruntime-win-arm-1.13.1.zip",
+              "download_count": 154
+            },
+            {
+              "id": 82016415,
+              "name": "onnxruntime-win-arm64-1.13.1.zip",
+              "download_count": 381
+            },
+            {
+              "id": 82016422,
+              "name": "onnxruntime-win-x64-1.13.1.zip",
+              "download_count": 13998
+            },
+            {
+              "id": 82016486,
+              "name": "onnxruntime-win-x64-gpu-1.13.1.zip",
+              "download_count": 5927
+            },
+            {
+              "id": 82016615,
+              "name": "onnxruntime-win-x86-1.13.1.zip",
+              "download_count": 3085
+            }
+          ]
+        },
+        {
+          "id": 89754215,
+          "tag": "v1.14.0",
+          "published_at": "2023-02-11T01:03:57Z",
+          "prerelease": false,
+          "total": 124866,
+          "assets": [
+            {
+              "id": 95120074,
+              "name": "onnxruntime-linux-aarch64-1.14.0.tgz",
+              "download_count": 5557
+            },
+            {
+              "id": 95120086,
+              "name": "onnxruntime-linux-x64-1.14.0.tgz",
+              "download_count": 52718
+            },
+            {
+              "id": 95120242,
+              "name": "onnxruntime-linux-x64-gpu-1.14.0.tgz",
+              "download_count": 17454
+            },
+            {
+              "id": 95120740,
+              "name": "onnxruntime-osx-arm64-1.14.0.tgz",
+              "download_count": 4369
+            },
+            {
+              "id": 95120745,
+              "name": "onnxruntime-osx-universal2-1.14.0.tgz",
+              "download_count": 3700
+            },
+            {
+              "id": 95120759,
+              "name": "onnxruntime-osx-x86_64-1.14.0.tgz",
+              "download_count": 10371
+            },
+            {
+              "id": 95120771,
+              "name": "onnxruntime-win-arm-1.14.0.zip",
+              "download_count": 168
+            },
+            {
+              "id": 95120804,
+              "name": "onnxruntime-win-arm64-1.14.0.zip",
+              "download_count": 396
+            },
+            {
+              "id": 95120853,
+              "name": "onnxruntime-win-x64-1.14.0.zip",
+              "download_count": 15800
+            },
+            {
+              "id": 95121166,
+              "name": "onnxruntime-win-x64-gpu-1.14.0.zip",
+              "download_count": 6547
+            },
+            {
+              "id": 95121630,
+              "name": "onnxruntime-win-x86-1.14.0.zip",
+              "download_count": 2911
+            },
+            {
+              "id": 95121677,
+              "name": "Microsoft.ML.OnnxRuntime.DirectML.1.14.0.zip",
+              "download_count": 4511
+            },
+            {
+              "id": 95139494,
+              "name": "Microsoft.AI.MachineLearning.1.14.0.symbols.zip",
+              "download_count": 160
+            },
+            {
+              "id": 95139733,
+              "name": "Microsoft.AI.MachineLearning.1.14.0.zip",
+              "download_count": 204
+            }
+          ]
+        },
+        {
+          "id": 93858445,
+          "tag": "v1.14.1",
+          "published_at": "2023-03-02T19:43:13Z",
+          "prerelease": false,
+          "total": 728887,
+          "assets": [
+            {
+              "id": 97361057,
+              "name": "onnxruntime-win-x64-1.14.1.zip",
+              "download_count": 30613
+            },
+            {
+              "id": 97361096,
+              "name": "onnxruntime-win-arm64-1.14.1.zip",
+              "download_count": 288
+            },
+            {
+              "id": 97361134,
+              "name": "onnxruntime-win-arm-1.14.1.zip",
+              "download_count": 682
+            },
+            {
+              "id": 97361202,
+              "name": "onnxruntime-osx-x86_64-1.14.1.tgz",
+              "download_count": 27097
+            },
+            {
+              "id": 97361218,
+              "name": "onnxruntime-osx-universal2-1.14.1.tgz",
+              "download_count": 1912
+            },
+            {
+              "id": 97361228,
+              "name": "onnxruntime-osx-arm64-1.14.1.tgz",
+              "download_count": 48070
+            },
+            {
+              "id": 97361232,
+              "name": "onnxruntime-linux-x64-gpu-1.14.1.tgz",
+              "download_count": 107270
+            },
+            {
+              "id": 97361362,
+              "name": "onnxruntime-linux-x64-1.14.1.tgz",
+              "download_count": 444674
+            },
+            {
+              "id": 97361366,
+              "name": "onnxruntime-linux-aarch64-1.14.1.tgz",
+              "download_count": 58061
+            },
+            {
+              "id": 97361713,
+              "name": "Microsoft.ML.OnnxRuntime.DirectML.1.14.1.zip",
+              "download_count": 1309
+            },
+            {
+              "id": 97361746,
+              "name": "onnxruntime-win-x64-gpu-1.14.1.zip",
+              "download_count": 6534
+            },
+            {
+              "id": 97362275,
+              "name": "onnxruntime-win-x86-1.14.1.zip",
+              "download_count": 1144
+            },
+            {
+              "id": 97804710,
+              "name": "Microsoft.AI.MachineLearning.1.14.1.symbols.zip",
+              "download_count": 596
+            },
+            {
+              "id": 97805410,
+              "name": "Microsoft.AI.MachineLearning.1.14.1.zip",
+              "download_count": 637
+            }
+          ]
+        },
+        {
+          "id": 104181211,
+          "tag": "v1.15.0",
+          "published_at": "2023-05-25T01:44:38Z",
+          "prerelease": false,
+          "total": 40979,
+          "assets": [
+            {
+              "id": 109663705,
+              "name": "Microsoft.AI.MachineLearning.1.15.0.symbols.zip",
+              "download_count": 170
+            },
+            {
+              "id": 109663715,
+              "name": "Microsoft.AI.MachineLearning.1.15.0.zip",
+              "download_count": 246
+            },
+            {
+              "id": 109663718,
+              "name": "onnxruntime-training-win-x86-1.15.0.zip",
+              "download_count": 88
+            },
+            {
+              "id": 109663722,
+              "name": "onnxruntime-training-win-x64-1.15.0.zip",
+              "download_count": 933
+            },
+            {
+              "id": 109663726,
+              "name": "onnxruntime-training-win-arm64-1.15.0.zip",
+              "download_count": 71
+            },
+            {
+              "id": 109663728,
+              "name": "onnxruntime-training-win-arm-1.15.0.zip",
+              "download_count": 65
+            },
+            {
+              "id": 109663731,
+              "name": "onnxruntime-training-linux-x64-1.15.0.tgz",
+              "download_count": 840
+            },
+            {
+              "id": 109663733,
+              "name": "onnxruntime-training-linux-aarch64-1.15.0.tgz",
+              "download_count": 100
+            },
+            {
+              "id": 109663740,
+              "name": "Microsoft.ML.OnnxRuntime.DirectML.1.15.0.zip",
+              "download_count": 390
+            },
+            {
+              "id": 109663747,
+              "name": "onnxruntime-win-x64-gpu-1.15.0.zip",
+              "download_count": 2847
+            },
+            {
+              "id": 109664081,
+              "name": "onnxruntime-win-x86-1.15.0.zip",
+              "download_count": 501
+            },
+            {
+              "id": 109664083,
+              "name": "onnxruntime-win-arm-1.15.0.zip",
+              "download_count": 87
+            },
+            {
+              "id": 109664084,
+              "name": "onnxruntime-win-x64-1.15.0.zip",
+              "download_count": 4004
+            },
+            {
+              "id": 109664085,
+              "name": "onnxruntime-win-arm64-1.15.0.zip",
+              "download_count": 361
+            },
+            {
+              "id": 109664086,
+              "name": "onnxruntime-linux-x64-gpu-1.15.0.tgz",
+              "download_count": 8586
+            },
+            {
+              "id": 109664089,
+              "name": "onnxruntime-osx-x86_64-1.15.0.tgz",
+              "download_count": 1390
+            },
+            {
+              "id": 109664092,
+              "name": "onnxruntime-osx-universal2-1.15.0.tgz",
+              "download_count": 1163
+            },
+            {
+              "id": 109664094,
+              "name": "onnxruntime-osx-arm64-1.15.0.tgz",
+              "download_count": 1222
+            },
+            {
+              "id": 109664096,
+              "name": "onnxruntime-linux-x64-1.15.0.tgz",
+              "download_count": 15633
+            },
+            {
+              "id": 109664098,
+              "name": "onnxruntime-linux-aarch64-1.15.0.tgz",
+              "download_count": 2282
+            }
+          ]
+        },
+        {
+          "id": 108935169,
+          "tag": "v1.15.1",
+          "published_at": "2023-06-16T21:12:02Z",
+          "prerelease": false,
+          "total": 361277,
+          "assets": [
+            {
+              "id": 113117922,
+              "name": "Microsoft.AI.MachineLearning.1.15.1.symbols.zip",
+              "download_count": 663
+            },
+            {
+              "id": 113117948,
+              "name": "Microsoft.AI.MachineLearning.1.15.1.zip",
+              "download_count": 912
+            },
+            {
+              "id": 113117951,
+              "name": "Microsoft.ML.OnnxRuntime.DirectML.1.15.1.zip",
+              "download_count": 1556
+            },
+            {
+              "id": 113118285,
+              "name": "onnxruntime-training-linux-x64-1.15.1.tgz",
+              "download_count": 1550
+            },
+            {
+              "id": 113118286,
+              "name": "onnxruntime-training-linux-aarch64-1.15.1.tgz",
+              "download_count": 170
+            },
+            {
+              "id": 113118287,
+              "name": "onnxruntime-osx-x86_64-1.15.1.tgz",
+              "download_count": 9531
+            },
+            {
+              "id": 113118288,
+              "name": "onnxruntime-osx-universal2-1.15.1.tgz",
+              "download_count": 16077
+            },
+            {
+              "id": 113118290,
+              "name": "onnxruntime-osx-arm64-1.15.1.tgz",
+              "download_count": 8659
+            },
+            {
+              "id": 113118291,
+              "name": "onnxruntime-linux-x64-gpu-1.15.1.tgz",
+              "download_count": 113036
+            },
+            {
+              "id": 113118297,
+              "name": "onnxruntime-linux-x64-1.15.1.tgz",
+              "download_count": 143209
+            },
+            {
+              "id": 113118303,
+              "name": "onnxruntime-linux-aarch64-1.15.1.tgz",
+              "download_count": 17393
+            },
+            {
+              "id": 113118308,
+              "name": "onnxruntime-training-win-arm-1.15.1.zip",
+              "download_count": 86
+            },
+            {
+              "id": 113118315,
+              "name": "onnxruntime-win-x64-gpu-1.15.1.zip",
+              "download_count": 11522
+            },
+            {
+              "id": 113118322,
+              "name": "onnxruntime-win-x86-1.15.1.zip",
+              "download_count": 3077
+            },
+            {
+              "id": 113118336,
+              "name": "onnxruntime-win-x64-1.15.1.zip",
+              "download_count": 29709
+            },
+            {
+              "id": 113118337,
+              "name": "onnxruntime-win-arm64-1.15.1.zip",
+              "download_count": 1792
+            },
+            {
+              "id": 113118338,
+              "name": "onnxruntime-win-arm-1.15.1.zip",
+              "download_count": 249
+            },
+            {
+              "id": 113118343,
+              "name": "onnxruntime-training-win-x86-1.15.1.zip",
+              "download_count": 131
+            },
+            {
+              "id": 113118352,
+              "name": "onnxruntime-training-win-x64-1.15.1.zip",
+              "download_count": 1852
+            },
+            {
+              "id": 113118359,
+              "name": "onnxruntime-training-win-arm64-1.15.1.zip",
+              "download_count": 103
+            }
+          ]
+        },
+        {
+          "id": 121474125,
+          "tag": "v1.16.0",
+          "published_at": "2023-09-20T21:27:50Z",
+          "prerelease": false,
+          "total": 247537,
+          "assets": [
+            {
+              "id": 126978903,
+              "name": "onnxruntime-linux-x64-gpu-1.16.0.tgz",
+              "download_count": 37925
+            },
+            {
+              "id": 126978911,
+              "name": "onnxruntime-linux-aarch64-1.16.0.tgz",
+              "download_count": 39399
+            },
+            {
+              "id": 126978914,
+              "name": "onnxruntime-linux-x64-1.16.0.tgz",
+              "download_count": 105249
+            },
+            {
+              "id": 126978915,
+              "name": "onnxruntime-osx-arm64-1.16.0.tgz",
+              "download_count": 25685
+            },
+            {
+              "id": 126978916,
+              "name": "onnxruntime-osx-universal2-1.16.0.tgz",
+              "download_count": 960
+            },
+            {
+              "id": 126978920,
+              "name": "onnxruntime-osx-x86_64-1.16.0.tgz",
+              "download_count": 4321
+            },
+            {
+              "id": 126978924,
+              "name": "onnxruntime-training-linux-aarch64-1.16.0.tgz",
+              "download_count": 120
+            },
+            {
+              "id": 126978927,
+              "name": "onnxruntime-training-win-arm-1.16.0.zip",
+              "download_count": 69
+            },
+            {
+              "id": 126978937,
+              "name": "onnxruntime-training-linux-x64-1.16.0.tgz",
+              "download_count": 120
+            },
+            {
+              "id": 126978941,
+              "name": "onnxruntime-training-win-arm64-1.16.0.zip",
+              "download_count": 86
+            },
+            {
+              "id": 126978947,
+              "name": "onnxruntime-training-win-x64-1.16.0.zip",
+              "download_count": 202
+            },
+            {
+              "id": 126978951,
+              "name": "onnxruntime-training-win-x86-1.16.0.zip",
+              "download_count": 83
+            },
+            {
+              "id": 126978957,
+              "name": "onnxruntime-win-x64-gpu-1.16.0.zip",
+              "download_count": 5921
+            },
+            {
+              "id": 126978973,
+              "name": "onnxruntime-win-arm-1.16.0.zip",
+              "download_count": 89
+            },
+            {
+              "id": 126978976,
+              "name": "onnxruntime-win-arm64-1.16.0.zip",
+              "download_count": 443
+            },
+            {
+              "id": 126978983,
+              "name": "onnxruntime-win-x64-1.16.0.zip",
+              "download_count": 25383
+            },
+            {
+              "id": 126978990,
+              "name": "onnxruntime-win-x86-1.16.0.zip",
+              "download_count": 686
+            },
+            {
+              "id": 126979216,
+              "name": "Microsoft.AI.MachineLearning.1.16.0.symbols.zip",
+              "download_count": 160
+            },
+            {
+              "id": 126979219,
+              "name": "Microsoft.AI.MachineLearning.1.16.0.zip",
+              "download_count": 239
+            },
+            {
+              "id": 126979221,
+              "name": "Microsoft.ML.OnnxRuntime.DirectML.1.16.0.zip",
+              "download_count": 397
+            }
+          ]
+        },
+        {
+          "id": 124665322,
+          "tag": "v1.16.1",
+          "published_at": "2023-10-11T18:28:30Z",
+          "prerelease": false,
+          "total": 90268,
+          "assets": [
+            {
+              "id": 130118664,
+              "name": "Microsoft.ML.OnnxRuntime.DirectML.1.16.1.zip",
+              "download_count": 684
+            },
+            {
+              "id": 130118669,
+              "name": "onnxruntime-training-linux-aarch64-1.16.1.tgz",
+              "download_count": 79
+            },
+            {
+              "id": 130118674,
+              "name": "onnxruntime-training-linux-x64-1.16.1.tgz",
+              "download_count": 3700
+            },
+            {
+              "id": 130118677,
+              "name": "onnxruntime-training-win-arm-1.16.1.zip",
+              "download_count": 54
+            },
+            {
+              "id": 130118682,
+              "name": "onnxruntime-training-win-arm64-1.16.1.zip",
+              "download_count": 52
+            },
+            {
+              "id": 130118699,
+              "name": "onnxruntime-training-win-x64-1.16.1.zip",
+              "download_count": 171
+            },
+            {
+              "id": 130118715,
+              "name": "onnxruntime-training-win-x86-1.16.1.zip",
+              "download_count": 78
+            },
+            {
+              "id": 130118728,
+              "name": "onnxruntime-win-arm-1.16.1.zip",
+              "download_count": 135
+            },
+            {
+              "id": 130118744,
+              "name": "onnxruntime-win-arm64-1.16.1.zip",
+              "download_count": 267
+            },
+            {
+              "id": 130118759,
+              "name": "onnxruntime-win-x64-1.16.1.zip",
+              "download_count": 5351
+            },
+            {
+              "id": 130118770,
+              "name": "onnxruntime-win-x86-1.16.1.zip",
+              "download_count": 468
+            },
+            {
+              "id": 130118776,
+              "name": "onnxruntime-win-x64-gpu-1.16.1.zip",
+              "download_count": 2033
+            },
+            {
+              "id": 130118820,
+              "name": "Microsoft.AI.MachineLearning.1.16.1.zip",
+              "download_count": 466
+            },
+            {
+              "id": 130118831,
+              "name": "Microsoft.AI.MachineLearning.1.16.1.symbols.zip",
+              "download_count": 443
+            },
+            {
+              "id": 130118897,
+              "name": "onnxruntime-osx-x86_64-1.16.1.tgz",
+              "download_count": 2493
+            },
+            {
+              "id": 130118899,
+              "name": "onnxruntime-osx-universal2-1.16.1.tgz",
+              "download_count": 4569
+            },
+            {
+              "id": 130118906,
+              "name": "onnxruntime-linux-x64-gpu-1.16.1.tgz",
+              "download_count": 13360
+            },
+            {
+              "id": 130118922,
+              "name": "onnxruntime-osx-arm64-1.16.1.tgz",
+              "download_count": 4874
+            },
+            {
+              "id": 130118923,
+              "name": "onnxruntime-linux-x64-1.16.1.tgz",
+              "download_count": 46878
+            },
+            {
+              "id": 130118925,
+              "name": "onnxruntime-linux-aarch64-1.16.1.tgz",
+              "download_count": 4113
+            }
+          ]
+        },
+        {
+          "id": 128703127,
+          "tag": "v1.16.2",
+          "published_at": "2023-11-09T12:08:24Z",
+          "prerelease": false,
+          "total": 68888,
+          "assets": [
+            {
+              "id": 134720932,
+              "name": "Microsoft.ML.OnnxRuntime.DirectML.1.16.2.zip",
+              "download_count": 238
+            },
+            {
+              "id": 134720941,
+              "name": "onnxruntime-win-x64-gpu-1.16.2.zip",
+              "download_count": 3984
+            },
+            {
+              "id": 134720948,
+              "name": "onnxruntime-win-x86-1.16.2.zip",
+              "download_count": 247
+            },
+            {
+              "id": 134720954,
+              "name": "onnxruntime-win-x64-1.16.2.zip",
+              "download_count": 2436
+            },
+            {
+              "id": 134720959,
+              "name": "onnxruntime-win-arm64-1.16.2.zip",
+              "download_count": 100
+            },
+            {
+              "id": 134720967,
+              "name": "onnxruntime-win-arm-1.16.2.zip",
+              "download_count": 59
+            },
+            {
+              "id": 134720973,
+              "name": "onnxruntime-training-win-x86-1.16.2.zip",
+              "download_count": 66
+            },
+            {
+              "id": 134720994,
+              "name": "onnxruntime-training-win-x64-1.16.2.zip",
+              "download_count": 115
+            },
+            {
+              "id": 134721003,
+              "name": "onnxruntime-training-win-arm64-1.16.2.zip",
+              "download_count": 52
+            },
+            {
+              "id": 134721013,
+              "name": "onnxruntime-training-win-arm-1.16.2.zip",
+              "download_count": 52
+            },
+            {
+              "id": 134721023,
+              "name": "onnxruntime-training-linux-x64-1.16.2.tgz",
+              "download_count": 159
+            },
+            {
+              "id": 134721027,
+              "name": "onnxruntime-training-linux-aarch64-1.16.2.tgz",
+              "download_count": 63
+            },
+            {
+              "id": 134721030,
+              "name": "onnxruntime-osx-x86_64-1.16.2.tgz",
+              "download_count": 1444
+            },
+            {
+              "id": 134721033,
+              "name": "onnxruntime-osx-universal2-1.16.2.tgz",
+              "download_count": 3461
+            },
+            {
+              "id": 134721039,
+              "name": "onnxruntime-linux-x64-gpu-1.16.2.tgz",
+              "download_count": 3965
+            },
+            {
+              "id": 134721054,
+              "name": "onnxruntime-osx-arm64-1.16.2.tgz",
+              "download_count": 217
+            },
+            {
+              "id": 134721056,
+              "name": "onnxruntime-linux-x64-1.16.2.tgz",
+              "download_count": 50780
+            },
+            {
+              "id": 134721057,
+              "name": "onnxruntime-linux-aarch64-1.16.2.tgz",
+              "download_count": 1108
+            },
+            {
+              "id": 134721059,
+              "name": "Microsoft.AI.MachineLearning.1.16.2.symbols.zip",
+              "download_count": 185
+            },
+            {
+              "id": 134721075,
+              "name": "Microsoft.AI.MachineLearning.1.16.2.zip",
+              "download_count": 157
+            }
+          ]
+        },
+        {
+          "id": 130487799,
+          "tag": "v1.16.3",
+          "published_at": "2023-11-20T20:51:56Z",
+          "prerelease": false,
+          "total": 407917,
+          "assets": [
+            {
+              "id": 136583126,
+              "name": "onnxruntime-linux-x64-1.16.3.tgz",
+              "download_count": 256854
+            },
+            {
+              "id": 136583131,
+              "name": "onnxruntime-linux-aarch64-1.16.3.tgz",
+              "download_count": 37072
+            },
+            {
+              "id": 136583132,
+              "name": "onnxruntime-training-linux-aarch64-1.16.3.tgz",
+              "download_count": 186
+            },
+            {
+              "id": 136583133,
+              "name": "onnxruntime-training-linux-x64-1.16.3.tgz",
+              "download_count": 1533
+            },
+            {
+              "id": 136583134,
+              "name": "onnxruntime-training-win-arm-1.16.3.zip",
+              "download_count": 99
+            },
+            {
+              "id": 136583144,
+              "name": "onnxruntime-training-win-arm64-1.16.3.zip",
+              "download_count": 125
+            },
+            {
+              "id": 136583147,
+              "name": "onnxruntime-training-win-x64-1.16.3.zip",
+              "download_count": 2943
+            },
+            {
+              "id": 136583152,
+              "name": "onnxruntime-training-win-x86-1.16.3.zip",
+              "download_count": 137
+            },
+            {
+              "id": 136583162,
+              "name": "onnxruntime-win-arm-1.16.3.zip",
+              "download_count": 110
+            },
+            {
+              "id": 136583167,
+              "name": "onnxruntime-win-arm64-1.16.3.zip",
+              "download_count": 482
+            },
+            {
+              "id": 136583172,
+              "name": "onnxruntime-win-x64-1.16.3.zip",
+              "download_count": 27173
+            },
+            {
+              "id": 136583176,
+              "name": "onnxruntime-win-x86-1.16.3.zip",
+              "download_count": 1520
+            },
+            {
+              "id": 136583182,
+              "name": "onnxruntime-win-x64-gpu-1.16.3.zip",
+              "download_count": 9286
+            },
+            {
+              "id": 136583196,
+              "name": "onnxruntime-osx-x86_64-1.16.3.tgz",
+              "download_count": 31071
+            },
+            {
+              "id": 136583199,
+              "name": "onnxruntime-osx-universal2-1.16.3.tgz",
+              "download_count": 3637
+            },
+            {
+              "id": 136583201,
+              "name": "onnxruntime-osx-arm64-1.16.3.tgz",
+              "download_count": 7637
+            },
+            {
+              "id": 136583204,
+              "name": "onnxruntime-linux-x64-gpu-1.16.3.tgz",
+              "download_count": 25480
+            },
+            {
+              "id": 136583728,
+              "name": "Microsoft.AI.MachineLearning.1.16.3.zip",
+              "download_count": 722
+            },
+            {
+              "id": 136583732,
+              "name": "Microsoft.AI.MachineLearning.1.16.3.symbols.zip",
+              "download_count": 599
+            },
+            {
+              "id": 136583773,
+              "name": "Microsoft.ML.OnnxRuntime.DirectML.1.16.3.zip",
+              "download_count": 1251
+            }
+          ]
+        },
+        {
+          "id": 138068952,
+          "tag": "v1.17.0",
+          "published_at": "2024-02-03T00:25:21Z",
+          "prerelease": false,
+          "total": 85785,
+          "assets": [
+            {
+              "id": 148967673,
+              "name": "onnxruntime-linux-aarch64-1.17.0.tgz",
+              "download_count": 4715
+            },
+            {
+              "id": 148967695,
+              "name": "onnxruntime-linux-x64-1.17.0.tgz",
+              "download_count": 48672
+            },
+            {
+              "id": 148967711,
+              "name": "onnxruntime-linux-x64-gpu-1.17.0.tgz",
+              "download_count": 5212
+            },
+            {
+              "id": 148967906,
+              "name": "onnxruntime-osx-arm64-1.17.0.tgz",
+              "download_count": 3065
+            },
+            {
+              "id": 148967909,
+              "name": "onnxruntime-osx-universal2-1.17.0.tgz",
+              "download_count": 1908
+            },
+            {
+              "id": 148967911,
+              "name": "onnxruntime-osx-x86_64-1.17.0.tgz",
+              "download_count": 2928
+            },
+            {
+              "id": 148967914,
+              "name": "onnxruntime-training-linux-aarch64-1.17.0.tgz",
+              "download_count": 192
+            },
+            {
+              "id": 148967915,
+              "name": "onnxruntime-training-linux-x64-1.17.0.tgz",
+              "download_count": 200
+            },
+            {
+              "id": 148967919,
+              "name": "onnxruntime-training-win-arm-1.17.0.zip",
+              "download_count": 145
+            },
+            {
+              "id": 148967930,
+              "name": "onnxruntime-training-win-arm64-1.17.0.zip",
+              "download_count": 159
+            },
+            {
+              "id": 148967950,
+              "name": "onnxruntime-training-win-x64-1.17.0.zip",
+              "download_count": 339
+            },
+            {
+              "id": 148968045,
+              "name": "onnxruntime-training-win-x86-1.17.0.zip",
+              "download_count": 165
+            },
+            {
+              "id": 148968057,
+              "name": "onnxruntime-win-arm64-1.17.0.zip",
+              "download_count": 679
+            },
+            {
+              "id": 148968161,
+              "name": "onnxruntime-win-x64-1.17.0.zip",
+              "download_count": 8333
+            },
+            {
+              "id": 148968171,
+              "name": "onnxruntime-win-x64-gpu-1.17.0.zip",
+              "download_count": 4399
+            },
+            {
+              "id": 148968204,
+              "name": "onnxruntime-win-x86-1.17.0.zip",
+              "download_count": 576
+            },
+            {
+              "id": 148969725,
+              "name": "Microsoft.AI.MachineLearning.1.17.0.symbols.zip",
+              "download_count": 324
+            },
+            {
+              "id": 148969753,
+              "name": "Microsoft.AI.MachineLearning.1.17.0.zip",
+              "download_count": 443
+            },
+            {
+              "id": 148970165,
+              "name": "Microsoft.ML.OnnxRuntime.DirectML.1.17.0.zip",
+              "download_count": 1162
+            },
+            {
+              "id": 152643218,
+              "name": "onnxruntime-linux-x64-cuda12-1.17.0.tgz",
+              "download_count": 1052
+            },
+            {
+              "id": 152643457,
+              "name": "onnxruntime-win-x64-cuda12-1.17.0.zip",
+              "download_count": 1117
+            }
+          ]
+        },
+        {
+          "id": 143391894,
+          "tag": "v1.17.1",
+          "published_at": "2024-02-27T18:34:20Z",
+          "prerelease": false,
+          "total": 1008722,
+          "assets": [
+            {
+              "id": 153441953,
+              "name": "onnxruntime-osx-universal2-1.17.1.tgz",
+              "download_count": 21662
+            },
+            {
+              "id": 153441955,
+              "name": "onnxruntime-osx-x86_64-1.17.1.tgz",
+              "download_count": 30348
+            },
+            {
+              "id": 153441956,
+              "name": "onnxruntime-training-linux-aarch64-1.17.1.tgz",
+              "download_count": 110
+            },
+            {
+              "id": 153441957,
+              "name": "onnxruntime-training-linux-x64-1.17.1.tgz",
+              "download_count": 1327
+            },
+            {
+              "id": 153441958,
+              "name": "onnxruntime-training-win-arm-1.17.1.zip",
+              "download_count": 70
+            },
+            {
+              "id": 153441960,
+              "name": "onnxruntime-training-win-arm64-1.17.1.zip",
+              "download_count": 82
+            },
+            {
+              "id": 153441965,
+              "name": "onnxruntime-training-win-x64-1.17.1.zip",
+              "download_count": 1480
+            },
+            {
+              "id": 153441969,
+              "name": "onnxruntime-training-win-x86-1.17.1.zip",
+              "download_count": 85
+            },
+            {
+              "id": 153441978,
+              "name": "onnxruntime-win-arm64-1.17.1.zip",
+              "download_count": 5145
+            },
+            {
+              "id": 153441982,
+              "name": "onnxruntime-win-x64-1.17.1.zip",
+              "download_count": 80179
+            },
+            {
+              "id": 153441985,
+              "name": "onnxruntime-win-x86-1.17.1.zip",
+              "download_count": 6635
+            },
+            {
+              "id": 153441988,
+              "name": "onnxruntime-win-x64-gpu-1.17.1.zip",
+              "download_count": 13945
+            },
+            {
+              "id": 153442001,
+              "name": "onnxruntime-linux-aarch64-1.17.1.tgz",
+              "download_count": 196508
+            },
+            {
+              "id": 153442002,
+              "name": "onnxruntime-linux-x64-1.17.1.tgz",
+              "download_count": 327378
+            },
+            {
+              "id": 153442003,
+              "name": "onnxruntime-osx-arm64-1.17.1.tgz",
+              "download_count": 113399
+            },
+            {
+              "id": 153442005,
+              "name": "onnxruntime-linux-x64-gpu-1.17.1.tgz",
+              "download_count": 29695
+            },
+            {
+              "id": 153442276,
+              "name": "Microsoft.AI.MachineLearning.1.17.1.snupkg",
+              "download_count": 172
+            },
+            {
+              "id": 153442337,
+              "name": "Microsoft.AI.MachineLearning.1.17.1.nupkg",
+              "download_count": 253
+            },
+            {
+              "id": 153442668,
+              "name": "Microsoft.ML.OnnxRuntime.DirectML.1.17.1.zip",
+              "download_count": 1156
+            },
+            {
+              "id": 153444124,
+              "name": "onnxruntime-linux-x64-cuda12-1.17.1.tgz",
+              "download_count": 177217
+            },
+            {
+              "id": 153444132,
+              "name": "onnxruntime-win-x64-cuda12-1.17.1.zip",
+              "download_count": 1876
+            }
+          ]
+        },
+        {
+          "id": 148561054,
+          "tag": "v1.17.3",
+          "published_at": "2024-04-18T15:46:48Z",
+          "prerelease": false,
+          "total": 1744770,
+          "assets": [
+            {
+              "id": 161202434,
+              "name": "Microsoft.ML.OnnxRuntime.Managed.1.17.3.nupkg",
+              "download_count": 148
+            },
+            {
+              "id": 161202499,
+              "name": "onnxruntime-training-linux-aarch64-1.17.3.tgz",
+              "download_count": 102
+            },
+            {
+              "id": 161202502,
+              "name": "onnxruntime-win-x64-gpu-1.17.3.zip",
+              "download_count": 3732
+            },
+            {
+              "id": 161202523,
+              "name": "onnxruntime-win-x64-1.17.3.zip",
+              "download_count": 15967
+            },
+            {
+              "id": 161202533,
+              "name": "onnxruntime-win-arm64-1.17.3.zip",
+              "download_count": 1403
+            },
+            {
+              "id": 161202540,
+              "name": "onnxruntime-training-win-x86-1.17.3.zip",
+              "download_count": 149
+            },
+            {
+              "id": 161202548,
+              "name": "onnxruntime-training-win-x64-1.17.3.zip",
+              "download_count": 241
+            },
+            {
+              "id": 161202587,
+              "name": "onnxruntime-training-win-arm64-1.17.3.zip",
+              "download_count": 92
+            },
+            {
+              "id": 161202606,
+              "name": "onnxruntime-training-win-arm-1.17.3.zip",
+              "download_count": 72
+            },
+            {
+              "id": 161202611,
+              "name": "onnxruntime-training-linux-x64-1.17.3.tgz",
+              "download_count": 109
+            },
+            {
+              "id": 161202612,
+              "name": "onnxruntime-osx-universal2-1.17.3.tgz",
+              "download_count": 4729
+            },
+            {
+              "id": 161202614,
+              "name": "onnxruntime-osx-x86_64-1.17.3.tgz",
+              "download_count": 1983
+            },
+            {
+              "id": 161202621,
+              "name": "onnxruntime-osx-arm64-1.17.3.tgz",
+              "download_count": 5139
+            },
+            {
+              "id": 161202625,
+              "name": "onnxruntime-linux-x64-rocm-1.17.3.tgz",
+              "download_count": 310
+            },
+            {
+              "id": 161202641,
+              "name": "onnxruntime-linux-x64-gpu-1.17.3.tgz",
+              "download_count": 1624925
+            },
+            {
+              "id": 161202662,
+              "name": "onnxruntime-linux-x64-1.17.3.tgz",
+              "download_count": 65955
+            },
+            {
+              "id": 161202666,
+              "name": "onnxruntime-linux-aarch64-1.17.3.tgz",
+              "download_count": 8866
+            },
+            {
+              "id": 161206028,
+              "name": "Microsoft.ML.OnnxRuntime.DirectML.1.17.3.zip",
+              "download_count": 2308
+            },
+            {
+              "id": 161221008,
+              "name": "Microsoft.AI.MachineLearning.1.17.3.nupkg",
+              "download_count": 196
+            },
+            {
+              "id": 161221029,
+              "name": "Microsoft.AI.MachineLearning.1.17.3.snupkg",
+              "download_count": 117
+            },
+            {
+              "id": 161832627,
+              "name": "onnxruntime-win-x64-gpu-cuda12-1.17.3.zip",
+              "download_count": 2479
+            },
+            {
+              "id": 161832765,
+              "name": "onnxruntime-linux-x64-gpu-cuda12-1.17.3.tgz",
+              "download_count": 5748
+            }
+          ]
+        },
+        {
+          "id": 153236280,
+          "tag": "v1.18.0",
+          "published_at": "2024-05-21T00:28:41Z",
+          "prerelease": false,
+          "total": 461132,
+          "assets": [
+            {
+              "id": 169083358,
+              "name": "Microsoft.AI.MachineLearning.1.18.0.nupkg",
+              "download_count": 246
+            },
+            {
+              "id": 169083542,
+              "name": "Microsoft.AI.MachineLearning.1.18.0.snupkg",
+              "download_count": 158
+            },
+            {
+              "id": 169083708,
+              "name": "Microsoft.ML.OnnxRuntime.DirectML.1.18.0.zip",
+              "download_count": 1627
+            },
+            {
+              "id": 169083787,
+              "name": "Microsoft.ML.OnnxRuntime.Managed.1.18.0.nupkg",
+              "download_count": 174
+            },
+            {
+              "id": 169083789,
+              "name": "onnxruntime-linux-aarch64-1.18.0.tgz",
+              "download_count": 7059
+            },
+            {
+              "id": 169083792,
+              "name": "onnxruntime-linux-x64-1.18.0.tgz",
+              "download_count": 85436
+            },
+            {
+              "id": 169083820,
+              "name": "onnxruntime-linux-x64-gpu-1.18.0.tgz",
+              "download_count": 294385
+            },
+            {
+              "id": 169083982,
+              "name": "onnxruntime-linux-x64-gpu-cuda12-1.18.0.tgz",
+              "download_count": 36177
+            },
+            {
+              "id": 169084126,
+              "name": "onnxruntime-linux-x64-rocm-1.18.0.tgz",
+              "download_count": 388
+            },
+            {
+              "id": 169084287,
+              "name": "onnxruntime-osx-arm64-1.18.0.tgz",
+              "download_count": 5841
+            },
+            {
+              "id": 169084296,
+              "name": "onnxruntime-osx-universal2-1.18.0.tgz",
+              "download_count": 1333
+            },
+            {
+              "id": 169084335,
+              "name": "onnxruntime-osx-x86_64-1.18.0.tgz",
+              "download_count": 1532
+            },
+            {
+              "id": 169084366,
+              "name": "onnxruntime-training-linux-aarch64-1.18.0.tgz",
+              "download_count": 234
+            },
+            {
+              "id": 169084378,
+              "name": "onnxruntime-training-linux-x64-1.18.0.tgz",
+              "download_count": 311
+            },
+            {
+              "id": 169084395,
+              "name": "onnxruntime-training-win-arm64-1.18.0.zip",
+              "download_count": 175
+            },
+            {
+              "id": 169084467,
+              "name": "onnxruntime-training-win-x64-1.18.0.zip",
+              "download_count": 378
+            },
+            {
+              "id": 169084534,
+              "name": "onnxruntime-training-win-x86-1.18.0.zip",
+              "download_count": 171
+            },
+            {
+              "id": 169084663,
+              "name": "onnxruntime-win-arm64-1.18.0.zip",
+              "download_count": 642
+            },
+            {
+              "id": 169084710,
+              "name": "onnxruntime-win-x64-1.18.0.zip",
+              "download_count": 14486
+            },
+            {
+              "id": 169084824,
+              "name": "onnxruntime-win-x64-gpu-1.18.0.zip",
+              "download_count": 4746
+            },
+            {
+              "id": 169085026,
+              "name": "onnxruntime-win-x64-gpu-cuda12-1.18.0.zip",
+              "download_count": 4779
+            },
+            {
+              "id": 169085286,
+              "name": "onnxruntime-win-x86-1.18.0.zip",
+              "download_count": 854
+            }
+          ]
+        },
+        {
+          "id": 162139187,
+          "tag": "v1.18.1",
+          "published_at": "2024-06-28T00:29:13Z",
+          "prerelease": false,
+          "total": 249091,
+          "assets": [
+            {
+              "id": 176364363,
+              "name": "onnxruntime-win-x64-gpu-cuda12-1.18.1.zip",
+              "download_count": 4357
+            },
+            {
+              "id": 176364657,
+              "name": "onnxruntime-linux-x64-gpu-cuda12-1.18.1.tgz",
+              "download_count": 16529
+            },
+            {
+              "id": 176382956,
+              "name": "Microsoft.AI.MachineLearning.1.18.1.snupkg",
+              "download_count": 162
+            },
+            {
+              "id": 176382965,
+              "name": "Microsoft.AI.MachineLearning.1.18.1.nupkg",
+              "download_count": 382
+            },
+            {
+              "id": 176383616,
+              "name": "onnxruntime-win-x86-1.18.1.zip",
+              "download_count": 977
+            },
+            {
+              "id": 176383621,
+              "name": "onnxruntime-win-x64-gpu-1.18.1.zip",
+              "download_count": 4703
+            },
+            {
+              "id": 176383719,
+              "name": "onnxruntime-win-x64-1.18.1.zip",
+              "download_count": 18092
+            },
+            {
+              "id": 176383797,
+              "name": "onnxruntime-win-arm64-1.18.1.zip",
+              "download_count": 1436
+            },
+            {
+              "id": 176383988,
+              "name": "onnxruntime-osx-arm64-1.18.1.tgz",
+              "download_count": 7537
+            },
+            {
+              "id": 176383990,
+              "name": "onnxruntime-osx-universal2-1.18.1.tgz",
+              "download_count": 2519
+            },
+            {
+              "id": 176383991,
+              "name": "onnxruntime-osx-x86_64-1.18.1.tgz",
+              "download_count": 2273
+            },
+            {
+              "id": 176384629,
+              "name": "onnxruntime-linux-x64-gpu-1.18.1.tgz",
+              "download_count": 16604
+            },
+            {
+              "id": 176384640,
+              "name": "onnxruntime-linux-aarch64-1.18.1.tgz",
+              "download_count": 59651
+            },
+            {
+              "id": 176384642,
+              "name": "onnxruntime-linux-x64-1.18.1.tgz",
+              "download_count": 113869
+            }
+          ]
+        },
+        {
+          "id": 168113373,
+          "tag": "v1.19.0",
+          "published_at": "2024-08-19T18:44:22Z",
+          "prerelease": false,
+          "total": 166407,
+          "assets": [
+            {
+              "id": 186059042,
+              "name": "onnxruntime-osx-universal2-1.19.0.tgz",
+              "download_count": 998
+            },
+            {
+              "id": 186059057,
+              "name": "onnxruntime-osx-x86_64-1.19.0.tgz",
+              "download_count": 287
+            },
+            {
+              "id": 186059065,
+              "name": "onnxruntime-win-arm64-1.19.0.zip",
+              "download_count": 231
+            },
+            {
+              "id": 186059089,
+              "name": "onnxruntime-win-x64-1.19.0.zip",
+              "download_count": 3908
+            },
+            {
+              "id": 186059166,
+              "name": "onnxruntime-win-x64-gpu-1.19.0.zip",
+              "download_count": 2466
+            },
+            {
+              "id": 186059365,
+              "name": "onnxruntime-win-x86-1.19.0.zip",
+              "download_count": 422
+            },
+            {
+              "id": 186059397,
+              "name": "onnxruntime-linux-aarch64-1.19.0.tgz",
+              "download_count": 4416
+            },
+            {
+              "id": 186059401,
+              "name": "onnxruntime-linux-x64-1.19.0.tgz",
+              "download_count": 51095
+            },
+            {
+              "id": 186059786,
+              "name": "onnxruntime-osx-arm64-1.19.0.tgz",
+              "download_count": 882
+            },
+            {
+              "id": 186060725,
+              "name": "Microsoft.ML.OnnxRuntime.Managed.1.19.0.nupkg",
+              "download_count": 105
+            },
+            {
+              "id": 186060726,
+              "name": "Microsoft.ML.OnnxRuntime.DirectML.1.19.0.zip",
+              "download_count": 741
+            },
+            {
+              "id": 186068324,
+              "name": "Microsoft.AI.MachineLearning.1.19.0.snupkg",
+              "download_count": 90
+            },
+            {
+              "id": 186068502,
+              "name": "Microsoft.AI.MachineLearning.1.19.0.nupkg",
+              "download_count": 147
+            },
+            {
+              "id": 186198068,
+              "name": "onnxruntime-training-win-x86-1.19.0.zip",
+              "download_count": 111
+            },
+            {
+              "id": 186198218,
+              "name": "onnxruntime-training-linux-aarch64-1.19.0.tgz",
+              "download_count": 86
+            },
+            {
+              "id": 186198225,
+              "name": "onnxruntime-training-linux-x64-1.19.0.tgz",
+              "download_count": 138
+            },
+            {
+              "id": 186198235,
+              "name": "onnxruntime-training-win-arm64-1.19.0.zip",
+              "download_count": 99
+            },
+            {
+              "id": 186198273,
+              "name": "onnxruntime-training-win-x64-1.19.0.zip",
+              "download_count": 266
+            },
+            {
+              "id": 187222734,
+              "name": "onnxruntime-linux-x64-gpu-1.19.0.tgz",
+              "download_count": 99919
+            }
+          ]
+        },
+        {
+          "id": 173307330,
+          "tag": "v1.19.2",
+          "published_at": "2024-09-04T19:33:14Z",
+          "prerelease": false,
+          "total": 1479672,
+          "assets": [
+            {
+              "id": 190204577,
+              "name": "onnxruntime-linux-aarch64-1.19.2.tgz",
+              "download_count": 43922
+            },
+            {
+              "id": 190204584,
+              "name": "onnxruntime-linux-x64-1.19.2.tgz",
+              "download_count": 255717
+            },
+            {
+              "id": 190204588,
+              "name": "onnxruntime-linux-x64-gpu-1.19.2.tgz",
+              "download_count": 1009206
+            },
+            {
+              "id": 190204605,
+              "name": "onnxruntime-osx-arm64-1.19.2.tgz",
+              "download_count": 12633
+            },
+            {
+              "id": 190204611,
+              "name": "onnxruntime-osx-universal2-1.19.2.tgz",
+              "download_count": 16174
+            },
+            {
+              "id": 190204615,
+              "name": "onnxruntime-osx-x86_64-1.19.2.tgz",
+              "download_count": 2982
+            },
+            {
+              "id": 190204618,
+              "name": "onnxruntime-training-linux-aarch64-1.19.2.tgz",
+              "download_count": 306
+            },
+            {
+              "id": 190204619,
+              "name": "onnxruntime-training-linux-x64-1.19.2.tgz",
+              "download_count": 1767
+            },
+            {
+              "id": 190204621,
+              "name": "onnxruntime-training-win-arm64-1.19.2.zip",
+              "download_count": 204
+            },
+            {
+              "id": 190204627,
+              "name": "onnxruntime-training-win-x64-1.19.2.zip",
+              "download_count": 647
+            },
+            {
+              "id": 190204629,
+              "name": "onnxruntime-training-win-x86-1.19.2.zip",
+              "download_count": 211
+            },
+            {
+              "id": 190204633,
+              "name": "onnxruntime-win-arm64-1.19.2.zip",
+              "download_count": 5146
+            },
+            {
+              "id": 190204639,
+              "name": "onnxruntime-win-x64-1.19.2.zip",
+              "download_count": 66620
+            },
+            {
+              "id": 190204640,
+              "name": "onnxruntime-win-x64-gpu-1.19.2.zip",
+              "download_count": 59850
+            },
+            {
+              "id": 190204643,
+              "name": "onnxruntime-win-x86-1.19.2.zip",
+              "download_count": 2237
+            },
+            {
+              "id": 190205079,
+              "name": "Microsoft.AI.MachineLearning.1.19.2.nupkg",
+              "download_count": 380
+            },
+            {
+              "id": 190205118,
+              "name": "Microsoft.AI.MachineLearning.1.19.2.snupkg",
+              "download_count": 267
+            },
+            {
+              "id": 190206011,
+              "name": "Microsoft.ML.OnnxRuntime.Managed.1.19.2.nupkg",
+              "download_count": 214
+            },
+            {
+              "id": 190206459,
+              "name": "Microsoft.ML.OnnxRuntime.DirectML.1.19.2.nupkg",
+              "download_count": 1189
+            }
+          ]
+        },
+        {
+          "id": 180524388,
+          "tag": "v1.20.0",
+          "published_at": "2024-11-01T18:02:18Z",
+          "prerelease": false,
+          "total": 502270,
+          "assets": [
+            {
+              "id": 202998880,
+              "name": "Microsoft.ML.OnnxRuntime.Managed.1.20.0.nupkg",
+              "download_count": 142
+            },
+            {
+              "id": 202998884,
+              "name": "Microsoft.ML.OnnxRuntime.DirectML.1.20.0.nupkg",
+              "download_count": 763
+            },
+            {
+              "id": 202998893,
+              "name": "Microsoft.AI.MachineLearning.1.20.0.snupkg",
+              "download_count": 131
+            },
+            {
+              "id": 202999021,
+              "name": "Microsoft.AI.MachineLearning.1.20.0.nupkg",
+              "download_count": 203
+            },
+            {
+              "id": 202999047,
+              "name": "onnxruntime-win-x86-1.20.0.zip",
+              "download_count": 581
+            },
+            {
+              "id": 202999099,
+              "name": "onnxruntime-win-x64-1.20.0.zip",
+              "download_count": 16738
+            },
+            {
+              "id": 202999121,
+              "name": "onnxruntime-win-arm64-1.20.0.zip",
+              "download_count": 445
+            },
+            {
+              "id": 202999144,
+              "name": "onnxruntime-osx-x86_64-1.20.0.tgz",
+              "download_count": 18557
+            },
+            {
+              "id": 202999145,
+              "name": "onnxruntime-osx-universal2-1.20.0.tgz",
+              "download_count": 2375
+            },
+            {
+              "id": 202999152,
+              "name": "onnxruntime-osx-arm64-1.20.0.tgz",
+              "download_count": 50436
+            },
+            {
+              "id": 202999196,
+              "name": "onnxruntime-linux-x64-1.20.0.tgz",
+              "download_count": 278117
+            },
+            {
+              "id": 202999199,
+              "name": "onnxruntime-linux-aarch64-1.20.0.tgz",
+              "download_count": 23516
+            },
+            {
+              "id": 204131429,
+              "name": "onnxruntime-win-x64-gpu-1.20.0.zip",
+              "download_count": 3875
+            },
+            {
+              "id": 204131584,
+              "name": "onnxruntime-linux-x64-gpu-1.20.0.tgz",
+              "download_count": 106391
+            }
+          ]
+        },
+        {
+          "id": 186028450,
+          "tag": "v1.20.1",
+          "published_at": "2024-11-21T22:20:31Z",
+          "prerelease": false,
+          "total": 4207157,
+          "assets": [
+            {
+              "id": 208183212,
+              "name": "onnxruntime-linux-aarch64-1.20.1.tgz",
+              "download_count": 56035
+            },
+            {
+              "id": 208183214,
+              "name": "onnxruntime-linux-x64-1.20.1.tgz",
+              "download_count": 288016
+            },
+            {
+              "id": 208183216,
+              "name": "onnxruntime-osx-arm64-1.20.1.tgz",
+              "download_count": 37916
+            },
+            {
+              "id": 208183218,
+              "name": "onnxruntime-osx-universal2-1.20.1.tgz",
+              "download_count": 10382
+            },
+            {
+              "id": 208183222,
+              "name": "onnxruntime-osx-x86_64-1.20.1.tgz",
+              "download_count": 10576
+            },
+            {
+              "id": 208183223,
+              "name": "onnxruntime-win-arm64-1.20.1.zip",
+              "download_count": 2935
+            },
+            {
+              "id": 208183250,
+              "name": "onnxruntime-win-x86-1.20.1.zip",
+              "download_count": 1660
+            },
+            {
+              "id": 208183685,
+              "name": "onnxruntime-linux-x64-gpu-1.20.1.tgz",
+              "download_count": 3721115
+            },
+            {
+              "id": 208183749,
+              "name": "onnxruntime-win-x64-gpu-1.20.1.zip",
+              "download_count": 25328
+            },
+            {
+              "id": 208987137,
+              "name": "onnxruntime-win-x64-1.20.1.zip",
+              "download_count": 53194
+            }
+          ]
+        },
+        {
+          "id": 199981956,
+          "tag": "v1.20.2",
+          "published_at": "2025-02-12T22:57:43Z",
+          "prerelease": false,
+          "total": 0,
+          "assets": []
+        },
+        {
+          "id": 202167011,
+          "tag": "v1.21.0",
+          "published_at": "2025-03-08T05:33:03Z",
+          "prerelease": false,
+          "total": 8466900,
+          "assets": [
+            {
+              "id": 235667053,
+              "name": "onnxruntime-linux-x64-1.21.0.tgz",
+              "download_count": 79889
+            },
+            {
+              "id": 235667158,
+              "name": "onnxruntime-linux-aarch64-1.21.0.tgz",
+              "download_count": 28894
+            },
+            {
+              "id": 235667457,
+              "name": "onnxruntime-osx-x86_64-1.21.0.tgz",
+              "download_count": 1346
+            },
+            {
+              "id": 235667484,
+              "name": "onnxruntime-osx-universal2-1.21.0.tgz",
+              "download_count": 3290
+            },
+            {
+              "id": 235667571,
+              "name": "onnxruntime-osx-arm64-1.21.0.tgz",
+              "download_count": 6958
+            },
+            {
+              "id": 235667599,
+              "name": "onnxruntime-win-x86-1.21.0.zip",
+              "download_count": 967
+            },
+            {
+              "id": 235667880,
+              "name": "onnxruntime-win-x64-1.21.0.zip",
+              "download_count": 13840
+            },
+            {
+              "id": 235667944,
+              "name": "onnxruntime-win-arm64-1.21.0.zip",
+              "download_count": 656
+            },
+            {
+              "id": 235671015,
+              "name": "Microsoft.AI.MachineLearning.1.21.0.snupkg",
+              "download_count": 169
+            },
+            {
+              "id": 235671363,
+              "name": "Microsoft.AI.MachineLearning.1.21.0.nupkg",
+              "download_count": 391
+            },
+            {
+              "id": 235671416,
+              "name": "Microsoft.ML.OnnxRuntime.DirectML.1.21.0.nupkg",
+              "download_count": 1699
+            },
+            {
+              "id": 235671448,
+              "name": "Microsoft.ML.OnnxRuntime.Managed.1.21.0.nupkg",
+              "download_count": 208
+            },
+            {
+              "id": 236224243,
+              "name": "onnxruntime-win-x64-gpu-1.21.0.zip",
+              "download_count": 6936
+            },
+            {
+              "id": 236224852,
+              "name": "onnxruntime-linux-x64-gpu-1.21.0.tgz",
+              "download_count": 8321657
+            }
+          ]
+        },
+        {
+          "id": 213311495,
+          "tag": "v1.21.1",
+          "published_at": "2025-04-21T17:38:36Z",
+          "prerelease": false,
+          "total": 1058051,
+          "assets": [
+            {
+              "id": 248850407,
+              "name": "onnxruntime-linux-x64-gpu-1.21.1.tgz",
+              "download_count": 1058051
+            }
+          ]
+        },
+        {
+          "id": 216914094,
+          "tag": "v1.22.0",
+          "published_at": "2025-05-10T01:14:00Z",
+          "prerelease": false,
+          "total": 1027885,
+          "assets": [
+            {
+              "id": 253300361,
+              "name": "Microsoft.AI.MachineLearning.1.22.0.nupkg",
+              "download_count": 399
+            },
+            {
+              "id": 253300364,
+              "name": "Microsoft.AI.MachineLearning.1.22.0.snupkg",
+              "download_count": 208
+            },
+            {
+              "id": 253300381,
+              "name": "Microsoft.ML.OnnxRuntime.DirectML.1.22.0.nupkg",
+              "download_count": 2084
+            },
+            {
+              "id": 253300383,
+              "name": "onnxruntime-linux-aarch64-1.22.0.tgz",
+              "download_count": 101085
+            },
+            {
+              "id": 253300385,
+              "name": "onnxruntime-linux-x64-1.22.0.tgz",
+              "download_count": 587620
+            },
+            {
+              "id": 253300386,
+              "name": "onnxruntime-linux-x64-gpu-1.22.0.tgz",
+              "download_count": 69904
+            },
+            {
+              "id": 253300410,
+              "name": "onnxruntime-osx-arm64-1.22.0.tgz",
+              "download_count": 67390
+            },
+            {
+              "id": 253300416,
+              "name": "onnxruntime-osx-universal2-1.22.0.tgz",
+              "download_count": 13904
+            },
+            {
+              "id": 253300427,
+              "name": "onnxruntime-osx-x86_64-1.22.0.tgz",
+              "download_count": 7621
+            },
+            {
+              "id": 253300429,
+              "name": "onnxruntime-win-arm64-1.22.0.zip",
+              "download_count": 12086
+            },
+            {
+              "id": 253300435,
+              "name": "onnxruntime-win-x64-1.22.0.zip",
+              "download_count": 151216
+            },
+            {
+              "id": 253300438,
+              "name": "onnxruntime-win-x64-gpu-1.22.0.zip",
+              "download_count": 12220
+            },
+            {
+              "id": 253300478,
+              "name": "onnxruntime-win-x86-1.22.0.zip",
+              "download_count": 2148
+            }
+          ]
+        },
+        {
+          "id": 228450729,
+          "tag": "v1.22.1",
+          "published_at": "2025-07-08T22:08:08Z",
+          "prerelease": false,
+          "total": 33330,
+          "assets": [
+            {
+              "id": 268720181,
+              "name": "onnxruntime-win-arm64-1.22.1.zip",
+              "download_count": 823
+            },
+            {
+              "id": 268720186,
+              "name": "onnxruntime-win-x64-1.22.1.zip",
+              "download_count": 18334
+            },
+            {
+              "id": 268720192,
+              "name": "onnxruntime-win-x64-gpu-1.22.1.zip",
+              "download_count": 4849
+            },
+            {
+              "id": 268720211,
+              "name": "onnxruntime-win-x86-1.22.1.zip",
+              "download_count": 2903
+            },
+            {
+              "id": 268751641,
+              "name": "Microsoft.ML.OnnxRuntime.1.22.1.nupkg",
+              "download_count": 4105
+            },
+            {
+              "id": 268774275,
+              "name": "Microsoft.ML.OnnxRuntime.DirectML.1.22.1.nupkg",
+              "download_count": 1351
+            },
+            {
+              "id": 268774281,
+              "name": "Microsoft.ML.OnnxRuntime.Gpu.1.22.1.nupkg",
+              "download_count": 246
+            },
+            {
+              "id": 268774282,
+              "name": "Microsoft.ML.OnnxRuntime.Gpu.Windows.1.22.1.nupkg",
+              "download_count": 584
+            },
+            {
+              "id": 269432996,
+              "name": "Microsoft.ML.OnnxRuntime.Managed.1.22.1.nupkg",
+              "download_count": 135
+            }
+          ]
+        },
+        {
+          "id": 238398122,
+          "tag": "v1.22.2",
+          "published_at": "2025-08-13T16:53:48Z",
+          "prerelease": false,
+          "total": 2058,
+          "assets": [
+            {
+              "id": 282208205,
+              "name": "Microsoft.ML.OnnxRuntime.QNN.1.22.2.nupkg",
+              "download_count": 1155
+            },
+            {
+              "id": 282208225,
+              "name": "Microsoft.ML.OnnxRuntime.Managed.1.22.2.nupkg",
+              "download_count": 903
+            }
+          ]
+        },
+        {
+          "id": 250190179,
+          "tag": "v1.23.0",
+          "published_at": "2025-09-26T04:33:48Z",
+          "prerelease": false,
+          "total": 131222,
+          "assets": [
+            {
+              "id": 297419832,
+              "name": "onnxruntime-win-x64-gpu-1.23.0.zip",
+              "download_count": 2494
+            },
+            {
+              "id": 297419870,
+              "name": "onnxruntime-win-x64-1.23.0.zip",
+              "download_count": 7112
+            },
+            {
+              "id": 297419876,
+              "name": "onnxruntime-win-arm64-1.23.0.zip",
+              "download_count": 243
+            },
+            {
+              "id": 297419889,
+              "name": "onnxruntime-linux-x64-gpu-1.23.0.tgz",
+              "download_count": 9724
+            },
+            {
+              "id": 297419903,
+              "name": "onnxruntime-osx-x86_64-1.23.0.tgz",
+              "download_count": 2208
+            },
+            {
+              "id": 297419931,
+              "name": "onnxruntime-osx-universal2-1.23.0.tgz",
+              "download_count": 2518
+            },
+            {
+              "id": 297419964,
+              "name": "onnxruntime-osx-arm64-1.23.0.tgz",
+              "download_count": 6938
+            },
+            {
+              "id": 297419976,
+              "name": "onnxruntime-linux-x64-1.23.0.tgz",
+              "download_count": 87229
+            },
+            {
+              "id": 297419984,
+              "name": "onnxruntime-linux-aarch64-1.23.0.tgz",
+              "download_count": 12756
+            }
+          ]
+        },
+        {
+          "id": 252902201,
+          "tag": "v1.23.1",
+          "published_at": "2025-10-08T04:12:55Z",
+          "prerelease": false,
+          "total": 45803,
+          "assets": [
+            {
+              "id": 301788887,
+              "name": "onnxruntime-osx-x86_64-1.23.1.tgz",
+              "download_count": 1198
+            },
+            {
+              "id": 301788896,
+              "name": "onnxruntime-osx-arm64-1.23.1.tgz",
+              "download_count": 3764
+            },
+            {
+              "id": 301788899,
+              "name": "onnxruntime-osx-universal2-1.23.1.tgz",
+              "download_count": 801
+            },
+            {
+              "id": 301788909,
+              "name": "onnxruntime-linux-aarch64-1.23.1.tgz",
+              "download_count": 4223
+            },
+            {
+              "id": 301788918,
+              "name": "onnxruntime-linux-x64-gpu-1.23.1.tgz",
+              "download_count": 6428
+            },
+            {
+              "id": 301788961,
+              "name": "onnxruntime-linux-x64-1.23.1.tgz",
+              "download_count": 23176
+            },
+            {
+              "id": 301788965,
+              "name": "onnxruntime-win-x64-gpu-1.23.1.zip",
+              "download_count": 1809
+            },
+            {
+              "id": 301789148,
+              "name": "onnxruntime-win-x64-1.23.1.zip",
+              "download_count": 3862
+            },
+            {
+              "id": 301789181,
+              "name": "onnxruntime-win-arm64-1.23.1.zip",
+              "download_count": 542
+            }
+          ]
+        },
+        {
+          "id": 257196913,
+          "tag": "v1.23.2",
+          "published_at": "2025-10-25T04:15:21Z",
+          "prerelease": false,
+          "total": 836913,
+          "assets": [
+            {
+              "id": 308474603,
+              "name": "onnxruntime-win-x64-gpu-1.23.2.zip",
+              "download_count": 17935
+            },
+            {
+              "id": 308474632,
+              "name": "onnxruntime-win-x64-1.23.2.zip",
+              "download_count": 79211
+            },
+            {
+              "id": 308474643,
+              "name": "onnxruntime-win-arm64-1.23.2.zip",
+              "download_count": 3073
+            },
+            {
+              "id": 308474652,
+              "name": "onnxruntime-osx-x86_64-1.23.2.tgz",
+              "download_count": 19486
+            },
+            {
+              "id": 308474657,
+              "name": "onnxruntime-linux-x64-gpu-1.23.2.tgz",
+              "download_count": 50835
+            },
+            {
+              "id": 308474678,
+              "name": "onnxruntime-osx-universal2-1.23.2.tgz",
+              "download_count": 291263
+            },
+            {
+              "id": 308474683,
+              "name": "onnxruntime-osx-arm64-1.23.2.tgz",
+              "download_count": 41472
+            },
+            {
+              "id": 308474688,
+              "name": "onnxruntime-linux-x64-1.23.2.tgz",
+              "download_count": 307814
+            },
+            {
+              "id": 308474693,
+              "name": "onnxruntime-linux-aarch64-1.23.2.tgz",
+              "download_count": 25824
+            }
+          ]
+        },
+        {
+          "id": 279644668,
+          "tag": "v1.24.1",
+          "published_at": "2026-02-06T00:00:13Z",
+          "prerelease": false,
+          "total": 150814,
+          "assets": [
+            {
+              "id": 351357523,
+              "name": "onnxruntime-win-x64-gpu-1.24.1.zip",
+              "download_count": 2841
+            },
+            {
+              "id": 351357758,
+              "name": "onnxruntime-win-x64-1.24.1.zip",
+              "download_count": 8746
+            },
+            {
+              "id": 351357808,
+              "name": "onnxruntime-win-arm64-1.24.1.zip",
+              "download_count": 228
+            },
+            {
+              "id": 351357869,
+              "name": "onnxruntime-linux-x64-gpu-1.24.1.tgz",
+              "download_count": 16038
+            },
+            {
+              "id": 351357934,
+              "name": "onnxruntime-osx-arm64-1.24.1.tgz",
+              "download_count": 12851
+            },
+            {
+              "id": 351357977,
+              "name": "onnxruntime-linux-aarch64-1.24.1.tgz",
+              "download_count": 18026
+            },
+            {
+              "id": 351360918,
+              "name": "onnxruntime-linux-x64-1.24.1.tgz",
+              "download_count": 78583
+            },
+            {
+              "id": 351803020,
+              "name": "onnxruntime-linux-x64-gpu_cuda13-1.24.1.tgz",
+              "download_count": 10146
+            },
+            {
+              "id": 351803488,
+              "name": "onnxruntime-win-x64-gpu_cuda13-1.24.1.zip",
+              "download_count": 3355
+            }
+          ]
+        },
+        {
+          "id": 288056667,
+          "tag": "v1.24.2",
+          "published_at": "2026-02-19T21:28:03Z",
+          "prerelease": false,
+          "total": 411407,
+          "assets": [
+            {
+              "id": 358441208,
+              "name": "onnxruntime-linux-aarch64-1.24.2.tgz",
+              "download_count": 35370
+            },
+            {
+              "id": 358441215,
+              "name": "onnxruntime-linux-x64-1.24.2.tgz",
+              "download_count": 124459
+            },
+            {
+              "id": 358441219,
+              "name": "onnxruntime-linux-x64-gpu-1.24.2.tgz",
+              "download_count": 8904
+            },
+            {
+              "id": 358441256,
+              "name": "onnxruntime-osx-arm64-1.24.2.tgz",
+              "download_count": 66532
+            },
+            {
+              "id": 358441270,
+              "name": "onnxruntime-win-arm64-1.24.2.zip",
+              "download_count": 28590
+            },
+            {
+              "id": 358441296,
+              "name": "onnxruntime-win-x64-1.24.2.zip",
+              "download_count": 133869
+            },
+            {
+              "id": 358781187,
+              "name": "onnxruntime-win-x64-gpu-1.24.2.zip",
+              "download_count": 8711
+            },
+            {
+              "id": 358787838,
+              "name": "onnxruntime-win-x64-gpu_cuda13-1.24.2.zip",
+              "download_count": 3840
+            },
+            {
+              "id": 358788176,
+              "name": "onnxruntime-linux-x64-gpu_cuda13-1.24.2.tgz",
+              "download_count": 1132
+            }
+          ]
+        },
+        {
+          "id": 293607319,
+          "tag": "v1.24.3",
+          "published_at": "2026-03-05T19:00:05Z",
+          "prerelease": false,
+          "total": 70765,
+          "assets": [
+            {
+              "id": 367674269,
+              "name": "onnxruntime-linux-aarch64-1.24.3.tgz",
+              "download_count": 7195
+            },
+            {
+              "id": 367674329,
+              "name": "onnxruntime-linux-x64-1.24.3.tgz",
+              "download_count": 43684
+            },
+            {
+              "id": 367674486,
+              "name": "onnxruntime-win-arm64-1.24.3.zip",
+              "download_count": 211
+            },
+            {
+              "id": 367674630,
+              "name": "onnxruntime-win-arm64x-1.24.3.zip",
+              "download_count": 36
+            },
+            {
+              "id": 367707852,
+              "name": "onnxruntime-osx-arm64-1.24.3.tgz",
+              "download_count": 6911
+            },
+            {
+              "id": 367707923,
+              "name": "onnxruntime-win-x64-1.24.3.zip",
+              "download_count": 8525
+            },
+            {
+              "id": 367708093,
+              "name": "onnxruntime-linux-x64-gpu-1.24.3.tgz",
+              "download_count": 2532
+            },
+            {
+              "id": 367708288,
+              "name": "onnxruntime-win-x64-gpu-1.24.3.zip",
+              "download_count": 735
+            },
+            {
+              "id": 367709641,
+              "name": "onnxruntime-win-x64-gpu_cuda13-1.24.3.zip",
+              "download_count": 698
+            },
+            {
+              "id": 367709913,
+              "name": "onnxruntime-linux-x64-gpu_cuda13-1.24.3.tgz",
+              "download_count": 238
+            }
+          ]
+        },
+        {
+          "id": 298129818,
+          "tag": "v1.24.4",
+          "published_at": "2026-03-17T23:08:09Z",
+          "prerelease": false,
+          "total": 331320,
+          "assets": [
+            {
+              "id": 376015298,
+              "name": "onnxruntime-linux-aarch64-1.24.4.tgz",
+              "download_count": 29665
+            },
+            {
+              "id": 376015310,
+              "name": "onnxruntime-linux-x64-1.24.4.tgz",
+              "download_count": 174889
+            },
+            {
+              "id": 376015314,
+              "name": "onnxruntime-linux-x64-gpu-1.24.4.tgz",
+              "download_count": 40552
+            },
+            {
+              "id": 376015406,
+              "name": "onnxruntime-osx-arm64-1.24.4.tgz",
+              "download_count": 37215
+            },
+            {
+              "id": 376015421,
+              "name": "onnxruntime-win-arm64-1.24.4.zip",
+              "download_count": 979
+            },
+            {
+              "id": 376015448,
+              "name": "onnxruntime-win-arm64x-1.24.4.zip",
+              "download_count": 120
+            },
+            {
+              "id": 376015528,
+              "name": "onnxruntime-win-x64-1.24.4.zip",
+              "download_count": 33141
+            },
+            {
+              "id": 376015626,
+              "name": "onnxruntime-win-x64-gpu-1.24.4.zip",
+              "download_count": 6551
+            },
+            {
+              "id": 376017161,
+              "name": "onnxruntime-win-x64-gpu_cuda13-1.24.4.zip",
+              "download_count": 2000
+            },
+            {
+              "id": 376017277,
+              "name": "onnxruntime-linux-x64-gpu_cuda13-1.24.4.tgz",
+              "download_count": 6208
+            }
+          ]
+        },
+        {
+          "id": 306795215,
+          "tag": "v1.25.0",
+          "published_at": "2026-04-20T18:25:24Z",
+          "prerelease": false,
+          "total": 49986,
+          "assets": [
+            {
+              "id": 400891653,
+              "name": "onnxruntime-linux-aarch64-1.25.0.tgz",
+              "download_count": 4858
+            },
+            {
+              "id": 400891814,
+              "name": "onnxruntime-linux-x64-1.25.0.tgz",
+              "download_count": 35694
+            },
+            {
+              "id": 400892179,
+              "name": "onnxruntime-linux-x64-gpu-1.25.0.tgz",
+              "download_count": 1986
+            },
+            {
+              "id": 400899916,
+              "name": "onnxruntime-linux-x64-gpu_cuda13-1.25.0.tgz",
+              "download_count": 321
+            },
+            {
+              "id": 400901895,
+              "name": "onnxruntime-osx-arm64-1.25.0.tgz",
+              "download_count": 2638
+            },
+            {
+              "id": 400902082,
+              "name": "onnxruntime-win-arm64-1.25.0.zip",
+              "download_count": 207
+            },
+            {
+              "id": 400902498,
+              "name": "onnxruntime-win-arm64x-1.25.0.zip",
+              "download_count": 52
+            },
+            {
+              "id": 400903373,
+              "name": "onnxruntime-win-x64-1.25.0.zip",
+              "download_count": 2915
+            },
+            {
+              "id": 400907501,
+              "name": "onnxruntime-win-x64-gpu-1.25.0.zip",
+              "download_count": 965
+            },
+            {
+              "id": 400909216,
+              "name": "onnxruntime-win-x64-gpu_cuda13-1.25.0.zip",
+              "download_count": 350
+            }
+          ]
+        },
+        {
+          "id": 314178822,
+          "tag": "v1.25.1",
+          "published_at": "2026-04-27T21:46:20Z",
+          "prerelease": false,
+          "total": 55954,
+          "assets": [
+            {
+              "id": 406830243,
+              "name": "onnxruntime-linux-aarch64-1.25.1.tgz",
+              "download_count": 5681
+            },
+            {
+              "id": 406830267,
+              "name": "onnxruntime-linux-x64-1.25.1.tgz",
+              "download_count": 30861
+            },
+            {
+              "id": 406830296,
+              "name": "onnxruntime-linux-x64-gpu_cuda13-1.25.1.tgz",
+              "download_count": 531
+            },
+            {
+              "id": 406830766,
+              "name": "onnxruntime-linux-x64-gpu-1.25.1.tgz",
+              "download_count": 5246
+            },
+            {
+              "id": 406831314,
+              "name": "onnxruntime-osx-arm64-1.25.1.tgz",
+              "download_count": 4388
+            },
+            {
+              "id": 406831388,
+              "name": "onnxruntime-win-arm64-1.25.1.zip",
+              "download_count": 299
+            },
+            {
+              "id": 406831547,
+              "name": "onnxruntime-win-arm64x-1.25.1.zip",
+              "download_count": 56
+            },
+            {
+              "id": 406831931,
+              "name": "onnxruntime-win-x64-1.25.1.zip",
+              "download_count": 6769
+            },
+            {
+              "id": 406832101,
+              "name": "onnxruntime-win-x64-gpu_cuda13-1.25.1.zip",
+              "download_count": 532
+            },
+            {
+              "id": 408245961,
+              "name": "onnxruntime-win-x64-gpu-1.25.1.zip",
+              "download_count": 1591
+            }
+          ]
+        },
+        {
+          "id": 319693412,
+          "tag": "v1.26.0",
+          "published_at": "2026-05-08T19:24:39Z",
+          "prerelease": false,
+          "total": 187786,
+          "assets": [
+            {
+              "id": 415501303,
+              "name": "onnxruntime-linux-aarch64-1.26.0.tgz",
+              "download_count": 12478
+            },
+            {
+              "id": 415501317,
+              "name": "onnxruntime-linux-x64-1.26.0.tgz",
+              "download_count": 113477
+            },
+            {
+              "id": 415501323,
+              "name": "onnxruntime-linux-x64-gpu_cuda13-1.26.0.tgz",
+              "download_count": 2339
+            },
+            {
+              "id": 415501742,
+              "name": "onnxruntime-linux-x64-gpu-1.26.0.tgz",
+              "download_count": 5920
+            },
+            {
+              "id": 415502464,
+              "name": "onnxruntime-osx-arm64-1.26.0.tgz",
+              "download_count": 18507
+            },
+            {
+              "id": 415502634,
+              "name": "onnxruntime-win-arm64-1.26.0.zip",
+              "download_count": 1530
+            },
+            {
+              "id": 415502895,
+              "name": "onnxruntime-win-arm64x-1.26.0.zip",
+              "download_count": 147
+            },
+            {
+              "id": 415503188,
+              "name": "onnxruntime-win-x64-1.26.0.zip",
+              "download_count": 26585
+            },
+            {
+              "id": 415503428,
+              "name": "onnxruntime-win-x64-gpu_cuda13-1.26.0.zip",
+              "download_count": 2160
+            },
+            {
+              "id": 415504301,
+              "name": "onnxruntime-win-x64-gpu-1.26.0.zip",
+              "download_count": 4643
+            }
+          ]
+        },
+        {
+          "id": 330478249,
+          "tag": "plugin-ep-webgpu/v0.1.0",
+          "published_at": "2026-05-29T17:53:51Z",
+          "prerelease": false,
+          "total": 0,
+          "assets": []
+        },
+        {
+          "id": 339846187,
+          "tag": "v1.27.0",
+          "published_at": "2026-06-19T21:11:07Z",
+          "prerelease": false,
+          "total": 179885,
+          "assets": [
+            {
+              "id": 448652755,
+              "name": "onnxruntime-linux-aarch64-1.27.0.tgz",
+              "download_count": 13428
+            },
+            {
+              "id": 448652775,
+              "name": "onnxruntime-linux-x64-1.27.0.tgz",
+              "download_count": 111598
+            },
+            {
+              "id": 448652794,
+              "name": "onnxruntime-linux-x64-gpu_cuda12-1.27.0.tgz",
+              "download_count": 2225
+            },
+            {
+              "id": 448653697,
+              "name": "onnxruntime-linux-x64-gpu_cuda13-1.27.0.tgz",
+              "download_count": 2073
+            },
+            {
+              "id": 448654532,
+              "name": "onnxruntime-osx-arm64-1.27.0.tgz",
+              "download_count": 15911
+            },
+            {
+              "id": 448654638,
+              "name": "onnxruntime-win-arm64-1.27.0.zip",
+              "download_count": 5226
+            },
+            {
+              "id": 448654962,
+              "name": "onnxruntime-win-arm64x-1.27.0.zip",
+              "download_count": 156
+            },
+            {
+              "id": 448655506,
+              "name": "onnxruntime-win-x64-gpu_cuda12-1.27.0.zip",
+              "download_count": 1546
+            },
+            {
+              "id": 448656771,
+              "name": "onnxruntime-win-x64-gpu_cuda13-1.27.0.zip",
+              "download_count": 2442
+            },
+            {
+              "id": 454598864,
+              "name": "onnxruntime-win-x64-1.27.0.zip",
+              "download_count": 25280
+            }
+          ]
+        },
+        {
+          "id": 352357426,
+          "tag": "v1.27.1",
+          "published_at": "2026-07-11T01:11:02Z",
+          "prerelease": false,
+          "total": 82634,
+          "assets": [
+            {
+              "id": 472953350,
+              "name": "onnxruntime-linux-x64-gpu_cuda13-1.27.1.tgz",
+              "download_count": 11481
+            },
+            {
+              "id": 472953478,
+              "name": "onnxruntime-win-x64-gpu_cuda12-1.27.1.zip",
+              "download_count": 2860
+            },
+            {
+              "id": 472953782,
+              "name": "onnxruntime-win-x64-1.27.1.zip",
+              "download_count": 5372
+            },
+            {
+              "id": 472953957,
+              "name": "onnxruntime-win-arm64x-1.27.1.zip",
+              "download_count": 93
+            },
+            {
+              "id": 472954332,
+              "name": "onnxruntime-win-arm64-1.27.1.zip",
+              "download_count": 615
+            },
+            {
+              "id": 472954635,
+              "name": "onnxruntime-osx-arm64-1.27.1.tgz",
+              "download_count": 8982
+            },
+            {
+              "id": 472954763,
+              "name": "onnxruntime-linux-x64-gpu_cuda12-1.27.1.tgz",
+              "download_count": 10592
+            },
+            {
+              "id": 472954982,
+              "name": "onnxruntime-linux-x64-1.27.1.tgz",
+              "download_count": 33294
+            },
+            {
+              "id": 472955013,
+              "name": "onnxruntime-linux-aarch64-1.27.1.tgz",
+              "download_count": 3447
+            },
+            {
+              "id": 473075059,
+              "name": "onnxruntime-win-x64-gpu_cuda13-1.27.1.zip",
+              "download_count": 5898
+            }
+          ]
+        },
+        {
+          "id": 359547054,
+          "tag": "v1.28.0",
+          "published_at": "2026-07-25T05:27:07Z",
+          "prerelease": false,
+          "total": 131681,
+          "assets": [
+            {
+              "id": 489173035,
+              "name": "onnxruntime-win-arm64-1.28.0.zip",
+              "download_count": 2070
+            },
+            {
+              "id": 489173146,
+              "name": "onnxruntime-linux-x64-gpu_cuda12-1.28.0.tgz",
+              "download_count": 2253
+            },
+            {
+              "id": 489173437,
+              "name": "onnxruntime-win-arm64x-1.28.0.zip",
+              "download_count": 118
+            },
+            {
+              "id": 489173573,
+              "name": "onnxruntime-win-x64-1.28.0.zip",
+              "download_count": 31216
+            },
+            {
+              "id": 489173635,
+              "name": "onnxruntime-win-x64-gpu_cuda12-1.28.0.zip",
+              "download_count": 1508
+            },
+            {
+              "id": 489174067,
+              "name": "onnxruntime-linux-x64-gpu_cuda13-1.28.0.tgz",
+              "download_count": 1731
+            },
+            {
+              "id": 489174273,
+              "name": "onnxruntime-win-x64-gpu_cuda13-1.28.0.zip",
+              "download_count": 1143
+            },
+            {
+              "id": 489174677,
+              "name": "onnxruntime-linux-x64-1.28.0.tgz",
+              "download_count": 68674
+            },
+            {
+              "id": 489174685,
+              "name": "onnxruntime-osx-arm64-1.28.0.tgz",
+              "download_count": 12835
+            },
+            {
+              "id": 490655264,
+              "name": "onnxruntime-linux-aarch64-1.28.0.tgz",
+              "download_count": 10133
+            }
+          ]
+        },
+        {
+          "id": 362051538,
+          "tag": "plugin-ep-webgpu/v0.2.1",
+          "published_at": "2026-07-30T01:36:24Z",
+          "prerelease": false,
+          "total": 0,
+          "assets": []
+        },
+        {
+          "id": 368911532,
+          "tag": "v1.29.0",
+          "published_at": "2026-08-12T06:15:37Z",
+          "prerelease": false,
+          "total": 155418,
+          "assets": [
+            {
+              "id": 511115910,
+              "name": "onnxruntime-win-x64-1.29.0.zip",
+              "download_count": 20483
+            },
+            {
+              "id": 511115959,
+              "name": "onnxruntime-win-x64-gpu_cuda12-1.29.0.zip",
+              "download_count": 996
+            },
+            {
+              "id": 511117815,
+              "name": "onnxruntime-win-arm64x-1.29.0.zip",
+              "download_count": 76
+            },
+            {
+              "id": 511118041,
+              "name": "onnxruntime-win-arm64-1.29.0.zip",
+              "download_count": 5195
+            },
+            {
+              "id": 511118571,
+              "name": "onnxruntime-win-x64-gpu_cuda13-1.29.0.zip",
+              "download_count": 771
+            },
+            {
+              "id": 511119584,
+              "name": "onnxruntime-linux-x64-gpu_cuda13-1.29.0.tgz",
+              "download_count": 1768
+            },
+            {
+              "id": 511120261,
+              "name": "onnxruntime-linux-aarch64-1.29.0.tgz",
+              "download_count": 10809
+            },
+            {
+              "id": 511120291,
+              "name": "onnxruntime-linux-x64-1.29.0.tgz",
+              "download_count": 100829
+            },
+            {
+              "id": 511120373,
+              "name": "onnxruntime-osx-arm64-1.29.0.tgz",
+              "download_count": 11650
+            },
+            {
+              "id": 511140963,
+              "name": "onnxruntime-linux-x64-gpu_cuda12-1.29.0.tgz",
+              "download_count": 2841
+            }
+          ]
+        },
+        {
+          "id": 365346136,
+          "tag": "plugin-ep-cuda/v0.1.0",
+          "published_at": "2026-08-17T23:12:43Z",
+          "prerelease": false,
+          "total": 817,
+          "assets": [
+            {
+              "id": 518338516,
+              "name": "cuda_ep_cuda12_0.1.0_linux-x64.tar.gz",
+              "download_count": 105
+            },
+            {
+              "id": 518338774,
+              "name": "cuda_ep_cuda12_0.1.0_win-x64.zip",
+              "download_count": 166
+            },
+            {
+              "id": 518338927,
+              "name": "cuda_ep_cuda13_0.1.0_win-x64.zip",
+              "download_count": 187
+            },
+            {
+              "id": 518339075,
+              "name": "cuda_ep_cuda13_0.1.0_linux-x64.tar.gz",
+              "download_count": 145
+            },
+            {
+              "id": 518339256,
+              "name": "cuda_ep_cuda13_0.1.0_win-arm64.zip",
+              "download_count": 96
+            },
+            {
+              "id": 518339300,
+              "name": "cuda_ep_cuda13_0.1.0_linux-aarch64.tar.gz",
+              "download_count": 118
+            }
+          ]
+        },
+        {
+          "id": 372667994,
+          "tag": "v1.28.1",
+          "published_at": "2026-08-18T23:19:52Z",
+          "prerelease": false,
+          "total": 23028,
+          "assets": [
+            {
+              "id": 520090858,
+              "name": "onnxruntime-linux-x64-gpu_cuda12-1.28.1.tgz",
+              "download_count": 655
+            },
+            {
+              "id": 520094993,
+              "name": "onnxruntime-osx-arm64-1.28.1.tgz",
+              "download_count": 1518
+            },
+            {
+              "id": 520095393,
+              "name": "onnxruntime-win-arm64-1.28.1.zip",
+              "download_count": 858
+            },
+            {
+              "id": 520095828,
+              "name": "onnxruntime-win-arm64x-1.28.1.zip",
+              "download_count": 40
+            },
+            {
+              "id": 520096692,
+              "name": "onnxruntime-win-x64-1.28.1.zip",
+              "download_count": 3488
+            },
+            {
+              "id": 520097048,
+              "name": "onnxruntime-win-x64-gpu_cuda12-1.28.1.zip",
+              "download_count": 347
+            },
+            {
+              "id": 520099826,
+              "name": "onnxruntime-linux-x64-gpu_cuda13-1.28.1.tgz",
+              "download_count": 505
+            },
+            {
+              "id": 520101554,
+              "name": "onnxruntime-win-x64-gpu_cuda13-1.28.1.zip",
+              "download_count": 370
+            },
+            {
+              "id": 520103360,
+              "name": "onnxruntime-linux-aarch64-1.28.1.tgz",
+              "download_count": 2090
+            },
+            {
+              "id": 520103401,
+              "name": "onnxruntime-linux-x64-1.28.1.tgz",
+              "download_count": 13157
+            }
+          ]
+        },
+        {
+          "id": 375936588,
+          "tag": "plugin-ep-webgpu/v0.3.0",
+          "published_at": "2026-08-24T21:44:25Z",
+          "prerelease": false,
+          "total": 0,
+          "assets": []
+        },
+        {
+          "id": 381661169,
+          "tag": "v1.28.2",
+          "published_at": "2026-09-03T01:17:16Z",
+          "prerelease": false,
+          "total": 32834,
+          "assets": [
+            {
+              "id": 542003860,
+              "name": "onnxruntime-linux-x64-gpu_cuda13-1.28.2.tgz",
+              "download_count": 397
+            },
+            {
+              "id": 542003861,
+              "name": "onnxruntime-osx-arm64-1.28.2.tgz",
+              "download_count": 1268
+            },
+            {
+              "id": 542003862,
+              "name": "onnxruntime-linux-x64-gpu_cuda12-1.28.2.tgz",
+              "download_count": 418
+            },
+            {
+              "id": 542003864,
+              "name": "onnxruntime-linux-x64-1.28.2.tgz",
+              "download_count": 8162
+            },
+            {
+              "id": 542003867,
+              "name": "onnxruntime-linux-aarch64-1.28.2.tgz",
+              "download_count": 1253
+            },
+            {
+              "id": 542003878,
+              "name": "onnxruntime-win-arm64-1.28.2.zip",
+              "download_count": 490
+            },
+            {
+              "id": 542003883,
+              "name": "onnxruntime-win-arm64x-1.28.2.zip",
+              "download_count": 29
+            },
+            {
+              "id": 542003886,
+              "name": "onnxruntime-win-x64-1.28.2.zip",
+              "download_count": 11475
+            },
+            {
+              "id": 542003967,
+              "name": "onnxruntime-win-x64-gpu_cuda12-1.28.2.zip",
+              "download_count": 495
+            },
+            {
+              "id": 542003969,
+              "name": "onnxruntime-win-x64-gpu_cuda13-1.28.2.zip",
+              "download_count": 8847
+            }
+          ]
+        },
+        {
+          "id": 386021979,
+          "tag": "v1.29.1",
+          "published_at": "2026-09-10T05:26:07Z",
+          "prerelease": false,
+          "total": 5332,
+          "assets": [
+            {
+              "id": 554304376,
+              "name": "onnxruntime-linux-x64-1.29.1.tgz",
+              "download_count": 3427
+            },
+            {
+              "id": 554304377,
+              "name": "onnxruntime-linux-x64-gpu_cuda13-1.29.1.tgz",
+              "download_count": 216
+            },
+            {
+              "id": 554304378,
+              "name": "onnxruntime-linux-aarch64-1.29.1.tgz",
+              "download_count": 307
+            },
+            {
+              "id": 554304379,
+              "name": "onnxruntime-linux-x64-gpu_cuda12-1.29.1.tgz",
+              "download_count": 266
+            },
+            {
+              "id": 554304383,
+              "name": "onnxruntime-osx-arm64-1.29.1.tgz",
+              "download_count": 350
+            },
+            {
+              "id": 554304416,
+              "name": "onnxruntime-win-arm64-1.29.1.zip",
+              "download_count": 40
+            },
+            {
+              "id": 554304417,
+              "name": "onnxruntime-win-arm64x-1.29.1.zip",
+              "download_count": 17
+            },
+            {
+              "id": 554304432,
+              "name": "onnxruntime-win-x64-1.29.1.zip",
+              "download_count": 526
+            },
+            {
+              "id": 554304510,
+              "name": "onnxruntime-win-x64-gpu_cuda12-1.29.1.zip",
+              "download_count": 109
+            },
+            {
+              "id": 554304528,
+              "name": "onnxruntime-win-x64-gpu_cuda13-1.29.1.zip",
+              "download_count": 74
+            }
+          ]
+        },
+        {
+          "id": 386455636,
+          "tag": "v1.30.0",
+          "published_at": "2026-09-10T16:55:55Z",
+          "prerelease": false,
+          "total": 464035,
+          "assets": [
+            {
+              "id": 555411806,
+              "name": "onnxruntime-linux-x64-gpu_cuda12-1.30.0.tgz",
+              "download_count": 13182
+            },
+            {
+              "id": 555412256,
+              "name": "onnxruntime-linux-x64-1.30.0.tgz",
+              "download_count": 72550
+            },
+            {
+              "id": 555412302,
+              "name": "onnxruntime-linux-aarch64-1.30.0.tgz",
+              "download_count": 10586
+            },
+            {
+              "id": 555412327,
+              "name": "onnxruntime-linux-x64-gpu_cuda13-1.30.0.tgz",
+              "download_count": 3049
+            },
+            {
+              "id": 555412559,
+              "name": "onnxruntime-win-x64-gpu_cuda13-1.30.0.zip",
+              "download_count": 1409
+            },
+            {
+              "id": 555412859,
+              "name": "onnxruntime-win-x64-gpu_cuda12-1.30.0.zip",
+              "download_count": 160427
+            },
+            {
+              "id": 555413217,
+              "name": "onnxruntime-win-x64-1.30.0.zip",
+              "download_count": 184211
+            },
+            {
+              "id": 555413301,
+              "name": "onnxruntime-win-arm64x-1.30.0.zip",
+              "download_count": 157
+            },
+            {
+              "id": 555413383,
+              "name": "onnxruntime-win-arm64-1.30.0.zip",
+              "download_count": 1866
+            },
+            {
+              "id": 555413457,
+              "name": "onnxruntime-osx-arm64-1.30.0.tgz",
+              "download_count": 16598
+            }
+          ]
+        },
+        {
+          "id": 393957618,
+          "tag": "plugin-ep-webgpu/v0.4.0",
+          "published_at": "2026-09-22T17:13:27Z",
+          "prerelease": false,
+          "total": 0,
+          "assets": []
+        },
+        {
+          "id": 401323329,
+          "tag": "v1.28.3",
+          "published_at": "2026-10-02T20:48:43Z",
+          "prerelease": false,
+          "total": 18589,
+          "assets": [
+            {
+              "id": 604067196,
+              "name": "onnxruntime-linux-aarch64-1.28.3.tgz",
+              "download_count": 1123
+            },
+            {
+              "id": 604067198,
+              "name": "onnxruntime-linux-x64-gpu_cuda13-1.28.3.tgz",
+              "download_count": 155
+            },
+            {
+              "id": 604067270,
+              "name": "onnxruntime-linux-x64-1.28.3.tgz",
+              "download_count": 10276
+            },
+            {
+              "id": 604067326,
+              "name": "onnxruntime-osx-arm64-1.28.3.tgz",
+              "download_count": 2063
+            },
+            {
+              "id": 604067437,
+              "name": "onnxruntime-win-arm64-1.28.3.zip",
+              "download_count": 85
+            },
+            {
+              "id": 604067543,
+              "name": "onnxruntime-win-x64-gpu_cuda13-1.28.3.zip",
+              "download_count": 91
+            },
+            {
+              "id": 604067658,
+              "name": "onnxruntime-win-arm64x-1.28.3.zip",
+              "download_count": 17
+            },
+            {
+              "id": 604067913,
+              "name": "onnxruntime-win-x64-1.28.3.zip",
+              "download_count": 4476
+            },
+            {
+              "id": 604068109,
+              "name": "onnxruntime-linux-x64-gpu_cuda12-1.28.3.tgz",
+              "download_count": 141
+            },
+            {
+              "id": 604068630,
+              "name": "onnxruntime-win-x64-gpu_cuda12-1.28.3.zip",
+              "download_count": 162
+            }
+          ]
+        },
+        {
+          "id": 407302253,
+          "tag": "plugin-ep-cuda/v0.2.0",
+          "published_at": "2026-10-08T22:11:44Z",
+          "prerelease": false,
+          "total": 140,
+          "assets": [
+            {
+              "id": 623142856,
+              "name": "cuda_ep_cuda13_0.2.0_linux-x64.tar.gz",
+              "download_count": 17
+            },
+            {
+              "id": 623143111,
+              "name": "cuda_ep_cuda13_0.2.0_linux-aarch64.tar.gz",
+              "download_count": 9
+            },
+            {
+              "id": 623143275,
+              "name": "cuda_ep_cuda13_0.2.0_win-x64.zip",
+              "download_count": 23
+            },
+            {
+              "id": 623143523,
+              "name": "cuda_ep_cuda13_0.2.0_win-arm64.zip",
+              "download_count": 11
+            },
+            {
+              "id": 623143658,
+              "name": "cuda_ep_cuda12_0.2.0_win-x64.zip",
+              "download_count": 63
+            },
+            {
+              "id": 623143984,
+              "name": "cuda_ep_cuda12_0.2.0_linux-x64.tar.gz",
+              "download_count": 17
+            }
+          ]
+        },
+        {
+          "id": 407320529,
+          "tag": "plugin-ep-cuda/v0.3.0",
+          "published_at": "2026-10-09T00:49:01Z",
+          "prerelease": false,
+          "total": 466,
+          "assets": [
+            {
+              "id": 623440075,
+              "name": "cuda_ep_cuda13_0.3.0_win-arm64.zip",
+              "download_count": 35
+            },
+            {
+              "id": 623440187,
+              "name": "cuda_ep_cuda13_0.3.0_win-x64.zip",
+              "download_count": 198
+            },
+            {
+              "id": 623440366,
+              "name": "cuda_ep_cuda13_0.3.0_linux-aarch64.tar.gz",
+              "download_count": 66
+            },
+            {
+              "id": 623440576,
+              "name": "cuda_ep_cuda13_0.3.0_linux-x64.tar.gz",
+              "download_count": 94
+            },
+            {
+              "id": 623440764,
+              "name": "cuda_ep_cuda12_0.3.0_linux-x64.zip",
+              "download_count": 27
+            },
+            {
+              "id": 623441117,
+              "name": "cuda_ep_cuda12_0.3.0_linux-x64.tar.gz",
+              "download_count": 46
+            }
+          ]
+        },
+        {
+          "id": 407504198,
+          "tag": "v1.31.0",
+          "published_at": "2026-10-09T04:51:32Z",
+          "prerelease": false,
+          "total": 72035,
+          "assets": [
+            {
+              "id": 623887024,
+              "name": "onnxruntime-linux-x64-gpu_cuda13-1.31.0.tgz",
+              "download_count": 2197
+            },
+            {
+              "id": 623887335,
+              "name": "onnxruntime-win-x64-gpu_cuda13-1.31.0.zip",
+              "download_count": 1004
+            },
+            {
+              "id": 623887596,
+              "name": "onnxruntime-linux-x64-1.31.0.tgz",
+              "download_count": 32916
+            },
+            {
+              "id": 623887681,
+              "name": "onnxruntime-osx-arm64-1.31.0.tgz",
+              "download_count": 9908
+            },
+            {
+              "id": 623887752,
+              "name": "onnxruntime-win-arm64-1.31.0.zip",
+              "download_count": 1094
+            },
+            {
+              "id": 623887843,
+              "name": "onnxruntime-win-x64-1.31.0.zip",
+              "download_count": 14943
+            },
+            {
+              "id": 623887939,
+              "name": "onnxruntime-linux-aarch64-1.31.0.tgz",
+              "download_count": 7059
+            },
+            {
+              "id": 623887975,
+              "name": "onnxruntime-linux-x64-gpu_cuda12-1.31.0.tgz",
+              "download_count": 1846
+            },
+            {
+              "id": 623888392,
+              "name": "onnxruntime-win-x64-gpu_cuda12-1.31.0.zip",
+              "download_count": 987
+            },
+            {
+              "id": 623891787,
+              "name": "onnxruntime-win-arm64x-1.31.0.zip",
+              "download_count": 81
+            }
+          ]
+        },
+        {
+          "id": 424667771,
+          "tag": "v1.31.1",
+          "published_at": "2026-10-26T19:29:51Z",
+          "prerelease": false,
+          "total": 30060,
+          "assets": [
+            {
+              "id": 679207860,
+              "name": "onnxruntime-linux-aarch64-1.31.1.tgz",
+              "download_count": 3528
+            },
+            {
+              "id": 679207935,
+              "name": "onnxruntime-linux-x64-1.31.1.tgz",
+              "download_count": 14308
+            },
+            {
+              "id": 679207977,
+              "name": "onnxruntime-linux-x64-gpu_cuda12-1.31.1.tgz",
+              "download_count": 504
+            },
+            {
+              "id": 679208494,
+              "name": "onnxruntime-linux-x64-gpu_cuda13-1.31.1.tgz",
+              "download_count": 548
+            },
+            {
+              "id": 679208822,
+              "name": "onnxruntime-osx-arm64-1.31.1.tgz",
+              "download_count": 3326
+            },
+            {
+              "id": 679208863,
+              "name": "onnxruntime-win-arm64-1.31.1.zip",
+              "download_count": 330
+            },
+            {
+              "id": 679208942,
+              "name": "onnxruntime-win-arm64x-1.31.1.zip",
+              "download_count": 60
+            },
+            {
+              "id": 679209110,
+              "name": "onnxruntime-win-x64-1.31.1.zip",
+              "download_count": 6437
+            },
+            {
+              "id": 679209185,
+              "name": "onnxruntime-win-x64-gpu_cuda12-1.31.1.zip",
+              "download_count": 605
+            },
+            {
+              "id": 679209599,
+              "name": "onnxruntime-win-x64-gpu_cuda13-1.31.1.zip",
+              "download_count": 414
+            }
+          ]
+        },
+        {
+          "id": 428317903,
+          "tag": "plugin-ep-webgpu/v0.5.0",
+          "published_at": "2026-10-29T21:30:05Z",
+          "prerelease": false,
+          "total": 0,
+          "assets": []
+        },
+        {
+          "id": 428364774,
+          "tag": "v1.30.1",
+          "published_at": "2026-10-29T22:01:54Z",
+          "prerelease": false,
+          "total": 2942,
+          "assets": [
+            {
+              "id": 689827748,
+              "name": "onnxruntime-linux-x64-1.30.1.tgz",
+              "download_count": 1349
+            },
+            {
+              "id": 689827749,
+              "name": "onnxruntime-linux-x64-gpu_cuda12-1.30.1.tgz",
+              "download_count": 39
+            },
+            {
+              "id": 689827750,
+              "name": "onnxruntime-linux-aarch64-1.30.1.tgz",
+              "download_count": 132
+            },
+            {
+              "id": 689827752,
+              "name": "onnxruntime-win-x64-gpu_cuda13-1.30.1.zip",
+              "download_count": 130
+            },
+            {
+              "id": 689827755,
+              "name": "onnxruntime-linux-x64-gpu_cuda13-1.30.1.tgz",
+              "download_count": 90
+            },
+            {
+              "id": 689827870,
+              "name": "onnxruntime-osx-arm64-1.30.1.tgz",
+              "download_count": 205
+            },
+            {
+              "id": 689827872,
+              "name": "onnxruntime-win-arm64-1.30.1.zip",
+              "download_count": 51
+            },
+            {
+              "id": 689827956,
+              "name": "onnxruntime-win-arm64x-1.30.1.zip",
+              "download_count": 35
+            },
+            {
+              "id": 689827999,
+              "name": "onnxruntime-win-x64-1.30.1.zip",
+              "download_count": 748
+            },
+            {
+              "id": 689828141,
+              "name": "onnxruntime-win-x64-gpu_cuda12-1.30.1.zip",
+              "download_count": 163
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "dates": [
+    "2026-10-22",
+    "2026-10-23",
+    "2026-10-24",
+    "2026-10-25",
+    "2026-10-26",
+    "2026-10-27",
+    "2026-10-28",
+    "2026-10-29",
+    "2026-10-30",
+    "2026-10-31",
+    "2026-11-01",
+    "2026-11-02",
+    "2026-11-03",
+    "2026-11-04",
+    "2026-11-05",
+    "2026-11-06",
+    "2026-11-07",
+    "2026-11-08",
+    "2026-11-09"
+  ]
+}

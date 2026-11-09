@@ -1,0 +1,1292 @@
+{
+  "updated_at": "2026-11-09T22:14:17Z",
+  "repositories": [
+    {
+      "repository": "xadupre/onnx-light-cpu",
+      "total": 7171,
+      "releases": [
+        {
+          "id": 400914194,
+          "tag": "0.1.16",
+          "published_at": "2026-10-01T11:45:09Z",
+          "prerelease": false,
+          "total": 121,
+          "assets": [
+            {
+              "id": 603148086,
+              "name": "onnx-light-cpu-cpp-windows-AMD64.zip",
+              "download_count": 1
+            },
+            {
+              "id": 603148602,
+              "name": "onnx-light-cpu-cpp-linux-x86_64.tar.gz",
+              "download_count": 1
+            },
+            {
+              "id": 603151989,
+              "name": "onnx-light-cpu-cpp-windows-ARM64.zip",
+              "download_count": 1
+            },
+            {
+              "id": 603154580,
+              "name": "onnx-light-cpu-cpp-macos-universal2.tar.gz",
+              "download_count": 1
+            },
+            {
+              "id": 603157095,
+              "name": "onnx-light-cpu-cpp-linux-aarch64.tar.gz",
+              "download_count": 1
+            },
+            {
+              "id": 603160130,
+              "name": "onnx_light_cpu-0.1.16-cp314-cp314-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 603160134,
+              "name": "onnx_light_cpu-0.1.16-cp313-cp313-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl",
+              "download_count": 2
+            },
+            {
+              "id": 603160135,
+              "name": "onnx_light_cpu-0.1.16-cp312-cp312-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 603171920,
+              "name": "onnx_light_cpu-0.1.16-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 603171922,
+              "name": "onnx_light_cpu-0.1.16-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 2
+            },
+            {
+              "id": 603171923,
+              "name": "onnx_light_cpu-0.1.16-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 99
+            },
+            {
+              "id": 603180953,
+              "name": "onnx_light_cpu-0.1.16-cp314-cp314-macosx_13_0_universal2.whl",
+              "download_count": 1
+            },
+            {
+              "id": 603180962,
+              "name": "onnx_light_cpu-0.1.16-cp313-cp313-macosx_13_0_universal2.whl",
+              "download_count": 2
+            },
+            {
+              "id": 603180963,
+              "name": "onnx_light_cpu-0.1.16-cp312-cp312-macosx_13_0_universal2.whl",
+              "download_count": 1
+            },
+            {
+              "id": 603183371,
+              "name": "onnx_light_cpu-0.1.16-cp314-cp314-win_amd64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 603183372,
+              "name": "onnx_light_cpu-0.1.16-cp313-cp313-win_amd64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 603183373,
+              "name": "onnx_light_cpu-0.1.16-cp312-cp312-win_amd64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 603189772,
+              "name": "onnx_light_cpu-0.1.16-cp313-cp313-win_arm64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 603189773,
+              "name": "onnx_light_cpu-0.1.16-cp314-cp314-win_arm64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 603189774,
+              "name": "onnx_light_cpu-0.1.16-cp312-cp312-win_arm64.whl",
+              "download_count": 1
+            }
+          ]
+        },
+        {
+          "id": 401970042,
+          "tag": "0.1.17",
+          "published_at": "2026-10-02T16:15:13Z",
+          "prerelease": false,
+          "total": 100,
+          "assets": [
+            {
+              "id": 605987854,
+              "name": "onnx-light-cpu-cpp-linux-aarch64.tar.gz",
+              "download_count": 0
+            },
+            {
+              "id": 605988108,
+              "name": "onnx-light-cpu-cpp-linux-x86_64.tar.gz",
+              "download_count": 1
+            },
+            {
+              "id": 605990054,
+              "name": "onnx-light-cpu-cpp-windows-AMD64.zip",
+              "download_count": 0
+            },
+            {
+              "id": 605991802,
+              "name": "onnx-light-cpu-cpp-windows-ARM64.zip",
+              "download_count": 1
+            },
+            {
+              "id": 605993704,
+              "name": "onnx-light-cpu-cpp-macos-universal2.tar.gz",
+              "download_count": 2
+            },
+            {
+              "id": 606183011,
+              "name": "onnx_light_cpu-0.1.17-cp312-cp312-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl",
+              "download_count": 0
+            },
+            {
+              "id": 606183012,
+              "name": "onnx_light_cpu-0.1.17-cp314-cp314-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 606183013,
+              "name": "onnx_light_cpu-0.1.17-cp313-cp313-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 606280448,
+              "name": "onnx_light_cpu-0.1.17-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 92
+            },
+            {
+              "id": 606280449,
+              "name": "onnx_light_cpu-0.1.17-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 606280450,
+              "name": "onnx_light_cpu-0.1.17-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 1
+            }
+          ]
+        },
+        {
+          "id": 403450023,
+          "tag": "0.1.18",
+          "published_at": "2026-10-05T07:09:10Z",
+          "prerelease": false,
+          "total": 2,
+          "assets": [
+            {
+              "id": 611808045,
+              "name": "onnx-light-cpu-cpp-windows-ARM64.zip",
+              "download_count": 0
+            },
+            {
+              "id": 611808523,
+              "name": "onnx-light-cpu-cpp-windows-AMD64.zip",
+              "download_count": 0
+            },
+            {
+              "id": 611808960,
+              "name": "onnx-light-cpu-cpp-linux-aarch64.tar.gz",
+              "download_count": 1
+            },
+            {
+              "id": 611810721,
+              "name": "onnx-light-cpu-cpp-macos-universal2.tar.gz",
+              "download_count": 0
+            },
+            {
+              "id": 611810844,
+              "name": "onnx-light-cpu-cpp-linux-x86_64.tar.gz",
+              "download_count": 1
+            }
+          ]
+        },
+        {
+          "id": 403573153,
+          "tag": "0.1.19",
+          "published_at": "2026-10-05T09:53:48Z",
+          "prerelease": false,
+          "total": 11,
+          "assets": [
+            {
+              "id": 612163345,
+              "name": "onnx-light-cpu-cpp-macos-universal2.tar.gz",
+              "download_count": 2
+            },
+            {
+              "id": 612163413,
+              "name": "onnx-light-cpu-cpp-linux-aarch64.tar.gz",
+              "download_count": 2
+            },
+            {
+              "id": 612168288,
+              "name": "onnx-light-cpu-cpp-windows-ARM64.zip",
+              "download_count": 4
+            },
+            {
+              "id": 612170277,
+              "name": "onnx-light-cpu-cpp-windows-AMD64.zip",
+              "download_count": 3
+            },
+            {
+              "id": 612171831,
+              "name": "onnx-light-cpu-cpp-linux-x86_64.tar.gz",
+              "download_count": 0
+            }
+          ]
+        },
+        {
+          "id": 403892697,
+          "tag": "0.1.20",
+          "published_at": "2026-10-05T15:58:36Z",
+          "prerelease": false,
+          "total": 1874,
+          "assets": [
+            {
+              "id": 613021874,
+              "name": "onnx-light-cpu-cpp-linux-x86_64.tar.gz",
+              "download_count": 1
+            },
+            {
+              "id": 613021936,
+              "name": "onnx-light-cpu-cpp-macos-universal2.tar.gz",
+              "download_count": 1
+            },
+            {
+              "id": 613023929,
+              "name": "onnx-light-cpu-cpp-windows-ARM64.zip",
+              "download_count": 1
+            },
+            {
+              "id": 613025529,
+              "name": "onnx-light-cpu-cpp-windows-AMD64.zip",
+              "download_count": 2
+            },
+            {
+              "id": 613027363,
+              "name": "onnx-light-cpu-cpp-linux-aarch64.tar.gz",
+              "download_count": 1
+            },
+            {
+              "id": 613043258,
+              "name": "onnx_light_cpu-0.1.20-cp314-cp314-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 613043259,
+              "name": "onnx_light_cpu-0.1.20-cp313-cp313-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl",
+              "download_count": 3
+            },
+            {
+              "id": 613043262,
+              "name": "onnx_light_cpu-0.1.20-cp312-cp312-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 613049251,
+              "name": "onnx_light_cpu-0.1.20-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 1700
+            },
+            {
+              "id": 613049253,
+              "name": "onnx_light_cpu-0.1.20-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 613049254,
+              "name": "onnx_light_cpu-0.1.20-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 162
+            },
+            {
+              "id": 613089006,
+              "name": "onnx_light_cpu-0.1.20-cp312-cp312-macosx_13_0_universal2.whl",
+              "download_count": 0
+            },
+            {
+              "id": 613089008,
+              "name": "onnx_light_cpu-0.1.20-cp314-cp314-macosx_13_0_universal2.whl",
+              "download_count": 0
+            },
+            {
+              "id": 613089011,
+              "name": "onnx_light_cpu-0.1.20-cp313-cp313-macosx_13_0_universal2.whl",
+              "download_count": 0
+            }
+          ]
+        },
+        {
+          "id": 412709653,
+          "tag": "0.1.21",
+          "published_at": "2026-10-14T12:47:35Z",
+          "prerelease": false,
+          "total": 1081,
+          "assets": [
+            {
+              "id": 640370570,
+              "name": "onnx-light-cpu-cpp-macos-universal2.tar.gz",
+              "download_count": 2
+            },
+            {
+              "id": 640377911,
+              "name": "onnx-light-cpu-cpp-linux-aarch64.tar.gz",
+              "download_count": 1
+            },
+            {
+              "id": 640379535,
+              "name": "onnx-light-cpu-cpp-linux-x86_64.tar.gz",
+              "download_count": 1
+            },
+            {
+              "id": 640388847,
+              "name": "onnx_light_cpu-0.1.21-cp312-cp312-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 640388855,
+              "name": "onnx_light_cpu-0.1.21-cp314-cp314-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 640388856,
+              "name": "onnx_light_cpu-0.1.21-cp313-cp313-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 640390737,
+              "name": "onnx-light-cpu-cpp-windows-ARM64.zip",
+              "download_count": 1
+            },
+            {
+              "id": 640390783,
+              "name": "onnx-light-cpu-cpp-windows-AMD64.zip",
+              "download_count": 2
+            },
+            {
+              "id": 640407901,
+              "name": "onnx_light_cpu-0.1.21-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 640407904,
+              "name": "onnx_light_cpu-0.1.21-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 651
+            },
+            {
+              "id": 640407906,
+              "name": "onnx_light_cpu-0.1.21-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 416
+            },
+            {
+              "id": 640456284,
+              "name": "onnx_light_cpu-0.1.21-cp313-cp313-macosx_13_0_universal2.whl",
+              "download_count": 1
+            },
+            {
+              "id": 640456285,
+              "name": "onnx_light_cpu-0.1.21-cp312-cp312-macosx_13_0_universal2.whl",
+              "download_count": 1
+            },
+            {
+              "id": 640456286,
+              "name": "onnx_light_cpu-0.1.21-cp314-cp314-macosx_13_0_universal2.whl",
+              "download_count": 1
+            }
+          ]
+        },
+        {
+          "id": 414903026,
+          "tag": "0.1.22",
+          "published_at": "2026-10-16T11:45:47Z",
+          "prerelease": false,
+          "total": 17,
+          "assets": [
+            {
+              "id": 647163441,
+              "name": "onnx-light-cpu-cpp-linux-aarch64.tar.gz",
+              "download_count": 1
+            },
+            {
+              "id": 647164634,
+              "name": "onnx-light-cpu-cpp-linux-x86_64.tar.gz",
+              "download_count": 1
+            },
+            {
+              "id": 647165848,
+              "name": "onnx-light-cpu-cpp-macos-universal2.tar.gz",
+              "download_count": 1
+            },
+            {
+              "id": 647165896,
+              "name": "onnx-light-cpu-cpp-windows-AMD64.zip",
+              "download_count": 1
+            },
+            {
+              "id": 647166131,
+              "name": "onnx-light-cpu-cpp-windows-ARM64.zip",
+              "download_count": 1
+            },
+            {
+              "id": 647185680,
+              "name": "onnx_light_cpu-0.1.21-cp313-cp313-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 647185684,
+              "name": "onnx_light_cpu-0.1.21-cp314-cp314-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 647185693,
+              "name": "onnx_light_cpu-0.1.21-cp312-cp312-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 647191085,
+              "name": "onnx_light_cpu-0.1.21-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 2
+            },
+            {
+              "id": 647191090,
+              "name": "onnx_light_cpu-0.1.21-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 2
+            },
+            {
+              "id": 647191091,
+              "name": "onnx_light_cpu-0.1.21-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 647234065,
+              "name": "onnx_light_cpu-0.1.21-cp314-cp314-macosx_13_0_universal2.whl",
+              "download_count": 1
+            },
+            {
+              "id": 647234066,
+              "name": "onnx_light_cpu-0.1.21-cp313-cp313-macosx_13_0_universal2.whl",
+              "download_count": 2
+            },
+            {
+              "id": 647234067,
+              "name": "onnx_light_cpu-0.1.21-cp312-cp312-macosx_13_0_universal2.whl",
+              "download_count": 1
+            }
+          ]
+        },
+        {
+          "id": 417086553,
+          "tag": "0.1.23",
+          "published_at": "2026-10-19T08:58:15Z",
+          "prerelease": false,
+          "total": 5,
+          "assets": [
+            {
+              "id": 655758045,
+              "name": "onnx-light-cpu-cpp-windows-AMD64.zip",
+              "download_count": 1
+            },
+            {
+              "id": 655760041,
+              "name": "onnx-light-cpu-cpp-linux-x86_64.tar.gz",
+              "download_count": 1
+            },
+            {
+              "id": 655761721,
+              "name": "onnx-light-cpu-cpp-linux-aarch64.tar.gz",
+              "download_count": 1
+            },
+            {
+              "id": 655762095,
+              "name": "onnx-light-cpu-cpp-windows-ARM64.zip",
+              "download_count": 1
+            },
+            {
+              "id": 655777265,
+              "name": "onnx-light-cpu-cpp-macos-universal2.tar.gz",
+              "download_count": 1
+            }
+          ]
+        },
+        {
+          "id": 421536610,
+          "tag": "0.2.0",
+          "published_at": "2026-10-23T07:00:30Z",
+          "prerelease": false,
+          "total": 1659,
+          "assets": [
+            {
+              "id": 668272126,
+              "name": "onnx-light-cpu-cpp-linux-aarch64.tar.gz",
+              "download_count": 1
+            },
+            {
+              "id": 668273547,
+              "name": "onnx-light-cpu-cpp-macos-universal2.tar.gz",
+              "download_count": 1
+            },
+            {
+              "id": 668273548,
+              "name": "onnx-light-cpu-cpp-linux-x86_64.tar.gz",
+              "download_count": 1
+            },
+            {
+              "id": 668273863,
+              "name": "onnx-light-cpu-cpp-windows-AMD64.zip",
+              "download_count": 1
+            },
+            {
+              "id": 668274510,
+              "name": "onnx-light-cpu-cpp-windows-ARM64.zip",
+              "download_count": 1
+            },
+            {
+              "id": 668293180,
+              "name": "onnx_light_cpu-0.2.0-cp313-cp313-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 668293187,
+              "name": "onnx_light_cpu-0.2.0-cp312-cp312-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 668293193,
+              "name": "onnx_light_cpu-0.2.0-cp314-cp314-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 668297212,
+              "name": "onnx_light_cpu-0.2.0-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 668297214,
+              "name": "onnx_light_cpu-0.2.0-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 697
+            },
+            {
+              "id": 668297221,
+              "name": "onnx_light_cpu-0.2.0-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 941
+            },
+            {
+              "id": 668340984,
+              "name": "onnx_light_cpu-0.2.0-cp312-cp312-win_arm64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 668340985,
+              "name": "onnx_light_cpu-0.2.0-cp313-cp313-win_arm64.whl",
+              "download_count": 2
+            },
+            {
+              "id": 668340986,
+              "name": "onnx_light_cpu-0.2.0-cp314-cp314-win_arm64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 668342888,
+              "name": "onnx_light_cpu-0.2.0-cp312-cp312-macosx_13_0_universal2.whl",
+              "download_count": 1
+            },
+            {
+              "id": 668342890,
+              "name": "onnx_light_cpu-0.2.0-cp314-cp314-macosx_13_0_universal2.whl",
+              "download_count": 1
+            },
+            {
+              "id": 668342892,
+              "name": "onnx_light_cpu-0.2.0-cp313-cp313-macosx_13_0_universal2.whl",
+              "download_count": 1
+            },
+            {
+              "id": 668351420,
+              "name": "onnx_light_cpu-0.2.0-cp312-cp312-win_amd64.whl",
+              "download_count": 3
+            },
+            {
+              "id": 668351421,
+              "name": "onnx_light_cpu-0.2.0-cp314-cp314-win_amd64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 668351423,
+              "name": "onnx_light_cpu-0.2.0-cp313-cp313-win_amd64.whl",
+              "download_count": 1
+            }
+          ]
+        },
+        {
+          "id": 426100105,
+          "tag": "0.2.1",
+          "published_at": "2026-10-27T23:30:36Z",
+          "prerelease": false,
+          "total": 29,
+          "assets": [
+            {
+              "id": 683204880,
+              "name": "onnx-light-cpu-cpp-linux-aarch64.tar.gz",
+              "download_count": 2
+            },
+            {
+              "id": 683206484,
+              "name": "onnx-light-cpu-cpp-linux-x86_64.tar.gz",
+              "download_count": 3
+            },
+            {
+              "id": 683206709,
+              "name": "onnx-light-cpu-cpp-windows-ARM64.zip",
+              "download_count": 4
+            },
+            {
+              "id": 683207112,
+              "name": "onnx-light-cpu-cpp-macos-universal2.tar.gz",
+              "download_count": 2
+            },
+            {
+              "id": 683207960,
+              "name": "onnx-light-cpu-cpp-windows-AMD64.zip",
+              "download_count": 1
+            },
+            {
+              "id": 683220755,
+              "name": "onnx_light_cpu-0.2.0-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 2
+            },
+            {
+              "id": 683220758,
+              "name": "onnx_light_cpu-0.2.0-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 683220761,
+              "name": "onnx_light_cpu-0.2.0-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 2
+            },
+            {
+              "id": 683222641,
+              "name": "onnx_light_cpu-0.2.0-cp312-cp312-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 683222642,
+              "name": "onnx_light_cpu-0.2.0-cp314-cp314-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 683222645,
+              "name": "onnx_light_cpu-0.2.0-cp313-cp313-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 683271440,
+              "name": "onnx_light_cpu-0.2.0-cp314-cp314-macosx_13_0_universal2.whl",
+              "download_count": 1
+            },
+            {
+              "id": 683271441,
+              "name": "onnx_light_cpu-0.2.0-cp313-cp313-macosx_13_0_universal2.whl",
+              "download_count": 1
+            },
+            {
+              "id": 683271444,
+              "name": "onnx_light_cpu-0.2.0-cp312-cp312-macosx_13_0_universal2.whl",
+              "download_count": 1
+            },
+            {
+              "id": 683271906,
+              "name": "onnx_light_cpu-0.2.0-cp314-cp314-win_arm64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 683271907,
+              "name": "onnx_light_cpu-0.2.0-cp312-cp312-win_arm64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 683271908,
+              "name": "onnx_light_cpu-0.2.0-cp313-cp313-win_arm64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 683279405,
+              "name": "onnx_light_cpu-0.2.0-cp312-cp312-win_amd64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 683279406,
+              "name": "onnx_light_cpu-0.2.0-cp313-cp313-win_amd64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 683279407,
+              "name": "onnx_light_cpu-0.2.0-cp314-cp314-win_amd64.whl",
+              "download_count": 1
+            }
+          ]
+        },
+        {
+          "id": 426473771,
+          "tag": "0.2.1.1",
+          "published_at": "2026-10-28T09:34:35Z",
+          "prerelease": false,
+          "total": 682,
+          "assets": [
+            {
+              "id": 684497374,
+              "name": "onnx-light-cpu-cpp-linux-aarch64.tar.gz",
+              "download_count": 1
+            },
+            {
+              "id": 684498123,
+              "name": "onnx-light-cpu-cpp-macos-universal2.tar.gz",
+              "download_count": 1
+            },
+            {
+              "id": 684498643,
+              "name": "onnx-light-cpu-cpp-linux-x86_64.tar.gz",
+              "download_count": 2
+            },
+            {
+              "id": 684499197,
+              "name": "onnx-light-cpu-cpp-windows-ARM64.zip",
+              "download_count": 1
+            },
+            {
+              "id": 684500660,
+              "name": "onnx-light-cpu-cpp-windows-AMD64.zip",
+              "download_count": 1
+            },
+            {
+              "id": 684519189,
+              "name": "onnx_light_cpu-0.2.1.1-cp313-cp313-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl",
+              "download_count": 2
+            },
+            {
+              "id": 684519191,
+              "name": "onnx_light_cpu-0.2.1.1-cp312-cp312-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 684519192,
+              "name": "onnx_light_cpu-0.2.1.1-cp314-cp314-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 684533220,
+              "name": "onnx_light_cpu-0.2.1.1-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 199
+            },
+            {
+              "id": 684533227,
+              "name": "onnx_light_cpu-0.2.1.1-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 684533228,
+              "name": "onnx_light_cpu-0.2.1.1-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 177
+            },
+            {
+              "id": 684579066,
+              "name": "onnx_light_cpu-0.2.1.1-cp313-cp313-macosx_13_0_universal2.whl",
+              "download_count": 1
+            },
+            {
+              "id": 684579069,
+              "name": "onnx_light_cpu-0.2.1.1-cp312-cp312-macosx_13_0_universal2.whl",
+              "download_count": 108
+            },
+            {
+              "id": 684579072,
+              "name": "onnx_light_cpu-0.2.1.1-cp314-cp314-macosx_13_0_universal2.whl",
+              "download_count": 1
+            },
+            {
+              "id": 684583235,
+              "name": "onnx_light_cpu-0.2.1.1-cp313-cp313-win_arm64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 684583236,
+              "name": "onnx_light_cpu-0.2.1.1-cp312-cp312-win_arm64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 684583238,
+              "name": "onnx_light_cpu-0.2.1.1-cp314-cp314-win_arm64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 684584105,
+              "name": "onnx_light_cpu-0.2.1.1-cp314-cp314-win_amd64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 684584107,
+              "name": "onnx_light_cpu-0.2.1.1-cp313-cp313-win_amd64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 684584109,
+              "name": "onnx_light_cpu-0.2.1.1-cp312-cp312-win_amd64.whl",
+              "download_count": 180
+            }
+          ]
+        },
+        {
+          "id": 429165734,
+          "tag": "0.2.3",
+          "published_at": "2026-10-30T15:04:37Z",
+          "prerelease": false,
+          "total": 319,
+          "assets": [
+            {
+              "id": 692467019,
+              "name": "onnx-light-cpu-cpp-linux-aarch64.tar.gz",
+              "download_count": 1
+            },
+            {
+              "id": 692469682,
+              "name": "onnx-light-cpu-cpp-linux-x86_64.tar.gz",
+              "download_count": 2
+            },
+            {
+              "id": 692470544,
+              "name": "onnx-light-cpu-cpp-windows-AMD64.zip",
+              "download_count": 1
+            },
+            {
+              "id": 692470802,
+              "name": "onnx-light-cpu-cpp-macos-universal2.tar.gz",
+              "download_count": 1
+            },
+            {
+              "id": 692472156,
+              "name": "onnx-light-cpu-cpp-windows-ARM64.zip",
+              "download_count": 1
+            },
+            {
+              "id": 692491568,
+              "name": "onnx_light_cpu-0.2.3-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 263
+            },
+            {
+              "id": 692491569,
+              "name": "onnx_light_cpu-0.2.3-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 692491572,
+              "name": "onnx_light_cpu-0.2.3-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 31
+            },
+            {
+              "id": 692492979,
+              "name": "onnx_light_cpu-0.2.3-cp314-cp314-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 692492981,
+              "name": "onnx_light_cpu-0.2.3-cp313-cp313-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 692492983,
+              "name": "onnx_light_cpu-0.2.3-cp312-cp312-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 692533314,
+              "name": "onnx_light_cpu-0.2.3-cp314-cp314-macosx_13_0_universal2.whl",
+              "download_count": 2
+            },
+            {
+              "id": 692533320,
+              "name": "onnx_light_cpu-0.2.3-cp313-cp313-macosx_13_0_universal2.whl",
+              "download_count": 2
+            },
+            {
+              "id": 692533324,
+              "name": "onnx_light_cpu-0.2.3-cp312-cp312-macosx_13_0_universal2.whl",
+              "download_count": 1
+            },
+            {
+              "id": 692536916,
+              "name": "onnx_light_cpu-0.2.3-cp313-cp313-win_amd64.whl",
+              "download_count": 2
+            },
+            {
+              "id": 692536918,
+              "name": "onnx_light_cpu-0.2.3-cp312-cp312-win_amd64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 692536921,
+              "name": "onnx_light_cpu-0.2.3-cp314-cp314-win_amd64.whl",
+              "download_count": 2
+            },
+            {
+              "id": 692553135,
+              "name": "onnx_light_cpu-0.2.3-cp314-cp314-win_arm64.whl",
+              "download_count": 2
+            },
+            {
+              "id": 692553136,
+              "name": "onnx_light_cpu-0.2.3-cp313-cp313-win_arm64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 692553140,
+              "name": "onnx_light_cpu-0.2.3-cp312-cp312-win_arm64.whl",
+              "download_count": 2
+            }
+          ]
+        },
+        {
+          "id": 431617599,
+          "tag": "0.2.4",
+          "published_at": "2026-11-02T15:17:43Z",
+          "prerelease": false,
+          "total": 65,
+          "assets": [
+            {
+              "id": 702188112,
+              "name": "onnx-light-cpu-cpp-linux-x86_64.tar.gz",
+              "download_count": 1
+            },
+            {
+              "id": 702190086,
+              "name": "onnx-light-cpu-cpp-linux-aarch64.tar.gz",
+              "download_count": 1
+            },
+            {
+              "id": 702195129,
+              "name": "onnx-light-cpu-cpp-windows-AMD64.zip",
+              "download_count": 1
+            },
+            {
+              "id": 702199730,
+              "name": "onnx-light-cpu-cpp-windows-ARM64.zip",
+              "download_count": 1
+            },
+            {
+              "id": 702209496,
+              "name": "onnx_light_cpu-0.2.4-cp312-cp312-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 702209498,
+              "name": "onnx_light_cpu-0.2.4-cp313-cp313-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 702209499,
+              "name": "onnx_light_cpu-0.2.4-cp314-cp314-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 702221743,
+              "name": "onnx-light-cpu-cpp-macos-universal2.tar.gz",
+              "download_count": 1
+            },
+            {
+              "id": 702241515,
+              "name": "onnx_light_cpu-0.2.4-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 18
+            },
+            {
+              "id": 702241516,
+              "name": "onnx_light_cpu-0.2.4-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 20
+            },
+            {
+              "id": 702241517,
+              "name": "onnx_light_cpu-0.2.4-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 702309719,
+              "name": "onnx_light_cpu-0.2.4-cp312-cp312-win_arm64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 702309720,
+              "name": "onnx_light_cpu-0.2.4-cp313-cp313-win_arm64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 702309724,
+              "name": "onnx_light_cpu-0.2.4-cp314-cp314-win_arm64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 702321923,
+              "name": "onnx_light_cpu-0.2.4-cp313-cp313-win_amd64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 702321927,
+              "name": "onnx_light_cpu-0.2.4-cp312-cp312-win_amd64.whl",
+              "download_count": 13
+            },
+            {
+              "id": 702321931,
+              "name": "onnx_light_cpu-0.2.4-cp314-cp314-win_amd64.whl",
+              "download_count": 1
+            }
+          ]
+        },
+        {
+          "id": 432754810,
+          "tag": "0.2.5",
+          "published_at": "2026-11-03T13:47:16Z",
+          "prerelease": false,
+          "total": 437,
+          "assets": [
+            {
+              "id": 705769820,
+              "name": "onnx-light-cpu-cpp-linux-x86_64.tar.gz",
+              "download_count": 1
+            },
+            {
+              "id": 705774367,
+              "name": "onnx-light-cpu-cpp-windows-ARM64.zip",
+              "download_count": 1
+            },
+            {
+              "id": 705795808,
+              "name": "onnx-light-cpu-cpp-linux-aarch64.tar.gz",
+              "download_count": 1
+            },
+            {
+              "id": 705802544,
+              "name": "onnx-light-cpu-cpp-windows-AMD64.zip",
+              "download_count": 1
+            },
+            {
+              "id": 705823394,
+              "name": "onnx_light_cpu-0.2.5-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 31
+            },
+            {
+              "id": 705823395,
+              "name": "onnx_light_cpu-0.2.5-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 705823399,
+              "name": "onnx_light_cpu-0.2.5-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 359
+            },
+            {
+              "id": 705833024,
+              "name": "onnx_light_cpu-0.2.5-cp312-cp312-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 705833027,
+              "name": "onnx_light_cpu-0.2.5-cp313-cp313-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 705833028,
+              "name": "onnx_light_cpu-0.2.5-cp314-cp314-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 705836489,
+              "name": "onnx-light-cpu-cpp-macos-universal2.tar.gz",
+              "download_count": 1
+            },
+            {
+              "id": 705903155,
+              "name": "onnx_light_cpu-0.2.5-cp313-cp313-win_amd64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 705903157,
+              "name": "onnx_light_cpu-0.2.5-cp312-cp312-win_amd64.whl",
+              "download_count": 16
+            },
+            {
+              "id": 705903163,
+              "name": "onnx_light_cpu-0.2.5-cp314-cp314-win_amd64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 705917460,
+              "name": "onnx_light_cpu-0.2.5-cp312-cp312-win_arm64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 705917461,
+              "name": "onnx_light_cpu-0.2.5-cp314-cp314-win_arm64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 705917463,
+              "name": "onnx_light_cpu-0.2.5-cp313-cp313-win_arm64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 705927535,
+              "name": "onnx_light_cpu-0.2.5-cp313-cp313-macosx_13_0_universal2.whl",
+              "download_count": 1
+            },
+            {
+              "id": 705927537,
+              "name": "onnx_light_cpu-0.2.5-cp312-cp312-macosx_13_0_universal2.whl",
+              "download_count": 15
+            },
+            {
+              "id": 705927542,
+              "name": "onnx_light_cpu-0.2.5-cp314-cp314-macosx_13_0_universal2.whl",
+              "download_count": 1
+            }
+          ]
+        },
+        {
+          "id": 433776635,
+          "tag": "0.2.6",
+          "published_at": "2026-11-04T10:20:13Z",
+          "prerelease": false,
+          "total": 769,
+          "assets": [
+            {
+              "id": 709092111,
+              "name": "onnx-light-cpu-cpp-linux-x86_64.tar.gz",
+              "download_count": 1
+            },
+            {
+              "id": 709092176,
+              "name": "onnx-light-cpu-cpp-linux-aarch64.tar.gz",
+              "download_count": 1
+            },
+            {
+              "id": 709093177,
+              "name": "onnx-light-cpu-cpp-windows-AMD64.zip",
+              "download_count": 1
+            },
+            {
+              "id": 709096489,
+              "name": "onnx-light-cpu-cpp-windows-ARM64.zip",
+              "download_count": 1
+            },
+            {
+              "id": 709096828,
+              "name": "onnx-light-cpu-cpp-macos-universal2.tar.gz",
+              "download_count": 1
+            },
+            {
+              "id": 709109526,
+              "name": "onnx_light_cpu-0.2.6-cp314-cp314-macosx_13_0_universal2.whl",
+              "download_count": 0
+            },
+            {
+              "id": 709109528,
+              "name": "onnx_light_cpu-0.2.6-cp312-cp312-macosx_13_0_universal2.whl",
+              "download_count": 56
+            },
+            {
+              "id": 709109540,
+              "name": "onnx_light_cpu-0.2.6-cp313-cp313-macosx_13_0_universal2.whl",
+              "download_count": 0
+            },
+            {
+              "id": 709114644,
+              "name": "onnx_light_cpu-0.2.6-cp312-cp312-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl",
+              "download_count": 0
+            },
+            {
+              "id": 709114656,
+              "name": "onnx_light_cpu-0.2.6-cp314-cp314-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl",
+              "download_count": 0
+            },
+            {
+              "id": 709114822,
+              "name": "onnx_light_cpu-0.2.6-cp313-cp313-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl",
+              "download_count": 0
+            },
+            {
+              "id": 709131118,
+              "name": "onnx_light_cpu-0.2.6-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 4
+            },
+            {
+              "id": 709131135,
+              "name": "onnx_light_cpu-0.2.6-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 612
+            },
+            {
+              "id": 709131175,
+              "name": "onnx_light_cpu-0.2.6-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 37
+            },
+            {
+              "id": 709176321,
+              "name": "onnx_light_cpu-0.2.6-cp312-cp312-win_arm64.whl",
+              "download_count": 0
+            },
+            {
+              "id": 709176337,
+              "name": "onnx_light_cpu-0.2.6-cp313-cp313-win_arm64.whl",
+              "download_count": 0
+            },
+            {
+              "id": 709176404,
+              "name": "onnx_light_cpu-0.2.6-cp314-cp314-win_arm64.whl",
+              "download_count": 0
+            },
+            {
+              "id": 709188657,
+              "name": "onnx_light_cpu-0.2.6-cp314-cp314-win_amd64.whl",
+              "download_count": 0
+            },
+            {
+              "id": 709188665,
+              "name": "onnx_light_cpu-0.2.6-cp313-cp313-win_amd64.whl",
+              "download_count": 0
+            },
+            {
+              "id": 709188681,
+              "name": "onnx_light_cpu-0.2.6-cp312-cp312-win_amd64.whl",
+              "download_count": 55
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "dates": [
+    "2026-10-22",
+    "2026-10-23",
+    "2026-10-24",
+    "2026-10-25",
+    "2026-10-26",
+    "2026-10-27",
+    "2026-10-28",
+    "2026-10-29",
+    "2026-10-30",
+    "2026-10-31",
+    "2026-11-01",
+    "2026-11-02",
+    "2026-11-03",
+    "2026-11-04",
+    "2026-11-05",
+    "2026-11-06",
+    "2026-11-07",
+    "2026-11-08",
+    "2026-11-09"
+  ]
+}

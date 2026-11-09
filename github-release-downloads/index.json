@@ -1,1 +1,440 @@
-{"updated_at":"2026-11-09T21:36:46Z","repositories":[{"repository":"ggml-org/llama.cpp","total":21314618,"file":"ggml-org/llama.cpp.json.gz"},{"repository":"microsoft/onnxruntime","total":27312689,"file":"microsoft/onnxruntime.json.gz"},{"repository":"microsoft/onnxruntime-extensions","total":0,"file":"microsoft/onnxruntime-extensions.json.gz"},{"repository":"microsoft/onnxruntime-genai","total":34971,"file":"microsoft/onnxruntime-genai.json.gz"},{"repository":"onnx/onnx","total":36184,"file":"onnx/onnx.json.gz"},{"repository":"vllm-project/vllm","total":5153039,"file":"vllm-project/vllm.json.gz"},{"repository":"xadupre/arranged-agents","total":0,"file":"xadupre/arranged-agents.json.gz"},{"repository":"xadupre/onnx-light","total":21127,"file":"xadupre/onnx-light.json.gz"},{"repository":"xadupre/onnx-light-cpu","total":7171,"file":"xadupre/onnx-light-cpu.json.gz"},{"repository":"xadupre/onnx-light-kernel-images","total":0,"file":"xadupre/onnx-light-kernel-images.json.gz"},{"repository":"xadupre/onnx-light-ort","total":0,"file":"xadupre/onnx-light-ort.json.gz"},{"repository":"xadupre/onnx-light-viewer","total":4,"file":"xadupre/onnx-light-viewer.json.gz"},{"repository":"xadupre/yet-another-onnx-builder","total":0,"file":"xadupre/yet-another-onnx-builder.json.gz"},{"repository":"xadupre/yet-another-onnxruntime-extensions","total":0,"file":"xadupre/yet-another-onnxruntime-extensions.json.gz"}],"history":[{"date":"2026-10-22","totals":{"ggml-org/llama.cpp":18307993,"microsoft/onnxruntime":25320598,"microsoft/onnxruntime-extensions":0,"microsoft/onnxruntime-genai":30536,"onnx/onnx":35634,"vllm-project/vllm":4705465,"xadupre/onnx-light":11259,"xadupre/onnx-light-com-microsoft":0,"xadupre/onnx-light-cpu":3037,"xadupre/onnx-light-kernel-images":0,"xadupre/onnx-light-ort":0,"xadupre/onnx-light-viewer":0,"xadupre/yet-another-onnx-builder":0,"xadupre/yet-another-onnxruntime-extensions":0}},{"date":"2026-10-23","totals":{"ggml-org/llama.cpp":18394031,"microsoft/onnxruntime":25385006,"microsoft/onnxruntime-extensions":0,"microsoft/onnxruntime-genai":30699,"onnx/onnx":35651,"vllm-project/vllm":4721143,"xadupre/onnx-light":11940,"xadupre/onnx-light-com-microsoft":0,"xadupre/onnx-light-cpu":3268,"xadupre/onnx-light-kernel-images":0,"xadupre/onnx-light-ort":0,"xadupre/onnx-light-viewer":0,"xadupre/yet-another-onnx-builder":0,"xadupre/yet-another-onnxruntime-extensions":0}},{"date":"2026-10-24","totals":{"ggml-org/llama.cpp":18540606,"microsoft/onnxruntime":25492990,"microsoft/onnxruntime-extensions":0,"microsoft/onnxruntime-genai":30850,"onnx/onnx":35679,"vllm-project/vllm":4745030,"xadupre/onnx-light":13208,"xadupre/onnx-light-com-microsoft":0,"xadupre/onnx-light-cpu":3719,"xadupre/onnx-light-kernel-images":0,"xadupre/onnx-light-ort":0,"xadupre/onnx-light-viewer":0,"xadupre/yet-another-onnx-builder":0,"xadupre/yet-another-onnxruntime-extensions":0}},{"date":"2026-10-25","totals":{"ggml-org/llama.cpp":18689110,"microsoft/onnxruntime":25587824,"microsoft/onnxruntime-extensions":0,"microsoft/onnxruntime-genai":30957,"onnx/onnx":35755,"vllm-project/vllm":4763974,"xadupre/onnx-light":13804,"xadupre/onnx-light-com-microsoft":0,"xadupre/onnx-light-cpu":3883,"xadupre/onnx-light-kernel-images":0,"xadupre/onnx-light-ort":0,"xadupre/onnx-light-viewer":0,"xadupre/yet-another-onnx-builder":0,"xadupre/yet-another-onnxruntime-extensions":0}},{"date":"2026-10-26","totals":{"ggml-org/llama.cpp":18854350,"microsoft/onnxruntime":25702110,"microsoft/onnxruntime-extensions":0,"microsoft/onnxruntime-genai":31148,"onnx/onnx":35899,"vllm-project/vllm":4785261,"xadupre/onnx-light":14015,"xadupre/onnx-light-com-microsoft":0,"xadupre/onnx-light-cpu":4016,"xadupre/onnx-light-kernel-images":0,"xadupre/onnx-light-ort":0,"xadupre/onnx-light-viewer":0,"xadupre/yet-another-onnx-builder":0,"xadupre/yet-another-onnxruntime-extensions":0}},{"date":"2026-10-27","totals":{"ggml-org/llama.cpp":19000751,"microsoft/onnxruntime":25821793,"microsoft/onnxruntime-extensions":0,"microsoft/onnxruntime-genai":31375,"onnx/onnx":35930,"vllm-project/vllm":4810883,"xadupre/onnx-light":14343,"xadupre/onnx-light-com-microsoft":0,"xadupre/onnx-light-cpu":4149,"xadupre/onnx-light-kernel-images":0,"xadupre/onnx-light-ort":0,"xadupre/onnx-light-viewer":0,"xadupre/yet-another-onnx-builder":0,"xadupre/yet-another-onnxruntime-extensions":0}},{"date":"2026-10-28","totals":{"ggml-org/llama.cpp":19166685,"microsoft/onnxruntime":25946929,"microsoft/onnxruntime-extensions":0,"microsoft/onnxruntime-genai":31601,"onnx/onnx":35932,"vllm-project/vllm":4838799,"xadupre/onnx-light":14825,"xadupre/onnx-light-com-microsoft":0,"xadupre/onnx-light-cpu":4356,"xadupre/onnx-light-kernel-images":0,"xadupre/onnx-light-ort":0,"xadupre/onnx-light-viewer":0,"xadupre/yet-another-onnx-builder":0,"xadupre/yet-another-onnxruntime-extensions":0}},{"date":"2026-10-29","totals":{"ggml-org/llama.cpp":19362797,"microsoft/onnxruntime":26071698,"microsoft/onnxruntime-extensions":0,"microsoft/onnxruntime-genai":31877,"onnx/onnx":35932,"vllm-project/vllm":4867079,"xadupre/onnx-light":15951,"xadupre/onnx-light-com-microsoft":0,"xadupre/onnx-light-cpu":4606,"xadupre/onnx-light-kernel-images":0,"xadupre/onnx-light-ort":0,"xadupre/onnx-light-viewer":0,"xadupre/yet-another-onnx-builder":0,"xadupre/yet-another-onnxruntime-extensions":0}},{"date":"2026-10-30","totals":{"ggml-org/llama.cpp":19520384,"microsoft/onnxruntime":26184524,"microsoft/onnxruntime-extensions":0,"microsoft/onnxruntime-genai":32145,"onnx/onnx":35932,"vllm-project/vllm":4895854,"xadupre/onnx-light":16792,"xadupre/onnx-light-com-microsoft":0,"xadupre/onnx-light-cpu":4875,"xadupre/onnx-light-kernel-images":0,"xadupre/onnx-light-ort":0,"xadupre/onnx-light-viewer":0,"xadupre/yet-another-onnx-builder":0,"xadupre/yet-another-onnxruntime-extensions":0}},{"date":"2026-10-31","totals":{"ggml-org/llama.cpp":19688321,"microsoft/onnxruntime":26283108,"microsoft/onnxruntime-extensions":0,"microsoft/onnxruntime-genai":32291,"onnx/onnx":35932,"vllm-project/vllm":4922610,"xadupre/onnx-light":17270,"xadupre/onnx-light-com-microsoft":0,"xadupre/onnx-light-cpu":5301,"xadupre/onnx-light-kernel-images":0,"xadupre/onnx-light-ort":0,"xadupre/onnx-light-viewer":0,"xadupre/yet-another-onnx-builder":0,"xadupre/yet-another-onnxruntime-extensions":0}},{"date":"2026-11-01","totals":{"ggml-org/llama.cpp":19872702,"microsoft/onnxruntime":26380472,"microsoft/onnxruntime-extensions":0,"microsoft/onnxruntime-genai":32519,"onnx/onnx":35934,"vllm-project/vllm":4941559,"xadupre/onnx-light":17645,"xadupre/onnx-light-com-microsoft":0,"xadupre/onnx-light-cpu":5532,"xadupre/onnx-light-kernel-images":0,"xadupre/onnx-light-ort":0,"xadupre/onnx-light-viewer":0,"xadupre/yet-another-onnx-builder":0,"xadupre/yet-another-onnxruntime-extensions":0}},{"date":"2026-11-02","totals":{"ggml-org/llama.cpp":20081521,"microsoft/onnxruntime":26502529,"microsoft/onnxruntime-extensions":0,"microsoft/onnxruntime-genai":32660,"onnx/onnx":35934,"vllm-project/vllm":4968052,"xadupre/onnx-light":18136,"xadupre/onnx-light-com-microsoft":0,"xadupre/onnx-light-cpu":5797,"xadupre/onnx-light-kernel-images":0,"xadupre/onnx-light-ort":0,"xadupre/onnx-light-viewer":0,"xadupre/yet-another-onnx-builder":0,"xadupre/yet-another-onnxruntime-extensions":0}},{"date":"2026-11-03","totals":{"ggml-org/llama.cpp":20275969,"microsoft/onnxruntime":26614239,"microsoft/onnxruntime-extensions":0,"microsoft/onnxruntime-genai":32812,"onnx/onnx":35934,"vllm-project/vllm":4994772,"xadupre/onnx-light":18583,"xadupre/onnx-light-com-microsoft":0,"xadupre/onnx-light-cpu":5910,"xadupre/onnx-light-kernel-images":0,"xadupre/onnx-light-ort":0,"xadupre/onnx-light-viewer":0,"xadupre/yet-another-onnx-builder":0,"xadupre/yet-another-onnxruntime-extensions":0}},{"date":"2026-11-04","totals":{"ggml-org/llama.cpp":20450697,"microsoft/onnxruntime":26738527,"microsoft/onnxruntime-extensions":0,"microsoft/onnxruntime-genai":33366,"onnx/onnx":35935,"vllm-project/vllm":5025232,"xadupre/onnx-light":19022,"xadupre/onnx-light-com-microsoft":0,"xadupre/onnx-light-cpu":6075,"xadupre/onnx-light-kernel-images":0,"xadupre/onnx-light-ort":0,"xadupre/onnx-light-viewer":0,"xadupre/yet-another-onnx-builder":0,"xadupre/yet-another-onnxruntime-extensions":0}},{"date":"2026-11-05","totals":{"ggml-org/llama.cpp":20604885,"microsoft/onnxruntime":26862135,"microsoft/onnxruntime-extensions":0,"microsoft/onnxruntime-genai":33581,"onnx/onnx":35955,"vllm-project/vllm":5055713,"xadupre/arranged-agents":0,"xadupre/onnx-light":19370,"xadupre/onnx-light-com-microsoft":0,"xadupre/onnx-light-cpu":6278,"xadupre/onnx-light-kernel-images":0,"xadupre/onnx-light-ort":0,"xadupre/onnx-light-viewer":0,"xadupre/yet-another-onnx-builder":0,"xadupre/yet-another-onnxruntime-extensions":0}},{"date":"2026-11-06","totals":{"ggml-org/llama.cpp":20777294,"microsoft/onnxruntime":26982096,"microsoft/onnxruntime-extensions":0,"microsoft/onnxruntime-genai":33893,"onnx/onnx":36072,"vllm-project/vllm":5082538,"xadupre/arranged-agents":0,"xadupre/onnx-light":20106,"xadupre/onnx-light-cpu":6680,"xadupre/onnx-light-kernel-images":0,"xadupre/onnx-light-ort":0,"xadupre/onnx-light-viewer":0,"xadupre/yet-another-onnx-builder":0,"xadupre/yet-another-onnxruntime-extensions":0}},{"date":"2026-11-07","totals":{"ggml-org/llama.cpp":20932937,"microsoft/onnxruntime":27079904,"microsoft/onnxruntime-extensions":0,"microsoft/onnxruntime-genai":34177,"onnx/onnx":36119,"vllm-project/vllm":5107923,"xadupre/arranged-agents":0,"xadupre/onnx-light":20632,"xadupre/onnx-light-cpu":6869,"xadupre/onnx-light-kernel-images":0,"xadupre/onnx-light-ort":0,"xadupre/onnx-light-viewer":4,"xadupre/yet-another-onnx-builder":0,"xadupre/yet-another-onnxruntime-extensions":0}},{"date":"2026-11-08","totals":{"ggml-org/llama.cpp":21096055,"microsoft/onnxruntime":27173042,"microsoft/onnxruntime-extensions":0,"microsoft/onnxruntime-genai":34494,"onnx/onnx":36154,"vllm-project/vllm":5124352,"xadupre/arranged-agents":0,"xadupre/onnx-light":20859,"xadupre/onnx-light-cpu":7009,"xadupre/onnx-light-kernel-images":0,"xadupre/onnx-light-ort":0,"xadupre/onnx-light-viewer":4,"xadupre/yet-another-onnx-builder":0,"xadupre/yet-another-onnxruntime-extensions":0}},{"date":"2026-11-09","totals":{"ggml-org/llama.cpp":21314618,"microsoft/onnxruntime":27312689,"microsoft/onnxruntime-extensions":0,"microsoft/onnxruntime-genai":34971,"onnx/onnx":36184,"vllm-project/vllm":5153039,"xadupre/arranged-agents":0,"xadupre/onnx-light":21127,"xadupre/onnx-light-cpu":7171,"xadupre/onnx-light-kernel-images":0,"xadupre/onnx-light-ort":0,"xadupre/onnx-light-viewer":4,"xadupre/yet-another-onnx-builder":0,"xadupre/yet-another-onnxruntime-extensions":0}}]}
+{
+  "format": "daily-json-v1",
+  "updated_at": "2026-11-09T22:14:17Z",
+  "repositories": [
+    {
+      "repository": "ggml-org/llama.cpp",
+      "total": 21317678,
+      "file": "ggml-org/llama.cpp/latest.json"
+    },
+    {
+      "repository": "microsoft/onnxruntime",
+      "total": 27316074,
+      "file": "microsoft/onnxruntime/latest.json"
+    },
+    {
+      "repository": "microsoft/onnxruntime-extensions",
+      "total": 0,
+      "file": "microsoft/onnxruntime-extensions/latest.json"
+    },
+    {
+      "repository": "microsoft/onnxruntime-genai",
+      "total": 34976,
+      "file": "microsoft/onnxruntime-genai/latest.json"
+    },
+    {
+      "repository": "onnx/onnx",
+      "total": 36184,
+      "file": "onnx/onnx/latest.json"
+    },
+    {
+      "repository": "vllm-project/vllm",
+      "total": 5153780,
+      "file": "vllm-project/vllm/latest.json"
+    },
+    {
+      "repository": "xadupre/arranged-agents",
+      "total": 0,
+      "file": "xadupre/arranged-agents/latest.json"
+    },
+    {
+      "repository": "xadupre/onnx-light",
+      "total": 21129,
+      "file": "xadupre/onnx-light/latest.json"
+    },
+    {
+      "repository": "xadupre/onnx-light-cpu",
+      "total": 7171,
+      "file": "xadupre/onnx-light-cpu/latest.json"
+    },
+    {
+      "repository": "xadupre/onnx-light-kernel-images",
+      "total": 0,
+      "file": "xadupre/onnx-light-kernel-images/latest.json"
+    },
+    {
+      "repository": "xadupre/onnx-light-ort",
+      "total": 0,
+      "file": "xadupre/onnx-light-ort/latest.json"
+    },
+    {
+      "repository": "xadupre/onnx-light-viewer",
+      "total": 4,
+      "file": "xadupre/onnx-light-viewer/latest.json"
+    },
+    {
+      "repository": "xadupre/yet-another-onnx-builder",
+      "total": 0,
+      "file": "xadupre/yet-another-onnx-builder/latest.json"
+    },
+    {
+      "repository": "xadupre/yet-another-onnxruntime-extensions",
+      "total": 0,
+      "file": "xadupre/yet-another-onnxruntime-extensions/latest.json"
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-10-22",
+      "totals": {
+        "ggml-org/llama.cpp": 18307993,
+        "microsoft/onnxruntime": 25320598,
+        "microsoft/onnxruntime-extensions": 0,
+        "microsoft/onnxruntime-genai": 30536,
+        "onnx/onnx": 35634,
+        "vllm-project/vllm": 4705465,
+        "xadupre/onnx-light": 11259,
+        "xadupre/onnx-light-com-microsoft": 0,
+        "xadupre/onnx-light-cpu": 3037,
+        "xadupre/onnx-light-kernel-images": 0,
+        "xadupre/onnx-light-ort": 0,
+        "xadupre/onnx-light-viewer": 0,
+        "xadupre/yet-another-onnx-builder": 0,
+        "xadupre/yet-another-onnxruntime-extensions": 0
+      }
+    },
+    {
+      "date": "2026-10-23",
+      "totals": {
+        "ggml-org/llama.cpp": 18394031,
+        "microsoft/onnxruntime": 25385006,
+        "microsoft/onnxruntime-extensions": 0,
+        "microsoft/onnxruntime-genai": 30699,
+        "onnx/onnx": 35651,
+        "vllm-project/vllm": 4721143,
+        "xadupre/onnx-light": 11940,
+        "xadupre/onnx-light-com-microsoft": 0,
+        "xadupre/onnx-light-cpu": 3268,
+        "xadupre/onnx-light-kernel-images": 0,
+        "xadupre/onnx-light-ort": 0,
+        "xadupre/onnx-light-viewer": 0,
+        "xadupre/yet-another-onnx-builder": 0,
+        "xadupre/yet-another-onnxruntime-extensions": 0
+      }
+    },
+    {
+      "date": "2026-10-24",
+      "totals": {
+        "ggml-org/llama.cpp": 18540606,
+        "microsoft/onnxruntime": 25492990,
+        "microsoft/onnxruntime-extensions": 0,
+        "microsoft/onnxruntime-genai": 30850,
+        "onnx/onnx": 35679,
+        "vllm-project/vllm": 4745030,
+        "xadupre/onnx-light": 13208,
+        "xadupre/onnx-light-com-microsoft": 0,
+        "xadupre/onnx-light-cpu": 3719,
+        "xadupre/onnx-light-kernel-images": 0,
+        "xadupre/onnx-light-ort": 0,
+        "xadupre/onnx-light-viewer": 0,
+        "xadupre/yet-another-onnx-builder": 0,
+        "xadupre/yet-another-onnxruntime-extensions": 0
+      }
+    },
+    {
+      "date": "2026-10-25",
+      "totals": {
+        "ggml-org/llama.cpp": 18689110,
+        "microsoft/onnxruntime": 25587824,
+        "microsoft/onnxruntime-extensions": 0,
+        "microsoft/onnxruntime-genai": 30957,
+        "onnx/onnx": 35755,
+        "vllm-project/vllm": 4763974,
+        "xadupre/onnx-light": 13804,
+        "xadupre/onnx-light-com-microsoft": 0,
+        "xadupre/onnx-light-cpu": 3883,
+        "xadupre/onnx-light-kernel-images": 0,
+        "xadupre/onnx-light-ort": 0,
+        "xadupre/onnx-light-viewer": 0,
+        "xadupre/yet-another-onnx-builder": 0,
+        "xadupre/yet-another-onnxruntime-extensions": 0
+      }
+    },
+    {
+      "date": "2026-10-26",
+      "totals": {
+        "ggml-org/llama.cpp": 18854350,
+        "microsoft/onnxruntime": 25702110,
+        "microsoft/onnxruntime-extensions": 0,
+        "microsoft/onnxruntime-genai": 31148,
+        "onnx/onnx": 35899,
+        "vllm-project/vllm": 4785261,
+        "xadupre/onnx-light": 14015,
+        "xadupre/onnx-light-com-microsoft": 0,
+        "xadupre/onnx-light-cpu": 4016,
+        "xadupre/onnx-light-kernel-images": 0,
+        "xadupre/onnx-light-ort": 0,
+        "xadupre/onnx-light-viewer": 0,
+        "xadupre/yet-another-onnx-builder": 0,
+        "xadupre/yet-another-onnxruntime-extensions": 0
+      }
+    },
+    {
+      "date": "2026-10-27",
+      "totals": {
+        "ggml-org/llama.cpp": 19000751,
+        "microsoft/onnxruntime": 25821793,
+        "microsoft/onnxruntime-extensions": 0,
+        "microsoft/onnxruntime-genai": 31375,
+        "onnx/onnx": 35930,
+        "vllm-project/vllm": 4810883,
+        "xadupre/onnx-light": 14343,
+        "xadupre/onnx-light-com-microsoft": 0,
+        "xadupre/onnx-light-cpu": 4149,
+        "xadupre/onnx-light-kernel-images": 0,
+        "xadupre/onnx-light-ort": 0,
+        "xadupre/onnx-light-viewer": 0,
+        "xadupre/yet-another-onnx-builder": 0,
+        "xadupre/yet-another-onnxruntime-extensions": 0
+      }
+    },
+    {
+      "date": "2026-10-28",
+      "totals": {
+        "ggml-org/llama.cpp": 19166685,
+        "microsoft/onnxruntime": 25946929,
+        "microsoft/onnxruntime-extensions": 0,
+        "microsoft/onnxruntime-genai": 31601,
+        "onnx/onnx": 35932,
+        "vllm-project/vllm": 4838799,
+        "xadupre/onnx-light": 14825,
+        "xadupre/onnx-light-com-microsoft": 0,
+        "xadupre/onnx-light-cpu": 4356,
+        "xadupre/onnx-light-kernel-images": 0,
+        "xadupre/onnx-light-ort": 0,
+        "xadupre/onnx-light-viewer": 0,
+        "xadupre/yet-another-onnx-builder": 0,
+        "xadupre/yet-another-onnxruntime-extensions": 0
+      }
+    },
+    {
+      "date": "2026-10-29",
+      "totals": {
+        "ggml-org/llama.cpp": 19362797,
+        "microsoft/onnxruntime": 26071698,
+        "microsoft/onnxruntime-extensions": 0,
+        "microsoft/onnxruntime-genai": 31877,
+        "onnx/onnx": 35932,
+        "vllm-project/vllm": 4867079,
+        "xadupre/onnx-light": 15951,
+        "xadupre/onnx-light-com-microsoft": 0,
+        "xadupre/onnx-light-cpu": 4606,
+        "xadupre/onnx-light-kernel-images": 0,
+        "xadupre/onnx-light-ort": 0,
+        "xadupre/onnx-light-viewer": 0,
+        "xadupre/yet-another-onnx-builder": 0,
+        "xadupre/yet-another-onnxruntime-extensions": 0
+      }
+    },
+    {
+      "date": "2026-10-30",
+      "totals": {
+        "ggml-org/llama.cpp": 19520384,
+        "microsoft/onnxruntime": 26184524,
+        "microsoft/onnxruntime-extensions": 0,
+        "microsoft/onnxruntime-genai": 32145,
+        "onnx/onnx": 35932,
+        "vllm-project/vllm": 4895854,
+        "xadupre/onnx-light": 16792,
+        "xadupre/onnx-light-com-microsoft": 0,
+        "xadupre/onnx-light-cpu": 4875,
+        "xadupre/onnx-light-kernel-images": 0,
+        "xadupre/onnx-light-ort": 0,
+        "xadupre/onnx-light-viewer": 0,
+        "xadupre/yet-another-onnx-builder": 0,
+        "xadupre/yet-another-onnxruntime-extensions": 0
+      }
+    },
+    {
+      "date": "2026-10-31",
+      "totals": {
+        "ggml-org/llama.cpp": 19688321,
+        "microsoft/onnxruntime": 26283108,
+        "microsoft/onnxruntime-extensions": 0,
+        "microsoft/onnxruntime-genai": 32291,
+        "onnx/onnx": 35932,
+        "vllm-project/vllm": 4922610,
+        "xadupre/onnx-light": 17270,
+        "xadupre/onnx-light-com-microsoft": 0,
+        "xadupre/onnx-light-cpu": 5301,
+        "xadupre/onnx-light-kernel-images": 0,
+        "xadupre/onnx-light-ort": 0,
+        "xadupre/onnx-light-viewer": 0,
+        "xadupre/yet-another-onnx-builder": 0,
+        "xadupre/yet-another-onnxruntime-extensions": 0
+      }
+    },
+    {
+      "date": "2026-11-01",
+      "totals": {
+        "ggml-org/llama.cpp": 19872702,
+        "microsoft/onnxruntime": 26380472,
+        "microsoft/onnxruntime-extensions": 0,
+        "microsoft/onnxruntime-genai": 32519,
+        "onnx/onnx": 35934,
+        "vllm-project/vllm": 4941559,
+        "xadupre/onnx-light": 17645,
+        "xadupre/onnx-light-com-microsoft": 0,
+        "xadupre/onnx-light-cpu": 5532,
+        "xadupre/onnx-light-kernel-images": 0,
+        "xadupre/onnx-light-ort": 0,
+        "xadupre/onnx-light-viewer": 0,
+        "xadupre/yet-another-onnx-builder": 0,
+        "xadupre/yet-another-onnxruntime-extensions": 0
+      }
+    },
+    {
+      "date": "2026-11-02",
+      "totals": {
+        "ggml-org/llama.cpp": 20081521,
+        "microsoft/onnxruntime": 26502529,
+        "microsoft/onnxruntime-extensions": 0,
+        "microsoft/onnxruntime-genai": 32660,
+        "onnx/onnx": 35934,
+        "vllm-project/vllm": 4968052,
+        "xadupre/onnx-light": 18136,
+        "xadupre/onnx-light-com-microsoft": 0,
+        "xadupre/onnx-light-cpu": 5797,
+        "xadupre/onnx-light-kernel-images": 0,
+        "xadupre/onnx-light-ort": 0,
+        "xadupre/onnx-light-viewer": 0,
+        "xadupre/yet-another-onnx-builder": 0,
+        "xadupre/yet-another-onnxruntime-extensions": 0
+      }
+    },
+    {
+      "date": "2026-11-03",
+      "totals": {
+        "ggml-org/llama.cpp": 20275969,
+        "microsoft/onnxruntime": 26614239,
+        "microsoft/onnxruntime-extensions": 0,
+        "microsoft/onnxruntime-genai": 32812,
+        "onnx/onnx": 35934,
+        "vllm-project/vllm": 4994772,
+        "xadupre/onnx-light": 18583,
+        "xadupre/onnx-light-com-microsoft": 0,
+        "xadupre/onnx-light-cpu": 5910,
+        "xadupre/onnx-light-kernel-images": 0,
+        "xadupre/onnx-light-ort": 0,
+        "xadupre/onnx-light-viewer": 0,
+        "xadupre/yet-another-onnx-builder": 0,
+        "xadupre/yet-another-onnxruntime-extensions": 0
+      }
+    },
+    {
+      "date": "2026-11-04",
+      "totals": {
+        "ggml-org/llama.cpp": 20450697,
+        "microsoft/onnxruntime": 26738527,
+        "microsoft/onnxruntime-extensions": 0,
+        "microsoft/onnxruntime-genai": 33366,
+        "onnx/onnx": 35935,
+        "vllm-project/vllm": 5025232,
+        "xadupre/onnx-light": 19022,
+        "xadupre/onnx-light-com-microsoft": 0,
+        "xadupre/onnx-light-cpu": 6075,
+        "xadupre/onnx-light-kernel-images": 0,
+        "xadupre/onnx-light-ort": 0,
+        "xadupre/onnx-light-viewer": 0,
+        "xadupre/yet-another-onnx-builder": 0,
+        "xadupre/yet-another-onnxruntime-extensions": 0
+      }
+    },
+    {
+      "date": "2026-11-05",
+      "totals": {
+        "ggml-org/llama.cpp": 20604885,
+        "microsoft/onnxruntime": 26862135,
+        "microsoft/onnxruntime-extensions": 0,
+        "microsoft/onnxruntime-genai": 33581,
+        "onnx/onnx": 35955,
+        "vllm-project/vllm": 5055713,
+        "xadupre/arranged-agents": 0,
+        "xadupre/onnx-light": 19370,
+        "xadupre/onnx-light-com-microsoft": 0,
+        "xadupre/onnx-light-cpu": 6278,
+        "xadupre/onnx-light-kernel-images": 0,
+        "xadupre/onnx-light-ort": 0,
+        "xadupre/onnx-light-viewer": 0,
+        "xadupre/yet-another-onnx-builder": 0,
+        "xadupre/yet-another-onnxruntime-extensions": 0
+      }
+    },
+    {
+      "date": "2026-11-06",
+      "totals": {
+        "ggml-org/llama.cpp": 20777294,
+        "microsoft/onnxruntime": 26982096,
+        "microsoft/onnxruntime-extensions": 0,
+        "microsoft/onnxruntime-genai": 33893,
+        "onnx/onnx": 36072,
+        "vllm-project/vllm": 5082538,
+        "xadupre/arranged-agents": 0,
+        "xadupre/onnx-light": 20106,
+        "xadupre/onnx-light-cpu": 6680,
+        "xadupre/onnx-light-kernel-images": 0,
+        "xadupre/onnx-light-ort": 0,
+        "xadupre/onnx-light-viewer": 0,
+        "xadupre/yet-another-onnx-builder": 0,
+        "xadupre/yet-another-onnxruntime-extensions": 0
+      }
+    },
+    {
+      "date": "2026-11-07",
+      "totals": {
+        "ggml-org/llama.cpp": 20932937,
+        "microsoft/onnxruntime": 27079904,
+        "microsoft/onnxruntime-extensions": 0,
+        "microsoft/onnxruntime-genai": 34177,
+        "onnx/onnx": 36119,
+        "vllm-project/vllm": 5107923,
+        "xadupre/arranged-agents": 0,
+        "xadupre/onnx-light": 20632,
+        "xadupre/onnx-light-cpu": 6869,
+        "xadupre/onnx-light-kernel-images": 0,
+        "xadupre/onnx-light-ort": 0,
+        "xadupre/onnx-light-viewer": 4,
+        "xadupre/yet-another-onnx-builder": 0,
+        "xadupre/yet-another-onnxruntime-extensions": 0
+      }
+    },
+    {
+      "date": "2026-11-08",
+      "totals": {
+        "ggml-org/llama.cpp": 21096055,
+        "microsoft/onnxruntime": 27173042,
+        "microsoft/onnxruntime-extensions": 0,
+        "microsoft/onnxruntime-genai": 34494,
+        "onnx/onnx": 36154,
+        "vllm-project/vllm": 5124352,
+        "xadupre/arranged-agents": 0,
+        "xadupre/onnx-light": 20859,
+        "xadupre/onnx-light-cpu": 7009,
+        "xadupre/onnx-light-kernel-images": 0,
+        "xadupre/onnx-light-ort": 0,
+        "xadupre/onnx-light-viewer": 4,
+        "xadupre/yet-another-onnx-builder": 0,
+        "xadupre/yet-another-onnxruntime-extensions": 0
+      }
+    },
+    {
+      "date": "2026-11-09",
+      "totals": {
+        "ggml-org/llama.cpp": 21317678,
+        "microsoft/onnxruntime": 27316074,
+        "microsoft/onnxruntime-extensions": 0,
+        "microsoft/onnxruntime-genai": 34976,
+        "onnx/onnx": 36184,
+        "vllm-project/vllm": 5153780,
+        "xadupre/arranged-agents": 0,
+        "xadupre/onnx-light": 21129,
+        "xadupre/onnx-light-cpu": 7171,
+        "xadupre/onnx-light-kernel-images": 0,
+        "xadupre/onnx-light-ort": 0,
+        "xadupre/onnx-light-viewer": 4,
+        "xadupre/yet-another-onnx-builder": 0,
+        "xadupre/yet-another-onnxruntime-extensions": 0
+      }
+    }
+  ]
+}

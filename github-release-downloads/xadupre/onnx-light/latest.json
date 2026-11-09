@@ -1,0 +1,5546 @@
+{
+  "updated_at": "2026-11-09T22:14:17Z",
+  "repositories": [
+    {
+      "repository": "xadupre/onnx-light",
+      "total": 21129,
+      "releases": [
+        {
+          "id": 342897027,
+          "tag": "0.1.1",
+          "published_at": "2026-06-22T12:43:04Z",
+          "prerelease": false,
+          "total": 64,
+          "assets": [
+            {
+              "id": 454580243,
+              "name": "onnx-light-cpp-linux-aarch64.tar.gz",
+              "download_count": 1
+            },
+            {
+              "id": 454582505,
+              "name": "onnx-light-cpp-linux-x86_64.tar.gz",
+              "download_count": 1
+            },
+            {
+              "id": 454582949,
+              "name": "onnx-light-cpp-windows-ARM64.zip",
+              "download_count": 2
+            },
+            {
+              "id": 454584410,
+              "name": "onnx-light-cpp-windows-AMD64.zip",
+              "download_count": 3
+            },
+            {
+              "id": 454590237,
+              "name": "onnx-light-cpp-macos-universal2.tar.gz",
+              "download_count": 1
+            },
+            {
+              "id": 454595427,
+              "name": "onnx_light-0.1.1-0reduced-cp312-cp312-manylinux_2_28_x86_64.whl",
+              "download_count": 2
+            },
+            {
+              "id": 454595446,
+              "name": "onnx_light-0.1.1-0reduced-cp312-cp312-musllinux_1_2_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 454595751,
+              "name": "onnx_light-0.1.1-0reduced-cp313-cp313-manylinux_2_28_x86_64.whl",
+              "download_count": 2
+            },
+            {
+              "id": 454595770,
+              "name": "onnx_light-0.1.1-0reduced-cp313-cp313-musllinux_1_2_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 454638049,
+              "name": "onnx_light-0.1.1-cp310-cp310-manylinux_2_28_aarch64.whl",
+              "download_count": 2
+            },
+            {
+              "id": 454638050,
+              "name": "onnx_light-0.1.1-cp310-cp310-musllinux_1_2_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 454638051,
+              "name": "onnx_light-0.1.1-cp311-cp311-musllinux_1_2_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 454638052,
+              "name": "onnx_light-0.1.1-cp311-cp311-manylinux_2_28_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 454638053,
+              "name": "onnx_light-0.1.1-cp312-cp312-manylinux_2_28_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 454638073,
+              "name": "onnx_light-0.1.1-cp312-cp312-musllinux_1_2_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 454638075,
+              "name": "onnx_light-0.1.1-cp313-cp313-manylinux_2_28_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 454638078,
+              "name": "onnx_light-0.1.1-cp313-cp313-musllinux_1_2_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 454665451,
+              "name": "onnx_light-0.1.1-cp310-cp310-musllinux_1_2_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 454665452,
+              "name": "onnx_light-0.1.1-cp312-cp312-manylinux_2_28_x86_64.whl",
+              "download_count": 10
+            },
+            {
+              "id": 454665453,
+              "name": "onnx_light-0.1.1-cp311-cp311-manylinux_2_28_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 454665454,
+              "name": "onnx_light-0.1.1-cp311-cp311-musllinux_1_2_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 454665455,
+              "name": "onnx_light-0.1.1-cp310-cp310-manylinux_2_28_x86_64.whl",
+              "download_count": 2
+            },
+            {
+              "id": 454665469,
+              "name": "onnx_light-0.1.1-cp312-cp312-musllinux_1_2_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 454665470,
+              "name": "onnx_light-0.1.1-cp313-cp313-manylinux_2_28_x86_64.whl",
+              "download_count": 4
+            },
+            {
+              "id": 454665471,
+              "name": "onnx_light-0.1.1-cp313-cp313-musllinux_1_2_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 454707434,
+              "name": "onnx_light-0.1.1-cp312-cp312-win32.whl",
+              "download_count": 1
+            },
+            {
+              "id": 454707435,
+              "name": "onnx_light-0.1.1-cp313-cp313-win32.whl",
+              "download_count": 1
+            },
+            {
+              "id": 454707436,
+              "name": "onnx_light-0.1.1-cp310-cp310-win32.whl",
+              "download_count": 1
+            },
+            {
+              "id": 454707437,
+              "name": "onnx_light-0.1.1-cp311-cp311-win32.whl",
+              "download_count": 1
+            },
+            {
+              "id": 454712580,
+              "name": "onnx_light-0.1.1-cp313-cp313-win_amd64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 454712581,
+              "name": "onnx_light-0.1.1-cp310-cp310-win_amd64.whl",
+              "download_count": 2
+            },
+            {
+              "id": 454712582,
+              "name": "onnx_light-0.1.1-cp312-cp312-win_amd64.whl",
+              "download_count": 2
+            },
+            {
+              "id": 454712583,
+              "name": "onnx_light-0.1.1-cp311-cp311-win_amd64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 454718595,
+              "name": "onnx_light-0.1.1-cp310-cp310-macosx_13_0_universal2.whl",
+              "download_count": 1
+            },
+            {
+              "id": 454718599,
+              "name": "onnx_light-0.1.1-cp312-cp312-macosx_13_0_universal2.whl",
+              "download_count": 1
+            },
+            {
+              "id": 454718601,
+              "name": "onnx_light-0.1.1-cp313-cp313-macosx_13_0_universal2.whl",
+              "download_count": 1
+            },
+            {
+              "id": 454718603,
+              "name": "onnx_light-0.1.1-cp311-cp311-macosx_13_0_universal2.whl",
+              "download_count": 1
+            },
+            {
+              "id": 454722734,
+              "name": "onnx_light-0.1.1-cp313-cp313-win_arm64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 454722735,
+              "name": "onnx_light-0.1.1-cp312-cp312-win_arm64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 454722736,
+              "name": "onnx_light-0.1.1-cp311-cp311-win_arm64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 454722737,
+              "name": "onnx_light-0.1.1-cp310-cp310-win_arm64.whl",
+              "download_count": 3
+            }
+          ]
+        },
+        {
+          "id": 348626615,
+          "tag": "0.1.2",
+          "published_at": "2026-07-03T13:25:57Z",
+          "prerelease": false,
+          "total": 23,
+          "assets": [
+            {
+              "id": 465445065,
+              "name": "onnx-light-cpp-linux-aarch64.tar.gz",
+              "download_count": 2
+            },
+            {
+              "id": 465447498,
+              "name": "onnx-light-cpp-linux-x86_64.tar.gz",
+              "download_count": 1
+            },
+            {
+              "id": 465449972,
+              "name": "onnx-light-cpp-macos-universal2.tar.gz",
+              "download_count": 1
+            },
+            {
+              "id": 465486065,
+              "name": "onnx_light-0.1.2-cp310-cp310-musllinux_1_2_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 465486066,
+              "name": "onnx_light-0.1.2-cp311-cp311-manylinux_2_28_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 465486067,
+              "name": "onnx_light-0.1.2-cp311-cp311-musllinux_1_2_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 465486068,
+              "name": "onnx_light-0.1.2-cp310-cp310-manylinux_2_28_aarch64.whl",
+              "download_count": 2
+            },
+            {
+              "id": 465486070,
+              "name": "onnx_light-0.1.2-cp312-cp312-manylinux_2_28_aarch64.whl",
+              "download_count": 3
+            },
+            {
+              "id": 465486081,
+              "name": "onnx_light-0.1.2-cp312-cp312-musllinux_1_2_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 465502149,
+              "name": "onnx_light-0.1.2-cp310-cp310-manylinux_2_28_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 465502150,
+              "name": "onnx_light-0.1.2-cp311-cp311-musllinux_1_2_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 465502151,
+              "name": "onnx_light-0.1.2-cp311-cp311-manylinux_2_28_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 465502152,
+              "name": "onnx_light-0.1.2-cp310-cp310-musllinux_1_2_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 465502153,
+              "name": "onnx_light-0.1.2-cp312-cp312-manylinux_2_28_x86_64.whl",
+              "download_count": 2
+            },
+            {
+              "id": 465502162,
+              "name": "onnx_light-0.1.2-cp312-cp312-musllinux_1_2_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 465545608,
+              "name": "onnx_light-0.1.2-cp312-cp312-macosx_13_0_universal2.whl",
+              "download_count": 1
+            },
+            {
+              "id": 465545609,
+              "name": "onnx_light-0.1.2-cp310-cp310-macosx_13_0_universal2.whl",
+              "download_count": 1
+            },
+            {
+              "id": 465545610,
+              "name": "onnx_light-0.1.2-cp311-cp311-macosx_13_0_universal2.whl",
+              "download_count": 1
+            }
+          ]
+        },
+        {
+          "id": 349527066,
+          "tag": "0.1.3",
+          "published_at": "2026-07-06T12:04:39Z",
+          "prerelease": false,
+          "total": 36,
+          "assets": [
+            {
+              "id": 468042927,
+              "name": "onnx-light-cpp-linux-aarch64.tar.gz",
+              "download_count": 1
+            },
+            {
+              "id": 468044267,
+              "name": "onnx-light-cpp-windows-ARM64.zip",
+              "download_count": 1
+            },
+            {
+              "id": 468045466,
+              "name": "onnx-light-cpp-linux-x86_64.tar.gz",
+              "download_count": 1
+            },
+            {
+              "id": 468046466,
+              "name": "onnx-light-cpp-windows-AMD64.zip",
+              "download_count": 1
+            },
+            {
+              "id": 468048766,
+              "name": "onnx-light-cpp-macos-universal2.tar.gz",
+              "download_count": 1
+            },
+            {
+              "id": 468048891,
+              "name": "onnx_light-0.1.3-0reduced-cp312-cp312-manylinux_2_28_x86_64.whl",
+              "download_count": 2
+            },
+            {
+              "id": 468048892,
+              "name": "onnx_light-0.1.3-0reduced-cp312-cp312-musllinux_1_2_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 468049417,
+              "name": "onnx_light-0.1.3-0reduced-cp313-cp313-musllinux_1_2_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 468049418,
+              "name": "onnx_light-0.1.3-0reduced-cp313-cp313-manylinux_2_28_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 468085408,
+              "name": "onnx_light-0.1.3-cp311-cp311-musllinux_1_2_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 468085409,
+              "name": "onnx_light-0.1.3-cp311-cp311-manylinux_2_28_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 468085410,
+              "name": "onnx_light-0.1.3-cp312-cp312-manylinux_2_28_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 468085411,
+              "name": "onnx_light-0.1.3-cp310-cp310-musllinux_1_2_aarch64.whl",
+              "download_count": 3
+            },
+            {
+              "id": 468085412,
+              "name": "onnx_light-0.1.3-cp310-cp310-manylinux_2_28_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 468085438,
+              "name": "onnx_light-0.1.3-cp312-cp312-musllinux_1_2_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 468090330,
+              "name": "onnx_light-0.1.3-cp311-cp311-musllinux_1_2_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 468090331,
+              "name": "onnx_light-0.1.3-cp310-cp310-musllinux_1_2_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 468090332,
+              "name": "onnx_light-0.1.3-cp311-cp311-manylinux_2_28_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 468090333,
+              "name": "onnx_light-0.1.3-cp310-cp310-manylinux_2_28_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 468090334,
+              "name": "onnx_light-0.1.3-cp312-cp312-manylinux_2_28_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 468090355,
+              "name": "onnx_light-0.1.3-cp312-cp312-musllinux_1_2_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 468125916,
+              "name": "onnx_light-0.1.3-cp311-cp311-win_amd64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 468125918,
+              "name": "onnx_light-0.1.3-cp312-cp312-win_amd64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 468125922,
+              "name": "onnx_light-0.1.3-cp310-cp310-win_amd64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 468134535,
+              "name": "onnx_light-0.1.3-cp311-cp311-win_arm64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 468134536,
+              "name": "onnx_light-0.1.3-cp312-cp312-win_arm64.whl",
+              "download_count": 3
+            },
+            {
+              "id": 468134537,
+              "name": "onnx_light-0.1.3-cp310-cp310-win_arm64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 468138243,
+              "name": "onnx_light-0.1.3-cp310-cp310-macosx_13_0_universal2.whl",
+              "download_count": 1
+            },
+            {
+              "id": 468138246,
+              "name": "onnx_light-0.1.3-cp312-cp312-macosx_13_0_universal2.whl",
+              "download_count": 1
+            },
+            {
+              "id": 468138247,
+              "name": "onnx_light-0.1.3-cp311-cp311-macosx_13_0_universal2.whl",
+              "download_count": 2
+            }
+          ]
+        },
+        {
+          "id": 350115453,
+          "tag": "0.1.4",
+          "published_at": "2026-07-07T08:44:01Z",
+          "prerelease": false,
+          "total": 43,
+          "assets": [
+            {
+              "id": 468993427,
+              "name": "onnx-light-cpp-linux-aarch64.tar.gz",
+              "download_count": 1
+            },
+            {
+              "id": 468994888,
+              "name": "onnx-light-cpp-windows-ARM64.zip",
+              "download_count": 3
+            },
+            {
+              "id": 468995542,
+              "name": "onnx-light-cpp-linux-x86_64.tar.gz",
+              "download_count": 2
+            },
+            {
+              "id": 468996298,
+              "name": "onnx-light-cpp-windows-AMD64.zip",
+              "download_count": 1
+            },
+            {
+              "id": 468998178,
+              "name": "onnx-light-cpp-macos-universal2.tar.gz",
+              "download_count": 2
+            },
+            {
+              "id": 468999759,
+              "name": "onnx_light-0.1.4-0reduced-cp313-cp313-manylinux_2_28_x86_64.whl",
+              "download_count": 3
+            },
+            {
+              "id": 468999761,
+              "name": "onnx_light-0.1.4-0reduced-cp313-cp313-musllinux_1_2_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 469000662,
+              "name": "onnx_light-0.1.4-0reduced-cp312-cp312-manylinux_2_28_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 469000663,
+              "name": "onnx_light-0.1.4-0reduced-cp312-cp312-musllinux_1_2_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 469206103,
+              "name": "onnx_light-0.1.4-cp311-cp311-manylinux_2_28_aarch64.whl",
+              "download_count": 2
+            },
+            {
+              "id": 469206106,
+              "name": "onnx_light-0.1.4-cp311-cp311-musllinux_1_2_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 469206108,
+              "name": "onnx_light-0.1.4-cp312-cp312-manylinux_2_28_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 469206110,
+              "name": "onnx_light-0.1.4-cp310-cp310-musllinux_1_2_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 469206120,
+              "name": "onnx_light-0.1.4-cp310-cp310-manylinux_2_28_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 469206134,
+              "name": "onnx_light-0.1.4-cp312-cp312-musllinux_1_2_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 469229969,
+              "name": "onnx_light-0.1.4-cp311-cp311-musllinux_1_2_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 469229971,
+              "name": "onnx_light-0.1.4-cp311-cp311-manylinux_2_28_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 469229972,
+              "name": "onnx_light-0.1.4-cp310-cp310-manylinux_2_28_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 469229973,
+              "name": "onnx_light-0.1.4-cp312-cp312-manylinux_2_28_x86_64.whl",
+              "download_count": 2
+            },
+            {
+              "id": 469229974,
+              "name": "onnx_light-0.1.4-cp310-cp310-musllinux_1_2_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 469229997,
+              "name": "onnx_light-0.1.4-cp312-cp312-musllinux_1_2_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 469263548,
+              "name": "onnx_light-0.1.4-cp311-cp311-win32.whl",
+              "download_count": 2
+            },
+            {
+              "id": 469263551,
+              "name": "onnx_light-0.1.4-cp310-cp310-win32.whl",
+              "download_count": 1
+            },
+            {
+              "id": 469263552,
+              "name": "onnx_light-0.1.4-cp312-cp312-win32.whl",
+              "download_count": 1
+            },
+            {
+              "id": 469271425,
+              "name": "onnx_light-0.1.4-cp311-cp311-win_amd64.whl",
+              "download_count": 2
+            },
+            {
+              "id": 469271429,
+              "name": "onnx_light-0.1.4-cp312-cp312-win_amd64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 469271431,
+              "name": "onnx_light-0.1.4-cp310-cp310-win_amd64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 469276458,
+              "name": "onnx_light-0.1.4-cp312-cp312-macosx_13_0_universal2.whl",
+              "download_count": 1
+            },
+            {
+              "id": 469276462,
+              "name": "onnx_light-0.1.4-cp311-cp311-macosx_13_0_universal2.whl",
+              "download_count": 1
+            },
+            {
+              "id": 469276463,
+              "name": "onnx_light-0.1.4-cp310-cp310-macosx_13_0_universal2.whl",
+              "download_count": 1
+            },
+            {
+              "id": 469277554,
+              "name": "onnx_light-0.1.4-cp312-cp312-win_arm64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 469277555,
+              "name": "onnx_light-0.1.4-cp310-cp310-win_arm64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 469277556,
+              "name": "onnx_light-0.1.4-cp311-cp311-win_arm64.whl",
+              "download_count": 1
+            }
+          ]
+        },
+        {
+          "id": 354273764,
+          "tag": "0.1.5",
+          "published_at": "2026-07-15T07:49:37Z",
+          "prerelease": false,
+          "total": 45,
+          "assets": [
+            {
+              "id": 477676630,
+              "name": "onnx-light-cpp-linux-aarch64.tar.gz",
+              "download_count": 1
+            },
+            {
+              "id": 477678805,
+              "name": "onnx-light-cpp-windows-ARM64.zip",
+              "download_count": 1
+            },
+            {
+              "id": 477679581,
+              "name": "onnx-light-cpp-linux-x86_64.tar.gz",
+              "download_count": 4
+            },
+            {
+              "id": 477681592,
+              "name": "onnx-light-cpp-windows-AMD64.zip",
+              "download_count": 1
+            },
+            {
+              "id": 477682961,
+              "name": "onnx_light-0.1.5-0reduced-cp312-cp312-manylinux_2_28_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 477682962,
+              "name": "onnx_light-0.1.5-0reduced-cp312-cp312-musllinux_1_2_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 477683639,
+              "name": "onnx_light-0.1.5-0reduced-cp313-cp313-musllinux_1_2_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 477683643,
+              "name": "onnx_light-0.1.5-0reduced-cp313-cp313-manylinux_2_28_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 477684832,
+              "name": "onnx-light-cpp-macos-universal2.tar.gz",
+              "download_count": 1
+            },
+            {
+              "id": 477723817,
+              "name": "onnx_light-0.1.5-cp311-cp311-musllinux_1_2_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 477723819,
+              "name": "onnx_light-0.1.5-cp310-cp310-musllinux_1_2_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 477723820,
+              "name": "onnx_light-0.1.5-cp310-cp310-manylinux_2_28_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 477723821,
+              "name": "onnx_light-0.1.5-cp311-cp311-manylinux_2_28_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 477723822,
+              "name": "onnx_light-0.1.5-cp312-cp312-manylinux_2_28_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 477723839,
+              "name": "onnx_light-0.1.5-cp312-cp312-musllinux_1_2_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 477751544,
+              "name": "onnx_light-0.1.5-cp310-cp310-manylinux_2_28_x86_64.whl",
+              "download_count": 2
+            },
+            {
+              "id": 477751545,
+              "name": "onnx_light-0.1.5-cp311-cp311-manylinux_2_28_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 477751546,
+              "name": "onnx_light-0.1.5-cp311-cp311-musllinux_1_2_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 477751547,
+              "name": "onnx_light-0.1.5-cp312-cp312-manylinux_2_28_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 477751548,
+              "name": "onnx_light-0.1.5-cp310-cp310-musllinux_1_2_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 477751562,
+              "name": "onnx_light-0.1.5-cp312-cp312-musllinux_1_2_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 477776655,
+              "name": "onnx_light-0.1.5-cp311-cp311-win32.whl",
+              "download_count": 1
+            },
+            {
+              "id": 477776656,
+              "name": "onnx_light-0.1.5-cp310-cp310-win32.whl",
+              "download_count": 3
+            },
+            {
+              "id": 477776657,
+              "name": "onnx_light-0.1.5-cp312-cp312-win32.whl",
+              "download_count": 1
+            },
+            {
+              "id": 477792271,
+              "name": "onnx_light-0.1.5-cp311-cp311-win_amd64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 477792272,
+              "name": "onnx_light-0.1.5-cp312-cp312-win_amd64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 477792273,
+              "name": "onnx_light-0.1.5-cp310-cp310-win_amd64.whl",
+              "download_count": 2
+            },
+            {
+              "id": 477794522,
+              "name": "onnx_light-0.1.5-cp311-cp311-win_arm64.whl",
+              "download_count": 3
+            },
+            {
+              "id": 477794523,
+              "name": "onnx_light-0.1.5-cp310-cp310-win_arm64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 477794525,
+              "name": "onnx_light-0.1.5-cp312-cp312-win_arm64.whl",
+              "download_count": 2
+            },
+            {
+              "id": 477801474,
+              "name": "onnx_light-0.1.5-cp311-cp311-macosx_13_0_universal2.whl",
+              "download_count": 1
+            },
+            {
+              "id": 477801479,
+              "name": "onnx_light-0.1.5-cp312-cp312-macosx_13_0_universal2.whl",
+              "download_count": 3
+            },
+            {
+              "id": 477801480,
+              "name": "onnx_light-0.1.5-cp310-cp310-macosx_13_0_universal2.whl",
+              "download_count": 1
+            }
+          ]
+        },
+        {
+          "id": 356421280,
+          "tag": "0.1.6",
+          "published_at": "2026-07-19T19:53:59Z",
+          "prerelease": false,
+          "total": 49,
+          "assets": [
+            {
+              "id": 482688351,
+              "name": "onnx-light-cpp-linux-x86_64.tar.gz",
+              "download_count": 21
+            },
+            {
+              "id": 482689345,
+              "name": "onnx-light-cpp-linux-aarch64.tar.gz",
+              "download_count": 1
+            },
+            {
+              "id": 482691075,
+              "name": "onnx-light-cpp-windows-ARM64.zip",
+              "download_count": 1
+            },
+            {
+              "id": 482693889,
+              "name": "onnx-light-cpp-windows-AMD64.zip",
+              "download_count": 1
+            },
+            {
+              "id": 482695043,
+              "name": "onnx_light-0.1.6-0reduced-cp312-cp312-musllinux_1_2_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 482695044,
+              "name": "onnx_light-0.1.6-0reduced-cp312-cp312-manylinux_2_28_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 482695622,
+              "name": "onnx_light-0.1.6-0reduced-cp313-cp313-manylinux_2_28_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 482695623,
+              "name": "onnx_light-0.1.6-0reduced-cp313-cp313-musllinux_1_2_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 482729851,
+              "name": "onnx_light-0.1.6-cp311-cp311-musllinux_1_2_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 482729853,
+              "name": "onnx_light-0.1.6-cp312-cp312-manylinux_2_28_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 482729854,
+              "name": "onnx_light-0.1.6-cp311-cp311-manylinux_2_28_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 482729855,
+              "name": "onnx_light-0.1.6-cp310-cp310-manylinux_2_28_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 482729856,
+              "name": "onnx_light-0.1.6-cp310-cp310-musllinux_1_2_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 482729869,
+              "name": "onnx_light-0.1.6-cp312-cp312-musllinux_1_2_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 482748863,
+              "name": "onnx_light-0.1.6-cp311-cp311-manylinux_2_28_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 482748864,
+              "name": "onnx_light-0.1.6-cp312-cp312-manylinux_2_28_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 482748865,
+              "name": "onnx_light-0.1.6-cp311-cp311-musllinux_1_2_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 482748866,
+              "name": "onnx_light-0.1.6-cp310-cp310-manylinux_2_28_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 482748867,
+              "name": "onnx_light-0.1.6-cp310-cp310-musllinux_1_2_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 482748874,
+              "name": "onnx_light-0.1.6-cp312-cp312-musllinux_1_2_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 482778400,
+              "name": "onnx_light-0.1.6-cp312-cp312-win_amd64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 482778401,
+              "name": "onnx_light-0.1.6-cp310-cp310-win_amd64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 482778402,
+              "name": "onnx_light-0.1.6-cp311-cp311-win_amd64.whl",
+              "download_count": 2
+            },
+            {
+              "id": 482788182,
+              "name": "onnx_light-0.1.6-cp311-cp311-win_arm64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 482788183,
+              "name": "onnx_light-0.1.6-cp310-cp310-win_arm64.whl",
+              "download_count": 3
+            },
+            {
+              "id": 482788184,
+              "name": "onnx_light-0.1.6-cp312-cp312-win_arm64.whl",
+              "download_count": 1
+            }
+          ]
+        },
+        {
+          "id": 357502325,
+          "tag": "0.1.7",
+          "published_at": "2026-07-21T17:03:28Z",
+          "prerelease": false,
+          "total": 6,
+          "assets": [
+            {
+              "id": 484941039,
+              "name": "onnx-light-cpp-linux-aarch64.tar.gz",
+              "download_count": 1
+            },
+            {
+              "id": 484943154,
+              "name": "onnx-light-cpp-linux-x86_64.tar.gz",
+              "download_count": 2
+            },
+            {
+              "id": 484944037,
+              "name": "onnx-light-cpp-windows-ARM64.zip",
+              "download_count": 2
+            },
+            {
+              "id": 484947002,
+              "name": "onnx-light-cpp-windows-AMD64.zip",
+              "download_count": 1
+            }
+          ]
+        },
+        {
+          "id": 358342013,
+          "tag": "0.1.8",
+          "published_at": "2026-07-22T21:44:05Z",
+          "prerelease": false,
+          "total": 5,
+          "assets": [
+            {
+              "id": 486454384,
+              "name": "onnx-light-cpp-linux-aarch64.tar.gz",
+              "download_count": 1
+            },
+            {
+              "id": 486457397,
+              "name": "onnx-light-cpp-windows-ARM64.zip",
+              "download_count": 1
+            },
+            {
+              "id": 486460268,
+              "name": "onnx-light-cpp-windows-AMD64.zip",
+              "download_count": 2
+            },
+            {
+              "id": 486461597,
+              "name": "onnx-light-cpp-linux-x86_64.tar.gz",
+              "download_count": 1
+            }
+          ]
+        },
+        {
+          "id": 361597861,
+          "tag": "0.1.9",
+          "published_at": "2026-07-29T08:19:30Z",
+          "prerelease": false,
+          "total": 290,
+          "assets": [
+            {
+              "id": 493800365,
+              "name": "onnx-light-cpp-linux-aarch64.tar.gz",
+              "download_count": 1
+            },
+            {
+              "id": 493802447,
+              "name": "onnx-light-cpp-windows-ARM64.zip",
+              "download_count": 1
+            },
+            {
+              "id": 493802796,
+              "name": "onnx-light-cpp-linux-x86_64.tar.gz",
+              "download_count": 204
+            },
+            {
+              "id": 493806496,
+              "name": "onnx-light-cpp-windows-AMD64.zip",
+              "download_count": 76
+            },
+            {
+              "id": 493808192,
+              "name": "onnx_light-0.1.9-0reduced-cp313-cp313-musllinux_1_2_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 493808193,
+              "name": "onnx_light-0.1.9-0reduced-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 3
+            },
+            {
+              "id": 493809456,
+              "name": "onnx_light-0.1.9-0reduced-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 493809459,
+              "name": "onnx_light-0.1.9-0reduced-cp314-cp314-musllinux_1_2_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 493810485,
+              "name": "onnx_light-0.1.9-0reduced-cp312-cp312-musllinux_1_2_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 493810486,
+              "name": "onnx_light-0.1.9-0reduced-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 1
+            }
+          ]
+        },
+        {
+          "id": 362298404,
+          "tag": "0.1.10",
+          "published_at": "2026-07-30T09:00:08Z",
+          "prerelease": false,
+          "total": 57,
+          "assets": [
+            {
+              "id": 495156392,
+              "name": "onnx-light-cpp-linux-aarch64.tar.gz",
+              "download_count": 1
+            },
+            {
+              "id": 495158033,
+              "name": "onnx_light-0.1.10-0reduced-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 2
+            },
+            {
+              "id": 495158035,
+              "name": "onnx_light-0.1.10-0reduced-cp312-cp312-musllinux_1_2_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 495159278,
+              "name": "onnx-light-cpp-windows-ARM64.zip",
+              "download_count": 1
+            },
+            {
+              "id": 495159814,
+              "name": "onnx-light-cpp-linux-x86_64.tar.gz",
+              "download_count": 4
+            },
+            {
+              "id": 495163942,
+              "name": "onnx-light-cpp-windows-AMD64.zip",
+              "download_count": 1
+            },
+            {
+              "id": 495165718,
+              "name": "onnx_light-0.1.10-0reduced-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 495165719,
+              "name": "onnx_light-0.1.10-0reduced-cp313-cp313-musllinux_1_2_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 495166372,
+              "name": "onnx_light-0.1.10-0reduced-cp314-cp314-musllinux_1_2_x86_64.whl",
+              "download_count": 2
+            },
+            {
+              "id": 495166374,
+              "name": "onnx_light-0.1.10-0reduced-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 495168443,
+              "name": "onnx-light-cpp-macos-universal2.tar.gz",
+              "download_count": 2
+            },
+            {
+              "id": 495291919,
+              "name": "onnx_light-0.1.10-cp311-cp311-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 495291920,
+              "name": "onnx_light-0.1.10-cp311-cp311-musllinux_1_2_aarch64.whl",
+              "download_count": 2
+            },
+            {
+              "id": 495291921,
+              "name": "onnx_light-0.1.10-cp310-cp310-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 495291922,
+              "name": "onnx_light-0.1.10-cp310-cp310-musllinux_1_2_aarch64.whl",
+              "download_count": 3
+            },
+            {
+              "id": 495291923,
+              "name": "onnx_light-0.1.10-cp312-cp312-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 495291932,
+              "name": "onnx_light-0.1.10-cp312-cp312-musllinux_1_2_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 495291933,
+              "name": "onnx_light-0.1.10-cp313-cp313-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 495291934,
+              "name": "onnx_light-0.1.10-cp313-cp313-musllinux_1_2_aarch64.whl",
+              "download_count": 2
+            },
+            {
+              "id": 495291936,
+              "name": "onnx_light-0.1.10-cp314-cp314-musllinux_1_2_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 495291937,
+              "name": "onnx_light-0.1.10-cp314-cp314-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 495291948,
+              "name": "onnx_light-0.1.10-cp314-cp314t-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 495291949,
+              "name": "onnx_light-0.1.10-cp314-cp314t-musllinux_1_2_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 495345092,
+              "name": "onnx_light-0.1.10-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 495345093,
+              "name": "onnx_light-0.1.10-cp310-cp310-musllinux_1_2_x86_64.whl",
+              "download_count": 3
+            },
+            {
+              "id": 495345094,
+              "name": "onnx_light-0.1.10-cp310-cp310-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 495345095,
+              "name": "onnx_light-0.1.10-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 495345096,
+              "name": "onnx_light-0.1.10-cp311-cp311-musllinux_1_2_x86_64.whl",
+              "download_count": 2
+            },
+            {
+              "id": 495345109,
+              "name": "onnx_light-0.1.10-cp312-cp312-musllinux_1_2_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 495345110,
+              "name": "onnx_light-0.1.10-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 495345111,
+              "name": "onnx_light-0.1.10-cp313-cp313-musllinux_1_2_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 495345116,
+              "name": "onnx_light-0.1.10-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 495345118,
+              "name": "onnx_light-0.1.10-cp314-cp314-musllinux_1_2_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 495345125,
+              "name": "onnx_light-0.1.10-cp314-cp314t-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 495345126,
+              "name": "onnx_light-0.1.10-cp314-cp314t-musllinux_1_2_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 495465985,
+              "name": "onnx_light-0.1.10-cp313-cp313-macosx_13_0_universal2.whl",
+              "download_count": 1
+            },
+            {
+              "id": 495465986,
+              "name": "onnx_light-0.1.10-cp314-cp314-macosx_13_0_universal2.whl",
+              "download_count": 2
+            },
+            {
+              "id": 495465987,
+              "name": "onnx_light-0.1.10-cp310-cp310-macosx_13_0_universal2.whl",
+              "download_count": 1
+            },
+            {
+              "id": 495465990,
+              "name": "onnx_light-0.1.10-cp312-cp312-macosx_13_0_universal2.whl",
+              "download_count": 2
+            },
+            {
+              "id": 495465995,
+              "name": "onnx_light-0.1.10-cp311-cp311-macosx_13_0_universal2.whl",
+              "download_count": 1
+            },
+            {
+              "id": 495466051,
+              "name": "onnx_light-0.1.10-cp314-cp314t-macosx_13_0_universal2.whl",
+              "download_count": 2
+            }
+          ]
+        },
+        {
+          "id": 364487375,
+          "tag": "0.1.11",
+          "published_at": "2026-08-03T20:50:09Z",
+          "prerelease": false,
+          "total": 92,
+          "assets": [
+            {
+              "id": 500535208,
+              "name": "onnx-light-cpp-linux-aarch64.tar.gz",
+              "download_count": 1
+            },
+            {
+              "id": 500539544,
+              "name": "onnx-light-cpp-linux-x86_64.tar.gz",
+              "download_count": 12
+            },
+            {
+              "id": 500543187,
+              "name": "onnx_light-0.1.11-0reduced-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 500543195,
+              "name": "onnx_light-0.1.11-0reduced-cp313-cp313-musllinux_1_2_x86_64.whl",
+              "download_count": 2
+            },
+            {
+              "id": 500543311,
+              "name": "onnx-light-cpp-macos-universal2.tar.gz",
+              "download_count": 1
+            },
+            {
+              "id": 500543451,
+              "name": "onnx_light-0.1.11-0reduced-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 500543452,
+              "name": "onnx_light-0.1.11-0reduced-cp314-cp314-musllinux_1_2_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 500543938,
+              "name": "onnx_light-0.1.11-0reduced-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 2
+            },
+            {
+              "id": 500543939,
+              "name": "onnx_light-0.1.11-0reduced-cp312-cp312-musllinux_1_2_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 500633215,
+              "name": "onnx_light-0.1.11-cp312-cp312-musllinux_1_2_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 500633217,
+              "name": "onnx_light-0.1.11-cp312-cp312-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl",
+              "download_count": 3
+            },
+            {
+              "id": 500633218,
+              "name": "onnx_light-0.1.11-cp311-cp311-musllinux_1_2_aarch64.whl",
+              "download_count": 2
+            },
+            {
+              "id": 500633219,
+              "name": "onnx_light-0.1.11-cp313-cp313-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 500633221,
+              "name": "onnx_light-0.1.11-cp311-cp311-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 500633242,
+              "name": "onnx_light-0.1.11-cp313-cp313-musllinux_1_2_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 500633251,
+              "name": "onnx_light-0.1.11-cp314-cp314-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 500633252,
+              "name": "onnx_light-0.1.11-cp314-cp314-musllinux_1_2_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 500633255,
+              "name": "onnx_light-0.1.11-cp314-cp314t-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 500633287,
+              "name": "onnx_light-0.1.11-cp314-cp314t-musllinux_1_2_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 500641394,
+              "name": "onnx_light-0.1.11-cp312-cp312-musllinux_1_2_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 500641396,
+              "name": "onnx_light-0.1.11-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 41
+            },
+            {
+              "id": 500641397,
+              "name": "onnx_light-0.1.11-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 2
+            },
+            {
+              "id": 500641399,
+              "name": "onnx_light-0.1.11-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 500641400,
+              "name": "onnx_light-0.1.11-cp311-cp311-musllinux_1_2_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 500641410,
+              "name": "onnx_light-0.1.11-cp313-cp313-musllinux_1_2_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 500641411,
+              "name": "onnx_light-0.1.11-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 500641412,
+              "name": "onnx_light-0.1.11-cp314-cp314-musllinux_1_2_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 500641415,
+              "name": "onnx_light-0.1.11-cp314-cp314t-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 500641418,
+              "name": "onnx_light-0.1.11-cp314-cp314t-musllinux_1_2_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 500721276,
+              "name": "onnx_light-0.1.11-cp311-cp311-macosx_13_0_universal2.whl",
+              "download_count": 1
+            },
+            {
+              "id": 500721277,
+              "name": "onnx_light-0.1.11-cp312-cp312-macosx_13_0_universal2.whl",
+              "download_count": 1
+            },
+            {
+              "id": 500721278,
+              "name": "onnx_light-0.1.11-cp314-cp314-macosx_13_0_universal2.whl",
+              "download_count": 1
+            },
+            {
+              "id": 500721279,
+              "name": "onnx_light-0.1.11-cp314-cp314t-macosx_13_0_universal2.whl",
+              "download_count": 2
+            },
+            {
+              "id": 500721280,
+              "name": "onnx_light-0.1.11-cp313-cp313-macosx_13_0_universal2.whl",
+              "download_count": 1
+            }
+          ]
+        },
+        {
+          "id": 365317161,
+          "tag": "0.1.12",
+          "published_at": "2026-08-05T06:08:52Z",
+          "prerelease": false,
+          "total": 51,
+          "assets": [
+            {
+              "id": 502260817,
+              "name": "onnx-light-cpp-linux-aarch64.tar.gz",
+              "download_count": 1
+            },
+            {
+              "id": 502263549,
+              "name": "onnx-light-cpp-linux-x86_64.tar.gz",
+              "download_count": 12
+            },
+            {
+              "id": 502266886,
+              "name": "onnx_light-0.1.12-0reduced-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 502266887,
+              "name": "onnx_light-0.1.12-0reduced-cp314-cp314-musllinux_1_2_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 502267582,
+              "name": "onnx_light-0.1.12-0reduced-cp312-cp312-musllinux_1_2_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 502267583,
+              "name": "onnx_light-0.1.12-0reduced-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 502268344,
+              "name": "onnx-light-cpp-macos-universal2.tar.gz",
+              "download_count": 1
+            },
+            {
+              "id": 502268390,
+              "name": "onnx_light-0.1.12-0reduced-cp313-cp313-musllinux_1_2_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 502268391,
+              "name": "onnx_light-0.1.12-0reduced-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 502369106,
+              "name": "onnx_light-0.1.12-cp311-cp311-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 502369108,
+              "name": "onnx_light-0.1.12-cp311-cp311-musllinux_1_2_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 502369109,
+              "name": "onnx_light-0.1.12-cp313-cp313-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 502369110,
+              "name": "onnx_light-0.1.12-cp312-cp312-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 502369111,
+              "name": "onnx_light-0.1.12-cp312-cp312-musllinux_1_2_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 502369146,
+              "name": "onnx_light-0.1.12-cp313-cp313-musllinux_1_2_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 502369147,
+              "name": "onnx_light-0.1.12-cp314-cp314-musllinux_1_2_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 502369148,
+              "name": "onnx_light-0.1.12-cp314-cp314-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 502369160,
+              "name": "onnx_light-0.1.12-cp314-cp314t-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 502369164,
+              "name": "onnx_light-0.1.12-cp314-cp314t-musllinux_1_2_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 502420885,
+              "name": "onnx_light-0.1.12-cp311-cp311-musllinux_1_2_x86_64.whl",
+              "download_count": 2
+            },
+            {
+              "id": 502420886,
+              "name": "onnx_light-0.1.12-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 502420887,
+              "name": "onnx_light-0.1.12-cp312-cp312-musllinux_1_2_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 502420888,
+              "name": "onnx_light-0.1.12-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 2
+            },
+            {
+              "id": 502420889,
+              "name": "onnx_light-0.1.12-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 502420912,
+              "name": "onnx_light-0.1.12-cp313-cp313-musllinux_1_2_x86_64.whl",
+              "download_count": 2
+            },
+            {
+              "id": 502420913,
+              "name": "onnx_light-0.1.12-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 2
+            },
+            {
+              "id": 502420914,
+              "name": "onnx_light-0.1.12-cp314-cp314-musllinux_1_2_x86_64.whl",
+              "download_count": 2
+            },
+            {
+              "id": 502420916,
+              "name": "onnx_light-0.1.12-cp314-cp314t-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 502420917,
+              "name": "onnx_light-0.1.12-cp314-cp314t-musllinux_1_2_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 502504275,
+              "name": "onnx_light-0.1.12-cp314-cp314-macosx_13_0_universal2.whl",
+              "download_count": 1
+            },
+            {
+              "id": 502504276,
+              "name": "onnx_light-0.1.12-cp311-cp311-macosx_13_0_universal2.whl",
+              "download_count": 1
+            },
+            {
+              "id": 502504277,
+              "name": "onnx_light-0.1.12-cp312-cp312-macosx_13_0_universal2.whl",
+              "download_count": 1
+            },
+            {
+              "id": 502504278,
+              "name": "onnx_light-0.1.12-cp314-cp314t-macosx_13_0_universal2.whl",
+              "download_count": 2
+            },
+            {
+              "id": 502504279,
+              "name": "onnx_light-0.1.12-cp313-cp313-macosx_13_0_universal2.whl",
+              "download_count": 1
+            }
+          ]
+        },
+        {
+          "id": 366589965,
+          "tag": "0.1.13",
+          "published_at": "2026-08-07T07:40:40Z",
+          "prerelease": false,
+          "total": 45,
+          "assets": [
+            {
+              "id": 504848447,
+              "name": "onnx-light-cpp-linux-aarch64.tar.gz",
+              "download_count": 2
+            },
+            {
+              "id": 504852848,
+              "name": "onnx-light-cpp-linux-x86_64.tar.gz",
+              "download_count": 4
+            },
+            {
+              "id": 504853930,
+              "name": "onnx_light-0.1.13-0reduced-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 504853931,
+              "name": "onnx_light-0.1.13-0reduced-cp314-cp314-musllinux_1_2_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 504857680,
+              "name": "onnx-light-cpp-macos-universal2.tar.gz",
+              "download_count": 2
+            },
+            {
+              "id": 504857878,
+              "name": "onnx_light-0.1.13-0reduced-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 504857879,
+              "name": "onnx_light-0.1.13-0reduced-cp312-cp312-musllinux_1_2_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 504858402,
+              "name": "onnx_light-0.1.13-0reduced-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 2
+            },
+            {
+              "id": 504858403,
+              "name": "onnx_light-0.1.13-0reduced-cp313-cp313-musllinux_1_2_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 504977451,
+              "name": "onnx_light-0.1.13-cp313-cp313-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 504977452,
+              "name": "onnx_light-0.1.13-cp311-cp311-musllinux_1_2_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 504977453,
+              "name": "onnx_light-0.1.13-cp311-cp311-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 504977454,
+              "name": "onnx_light-0.1.13-cp312-cp312-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 504977456,
+              "name": "onnx_light-0.1.13-cp312-cp312-musllinux_1_2_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 504977576,
+              "name": "onnx_light-0.1.13-cp313-cp313-musllinux_1_2_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 504977578,
+              "name": "onnx_light-0.1.13-cp314-cp314-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 504977579,
+              "name": "onnx_light-0.1.13-cp314-cp314-musllinux_1_2_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 504977581,
+              "name": "onnx_light-0.1.13-cp314-cp314t-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 504977591,
+              "name": "onnx_light-0.1.13-cp314-cp314t-musllinux_1_2_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 505030103,
+              "name": "onnx_light-0.1.13-cp311-cp311-musllinux_1_2_x86_64.whl",
+              "download_count": 2
+            },
+            {
+              "id": 505030104,
+              "name": "onnx_light-0.1.13-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 505030105,
+              "name": "onnx_light-0.1.13-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 505030108,
+              "name": "onnx_light-0.1.13-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 3
+            },
+            {
+              "id": 505030110,
+              "name": "onnx_light-0.1.13-cp312-cp312-musllinux_1_2_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 505030125,
+              "name": "onnx_light-0.1.13-cp313-cp313-musllinux_1_2_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 505030127,
+              "name": "onnx_light-0.1.13-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 505030128,
+              "name": "onnx_light-0.1.13-cp314-cp314-musllinux_1_2_x86_64.whl",
+              "download_count": 2
+            },
+            {
+              "id": 505030130,
+              "name": "onnx_light-0.1.13-cp314-cp314t-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 2
+            },
+            {
+              "id": 505030131,
+              "name": "onnx_light-0.1.13-cp314-cp314t-musllinux_1_2_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 505121220,
+              "name": "onnx_light-0.1.13-cp314-cp314-macosx_13_0_universal2.whl",
+              "download_count": 1
+            },
+            {
+              "id": 505121222,
+              "name": "onnx_light-0.1.13-cp314-cp314t-macosx_13_0_universal2.whl",
+              "download_count": 1
+            },
+            {
+              "id": 505121223,
+              "name": "onnx_light-0.1.13-cp313-cp313-macosx_13_0_universal2.whl",
+              "download_count": 1
+            },
+            {
+              "id": 505121224,
+              "name": "onnx_light-0.1.13-cp311-cp311-macosx_13_0_universal2.whl",
+              "download_count": 1
+            },
+            {
+              "id": 505121225,
+              "name": "onnx_light-0.1.13-cp312-cp312-macosx_13_0_universal2.whl",
+              "download_count": 1
+            }
+          ]
+        },
+        {
+          "id": 366752298,
+          "tag": "0.1.14",
+          "published_at": "2026-08-07T13:03:34Z",
+          "prerelease": false,
+          "total": 52,
+          "assets": [
+            {
+              "id": 505171598,
+              "name": "onnx-light-cpp-linux-aarch64.tar.gz",
+              "download_count": 1
+            },
+            {
+              "id": 505176046,
+              "name": "onnx_light-0.1.14-0reduced-cp313-cp313-musllinux_1_2_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 505176047,
+              "name": "onnx_light-0.1.14-0reduced-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 505176381,
+              "name": "onnx-light-cpp-linux-x86_64.tar.gz",
+              "download_count": 16
+            },
+            {
+              "id": 505176791,
+              "name": "onnx_light-0.1.14-0reduced-cp312-cp312-musllinux_1_2_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 505176792,
+              "name": "onnx_light-0.1.14-0reduced-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 505177144,
+              "name": "onnx_light-0.1.14-0reduced-cp314-cp314-musllinux_1_2_x86_64.whl",
+              "download_count": 3
+            },
+            {
+              "id": 505177145,
+              "name": "onnx_light-0.1.14-0reduced-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 505187794,
+              "name": "onnx-light-cpp-macos-universal2.tar.gz",
+              "download_count": 1
+            },
+            {
+              "id": 505298475,
+              "name": "onnx_light-0.1.14-cp312-cp312-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl",
+              "download_count": 2
+            },
+            {
+              "id": 505298476,
+              "name": "onnx_light-0.1.14-cp312-cp312-musllinux_1_2_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 505298477,
+              "name": "onnx_light-0.1.14-cp311-cp311-musllinux_1_2_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 505298478,
+              "name": "onnx_light-0.1.14-cp311-cp311-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 505298479,
+              "name": "onnx_light-0.1.14-cp313-cp313-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 505298500,
+              "name": "onnx_light-0.1.14-cp313-cp313-musllinux_1_2_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 505298503,
+              "name": "onnx_light-0.1.14-cp314-cp314-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 505298505,
+              "name": "onnx_light-0.1.14-cp314-cp314-musllinux_1_2_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 505298506,
+              "name": "onnx_light-0.1.14-cp314-cp314t-musllinux_1_2_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 505298507,
+              "name": "onnx_light-0.1.14-cp314-cp314t-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 505366267,
+              "name": "onnx_light-0.1.14-cp311-cp311-musllinux_1_2_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 505366269,
+              "name": "onnx_light-0.1.14-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 505366271,
+              "name": "onnx_light-0.1.14-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 505366273,
+              "name": "onnx_light-0.1.14-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 505366274,
+              "name": "onnx_light-0.1.14-cp312-cp312-musllinux_1_2_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 505366296,
+              "name": "onnx_light-0.1.14-cp313-cp313-musllinux_1_2_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 505366299,
+              "name": "onnx_light-0.1.14-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 505366301,
+              "name": "onnx_light-0.1.14-cp314-cp314-musllinux_1_2_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 505366302,
+              "name": "onnx_light-0.1.14-cp314-cp314t-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 505366306,
+              "name": "onnx_light-0.1.14-cp314-cp314t-musllinux_1_2_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 505486061,
+              "name": "onnx_light-0.1.14-cp314-cp314t-macosx_13_0_universal2.whl",
+              "download_count": 1
+            },
+            {
+              "id": 505486062,
+              "name": "onnx_light-0.1.14-cp313-cp313-macosx_13_0_universal2.whl",
+              "download_count": 1
+            },
+            {
+              "id": 505486064,
+              "name": "onnx_light-0.1.14-cp312-cp312-macosx_13_0_universal2.whl",
+              "download_count": 1
+            },
+            {
+              "id": 505486065,
+              "name": "onnx_light-0.1.14-cp314-cp314-macosx_13_0_universal2.whl",
+              "download_count": 1
+            },
+            {
+              "id": 505486067,
+              "name": "onnx_light-0.1.14-cp311-cp311-macosx_13_0_universal2.whl",
+              "download_count": 1
+            }
+          ]
+        },
+        {
+          "id": 367212693,
+          "tag": "0.1.15",
+          "published_at": "2026-08-08T13:49:48Z",
+          "prerelease": false,
+          "total": 50,
+          "assets": [
+            {
+              "id": 506434406,
+              "name": "onnx-light-cpp-linux-aarch64.tar.gz",
+              "download_count": 1
+            },
+            {
+              "id": 506437589,
+              "name": "onnx-light-cpp-linux-x86_64.tar.gz",
+              "download_count": 3
+            },
+            {
+              "id": 506439161,
+              "name": "onnx_light-0.1.15-0reduced-cp313-cp313-musllinux_1_2_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 506439162,
+              "name": "onnx_light-0.1.15-0reduced-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 506442547,
+              "name": "onnx_light-0.1.15-0reduced-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 506442548,
+              "name": "onnx_light-0.1.15-0reduced-cp314-cp314-musllinux_1_2_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 506442725,
+              "name": "onnx_light-0.1.15-0reduced-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 2
+            },
+            {
+              "id": 506442755,
+              "name": "onnx_light-0.1.15-0reduced-cp312-cp312-musllinux_1_2_x86_64.whl",
+              "download_count": 2
+            },
+            {
+              "id": 506443793,
+              "name": "onnx-light-cpp-macos-universal2.tar.gz",
+              "download_count": 1
+            },
+            {
+              "id": 506532231,
+              "name": "onnx_light-0.1.15-cp312-cp312-musllinux_1_2_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 506532232,
+              "name": "onnx_light-0.1.15-cp312-cp312-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 506532233,
+              "name": "onnx_light-0.1.15-cp311-cp311-musllinux_1_2_aarch64.whl",
+              "download_count": 3
+            },
+            {
+              "id": 506532234,
+              "name": "onnx_light-0.1.15-cp313-cp313-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl",
+              "download_count": 4
+            },
+            {
+              "id": 506532235,
+              "name": "onnx_light-0.1.15-cp311-cp311-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl",
+              "download_count": 2
+            },
+            {
+              "id": 506532244,
+              "name": "onnx_light-0.1.15-cp313-cp313-musllinux_1_2_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 506532245,
+              "name": "onnx_light-0.1.15-cp314-cp314-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 506532246,
+              "name": "onnx_light-0.1.15-cp314-cp314-musllinux_1_2_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 506532247,
+              "name": "onnx_light-0.1.15-cp314-cp314t-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 506532250,
+              "name": "onnx_light-0.1.15-cp314-cp314t-musllinux_1_2_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 506571157,
+              "name": "onnx_light-0.1.15-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 506571158,
+              "name": "onnx_light-0.1.15-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 506571159,
+              "name": "onnx_light-0.1.15-cp311-cp311-musllinux_1_2_x86_64.whl",
+              "download_count": 3
+            },
+            {
+              "id": 506571160,
+              "name": "onnx_light-0.1.15-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 506571161,
+              "name": "onnx_light-0.1.15-cp312-cp312-musllinux_1_2_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 506571171,
+              "name": "onnx_light-0.1.15-cp313-cp313-musllinux_1_2_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 506571179,
+              "name": "onnx_light-0.1.15-cp314-cp314-musllinux_1_2_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 506571180,
+              "name": "onnx_light-0.1.15-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 506571182,
+              "name": "onnx_light-0.1.15-cp314-cp314t-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 506571184,
+              "name": "onnx_light-0.1.15-cp314-cp314t-musllinux_1_2_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 506638323,
+              "name": "onnx_light-0.1.15-cp314-cp314-macosx_13_0_universal2.whl",
+              "download_count": 1
+            },
+            {
+              "id": 506638327,
+              "name": "onnx_light-0.1.15-cp311-cp311-macosx_13_0_universal2.whl",
+              "download_count": 2
+            },
+            {
+              "id": 506638328,
+              "name": "onnx_light-0.1.15-cp312-cp312-macosx_13_0_universal2.whl",
+              "download_count": 1
+            },
+            {
+              "id": 506638330,
+              "name": "onnx_light-0.1.15-cp314-cp314t-macosx_13_0_universal2.whl",
+              "download_count": 1
+            },
+            {
+              "id": 506638331,
+              "name": "onnx_light-0.1.15-cp313-cp313-macosx_13_0_universal2.whl",
+              "download_count": 4
+            }
+          ]
+        },
+        {
+          "id": 367906471,
+          "tag": "0.1.16",
+          "published_at": "2026-08-10T12:49:30Z",
+          "prerelease": false,
+          "total": 56,
+          "assets": [
+            {
+              "id": 508758198,
+              "name": "onnx-light-cpp-linux-aarch64.tar.gz",
+              "download_count": 1
+            },
+            {
+              "id": 508762241,
+              "name": "onnx-light-cpp-linux-x86_64.tar.gz",
+              "download_count": 2
+            },
+            {
+              "id": 508763539,
+              "name": "onnx-light-cpp-windows-ARM64.zip",
+              "download_count": 1
+            },
+            {
+              "id": 508767141,
+              "name": "onnx-light-cpp-windows-AMD64.zip",
+              "download_count": 1
+            },
+            {
+              "id": 508767633,
+              "name": "onnx_light-0.1.16-0reduced-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 508767634,
+              "name": "onnx_light-0.1.16-0reduced-cp312-cp312-musllinux_1_2_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 508768736,
+              "name": "onnx_light-0.1.16-0reduced-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 508768740,
+              "name": "onnx_light-0.1.16-0reduced-cp313-cp313-musllinux_1_2_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 508769238,
+              "name": "onnx-light-cpp-macos-universal2.tar.gz",
+              "download_count": 1
+            },
+            {
+              "id": 508769667,
+              "name": "onnx_light-0.1.16-0reduced-cp314-cp314-musllinux_1_2_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 508769668,
+              "name": "onnx_light-0.1.16-0reduced-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 508876023,
+              "name": "onnx_light-0.1.16-cp311-cp311-musllinux_1_2_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 508876024,
+              "name": "onnx_light-0.1.16-cp313-cp313-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl",
+              "download_count": 3
+            },
+            {
+              "id": 508876026,
+              "name": "onnx_light-0.1.16-cp312-cp312-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 508876027,
+              "name": "onnx_light-0.1.16-cp312-cp312-musllinux_1_2_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 508876029,
+              "name": "onnx_light-0.1.16-cp311-cp311-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl",
+              "download_count": 3
+            },
+            {
+              "id": 508876083,
+              "name": "onnx_light-0.1.16-cp313-cp313-musllinux_1_2_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 508876087,
+              "name": "onnx_light-0.1.16-cp314-cp314-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 508876088,
+              "name": "onnx_light-0.1.16-cp314-cp314-musllinux_1_2_aarch64.whl",
+              "download_count": 2
+            },
+            {
+              "id": 508876089,
+              "name": "onnx_light-0.1.16-cp314-cp314t-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 508876090,
+              "name": "onnx_light-0.1.16-cp314-cp314t-musllinux_1_2_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 508898841,
+              "name": "onnx_light-0.1.16-cp312-cp312-musllinux_1_2_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 508898842,
+              "name": "onnx_light-0.1.16-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 508898844,
+              "name": "onnx_light-0.1.16-cp311-cp311-musllinux_1_2_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 508898845,
+              "name": "onnx_light-0.1.16-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 2
+            },
+            {
+              "id": 508898846,
+              "name": "onnx_light-0.1.16-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 2
+            },
+            {
+              "id": 508898889,
+              "name": "onnx_light-0.1.16-cp313-cp313-musllinux_1_2_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 508898894,
+              "name": "onnx_light-0.1.16-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 508898897,
+              "name": "onnx_light-0.1.16-cp314-cp314-musllinux_1_2_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 508898900,
+              "name": "onnx_light-0.1.16-cp314-cp314t-musllinux_1_2_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 508898901,
+              "name": "onnx_light-0.1.16-cp314-cp314t-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 2
+            },
+            {
+              "id": 508986572,
+              "name": "onnx_light-0.1.16-cp312-cp312-win_amd64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 508986573,
+              "name": "onnx_light-0.1.16-cp311-cp311-win_amd64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 508986576,
+              "name": "onnx_light-0.1.16-cp314-cp314-win_amd64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 508986589,
+              "name": "onnx_light-0.1.16-cp313-cp313-win_amd64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 508986591,
+              "name": "onnx_light-0.1.16-cp314-cp314t-win_amd64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 509042375,
+              "name": "onnx_light-0.1.16-cp311-cp311-win_arm64.whl",
+              "download_count": 2
+            },
+            {
+              "id": 509042376,
+              "name": "onnx_light-0.1.16-cp314-cp314-win_arm64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 509042377,
+              "name": "onnx_light-0.1.16-cp313-cp313-win_arm64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 509042378,
+              "name": "onnx_light-0.1.16-cp312-cp312-win_arm64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 509042379,
+              "name": "onnx_light-0.1.16-cp314-cp314t-win_arm64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 509051038,
+              "name": "onnx_light-0.1.16-cp313-cp313-macosx_13_0_universal2.whl",
+              "download_count": 1
+            },
+            {
+              "id": 509051039,
+              "name": "onnx_light-0.1.16-cp311-cp311-macosx_13_0_universal2.whl",
+              "download_count": 1
+            },
+            {
+              "id": 509051040,
+              "name": "onnx_light-0.1.16-cp312-cp312-macosx_13_0_universal2.whl",
+              "download_count": 1
+            },
+            {
+              "id": 509051041,
+              "name": "onnx_light-0.1.16-cp314-cp314-macosx_13_0_universal2.whl",
+              "download_count": 1
+            },
+            {
+              "id": 509051042,
+              "name": "onnx_light-0.1.16-cp314-cp314t-macosx_13_0_universal2.whl",
+              "download_count": 1
+            }
+          ]
+        },
+        {
+          "id": 371858395,
+          "tag": "0.1.17",
+          "published_at": "2026-08-17T17:58:19Z",
+          "prerelease": false,
+          "total": 16,
+          "assets": [
+            {
+              "id": 518334517,
+              "name": "onnx-light-cpp-linux-aarch64.tar.gz",
+              "download_count": 2
+            },
+            {
+              "id": 518337269,
+              "name": "onnx-light-cpp-windows-ARM64.zip",
+              "download_count": 1
+            },
+            {
+              "id": 518338337,
+              "name": "onnx-light-cpp-macos-universal2.tar.gz",
+              "download_count": 3
+            },
+            {
+              "id": 518339130,
+              "name": "onnx-light-cpp-linux-x86_64.tar.gz",
+              "download_count": 1
+            },
+            {
+              "id": 518339566,
+              "name": "onnx-light-cpp-windows-AMD64.zip",
+              "download_count": 2
+            },
+            {
+              "id": 518343830,
+              "name": "onnx_light-0.1.17-0reduced-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 518343831,
+              "name": "onnx_light-0.1.17-0reduced-cp314-cp314-musllinux_1_2_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 518346500,
+              "name": "onnx_light-0.1.17-0reduced-cp313-cp313-musllinux_1_2_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 518346504,
+              "name": "onnx_light-0.1.17-0reduced-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 518350439,
+              "name": "onnx_light-0.1.17-0reduced-cp312-cp312-musllinux_1_2_x86_64.whl",
+              "download_count": 2
+            },
+            {
+              "id": 518350440,
+              "name": "onnx_light-0.1.17-0reduced-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 1
+            }
+          ]
+        },
+        {
+          "id": 372164132,
+          "tag": "0.1.18",
+          "published_at": "2026-08-18T07:33:32Z",
+          "prerelease": false,
+          "total": 97,
+          "assets": [
+            {
+              "id": 519119610,
+              "name": "onnx-light-cpp-linux-aarch64.tar.gz",
+              "download_count": 1
+            },
+            {
+              "id": 519122637,
+              "name": "onnx-light-cpp-linux-x86_64.tar.gz",
+              "download_count": 1
+            },
+            {
+              "id": 519122827,
+              "name": "onnx-light-cpp-windows-ARM64.zip",
+              "download_count": 1
+            },
+            {
+              "id": 519124844,
+              "name": "onnx_light-0.1.18-0reduced-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 519124851,
+              "name": "onnx_light-0.1.18-0reduced-cp312-cp312-musllinux_1_2_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 519126316,
+              "name": "onnx_light-0.1.18-0reduced-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 519126317,
+              "name": "onnx_light-0.1.18-0reduced-cp313-cp313-musllinux_1_2_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 519126990,
+              "name": "onnx-light-cpp-windows-AMD64.zip",
+              "download_count": 1
+            },
+            {
+              "id": 519130218,
+              "name": "onnx_light-0.1.18-0reduced-cp314-cp314-musllinux_1_2_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 519130231,
+              "name": "onnx_light-0.1.18-0reduced-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 519131248,
+              "name": "onnx-light-cpp-macos-universal2.tar.gz",
+              "download_count": 1
+            },
+            {
+              "id": 519254606,
+              "name": "onnx_light-0.1.18-cp312-cp312-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 519254607,
+              "name": "onnx_light-0.1.18-cp313-cp313-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 519254609,
+              "name": "onnx_light-0.1.18-cp311-cp311-musllinux_1_2_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 519254610,
+              "name": "onnx_light-0.1.18-cp311-cp311-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 519254611,
+              "name": "onnx_light-0.1.18-cp312-cp312-musllinux_1_2_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 519254623,
+              "name": "onnx_light-0.1.18-cp313-cp313-musllinux_1_2_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 519254625,
+              "name": "onnx_light-0.1.18-cp314-cp314-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 519254630,
+              "name": "onnx_light-0.1.18-cp314-cp314t-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 519254631,
+              "name": "onnx_light-0.1.18-cp314-cp314-musllinux_1_2_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 519254632,
+              "name": "onnx_light-0.1.18-cp314-cp314t-musllinux_1_2_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 519341086,
+              "name": "onnx_light-0.1.18-cp311-cp311-musllinux_1_2_x86_64.whl",
+              "download_count": 2
+            },
+            {
+              "id": 519341089,
+              "name": "onnx_light-0.1.18-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 46
+            },
+            {
+              "id": 519341090,
+              "name": "onnx_light-0.1.18-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 2
+            },
+            {
+              "id": 519341091,
+              "name": "onnx_light-0.1.18-cp312-cp312-musllinux_1_2_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 519341092,
+              "name": "onnx_light-0.1.18-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 519341114,
+              "name": "onnx_light-0.1.18-cp313-cp313-musllinux_1_2_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 519341116,
+              "name": "onnx_light-0.1.18-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 2
+            },
+            {
+              "id": 519341124,
+              "name": "onnx_light-0.1.18-cp314-cp314-musllinux_1_2_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 519341126,
+              "name": "onnx_light-0.1.18-cp314-cp314t-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 519341128,
+              "name": "onnx_light-0.1.18-cp314-cp314t-musllinux_1_2_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 519442844,
+              "name": "onnx_light-0.1.18-cp314-cp314t-macosx_13_0_universal2.whl",
+              "download_count": 1
+            },
+            {
+              "id": 519442845,
+              "name": "onnx_light-0.1.18-cp312-cp312-macosx_13_0_universal2.whl",
+              "download_count": 1
+            },
+            {
+              "id": 519442846,
+              "name": "onnx_light-0.1.18-cp311-cp311-macosx_13_0_universal2.whl",
+              "download_count": 1
+            },
+            {
+              "id": 519442847,
+              "name": "onnx_light-0.1.18-cp313-cp313-macosx_13_0_universal2.whl",
+              "download_count": 1
+            },
+            {
+              "id": 519442849,
+              "name": "onnx_light-0.1.18-cp314-cp314-macosx_13_0_universal2.whl",
+              "download_count": 1
+            },
+            {
+              "id": 519450514,
+              "name": "onnx_light-0.1.18-cp314-cp314t-win_amd64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 519450515,
+              "name": "onnx_light-0.1.18-cp312-cp312-win_amd64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 519450516,
+              "name": "onnx_light-0.1.18-cp314-cp314-win_amd64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 519450517,
+              "name": "onnx_light-0.1.18-cp311-cp311-win_amd64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 519450518,
+              "name": "onnx_light-0.1.18-cp313-cp313-win_amd64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 519475447,
+              "name": "onnx_light-0.1.18-cp313-cp313-win_arm64.whl",
+              "download_count": 3
+            },
+            {
+              "id": 519475448,
+              "name": "onnx_light-0.1.18-cp311-cp311-win_arm64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 519475449,
+              "name": "onnx_light-0.1.18-cp314-cp314t-win_arm64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 519475450,
+              "name": "onnx_light-0.1.18-cp312-cp312-win_arm64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 519475451,
+              "name": "onnx_light-0.1.18-cp314-cp314-win_arm64.whl",
+              "download_count": 2
+            }
+          ]
+        },
+        {
+          "id": 372470880,
+          "tag": "0.1.19",
+          "published_at": "2026-08-18T15:47:42Z",
+          "prerelease": false,
+          "total": 1885,
+          "assets": [
+            {
+              "id": 519670661,
+              "name": "onnx-light-cpp-linux-aarch64.tar.gz",
+              "download_count": 1
+            },
+            {
+              "id": 519672785,
+              "name": "onnx-light-cpp-linux-x86_64.tar.gz",
+              "download_count": 1
+            },
+            {
+              "id": 519673013,
+              "name": "onnx-light-cpp-windows-ARM64.zip",
+              "download_count": 1
+            },
+            {
+              "id": 519676465,
+              "name": "onnx_light-0.1.19-0reduced-cp312-cp312-musllinux_1_2_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 519676466,
+              "name": "onnx_light-0.1.19-0reduced-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 519680820,
+              "name": "onnx-light-cpp-windows-AMD64.zip",
+              "download_count": 1
+            },
+            {
+              "id": 519687185,
+              "name": "onnx-light-cpp-macos-universal2.tar.gz",
+              "download_count": 2
+            },
+            {
+              "id": 519689451,
+              "name": "onnx_light-0.1.19-0reduced-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 519689453,
+              "name": "onnx_light-0.1.19-0reduced-cp314-cp314-musllinux_1_2_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 519694040,
+              "name": "onnx_light-0.1.19-0reduced-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 519694044,
+              "name": "onnx_light-0.1.19-0reduced-cp313-cp313-musllinux_1_2_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 519805635,
+              "name": "onnx_light-0.1.19-cp312-cp312-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 519805636,
+              "name": "onnx_light-0.1.19-cp311-cp311-musllinux_1_2_aarch64.whl",
+              "download_count": 2
+            },
+            {
+              "id": 519805638,
+              "name": "onnx_light-0.1.19-cp311-cp311-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl",
+              "download_count": 3
+            },
+            {
+              "id": 519805639,
+              "name": "onnx_light-0.1.19-cp312-cp312-musllinux_1_2_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 519805640,
+              "name": "onnx_light-0.1.19-cp313-cp313-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 519805662,
+              "name": "onnx_light-0.1.19-cp313-cp313-musllinux_1_2_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 519805663,
+              "name": "onnx_light-0.1.19-cp314-cp314-musllinux_1_2_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 519805664,
+              "name": "onnx_light-0.1.19-cp314-cp314-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 519805665,
+              "name": "onnx_light-0.1.19-cp314-cp314t-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 519805666,
+              "name": "onnx_light-0.1.19-cp314-cp314t-musllinux_1_2_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 519837506,
+              "name": "onnx_light-0.1.19-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 519837508,
+              "name": "onnx_light-0.1.19-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 3
+            },
+            {
+              "id": 519837509,
+              "name": "onnx_light-0.1.19-cp312-cp312-musllinux_1_2_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 519837510,
+              "name": "onnx_light-0.1.19-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 694
+            },
+            {
+              "id": 519837512,
+              "name": "onnx_light-0.1.19-cp311-cp311-musllinux_1_2_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 519837552,
+              "name": "onnx_light-0.1.19-cp313-cp313-musllinux_1_2_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 519837567,
+              "name": "onnx_light-0.1.19-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 519837568,
+              "name": "onnx_light-0.1.19-cp314-cp314-musllinux_1_2_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 519837573,
+              "name": "onnx_light-0.1.19-cp314-cp314t-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 3
+            },
+            {
+              "id": 519837579,
+              "name": "onnx_light-0.1.19-cp314-cp314t-musllinux_1_2_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 519947198,
+              "name": "onnx_light-0.1.19-cp314-cp314-win_amd64.whl",
+              "download_count": 3
+            },
+            {
+              "id": 519947199,
+              "name": "onnx_light-0.1.19-cp313-cp313-win_amd64.whl",
+              "download_count": 564
+            },
+            {
+              "id": 519947200,
+              "name": "onnx_light-0.1.19-cp314-cp314t-win_amd64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 519947203,
+              "name": "onnx_light-0.1.19-cp312-cp312-win_amd64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 519947205,
+              "name": "onnx_light-0.1.19-cp311-cp311-win_amd64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 519962952,
+              "name": "onnx_light-0.1.19-cp313-cp313-macosx_13_0_universal2.whl",
+              "download_count": 574
+            },
+            {
+              "id": 519962953,
+              "name": "onnx_light-0.1.19-cp312-cp312-macosx_13_0_universal2.whl",
+              "download_count": 1
+            },
+            {
+              "id": 519962954,
+              "name": "onnx_light-0.1.19-cp311-cp311-macosx_13_0_universal2.whl",
+              "download_count": 1
+            },
+            {
+              "id": 519962955,
+              "name": "onnx_light-0.1.19-cp314-cp314t-macosx_13_0_universal2.whl",
+              "download_count": 1
+            },
+            {
+              "id": 519962956,
+              "name": "onnx_light-0.1.19-cp314-cp314-macosx_13_0_universal2.whl",
+              "download_count": 1
+            },
+            {
+              "id": 519967034,
+              "name": "onnx_light-0.1.19-cp314-cp314t-win_arm64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 519967035,
+              "name": "onnx_light-0.1.19-cp314-cp314-win_arm64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 519967036,
+              "name": "onnx_light-0.1.19-cp312-cp312-win_arm64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 519967037,
+              "name": "onnx_light-0.1.19-cp311-cp311-win_arm64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 519967038,
+              "name": "onnx_light-0.1.19-cp313-cp313-win_arm64.whl",
+              "download_count": 1
+            }
+          ]
+        },
+        {
+          "id": 373545478,
+          "tag": "0.1.20",
+          "published_at": "2026-08-20T07:09:29Z",
+          "prerelease": false,
+          "total": 8,
+          "assets": [
+            {
+              "id": 521907885,
+              "name": "onnx-light-cpp-linux-aarch64.tar.gz",
+              "download_count": 3
+            },
+            {
+              "id": 521910761,
+              "name": "onnx-light-cpp-windows-ARM64.zip",
+              "download_count": 1
+            },
+            {
+              "id": 521911821,
+              "name": "onnx-light-cpp-linux-x86_64.tar.gz",
+              "download_count": 3
+            },
+            {
+              "id": 521915718,
+              "name": "onnx-light-cpp-windows-AMD64.zip",
+              "download_count": 1
+            }
+          ]
+        },
+        {
+          "id": 379364626,
+          "tag": "0.1.21",
+          "published_at": "2026-08-30T18:21:56Z",
+          "prerelease": false,
+          "total": 12,
+          "assets": [
+            {
+              "id": 536925771,
+              "name": "onnx-light-cpp-linux-aarch64.tar.gz",
+              "download_count": 1
+            },
+            {
+              "id": 536930483,
+              "name": "onnx-light-cpp-windows-ARM64.zip",
+              "download_count": 1
+            },
+            {
+              "id": 536930793,
+              "name": "onnx-light-cpp-linux-x86_64.tar.gz",
+              "download_count": 3
+            },
+            {
+              "id": 536934415,
+              "name": "onnx_light-0.1.21-0reduced-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 536934416,
+              "name": "onnx_light-0.1.21-0reduced-cp312-cp312-musllinux_1_2_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 536936102,
+              "name": "onnx-light-cpp-windows-AMD64.zip",
+              "download_count": 1
+            },
+            {
+              "id": 536937476,
+              "name": "onnx_light-0.1.21-0reduced-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 536937477,
+              "name": "onnx_light-0.1.21-0reduced-cp313-cp313-musllinux_1_2_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 536937498,
+              "name": "onnx_light-0.1.21-0reduced-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 536937500,
+              "name": "onnx_light-0.1.21-0reduced-cp314-cp314-musllinux_1_2_x86_64.whl",
+              "download_count": 1
+            }
+          ]
+        },
+        {
+          "id": 379840053,
+          "tag": "0.1.22",
+          "published_at": "2026-08-31T15:01:57Z",
+          "prerelease": false,
+          "total": 12,
+          "assets": [
+            {
+              "id": 538153386,
+              "name": "onnx-light-cpp-linux-aarch64.tar.gz",
+              "download_count": 2
+            },
+            {
+              "id": 538158066,
+              "name": "onnx-light-cpp-linux-x86_64.tar.gz",
+              "download_count": 1
+            },
+            {
+              "id": 538158659,
+              "name": "onnx-light-cpp-windows-ARM64.zip",
+              "download_count": 1
+            },
+            {
+              "id": 538161518,
+              "name": "onnx_light-0.1.22-0reduced-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 538161521,
+              "name": "onnx_light-0.1.22-0reduced-cp313-cp313-musllinux_1_2_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 538166878,
+              "name": "onnx-light-cpp-windows-AMD64.zip",
+              "download_count": 2
+            },
+            {
+              "id": 538167272,
+              "name": "onnx_light-0.1.22-0reduced-cp314-cp314-musllinux_1_2_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 538167274,
+              "name": "onnx_light-0.1.22-0reduced-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 538169609,
+              "name": "onnx_light-0.1.22-0reduced-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 538169610,
+              "name": "onnx_light-0.1.22-0reduced-cp312-cp312-musllinux_1_2_x86_64.whl",
+              "download_count": 1
+            }
+          ]
+        },
+        {
+          "id": 380717952,
+          "tag": "0.1.23",
+          "published_at": "2026-09-01T18:04:14Z",
+          "prerelease": false,
+          "total": 13,
+          "assets": [
+            {
+              "id": 539946988,
+              "name": "onnx-light-cpp-linux-aarch64.tar.gz",
+              "download_count": 1
+            },
+            {
+              "id": 539952389,
+              "name": "onnx-light-cpp-linux-x86_64.tar.gz",
+              "download_count": 1
+            },
+            {
+              "id": 539953334,
+              "name": "onnx-light-cpp-windows-ARM64.zip",
+              "download_count": 1
+            },
+            {
+              "id": 539961552,
+              "name": "onnx-light-cpp-windows-AMD64.zip",
+              "download_count": 1
+            },
+            {
+              "id": 539961916,
+              "name": "onnx_light-0.1.23-0reduced-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 539961917,
+              "name": "onnx_light-0.1.23-0reduced-cp313-cp313-musllinux_1_2_x86_64.whl",
+              "download_count": 2
+            },
+            {
+              "id": 539962786,
+              "name": "onnx_light-0.1.23-0reduced-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 2
+            },
+            {
+              "id": 539962789,
+              "name": "onnx_light-0.1.23-0reduced-cp314-cp314-musllinux_1_2_x86_64.whl",
+              "download_count": 2
+            },
+            {
+              "id": 539965960,
+              "name": "onnx_light-0.1.23-0reduced-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 539965963,
+              "name": "onnx_light-0.1.23-0reduced-cp312-cp312-musllinux_1_2_x86_64.whl",
+              "download_count": 1
+            }
+          ]
+        },
+        {
+          "id": 382048708,
+          "tag": "0.1.24",
+          "published_at": "2026-09-03T13:32:51Z",
+          "prerelease": false,
+          "total": 978,
+          "assets": [
+            {
+              "id": 542837957,
+              "name": "onnx-light-cpp-linux-aarch64.tar.gz",
+              "download_count": 1
+            },
+            {
+              "id": 542844063,
+              "name": "onnx-light-cpp-windows-ARM64.zip",
+              "download_count": 1
+            },
+            {
+              "id": 542845633,
+              "name": "onnx-light-cpp-linux-x86_64.tar.gz",
+              "download_count": 1
+            },
+            {
+              "id": 542851214,
+              "name": "onnx_light-0.1.24-0reduced-cp314-cp314-musllinux_1_2_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 542851217,
+              "name": "onnx_light-0.1.24-0reduced-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 542852487,
+              "name": "onnx-light-cpp-windows-AMD64.zip",
+              "download_count": 1
+            },
+            {
+              "id": 542852749,
+              "name": "onnx_light-0.1.24-0reduced-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 542852752,
+              "name": "onnx_light-0.1.24-0reduced-cp312-cp312-musllinux_1_2_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 542854783,
+              "name": "onnx-light-cpp-macos-universal2.tar.gz",
+              "download_count": 1
+            },
+            {
+              "id": 542858531,
+              "name": "onnx_light-0.1.24-0reduced-cp313-cp313-musllinux_1_2_x86_64.whl",
+              "download_count": 2
+            },
+            {
+              "id": 542858532,
+              "name": "onnx_light-0.1.24-0reduced-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 542872181,
+              "name": "onnx_light-0.1.24-cp314-cp314-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 542872182,
+              "name": "onnx_light-0.1.24-cp313-cp313-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 542872184,
+              "name": "onnx_light-0.1.24-cp312-cp312-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 542895031,
+              "name": "onnx_light-0.1.24-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 294
+            },
+            {
+              "id": 542895032,
+              "name": "onnx_light-0.1.24-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 167
+            },
+            {
+              "id": 542895033,
+              "name": "onnx_light-0.1.24-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 160
+            },
+            {
+              "id": 542966566,
+              "name": "onnx_light-0.1.24-cp313-cp313-win_amd64.whl",
+              "download_count": 145
+            },
+            {
+              "id": 542966573,
+              "name": "onnx_light-0.1.24-cp312-cp312-win_amd64.whl",
+              "download_count": 12
+            },
+            {
+              "id": 542966574,
+              "name": "onnx_light-0.1.24-cp314-cp314-win_amd64.whl",
+              "download_count": 12
+            },
+            {
+              "id": 542979511,
+              "name": "onnx_light-0.1.24-cp314-cp314-win_arm64.whl",
+              "download_count": 2
+            },
+            {
+              "id": 542979512,
+              "name": "onnx_light-0.1.24-cp312-cp312-win_arm64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 542979513,
+              "name": "onnx_light-0.1.24-cp313-cp313-win_arm64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 542982356,
+              "name": "onnx_light-0.1.24-cp313-cp313-macosx_13_0_universal2.whl",
+              "download_count": 145
+            },
+            {
+              "id": 542982357,
+              "name": "onnx_light-0.1.24-cp314-cp314-macosx_13_0_universal2.whl",
+              "download_count": 12
+            },
+            {
+              "id": 542982359,
+              "name": "onnx_light-0.1.24-cp312-cp312-macosx_13_0_universal2.whl",
+              "download_count": 12
+            }
+          ]
+        },
+        {
+          "id": 384719544,
+          "tag": "0.1.25",
+          "published_at": "2026-09-08T12:40:55Z",
+          "prerelease": false,
+          "total": 45,
+          "assets": [
+            {
+              "id": 550497271,
+              "name": "onnx-light-cpp-linux-aarch64.tar.gz",
+              "download_count": 1
+            },
+            {
+              "id": 550507557,
+              "name": "onnx-light-cpp-linux-x86_64.tar.gz",
+              "download_count": 2
+            },
+            {
+              "id": 550514923,
+              "name": "onnx-light-cpp-macos-universal2.tar.gz",
+              "download_count": 1
+            },
+            {
+              "id": 550516926,
+              "name": "onnx_light-0.1.25-0reduced-cp313-cp313-musllinux_1_2_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 550516928,
+              "name": "onnx_light-0.1.25-0reduced-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 550517155,
+              "name": "onnx_light-0.1.25-0reduced-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 550517161,
+              "name": "onnx_light-0.1.25-0reduced-cp314-cp314-musllinux_1_2_x86_64.whl",
+              "download_count": 2
+            },
+            {
+              "id": 550519206,
+              "name": "onnx_light-0.1.25-0reduced-cp312-cp312-musllinux_1_2_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 550519208,
+              "name": "onnx_light-0.1.25-0reduced-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 550549948,
+              "name": "onnx_light-0.1.25-cp312-cp312-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 550549949,
+              "name": "onnx_light-0.1.25-cp313-cp313-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl",
+              "download_count": 2
+            },
+            {
+              "id": 550549951,
+              "name": "onnx_light-0.1.25-cp314-cp314-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 550577289,
+              "name": "onnx_light-0.1.25-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 13
+            },
+            {
+              "id": 550577291,
+              "name": "onnx_light-0.1.25-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 11
+            },
+            {
+              "id": 550577292,
+              "name": "onnx_light-0.1.25-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 2
+            },
+            {
+              "id": 550737465,
+              "name": "onnx_light-0.1.25-cp314-cp314-macosx_13_0_universal2.whl",
+              "download_count": 1
+            },
+            {
+              "id": 550737468,
+              "name": "onnx_light-0.1.25-cp312-cp312-macosx_13_0_universal2.whl",
+              "download_count": 1
+            },
+            {
+              "id": 550737470,
+              "name": "onnx_light-0.1.25-cp313-cp313-macosx_13_0_universal2.whl",
+              "download_count": 2
+            }
+          ]
+        },
+        {
+          "id": 385497880,
+          "tag": "0.1.26",
+          "published_at": "2026-09-09T12:32:08Z",
+          "prerelease": false,
+          "total": 458,
+          "assets": [
+            {
+              "id": 552743219,
+              "name": "onnx-light-cpp-linux-aarch64.tar.gz",
+              "download_count": 1
+            },
+            {
+              "id": 552752881,
+              "name": "onnx-light-cpp-linux-x86_64.tar.gz",
+              "download_count": 2
+            },
+            {
+              "id": 552753049,
+              "name": "onnx_light-0.1.26-0reduced-cp313-cp313-musllinux_1_2_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 552753050,
+              "name": "onnx_light-0.1.26-0reduced-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 552753285,
+              "name": "onnx-light-cpp-windows-ARM64.zip",
+              "download_count": 1
+            },
+            {
+              "id": 552753550,
+              "name": "onnx-light-cpp-windows-AMD64.zip",
+              "download_count": 1
+            },
+            {
+              "id": 552767714,
+              "name": "onnx_light-0.1.26-0reduced-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 552767715,
+              "name": "onnx_light-0.1.26-0reduced-cp312-cp312-musllinux_1_2_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 552770296,
+              "name": "onnx_light-0.1.26-0reduced-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 2
+            },
+            {
+              "id": 552770297,
+              "name": "onnx_light-0.1.26-0reduced-cp314-cp314-musllinux_1_2_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 552774276,
+              "name": "onnx-light-cpp-macos-universal2.tar.gz",
+              "download_count": 1
+            },
+            {
+              "id": 552799381,
+              "name": "onnx_light-0.1.26-cp314-cp314-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 552799383,
+              "name": "onnx_light-0.1.26-cp313-cp313-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 552799386,
+              "name": "onnx_light-0.1.26-cp312-cp312-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 552832818,
+              "name": "onnx_light-0.1.26-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 189
+            },
+            {
+              "id": 552832820,
+              "name": "onnx_light-0.1.26-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 93
+            },
+            {
+              "id": 552832821,
+              "name": "onnx_light-0.1.26-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 10
+            },
+            {
+              "id": 552963956,
+              "name": "onnx_light-0.1.26-cp312-cp312-win_arm64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 552963958,
+              "name": "onnx_light-0.1.26-cp313-cp313-win_arm64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 552963963,
+              "name": "onnx_light-0.1.26-cp314-cp314-win_arm64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 552979458,
+              "name": "onnx_light-0.1.26-cp313-cp313-win_amd64.whl",
+              "download_count": 70
+            },
+            {
+              "id": 552979459,
+              "name": "onnx_light-0.1.26-cp314-cp314-win_amd64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 552979462,
+              "name": "onnx_light-0.1.26-cp312-cp312-win_amd64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 552988252,
+              "name": "onnx_light-0.1.26-cp314-cp314-macosx_13_0_universal2.whl",
+              "download_count": 1
+            },
+            {
+              "id": 552988254,
+              "name": "onnx_light-0.1.26-cp313-cp313-macosx_13_0_universal2.whl",
+              "download_count": 72
+            },
+            {
+              "id": 552988256,
+              "name": "onnx_light-0.1.26-cp312-cp312-macosx_13_0_universal2.whl",
+              "download_count": 2
+            }
+          ]
+        },
+        {
+          "id": 390097886,
+          "tag": "0.1.27",
+          "published_at": "2026-09-16T16:40:02Z",
+          "prerelease": false,
+          "total": 1421,
+          "assets": [
+            {
+              "id": 568387482,
+              "name": "onnx-light-cpp-linux-aarch64.tar.gz",
+              "download_count": 2
+            },
+            {
+              "id": 568395642,
+              "name": "onnx-light-cpp-windows-ARM64.zip",
+              "download_count": 1
+            },
+            {
+              "id": 568395715,
+              "name": "onnx-light-cpp-linux-x86_64.tar.gz",
+              "download_count": 1
+            },
+            {
+              "id": 568403117,
+              "name": "onnx_light-0.1.27-0reduced-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 2
+            },
+            {
+              "id": 568403119,
+              "name": "onnx_light-0.1.27-0reduced-cp314-cp314-musllinux_1_2_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 568412184,
+              "name": "onnx-light-cpp-windows-AMD64.zip",
+              "download_count": 2
+            },
+            {
+              "id": 568413327,
+              "name": "onnx_light-0.1.27-0reduced-cp313-cp313-musllinux_1_2_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 568413331,
+              "name": "onnx_light-0.1.27-0reduced-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 568413859,
+              "name": "onnx_light-0.1.27-0reduced-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 568413860,
+              "name": "onnx_light-0.1.27-0reduced-cp312-cp312-musllinux_1_2_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 568414122,
+              "name": "onnx-light-cpp-macos-universal2.tar.gz",
+              "download_count": 1
+            },
+            {
+              "id": 568444203,
+              "name": "onnx_light-0.1.27-cp312-cp312-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 568444205,
+              "name": "onnx_light-0.1.27-cp314-cp314-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 568444206,
+              "name": "onnx_light-0.1.27-cp313-cp313-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 568473087,
+              "name": "onnx_light-0.1.27-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 466
+            },
+            {
+              "id": 568473088,
+              "name": "onnx_light-0.1.27-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 107
+            },
+            {
+              "id": 568473089,
+              "name": "onnx_light-0.1.27-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 268
+            },
+            {
+              "id": 568586278,
+              "name": "onnx_light-0.1.27-cp312-cp312-win_arm64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 568586279,
+              "name": "onnx_light-0.1.27-cp314-cp314-win_arm64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 568586282,
+              "name": "onnx_light-0.1.27-cp313-cp313-win_arm64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 568596757,
+              "name": "onnx_light-0.1.27-cp312-cp312-win_amd64.whl",
+              "download_count": 34
+            },
+            {
+              "id": 568596758,
+              "name": "onnx_light-0.1.27-cp313-cp313-win_amd64.whl",
+              "download_count": 213
+            },
+            {
+              "id": 568596760,
+              "name": "onnx_light-0.1.27-cp314-cp314-win_amd64.whl",
+              "download_count": 34
+            },
+            {
+              "id": 568614807,
+              "name": "onnx_light-0.1.27-cp314-cp314-macosx_13_0_universal2.whl",
+              "download_count": 34
+            },
+            {
+              "id": 568614811,
+              "name": "onnx_light-0.1.27-cp313-cp313-macosx_13_0_universal2.whl",
+              "download_count": 212
+            },
+            {
+              "id": 568614813,
+              "name": "onnx_light-0.1.27-cp312-cp312-macosx_13_0_universal2.whl",
+              "download_count": 33
+            }
+          ]
+        },
+        {
+          "id": 399586418,
+          "tag": "0.1.28",
+          "published_at": "2026-09-29T22:57:14Z",
+          "prerelease": false,
+          "total": 463,
+          "assets": [
+            {
+              "id": 599453801,
+              "name": "onnx-light-cpp-linux-aarch64.tar.gz",
+              "download_count": 1
+            },
+            {
+              "id": 599454622,
+              "name": "onnx-light-cpp-linux-x86_64.tar.gz",
+              "download_count": 2
+            },
+            {
+              "id": 599463038,
+              "name": "onnx-light-cpp-windows-ARM64.zip",
+              "download_count": 1
+            },
+            {
+              "id": 599470734,
+              "name": "onnx_light-0.1.28-0reduced-cp314-cp314-musllinux_1_2_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 599470743,
+              "name": "onnx_light-0.1.28-0reduced-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 599479053,
+              "name": "onnx-light-cpp-windows-AMD64.zip",
+              "download_count": 1
+            },
+            {
+              "id": 599481115,
+              "name": "onnx_light-0.1.28-0reduced-cp312-cp312-musllinux_1_2_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 599481117,
+              "name": "onnx_light-0.1.28-0reduced-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 599483270,
+              "name": "onnx-light-cpp-macos-universal2.tar.gz",
+              "download_count": 1
+            },
+            {
+              "id": 599484913,
+              "name": "onnx_light-0.1.28-0reduced-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 599484914,
+              "name": "onnx_light-0.1.28-0reduced-cp313-cp313-musllinux_1_2_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 599513646,
+              "name": "onnx_light-0.1.28-cp313-cp313-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 599513652,
+              "name": "onnx_light-0.1.28-cp312-cp312-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 599513655,
+              "name": "onnx_light-0.1.28-cp314-cp314-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 599542679,
+              "name": "onnx_light-0.1.28-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 259
+            },
+            {
+              "id": 599542680,
+              "name": "onnx_light-0.1.28-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 118
+            },
+            {
+              "id": 599542681,
+              "name": "onnx_light-0.1.28-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 9
+            },
+            {
+              "id": 599724357,
+              "name": "onnx_light-0.1.28-cp314-cp314-macosx_13_0_universal2.whl",
+              "download_count": 1
+            },
+            {
+              "id": 599724366,
+              "name": "onnx_light-0.1.28-cp312-cp312-macosx_13_0_universal2.whl",
+              "download_count": 1
+            },
+            {
+              "id": 599724368,
+              "name": "onnx_light-0.1.28-cp313-cp313-macosx_13_0_universal2.whl",
+              "download_count": 27
+            },
+            {
+              "id": 599724785,
+              "name": "onnx_light-0.1.28-cp314-cp314-win_amd64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 599724788,
+              "name": "onnx_light-0.1.28-cp312-cp312-win_amd64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 599724790,
+              "name": "onnx_light-0.1.28-cp313-cp313-win_amd64.whl",
+              "download_count": 27
+            },
+            {
+              "id": 599774815,
+              "name": "onnx_light-0.1.28-cp314-cp314-win_arm64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 599774816,
+              "name": "onnx_light-0.1.28-cp312-cp312-win_arm64.whl",
+              "download_count": 2
+            },
+            {
+              "id": 599774818,
+              "name": "onnx_light-0.1.28-cp313-cp313-win_arm64.whl",
+              "download_count": 1
+            }
+          ]
+        },
+        {
+          "id": 401767859,
+          "tag": "0.1.29",
+          "published_at": "2026-10-02T11:43:03Z",
+          "prerelease": false,
+          "total": 285,
+          "assets": [
+            {
+              "id": 605511639,
+              "name": "onnx-light-cpp-linux-aarch64.tar.gz",
+              "download_count": 1
+            },
+            {
+              "id": 605522868,
+              "name": "onnx-light-cpp-linux-x86_64.tar.gz",
+              "download_count": 2
+            },
+            {
+              "id": 605526000,
+              "name": "onnx-light-cpp-windows-ARM64.zip",
+              "download_count": 1
+            },
+            {
+              "id": 605526533,
+              "name": "onnx_light-0.1.29-0reduced-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 2
+            },
+            {
+              "id": 605526536,
+              "name": "onnx_light-0.1.29-0reduced-cp312-cp312-musllinux_1_2_x86_64.whl",
+              "download_count": 2
+            },
+            {
+              "id": 605529425,
+              "name": "onnx_light-0.1.29-0reduced-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 605529426,
+              "name": "onnx_light-0.1.29-0reduced-cp314-cp314-musllinux_1_2_x86_64.whl",
+              "download_count": 2
+            },
+            {
+              "id": 605532762,
+              "name": "onnx-light-cpp-windows-AMD64.zip",
+              "download_count": 1
+            },
+            {
+              "id": 605540388,
+              "name": "onnx-light-cpp-macos-universal2.tar.gz",
+              "download_count": 1
+            },
+            {
+              "id": 605540625,
+              "name": "onnx_light-0.1.29-0reduced-cp313-cp313-musllinux_1_2_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 605540627,
+              "name": "onnx_light-0.1.29-0reduced-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 2
+            },
+            {
+              "id": 605575117,
+              "name": "onnx_light-0.1.29-cp312-cp312-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 605575119,
+              "name": "onnx_light-0.1.29-cp314-cp314-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 605575120,
+              "name": "onnx_light-0.1.29-cp313-cp313-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 605582389,
+              "name": "onnx_light-0.1.29-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 117
+            },
+            {
+              "id": 605582390,
+              "name": "onnx_light-0.1.29-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 62
+            },
+            {
+              "id": 605582392,
+              "name": "onnx_light-0.1.29-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 4
+            },
+            {
+              "id": 605726948,
+              "name": "onnx_light-0.1.29-cp312-cp312-win_arm64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 605726949,
+              "name": "onnx_light-0.1.29-cp313-cp313-win_arm64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 605726950,
+              "name": "onnx_light-0.1.29-cp314-cp314-win_arm64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 605748397,
+              "name": "onnx_light-0.1.29-cp314-cp314-macosx_13_0_universal2.whl",
+              "download_count": 1
+            },
+            {
+              "id": 605748399,
+              "name": "onnx_light-0.1.29-cp312-cp312-macosx_13_0_universal2.whl",
+              "download_count": 1
+            },
+            {
+              "id": 605748400,
+              "name": "onnx_light-0.1.29-cp313-cp313-macosx_13_0_universal2.whl",
+              "download_count": 37
+            },
+            {
+              "id": 605749534,
+              "name": "onnx_light-0.1.29-cp312-cp312-win_amd64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 605749535,
+              "name": "onnx_light-0.1.29-cp314-cp314-win_amd64.whl",
+              "download_count": 2
+            },
+            {
+              "id": 605749536,
+              "name": "onnx_light-0.1.29-cp313-cp313-win_amd64.whl",
+              "download_count": 38
+            }
+          ]
+        },
+        {
+          "id": 403207946,
+          "tag": "0.1.30",
+          "published_at": "2026-10-04T21:02:52Z",
+          "prerelease": false,
+          "total": 3538,
+          "assets": [
+            {
+              "id": 610692449,
+              "name": "onnx-light-cpp-linux-aarch64.tar.gz",
+              "download_count": 1
+            },
+            {
+              "id": 610701860,
+              "name": "onnx-light-cpp-linux-x86_64.tar.gz",
+              "download_count": 2
+            },
+            {
+              "id": 610702913,
+              "name": "onnx-light-cpp-windows-AMD64.zip",
+              "download_count": 2
+            },
+            {
+              "id": 610707904,
+              "name": "onnx-light-cpp-windows-ARM64.zip",
+              "download_count": 1
+            },
+            {
+              "id": 610717418,
+              "name": "onnx_light-0.1.30-0reduced-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 610717422,
+              "name": "onnx_light-0.1.30-0reduced-cp313-cp313-musllinux_1_2_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 610722630,
+              "name": "onnx_light-0.1.30-0reduced-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 4
+            },
+            {
+              "id": 610722632,
+              "name": "onnx_light-0.1.30-0reduced-cp312-cp312-musllinux_1_2_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 610727782,
+              "name": "onnx-light-cpp-macos-universal2.tar.gz",
+              "download_count": 1
+            },
+            {
+              "id": 610728253,
+              "name": "onnx_light-0.1.30-0reduced-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 610728255,
+              "name": "onnx_light-0.1.30-0reduced-cp314-cp314-musllinux_1_2_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 610754644,
+              "name": "onnx_light-0.1.30-cp313-cp313-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl",
+              "download_count": 7
+            },
+            {
+              "id": 610754645,
+              "name": "onnx_light-0.1.30-cp312-cp312-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl",
+              "download_count": 10
+            },
+            {
+              "id": 610754651,
+              "name": "onnx_light-0.1.30-cp314-cp314-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl",
+              "download_count": 7
+            },
+            {
+              "id": 610767608,
+              "name": "onnx_light-0.1.30-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 641
+            },
+            {
+              "id": 610767610,
+              "name": "onnx_light-0.1.30-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 219
+            },
+            {
+              "id": 610767611,
+              "name": "onnx_light-0.1.30-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 2304
+            },
+            {
+              "id": 610873108,
+              "name": "onnx_light-0.1.30-cp312-cp312-win_amd64.whl",
+              "download_count": 17
+            },
+            {
+              "id": 610873109,
+              "name": "onnx_light-0.1.30-cp314-cp314-win_amd64.whl",
+              "download_count": 13
+            },
+            {
+              "id": 610873110,
+              "name": "onnx_light-0.1.30-cp313-cp313-win_amd64.whl",
+              "download_count": 132
+            },
+            {
+              "id": 610898655,
+              "name": "onnx_light-0.1.30-cp314-cp314-win_arm64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 610898656,
+              "name": "onnx_light-0.1.30-cp313-cp313-win_arm64.whl",
+              "download_count": 2
+            },
+            {
+              "id": 610898657,
+              "name": "onnx_light-0.1.30-cp312-cp312-win_arm64.whl",
+              "download_count": 4
+            },
+            {
+              "id": 610925545,
+              "name": "onnx_light-0.1.30-cp313-cp313-macosx_13_0_universal2.whl",
+              "download_count": 133
+            },
+            {
+              "id": 610925547,
+              "name": "onnx_light-0.1.30-cp314-cp314-macosx_13_0_universal2.whl",
+              "download_count": 15
+            },
+            {
+              "id": 610925548,
+              "name": "onnx_light-0.1.30-cp312-cp312-macosx_13_0_universal2.whl",
+              "download_count": 17
+            }
+          ]
+        },
+        {
+          "id": 412535175,
+          "tag": "0.1.31",
+          "published_at": "2026-10-14T09:20:48Z",
+          "prerelease": false,
+          "total": 1456,
+          "assets": [
+            {
+              "id": 639908902,
+              "name": "onnx-light-cpp-linux-aarch64.tar.gz",
+              "download_count": 1
+            },
+            {
+              "id": 639921721,
+              "name": "onnx-light-cpp-linux-x86_64.tar.gz",
+              "download_count": 1
+            },
+            {
+              "id": 639921724,
+              "name": "onnx-light-cpp-windows-AMD64.zip",
+              "download_count": 1
+            },
+            {
+              "id": 639921828,
+              "name": "onnx-light-cpp-windows-ARM64.zip",
+              "download_count": 1
+            },
+            {
+              "id": 639936007,
+              "name": "onnx-light-cpp-macos-universal2.tar.gz",
+              "download_count": 1
+            },
+            {
+              "id": 639945681,
+              "name": "onnx_light-0.1.31-0reduced-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 639945685,
+              "name": "onnx_light-0.1.31-0reduced-cp313-cp313-musllinux_1_2_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 639969282,
+              "name": "onnx_light-0.1.31-0reduced-cp314-cp314-musllinux_1_2_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 639969286,
+              "name": "onnx_light-0.1.31-0reduced-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 639974549,
+              "name": "onnx_light-0.1.31-0reduced-cp312-cp312-musllinux_1_2_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 639974550,
+              "name": "onnx_light-0.1.31-0reduced-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 2
+            },
+            {
+              "id": 639996182,
+              "name": "onnx_light-0.1.31-cp314-cp314-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl",
+              "download_count": 3
+            },
+            {
+              "id": 639996184,
+              "name": "onnx_light-0.1.31-cp312-cp312-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl",
+              "download_count": 3
+            },
+            {
+              "id": 639996186,
+              "name": "onnx_light-0.1.31-cp313-cp313-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl",
+              "download_count": 3
+            },
+            {
+              "id": 640048295,
+              "name": "onnx_light-0.1.31-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 58
+            },
+            {
+              "id": 640048297,
+              "name": "onnx_light-0.1.31-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 718
+            },
+            {
+              "id": 640048298,
+              "name": "onnx_light-0.1.31-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 444
+            },
+            {
+              "id": 640142177,
+              "name": "onnx_light-0.1.31-cp312-cp312-macosx_13_0_universal2.whl",
+              "download_count": 34
+            },
+            {
+              "id": 640142180,
+              "name": "onnx_light-0.1.31-cp314-cp314-macosx_13_0_universal2.whl",
+              "download_count": 35
+            },
+            {
+              "id": 640142189,
+              "name": "onnx_light-0.1.31-cp313-cp313-macosx_13_0_universal2.whl",
+              "download_count": 38
+            },
+            {
+              "id": 640196817,
+              "name": "onnx_light-0.1.31-cp313-cp313-win_amd64.whl",
+              "download_count": 37
+            },
+            {
+              "id": 640196818,
+              "name": "onnx_light-0.1.31-cp312-cp312-win_amd64.whl",
+              "download_count": 34
+            },
+            {
+              "id": 640196822,
+              "name": "onnx_light-0.1.31-cp314-cp314-win_amd64.whl",
+              "download_count": 33
+            },
+            {
+              "id": 640225749,
+              "name": "onnx_light-0.1.31-cp313-cp313-win_arm64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 640225751,
+              "name": "onnx_light-0.1.31-cp314-cp314-win_arm64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 640225752,
+              "name": "onnx_light-0.1.31-cp312-cp312-win_arm64.whl",
+              "download_count": 2
+            }
+          ]
+        },
+        {
+          "id": 414326273,
+          "tag": "0.1.32",
+          "published_at": "2026-10-15T22:17:05Z",
+          "prerelease": false,
+          "total": 447,
+          "assets": [
+            {
+              "id": 645369479,
+              "name": "onnx-light-cpp-linux-aarch64.tar.gz",
+              "download_count": 1
+            },
+            {
+              "id": 645379797,
+              "name": "onnx_light-0.1.32-0reduced-cp313-cp313-musllinux_1_2_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 645379798,
+              "name": "onnx_light-0.1.32-0reduced-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 2
+            },
+            {
+              "id": 645390069,
+              "name": "onnx-light-cpp-linux-x86_64.tar.gz",
+              "download_count": 1
+            },
+            {
+              "id": 645395109,
+              "name": "onnx-light-cpp-windows-ARM64.zip",
+              "download_count": 1
+            },
+            {
+              "id": 645401155,
+              "name": "onnx-light-cpp-windows-AMD64.zip",
+              "download_count": 1
+            },
+            {
+              "id": 645410834,
+              "name": "onnx_light-0.1.32-0reduced-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 3
+            },
+            {
+              "id": 645410842,
+              "name": "onnx_light-0.1.32-0reduced-cp312-cp312-musllinux_1_2_x86_64.whl",
+              "download_count": 2
+            },
+            {
+              "id": 645412862,
+              "name": "onnx_light-0.1.32-0reduced-cp314-cp314-musllinux_1_2_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 645412863,
+              "name": "onnx_light-0.1.32-0reduced-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 645425178,
+              "name": "onnx-light-cpp-macos-universal2.tar.gz",
+              "download_count": 1
+            },
+            {
+              "id": 645442450,
+              "name": "onnx_light-0.1.32-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 152
+            },
+            {
+              "id": 645442453,
+              "name": "onnx_light-0.1.32-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 22
+            },
+            {
+              "id": 645442454,
+              "name": "onnx_light-0.1.32-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 178
+            },
+            {
+              "id": 645456238,
+              "name": "onnx_light-0.1.32-cp312-cp312-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl",
+              "download_count": 5
+            },
+            {
+              "id": 645456239,
+              "name": "onnx_light-0.1.32-cp314-cp314-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl",
+              "download_count": 5
+            },
+            {
+              "id": 645456240,
+              "name": "onnx_light-0.1.32-cp313-cp313-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl",
+              "download_count": 5
+            },
+            {
+              "id": 645625518,
+              "name": "onnx_light-0.1.32-cp314-cp314-win_arm64.whl",
+              "download_count": 3
+            },
+            {
+              "id": 645625519,
+              "name": "onnx_light-0.1.32-cp313-cp313-win_arm64.whl",
+              "download_count": 5
+            },
+            {
+              "id": 645625523,
+              "name": "onnx_light-0.1.32-cp312-cp312-win_arm64.whl",
+              "download_count": 4
+            },
+            {
+              "id": 645632826,
+              "name": "onnx_light-0.1.32-cp312-cp312-macosx_13_0_universal2.whl",
+              "download_count": 6
+            },
+            {
+              "id": 645632827,
+              "name": "onnx_light-0.1.32-cp314-cp314-macosx_13_0_universal2.whl",
+              "download_count": 6
+            },
+            {
+              "id": 645632830,
+              "name": "onnx_light-0.1.32-cp313-cp313-macosx_13_0_universal2.whl",
+              "download_count": 17
+            },
+            {
+              "id": 645666556,
+              "name": "onnx_light-0.1.32-cp312-cp312-win_amd64.whl",
+              "download_count": 5
+            },
+            {
+              "id": 645666558,
+              "name": "onnx_light-0.1.32-cp314-cp314-win_amd64.whl",
+              "download_count": 4
+            },
+            {
+              "id": 645666560,
+              "name": "onnx_light-0.1.32-cp313-cp313-win_amd64.whl",
+              "download_count": 15
+            }
+          ]
+        },
+        {
+          "id": 416403851,
+          "tag": "0.1.33",
+          "published_at": "2026-10-18T11:15:14Z",
+          "prerelease": false,
+          "total": 314,
+          "assets": [
+            {
+              "id": 653330557,
+              "name": "onnx-light-cpp-macos-universal2.tar.gz",
+              "download_count": 1
+            },
+            {
+              "id": 653332802,
+              "name": "onnx-light-cpp-linux-aarch64.tar.gz",
+              "download_count": 1
+            },
+            {
+              "id": 653345162,
+              "name": "onnx-light-cpp-linux-x86_64.tar.gz",
+              "download_count": 1
+            },
+            {
+              "id": 653348819,
+              "name": "onnx-light-cpp-windows-AMD64.zip",
+              "download_count": 1
+            },
+            {
+              "id": 653375554,
+              "name": "onnx-light-cpp-windows-ARM64.zip",
+              "download_count": 1
+            },
+            {
+              "id": 653377682,
+              "name": "onnx_light-0.1.33-0reduced-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 2
+            },
+            {
+              "id": 653377683,
+              "name": "onnx_light-0.1.33-0reduced-cp312-cp312-musllinux_1_2_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 653381514,
+              "name": "onnx_light-0.1.33-0reduced-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 653381515,
+              "name": "onnx_light-0.1.33-0reduced-cp313-cp313-musllinux_1_2_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 653403196,
+              "name": "onnx_light-0.1.33-cp313-cp313-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 653403198,
+              "name": "onnx_light-0.1.33-cp314-cp314-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 653403199,
+              "name": "onnx_light-0.1.33-cp312-cp312-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 653408343,
+              "name": "onnx_light-0.1.33-0reduced-cp314-cp314-musllinux_1_2_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 653408344,
+              "name": "onnx_light-0.1.33-0reduced-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 653440822,
+              "name": "onnx_light-0.1.33-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 110
+            },
+            {
+              "id": 653440823,
+              "name": "onnx_light-0.1.33-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 8
+            },
+            {
+              "id": 653440836,
+              "name": "onnx_light-0.1.33-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 154
+            },
+            {
+              "id": 653577199,
+              "name": "onnx_light-0.1.33-cp314-cp314-win_arm64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 653577200,
+              "name": "onnx_light-0.1.33-cp312-cp312-win_arm64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 653577201,
+              "name": "onnx_light-0.1.33-cp313-cp313-win_arm64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 653605436,
+              "name": "onnx_light-0.1.33-cp314-cp314-win_amd64.whl",
+              "download_count": 4
+            },
+            {
+              "id": 653605437,
+              "name": "onnx_light-0.1.33-cp312-cp312-win_amd64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 653605445,
+              "name": "onnx_light-0.1.33-cp313-cp313-win_amd64.whl",
+              "download_count": 8
+            },
+            {
+              "id": 653609468,
+              "name": "onnx_light-0.1.33-cp313-cp313-macosx_13_0_universal2.whl",
+              "download_count": 8
+            },
+            {
+              "id": 653609469,
+              "name": "onnx_light-0.1.33-cp314-cp314-macosx_13_0_universal2.whl",
+              "download_count": 1
+            },
+            {
+              "id": 653609470,
+              "name": "onnx_light-0.1.33-cp312-cp312-macosx_13_0_universal2.whl",
+              "download_count": 2
+            }
+          ]
+        },
+        {
+          "id": 421170788,
+          "tag": "0.2.0",
+          "published_at": "2026-10-22T20:29:59Z",
+          "prerelease": false,
+          "total": 3674,
+          "assets": [
+            {
+              "id": 667039127,
+              "name": "onnx-light-cpp-linux-x86_64.tar.gz",
+              "download_count": 377
+            },
+            {
+              "id": 667046461,
+              "name": "onnx-light-cpp-linux-aarch64.tar.gz",
+              "download_count": 2
+            },
+            {
+              "id": 667047383,
+              "name": "onnx-light-cpp-windows-AMD64.zip",
+              "download_count": 151
+            },
+            {
+              "id": 667047956,
+              "name": "onnx-light-cpp-windows-ARM64.zip",
+              "download_count": 2
+            },
+            {
+              "id": 667078916,
+              "name": "onnx-light-cpp-macos-universal2.tar.gz",
+              "download_count": 6
+            },
+            {
+              "id": 667128436,
+              "name": "onnx_light-0.2.0-cp313-cp313-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl",
+              "download_count": 4
+            },
+            {
+              "id": 667128437,
+              "name": "onnx_light-0.2.0-cp314-cp314-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl",
+              "download_count": 3
+            },
+            {
+              "id": 667128440,
+              "name": "onnx_light-0.2.0-cp312-cp312-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl",
+              "download_count": 4
+            },
+            {
+              "id": 667128475,
+              "name": "onnx_light-0.2.0-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 783
+            },
+            {
+              "id": 667128477,
+              "name": "onnx_light-0.2.0-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 544
+            },
+            {
+              "id": 667128482,
+              "name": "onnx_light-0.2.0-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 1473
+            },
+            {
+              "id": 667243000,
+              "name": "onnx_light-0.2.0-cp312-cp312-win_amd64.whl",
+              "download_count": 17
+            },
+            {
+              "id": 667243001,
+              "name": "onnx_light-0.2.0-cp313-cp313-win_amd64.whl",
+              "download_count": 89
+            },
+            {
+              "id": 667243004,
+              "name": "onnx_light-0.2.0-cp314-cp314-win_amd64.whl",
+              "download_count": 68
+            },
+            {
+              "id": 667277043,
+              "name": "onnx_light-0.2.0-cp313-cp313-win_arm64.whl",
+              "download_count": 4
+            },
+            {
+              "id": 667277046,
+              "name": "onnx_light-0.2.0-cp312-cp312-win_arm64.whl",
+              "download_count": 4
+            },
+            {
+              "id": 667277048,
+              "name": "onnx_light-0.2.0-cp314-cp314-win_arm64.whl",
+              "download_count": 3
+            },
+            {
+              "id": 667290535,
+              "name": "onnx_light-0.2.0-cp312-cp312-macosx_13_0_universal2.whl",
+              "download_count": 16
+            },
+            {
+              "id": 667290537,
+              "name": "onnx_light-0.2.0-cp313-cp313-macosx_13_0_universal2.whl",
+              "download_count": 58
+            },
+            {
+              "id": 667290539,
+              "name": "onnx_light-0.2.0-cp314-cp314-macosx_13_0_universal2.whl",
+              "download_count": 66
+            }
+          ]
+        },
+        {
+          "id": 425812618,
+          "tag": "0.2.1",
+          "published_at": "2026-10-27T18:04:14Z",
+          "prerelease": false,
+          "total": 802,
+          "assets": [
+            {
+              "id": 682458133,
+              "name": "onnx-light-cpp-linux-aarch64.tar.gz",
+              "download_count": 1
+            },
+            {
+              "id": 682467281,
+              "name": "onnx-light-cpp-windows-ARM64.zip",
+              "download_count": 1
+            },
+            {
+              "id": 682468305,
+              "name": "onnx_light-0.2.1-0reduced-cp314-cp314-musllinux_1_2_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 682468312,
+              "name": "onnx_light-0.2.1-0reduced-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 682469517,
+              "name": "onnx_light-0.2.1-0reduced-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 682469523,
+              "name": "onnx_light-0.2.1-0reduced-cp313-cp313-musllinux_1_2_x86_64.whl",
+              "download_count": 2
+            },
+            {
+              "id": 682469669,
+              "name": "onnx-light-cpp-linux-x86_64.tar.gz",
+              "download_count": 62
+            },
+            {
+              "id": 682470467,
+              "name": "onnx_light-0.2.1-0reduced-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 3
+            },
+            {
+              "id": 682470468,
+              "name": "onnx_light-0.2.1-0reduced-cp312-cp312-musllinux_1_2_x86_64.whl",
+              "download_count": 2
+            },
+            {
+              "id": 682478164,
+              "name": "onnx-light-cpp-windows-AMD64.zip",
+              "download_count": 46
+            },
+            {
+              "id": 682502779,
+              "name": "onnx-light-cpp-macos-universal2.tar.gz",
+              "download_count": 1
+            },
+            {
+              "id": 682541007,
+              "name": "onnx_light-0.2.1-cp312-cp312-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl",
+              "download_count": 6
+            },
+            {
+              "id": 682541008,
+              "name": "onnx_light-0.2.1-cp313-cp313-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl",
+              "download_count": 6
+            },
+            {
+              "id": 682541013,
+              "name": "onnx_light-0.2.1-cp314-cp314-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl",
+              "download_count": 5
+            },
+            {
+              "id": 682591746,
+              "name": "onnx_light-0.2.1-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 222
+            },
+            {
+              "id": 682591747,
+              "name": "onnx_light-0.2.1-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 184
+            },
+            {
+              "id": 682591749,
+              "name": "onnx_light-0.2.1-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 86
+            },
+            {
+              "id": 682780141,
+              "name": "onnx_light-0.2.1-cp314-cp314-win_arm64.whl",
+              "download_count": 5
+            },
+            {
+              "id": 682780143,
+              "name": "onnx_light-0.2.1-cp313-cp313-win_arm64.whl",
+              "download_count": 5
+            },
+            {
+              "id": 682780145,
+              "name": "onnx_light-0.2.1-cp312-cp312-win_arm64.whl",
+              "download_count": 5
+            },
+            {
+              "id": 682794993,
+              "name": "onnx_light-0.2.1-cp314-cp314-win_amd64.whl",
+              "download_count": 28
+            },
+            {
+              "id": 682794995,
+              "name": "onnx_light-0.2.1-cp313-cp313-win_amd64.whl",
+              "download_count": 10
+            },
+            {
+              "id": 682794996,
+              "name": "onnx_light-0.2.1-cp312-cp312-win_amd64.whl",
+              "download_count": 75
+            },
+            {
+              "id": 682834877,
+              "name": "onnx_light-0.2.1-cp313-cp313-macosx_13_0_universal2.whl",
+              "download_count": 10
+            },
+            {
+              "id": 682834878,
+              "name": "onnx_light-0.2.1-cp312-cp312-macosx_13_0_universal2.whl",
+              "download_count": 5
+            },
+            {
+              "id": 682834881,
+              "name": "onnx_light-0.2.1-cp314-cp314-macosx_13_0_universal2.whl",
+              "download_count": 29
+            }
+          ]
+        },
+        {
+          "id": 427749397,
+          "tag": "0.2.2",
+          "published_at": "2026-10-29T10:56:33Z",
+          "prerelease": false,
+          "total": 128,
+          "assets": [
+            {
+              "id": 688292353,
+              "name": "onnx-light-cpp-linux-aarch64.tar.gz",
+              "download_count": 2
+            },
+            {
+              "id": 688309165,
+              "name": "onnx-light-cpp-linux-x86_64.tar.gz",
+              "download_count": 49
+            },
+            {
+              "id": 688321184,
+              "name": "onnx-light-cpp-windows-AMD64.zip",
+              "download_count": 32
+            },
+            {
+              "id": 688325333,
+              "name": "onnx-light-cpp-windows-ARM64.zip",
+              "download_count": 1
+            },
+            {
+              "id": 688345355,
+              "name": "onnx-light-cpp-macos-universal2.tar.gz",
+              "download_count": 1
+            },
+            {
+              "id": 688389443,
+              "name": "onnx_light-0.2.2-0reduced-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 6
+            },
+            {
+              "id": 688389444,
+              "name": "onnx_light-0.2.2-0reduced-cp313-cp313-musllinux_1_2_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 688418863,
+              "name": "onnx_light-0.2.2-0reduced-cp314-cp314-musllinux_1_2_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 688418865,
+              "name": "onnx_light-0.2.2-0reduced-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 2
+            },
+            {
+              "id": 688449366,
+              "name": "onnx_light-0.2.2-0reduced-cp312-cp312-musllinux_1_2_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 688449368,
+              "name": "onnx_light-0.2.2-0reduced-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 688464614,
+              "name": "onnx_light-0.2.2-cp312-cp312-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl",
+              "download_count": 3
+            },
+            {
+              "id": 688464615,
+              "name": "onnx_light-0.2.2-cp313-cp313-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 688464616,
+              "name": "onnx_light-0.2.2-cp314-cp314-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl",
+              "download_count": 2
+            },
+            {
+              "id": 688544162,
+              "name": "onnx_light-0.2.2-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 3
+            },
+            {
+              "id": 688544163,
+              "name": "onnx_light-0.2.2-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 2
+            },
+            {
+              "id": 688544166,
+              "name": "onnx_light-0.2.2-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 4
+            },
+            {
+              "id": 688649927,
+              "name": "onnx_light-0.2.2-cp312-cp312-macosx_13_0_universal2.whl",
+              "download_count": 1
+            },
+            {
+              "id": 688649928,
+              "name": "onnx_light-0.2.2-cp314-cp314-macosx_13_0_universal2.whl",
+              "download_count": 1
+            },
+            {
+              "id": 688649933,
+              "name": "onnx_light-0.2.2-cp313-cp313-macosx_13_0_universal2.whl",
+              "download_count": 1
+            },
+            {
+              "id": 688740111,
+              "name": "onnx_light-0.2.2-cp314-cp314-win_amd64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 688740112,
+              "name": "onnx_light-0.2.2-cp312-cp312-win_amd64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 688740113,
+              "name": "onnx_light-0.2.2-cp313-cp313-win_amd64.whl",
+              "download_count": 7
+            },
+            {
+              "id": 688748824,
+              "name": "onnx_light-0.2.2-cp314-cp314-win_arm64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 688748826,
+              "name": "onnx_light-0.2.2-cp313-cp313-win_arm64.whl",
+              "download_count": 2
+            },
+            {
+              "id": 688748828,
+              "name": "onnx_light-0.2.2-cp312-cp312-win_arm64.whl",
+              "download_count": 1
+            }
+          ]
+        },
+        {
+          "id": 428814153,
+          "tag": "0.2.3",
+          "published_at": "2026-10-30T08:50:03Z",
+          "prerelease": false,
+          "total": 1196,
+          "assets": [
+            {
+              "id": 691543021,
+              "name": "onnx-light-cpp-linux-aarch64.tar.gz",
+              "download_count": 1
+            },
+            {
+              "id": 691557464,
+              "name": "onnx-light-cpp-linux-x86_64.tar.gz",
+              "download_count": 139
+            },
+            {
+              "id": 691568465,
+              "name": "onnx-light-cpp-windows-AMD64.zip",
+              "download_count": 111
+            },
+            {
+              "id": 691591307,
+              "name": "onnx-light-cpp-windows-ARM64.zip",
+              "download_count": 1
+            },
+            {
+              "id": 691596115,
+              "name": "onnx-light-cpp-macos-universal2.tar.gz",
+              "download_count": 108
+            },
+            {
+              "id": 691677268,
+              "name": "onnx_light-0.2.3-cp312-cp312-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl",
+              "download_count": 3
+            },
+            {
+              "id": 691677269,
+              "name": "onnx_light-0.2.3-cp313-cp313-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl",
+              "download_count": 3
+            },
+            {
+              "id": 691677271,
+              "name": "onnx_light-0.2.3-cp314-cp314-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl",
+              "download_count": 3
+            },
+            {
+              "id": 691683818,
+              "name": "onnx_light-0.2.3-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 469
+            },
+            {
+              "id": 691683819,
+              "name": "onnx_light-0.2.3-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 39
+            },
+            {
+              "id": 691683823,
+              "name": "onnx_light-0.2.3-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 58
+            },
+            {
+              "id": 691878944,
+              "name": "onnx_light-0.2.3-cp312-cp312-win_arm64.whl",
+              "download_count": 3
+            },
+            {
+              "id": 691878945,
+              "name": "onnx_light-0.2.3-cp314-cp314-win_arm64.whl",
+              "download_count": 3
+            },
+            {
+              "id": 691878947,
+              "name": "onnx_light-0.2.3-cp313-cp313-win_arm64.whl",
+              "download_count": 3
+            },
+            {
+              "id": 691904956,
+              "name": "onnx_light-0.2.3-cp314-cp314-win_amd64.whl",
+              "download_count": 6
+            },
+            {
+              "id": 691904957,
+              "name": "onnx_light-0.2.3-cp313-cp313-win_amd64.whl",
+              "download_count": 9
+            },
+            {
+              "id": 691904958,
+              "name": "onnx_light-0.2.3-cp312-cp312-win_amd64.whl",
+              "download_count": 114
+            },
+            {
+              "id": 691929883,
+              "name": "onnx_light-0.2.3-cp313-cp313-macosx_13_0_universal2.whl",
+              "download_count": 6
+            },
+            {
+              "id": 691929886,
+              "name": "onnx_light-0.2.3-cp312-cp312-macosx_13_0_universal2.whl",
+              "download_count": 111
+            },
+            {
+              "id": 691929887,
+              "name": "onnx_light-0.2.3-cp314-cp314-macosx_13_0_universal2.whl",
+              "download_count": 6
+            }
+          ]
+        },
+        {
+          "id": 430949198,
+          "tag": "0.2.4",
+          "published_at": "2026-11-02T00:15:43Z",
+          "prerelease": false,
+          "total": 15,
+          "assets": [
+            {
+              "id": 699960977,
+              "name": "onnx-light-cpp-linux-aarch64.tar.gz",
+              "download_count": 1
+            },
+            {
+              "id": 699963081,
+              "name": "onnx-light-cpp-linux-x86_64.tar.gz",
+              "download_count": 2
+            },
+            {
+              "id": 699968097,
+              "name": "onnx-light-cpp-windows-AMD64.zip",
+              "download_count": 1
+            },
+            {
+              "id": 699970614,
+              "name": "onnx-light-cpp-windows-ARM64.zip",
+              "download_count": 1
+            },
+            {
+              "id": 699991806,
+              "name": "onnx_light-0.2.4-0reduced-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 699991807,
+              "name": "onnx_light-0.2.4-0reduced-cp313-cp313-musllinux_1_2_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 700000350,
+              "name": "onnx-light-cpp-macos-universal2.tar.gz",
+              "download_count": 1
+            },
+            {
+              "id": 700011351,
+              "name": "onnx_light-0.2.4-0reduced-cp314-cp314-musllinux_1_2_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 700011355,
+              "name": "onnx_light-0.2.4-0reduced-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 700016124,
+              "name": "onnx_light-0.2.4-0reduced-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 700016125,
+              "name": "onnx_light-0.2.4-0reduced-cp312-cp312-musllinux_1_2_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 700086355,
+              "name": "onnx_light-0.2.4-cp314-cp314-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 700086358,
+              "name": "onnx_light-0.2.4-cp313-cp313-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 700086359,
+              "name": "onnx_light-0.2.4-cp312-cp312-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl",
+              "download_count": 1
+            }
+          ]
+        },
+        {
+          "id": 431338733,
+          "tag": "0.2.4.1",
+          "published_at": "2026-11-02T10:41:48Z",
+          "prerelease": false,
+          "total": 310,
+          "assets": [
+            {
+              "id": 701446501,
+              "name": "onnx-light-cpp-windows-AMD64.zip",
+              "download_count": 13
+            },
+            {
+              "id": 701449159,
+              "name": "onnx-light-cpp-linux-aarch64.tar.gz",
+              "download_count": 1
+            },
+            {
+              "id": 701459392,
+              "name": "onnx-light-cpp-linux-x86_64.tar.gz",
+              "download_count": 18
+            },
+            {
+              "id": 701471979,
+              "name": "onnx_light-0.2.4.1-0reduced-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 701471982,
+              "name": "onnx_light-0.2.4.1-0reduced-cp312-cp312-musllinux_1_2_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 701480664,
+              "name": "onnx-light-cpp-windows-ARM64.zip",
+              "download_count": 1
+            },
+            {
+              "id": 701499364,
+              "name": "onnx-light-cpp-macos-universal2.tar.gz",
+              "download_count": 1
+            },
+            {
+              "id": 701524146,
+              "name": "onnx_light-0.2.4.1-0reduced-cp313-cp313-musllinux_1_2_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 701524156,
+              "name": "onnx_light-0.2.4.1-0reduced-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 3
+            },
+            {
+              "id": 701534166,
+              "name": "onnx_light-0.2.4.1-0reduced-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 701534169,
+              "name": "onnx_light-0.2.4.1-0reduced-cp314-cp314-musllinux_1_2_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 701581426,
+              "name": "onnx_light-0.2.4.1-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 99
+            },
+            {
+              "id": 701581431,
+              "name": "onnx_light-0.2.4.1-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 26
+            },
+            {
+              "id": 701581434,
+              "name": "onnx_light-0.2.4.1-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 76
+            },
+            {
+              "id": 701595896,
+              "name": "onnx_light-0.2.4.1-cp312-cp312-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl",
+              "download_count": 3
+            },
+            {
+              "id": 701595900,
+              "name": "onnx_light-0.2.4.1-cp313-cp313-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl",
+              "download_count": 3
+            },
+            {
+              "id": 701595906,
+              "name": "onnx_light-0.2.4.1-cp314-cp314-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl",
+              "download_count": 3
+            },
+            {
+              "id": 701745746,
+              "name": "onnx_light-0.2.4.1-cp312-cp312-win_arm64.whl",
+              "download_count": 3
+            },
+            {
+              "id": 701745748,
+              "name": "onnx_light-0.2.4.1-cp314-cp314-win_arm64.whl",
+              "download_count": 3
+            },
+            {
+              "id": 701745750,
+              "name": "onnx_light-0.2.4.1-cp313-cp313-win_arm64.whl",
+              "download_count": 3
+            },
+            {
+              "id": 701806010,
+              "name": "onnx_light-0.2.4.1-cp313-cp313-win_amd64.whl",
+              "download_count": 9
+            },
+            {
+              "id": 701806011,
+              "name": "onnx_light-0.2.4.1-cp314-cp314-win_amd64.whl",
+              "download_count": 5
+            },
+            {
+              "id": 701806012,
+              "name": "onnx_light-0.2.4.1-cp312-cp312-win_amd64.whl",
+              "download_count": 15
+            },
+            {
+              "id": 701920882,
+              "name": "onnx_light-0.2.4.1-cp314-cp314-macosx_13_0_universal2.whl",
+              "download_count": 3
+            },
+            {
+              "id": 701920883,
+              "name": "onnx_light-0.2.4.1-cp312-cp312-macosx_13_0_universal2.whl",
+              "download_count": 12
+            },
+            {
+              "id": 701920886,
+              "name": "onnx_light-0.2.4.1-cp313-cp313-macosx_13_0_universal2.whl",
+              "download_count": 5
+            }
+          ]
+        },
+        {
+          "id": 432426671,
+          "tag": "0.2.5",
+          "published_at": "2026-11-03T08:18:12Z",
+          "prerelease": false,
+          "total": 1479,
+          "assets": [
+            {
+              "id": 704890767,
+              "name": "onnx-light-cpp-linux-aarch64.tar.gz",
+              "download_count": 1
+            },
+            {
+              "id": 704891793,
+              "name": "onnx-light-cpp-macos-universal2.tar.gz",
+              "download_count": 15
+            },
+            {
+              "id": 704901604,
+              "name": "onnx-light-cpp-windows-AMD64.zip",
+              "download_count": 16
+            },
+            {
+              "id": 704907330,
+              "name": "onnx-light-cpp-windows-ARM64.zip",
+              "download_count": 1
+            },
+            {
+              "id": 704907849,
+              "name": "onnx-light-cpp-linux-x86_64.tar.gz",
+              "download_count": 25
+            },
+            {
+              "id": 704945937,
+              "name": "onnx_light-0.2.5-0reduced-cp313-cp313-musllinux_1_2_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 704945943,
+              "name": "onnx_light-0.2.5-0reduced-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 4
+            },
+            {
+              "id": 704952668,
+              "name": "onnx_light-0.2.5-0reduced-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 2
+            },
+            {
+              "id": 704952669,
+              "name": "onnx_light-0.2.5-0reduced-cp314-cp314-musllinux_1_2_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 704955697,
+              "name": "onnx_light-0.2.5-0reduced-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 17
+            },
+            {
+              "id": 704955699,
+              "name": "onnx_light-0.2.5-0reduced-cp312-cp312-musllinux_1_2_x86_64.whl",
+              "download_count": 1
+            },
+            {
+              "id": 705041709,
+              "name": "onnx_light-0.2.5-cp313-cp313-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl",
+              "download_count": 6
+            },
+            {
+              "id": 705041710,
+              "name": "onnx_light-0.2.5-cp314-cp314-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl",
+              "download_count": 6
+            },
+            {
+              "id": 705041711,
+              "name": "onnx_light-0.2.5-cp312-cp312-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl",
+              "download_count": 6
+            },
+            {
+              "id": 705078152,
+              "name": "onnx_light-0.2.5-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 449
+            },
+            {
+              "id": 705078153,
+              "name": "onnx_light-0.2.5-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 380
+            },
+            {
+              "id": 705078156,
+              "name": "onnx_light-0.2.5-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 300
+            },
+            {
+              "id": 705302606,
+              "name": "onnx_light-0.2.5-cp313-cp313-win_arm64.whl",
+              "download_count": 5
+            },
+            {
+              "id": 705302607,
+              "name": "onnx_light-0.2.5-cp314-cp314-win_arm64.whl",
+              "download_count": 5
+            },
+            {
+              "id": 705302608,
+              "name": "onnx_light-0.2.5-cp312-cp312-win_arm64.whl",
+              "download_count": 5
+            },
+            {
+              "id": 705326878,
+              "name": "onnx_light-0.2.5-cp312-cp312-win_amd64.whl",
+              "download_count": 21
+            },
+            {
+              "id": 705326882,
+              "name": "onnx_light-0.2.5-cp314-cp314-win_amd64.whl",
+              "download_count": 47
+            },
+            {
+              "id": 705326883,
+              "name": "onnx_light-0.2.5-cp313-cp313-win_amd64.whl",
+              "download_count": 53
+            },
+            {
+              "id": 705371347,
+              "name": "onnx_light-0.2.5-cp313-cp313-macosx_13_0_universal2.whl",
+              "download_count": 44
+            },
+            {
+              "id": 705371349,
+              "name": "onnx_light-0.2.5-cp314-cp314-macosx_13_0_universal2.whl",
+              "download_count": 49
+            },
+            {
+              "id": 705371352,
+              "name": "onnx_light-0.2.5-cp312-cp312-macosx_13_0_universal2.whl",
+              "download_count": 19
+            }
+          ]
+        },
+        {
+          "id": 433327287,
+          "tag": "0.2.6",
+          "published_at": "2026-11-03T23:23:05Z",
+          "prerelease": false,
+          "total": 1113,
+          "assets": [
+            {
+              "id": 707515092,
+              "name": "onnx-light-cpp-linux-x86_64.tar.gz",
+              "download_count": 63
+            },
+            {
+              "id": 707517523,
+              "name": "onnx-light-cpp-windows-ARM64.zip",
+              "download_count": 2
+            },
+            {
+              "id": 707520005,
+              "name": "onnx-light-cpp-linux-aarch64.tar.gz",
+              "download_count": 2
+            },
+            {
+              "id": 707545296,
+              "name": "onnx_light-0.2.6-0reduced-cp312-cp312-musllinux_1_2_x86_64.whl",
+              "download_count": 0
+            },
+            {
+              "id": 707545302,
+              "name": "onnx_light-0.2.6-0reduced-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 59
+            },
+            {
+              "id": 707550243,
+              "name": "onnx-light-cpp-windows-AMD64.zip",
+              "download_count": 56
+            },
+            {
+              "id": 707566847,
+              "name": "onnx-light-cpp-macos-universal2.tar.gz",
+              "download_count": 56
+            },
+            {
+              "id": 707578518,
+              "name": "onnx_light-0.2.6-0reduced-cp314-cp314-musllinux_1_2_x86_64.whl",
+              "download_count": 0
+            },
+            {
+              "id": 707578522,
+              "name": "onnx_light-0.2.6-0reduced-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 0
+            },
+            {
+              "id": 707579515,
+              "name": "onnx_light-0.2.6-0reduced-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 0
+            },
+            {
+              "id": 707579517,
+              "name": "onnx_light-0.2.6-0reduced-cp313-cp313-musllinux_1_2_x86_64.whl",
+              "download_count": 0
+            },
+            {
+              "id": 707644192,
+              "name": "onnx_light-0.2.6-cp313-cp313-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl",
+              "download_count": 0
+            },
+            {
+              "id": 707644195,
+              "name": "onnx_light-0.2.6-cp314-cp314-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl",
+              "download_count": 0
+            },
+            {
+              "id": 707644196,
+              "name": "onnx_light-0.2.6-cp312-cp312-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl",
+              "download_count": 0
+            },
+            {
+              "id": 707678912,
+              "name": "onnx_light-0.2.6-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 5
+            },
+            {
+              "id": 707678913,
+              "name": "onnx_light-0.2.6-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 708
+            },
+            {
+              "id": 707678914,
+              "name": "onnx_light-0.2.6-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+              "download_count": 44
+            },
+            {
+              "id": 707771325,
+              "name": "onnx_light-0.2.6-cp313-cp313-macosx_13_0_universal2.whl",
+              "download_count": 0
+            },
+            {
+              "id": 707771336,
+              "name": "onnx_light-0.2.6-cp312-cp312-macosx_13_0_universal2.whl",
+              "download_count": 60
+            },
+            {
+              "id": 707771340,
+              "name": "onnx_light-0.2.6-cp314-cp314-macosx_13_0_universal2.whl",
+              "download_count": 0
+            },
+            {
+              "id": 707850148,
+              "name": "onnx_light-0.2.6-cp314-cp314-win_amd64.whl",
+              "download_count": 0
+            },
+            {
+              "id": 707850149,
+              "name": "onnx_light-0.2.6-cp313-cp313-win_amd64.whl",
+              "download_count": 0
+            },
+            {
+              "id": 707850154,
+              "name": "onnx_light-0.2.6-cp312-cp312-win_amd64.whl",
+              "download_count": 58
+            },
+            {
+              "id": 707877474,
+              "name": "onnx_light-0.2.6-cp312-cp312-win_arm64.whl",
+              "download_count": 0
+            },
+            {
+              "id": 707877475,
+              "name": "onnx_light-0.2.6-cp313-cp313-win_arm64.whl",
+              "download_count": 0
+            },
+            {
+              "id": 707877476,
+              "name": "onnx_light-0.2.6-cp314-cp314-win_arm64.whl",
+              "download_count": 0
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "dates": [
+    "2026-10-22",
+    "2026-10-23",
+    "2026-10-24",
+    "2026-10-25",
+    "2026-10-26",
+    "2026-10-27",
+    "2026-10-28",
+    "2026-10-29",
+    "2026-10-30",
+    "2026-10-31",
+    "2026-11-01",
+    "2026-11-02",
+    "2026-11-03",
+    "2026-11-04",
+    "2026-11-05",
+    "2026-11-06",
+    "2026-11-07",
+    "2026-11-08",
+    "2026-11-09"
+  ]
+}
