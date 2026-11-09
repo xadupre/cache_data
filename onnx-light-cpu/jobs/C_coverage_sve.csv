@@ -1,3 +1,4 @@
 job_id,run_id,workflow,job_name,status,conclusion,started_at,completed_at,duration_seconds,head_sha
 121526354365,40309338375,cpp-coverage-weekly,C++ coverage (sve),completed,success,2026-10-26T10:41:27Z,2026-10-26T10:49:58Z,511,7e2eba0f41d37fd0851ad1b037d19e8898a12de7
 125290047610,41449214166,cpp-coverage-weekly,C++ coverage (sve),completed,success,2026-11-02T13:02:33Z,2026-11-02T13:11:37Z,544,1964fba14c320c0ffeb91b7a372b11befe07dfde
+129190661878,42626225967,cpp-coverage-weekly,C++ coverage (sve),completed,success,2026-11-09T13:31:45Z,2026-11-09T13:42:33Z,648,dee394b6cc4e80841225c6e25b36ede8870990d8

@@ -12,3 +12,6 @@ job_id,run_id,workflow,job_name,status,conclusion,started_at,completed_at,durati
 124142761226,41077344040,Build Release Wheels,"wheels (windows, AMD64)",completed,success,2026-10-30T15:15:25Z,2026-10-30T15:30:32Z,907,1964fba14c320c0ffeb91b7a372b11befe07dfde
 122745494295,40665313801,Build Release Wheels,"wheels (windows, AMD64)",completed,success,2026-10-28T09:51:08Z,2026-10-28T10:11:36Z,1228,df6d17823a1cc576f698dfbe30059ddaf959ee14
 122538067454,40602606418,Build Release Wheels,"wheels (windows, AMD64)",completed,success,2026-10-27T23:46:03Z,2026-10-28T00:09:46Z,1423,0d642ca6c685d9cf5dede4f9c20994b9fc2d64ed
+126525244706,41813488532,Build Release Wheels,"wheels (windows, AMD64)",completed,success,2026-11-04T10:38:50Z,2026-11-04T11:03:38Z,1488,3f1d12ef03cae8b38f9ce22ff4ff3f300fdb724e
+125967736361,41647473464,Build Release Wheels,"wheels (windows, AMD64)",completed,success,2026-11-03T14:12:01Z,2026-11-03T14:30:15Z,1094,2f8adbc28bdabd1b354e22d7aa77c0da55bcf195
+125373695971,41470172712,Build Release Wheels,"wheels (windows, AMD64)",completed,success,2026-11-02T15:39:26Z,2026-11-02T16:03:46Z,1460,ec4248061873ccc6fa07d0d3775f6d73d50bcd3d

@@ -1,3 +1,4 @@
 job_id,run_id,workflow,job_name,status,conclusion,started_at,completed_at,duration_seconds,head_sha
 121526354429,40309338375,cpp-coverage-weekly,C++ coverage (avx),completed,success,2026-10-26T10:41:25Z,2026-10-26T10:53:37Z,732,7e2eba0f41d37fd0851ad1b037d19e8898a12de7
 125290047230,41449214166,cpp-coverage-weekly,C++ coverage (avx),completed,success,2026-11-02T13:00:15Z,2026-11-02T13:10:16Z,601,1964fba14c320c0ffeb91b7a372b11befe07dfde
+129190661743,42626225967,cpp-coverage-weekly,C++ coverage (avx),completed,success,2026-11-09T13:31:40Z,2026-11-09T13:45:27Z,827,dee394b6cc4e80841225c6e25b36ede8870990d8
