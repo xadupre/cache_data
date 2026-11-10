@@ -1,0 +1,125 @@
+{
+  "date": "2026-11-10",
+  "repository": "microsoft/onnxruntime-genai",
+  "observed": true,
+  "releases": {},
+  "assets": {
+    "229203647": {
+      "downloads": 1
+    },
+    "241635526": {
+      "downloads": 45
+    },
+    "241635537": {
+      "downloads": 1
+    },
+    "259568249": {
+      "downloads": 1
+    },
+    "302797481": {
+      "downloads": 2
+    },
+    "302797533": {
+      "downloads": 1
+    },
+    "355461126": {
+      "downloads": 3
+    },
+    "397232912": {
+      "downloads": 1
+    },
+    "397233187": {
+      "downloads": 1
+    },
+    "433226048": {
+      "downloads": 2
+    },
+    "433227627": {
+      "downloads": 1
+    },
+    "433227654": {
+      "downloads": 1
+    },
+    "433227687": {
+      "downloads": 1
+    },
+    "433227762": {
+      "downloads": 43
+    },
+    "433228031": {
+      "downloads": 3
+    },
+    "495585362": {
+      "downloads": 1
+    },
+    "495585413": {
+      "downloads": 2
+    },
+    "495585604": {
+      "downloads": 1
+    },
+    "504737606": {
+      "downloads": 1
+    },
+    "504737720": {
+      "downloads": 1
+    },
+    "582120790": {
+      "downloads": 1
+    },
+    "582120969": {
+      "downloads": 1
+    },
+    "594665033": {
+      "downloads": 6
+    },
+    "594665103": {
+      "downloads": 4
+    },
+    "594665143": {
+      "downloads": 1
+    },
+    "594665180": {
+      "downloads": 1
+    },
+    "594665198": {
+      "downloads": 2
+    },
+    "594665277": {
+      "downloads": 10
+    },
+    "708374992": {
+      "downloads": 1
+    },
+    "708375173": {
+      "downloads": 1
+    },
+    "708380978": {
+      "downloads": 1
+    },
+    "708381394": {
+      "downloads": 1
+    },
+    "708390842": {
+      "downloads": 4
+    },
+    "708390876": {
+      "downloads": 2
+    },
+    "708390984": {
+      "downloads": 1
+    },
+    "708391019": {
+      "downloads": 1
+    },
+    "708391123": {
+      "downloads": 9
+    },
+    "708391159": {
+      "downloads": 1
+    }
+  },
+  "removed_assets": [],
+  "removed_releases": [],
+  "total": 35146
+}

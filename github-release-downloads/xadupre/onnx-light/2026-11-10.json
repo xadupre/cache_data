@@ -1,0 +1,196 @@
+{
+  "date": "2026-11-10",
+  "repository": "xadupre/onnx-light",
+  "observed": true,
+  "releases": {
+    "439751106": {
+      "tag": "0.2.7",
+      "published_at": "2026-11-09T23:07:40Z",
+      "prerelease": false
+    }
+  },
+  "assets": {
+    "705078152": {
+      "downloads": 37
+    },
+    "705078153": {
+      "downloads": 18
+    },
+    "705078156": {
+      "downloads": 15
+    },
+    "705326882": {
+      "downloads": 4
+    },
+    "705326883": {
+      "downloads": 1
+    },
+    "705371347": {
+      "downloads": 1
+    },
+    "705371349": {
+      "downloads": 4
+    },
+    "707515092": {
+      "downloads": 13
+    },
+    "707517523": {
+      "downloads": 1
+    },
+    "707520005": {
+      "downloads": 1
+    },
+    "707545296": {
+      "downloads": 1
+    },
+    "707545302": {
+      "downloads": 11
+    },
+    "707550243": {
+      "downloads": 11
+    },
+    "707566847": {
+      "downloads": 11
+    },
+    "707578518": {
+      "downloads": 1
+    },
+    "707578522": {
+      "downloads": 1
+    },
+    "707579515": {
+      "downloads": 1
+    },
+    "707579517": {
+      "downloads": 1
+    },
+    "707644192": {
+      "downloads": 1
+    },
+    "707644195": {
+      "downloads": 1
+    },
+    "707644196": {
+      "downloads": 1
+    },
+    "707678912": {
+      "downloads": 1
+    },
+    "707678913": {
+      "downloads": 107
+    },
+    "707678914": {
+      "downloads": 5
+    },
+    "707771325": {
+      "downloads": 1
+    },
+    "707771336": {
+      "downloads": 11
+    },
+    "707771340": {
+      "downloads": 1
+    },
+    "707850148": {
+      "downloads": 1
+    },
+    "707850149": {
+      "downloads": 1
+    },
+    "707850154": {
+      "downloads": 11
+    },
+    "707877474": {
+      "downloads": 1
+    },
+    "707877475": {
+      "downloads": 1
+    },
+    "707877476": {
+      "downloads": 1
+    },
+    "729356490": {
+      "release_id": "439751106",
+      "downloads": 1
+    },
+    "729359594": {
+      "release_id": "439751106",
+      "downloads": 4
+    },
+    "729368089": {
+      "release_id": "439751106",
+      "downloads": 1
+    },
+    "729376821": {
+      "release_id": "439751106",
+      "downloads": 6
+    },
+    "729403489": {
+      "release_id": "439751106",
+      "downloads": 4
+    },
+    "729511103": {
+      "release_id": "439751106",
+      "downloads": 2
+    },
+    "729511104": {
+      "release_id": "439751106",
+      "downloads": 2
+    },
+    "729511105": {
+      "release_id": "439751106",
+      "downloads": 2
+    },
+    "729602766": {
+      "release_id": "439751106",
+      "downloads": 32
+    },
+    "729602767": {
+      "release_id": "439751106",
+      "downloads": 30
+    },
+    "729602770": {
+      "release_id": "439751106",
+      "downloads": 4
+    },
+    "729787387": {
+      "release_id": "439751106",
+      "downloads": 2
+    },
+    "729787388": {
+      "release_id": "439751106",
+      "downloads": 2
+    },
+    "729787389": {
+      "release_id": "439751106",
+      "downloads": 2
+    },
+    "729806252": {
+      "release_id": "439751106",
+      "downloads": 2
+    },
+    "729806254": {
+      "release_id": "439751106",
+      "downloads": 4
+    },
+    "729806257": {
+      "release_id": "439751106",
+      "downloads": 5
+    },
+    "729841345": {
+      "release_id": "439751106",
+      "downloads": 2
+    },
+    "729841347": {
+      "release_id": "439751106",
+      "downloads": 4
+    },
+    "729841356": {
+      "release_id": "439751106",
+      "downloads": 5
+    }
+  },
+  "removed_assets": [],
+  "removed_releases": [],
+  "total": 21572
+}
