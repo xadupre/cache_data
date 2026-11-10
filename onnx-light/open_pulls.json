@@ -1,34 +1,112 @@
 {
   "latest": [
     {
-      "number": 5854,
-      "title": "Fuse MatMul + BatchNormalization across safe shape chains",
-      "user": "xadupre",
-      "created_at": "2026-11-09T12:43:56Z"
+      "number": 5877,
+      "title": "Use relative links for local documentation and source files",
+      "user": "Copilot",
+      "created_at": "2026-11-10T09:19:29Z"
     },
     {
-      "number": 5831,
-      "title": "Port Gemm-29 support for vector and higher-rank activations",
+      "number": 5875,
+      "title": "Port ONNX low-precision LogSoftmax and cross-entropy fixes",
       "user": "Copilot",
-      "created_at": "2026-11-08T10:09:12Z"
+      "created_at": "2026-11-10T09:06:00Z"
+    },
+    {
+      "number": 5873,
+      "title": "Port overflow-safe half-precision InstanceNormalization and LRN",
+      "user": "Copilot",
+      "created_at": "2026-11-10T09:05:46Z"
+    },
+    {
+      "number": 5871,
+      "title": "docs(compose): document the merge_models producer_name default",
+      "user": "Copilot",
+      "created_at": "2026-11-10T09:05:31Z"
+    },
+    {
+      "number": 5869,
+      "title": "Port ONNX opset 29 int32 indices for GatherND and ScatterND",
+      "user": "Copilot",
+      "created_at": "2026-11-10T09:05:17Z"
+    },
+    {
+      "number": 5867,
+      "title": "Support pinned GPTQModel AWQ checkpoint layouts",
+      "user": "Copilot",
+      "created_at": "2026-11-09T23:09:32Z"
+    },
+    {
+      "number": 5866,
+      "title": "[WIP] Support native generation-only LM-head projection before token selection",
+      "user": "Copilot",
+      "created_at": "2026-11-09T23:09:09Z"
+    },
+    {
+      "number": 5865,
+      "title": "Correct captured-value rewrite ordering and semantic reference comparison",
+      "user": "Copilot",
+      "created_at": "2026-11-09T23:08:47Z"
     }
   ],
   "oldest": [
     {
-      "number": 5831,
-      "title": "Port Gemm-29 support for vector and higher-rank activations",
+      "number": 5865,
+      "title": "Correct captured-value rewrite ordering and semantic reference comparison",
       "user": "Copilot",
-      "created_at": "2026-11-08T10:09:12Z"
+      "created_at": "2026-11-09T23:08:47Z"
     },
     {
-      "number": 5854,
-      "title": "Fuse MatMul + BatchNormalization across safe shape chains",
-      "user": "xadupre",
-      "created_at": "2026-11-09T12:43:56Z"
+      "number": 5866,
+      "title": "[WIP] Support native generation-only LM-head projection before token selection",
+      "user": "Copilot",
+      "created_at": "2026-11-09T23:09:09Z"
+    },
+    {
+      "number": 5867,
+      "title": "Support pinned GPTQModel AWQ checkpoint layouts",
+      "user": "Copilot",
+      "created_at": "2026-11-09T23:09:32Z"
+    },
+    {
+      "number": 5869,
+      "title": "Port ONNX opset 29 int32 indices for GatherND and ScatterND",
+      "user": "Copilot",
+      "created_at": "2026-11-10T09:05:17Z"
+    },
+    {
+      "number": 5871,
+      "title": "docs(compose): document the merge_models producer_name default",
+      "user": "Copilot",
+      "created_at": "2026-11-10T09:05:31Z"
+    },
+    {
+      "number": 5873,
+      "title": "Port overflow-safe half-precision InstanceNormalization and LRN",
+      "user": "Copilot",
+      "created_at": "2026-11-10T09:05:46Z"
+    },
+    {
+      "number": 5875,
+      "title": "Port ONNX low-precision LogSoftmax and cross-entropy fixes",
+      "user": "Copilot",
+      "created_at": "2026-11-10T09:06:00Z"
+    },
+    {
+      "number": 5877,
+      "title": "Use relative links for local documentation and source files",
+      "user": "Copilot",
+      "created_at": "2026-11-10T09:19:29Z"
     }
   ],
   "ages_days": [
-    1.136926560462963,
-    0.02947285675925926
+    0.5771501118171296,
+    0.5768954821875,
+    0.5766292784837963,
+    0.16291400070601852,
+    0.16275196366898148,
+    0.16257835255787037,
+    0.16241631552083333,
+    0.1530528895949074
   ]
 }

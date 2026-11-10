@@ -1,21 +1,21 @@
 {
   "latest": [
     {
-      "number": 1125,
-      "title": "[WIP] Implement com.microsoft Attention for Whisper encoder generation",
+      "number": 1140,
+      "title": "Bump project version to 0.2.8",
       "user": "Copilot",
-      "created_at": "2026-11-07T18:32:47Z"
+      "created_at": "2026-11-10T12:41:03Z"
     }
   ],
   "oldest": [
     {
-      "number": 1125,
-      "title": "[WIP] Implement com.microsoft Attention for Whisper encoder generation",
+      "number": 1140,
+      "title": "Bump project version to 0.2.8",
       "user": "Copilot",
-      "created_at": "2026-11-07T18:32:47Z"
+      "created_at": "2026-11-10T12:41:03Z"
     }
   ],
   "ages_days": [
-    1.7874966615972223
+    0.013509894386574075
   ]
 }

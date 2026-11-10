@@ -677,3 +677,10 @@ pr_number,title,author,merged_at,commits,comments,copilot_comments,copilot_commi
 1123,Diagnose native installation conflicts overriding PYTHONPATH,Copilot,2026-11-07T22:22:06Z,4,5,2,4,0,0,0,0,0,0,0,0,148,3,4
 1122,Fix benchmark regex test compatibility with Python 3.12,Copilot,2026-11-07T21:26:08Z,2,1,0,2,0,0,0,0,0,0,0,0,1,1,1
 1113,perf: Reserve runtime-owned generic GEMM scratch before dispatch,Copilot,2026-11-07T18:29:56Z,12,17,10,7,8,0,0,0,8,0,5,0,1487,276,17
+1138,Update CHANGELOGS for 0.2.7,xadupre,2026-11-10T12:39:39Z,1,1,0,0,0,0,0,0,0,0,0,0,22,1,1
+1131,Align CPU Gemm with onnx-light’s opset-29 rank-N contract,Copilot,2026-11-10T12:39:22Z,4,4,1,2,1,0,0,0,1,0,1,0,259,18,5
+1129,Fix title underlines breaking strict documentation builds,Copilot,2026-11-10T12:30:25Z,8,7,3,4,0,0,0,0,0,0,0,0,3,3,3
+1137,Validate the latest onnx-light release in pull-request CI,xadupre,2026-11-10T12:04:06Z,2,1,0,0,0,0,0,0,0,0,0,0,156,12,4
+1135,Use portable relative paths in documentation,Copilot,2026-11-10T11:12:54Z,3,1,0,2,0,0,0,0,0,0,0,0,91,64,14
+1136,Fix Gemm-29 vector and batched inputs,xadupre,2026-11-10T10:18:24Z,2,4,1,0,1,0,0,0,1,0,1,0,572,50,4
+1125,[WIP] Implement com.microsoft Attention for Whisper encoder generation,Copilot,2026-11-09T13:53:55Z,10,53,42,7,42,0,0,0,42,0,24,0,2416,156,30
