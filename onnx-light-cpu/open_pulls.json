@@ -1,21 +1,5 @@
 {
-  "latest": [
-    {
-      "number": 1140,
-      "title": "Bump project version to 0.2.8",
-      "user": "Copilot",
-      "created_at": "2026-11-10T12:41:03Z"
-    }
-  ],
-  "oldest": [
-    {
-      "number": 1140,
-      "title": "Bump project version to 0.2.8",
-      "user": "Copilot",
-      "created_at": "2026-11-10T12:41:03Z"
-    }
-  ],
-  "ages_days": [
-    0.013509894386574075
-  ]
+  "latest": [],
+  "oldest": [],
+  "ages_days": []
 }

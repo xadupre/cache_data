@@ -198,3 +198,17 @@ pr_number,title,author,merged_at,commits,comments,copilot_comments,copilot_commi
 354,Move Patterns tab next to Tensors,Copilot,2026-11-10T11:03:31Z,3,2,1,3,0,0,0,0,0,0,0,0,5,9,4
 352,Distinguish compute-heavy and custom-domain operators,Copilot,2026-11-10T10:15:59Z,3,0,0,2,0,0,0,0,0,0,0,0,450,42,4
 356,Prefer relative paths in documentation,Copilot,2026-11-10T10:15:43Z,2,0,0,2,0,0,0,0,0,0,0,0,22,3,3
+379,Show model versions in Op and prefill version conversion inputs,xadupre,2026-11-11T11:02:19Z,2,0,0,0,0,0,0,0,0,0,0,0,252,40,16
+378,Model version conversion blocked by upstream SDK header,Copilot,2026-11-11T09:28:27Z,2,2,1,2,0,0,0,0,0,0,0,0,945,53,9
+376,Restore macOS Intel and Apple Silicon release packages,Copilot,2026-11-11T00:28:11Z,2,0,0,2,0,0,0,0,0,0,0,0,9,3,2
+374,Add visual separators to the Rewritings panel,Copilot,2026-11-10T23:02:36Z,2,0,0,2,0,0,0,0,0,0,0,0,65,0,2
+372,Document model partitioning with a Qwen3 screenshot,xadupre,2026-11-10T22:27:18Z,1,0,0,0,0,0,0,0,0,0,0,0,18,0,2
+371,Bump extension version to 0.3.0,Copilot,2026-11-10T22:19:34Z,2,0,0,2,0,0,0,0,0,0,0,0,5,5,4
+369,Compare models from Rewritings,xadupre,2026-11-10T22:05:28Z,2,0,0,0,0,0,0,0,0,0,0,0,1233,61,19
+368,Remove optional Python dependency from release native tests,Copilot,2026-11-10T21:40:27Z,2,0,0,2,0,0,0,0,0,0,0,0,18,10,1
+362,Bump ONNX Light Viewer to 0.2.8,Copilot,2026-11-10T20:39:58Z,4,4,2,4,0,0,0,0,0,0,0,0,5,5,4
+364,Refresh documentation screenshots and outdated UI instructions,Copilot,2026-11-10T20:13:37Z,2,0,0,2,0,0,0,0,0,0,0,0,35,23,26
+366,Align VS Code types with the supported engine to unblock releases,Copilot,2026-11-10T20:10:22Z,3,4,2,3,0,0,0,0,0,0,0,0,26,10,4
+360,Update changelog for 0.2.7,xadupre,2026-11-10T17:50:00Z,1,0,0,0,0,0,0,0,0,0,0,0,33,6,1
+359,Show original impact in rewriting steps,xadupre,2026-11-10T16:21:08Z,1,0,0,0,0,0,0,0,0,0,0,0,99,1,2
+358,"Use onnx-light 0.2.7 and onnx-light-cpu 0.2.7, bump version to 0.2.7",xadupre,2026-11-10T15:00:05Z,2,0,0,0,0,0,0,0,0,0,0,0,77,68,16

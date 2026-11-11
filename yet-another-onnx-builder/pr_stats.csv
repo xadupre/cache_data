@@ -307,3 +307,4 @@ pr_number,title,author,merged_at,commits,comments,copilot_comments,copilot_commi
 2451,[yobx/reference] Use ONNX Runtime-compatible opset in Tiny-LLM documentation example,Copilot,2026-11-06T13:38:34Z,4,6,2,4,0,0,0,0,0,0,0,0,82,33,6
 2458,Update lightgbm requirement from >=3.0 to >=4.7.0,dependabot[bot],2026-11-09T12:32:48Z,2,3,1,1,0,0,0,0,0,0,0,0,3,3,2
 2460,Fix TensorFlow gallery assertion for fused Dense operators,Copilot,2026-11-09T23:20:08Z,2,1,0,2,0,0,0,0,0,0,0,0,26,3,2
+2462,Require onnx-light 0.2.7 or newer,Copilot,2026-11-10T17:56:00Z,4,6,2,4,0,0,0,0,0,0,0,0,125,19,12

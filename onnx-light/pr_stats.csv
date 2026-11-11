@@ -2970,3 +2970,15 @@ pr_number,title,author,merged_at,commits,comments,copilot_comments,copilot_commi
 5856,Assess higher-rank MatMul + Add activation (A5 of #5552),xadupre,2026-11-09T16:51:49Z,3,2,1,1,0,0,0,0,0,0,0,0,341,0,3
 5831,Port Gemm-29 support for vector and higher-rank activations,Copilot,2026-11-09T14:20:35Z,12,23,15,7,13,0,0,0,13,0,6,7,1131,87,28
 5854,Fuse MatMul + BatchNormalization across safe shape chains,xadupre,2026-11-09T13:31:41Z,1,0,0,0,0,0,0,0,0,0,0,0,492,20,4
+5884,Support separate decode models in native PipelineProto generation,Copilot,2026-11-11T10:28:03Z,4,2,2,3,2,0,0,0,2,0,2,0,1021,55,13
+5888,Add four-layer Whisper backend shape-inference cases,Copilot,2026-11-11T10:27:29Z,2,0,0,2,0,0,0,0,0,0,0,0,373,0,4
+5885,Expose constant-input limits for graph partitioning,Copilot,2026-11-11T09:34:03Z,2,2,1,2,0,0,0,0,0,0,0,0,99,5,3
+5865,Correct captured-value rewrite ordering and semantic reference comparison,Copilot,2026-11-11T09:31:08Z,7,15,12,6,9,0,0,0,9,0,4,2,852,40,9
+5883,Report precise model diff incompatibilities,xadupre,2026-11-11T00:55:03Z,1,0,0,0,0,0,0,0,0,0,0,0,193,23,4
+5866,[WIP] Support native generation-only LM-head projection before token selection,Copilot,2026-11-10T23:08:26Z,6,5,4,5,3,0,0,0,3,0,2,0,1863,15,13
+5875,Port ONNX low-precision LogSoftmax and cross-entropy fixes,Copilot,2026-11-10T22:37:01Z,5,6,5,4,4,0,0,0,4,0,2,0,254,80,6
+5869,Port ONNX opset 29 int32 indices for GatherND and ScatterND,Copilot,2026-11-10T22:17:15Z,4,4,2,4,0,0,0,0,0,0,0,0,1007,176,24
+5867,Support pinned GPTQModel AWQ checkpoint layouts,Copilot,2026-11-10T17:22:16Z,3,4,4,2,4,0,0,0,4,0,4,0,1353,0,13
+5873,Port overflow-safe half-precision InstanceNormalization and LRN,Copilot,2026-11-10T15:08:12Z,3,0,0,2,0,0,0,0,0,0,0,0,211,42,7
+5871,docs(compose): document the merge_models producer_name default,Copilot,2026-11-10T15:07:05Z,2,0,0,2,0,0,0,0,0,0,0,0,1,0,1
+5877,Use relative links for local documentation and source files,Copilot,2026-11-10T15:01:42Z,4,6,3,4,0,0,0,0,0,0,0,0,87,14,8

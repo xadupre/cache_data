@@ -33,3 +33,8 @@ pr_number,title,author,merged_at,commits,comments,copilot_comments,copilot_commi
 59,Add explicit session controls and model picker,xadupre,2026-11-10T12:24:50Z,3,0,0,0,0,0,0,0,0,0,0,0,659,120,19
 54,Bump @github/copilot-sdk from 1.0.27 to 1.0.29,dependabot[bot],2026-11-10T09:21:19Z,1,0,0,0,0,0,0,0,0,0,0,0,194,119,2
 56,Bump playwright from 1.64.1 to 1.65.0,dependabot[bot],2026-11-10T09:21:03Z,1,0,0,0,0,0,0,0,0,0,0,0,9,9,2
+69,Add native ONNX Runtime GenAI worker for local chat inference,Copilot,2026-11-11T08:04:48Z,13,25,12,4,12,0,0,0,12,0,12,0,3407,122,35
+68,Add local model setup and preview controls,xadupre,2026-11-10T17:30:52Z,1,0,0,0,0,0,0,0,0,0,0,0,346,3,10
+62,Export sessions as JSON and show PostMortem progress,xadupre,2026-11-10T15:12:56Z,3,0,0,0,0,0,0,0,0,0,0,0,724,56,16
+58,Bump @types/vscode from 1.105.0 to 1.145.0,dependabot[bot],2026-11-10T15:06:13Z,3,3,1,2,0,0,0,0,0,0,0,0,9,8,2
+61,Add Resume session and New session buttons,xadupre,2026-11-10T15:02:53Z,1,0,0,0,0,0,0,0,0,0,0,0,286,34,12
