@@ -1,0 +1,32 @@
+{
+  "date": "2026-11-11",
+  "repository": "xadupre/onnx-light-cpu",
+  "observed": true,
+  "releases": {},
+  "assets": {
+    "613049251": {
+      "downloads": 2
+    },
+    "709131135": {
+      "downloads": 10
+    },
+    "709131175": {
+      "downloads": 3
+    },
+    "731453703": {
+      "downloads": 177
+    },
+    "731453708": {
+      "downloads": 37
+    },
+    "731465592": {
+      "downloads": 30
+    },
+    "731507120": {
+      "downloads": 29
+    }
+  },
+  "removed_assets": [],
+  "removed_releases": [],
+  "total": 7667
+}

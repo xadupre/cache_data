@@ -2,5 +2,9 @@
   "709475888": "onnx-light-viewer-win32-x64.vsix",
   "709475890": "onnx-light-viewer-linux-arm64.vsix",
   "709475892": "onnx-light-viewer-win32-arm64.vsix",
-  "709475894": "onnx-light-viewer-linux-x64.vsix"
+  "709475894": "onnx-light-viewer-linux-x64.vsix",
+  "733102405": "onnx-light-viewer-win32-x64.vsix",
+  "733102410": "onnx-light-viewer-linux-x64.vsix",
+  "733102417": "onnx-light-viewer-win32-arm64.vsix",
+  "733102418": "onnx-light-viewer-linux-arm64.vsix"
 }
