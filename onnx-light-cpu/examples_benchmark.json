@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-11T01:00:44Z",
+  "date": "2026-11-11T16:43:06Z",
   "examples": [
     {
       "backends": [
@@ -41205,75 +41205,6 @@
         "onnx_light_cpu",
         "onnxruntime"
       ],
-      "date": "2026-11-04T16:39:35Z",
-      "domain": "com.microsoft",
-      "machine": "Intel(R) Xeon(R) 6973P-C",
-      "name": "GroupQueryAttention_float32_benchmark",
-      "op": "GroupQueryAttention",
-      "rows": [
-        {
-          "input_elements": 4096,
-          "input_type": "float32",
-          "inputs": "float32[1x1x4096], float32[1x1x1024], float32[1x1x1024], float32[1x8x0x128], float32[1x8x0x128], int32[1], int32, float32[40960x64], float32[40960x64]",
-          "onnx_light_cpu_ms": 0.015239,
-          "onnxruntime_error": "load: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/graph/model_load_utils.h:46 void onnxruntime::model_load_utils::ValidateOpsetForDomain(const std::unordered_map<st ... NX Runtime wil\u2026",
-          "test_name": "test_cpu_group_query_attention_model_qwen3_8b_int4_mb_prefill_b1_s1_qh32_kvh8_hd128_pastlen0_causal_float32_benchmark"
-        },
-        {
-          "input_elements": 4096,
-          "input_type": "float32",
-          "inputs": "float32[1x1x4096], float32[1x1x1024], float32[1x1x1024], float32[1x8x1024x128], float32[1x8x1024x128], int32[1], int32, float32[40960x64], float32[40960x64]",
-          "onnx_light_cpu_ms": 1.197617,
-          "onnxruntime_error": "load: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/graph/model_load_utils.h:46 void onnxruntime::model_load_utils::ValidateOpsetForDomain(const std::unordered_map<st ... NX Runtime wil\u2026",
-          "test_name": "test_cpu_group_query_attention_model_qwen3_8b_int4_mb_decode_b1_s1_qh32_kvh8_hd128_pastlen1024_causal_float32_benchmark"
-        },
-        {
-          "input_elements": 4096,
-          "input_type": "float32",
-          "inputs": "float32[1x1x4096], float32[1x1x1024], float32[1x1x1024], float32[1x8x128x128], float32[1x8x128x128], int32[1], int32, float32[40960x64], float32[40960x64]",
-          "onnx_light_cpu_ms": 0.103493,
-          "onnxruntime_error": "load: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/graph/model_load_utils.h:46 void onnxruntime::model_load_utils::ValidateOpsetForDomain(const std::unordered_map<st ... NX Runtime wil\u2026",
-          "test_name": "test_cpu_group_query_attention_model_qwen3_8b_int4_mb_decode_b1_s1_qh32_kvh8_hd128_pastlen128_causal_float32_benchmark"
-        },
-        {
-          "input_elements": 4096,
-          "input_type": "float32",
-          "inputs": "float32[1x1x4096], float32[1x1x1024], float32[1x1x1024], float32[1x8x16x128], float32[1x8x16x128], int32[1], int32, float32[40960x64], float32[40960x64]",
-          "onnx_light_cpu_ms": 0.025252,
-          "onnxruntime_error": "load: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/graph/model_load_utils.h:46 void onnxruntime::model_load_utils::ValidateOpsetForDomain(const std::unordered_map<st ... NX Runtime wil\u2026",
-          "test_name": "test_cpu_group_query_attention_model_qwen3_8b_int4_mb_decode_b1_s1_qh32_kvh8_hd128_pastlen16_causal_float32_benchmark"
-        },
-        {
-          "input_elements": 65536,
-          "input_type": "float32",
-          "inputs": "float32[1x16x4096], float32[1x16x1024], float32[1x16x1024], float32[1x8x0x128], float32[1x8x0x128], int32[1], int32, float32[40960x64], float32[40960x64]",
-          "onnx_light_cpu_ms": 0.19576,
-          "onnxruntime_error": "load: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/graph/model_load_utils.h:46 void onnxruntime::model_load_utils::ValidateOpsetForDomain(const std::unordered_map<st ... NX Runtime wil\u2026",
-          "test_name": "test_cpu_group_query_attention_model_qwen3_8b_int4_mb_prefill_b1_s16_qh32_kvh8_hd128_pastlen0_causal_float32_benchmark"
-        },
-        {
-          "input_elements": 524288,
-          "input_type": "float32",
-          "inputs": "float32[1x128x4096], float32[1x128x1024], float32[1x128x1024], float32[1x8x0x128], float32[1x8x0x128], int32[1], int32, float32[40960x64], float32[40960x64]",
-          "onnx_light_cpu_ms": 2.068263,
-          "onnxruntime_error": "load: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/graph/model_load_utils.h:46 void onnxruntime::model_load_utils::ValidateOpsetForDomain(const std::unordered_map<st ... NX Runtime wil\u2026",
-          "test_name": "test_cpu_group_query_attention_model_qwen3_8b_int4_mb_prefill_b1_s128_qh32_kvh8_hd128_pastlen0_causal_float32_benchmark"
-        }
-      ],
-      "simd_level": 4,
-      "simd_name": "AVX-512",
-      "source": "6 onnx-light-cpu benchmark tests",
-      "summary": {
-        "cpu_succeeded": 0,
-        "inputs": 6
-      },
-      "title": "GroupQueryAttention (float32): onnxruntime vs onnx-light-cpu"
-    },
-    {
-      "backends": [
-        "onnx_light_cpu",
-        "onnxruntime"
-      ],
       "date": "2026-11-09T19:08:54Z",
       "domain": "com.microsoft",
       "machine": "Intel(R) Xeon(R) Platinum 8370C CPU @ 2.80GHz",
@@ -41317,6 +41248,75 @@
         "inputs": 3,
         "max_speedup_cpu": 1.0858,
         "min_speedup_cpu": 0.5977
+      },
+      "title": "GroupQueryAttention (float32): onnxruntime vs onnx-light-cpu"
+    },
+    {
+      "backends": [
+        "onnx_light_cpu",
+        "onnxruntime"
+      ],
+      "date": "2026-11-11T16:43:06Z",
+      "domain": "com.microsoft",
+      "machine": "AMD EPYC 9V45 96-Core Processor",
+      "name": "GroupQueryAttention_float32_benchmark",
+      "op": "GroupQueryAttention",
+      "rows": [
+        {
+          "input_elements": 4096,
+          "input_type": "float32",
+          "inputs": "float32[1x1x4096], float32[1x1x1024], float32[1x1x1024], float32[1x8x0x128], float32[1x8x0x128], int32[1], int32, float32[40960x64], float32[40960x64]",
+          "onnx_light_cpu_ms": 0.010803,
+          "onnxruntime_error": "load: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/graph/model_load_utils.h:46 void onnxruntime::model_load_utils::ValidateOpsetForDomain(const std::unordered_map<st ... NX Runtime wil\u2026",
+          "test_name": "test_cpu_group_query_attention_model_qwen3_8b_int4_mb_prefill_b1_s1_qh32_kvh8_hd128_pastlen0_causal_float32_benchmark"
+        },
+        {
+          "input_elements": 4096,
+          "input_type": "float32",
+          "inputs": "float32[1x1x4096], float32[1x1x1024], float32[1x1x1024], float32[1x8x1024x128], float32[1x8x1024x128], int32[1], int32, float32[40960x64], float32[40960x64]",
+          "onnx_light_cpu_ms": 0.369534,
+          "onnxruntime_error": "load: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/graph/model_load_utils.h:46 void onnxruntime::model_load_utils::ValidateOpsetForDomain(const std::unordered_map<st ... NX Runtime wil\u2026",
+          "test_name": "test_cpu_group_query_attention_model_qwen3_8b_int4_mb_decode_b1_s1_qh32_kvh8_hd128_pastlen1024_causal_float32_benchmark"
+        },
+        {
+          "input_elements": 4096,
+          "input_type": "float32",
+          "inputs": "float32[1x1x4096], float32[1x1x1024], float32[1x1x1024], float32[1x8x128x128], float32[1x8x128x128], int32[1], int32, float32[40960x64], float32[40960x64]",
+          "onnx_light_cpu_ms": 0.056142,
+          "onnxruntime_error": "load: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/graph/model_load_utils.h:46 void onnxruntime::model_load_utils::ValidateOpsetForDomain(const std::unordered_map<st ... NX Runtime wil\u2026",
+          "test_name": "test_cpu_group_query_attention_model_qwen3_8b_int4_mb_decode_b1_s1_qh32_kvh8_hd128_pastlen128_causal_float32_benchmark"
+        },
+        {
+          "input_elements": 4096,
+          "input_type": "float32",
+          "inputs": "float32[1x1x4096], float32[1x1x1024], float32[1x1x1024], float32[1x8x16x128], float32[1x8x16x128], int32[1], int32, float32[40960x64], float32[40960x64]",
+          "onnx_light_cpu_ms": 0.022198,
+          "onnxruntime_error": "load: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/graph/model_load_utils.h:46 void onnxruntime::model_load_utils::ValidateOpsetForDomain(const std::unordered_map<st ... NX Runtime wil\u2026",
+          "test_name": "test_cpu_group_query_attention_model_qwen3_8b_int4_mb_decode_b1_s1_qh32_kvh8_hd128_pastlen16_causal_float32_benchmark"
+        },
+        {
+          "input_elements": 65536,
+          "input_type": "float32",
+          "inputs": "float32[1x16x4096], float32[1x16x1024], float32[1x16x1024], float32[1x8x0x128], float32[1x8x0x128], int32[1], int32, float32[40960x64], float32[40960x64]",
+          "onnx_light_cpu_ms": 0.112829,
+          "onnxruntime_error": "load: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/graph/model_load_utils.h:46 void onnxruntime::model_load_utils::ValidateOpsetForDomain(const std::unordered_map<st ... NX Runtime wil\u2026",
+          "test_name": "test_cpu_group_query_attention_model_qwen3_8b_int4_mb_prefill_b1_s16_qh32_kvh8_hd128_pastlen0_causal_float32_benchmark"
+        },
+        {
+          "input_elements": 524288,
+          "input_type": "float32",
+          "inputs": "float32[1x128x4096], float32[1x128x1024], float32[1x128x1024], float32[1x8x0x128], float32[1x8x0x128], int32[1], int32, float32[40960x64], float32[40960x64]",
+          "onnx_light_cpu_ms": 1.053449,
+          "onnxruntime_error": "load: [ONNXRuntimeError] : 1 : FAIL : /onnxruntime_src/onnxruntime/core/graph/model_load_utils.h:46 void onnxruntime::model_load_utils::ValidateOpsetForDomain(const std::unordered_map<st ... NX Runtime wil\u2026",
+          "test_name": "test_cpu_group_query_attention_model_qwen3_8b_int4_mb_prefill_b1_s128_qh32_kvh8_hd128_pastlen0_causal_float32_benchmark"
+        }
+      ],
+      "simd_level": 4,
+      "simd_name": "AVX-512",
+      "source": "6 onnx-light-cpu benchmark tests",
+      "summary": {
+        "cpu_succeeded": 0,
+        "inputs": 6
       },
       "title": "GroupQueryAttention (float32): onnxruntime vs onnx-light-cpu"
     },
