@@ -1,0 +1,167 @@
+{
+  "date": "2026-11-12",
+  "repository": "microsoft/onnxruntime-genai",
+  "observed": true,
+  "releases": {},
+  "assets": {
+    "170984179": {
+      "downloads": 1
+    },
+    "175202130": {
+      "downloads": 2
+    },
+    "175202141": {
+      "downloads": 1
+    },
+    "229203640": {
+      "downloads": 5
+    },
+    "241635526": {
+      "downloads": 1
+    },
+    "259568243": {
+      "downloads": 1
+    },
+    "282893369": {
+      "downloads": 1
+    },
+    "302797519": {
+      "downloads": 3
+    },
+    "316223955": {
+      "downloads": 1
+    },
+    "316224203": {
+      "downloads": 1
+    },
+    "355461075": {
+      "downloads": 1
+    },
+    "355461126": {
+      "downloads": 15
+    },
+    "397232872": {
+      "downloads": 1
+    },
+    "397238445": {
+      "downloads": 3
+    },
+    "433227627": {
+      "downloads": 11
+    },
+    "433227654": {
+      "downloads": 1
+    },
+    "433227687": {
+      "downloads": 1
+    },
+    "433227691": {
+      "downloads": 1
+    },
+    "433227711": {
+      "downloads": 1
+    },
+    "433227731": {
+      "downloads": 1
+    },
+    "433227762": {
+      "downloads": 39
+    },
+    "433227783": {
+      "downloads": 1
+    },
+    "433227923": {
+      "downloads": 1
+    },
+    "433228010": {
+      "downloads": 2
+    },
+    "433228031": {
+      "downloads": 1
+    },
+    "504737777": {
+      "downloads": 180
+    },
+    "582120773": {
+      "downloads": 2
+    },
+    "594665033": {
+      "downloads": 5
+    },
+    "594665103": {
+      "downloads": 2
+    },
+    "594665162": {
+      "downloads": 1
+    },
+    "594665198": {
+      "downloads": 1
+    },
+    "594665277": {
+      "downloads": 17
+    },
+    "708381161": {
+      "downloads": 1
+    },
+    "708381362": {
+      "downloads": 1
+    },
+    "708381549": {
+      "downloads": 1
+    },
+    "708381623": {
+      "downloads": 1
+    },
+    "708390751": {
+      "downloads": 1
+    },
+    "708390788": {
+      "downloads": 2
+    },
+    "708390842": {
+      "downloads": 34
+    },
+    "708390876": {
+      "downloads": 30
+    },
+    "708390914": {
+      "downloads": 29
+    },
+    "708390939": {
+      "downloads": 3
+    },
+    "708390963": {
+      "downloads": 1
+    },
+    "708390984": {
+      "downloads": 1
+    },
+    "708391019": {
+      "downloads": 34
+    },
+    "708391055": {
+      "downloads": 26
+    },
+    "708391082": {
+      "downloads": 2
+    },
+    "708391123": {
+      "downloads": 9
+    },
+    "708391159": {
+      "downloads": 1
+    },
+    "708391182": {
+      "downloads": 3
+    },
+    "708391226": {
+      "downloads": 4
+    },
+    "708391323": {
+      "downloads": 3
+    }
+  },
+  "removed_assets": [],
+  "removed_releases": [],
+  "total": 35925
+}

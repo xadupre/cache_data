@@ -1,0 +1,14 @@
+{
+  "date": "2026-11-12",
+  "repository": "onnx/onnx",
+  "observed": true,
+  "releases": {},
+  "assets": {
+    "15176642": {
+      "downloads": 21
+    }
+  },
+  "removed_assets": [],
+  "removed_releases": [],
+  "total": 36242
+}
