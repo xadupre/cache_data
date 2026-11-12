@@ -1,5 +1,21 @@
 {
-  "latest": [],
-  "oldest": [],
-  "ages_days": []
+  "latest": [
+    {
+      "number": 387,
+      "title": "Enforce C++ formatting with a dedicated clang-format 18 CI job",
+      "user": "Copilot",
+      "created_at": "2026-11-12T12:57:26Z"
+    }
+  ],
+  "oldest": [
+    {
+      "number": 387,
+      "title": "Enforce C++ formatting with a dedicated clang-format 18 CI job",
+      "user": "Copilot",
+      "created_at": "2026-11-12T12:57:26Z"
+    }
+  ],
+  "ages_days": [
+    0.016432462488425927
+  ]
 }

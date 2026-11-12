@@ -308,3 +308,9 @@ pr_number,title,author,merged_at,commits,comments,copilot_comments,copilot_commi
 2458,Update lightgbm requirement from >=3.0 to >=4.7.0,dependabot[bot],2026-11-09T12:32:48Z,2,3,1,1,0,0,0,0,0,0,0,0,3,3,2
 2460,Fix TensorFlow gallery assertion for fused Dense operators,Copilot,2026-11-09T23:20:08Z,2,1,0,2,0,0,0,0,0,0,0,0,26,3,2
 2462,Require onnx-light 0.2.7 or newer,Copilot,2026-11-10T17:56:00Z,4,6,2,4,0,0,0,0,0,0,0,0,125,19,12
+2467,Update imbalanced-learn requirement from >=0.11 to >=0.14.2,dependabot[bot],2026-11-12T13:17:32Z,2,1,0,0,0,0,0,0,0,0,0,0,1,1,1
+2466,Show documented version and generation date on the documentation homepage,Copilot,2026-11-12T13:17:14Z,3,1,0,2,0,0,0,0,0,0,0,0,2,0,1
+2469,Update perpetual requirement from >=2.1.0 to >=2.3.0,dependabot[bot],2026-11-12T13:16:55Z,2,1,0,0,0,0,0,0,0,0,0,0,1,1,1
+2471,Update setuptools requirement from >=61 to >=84.2.1,dependabot[bot],2026-11-12T12:39:51Z,2,1,0,0,0,0,0,0,0,0,0,0,1,1,1
+2468,Update numpy requirement from >=2.2 to >=2.5.4,dependabot[bot],2026-11-12T12:39:33Z,1,0,0,0,0,0,0,0,0,0,0,0,1,1,1
+2464,Update ONNX Runtime compatibility to opset 26 and IR 13,Copilot,2026-11-12T10:18:20Z,3,6,2,3,0,0,0,0,0,0,0,0,84,17,11

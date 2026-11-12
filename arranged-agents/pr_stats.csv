@@ -38,3 +38,12 @@ pr_number,title,author,merged_at,commits,comments,copilot_comments,copilot_commi
 62,Export sessions as JSON and show PostMortem progress,xadupre,2026-11-10T15:12:56Z,3,0,0,0,0,0,0,0,0,0,0,0,724,56,16
 58,Bump @types/vscode from 1.105.0 to 1.145.0,dependabot[bot],2026-11-10T15:06:13Z,3,3,1,2,0,0,0,0,0,0,0,0,9,8,2
 61,Add Resume session and New session buttons,xadupre,2026-11-10T15:02:53Z,1,0,0,0,0,0,0,0,0,0,0,0,286,34,12
+79,Download local models from Foundry Local in the Settings panel,xadupre,2026-11-12T12:49:31Z,1,0,0,0,0,0,0,0,0,0,0,0,1394,5,11
+78,"Settings panel for Copilot model, local model and local device",xadupre,2026-11-12T12:16:33Z,2,0,0,0,0,0,0,0,0,0,0,0,795,259,15
+77,Read and comment on issues and pull requests in the main panel,xadupre,2026-11-12T10:47:21Z,6,0,0,0,0,0,0,0,0,0,0,0,1929,62,15
+75,Add cleanup and installation scripts,xadupre,2026-11-12T10:05:04Z,3,2,1,1,0,0,0,0,0,0,0,0,314,0,3
+76,Add an activity view for the 10 oldest open pull requests,xadupre,2026-11-12T09:43:56Z,1,0,0,0,0,0,0,0,0,0,0,0,274,15,7
+73,Show generation date beside documentation version,Copilot,2026-11-12T09:10:39Z,2,0,0,2,0,0,0,0,0,0,0,0,1,1,1
+74,Package local ONNX runtimes and preserve Copilot/local conversation identities,xadupre,2026-11-12T09:02:54Z,1,0,0,0,0,0,0,0,0,0,0,0,779,93,19
+71,Merge repository activity into the right sidebar,xadupre,2026-11-11T12:36:27Z,1,0,0,0,0,0,0,0,0,0,0,0,174,161,20
+70,Add permissioned tools to local model sessions,xadupre,2026-11-11T12:17:28Z,3,0,0,0,0,0,0,0,0,0,0,0,2171,57,20

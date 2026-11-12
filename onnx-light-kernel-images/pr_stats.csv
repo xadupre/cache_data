@@ -45,3 +45,5 @@ pr_number,title,author,merged_at,commits,comments,copilot_comments,copilot_commi
 91,Upgrade onnx-light to 0.2.3,Copilot,2026-10-30T17:21:20Z,2,1,0,2,0,0,0,0,0,0,0,0,31,31,11
 93,Align package and onnx-light dependency versions at 0.2.4,Copilot,2026-11-02T16:51:36Z,4,7,3,4,0,0,0,0,0,0,0,0,88,37,14
 95,Update onnx-light dependency to 0.2.5,Copilot,2026-11-03T19:15:02Z,4,5,2,4,0,0,0,0,0,0,0,0,248,57,16
+99,Fix weekly docs build selecting a reduced onnx-light runtime,Copilot,2026-11-12T10:07:50Z,2,5,2,2,0,0,0,0,0,0,0,0,49,6,3
+98,Show generation date alongside documentation version,Copilot,2026-11-12T09:16:25Z,2,1,0,2,0,0,0,0,0,0,0,0,31,0,2

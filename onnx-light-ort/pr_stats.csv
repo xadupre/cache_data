@@ -61,3 +61,4 @@ pr_number,title,author,merged_at,commits,comments,copilot_comments,copilot_commi
 102,"Update pydata-sphinx-theme requirement from <1,>=0.23.0 to >=0.24.0,<1 in /docs",dependabot[bot],2026-11-07T21:29:54Z,1,0,0,0,0,0,0,0,0,0,0,0,1,1,1
 100,"Update pydata-sphinx-theme requirement from <1,>=0.23.0 to >=0.24.0,<1",dependabot[bot],2026-11-07T21:29:00Z,1,0,0,0,0,0,0,0,0,0,0,0,1,1,1
 99,Bump coverage from 7.17.0 to 7.17.1,dependabot[bot],2026-11-07T21:28:40Z,1,0,0,0,0,0,0,0,0,0,0,0,1,1,1
+105,Show generation date on the documentation homepage,Copilot,2026-11-12T09:16:17Z,2,0,0,2,0,0,0,0,0,0,0,0,6,0,2
