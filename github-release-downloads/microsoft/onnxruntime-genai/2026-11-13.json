@@ -1,0 +1,113 @@
+{
+  "date": "2026-11-13",
+  "repository": "microsoft/onnxruntime-genai",
+  "observed": true,
+  "releases": {},
+  "assets": {
+    "302797533": {
+      "downloads": 1
+    },
+    "327717205": {
+      "downloads": 9
+    },
+    "355461126": {
+      "downloads": 15
+    },
+    "397238702": {
+      "downloads": 2
+    },
+    "433227627": {
+      "downloads": 14
+    },
+    "433227762": {
+      "downloads": 22
+    },
+    "433228031": {
+      "downloads": 1
+    },
+    "495585413": {
+      "downloads": 9
+    },
+    "582120872": {
+      "downloads": 1
+    },
+    "594665033": {
+      "downloads": 18
+    },
+    "594665103": {
+      "downloads": 3
+    },
+    "594665143": {
+      "downloads": 2
+    },
+    "594665180": {
+      "downloads": 2
+    },
+    "594665198": {
+      "downloads": 9
+    },
+    "594665277": {
+      "downloads": 12
+    },
+    "708374939": {
+      "downloads": 1
+    },
+    "708375047": {
+      "downloads": 1
+    },
+    "708375100": {
+      "downloads": 1
+    },
+    "708375152": {
+      "downloads": 1
+    },
+    "708375228": {
+      "downloads": 1
+    },
+    "708390751": {
+      "downloads": 2
+    },
+    "708390788": {
+      "downloads": 1
+    },
+    "708390842": {
+      "downloads": 14
+    },
+    "708390876": {
+      "downloads": 6
+    },
+    "708390914": {
+      "downloads": 4
+    },
+    "708390939": {
+      "downloads": 1
+    },
+    "708390984": {
+      "downloads": 1
+    },
+    "708391019": {
+      "downloads": 6
+    },
+    "708391055": {
+      "downloads": 6
+    },
+    "708391082": {
+      "downloads": 2
+    },
+    "708391123": {
+      "downloads": 12
+    },
+    "708391159": {
+      "downloads": 1
+    },
+    "708391226": {
+      "downloads": 1
+    },
+    "708391323": {
+      "downloads": 1
+    }
+  },
+  "removed_assets": [],
+  "removed_releases": [],
+  "total": 36108
+}

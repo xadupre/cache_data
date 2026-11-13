@@ -815,5 +815,15 @@
   "689827872": "onnxruntime-win-arm64-1.30.1.zip",
   "689827956": "onnxruntime-win-arm64x-1.30.1.zip",
   "689827999": "onnxruntime-win-x64-1.30.1.zip",
-  "689828141": "onnxruntime-win-x64-gpu_cuda12-1.30.1.zip"
+  "689828141": "onnxruntime-win-x64-gpu_cuda12-1.30.1.zip",
+  "743054724": "onnxruntime-win-x64-gpu_cuda12-1.32.0.zip",
+  "743055640": "onnxruntime-win-x64-1.32.0.zip",
+  "743055794": "onnxruntime-win-arm64x-1.32.0.zip",
+  "743056014": "onnxruntime-win-arm64-1.32.0.zip",
+  "743056151": "onnxruntime-osx-arm64-1.32.0.tgz",
+  "743056229": "onnxruntime-linux-x64-1.32.0.tgz",
+  "743056272": "onnxruntime-linux-aarch64-1.32.0.tgz",
+  "743056310": "onnxruntime-linux-x64-gpu_cuda12-1.32.0.tgz",
+  "743068853": "onnxruntime-win-x64-gpu_cuda13-1.32.0.zip",
+  "743069281": "onnxruntime-linux-x64-gpu_cuda13-1.32.0.tgz"
 }
