@@ -1,0 +1,24 @@
+{
+  "history": [
+    {
+      "date": "2026-11-13",
+      "stars": {
+        "ggml-org/llama.cpp": 134830,
+        "microsoft/onnxruntime": 22299,
+        "microsoft/onnxruntime-extensions": 482,
+        "microsoft/onnxruntime-genai": 1156,
+        "onnx/onnx": 21682,
+        "vllm-project/vllm": 96875,
+        "xadupre/devdash-agents": 0,
+        "xadupre/onnx-light": 5,
+        "xadupre/onnx-light-cpu": 4,
+        "xadupre/onnx-light-kernel-images": 0,
+        "xadupre/onnx-light-ort": 0,
+        "xadupre/onnx-light-viewer": 2,
+        "xadupre/yet-another-onnx-builder": 1,
+        "xadupre/yet-another-onnxruntime-extensions": 0
+      }
+    }
+  ],
+  "updated_at": "2026-11-13T14:56:59Z"
+}
