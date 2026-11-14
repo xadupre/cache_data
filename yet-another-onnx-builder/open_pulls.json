@@ -1,21 +1,5 @@
 {
-  "latest": [
-    {
-      "number": 2470,
-      "title": "Update transformers requirement from >=5.20.2 to >=5.22.2",
-      "user": "dependabot[bot]",
-      "created_at": "2026-11-11T23:18:26Z"
-    }
-  ],
-  "oldest": [
-    {
-      "number": 2470,
-      "title": "Update transformers requirement from >=5.20.2 to >=5.22.2",
-      "user": "dependabot[bot]",
-      "created_at": "2026-11-11T23:18:26Z"
-    }
-  ],
-  "ages_days": [
-    0.5852144089583333
-  ]
+  "latest": [],
+  "oldest": [],
+  "ages_days": []
 }

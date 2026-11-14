@@ -1,21 +1,21 @@
 {
   "latest": [
     {
-      "number": 387,
-      "title": "Enforce C++ formatting with a dedicated clang-format 18 CI job",
-      "user": "Copilot",
-      "created_at": "2026-11-12T12:57:26Z"
+      "number": 388,
+      "title": "Align opset and IR versions before model comparison",
+      "user": "xadupre",
+      "created_at": "2026-11-12T15:35:58Z"
     }
   ],
   "oldest": [
     {
-      "number": 387,
-      "title": "Enforce C++ formatting with a dedicated clang-format 18 CI job",
-      "user": "Copilot",
-      "created_at": "2026-11-12T12:57:26Z"
+      "number": 388,
+      "title": "Align opset and IR versions before model comparison",
+      "user": "xadupre",
+      "created_at": "2026-11-12T15:35:58Z"
     }
   ],
   "ages_days": [
-    0.016432462488425927
+    1.7406081853240742
   ]
 }

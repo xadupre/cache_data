@@ -314,3 +314,4 @@ pr_number,title,author,merged_at,commits,comments,copilot_comments,copilot_commi
 2471,Update setuptools requirement from >=61 to >=84.2.1,dependabot[bot],2026-11-12T12:39:51Z,2,1,0,0,0,0,0,0,0,0,0,0,1,1,1
 2468,Update numpy requirement from >=2.2 to >=2.5.4,dependabot[bot],2026-11-12T12:39:33Z,1,0,0,0,0,0,0,0,0,0,0,0,1,1,1
 2464,Update ONNX Runtime compatibility to opset 26 and IR 13,Copilot,2026-11-12T10:18:20Z,3,6,2,3,0,0,0,0,0,0,0,0,84,17,11
+2470,Update transformers requirement from >=5.20.2 to >=5.22.2,dependabot[bot],2026-11-12T14:10:19Z,3,3,1,1,0,0,0,0,0,0,0,0,2,2,2

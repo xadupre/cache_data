@@ -216,3 +216,7 @@ pr_number,title,author,merged_at,commits,comments,copilot_comments,copilot_commi
 383,Show documentation generation date alongside the version,Copilot,2026-11-12T09:19:16Z,2,0,0,2,0,0,0,0,0,0,0,0,6,1,3
 384,Add install and clean scripts,xadupre,2026-11-12T09:17:50Z,1,0,0,0,0,0,0,0,0,0,0,0,69,0,2
 381,Automatic diff version alignment blocked by SDK packaging,Copilot,2026-11-11T23:06:13Z,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+393,Bump jsdom from 30.1.3 to 31.0.0,dependabot[bot],2026-11-13T11:32:13Z,3,3,1,2,0,0,0,0,0,0,0,0,162,276,4
+392,Bump @types/vscode from 1.96.0 to 1.145.0,dependabot[bot],2026-11-13T08:44:21Z,2,2,1,1,0,0,0,0,0,0,0,0,7,8,3
+389,Keep omitted weights deferred during partitioning and optimization,xadupre,2026-11-12T20:31:00Z,2,9,7,1,6,0,0,0,6,0,3,0,0,0,0
+387,Enforce C++ formatting with a dedicated clang-format 18 CI job,Copilot,2026-11-12T14:00:23Z,2,0,0,2,0,0,0,0,0,0,0,0,24,3,2

@@ -1,0 +1,21 @@
+{
+  "latest": [
+    {
+      "number": 26,
+      "title": "Reconcile machine and worker editors after successful saves",
+      "user": "xadupre",
+      "created_at": "2026-11-14T00:12:21Z"
+    }
+  ],
+  "oldest": [
+    {
+      "number": 26,
+      "title": "Reconcile machine and worker editors after successful saves",
+      "user": "xadupre",
+      "created_at": "2026-11-14T00:12:21Z"
+    }
+  ],
+  "ages_days": [
+    0.38167314112268524
+  ]
+}

@@ -1,34 +1,60 @@
 {
   "latest": [
     {
-      "number": 5896,
-      "title": "Avoid GCC 14 array-bounds warnings in Whisper case generation",
-      "user": "Copilot",
-      "created_at": "2026-11-12T12:49:15Z"
+      "number": 5946,
+      "title": "Localize RepeatedLayer capture limits and expose exhaustion",
+      "user": "xadupre",
+      "created_at": "2026-11-13T23:26:44Z"
     },
     {
-      "number": 5892,
-      "title": "Support native GPTQModel bitsandbytes NF4, FP4 and INT8 checkpoints",
+      "number": 5945,
+      "title": "Support pinned GPTQModel ParoQuant checkpoints and reference execution",
+      "user": "xadupre",
+      "created_at": "2026-11-13T23:26:02Z"
+    },
+    {
+      "number": 5941,
+      "title": "Port ONNX DequantizePacked with native support for 27 GGUF profiles",
       "user": "Copilot",
-      "created_at": "2026-11-11T12:34:27Z"
+      "created_at": "2026-11-13T19:46:54Z"
+    },
+    {
+      "number": 5940,
+      "title": "Port ONNX opset 29 Expm1 with stable native execution",
+      "user": "Copilot",
+      "created_at": "2026-11-13T19:46:46Z"
     }
   ],
   "oldest": [
     {
-      "number": 5892,
-      "title": "Support native GPTQModel bitsandbytes NF4, FP4 and INT8 checkpoints",
+      "number": 5940,
+      "title": "Port ONNX opset 29 Expm1 with stable native execution",
       "user": "Copilot",
-      "created_at": "2026-11-11T12:34:27Z"
+      "created_at": "2026-11-13T19:46:46Z"
     },
     {
-      "number": 5896,
-      "title": "Avoid GCC 14 array-bounds warnings in Whisper case generation",
+      "number": 5941,
+      "title": "Port ONNX DequantizePacked with native support for 27 GGUF profiles",
       "user": "Copilot",
-      "created_at": "2026-11-12T12:49:15Z"
+      "created_at": "2026-11-13T19:46:54Z"
+    },
+    {
+      "number": 5945,
+      "title": "Support pinned GPTQModel ParoQuant checkpoints and reference execution",
+      "user": "xadupre",
+      "created_at": "2026-11-13T23:26:02Z"
+    },
+    {
+      "number": 5946,
+      "title": "Localize RepeatedLayer capture limits and expose exhaustion",
+      "user": "xadupre",
+      "created_at": "2026-11-13T23:26:44Z"
     }
   ],
   "ages_days": [
-    1.031895087928241,
-    0.021617310150462966
+    0.5661139886111111,
+    0.5660213960185185,
+    0.41384547009259254,
+    0.41335935898148146
   ]
 }
