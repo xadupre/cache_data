@@ -1,0 +1,35 @@
+{
+  "date": "2026-11-14",
+  "repository": "xadupre/onnx-light",
+  "observed": true,
+  "releases": {},
+  "assets": {
+    "493802796": {
+      "downloads": 1
+    },
+    "610767610": {
+      "downloads": 1
+    },
+    "610767611": {
+      "downloads": 2
+    },
+    "640048297": {
+      "downloads": 1
+    },
+    "640048298": {
+      "downloads": 2
+    },
+    "729602766": {
+      "downloads": 5
+    },
+    "729602767": {
+      "downloads": 111
+    },
+    "729602770": {
+      "downloads": 1
+    }
+  },
+  "removed_assets": [],
+  "removed_releases": [],
+  "total": 23225
+}

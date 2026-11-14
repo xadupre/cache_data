@@ -1,10 +1,10 @@
 {
   "format": "daily-delta-v1",
-  "updated_at": "2026-11-13T14:58:50Z",
+  "updated_at": "2026-11-14T13:50:33Z",
   "repositories": [
     {
       "repository": "ggml-org/llama.cpp",
-      "total": 21999204,
+      "total": 22187584,
       "directory": "ggml-org/llama.cpp",
       "dates": [
         "2026-10-22",
@@ -29,12 +29,13 @@
         "2026-11-10",
         "2026-11-11",
         "2026-11-12",
-        "2026-11-13"
+        "2026-11-13",
+        "2026-11-14"
       ]
     },
     {
       "repository": "microsoft/onnxruntime",
-      "total": 27739722,
+      "total": 27834878,
       "directory": "microsoft/onnxruntime",
       "dates": [
         "2026-10-22",
@@ -59,7 +60,8 @@
         "2026-11-10",
         "2026-11-11",
         "2026-11-12",
-        "2026-11-13"
+        "2026-11-13",
+        "2026-11-14"
       ]
     },
     {
@@ -89,12 +91,13 @@
         "2026-11-10",
         "2026-11-11",
         "2026-11-12",
-        "2026-11-13"
+        "2026-11-13",
+        "2026-11-14"
       ]
     },
     {
       "repository": "microsoft/onnxruntime-genai",
-      "total": 36108,
+      "total": 36306,
       "directory": "microsoft/onnxruntime-genai",
       "dates": [
         "2026-10-22",
@@ -119,12 +122,13 @@
         "2026-11-10",
         "2026-11-11",
         "2026-11-12",
-        "2026-11-13"
+        "2026-11-13",
+        "2026-11-14"
       ]
     },
     {
       "repository": "onnx/onnx",
-      "total": 36274,
+      "total": 36290,
       "directory": "onnx/onnx",
       "dates": [
         "2026-10-22",
@@ -149,12 +153,13 @@
         "2026-11-10",
         "2026-11-11",
         "2026-11-12",
-        "2026-11-13"
+        "2026-11-13",
+        "2026-11-14"
       ]
     },
     {
       "repository": "vllm-project/vllm",
-      "total": 5259881,
+      "total": 5288775,
       "directory": "vllm-project/vllm",
       "dates": [
         "2026-10-22",
@@ -179,7 +184,8 @@
         "2026-11-10",
         "2026-11-11",
         "2026-11-12",
-        "2026-11-13"
+        "2026-11-13",
+        "2026-11-14"
       ]
     },
     {
@@ -187,12 +193,13 @@
       "total": 0,
       "directory": "xadupre/devdash-agents",
       "dates": [
-        "2026-11-13"
+        "2026-11-13",
+        "2026-11-14"
       ]
     },
     {
       "repository": "xadupre/onnx-light",
-      "total": 23101,
+      "total": 23225,
       "directory": "xadupre/onnx-light",
       "dates": [
         "2026-10-22",
@@ -217,12 +224,13 @@
         "2026-11-10",
         "2026-11-11",
         "2026-11-12",
-        "2026-11-13"
+        "2026-11-13",
+        "2026-11-14"
       ]
     },
     {
       "repository": "xadupre/onnx-light-cpu",
-      "total": 8074,
+      "total": 8184,
       "directory": "xadupre/onnx-light-cpu",
       "dates": [
         "2026-10-22",
@@ -247,7 +255,8 @@
         "2026-11-10",
         "2026-11-11",
         "2026-11-12",
-        "2026-11-13"
+        "2026-11-13",
+        "2026-11-14"
       ]
     },
     {
@@ -277,7 +286,8 @@
         "2026-11-10",
         "2026-11-11",
         "2026-11-12",
-        "2026-11-13"
+        "2026-11-13",
+        "2026-11-14"
       ]
     },
     {
@@ -307,7 +317,8 @@
         "2026-11-10",
         "2026-11-11",
         "2026-11-12",
-        "2026-11-13"
+        "2026-11-13",
+        "2026-11-14"
       ]
     },
     {
@@ -337,12 +348,13 @@
         "2026-11-10",
         "2026-11-11",
         "2026-11-12",
-        "2026-11-13"
+        "2026-11-13",
+        "2026-11-14"
       ]
     },
     {
       "repository": "xadupre/yet-another-onnx-builder",
-      "total": 0,
+      "total": 1,
       "directory": "xadupre/yet-another-onnx-builder",
       "dates": [
         "2026-10-22",
@@ -367,7 +379,8 @@
         "2026-11-10",
         "2026-11-11",
         "2026-11-12",
-        "2026-11-13"
+        "2026-11-13",
+        "2026-11-14"
       ]
     },
     {
@@ -397,7 +410,8 @@
         "2026-11-10",
         "2026-11-11",
         "2026-11-12",
-        "2026-11-13"
+        "2026-11-13",
+        "2026-11-14"
       ]
     }
   ],
@@ -837,6 +851,25 @@
         "xadupre/onnx-light-ort": 0,
         "xadupre/onnx-light-viewer": 7,
         "xadupre/yet-another-onnx-builder": 0,
+        "xadupre/yet-another-onnxruntime-extensions": 0
+      }
+    },
+    {
+      "date": "2026-11-14",
+      "totals": {
+        "ggml-org/llama.cpp": 22187584,
+        "microsoft/onnxruntime": 27834878,
+        "microsoft/onnxruntime-extensions": 0,
+        "microsoft/onnxruntime-genai": 36306,
+        "onnx/onnx": 36290,
+        "vllm-project/vllm": 5288775,
+        "xadupre/devdash-agents": 0,
+        "xadupre/onnx-light": 23225,
+        "xadupre/onnx-light-cpu": 8184,
+        "xadupre/onnx-light-kernel-images": 0,
+        "xadupre/onnx-light-ort": 0,
+        "xadupre/onnx-light-viewer": 7,
+        "xadupre/yet-another-onnx-builder": 1,
         "xadupre/yet-another-onnxruntime-extensions": 0
       }
     }

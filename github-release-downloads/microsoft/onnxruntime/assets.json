@@ -825,5 +825,11 @@
   "743056272": "onnxruntime-linux-aarch64-1.32.0.tgz",
   "743056310": "onnxruntime-linux-x64-gpu_cuda12-1.32.0.tgz",
   "743068853": "onnxruntime-win-x64-gpu_cuda13-1.32.0.zip",
-  "743069281": "onnxruntime-linux-x64-gpu_cuda13-1.32.0.tgz"
+  "743069281": "onnxruntime-linux-x64-gpu_cuda13-1.32.0.tgz",
+  "746560909": "cuda_ep_cuda12_0.4.0_linux-x64.tar.gz",
+  "746561364": "cuda_ep_cuda12_0.4.0_win-x64.zip",
+  "746561755": "cuda_ep_cuda13_0.4.0_linux-x64.tar.gz",
+  "746561952": "cuda_ep_cuda13_0.4.0_linux-aarch64.tar.gz",
+  "746562238": "cuda_ep_cuda13_0.4.0_win-x64.zip",
+  "746562508": "cuda_ep_cuda13_0.4.0_win-arm64.zip"
 }
