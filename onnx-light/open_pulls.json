@@ -1,60 +1,86 @@
 {
   "latest": [
     {
-      "number": 5946,
-      "title": "Localize RepeatedLayer capture limits and expose exhaustion",
+      "number": 5956,
+      "title": "[WIP] Propagate changes from pull request 8410",
       "user": "xadupre",
-      "created_at": "2026-11-13T23:26:44Z"
+      "created_at": "2026-11-14T11:12:40Z"
     },
     {
-      "number": 5945,
-      "title": "Support pinned GPTQModel ParoQuant checkpoints and reference execution",
+      "number": 5955,
+      "title": "[WIP] Propagate changes from PR 8774",
       "user": "xadupre",
-      "created_at": "2026-11-13T23:26:02Z"
+      "created_at": "2026-11-14T11:12:33Z"
     },
     {
-      "number": 5941,
-      "title": "Port ONNX DequantizePacked with native support for 27 GGUF profiles",
-      "user": "Copilot",
-      "created_at": "2026-11-13T19:46:54Z"
+      "number": 5954,
+      "title": "Fix ReduceMean nodiscard warnings on Windows ARM64",
+      "user": "xadupre",
+      "created_at": "2026-11-14T11:12:16Z"
     },
     {
-      "number": 5940,
-      "title": "Port ONNX opset 29 Expm1 with stable native execution",
-      "user": "Copilot",
-      "created_at": "2026-11-13T19:46:46Z"
+      "number": 5953,
+      "title": "Fix macOS universal2 builds blocked by floating-point from_chars",
+      "user": "xadupre",
+      "created_at": "2026-11-14T11:12:09Z"
+    },
+    {
+      "number": 5952,
+      "title": "Find repeated layers after nodes with unresolved attributes",
+      "user": "xadupre",
+      "created_at": "2026-11-14T10:19:17Z"
+    },
+    {
+      "number": 5950,
+      "title": "[WIP] Fix matmul reshape fusion for low-rank output shapes",
+      "user": "xadupre",
+      "created_at": "2026-11-14T09:54:42Z"
     }
   ],
   "oldest": [
     {
-      "number": 5940,
-      "title": "Port ONNX opset 29 Expm1 with stable native execution",
-      "user": "Copilot",
-      "created_at": "2026-11-13T19:46:46Z"
-    },
-    {
-      "number": 5941,
-      "title": "Port ONNX DequantizePacked with native support for 27 GGUF profiles",
-      "user": "Copilot",
-      "created_at": "2026-11-13T19:46:54Z"
-    },
-    {
-      "number": 5945,
-      "title": "Support pinned GPTQModel ParoQuant checkpoints and reference execution",
+      "number": 5950,
+      "title": "[WIP] Fix matmul reshape fusion for low-rank output shapes",
       "user": "xadupre",
-      "created_at": "2026-11-13T23:26:02Z"
+      "created_at": "2026-11-14T09:54:42Z"
     },
     {
-      "number": 5946,
-      "title": "Localize RepeatedLayer capture limits and expose exhaustion",
+      "number": 5952,
+      "title": "Find repeated layers after nodes with unresolved attributes",
       "user": "xadupre",
-      "created_at": "2026-11-13T23:26:44Z"
+      "created_at": "2026-11-14T10:19:17Z"
+    },
+    {
+      "number": 5953,
+      "title": "Fix macOS universal2 builds blocked by floating-point from_chars",
+      "user": "xadupre",
+      "created_at": "2026-11-14T11:12:09Z"
+    },
+    {
+      "number": 5954,
+      "title": "Fix ReduceMean nodiscard warnings on Windows ARM64",
+      "user": "xadupre",
+      "created_at": "2026-11-14T11:12:16Z"
+    },
+    {
+      "number": 5955,
+      "title": "[WIP] Propagate changes from PR 8774",
+      "user": "xadupre",
+      "created_at": "2026-11-14T11:12:33Z"
+    },
+    {
+      "number": 5956,
+      "title": "[WIP] Propagate changes from pull request 8410",
+      "user": "xadupre",
+      "created_at": "2026-11-14T11:12:40Z"
     }
   ],
   "ages_days": [
-    0.5661139886111111,
-    0.5660213960185185,
-    0.41384547009259254,
-    0.41335935898148146
+    0.0796345988888889,
+    0.06256283962962964,
+    0.025849876666666667,
+    0.02576885814814815,
+    0.02557209888888889,
+    0.025491080370370373
   ]
 }

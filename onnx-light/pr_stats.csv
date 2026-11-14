@@ -3006,3 +3006,7 @@ pr_number,title,author,merged_at,commits,comments,copilot_comments,copilot_commi
 5902,Keep constant weight preparation outside repeated layer bodies,xadupre,2026-11-12T18:45:37Z,1,0,0,0,0,0,0,0,0,0,0,0,93,18,3
 5892,"Support native GPTQModel bitsandbytes NF4, FP4 and INT8 checkpoints",Copilot,2026-11-12T15:20:13Z,8,3,2,1,2,0,0,0,2,0,2,0,1900,1,17
 5896,Avoid GCC 14 array-bounds warnings in Whisper case generation,Copilot,2026-11-12T15:09:47Z,2,0,0,2,0,0,0,0,0,0,0,0,14,3,2
+5941,Port ONNX DequantizePacked with native support for 27 GGUF profiles,Copilot,2026-11-14T11:10:50Z,7,4,3,4,2,0,0,0,2,0,1,0,1816,219,34
+5949,Document pinned GPTQModel checkpoint compatibility,xadupre,2026-11-14T11:10:34Z,2,0,0,0,0,0,0,0,0,0,0,0,264,0,5
+5946,Localize RepeatedLayer capture limits and expose exhaustion,xadupre,2026-11-14T10:18:24Z,3,1,1,0,1,0,0,0,1,0,1,0,214,10,7
+5945,Support pinned GPTQModel ParoQuant checkpoints and reference execution,xadupre,2026-11-14T09:23:21Z,2,0,0,0,0,0,0,0,0,0,0,0,1465,0,11
